@@ -108,7 +108,8 @@ function planZeile(z, k, extra) {
 }
 
 function station(s, k) {
-  var vor = s.zwischenstopp ? '<b>' + s.zwischenstopp.text + '</b> (' + datum(s.zwischenstopp.datum) + ', 1 Nacht). ' : '';
+  var z = s.zwischenstopp, zn = z && z.naechte || 1;
+  var vor = z ? '<b>' + z.text + '</b> (' + datum(z.datum) + ', ' + naechte(zn) + '). ' : '';
   return '<div class="leg"><span class="ic" aria-hidden="true">' + icon(s.anreise) + '</span><p><b>Anreise:</b> ' + vor + s.anreise + '</p></div>' +
     '<article class="stop" id="' + k + '-s' + s.nr + '"><span class="num">' + s.nr + '</span>\n' +
     '<div class="shead"><h3>' + s.name + '</h3><span class="tag ' + s.land + '">' + s.region + '</span><p class="when">' + datum(s.datum) + ', <b>' + datenImText(s.naechte) + '</b></p></div>\n' +
@@ -148,9 +149,23 @@ function karte(K, name) {
     liste(K.karten.slice(1), function (x) { return '<p class="mapnote">' + x.titel + '</p>' + obj(x); });
 }
 
-function reise(k, R) {
+// Varianten einer Reise (z.B. umgekehrte Reihenfolge): Reisen mit alternativeZu erscheinen nicht im Menü,
+// sondern als Umschalter auf der Seite der Hauptreise und ihrer Alternativen.
+function gruppe(k, alle) {
+  var g = alle[k].alternativeZu || k;
+  return Object.keys(alle).filter(function (x) { return x === g || alle[x].alternativeZu === g; });
+}
+function varianten(k, alle) {
+  var ks = gruppe(k, alle);
+  if (ks.length < 2) return '';
+  return '<p class="var" role="group" aria-label="Variante"><span>Reihenfolge:</span>' + liste(ks, function (x) {
+    return '<a href="#' + x + '"' + (x === k ? ' class="on" aria-current="true"' : '') + '>' + alle[x].variante + '</a>';
+  }) + '</p>';
+}
+
+function reise(k, R, alle) {
   var p = k + '-';
-  var hero = '<header class="hero">' + titelbild(R.titelbild) + '<div class="wrap"><p class="when">' + R.zeitraum + '</p><h1>' + R.titel + '</h1><p class="sub">' + R.untertitel + '</p>' +
+  var hero = '<header class="hero">' + titelbild(R.titelbild) + '<div class="wrap"><p class="when">' + R.zeitraum + '</p><h1>' + R.titel + '</h1><p class="sub">' + R.untertitel + '</p>' + (alle ? varianten(k, alle) : '') +
     '<ol class="chain">' + liste(R.stationen, function (s) { return '<li><a href="#' + p + 's' + s.nr + '">' + esc(kurzname(s.name)) + '</a></li>'; }) + '</ol></div></header>';
   var plan = planZeile(R.hinflug, k, true) + liste(R.plan, function (z) { return planZeile(z, k); }) + planZeile(R.rueckflug, k, true);
   return '<div class="trip" id="trip-' + k + '" hidden>\n' + hero + '\n' +
@@ -268,7 +283,7 @@ function quellen(Q) {
 // Seite zusammensetzen (auch von tools/pruefen.js genutzt, deshalb ohne DOM)
 function seite(S, REISEN, Q) {
   var h = einstieg(S, REISEN);
-  Object.keys(REISEN).forEach(function (k) { h += '\n' + reise(k, REISEN[k]); });
+  Object.keys(REISEN).forEach(function (k) { h += '\n' + reise(k, REISEN[k], REISEN); });
   if (Q) h += '\n' + quellen(Q);
   return h;
 }
@@ -277,7 +292,7 @@ if (typeof document === 'undefined') { module.exports = { seite: seite, reise: r
 
 var inhalt = document.getElementById('inhalt');
 inhalt.innerHTML = seite(window.START, window.REISEN, window.QUELLEN);
-document.getElementById('menu').insertAdjacentHTML('beforeend', liste(Object.keys(window.REISEN), function (k) {
+document.getElementById('menu').insertAdjacentHTML('beforeend', liste(Object.keys(window.REISEN).filter(function (k) { return !window.REISEN[k].alternativeZu; }), function (k) {
   return '<a href="#' + k + '" data-trip="' + k + '">' + window.REISEN[k].menu + '</a>';
 }) + (window.QUELLEN ? '<a class="neben" href="#quellen" data-trip="quellen">Quellen</a>' : ''));
 
@@ -399,7 +414,8 @@ function ladeBilder(root) {
 var trips = ['start'].concat(Object.keys(window.REISEN), window.QUELLEN ? ['quellen'] : []);
 function show(k) {
   trips.forEach(function (t) { document.getElementById('trip-' + t).hidden = (t !== k); });
-  [].slice.call(document.querySelectorAll('.gnav a[data-trip]')).forEach(function (a) { a.classList.toggle('on', a.dataset.trip === k); });
+  var haupt = window.REISEN[k] && window.REISEN[k].alternativeZu || k;
+  [].slice.call(document.querySelectorAll('.gnav a[data-trip]')).forEach(function (a) { a.classList.toggle('on', a.dataset.trip === haupt); });
   var name = k === 'quellen' ? window.QUELLEN.titel : k !== 'start' && window.REISEN[k].menu;
   document.title = name ? 'Familienreise 2027 · ' + name : 'Familienreise 2027';
   ladeBilder(document.getElementById('trip-' + k));

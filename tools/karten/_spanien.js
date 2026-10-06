@@ -11,7 +11,8 @@ const orte = {
   PO: [41.15, -8.61], BG: [41.55, -8.42], VL: [42.03, -8.64], LU: [43.01, -7.56], RI: [43.536, -7.04],
   OV: [43.36, -5.85], SA: [43.46, -3.80], BI: [43.263, -2.935], VI: [42.85, -2.67], LG: [42.465, -2.445],
   BA: [42.13, -1.55], ZA: [41.65, -0.88], LL: [41.617, 0.62], MR: [41.73, 1.83], VC: [41.93, 2.25],
-  CA: [43.213, 2.353], BE: [38.54, -0.13]
+  CA: [43.213, 2.353], BE: [38.54, -0.13], VAL: [39.47, -0.376], AVI: [43.95, 4.81], TER: [40.34, -1.11],
+  DA: [41.11, -1.41], SAG: [39.68, -0.27], CS: [39.99, -0.05], TA: [41.12, 1.25]
 };
 const wege = [
   ['car', 'Brig-Glis – Genf – Lyon – Montpellier – Sète', ['BR', 'MA', [46.38, 6.85], [46.45, 6.55], 'GE', [46.0, 5.8], [45.95, 5.35], 'LY', 'VA', 'OR', 'NI', 'MP', 'SE']],
@@ -39,4 +40,26 @@ const stationen = [
   [1, 'ES', 'r'], [2, 'BC', 'l'], [3, 'MAL', 'r'], [4, 'IB', 'u'], [5, 'BE', 'r'], [6, 'SJ', 'r'], [7, 'GR', 'u'],
   [8, 'EC', 'd'], [9, 'SV', 'u'], [10, 'LI', 'l'], [11, 'PO', 'l'], [12, 'RI', 'u'], [13, 'BA', 'r']
 ];
-module.exports = { orte, wege, stationen };
+// Umgekehrte Reihenfolge (data/spanien2.js): zuerst Andalusien, zum Schluss die Inseln
+const BRIG_GENF = ['BR', 'MA', [46.38, 6.85], [46.45, 6.55], 'GE', [46.0, 5.8], [45.95, 5.35], 'LY'];
+const wege2 = [
+  ['car', 'Brig-Glis – Genf – Lyon – Montpellier – Sète', BRIG_GENF.concat(['VA', 'OR', 'NI', 'MP', 'SE'])],
+  ['car', 'Sète – Perpignan – Barcelona – Valencia', ['SE', 'NB', 'PP', 'FIG', 'GI', [41.55, 2.10], 'TA', [40.8, 0.7], 'CS', 'SAG', 'VAL']],
+  ['car', 'Valencia – Alicante – Murcia – Cabo de Gata', ['VAL', [39.0, -0.2], [38.75, -0.05], 'BE', 'AL', 'MU', 'LO', [37.2, -2.0], 'SJ']]
+].concat(wege.filter(w => /^(Cabo de Gata –|Granada –|El Chorro –|Sevilla –|Lissabon –|Porto –|Ribadeo –|Bilbao –)/.test(w[1])), [
+  ['car', 'Bardenas – Saragossa – Teruel – Valencia – Benidorm', ['BA', 'ZA', 'DA', 'TER', 'SAG', 'VAL', [39.0, -0.2], [38.75, -0.05], 'BE']],
+  ['car', 'Benidorm – Dénia', ['BE', [38.75, -0.05], 'DE']],
+  ['ferry', 'Dénia – Ibiza (Autofähre)', ['DE', [38.9, 0.8], 'IB']],
+  ['ferry', 'Ibiza – Formentera (Schnellfähre, Tagesausflug)', ['IB', 'FO']],
+  ['ferry', 'Ibiza – Palma (Autofähre)', ['IB', [39.2, 2.0], 'PA']],
+  ['car', 'Mallorca', ['PA', 'MAL']],
+  ['ferry', 'Palma – Barcelona (Autofähre)', ['PA', [40.6, 2.45], 'BC']],
+  ['car', 'Barcelona – Costa Brava', ['BC', [41.70, 2.60], 'GI', [42.0, 3.0], 'ES']],
+  ['car', 'Costa Brava – Perpignan – Montpellier – Avignon', ['ES', [42.10, 3.05], 'FIG', 'PP', 'NB', 'MP', 'NI', 'AVI']],
+  ['car', 'Avignon – Lyon – Genf – Brig-Glis', ['AVI', 'OR', 'VA'].concat(BRIG_GENF.slice().reverse())]
+]);
+const stationen2 = [
+  [1, 'SJ', 'r'], [2, 'GR', 'u'], [3, 'EC', 'd'], [4, 'SV', 'u'], [5, 'LI', 'l'], [6, 'PO', 'l'], [7, 'RI', 'u'],
+  [8, 'BA', 'r'], [9, 'BE', 'r'], [10, 'IB', 'u'], [11, 'MAL', 'r'], [12, 'BC', 'l'], [13, 'ES', 'r']
+];
+module.exports = { orte, wege, stationen, wege2, stationen2 };

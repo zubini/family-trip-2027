@@ -17,7 +17,7 @@ window.START = {
       name: "Spanien / Portugal",
       zusatz: "Roadtrip ab Brig-Glis",
       passt: "ihr ohne Flug und Jetlag reisen, Städte, Kultur und Strände verbinden und die langen Autofahrten in Kauf nehmen möchtet.",
-      kurz: "Fünf Wochen mit dem eigenen Auto über die Costa Brava, Barcelona, die Balearen und Benidorm nach Andalusien, Portugal und in den Norden Spaniens.",
+      kurz: "Fünf Wochen mit dem eigenen Auto über die Costa Brava, Barcelona, die Balearen und Benidorm nach Andalusien, Portugal und in den Norden Spaniens. Auf der Reiseseite auch in umgekehrter Reihenfolge (Andalusien zuerst).",
       route: "Brig-Glis, Sète, Costa Brava, Barcelona, Mallorca, Ibiza und Formentera, Benidorm, Cabo de Gata, Granada, Caminito del Rey, Sevilla, Lissabon, Porto, Playa de las Catedrales, Bilbao, Bardenas Reales, Carcassonne, Brig-Glis",
       stationen: "13 Stationen und 3 Zwischenübernachtungen",
       laender: "Frankreich, Spanien, Portugal",

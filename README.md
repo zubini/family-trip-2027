@@ -20,6 +20,7 @@ index.html        Seitengerüst
 data/             die Inhalte, hier wird fast alles geändert
   start.js        Einstiegsseite: Texte, Bewertung, Pro und Contra
   spanien.js      Spanien / Portugal (mit dem eigenen Auto ab Brig-Glis)
+  spanien2.js     dieselbe Reise in umgekehrter Reihenfolge (Variante)
   usa.js          USA (Las Vegas–New York)
   asien.js        Malaysia / Thailand (Singapur–Bangkok)
   bali.js         Malaysia / Indonesien (Singapur–Bali)
@@ -63,6 +64,7 @@ Jede Reise in `data/` enthält der Reihe nach:
 - **Bilder:** Jedes Bild hat einen `titel` (Bildunterschrift) und entweder eine feste `datei` auf Wikimedia Commons oder `suche` (Suchbegriffe, mit `|` getrennt) und `stichwort` (muss im Dateinamen vorkommen). Gesuchte Bilder werden beim Öffnen der Seite automatisch gefunden.
 - **Ersatzbilder:** Findet die Seite zu einem Motiv kein Bild, sucht sie ein anderes Bild der Station (über den Stationsnamen). Heisst der Ort auf Englisch anders, `ersatzsuche` setzen (z.B. `"Lisbon"`).
 - **Quellen:** Neue Belege in `data/quellen.js` als `["Beschreibung", "https://…"]` in die passende Gruppe eintragen.
+- **Varianten:** Eine Reise kann eine Alternative haben, z.B. `data/spanien2.js` (umgekehrte Reihenfolge). Die Alternative bekommt `alternativeZu: "spanien"` und beide ein `variante` (Text im Umschalter). Sie erscheint nicht im Menü und nicht auf der Einstiegsseite, sondern als Umschalter oben auf der Reiseseite. Eigene Karten unter `tools/karten/` anlegen.
 - **Reihenfolge:** Die Navigation folgt der Reihenfolge der Skripte in `index.html`, die Spalten der Einstiegsseite der Reihenfolge in `data/start.js`.
 - **Texte** dürfen einfaches HTML enthalten (`<b>`, `<strong>`).
 - **Symbol der Anreise** (Bus, Zug, Schiff, Flug, Auto) wird am Anfang des Anreise-Textes erkannt (z.B. «Mit dem Auto…», «Autofähre…», «Zug…»).

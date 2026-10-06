@@ -8,6 +8,12 @@
 .hero p.when { margin: 0 0 10px; font-size: 1rem; opacity: .9; }
 .hero h1 { font-size: clamp(2.6rem, 7vw, 5.2rem); font-weight: 800; letter-spacing: -.02em; max-width: 16ch; }
 .hero p.sub { font-size: 1.15rem; max-width: 46ch; margin: 16px 0 28px; opacity: .95; }
+/* Umschalter zwischen Varianten einer Reise (z.B. umgekehrte Reihenfolge) */
+.var { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin: -12px 0 24px; }
+.var span { font-size: .9rem; font-weight: 600; opacity: .9; margin-right: 4px; }
+.var a { color: #fff; text-decoration: none; font-weight: 700; font-size: .95rem; padding: 7px 14px; border-radius: 999px; border: 1px solid rgba(255,255,255,.55); background: rgba(0,0,0,.25); }
+.var a:hover { background: rgba(255,255,255,.18); }
+.var a.on { background: var(--mango); color: var(--ink); border-color: var(--mango); }
 .chain { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 0; padding: 0; margin: 0; list-style: none; }
 .chain li { display: flex; align-items: center; font-size: .9rem; font-weight: 600; white-space: nowrap; }
 .chain li a { color: #fff; text-decoration: none; padding: 4px 10px; border-radius: 999px; background: rgba(255,255,255,.14); -webkit-backdrop-filter: blur(3px); backdrop-filter: blur(3px); }
