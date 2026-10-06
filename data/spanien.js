@@ -7,7 +7,11 @@ REISEN.spanien = {
   menu: "Spanien / Portugal",
   untertitel: "Fünf Wochen Roadtrip ab Brig-Glis: Barcelona, Valencia, Schnorcheln auf Ibiza und Formentera, Benidorm, Andalusien, Lissabon, Porto und der wilde Norden.",
   zeitraum: "Fr, 18.06.2027 bis Sa, 24.07.2027, 2 Erwachsene und 2 Kids",
-  titelbild: {suche: "Formentera turquoise beach", stichwort: "formentera", alt: "Sandstrand mit türkisfarbenem Wasser auf Formentera"},
+  titelbild: {
+    suche: "Formentera turquoise beach",
+    stichwort: "formentera",
+    alt: "Sandstrand mit türkisfarbenem Wasser auf Formentera"
+  },
   planIntro: "Abfahrt in Brig-Glis am Fr, 18.06.2027, Rückkehr am Sa, 24.07.2027. Alle Strecken mit dem eigenen Elektroauto, zu den Inseln mit der Autofähre. Ein Klick auf eine Station springt zur Beschreibung.",
   hinflug: {
     datum: "18. Juni",
@@ -83,7 +87,7 @@ REISEN.spanien = {
     ],
     [
       "Optional",
-      "PortAventura (Freizeitpark bei Tarragona, auf dem Weg nach Valencia), Bootsausflug zur Insel S’Espalmador (ab Formentera), Ronda (bei El Chorro), Benagil-Höhle (Bootstour ab Portimão), Sintra (Abstecher auf dem Weg nach Porto), San Sebastián (statt Bilbao)."
+      "PortAventura (Freizeitpark bei Tarragona, auf dem Weg nach Valencia), Peñíscola (Burg am Meer, zwischen Barcelona und Valencia), Montserrat (ab Barcelona), Bootsausflug zur Insel S’Espalmador (ab Formentera), Ronda (bei El Chorro), Córdoba mit der Mezquita (zwischen El Chorro und Sevilla), Benagil-Höhle (Bootstour ab Portimão), Sintra (Abstecher ab Lissabon), Óbidos, Nazaré und Aveiro (zwischen Lissabon und Porto), Douro-Tal (ab Porto), Santiago de Compostela (zwischen Porto und Ribadeo), San Sebastián oder Picos de Europa (statt Bilbao). Bei Abstechern verlängern sich die Fahrtage."
     ]
   ],
   karte: {
@@ -135,7 +139,7 @@ REISEN.spanien = {
         "<strong>Tickets:</strong> Sagrada Família und Park Güell nur online mit Zeitfenster; Kinder unter 11 gratis, brauchen aber ein Ticket.",
         "<strong>Taschendiebe:</strong> Auf den Ramblas, in der Metro und am Strand Wertsachen gut verstauen."
       ],
-      ausserdem: "Casa Batlló, Barri Gòtic, Born-Viertel, Tibidabo (Freizeitpark mit Aussicht), CosmoCaixa (Wissenschaftsmuseum).",
+      ausserdem: "Casa Batlló, Barri Gòtic, Born-Viertel, Tibidabo (Freizeitpark mit Aussicht), CosmoCaixa (Wissenschaftsmuseum). Montserrat (Kloster in den Bergen, halber Tag ab Barcelona).",
       bilder: [
         {titel: "Sagrada Família", suche: "Sagrada Familia", stichwort: "sagrada"},
         {titel: "Park Güell", suche: "Park Guell", stichwort: "guell|güell"},
@@ -161,7 +165,7 @@ REISEN.spanien = {
         "<strong>Tickets:</strong> Oceanogràfic online buchen, Kombiticket mit Museum und Hemisfèric möglich.",
         "<strong>Auto:</strong> Hotel mit Parkhaus wählen und in der Stadt Metro, Bus oder Velo nutzen; Regeln der Umweltzone vorab prüfen."
       ],
-      ausserdem: "Mercado Central, Kathedrale mit dem Miguelete-Turm, Bioparc, Naturpark Albufera mit Bootsfahrt.",
+      ausserdem: "Mercado Central, Kathedrale mit dem Miguelete-Turm, Bioparc, Naturpark Albufera mit Bootsfahrt. Auf der Anreise: Peñíscola (Burg auf einer Halbinsel im Meer, Drehort von «Game of Thrones»).",
       bilder: [
         {
           titel: "Stadt der Künste und Wissenschaften",
@@ -387,7 +391,7 @@ REISEN.spanien = {
         "<strong>Hitze:</strong> Im Juli oft 38–42 °C; viel trinken, Kopfbedeckung, Programm vor 12 und nach 18 Uhr.",
         "<strong>Tickets:</strong> Alcázar und Kathedrale online buchen, sonst lange Schlangen in der Sonne."
       ],
-      ausserdem: "Barrio Santa Cruz, Torre del Oro, Triana mit Markt, Park María Luisa.",
+      ausserdem: "Barrio Santa Cruz, Torre del Oro, Triana mit Markt, Park María Luisa. Auf der Anreise: Córdoba mit der Mezquita (Moschee-Kathedrale, Abstecher ab El Chorro).",
       bilder: [
         {titel: "Plaza de España", suche: "Plaza de Espana Seville", stichwort: "plaza de espa"},
         {titel: "Alcázar", suche: "Alcazar of Seville", stichwort: "alc"},
@@ -438,7 +442,7 @@ REISEN.spanien = {
         "<strong>Auto:</strong> In der Stadt stehen lassen; Metro, Tram und Taxi sind günstig. Parkhaus beim Hotel buchen.",
         "<strong>Wetter:</strong> Angenehmer als Andalusien, meist 25–30 °C, abends windig."
       ],
-      ausserdem: "Alfama, Castelo de São Jorge, LX Factory, Praça do Comércio, Cascais.",
+      ausserdem: "Alfama, Castelo de São Jorge, LX Factory, Praça do Comércio, Cascais. Sintra mit Pena-Palast und Quinta da Regaleira (Abstecher auf der Weiterfahrt).",
       bilder: [
         {titel: "Tram 28", suche: "Lisbon tram 28", stichwort: "tram"},
         {titel: "Belém-Turm", suche: "Belem Tower", stichwort: "bel"},
@@ -463,7 +467,7 @@ REISEN.spanien = {
         "<strong>Auto:</strong> Altstadt eng und steil, Parkhaus beim Hotel; zu Fuss und mit der Metro unterwegs.",
         "<strong>Livraria Lello:</strong> Eintritt nur mit Ticket, online buchen."
       ],
-      ausserdem: "Torre dos Clérigos, Bahnhof São Bento (Azulejos), Jardins do Palácio de Cristal, Foz do Douro.",
+      ausserdem: "Torre dos Clérigos, Bahnhof São Bento (Azulejos), Jardins do Palácio de Cristal, Foz do Douro. Auf der Anreise ab Lissabon: Óbidos (ummauertes Dorf), Nazaré (Fischerort mit Klippen), Aveiro und Costa Nova (Kanäle, gestreifte Strandhäuser). Douro-Tal als Tagesausflug.",
       bilder: [
         {titel: "Ribeira", suche: "Ribeira Porto", stichwort: "ribeira"},
         {titel: "Dom-Luís-Brücke", suche: "Dom Luis I Bridge Porto", stichwort: "lu"},
@@ -489,7 +493,7 @@ REISEN.spanien = {
         "<strong>Gezeiten:</strong> Die Bögen sind nur bei Ebbe zugänglich; Gezeitentabelle prüfen und die Flut nicht verpassen.",
         "<strong>Wasser:</strong> Der Atlantik hat im Juli nur ca. 17–19 °C."
       ],
-      ausserdem: "Ribadeo mit Ría, Mondoñedo, Tapia de Casariego, Strände der Mariña Lucense.",
+      ausserdem: "Ribadeo mit Ría, Mondoñedo, Tapia de Casariego, Strände der Mariña Lucense. Auf der Anreise ab Porto: Santiago de Compostela (Kathedrale, Umweg).",
       bilder: [
         {titel: "Felsbögen", suche: "Playa de las Catedrales|Praia As Catedrais", stichwort: "catedra"},
         {titel: "Bei Ebbe", suche: "Playa de las Catedrales low tide", stichwort: "catedra"},
@@ -515,7 +519,7 @@ REISEN.spanien = {
         "<strong>Regeln:</strong> Geöffnet ab 8 Uhr bis eine Stunde vor Sonnenuntergang, Höchstgeschwindigkeit 40 km/h, nur auf der markierten Piste, ein Teil ist militärisches Übungsgebiet.",
         "<strong>Rückfahrt:</strong> Über Saragossa, Lleida, Girona und Perpignan nach Montpellier (ca. 7–7,5 Std., ca. 720 km), dort übernachten, am nächsten Tag über Lyon und Genf nach Brig-Glis (ca. 6,5–7 Std., ca. 600 km)."
       ],
-      ausserdem: "Guggenheim Bilbao, Altstadt von Tudela, Olite (Königspalast), Altstadt von Montpellier (auf der Rückfahrt).",
+      ausserdem: "Guggenheim Bilbao, Altstadt von Tudela, Olite (Königspalast), Altstadt von Montpellier (auf der Rückfahrt). Statt Bilbao möglich: San Sebastián (Stadtbucht mit Strand) oder Picos de Europa (Seen von Covadonga, Wanderung am Cares).",
       bilder: [
         {titel: "Castildetierra", suche: "Castildetierra Bardenas Reales", stichwort: "castildetierra"},
         {titel: "Bardena Blanca", suche: "Bardenas Reales", stichwort: "bardena"},
