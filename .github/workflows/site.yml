@@ -22,12 +22,11 @@ jobs:
         with:
           path: docs
 
-  # Veröffentlichung auf GitHub Pages ist bewusst abgeschaltet.
-  # Einschalten: Settings → Pages → Source "GitHub Actions" und
-  # Settings → Secrets and variables → Actions → Variable DEPLOY_PAGES = true
+  # Veröffentlicht docs/ auf GitHub Pages bei jedem Push auf den Standard-Branch.
+  # Einmalig nötig: Settings → Pages → Source "GitHub Actions"
   deploy:
     needs: build
-    if: github.ref == 'refs/heads/main' && vars.DEPLOY_PAGES == 'true'
+    if: github.event_name != 'pull_request' && github.ref_name == github.event.repository.default_branch
     runs-on: ubuntu-latest
     permissions:
       pages: write

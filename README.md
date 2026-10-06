@@ -1,5 +1,7 @@
 # Familienreise 2027
 
+**Zur Seite: https://zubini.github.io/family-trip-2027/**
+
 Reiseführer und Variantenvergleich für die Familienreise 2027 – als eine einzige, statische HTML-Seite.
 Die Seite enthält drei Reisevarianten:
 
@@ -65,11 +67,9 @@ Die Bilder werden im Browser von Wikimedia Commons nachgeladen. Wer die Seite oh
 - `gen.py` ist die erste Version der Indonesien-Reise. Sie wird nur wegen einiger Hilfswerte geladen und kann entfernt werden, wenn `gen2.py` entsprechend angepasst wird.
 - Die Daten für Singapur–Bangkok liegen in `gen2.py`, weil sie dort über viele Änderungen gewachsen sind. Singapur–Bali und Las Vegas–New York sind sauberer in eigene Dateien aufgeteilt.
 
-## Veröffentlichen (optional)
+## Veröffentlichen
 
-Die Seite kann über GitHub Pages veröffentlicht werden – standardmässig ist das **aus**:
+Die Seite liegt auf GitHub Pages: **https://zubini.github.io/family-trip-2027/**
 
-1. *Settings → Pages → Source:* „GitHub Actions“
-2. *Settings → Secrets and variables → Actions → Variables:* `DEPLOY_PAGES` = `true`
-
-Danach wird bei jedem Push auf `main` veröffentlicht. Hinweis: Bei privaten Repos braucht Pages einen bezahlten GitHub-Plan, und die Seite ist dann trotzdem öffentlich erreichbar.
+Bei jedem Push auf den Standard-Branch prüft die GitHub-Action die Seite (`make check`) und veröffentlicht danach `docs/`.
+Voraussetzung ist einmalig *Settings → Pages → Source:* „GitHub Actions“.
