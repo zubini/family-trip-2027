@@ -8,9 +8,9 @@ window.START = {
   zeitraum: "Ab Fr, 18.06.2027 für fünf Wochen, 2 Erwachsene und 2 Kids",
   untertitel: "Verschiedene Reisevarianten als Fahrplan für eine Entscheidung.",
   reisenIntro: "Alle Reisen dauern 34 bis 36 Nächte und sind für die Familie mit Sohn (12) und Tochter (14) geplant. Spanien / Portugal ohne Flug und Jetlag kann bis Sa, 24.07.2027 dauern, die anderen enden am Do, 22.07.2027. Ein Klick führt zum vollständigen Fahrplan mit Stationen, Karte und Budget.",
-  bewertungIntro: "Bewertet werden Natur, Dschungelfeeling, Schnorcheln, Abenteuer, Städte, Budget und Reisekomfort. Fünf Punkte sind die beste Bewertung (beim Budget heisst das: günstig). Die Punkte sind eine Einschätzung auf Basis der Reisepläne, keine Messung.",
+  bewertungIntro: "Bewertet werden Natur, Dschungelfeeling, Schnorcheln, Abenteuer, Städte, Budget und Reisekomfort. Fünf Punkte sind die beste Bewertung (beim Budget heisst das: günstig). Die Skala ist fest und nicht nur ein Vergleich der vier Reisen: 5 heisst Weltklasse (z.B. tropische Riffe beim Schnorcheln, kurze Etappen beim Reisekomfort), 0 heisst, dass es das auf der Reise nicht gibt. Die Punkte sind eine Einschätzung auf Basis der Reisepläne, keine Messung.",
   empfehlung: [
-    "Sollen Schnorcheln und Dschungelfeeling zusammenkommen, empfiehlt sich <b>Malaysia / Thailand</b>. <b>Malaysia / Indonesien</b> punktet mit Vulkanen, Reisterrassen und Inseln, hat aber den langen Rückflug als Nachteil. Die <b>USA</b> bieten die grössten Landschaften und Städte ohne Schnorcheln, sind aber am teuersten. <b>Spanien / Portugal</b> ist die günstigste Variante und kommt ohne Flug und Jetlag aus: Städte, Kultur, Strände und Inseln mit dem eigenen Auto, dafür viele Stunden am Steuer und grosse Hitze in Andalusien.",
+    "Sollen Schnorcheln und Dschungelfeeling zusammenkommen, empfiehlt sich <b>Malaysia / Thailand</b>. <b>Malaysia / Indonesien</b> punktet mit Vulkanen, Reisterrassen und Inseln, hat aber den langen Rückflug als Nachteil. Die <b>USA</b> bieten die grössten Landschaften und Städte ohne Schnorcheln, sind aber am teuersten. <b>Spanien / Portugal</b> ist knapp die günstigste Variante und kommt ohne Flug und Jetlag aus: Städte, Kultur, Strände und Inseln mit dem eigenen Auto, dafür viele Stunden am Steuer und grosse Hitze in Andalusien.",
     "Mehr Dschungel bei Malaysia / Thailand: Khao Sok (Regenwald und Cheow-Lan-See) lässt sich in die Route einbauen. Dafür liessen sich Khanom oder Penang kürzen."
   ],
   budgetIntro: "Mittelklasse inklusive Flüge bzw. Autokosten, Transport, Unterkunft, Verpflegung und Aktivitäten für 4 Personen. Der dunkle Punkt ist der Planwert, der helle Balken die Spanne.",
@@ -35,7 +35,7 @@ window.START = {
       teens: "Schnorcheln und Kajak, Caminito del Rey, Freizeitparks (Isla Mágica, optional PortAventura), Game-of-Thrones-Drehorte, Höhlen und Felsbögen bei Ebbe, Surfen in Galicien.",
       pro: [
         "Kein Flug, kein Jetlag, zwei Tage länger möglich",
-        "Günstigste Variante, flexibel mit dem eigenen Auto und viel Gepäckraum",
+        "Knapp die günstigste Variante, flexibel mit dem eigenen Auto und viel Gepäckraum",
         "Sehr abwechslungsreich: Städte, Kultur, Inseln, Strände und Wüsten"
       ],
       contra: [
@@ -133,8 +133,8 @@ window.START = {
     {
       kriterium: "Natur und Landschaft",
       spanien: [
-        4,
-        "Vulkanküste am Cabo de Gata, Halbwüsten Bardenas Reales und Gorafe, Schlucht des Caminito del Rey, Felsbögen der Playa de las Catedrales und die Buchten der Balearen."
+        3,
+        "Einzelne starke Naturziele zwischen den Städten: Halbwüsten Bardenas Reales und Gorafe, Vulkanküste am Cabo de Gata, Schlucht des Caminito del Rey, Felsbögen der Playa de las Catedrales und die Buchten der Balearen."
       ],
       usa: [
         5,
@@ -152,7 +152,7 @@ window.START = {
     {
       kriterium: "Dschungelfeeling",
       spanien: [0, "Kein Regenwald: Halbwüsten, Küsten, Pinienwälder und im Norden grüne Hügel."],
-      usa: [1, "Wüsten, Canyons und Seen; die grünen Wälder liegen im Osten."],
+      usa: [0, "Kein Dschungel: Wüsten, Canyons, Seen und im Osten Laubwälder."],
       asien: [
         3,
         "Dschungelwanderung auf Tioman, Wasserfälle und Inselwälder; kein grosser zusammenhängender Regenwald auf der Route."
@@ -162,8 +162,8 @@ window.START = {
     {
       kriterium: "Schnorcheln",
       spanien: [
-        3,
-        "Islas Medas (Meeresschutzgebiet), Sa Tuna, Mallorca, Formentera und Cabo de Gata: klares Mittelmeer, aber keine tropischen Riffe."
+        2,
+        "Islas Medas (Meeresschutzgebiet), Sa Tuna, Formentera und Cabo de Gata: klares Mittelmeer mit Fischen und Seegras, aber keine Korallen und kühleres Wasser."
       ],
       usa: [0, "Kein Schnorcheln im Meer; höchstens Baden im Lake Powell oder in den Narrows."],
       asien: [
@@ -196,7 +196,7 @@ window.START = {
       kriterium: "Budget (mehr Punkte = günstiger)",
       spanien: [
         4,
-        "ca. {plan:spanien} CHF: günstigste Variante; kein Flug, dafür Benzin, Maut, Fähren und teure Unterkünfte in der Hochsaison."
+        "ca. {plan:spanien} CHF: knapp die günstigste Variante; kein Flug, dafür Benzin, Maut, Fähren und teure Unterkünfte in der Hochsaison."
       ],
       usa: [1, "ca. {plan:usa} CHF: rund {mehrkosten} CHF mehr, vor allem Unterkünfte und Mietwagen."],
       asien: [4, "ca. {plan:asien} CHF: Singapur ist teuer, der Rest günstig."],
@@ -205,8 +205,8 @@ window.START = {
     {
       kriterium: "Reisekomfort",
       spanien: [
-        2,
-        "Kein Flug und kein Jetlag, aber realistisch ca. 78–80 Stunden unterwegs, davon je ca. 7–8 Stunden am ersten und letzten Tag."
+        3,
+        "Kein Flug, kein Jetlag und das eigene Auto mit viel Platz fürs Gepäck, die meisten Etappen 1,5–3 Stunden; aber realistisch ca. 78–80 Stunden unterwegs, je ca. 7–8 Stunden am ersten und letzten Tag, und jemand muss fahren."
       ],
       usa: [
         2,
@@ -214,7 +214,7 @@ window.START = {
       ],
       asien: [
         3,
-        "Direktflüge hin und zurück, aber realistisch ca. 65–70 Stunden unterwegs, davon 6 lange Reisetage mit 5–9 Stunden."
+        "Direktflüge hin und zurück, niemand muss selber fahren; aber realistisch ca. 65–70 Stunden unterwegs, davon 6 lange Reisetage mit 5–9 Stunden und vielen Umstiegen mit Gepäck."
       ],
       bali: [
         2,
