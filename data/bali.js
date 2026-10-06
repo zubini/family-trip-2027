@@ -33,9 +33,9 @@ REISEN.bali = {
     },
     {datum: "26.–29. Juni", name: "3. Kuala Lumpur", naechte: 3, info: "Fähre nach Mersing, Bus (ca. 5–6 Std.)"},
     {datum: "29. Juni–1. Juli", name: "4. Jakarta", naechte: 2, info: "Flug ab Kuala Lumpur (ca. 2–2,5 Std.)"},
-    {datum: "1.–6. Juli", name: "5. Yogyakarta", naechte: 5, info: "Zug ab Jakarta (ca. 7–8 Std.)"},
+    {datum: "1.–6. Juli", name: "5. Yogyakarta", naechte: 5, info: "Zug ab Jakarta (ca. 6–6,5 Std.)"},
     {datum: "6.–9. Juli", name: "6. Bromo und Malang", naechte: 3, info: "Zug nach Malang (ca. 7–8 Std.)"},
-    {datum: "9.–11. Juli", name: "7. Ijen und Banyuwangi", naechte: 2, info: "Privatfahrer (ca. 6–9 Std.)"},
+    {datum: "9.–11. Juli", name: "7. Ijen und Banyuwangi", naechte: 2, info: "Privatfahrer (ca. 6–8 Std.)"},
     {
       datum: "11.–15. Juli",
       name: "8. Ubud (Bali)",
@@ -59,7 +59,7 @@ REISEN.bali = {
   planHinweise: [
     [
       "Gesamt",
-      "33 Nächte, 10 Stationen. Hinflug nach Singapur, Rückflug ab Bali. Ein einziger Flug dazwischen (Kuala Lumpur–Jakarta); alle anderen Strecken per Bus, Zug und Fähre. Die längsten Reisetage: Jakarta–Yogyakarta, Yogyakarta–Malang (je ca. 7–8 Std.), Bromo–Banyuwangi (ca. 6–9 Std.) und Banyuwangi–Ubud (ca. 5–6 Std.)."
+      "33 Nächte, 10 Stationen. Hinflug nach Singapur, Rückflug ab Bali. Ein einziger Flug dazwischen (Kuala Lumpur–Jakarta); alle anderen Strecken per Bus, Zug und Fähre. Die längsten Reisetage: Tioman–Kuala Lumpur (ca. 7–8 Std.), Jakarta–Yogyakarta (ca. 6–6,5 Std.), Yogyakarta–Malang (ca. 7–8 Std.), Bromo–Banyuwangi (ca. 6–8 Std.) und Banyuwangi–Ubud (ca. 5–6 Std.). Zusammen seid ihr zwischen Singapur und Bali ca. 50 Stunden unterwegs."
     ],
     [
       "Vorab buchen",
@@ -223,7 +223,7 @@ REISEN.bali = {
       region: "Indonesien",
       datum: "1.–6. Juli",
       naechte: "5 Nächte",
-      anreise: "Zug ab Jakarta Gambir nach Yogyakarta (Tugu), Eksekutif-Klasse (ca. 7–8 Std.). Tickets über KAI Access oder tiket.com.",
+      anreise: "Zug ab Jakarta Gambir nach Yogyakarta (Tugu), Eksekutif-Klasse (ca. 6–6,5 Std., z.B. Argo Dwipangga oder Taksaka). Tickets über KAI Access oder tiket.com.",
       text: "Kulturelles Herz Javas mit Sultanspalast, Batik-Handwerk und zwei Welterbestätten: Borobudur und Prambanan.",
       teens: "Aufstieg in Borobudur (Eintritt und Besucherzahl vorab online prüfen), Prambanan, Jeeptour am Merapi-Vulkan, Höhlen-Tubing in der Pindul-Höhle.",
       fakten: [
@@ -273,7 +273,7 @@ REISEN.bali = {
       region: "Indonesien",
       datum: "9.–11. Juli",
       naechte: "2 Nächte",
-      anreise: "Privatfahrer oder Zug von Malang/Bromo nach Banyuwangi (ca. 6–9 Std., Verbindung prüfen).",
+      anreise: "Privatfahrer von Bromo nach Banyuwangi (ca. 6–8 Std.) oder Zug ab Malang (ca. 7–8 Std., Fahrplan prüfen).",
       text: "Östlicher Zipfel Javas: Der Ijen-Krater mit türkisfarbenem Säuresee und dem «Blue Fire» ist eines der spektakulärsten Naturerlebnisse der Reise.",
       teens: "Nächtlicher Aufstieg zum Ijen-Krater (ca. 1,5–2 Std., Start ca. 1–2 Uhr) zum «Blue Fire», Sonnenaufgang über dem Kratersee. Für den Sohn (12) anspruchsvoll, aber machbar; mit Guide.",
       fakten: [
@@ -298,7 +298,7 @@ REISEN.bali = {
       region: "Indonesien",
       datum: "11.–15. Juli",
       naechte: "4 Nächte",
-      anreise: "Fähre Ketapang–Gilimanuk (ca. 1 Std.), dann Privatfahrer nach Ubud (ca. 4–5 Std.).",
+      anreise: "Fähre Ketapang–Gilimanuk (ca. 1 Std.), dann Privatfahrer nach Ubud (ca. 3,5–4,5 Std., kurvige Strassen). Mit Wartezeit am Hafen insgesamt ca. 5–6 Std.",
       text: "Kultureller Mittelpunkt Balis mit Reisterrassen, Tempeln, Tanzaufführungen und Kunsthandwerk. Gute Basis für Ausflüge ins Hochland.",
       teens: "Tegalalang-Reisterrassen früh am Morgen, Heiliger Affenwald, Wasserfälle (Tegenungan, Tibumana), optional Sonnenaufgangs-Trek auf den Mount Batur.",
       fakten: [

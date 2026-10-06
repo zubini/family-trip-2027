@@ -24,8 +24,8 @@ REISEN.usa = {
     {datum: "21.–23. Juni", name: "2. Zion National Park", naechte: 2, info: "Mietwagen ab Las Vegas (ca. 2,5–3 Std.)"},
     {datum: "23.–25. Juni", name: "3. Page und Lake Powell", naechte: 2, info: "Mietwagen (ca. 2,5 Std.)"},
     {datum: "25.–27. Juni", name: "4. Grand Canyon (South Rim)", naechte: 2, info: "Mietwagen (ca. 2,5 Std.)"},
-    {datum: "27.–28. Juni", name: "5. Monument Valley", naechte: 1, info: "Mietwagen (ca. 3,5–4 Std.)"},
-    {datum: "28.–30. Juni", name: "6. Santa Fe", naechte: 2, info: "Mietwagen (ca. 5,5–6 Std.)"},
+    {datum: "27.–28. Juni", name: "5. Monument Valley", naechte: 1, info: "Mietwagen (ca. 3,5 Std.)"},
+    {datum: "28.–30. Juni", name: "6. Santa Fe", naechte: 2, info: "Mietwagen (ca. 6,5–7 Std.)"},
     {datum: "30. Juni–1. Juli", name: "7. White Sands (Alamogordo)", naechte: 1, info: "Mietwagen (ca. 4–4,5 Std.)"},
     {
       datum: "1.–2. Juli",
@@ -34,7 +34,7 @@ REISEN.usa = {
       info: "Roadtrip Tag 1: White Sands–Oklahoma City (ca. 10 Std.)"
     },
     {datum: "2.–5. Juli", name: "8. Chicago", naechte: 3, info: "Roadtrip Tag 2: Oklahoma City–Chicago (ca. 12 Std.)"},
-    {datum: "5.–7. Juli", name: "9. Sandusky und Cedar Point", naechte: 2, info: "Mietwagen ab Chicago (ca. 5–6 Std.)"},
+    {datum: "5.–7. Juli", name: "9. Sandusky und Cedar Point", naechte: 2, info: "Mietwagen ab Chicago (ca. 4,5–5 Std., Uhr +1 Std.)"},
     {datum: "7.–9. Juli", name: "10. Niagara Falls", naechte: 2, info: "Mietwagen (ca. 4,5 Std.)"},
     {
       datum: "9.–13. Juli",
@@ -53,7 +53,7 @@ REISEN.usa = {
   planHinweise: [
     [
       "Gesamt",
-      "34 Nächte, 13 Stationen und eine Zwischenübernachtung (Oklahoma City). Keine Inlandflüge: nur Hin- und Rückflug. Eine Einwegmiete (Las Vegas–Washington, ca. 25 Tage) und Amtrak-Züge im Nordosten. Die längsten Fahrtage: Roadtrip White Sands–Oklahoma City (ca. 10 Std.) und Oklahoma City–Chicago (ca. 12 Std.), Monument Valley–Santa Fe (ca. 5,5–6 Std.), Chicago–Sandusky (ca. 5–6 Std.) und Niagara Falls–Washington (ca. 7 Std.)."
+      "34 Nächte, 13 Stationen und eine Zwischenübernachtung (Oklahoma City). Keine Inlandflüge: nur Hin- und Rückflug. Eine Einwegmiete (Las Vegas–Washington, ca. 25 Tage) und Amtrak-Züge im Nordosten. Insgesamt ca. 5’800 km und rund 60 Stunden reine Fahrzeit an 11 Fahrtagen. Die längsten: Roadtrip White Sands–Oklahoma City (ca. 10 Std.) und Oklahoma City–Chicago (ca. 12 Std.), Niagara Falls–Washington (ca. 7 Std.), Monument Valley–Santa Fe (ca. 6,5–7 Std.) und Chicago–Sandusky (ca. 4,5–5 Std.)."
     ],
     [
       "Vorab buchen",
@@ -210,7 +210,7 @@ REISEN.usa = {
       region: "Utah und Arizona",
       datum: "27.–28. Juni",
       naechte: "1 Nacht",
-      anreise: "Mietwagen vom Grand Canyon über Cameron, Tuba City und Kayenta (ca. 3,5–4 Std.).",
+      anreise: "Mietwagen vom Grand Canyon über Cameron, Tuba City und Kayenta (ca. 3,5 Std., ca. 290 km).",
       text: "Die roten Sandsteintürme aus unzähligen Westernfilmen liegen im Navajo Tribal Park an der Grenze von Utah und Arizona. Eine Nacht reicht, wenn ihr Sonnenuntergang und Sonnenaufgang erlebt.",
       teens: "Valley Drive (ca. 27 km Schotterpiste, mit eigenem Fahrzeug oder geführter Jeeptour der Navajo), Fotostopp am Forrest Gump Point auf der Strasse 163, Sonnenaufgang vom Balkon des The View Hotel (früh buchen).",
       fakten: [
@@ -243,7 +243,7 @@ REISEN.usa = {
       region: "New Mexico",
       datum: "28.–30. Juni",
       naechte: "2 Nächte",
-      anreise: "Mietwagen von Monument Valley über Shiprock und Farmington (ca. 5,5–6 Std.).",
+      anreise: "Mietwagen von Monument Valley über Shiprock und Farmington (ca. 6,5–7 Std., ca. 620 km). Einer der längeren Fahrtage: früh starten.",
       text: "Die Hauptstadt von New Mexico auf rund 2’100 Metern Höhe: Lehmziegel-Architektur, Kunstgalerien und die Landschaft des Südwestens. Nach der Wildnis kommt hier wieder Stadtleben.",
       teens: "Meow Wolf «House of Eternal Return» (immersive Kunstwelt, Tickets vorab), Bandelier National Monument (Felswohnungen und Leitern), Plaza und Canyon Road, Bradbury Science Museum in Los Alamos.",
       fakten: [
@@ -298,7 +298,7 @@ REISEN.usa = {
       datum: "2.–5. Juli",
       naechte: "3 Nächte",
       zwischenstopp: {text: "Zwischenübernachtung in Oklahoma City", datum: "1.–2. Juli"},
-      anreise: "Mietwagen-Roadtrip in 2 Tagen ab White Sands (zusammen ca. 1’420 Meilen, ca. 22 Std. Fahrt) mit Übernachtung in Oklahoma City, Zeitverschiebung +1 Std.",
+      anreise: "Mietwagen-Roadtrip in 2 Tagen ab White Sands: Tag 1 nach Oklahoma City (ca. 960 km, ca. 10 Std.), Tag 2 nach Chicago (ca. 1’270 km, ca. 12 Std.). Zusammen ca. 2’230 km und 22 Std. reine Fahrzeit, mit Pausen eher 25 Std. Zeitverschiebung +1 Std.",
       text: "Die grosse Stadt am Michigansee mit Wolkenkratzern, Parks und Stadtstrand. Hier beginnt der Osten: Chicago ist das Tor zu den Grossen Seen. Ihr kommt nach zwei langen Fahrtagen an.",
       teens: "Skydeck im Willis Tower (Glasbalkon «Ledge»), Architektur-Bootsfahrt auf dem Chicago River, Millennium Park mit «Cloud Gate» (The Bean), Navy Pier mit Riesenrad, Field Museum und Shedd Aquarium.",
       fakten: [
@@ -329,7 +329,7 @@ REISEN.usa = {
       region: "Ohio",
       datum: "5.–7. Juli",
       naechte: "2 Nächte",
-      anreise: "Mietwagen ab Chicago über die Interstate 90 (ca. 5–6 Std.).",
+      anreise: "Mietwagen ab Chicago über die Interstate 90 (ca. 4,5–5 Std., ca. 470 km; Ohio liegt eine Zeitzone weiter, die Uhr springt +1 Std.).",
       text: "Am Südufer des Eriesees liegt Cedar Point, einer der berühmtesten Achterbahn-Parks der Welt. Die Region eignet sich für zwei Tage Action und ein Stück Strand an den Grossen Seen.",
       teens: "Cedar Point (Achterbahnen wie Steel Vengeance und Millennium Force; Tickets online, Grössenbeschränkung beachten), Strand am Eriesee, Fähre zur Insel Put-in-Bay.",
       fakten: [

@@ -7,7 +7,12 @@ REISEN.asien = {
   menu: "Singapur–Bangkok",
   untertitel: "Fünf Wochen über Land und Wasser durch Singapur, Malaysia und Thailand, mit Dschungel, Inseln und Grossstadt.",
   zeitraum: "Fr, 18.06.2027 bis Do, 22.07.2027, 2 Erwachsene, 2 Kids",
-  titelbild: {datei: "Supertree Grove, Gardens by the Bay, Singapore1.jpg", alt: "Supertree Grove bei Nacht, Singapur"},
+  titelbild: {
+    datei: "Nang Yuan Island, Koh Tao (48109157601).jpg",
+    suche: "Koh Nang Yuan|Nang Yuan Island Koh Tao",
+    stichwort: "nang yuan|nangyuan",
+    alt: "Koh Nang Yuan bei Koh Tao, Thailand"
+  },
   planIntro: "Abflug ab Zürich am Fr, 18.06.2027 um 22 Uhr, Rückflug ab Bangkok am Do, 22.07.2027. Ein Klick auf eine Station springt zur Beschreibung.",
   hinflug: {
     datum: "18.–19. Juni",
@@ -44,22 +49,22 @@ REISEN.asien = {
       datum: "3.–6. Juli",
       name: "5. Penang / George Town",
       naechte: 3,
-      info: "Speedboot und Minivan über Kota Bharu und Gerik (ca. 8–9 Std.)"
+      info: "Speedboot und Minivan über Gerik (ca. 7–8 Std. insgesamt)"
     },
     {
       datum: "6.–7. Juli",
       name: "Zwischenübernachtung Hat Yai (Thailand)",
       naechte: 1,
-      info: "Fähre nach Butterworth, ETS-Zug nach Padang Besar (ca. 3 Std.), Grenze, Zug nach Hat Yai (ca. 1 Std.); insgesamt ca. 5–6 Std."
+      info: "Fähre nach Butterworth, ETS-Zug nach Padang Besar (ca. 2 Std.), Grenze, Pendelzug nach Hat Yai (ca. 45 Min.); insgesamt ca. 5–6 Std."
     },
-    {datum: "7.–9. Juli", name: "6. Khanom", naechte: 2, info: "Minivan ab Hat Yai (ca. 4–5 Std.)"},
+    {datum: "7.–9. Juli", name: "6. Khanom", naechte: 2, info: "Minivan mit Umstieg in Nakhon Si Thammarat oder Privattransfer (ca. 5–6 Std.)"},
     {datum: "9.–13. Juli", name: "7. Koh Samui", naechte: 4, info: "Minivan zum Donsak Pier, Autofähre (ca. 2,5 Std.)"},
-    {datum: "13.–18. Juli", name: "8. Koh Tao", naechte: 5, info: "Katamaran ab Samui (ca. 1,5 Std.)"},
+    {datum: "13.–18. Juli", name: "8. Koh Tao", naechte: 5, info: "Katamaran ab Samui (ca. 1,5–2 Std.)"},
     {
       datum: "18.–20. Juli",
       name: "9. Hua Hin / Khao Sam Roi Yot",
       naechte: 2,
-      info: "Katamaran nach Chumphon, Zug nach Hua Hin (ca. 7 Std. insgesamt)"
+      info: "Katamaran nach Chumphon, Bus oder Zug nach Hua Hin (ca. 7 Std. insgesamt)"
     },
     {datum: "20.–22. Juli", name: "10. Bangkok", naechte: 2, info: "Zug oder Minivan (ca. 3–4 Std.); Rückflug 22. Juli"}
   ],
@@ -67,7 +72,7 @@ REISEN.asien = {
   planHinweise: [
     [
       "Gesamt",
-      "33 Nächte, 10 Stationen und zwei Zwischenübernachtungen (Kuala Besut, Hat Yai). Nur Hin- und Rückflug, alle Strecken dazwischen per Bus, Zug und Fähre. Die längsten Reisetage (Tioman–Kuala Lumpur, Kuala Lumpur–Kuala Besut, Perhentian–Penang, Penang–Hat Yai, Koh Tao–Hua Hin) dauern ca. 5–9 Stunden."
+      "33 Nächte, 10 Stationen und zwei Zwischenübernachtungen (Kuala Besut, Hat Yai). Nur Hin- und Rückflug, alle Strecken dazwischen per Bus, Zug und Fähre. Die längsten Reisetage (Tioman–Kuala Lumpur, Kuala Lumpur–Kuala Besut, Perhentian–Penang, Penang–Hat Yai, Hat Yai–Khanom, Koh Tao–Hua Hin) dauern ca. 5–9 Stunden. Zusammen seid ihr zwischen Singapur und Bangkok ca. 55–60 Stunden unterwegs."
     ],
     [
       "Vorab buchen",
@@ -234,7 +239,7 @@ REISEN.asien = {
       region: "Malaysia",
       datum: "3.–6. Juli",
       naechte: "3 Nächte",
-      anreise: "Speedboot von den Perhentians nach Kuala Besut, dann Minivan oder Bus über Kota Bharu und den East-West-Highway (Gerik) nach Penang (ca. 8–9 Std.); Boot und Minivan werden oft als Kombi-Ticket angeboten. Früh starten. Weiterreise nach Thailand: Fähre George Town–Butterworth, ETS-Zug nach Padang Besar (ca. 3 Std.), Grenzübergang, Zug nach Hat Yai (ca. 1 Std.), dort eine Übernachtung.",
+      anreise: "Speedboot von den Perhentians nach Kuala Besut, dann Minivan über den East-West-Highway (Gerik) nach Penang (Boot ca. 30–45 Min., Minivan ca. 5–6 Std., mit Wartezeit insgesamt ca. 7–8 Std.); Boot und Minivan werden oft als Kombi-Ticket angeboten. Früh starten. Weiterreise nach Thailand: Fähre George Town–Butterworth, ETS-Zug nach Padang Besar (ca. 2 Std.), Grenzübergang, Pendelzug nach Hat Yai (ca. 45 Min.; nur drei Züge pro Tag, Fahrplan prüfen), dort eine Übernachtung.",
       text: "Streetfood-Hochburg mit Wandkunst, Strand und Bergbahn. Auch Teenager lieben die Street-Art-Rallye durch die Gassen.",
       teens: "Penang Hill (Standseilbahn, Kanopyweg), Entopia (Schmetterlinge/Insekten), Escape Adventure Park (Wasserrutschen), Strand in Batu Ferringhi, Street-Art-Schnitzeljagd.",
       fakten: [
@@ -269,7 +274,7 @@ REISEN.asien = {
       datum: "7.–9. Juli",
       naechte: "2 Nächte",
       zwischenstopp: {text: "Zwischenstopp in Hat Yai", datum: "6.–7. Juli"},
-      anreise: "Minivan von Hat Yai nach Khanom (ca. 4–5 Std.).",
+      anreise: "Minivan von Hat Yai nach Nakhon Si Thammarat (ca. 3 Std.), dort umsteigen nach Khanom (ca. 1,5 Std.); mit Wartezeit ca. 5–6 Std. Ein Privattransfer (ca. 4,5 Std.) ist bequemer.",
       text: "Ruhiger Küstenort am Golf von Thailand mit einsamen Stränden, Wasserfällen und rosa Delfinen. Ein entspannter Zwischenhalt nach der langen Reise aus dem Süden.",
       teens: "Delfin-Bootstour ab Pak Nam (Sichtung nicht garantiert), Hin Lat Wasserfälle, Strandtage, Schnorcheln und Kajak.",
       fakten: [
@@ -330,7 +335,7 @@ REISEN.asien = {
       region: "Thailand",
       datum: "13.–18. Juli",
       naechte: "5 Nächte",
-      anreise: "Highspeed-Katamaran der Lomprayah von Koh Samui nach Koh Tao (ca. 1,5 Std.). Online vorab buchen, Wellengang kann stärker sein.",
+      anreise: "Highspeed-Katamaran der Lomprayah von Koh Samui über Koh Phangan nach Koh Tao (ca. 1,5–2 Std.). Online vorab buchen, Wellengang kann stärker sein.",
       text: "Das Schnorchelparadies im Golf von Thailand mit klarem, ruhigem Wasser und der berühmten Sandbank von Koh Nang Yuan.",
       teens: "Schnorcheln (Shark Bay, Japanese Gardens, Mango Bay), Koh Nang Yuan (Aussichtspunkt, Strand), Bootsausflug rund um die Insel.",
       fakten: [
@@ -355,7 +360,7 @@ REISEN.asien = {
       region: "Thailand",
       datum: "18.–20. Juli",
       naechte: "2 Nächte",
-      anreise: "Katamaran Lomprayah von Koh Tao nach Chumphon (inkl. Bus), dann Zug nach Hua Hin. Gesamtreise ca. 7 Std.: früh am Morgen losfahren, Verpflegung mitnehmen.",
+      anreise: "Katamaran Lomprayah von Koh Tao nach Chumphon (ca. 1,5–2 Std.), weiter mit dem Lomprayah-Bus (Kombiticket, Abfahrt Koh Tao 10:15, Ankunft Hua Hin ca. 17 Uhr) oder mit dem Zug nach Hua Hin. Gesamtreise ca. 7 Std.; Verpflegung mitnehmen.",
       text: "Königliche Küstenstadt mit breitem Strand, Wasserpark und Nationalpark. Ein entspannter Zwischenhalt vor der Grossstadt.",
       teens: "Vana Nava Water Jungle (Wasserpark), Strandtage, Reiten am Strand, Santorini Park (Fotospots), Wanderung zur Phraya-Nakhon-Höhle (ca. 30–45 Min. steil).",
       fakten: [

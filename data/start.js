@@ -27,7 +27,7 @@ window.START = {
       hinflug: "Direktflug Zürich–Singapur ca. 12–13 Std.",
       rueckflug: "Direktflug Bangkok–Zürich ca. 11,5–12 Std.",
       dazwischen: "Keine Flüge dazwischen, alles per Bus, Zug und Fähre",
-      tempo: "5 lange Reisetage mit 5–9 Std. (Tioman–Kuala Lumpur, Kuala Lumpur–Kuala Besut, Perhentian–Penang, Penang–Hat Yai, Koh Tao–Hua Hin)",
+      tempo: "Zusammen ca. 55–60 Std. unterwegs (Bus, Zug, Fähre); 6 lange Reisetage mit 5–9 Std. (Tioman–Kuala Lumpur, Kuala Lumpur–Kuala Besut, Perhentian–Penang, Penang–Hat Yai, Hat Yai–Khanom, Koh Tao–Hua Hin)",
       wetter: "Penang und Bangkok haben Regenzeit; die Ostküste Malaysias (Tioman, Perhentian) und der Golf von Thailand (Samui, Tao) sind meist ruhiger.",
       einreise: "Singapur und Malaysia visafrei. Thailand: seit 15.09.2026 nur noch 30 Tage visafrei und höchstens zwei Landgrenz-Einreisen pro Jahr, Länderliste prüfen. Online-Anmeldungen (SG Arrival Card, MDAC, TDAC).",
       hoehepunkte: "Schnorcheln auf Tioman, den Perhentians, Samui und Koh Tao, Street-Food in Penang, Delfine bei Khanom, Ang Thong, Grand Palace und Wat Arun in Bangkok.",
@@ -55,7 +55,7 @@ window.START = {
       hinflug: "Direktflug Zürich–Singapur ca. 12–13 Std.",
       rueckflug: "Kein Direktflug ab Denpasar, mit einem Stopp ca. 17–22 Std.",
       dazwischen: "1 Flug dazwischen (Kuala Lumpur–Jakarta, ca. 2–2,5 Std.), sonst Bus, Zug und Fähre",
-      tempo: "5 lange Reisetage mit 5–9 Std. (Tioman–Kuala Lumpur, Jakarta–Yogyakarta, Yogyakarta–Malang, Bromo–Banyuwangi, Banyuwangi–Ubud); dazu ein nächtlicher Ijen-Aufstieg",
+      tempo: "Zusammen ca. 50 Std. unterwegs (Bus, Zug, Fähre, ein Flug); 5 lange Reisetage mit 5–8 Std. (Tioman–Kuala Lumpur, Jakarta–Yogyakarta, Yogyakarta–Malang, Bromo–Banyuwangi, Banyuwangi–Ubud); dazu ein nächtlicher Ijen-Aufstieg",
       wetter: "Trockenzeit auf Java und Bali (beste Reisezeit, Bali Hochsaison); Bromo und Ijen sind nachts sehr kalt.",
       einreise: "Visa on Arrival bzw. e-VOA für 30 Tage reicht (ca. 23 Tage Aufenthalt), dazu Einreiseformular und Touristenabgabe für Bali. Singapur und Malaysia visafrei.",
       hoehepunkte: "Borobudur und Prambanan, Sonnenaufgang am Bromo, «Blue Fire» am Ijen, Ubud, Nusa Penida mit Mantarochen, Uluwatu.",
@@ -82,7 +82,7 @@ window.START = {
       hinflug: "Zürich–Las Vegas ca. 12 Std. direkt (nicht ganzjährig), sonst 14–17 Std.",
       rueckflug: "New York–Zürich ca. 7,5–8 Std.",
       dazwischen: "Keine Flüge dazwischen: Mietwagen und 2-Tage-Roadtrip, im Osten Amtrak",
-      tempo: "4 Fahrtage mit 5,5–7 Std. plus Roadtrip mit 10 und 12 Std. (zusammen ca. 22 Std.)",
+      tempo: "Zusammen ca. 60 Std. am Steuer (ca. 5’800 km) an 11 Fahrtagen: Roadtrip mit 10 und 12 Std., 5 Tage mit 4–7 Std., 4 Tage mit 2,5–3,5 Std.",
       wetter: "Las Vegas, Zion und White Sands 38–45 °C; ab Juli Monsungewitter und Sturzfluten im Südwesten; im Osten heiss und schwül mit Gewittern.",
       einreise: "ESTA für alle vier (ca. 40 USD pro Person), Regeln im Wandel. Nationalpark-Jahrespass für Nicht-Residenten 250 USD, 100 USD Zusatzgebühr pro Person ab 16 Jahren in 11 Parks.",
       hoehepunkte: "Zion, Antelope Canyon, Horseshoe Bend, Grand Canyon, Monument Valley, White Sands, Chicago, Niagarafälle, Washington, New York.",
@@ -95,7 +95,7 @@ window.START = {
       contra: [
         "Mit Abstand am teuersten",
         "Hitze und Monsun im Südwesten im Juli",
-        "Roadtrip mit 2 sehr langen Fahrtagen",
+        "Rund 60 Std. Autofahrt, davon 2 sehr lange Fahrtage",
         "Parkgebühren und ESTA-Regeln im Wandel"
       ]
     }
@@ -154,9 +154,9 @@ window.START = {
     },
     {
       kriterium: "Reisekomfort",
-      asien: [3, "Direktflüge hin und zurück, aber 5 lange Reisetage mit 5–9 Stunden."],
-      bali: [2, "Rückflug mit Stopp (17–22 Stunden), ein Flug dazwischen und lange Zugtage auf Java."],
-      usa: [2, "Kurze Flüge (12 und 7,5–8 Stunden), aber ein Roadtrip mit 10 und 12 Stunden an zwei Tagen."]
+      asien: [3, "Direktflüge hin und zurück, aber ca. 55–60 Stunden unterwegs, davon 6 lange Reisetage mit 5–9 Stunden."],
+      bali: [2, "Rückflug mit Stopp (17–22 Stunden), ein Flug dazwischen und lange Zugtage auf Java; zusammen ca. 50 Stunden unterwegs."],
+      usa: [2, "Kurze Flüge (12 und 7,5–8 Stunden), aber rund 60 Stunden am Steuer, davon 10 und 12 Stunden an den zwei Roadtrip-Tagen."]
     }
   ]
 };
