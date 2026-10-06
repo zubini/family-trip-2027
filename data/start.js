@@ -25,7 +25,7 @@ window.START = {
       rueckflug: "Mit dem Auto in zwei Tagen über Carcassonne (ca. 6,5–7 und 7,5–8 Std.), Ankunft Sa, 24.07.2027",
       dazwischen: "Keine Flüge: eigenes Elektroauto, dazu drei Autofähren (Dénia–Ibiza, Ibiza–Formentera, Formentera–Dénia)",
       tempo: "Ca. 69 Std. reine Reisezeit (ca. 62 Std. Elektroauto für ca. 6’100 km und ca. 6–7 Std. Fähre), realistisch mit Pausen, Ladestopps, Check-in und Stau ca. 83–86 Std.; 3 lange Fahrtage mit 6,5–8 Std. plus Ladestopps (Brig-Glis–Sète, Bardenas–Carcassonne, Carcassonne–Brig-Glis), dazu Benidorm–Granada (ca. 4–4,5 Std.) und Formentera–Benidorm (Fähre und Auto); sonst meist 2–3,5 Std.",
-      gesamt: "Ca. 83–86 Std. Tür zu Tür, ohne Flughafen und ohne Jetlag: davon realistisch ca. 74–76 Std. im Elektroauto inklusive ca. 11–13 Ladestopps (ca. 62 Std. reine Fahrzeit) und ca. 9–10 Std. für die Fähren inklusive Check-in.",
+      gesamt: "Ca. 83–86 Std. Tür zu Tür, ohne Flughafen und ohne Jetlag: davon realistisch ca. 74–76 Std. im Elektroauto inklusive ca. 11–13 Ladestopps an Superchargern (ca. 62 Std. reine Fahrzeit) und ca. 9–10 Std. für die Fähren inklusive Check-in.",
       wetter: "Heiss und trocken: in Andalusien und den Bardenas oft 35–42 °C, an den Küsten 28–32 °C; Portugal und der Norden angenehmer, Mittelmeer ca. 23–26 °C.",
       einreise: "Schengen: Identitätskarte genügt, keine Formulare. Crit’Air-Vignette für Frankreich, Registrierung für die Umweltzone Barcelona, elektronische Maut in Portugal.",
       hoehepunkte: "Sagrada Família, Oceanogràfic in Valencia, Schnorcheln an den Buchten von Ibiza und Formentera, Terra Mítica und Aqualandia in Benidorm, Alhambra und Gorafe, Cabo de Gata, Caminito del Rey, Sevilla, Kajak durch die Grotten der Algarve, Lissabon, Porto, Playa de las Catedrales, Bardenas Reales.",
@@ -35,7 +35,7 @@ window.START = {
         "Abwechslung: sieben Nächte Schnorcheln auf Ibiza und Formentera, danach Städte, Strand und Natur im Wechsel (Granada, Cabo de Gata, Caminito, Sevilla, Algarve)",
         "Städte und Kultur: Barcelona, Valencia, Granada mit der Alhambra, Sevilla, Lissabon und Porto",
         "Unkompliziert und sicher: Europa, keine Impfungen, eigenes Auto mit viel Platz fürs Gepäck",
-        "Am wenigsten CO₂ und knapp die günstigste Variante"
+        "Am wenigsten CO₂ und die günstigste Variante (Laden an Superchargern gratis)"
       ],
       contra: [
         "Ca. 74–76 Std. im Auto inklusive Ladestopps, am ersten und letzten Tag je ca. 8–9 Std.",
@@ -192,7 +192,7 @@ window.START = {
       kriterium: "Budget (mehr Punkte = günstiger)",
       spanien: [
         4,
-        "ca. {plan:spanien} CHF: knapp die günstigste Variante; kein Flug, dafür Strom, Maut, Fähren und teure Unterkünfte in der Hochsaison."
+        "ca. {plan:spanien} CHF: die günstigste Variante; kein Flug, Laden an Tesla-Superchargern gratis; dafür Maut, Fähren und teure Unterkünfte in der Hochsaison."
       ],
       usa: [1, "ca. {plan:usa} CHF: rund {mehrkosten} CHF mehr, vor allem Unterkünfte und Mietwagen."],
       asien: [4, "ca. {plan:asien} CHF: Singapur ist teuer, der Rest günstig."]

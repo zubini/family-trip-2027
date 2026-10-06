@@ -40,6 +40,8 @@ window.QUELLEN = {
         ["Barcelona.com: Umweltzone ZBE, Registrierung ausländischer Autos", "https://www.barcelona.com/transportation/zbe-barcelona"],
         ["TollGuru: Maut in Portugal (EasyToll, A22)", "https://tollguru.mapup.ai/portugal-toll"],
         ["Bison Futé: Verkehrsprognose Frankreich", "https://www.bison-fute.gouv.fr"],
+        ["Basenor: 1’000 Tesla-Supercharger-Plätze in Spanien (März 2026)", "https://www.basenor.com/blogs/news/tesla-hits-1-000-supercharger-stalls-in-spain"],
+        ["La Voz de Ibiza: öffentliche Ladepunkte auf Ibiza und Formentera", "https://lavozdeibiza.com/?p=203254"],
         ["Movilidad Eléctrica: Ionity-Preise 2026 in Europa", "https://movilidadelectrica.com/ionity-sube-precios-recarga-rapida-europa-2026/"],
         ["Mobilize Charge Pass: Ladepreise Frankreich und Spanien (Mai 2026)", "https://cdn.group.renault.com/ren/fr/energie/Tarifs_charge_pass_mai_2026.pdf"]
       ]
