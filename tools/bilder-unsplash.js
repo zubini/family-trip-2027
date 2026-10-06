@@ -52,7 +52,8 @@ for (const k of keys) {
   const R = global.REISEN[k];
   if (!R) { console.error('Unbekannte Reise: ' + k); process.exit(1); }
   if (R.titelbild && R.titelbild.suche) auftraege.push({ b: R.titelbild, orte: [] });
-  for (const s of R.stationen) s.bilder.filter(b => b.suche).slice(0, PRO_STATION).forEach(b => auftraege.push({ b, orte: ortsnamen(s), titel: b.titel }));
+  // Bilder mit fester Commons-«datei» sind von Hand ausgewählt und werden nicht auf Unsplash gesucht
+  for (const s of R.stationen) s.bilder.slice(0, PRO_STATION).filter(b => b.suche && !b.datei).forEach(b => auftraege.push({ b, orte: ortsnamen(s), titel: b.titel }));
 }
 
 const norm = t => String(t || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[_\-]/g, ' ');

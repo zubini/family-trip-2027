@@ -60,7 +60,7 @@ function commonsUrl(datei, breite) {
 var UTM = 'utm_source=familienreise_2027&utm_medium=referral';
 function unsplash(b) {
   var u = typeof window !== 'undefined' && window.UNSPLASH;
-  var f = u && b.suche && u[b.suche];
+  var f = u && b.suche && !b.datei && u[b.suche];
   return f && f.url ? f : null;
 }
 function uUrl(f, w) { return f.url + (f.url.indexOf('?') < 0 ? '?' : '&') + 'w=' + w + '&q=75&auto=format&fit=crop'; }

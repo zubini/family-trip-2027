@@ -194,12 +194,12 @@ REISEN.spanien = {
       ],
       ausserdem: "Cala Salada, Hippiemarkt Las Dalias, Salinen von Ses Salines, Santa Eulària.",
       bilder: [
-        {titel: "Cala Xarraca", suche: "Cala Xarraca Ibiza", stichwort: "xarraca"},
-        {titel: "Cala Comte", suche: "Cala Comte Ibiza", stichwort: "comte|conta"},
-        {titel: "Portinatx", suche: "Portinatx Ibiza", stichwort: "portinatx"},
-        {titel: "Punta de sa Galera", suche: "Punta Galera Ibiza", stichwort: "galera"},
+        {titel: "Cala Xarraca", datei: "Cala Xarraca - panoramio.jpg", suche: "Cala Xarraca Ibiza", stichwort: "xarraca"},
+        {titel: "Cala Comte", datei: "Cala Conta Ibiza 17 May 2011 (2).JPG", suche: "Cala Comte Ibiza", stichwort: "comte|conta"},
+        {titel: "Portinatx", datei: "Cala de Portinatx, Ibiza (1672988340).jpg", suche: "Portinatx Ibiza", stichwort: "portinatx"},
+        {titel: "Bei der Punta de sa Galera", datei: "Cap Nono desde Punta Galera - panoramio.jpg", suche: "Punta Galera Ibiza", stichwort: "galera"},
         {titel: "Es Vedrà", suche: "Es Vedra Ibiza", stichwort: "vedr"},
-        {titel: "Dalt Vila", suche: "Dalt Vila Ibiza", stichwort: "dalt vila"}
+        {titel: "Dalt Vila", datei: "Ibiza City Dalt Vila from seaport asv2023-04.jpg", suche: "Dalt Vila Ibiza", stichwort: "dalt vila"}
       ]
     },
     {
@@ -221,9 +221,9 @@ REISEN.spanien = {
       ausserdem: "Leuchtturm Cap de Barbaria, Salinen, Es Pujols, Markt in Sant Francesc.",
       bilder: [
         {titel: "Ses Illetes", suche: "Ses Illetes Formentera", stichwort: "illetes"},
-        {titel: "Cala Saona", suche: "Cala Saona Formentera", stichwort: "saona"},
-        {titel: "Es Caló", suche: "Es Calo Formentera", stichwort: "calo|caló"},
-        {titel: "S’Espalmador", suche: "Espalmador Formentera", stichwort: "espalmador"},
+        {titel: "Cala Saona", datei: "Formentera. Cala Saona. Varadors.jpg", suche: "Cala Saona Formentera", stichwort: "saona"},
+        {titel: "Es Caló", datei: "Formentera Es Caló de Sant Agustí.jpg", suche: "Es Calo Formentera", stichwort: "calo|caló"},
+        {titel: "S’Espalmador", datei: "Isla de Espalmador, Formentera. Islas Baleares.jpg", suche: "Espalmador Formentera", stichwort: "espalmador"},
         {titel: "Cap de Barbaria", suche: "Cap de Barbaria lighthouse", stichwort: "barbaria"},
         {titel: "Leuchtturm La Mola", suche: "Far de la Mola Formentera", stichwort: "mola"}
       ]
