@@ -79,10 +79,8 @@
 <polyline points="635.6,504.3 652.5,500.4" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Mallorca</title></polyline>
 <polyline points="635.6,504.3 626.2,436.3 612.5,384.4" fill="none" stroke="#fff" stroke-width="6.0" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
 <polyline points="635.6,504.3 626.2,436.3 612.5,384.4" fill="none" stroke="#E08A12" stroke-width="3.0" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 6"><title>Fähre oder Boot: Palma – Barcelona (Autofähre)</title></polyline>
-<polyline points="612.5,384.4 633.7,363.5 644.6,345.0 653.5,343.7 663.3,340.1" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
-<polyline points="612.5,384.4 633.7,363.5 644.6,345.0 653.5,343.7 663.3,340.1" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Barcelona – Costa Brava</title></polyline>
-<polyline points="663.3,340.1 655.9,337.1 651.5,326.1 648.3,297.5 653.7,265.5 696.9,237.2 720.8,222.3 743.1,214.8" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
-<polyline points="663.3,340.1 655.9,337.1 651.5,326.1 648.3,297.5 653.7,265.5 696.9,237.2 720.8,222.3 743.1,214.8" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Costa Brava – Perpignan – Montpellier – Avignon</title></polyline>
+<polyline points="612.5,384.4 633.7,363.5 644.6,345.0 651.5,326.1 648.3,297.5 653.7,265.5 696.9,237.2 720.8,222.3 743.1,214.8" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="612.5,384.4 633.7,363.5 644.6,345.0 651.5,326.1 648.3,297.5 653.7,265.5 696.9,237.2 720.8,222.3 743.1,214.8" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Barcelona – Girona – Perpignan – Montpellier – Avignon</title></polyline>
 <polyline points="743.1,214.8 743.1,202.4 747.1,149.8 744.4,94.9 769.8,82.6 792.1,79.3 809.1,65.8 829.2,49.6 844.1,54.2 855.0,72.7 900.4,58.4" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
 <polyline points="743.1,214.8 743.1,202.4 747.1,149.8 744.4,94.9 769.8,82.6 792.1,79.3 809.1,65.8 829.2,49.6 844.1,54.2 855.0,72.7 900.4,58.4" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Avignon – Lyon – Genf – Brig-Glis</title></polyline>
 <g><title>Zwischenübernachtung Brig-Glis</title><circle cx="900.4" cy="58.4" r="6" fill="#fff" stroke="#718096" stroke-width="2.5"/></g>
@@ -105,8 +103,7 @@
 <g><title>8. Playa de las Catedrales: Mo, 05.07.2027 – Mi, 07.07.2027, 2 Nächte</title><circle cx="156.4" cy="242.2" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
 <g><title>9. Bardenas Reales: Do, 08.07.2027 – Fr, 09.07.2027, 1 Nacht</title><circle cx="428.2" cy="335.1" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
 <g><title>10. Benidorm: Fr, 09.07.2027 – Mo, 12.07.2027, 3 Nächte</title><circle cx="498.5" cy="572.4" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
-<g><title>11. Ibiza und Formentera: Mo, 12.07.2027 – Do, 15.07.2027, 3 Nächte</title><circle cx="575.8" cy="548.0" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
-<g><title>12. Mallorca: Do, 15.07.2027 – Mo, 19.07.2027, 4 Nächte</title><circle cx="652.5" cy="500.4" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
-<g><title>13. Barcelona: Mo, 19.07.2027 – Mi, 21.07.2027, 2 Nächte</title><circle cx="612.5" cy="384.4" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
-<g><title>14. Costa Brava: Mi, 21.07.2027 – Fr, 23.07.2027, 2 Nächte</title><circle cx="663.3" cy="340.1" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
+<g><title>11. Ibiza und Formentera: Mo, 12.07.2027 – Fr, 16.07.2027, 4 Nächte</title><circle cx="575.8" cy="548.0" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
+<g><title>12. Mallorca: Fr, 16.07.2027 – Mi, 21.07.2027, 5 Nächte</title><circle cx="652.5" cy="500.4" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
+<g><title>13. Barcelona: Mi, 21.07.2027 – Fr, 23.07.2027, 2 Nächte</title><circle cx="612.5" cy="384.4" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
 </svg>

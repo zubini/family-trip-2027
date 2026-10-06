@@ -45,10 +45,8 @@
 <text class="sea" x="673.3" y="561.8" text-anchor="middle">Balearen</text>
 <polyline points="900.4,58.4 855.0,72.7 844.1,54.2 829.2,49.6 809.1,65.8 792.1,79.3 769.8,82.6 744.4,94.9 747.1,149.8 743.1,202.4 720.8,222.3 696.9,237.2 688.0,251.0" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
 <polyline points="900.4,58.4 855.0,72.7 844.1,54.2 829.2,49.6 809.1,65.8 792.1,79.3 769.8,82.6 744.4,94.9 747.1,149.8 743.1,202.4 720.8,222.3 696.9,237.2 688.0,251.0" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Brig-Glis – Genf – Lyon – Montpellier – Sète</title></polyline>
-<polyline points="688.0,251.0 653.7,265.5 648.3,297.5 647.0,314.0 651.5,326.1 655.9,337.1 663.3,340.1" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
-<polyline points="688.0,251.0 653.7,265.5 648.3,297.5 647.0,314.0 651.5,326.1 655.9,337.1 663.3,340.1" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Sète – Perpignan – L’Estartit (Costa Brava)</title></polyline>
-<polyline points="663.3,340.1 644.6,345.0 633.7,363.5 612.5,384.4" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
-<polyline points="663.3,340.1 644.6,345.0 633.7,363.5 612.5,384.4" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Costa Brava – Barcelona</title></polyline>
+<polyline points="688.0,251.0 653.7,265.5 648.3,297.5 647.0,314.0 651.5,326.1 644.6,345.0 633.7,363.5 612.5,384.4" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="688.0,251.0 653.7,265.5 648.3,297.5 647.0,314.0 651.5,326.1 644.6,345.0 633.7,363.5 612.5,384.4" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Sète – Perpignan – Barcelona</title></polyline>
 <polyline points="612.5,384.4 626.2,436.3 635.6,504.3" fill="none" stroke="#fff" stroke-width="6.0" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
 <polyline points="612.5,384.4 626.2,436.3 635.6,504.3" fill="none" stroke="#E08A12" stroke-width="3.0" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 6"><title>Fähre oder Boot: Barcelona – Palma (Autofähre)</title></polyline>
 <polyline points="635.6,504.3 652.5,500.4" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
@@ -93,17 +91,16 @@
 <text class="tl" x="369.7" y="252.2">Bilbao</text>
 <g><title>Umstieg: Dénia</title><circle cx="510.2" cy="552.6" r="4.5" fill="#fff" stroke="#718096" stroke-width="2"/></g>
 <text class="tl" x="501.2" y="556.6" text-anchor="end">Dénia</text>
-<g><title>1. Costa Brava: Sa, 19.06.2027 – Di, 22.06.2027, 3 Nächte</title><circle cx="663.3" cy="340.1" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
-<g><title>2. Barcelona: Di, 22.06.2027 – Do, 24.06.2027, 2 Nächte</title><circle cx="612.5" cy="384.4" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
-<g><title>3. Mallorca: Do, 24.06.2027 – Mo, 28.06.2027, 4 Nächte</title><circle cx="652.5" cy="500.4" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
-<g><title>4. Ibiza und Formentera: Mo, 28.06.2027 – Do, 01.07.2027, 3 Nächte</title><circle cx="575.8" cy="548.0" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
-<g><title>5. Benidorm: Do, 01.07.2027 – So, 04.07.2027, 3 Nächte</title><circle cx="498.5" cy="572.4" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
-<g><title>6. Cabo de Gata: So, 04.07.2027 – Mi, 07.07.2027, 3 Nächte</title><circle cx="400.7" cy="689.7" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
-<g><title>7. Granada: Mi, 07.07.2027 – Sa, 10.07.2027, 3 Nächte</title><circle cx="326.8" cy="662.5" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
-<g><title>8. Caminito del Rey: Sa, 10.07.2027 – Mo, 12.07.2027, 2 Nächte</title><circle cx="269.4" cy="680.4" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
-<g><title>9. Sevilla: Mo, 12.07.2027 – Do, 15.07.2027, 3 Nächte</title><circle cx="208.7" cy="648.5" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
-<g><title>10. Lissabon: Do, 15.07.2027 – Sa, 17.07.2027, 2 Nächte</title><circle cx="52.5" cy="560.4" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
-<g><title>11. Porto: Sa, 17.07.2027 – Mo, 19.07.2027, 2 Nächte</title><circle cx="78.7" cy="399.9" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
-<g><title>12. Playa de las Catedrales: Mo, 19.07.2027 – Mi, 21.07.2027, 2 Nächte</title><circle cx="156.4" cy="242.2" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
-<g><title>13. Bardenas Reales: Do, 22.07.2027 – Fr, 23.07.2027, 1 Nacht</title><circle cx="428.2" cy="335.1" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
+<g><title>1. Barcelona: Sa, 19.06.2027 – Mo, 21.06.2027, 2 Nächte</title><circle cx="612.5" cy="384.4" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
+<g><title>2. Mallorca: Mo, 21.06.2027 – Sa, 26.06.2027, 5 Nächte</title><circle cx="652.5" cy="500.4" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
+<g><title>3. Ibiza und Formentera: Sa, 26.06.2027 – Mi, 30.06.2027, 4 Nächte</title><circle cx="575.8" cy="548.0" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
+<g><title>4. Benidorm: Mi, 30.06.2027 – So, 04.07.2027, 4 Nächte</title><circle cx="498.5" cy="572.4" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
+<g><title>5. Cabo de Gata: So, 04.07.2027 – Mi, 07.07.2027, 3 Nächte</title><circle cx="400.7" cy="689.7" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
+<g><title>6. Granada: Mi, 07.07.2027 – Sa, 10.07.2027, 3 Nächte</title><circle cx="326.8" cy="662.5" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
+<g><title>7. Caminito del Rey: Sa, 10.07.2027 – Mo, 12.07.2027, 2 Nächte</title><circle cx="269.4" cy="680.4" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
+<g><title>8. Sevilla: Mo, 12.07.2027 – Do, 15.07.2027, 3 Nächte</title><circle cx="208.7" cy="648.5" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
+<g><title>9. Lissabon: Do, 15.07.2027 – Sa, 17.07.2027, 2 Nächte</title><circle cx="52.5" cy="560.4" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
+<g><title>10. Porto: Sa, 17.07.2027 – Mo, 19.07.2027, 2 Nächte</title><circle cx="78.7" cy="399.9" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
+<g><title>11. Playa de las Catedrales: Mo, 19.07.2027 – Mi, 21.07.2027, 2 Nächte</title><circle cx="156.4" cy="242.2" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
+<g><title>12. Bardenas Reales: Do, 22.07.2027 – Fr, 23.07.2027, 1 Nacht</title><circle cx="428.2" cy="335.1" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
 </svg>

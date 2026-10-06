@@ -17,17 +17,17 @@ window.START = {
       name: "Spanien / Portugal",
       zusatz: "Roadtrip ab Brig-Glis",
       passt: "ihr ohne Flug und Jetlag reisen, Städte, Kultur und Strände verbinden und die langen Autofahrten in Kauf nehmen möchtet.",
-      kurz: "Fünf Wochen mit dem eigenen Auto über die Costa Brava, Barcelona, die Balearen und Benidorm nach Andalusien, Portugal und in den Norden Spaniens. Auf der Reiseseite auch in umgekehrter Reihenfolge (Andalusien zuerst).",
-      route: "Brig-Glis, Sète, Costa Brava, Barcelona, Mallorca, Ibiza und Formentera, Benidorm, Cabo de Gata, Granada, Caminito del Rey, Sevilla, Lissabon, Porto, Playa de las Catedrales, Bilbao, Bardenas Reales, Carcassonne, Brig-Glis",
-      stationen: "13 Stationen und 3 Zwischenübernachtungen",
+      kurz: "Fünf Wochen mit dem eigenen Auto über Barcelona, die Balearen und Benidorm nach Andalusien, Portugal und in den Norden Spaniens. Auf der Reiseseite auch in umgekehrter Reihenfolge (Andalusien zuerst).",
+      route: "Brig-Glis, Sète, Barcelona, Mallorca, Ibiza und Formentera, Benidorm, Cabo de Gata, Granada, Caminito del Rey, Sevilla, Lissabon, Porto, Playa de las Catedrales, Bilbao, Bardenas Reales, Carcassonne, Brig-Glis",
+      stationen: "12 Stationen und 3 Zwischenübernachtungen",
       laender: "Frankreich, Spanien, Portugal",
-      hinflug: "Kein Flug: mit dem eigenen Auto ab Brig-Glis, Zwischenstopp am Meer in Sète (ca. 7–7,5 Std.), dann an die Costa Brava (ca. 3 Std.)",
+      hinflug: "Kein Flug: mit dem eigenen Auto ab Brig-Glis, Zwischenstopp am Meer in Sète (ca. 7–7,5 Std.), dann nach Barcelona (ca. 3–3,5 Std.)",
       rueckflug: "Mit dem Auto in zwei Tagen über Carcassonne (ca. 6,5–7 und 7,5–8 Std.), Ankunft Sa, 24.07.2027",
       dazwischen: "Keine Flüge: eigenes Auto, dazu drei Autofähren (Barcelona–Palma, Palma–Ibiza, Ibiza–Dénia)",
-      tempo: "Ca. 68 Std. reine Reisezeit (ca. 55 Std. Auto für ca. 5’500 km und ca. 13 Std. Fähre), realistisch mit Pausen, Check-in und Stau ca. 78–80 Std.; 5 lange Reisetage mit 6,5–8 Std. (Brig-Glis–Sète, Fähre Barcelona–Palma, Bardenas–Carcassonne, Carcassonne–Brig-Glis) bzw. 4,5–5 Std. (Sevilla–Lissabon)",
+      tempo: "Ca. 67 Std. reine Reisezeit (ca. 54 Std. Auto für ca. 5’500 km und ca. 13 Std. Fähre), realistisch mit Pausen, Check-in und Stau ca. 77–79 Std.; 5 lange Reisetage mit 6,5–8 Std. (Brig-Glis–Sète, Fähre Barcelona–Palma, Bardenas–Carcassonne, Carcassonne–Brig-Glis) bzw. 4,5–5 Std. (Sevilla–Lissabon)",
       wetter: "Heiss und trocken: in Andalusien und den Bardenas oft 35–42 °C, an den Küsten 28–32 °C; Portugal und der Norden angenehmer, Mittelmeer ca. 23–26 °C.",
       einreise: "Schengen: Identitätskarte genügt, keine Formulare. Crit’Air-Vignette für Frankreich, Registrierung für die Umweltzone Barcelona, elektronische Maut in Portugal.",
-      hoehepunkte: "Islas Medas und Sa Tuna, Sagrada Família, Inselhopping mit dem Auto auf Mallorca, Ibiza und Formentera, Terra Mítica und Aqualandia in Benidorm, Cabo de Gata, Alhambra und Gorafe, Caminito del Rey, Sevilla, Lissabon, Porto, Playa de las Catedrales, Bardenas Reales.",
+      hoehepunkte: "Sagrada Família, Inselhopping mit dem Auto auf Mallorca, Ibiza und Formentera, Terra Mítica und Aqualandia in Benidorm, Cabo de Gata, Alhambra und Gorafe, Caminito del Rey, Sevilla, Lissabon, Porto, Playa de las Catedrales, Bardenas Reales.",
       teens: "Freizeit- und Wasserparks (Terra Mítica, Aqualandia, Isla Mágica), Schnorcheln und Kajak, Caminito del Rey, Game-of-Thrones-Drehorte, Höhlen und Felsbögen bei Ebbe, Surfen in Galicien.",
       pro: [
         "Kein Flug, kein Jetlag, zwei Tage länger möglich",
@@ -35,7 +35,7 @@ window.START = {
         "Sehr abwechslungsreich: Städte, Kultur, Inseln, Strände und Wüsten"
       ],
       contra: [
-        "Viele Stunden im Auto (realistisch ca. 78–80 Std.), lange An- und Rückreise",
+        "Viele Stunden im Auto (realistisch ca. 77–79 Std.), lange An- und Rückreise",
         "Grosse Hitze in Andalusien und den Bardenas",
         "Hochsaison: Fähren, Inseln und Alhambra früh buchen",
         "Kaum Dschungel, Schnorcheln ohne tropische Riffe"
@@ -159,7 +159,7 @@ window.START = {
       kriterium: "Schnorcheln",
       spanien: [
         2,
-        "Islas Medas (Meeresschutzgebiet), Sa Tuna, Formentera und Cabo de Gata: klares Mittelmeer mit Fischen und Seegras, aber keine Korallen und kühleres Wasser."
+        "Mallorca, Ibiza, Formentera und Cabo de Gata: klares Mittelmeer mit Fischen und Seegras, aber keine Korallen und kühleres Wasser."
       ],
       usa: [0, "Kein Schnorcheln im Meer; höchstens Baden im Lake Powell oder in den Narrows."],
       asien: [
@@ -202,7 +202,7 @@ window.START = {
       kriterium: "Reisekomfort",
       spanien: [
         3,
-        "Kein Flug, kein Jetlag und das eigene Auto mit viel Platz fürs Gepäck, die meisten Etappen 1,5–3 Stunden; aber realistisch ca. 78–80 Stunden unterwegs, je ca. 7–8 Stunden am ersten und letzten Tag, und jemand muss fahren."
+        "Kein Flug, kein Jetlag und das eigene Auto mit viel Platz fürs Gepäck, die meisten Etappen 1,5–3 Stunden; aber realistisch ca. 77–79 Stunden unterwegs, je ca. 7–8 Stunden am ersten und letzten Tag, und jemand muss fahren."
       ],
       usa: [
         2,

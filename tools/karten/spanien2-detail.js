@@ -1,4 +1,4 @@
-// Detailkarte Spanien / Portugal in umgekehrter Reihenfolge mit den Stationen 1 bis 14.
+// Detailkarte Spanien / Portugal in umgekehrter Reihenfolge mit den Stationen 1 bis 13.
 const { orte, wege2: wege, stationen2: stationen } = require('./_spanien.js');
 module.exports = {
   reise: 'spanien2',

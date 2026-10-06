@@ -8,7 +8,7 @@ REISEN.spanien2 = {
   menu: "Spanien / Portugal (umgekehrt)",
   alternativeZu: "spanien",
   variante: "Andalusien zuerst",
-  untertitel: "Fünf Wochen Roadtrip ab Brig-Glis in umgekehrter Reihenfolge: Start in Valencia, dann Andalusien, Portugal und der Norden, zum Schluss Benidorm, die Inseln, Barcelona und die Costa Brava.",
+  untertitel: "Fünf Wochen Roadtrip ab Brig-Glis in umgekehrter Reihenfolge: Start in Valencia, dann Andalusien, Portugal und der Norden, zum Schluss Benidorm, die Inseln und Barcelona.",
   zeitraum: "Fr, 18.06.2027 bis Sa, 24.07.2027, 2 Erwachsene und 2 Kids",
   titelbild: {
     suche: "Playa de las Catedrales|Bardenas Reales Castildetierra|Caminito del Rey",
@@ -60,19 +60,18 @@ REISEN.spanien2 = {
       info: "Auto über Saragossa, Teruel und Valencia (ca. 5–5,5 Std., ca. 500 km)"
     },
     {
-      datum: "12.–15. Juli",
+      datum: "12.–16. Juli",
       name: "11. Ibiza und Formentera",
-      naechte: 3,
+      naechte: 4,
       info: "Auto nach Dénia (ca. 40–45 Min.), Autofähre Dénia–Ibiza (ca. 2,5 Std.)"
     },
-    {datum: "15.–19. Juli", name: "12. Mallorca", naechte: 4, info: "Autofähre Ibiza–Palma (ca. 2,5–4 Std.)"},
-    {datum: "19.–21. Juli", name: "13. Barcelona", naechte: 2, info: "Autofähre Palma–Barcelona (ca. 6,5–7,5 Std.)"},
-    {datum: "21.–23. Juli", name: "14. Costa Brava", naechte: 2, info: "Auto (ca. 1,5 Std.)"},
+    {datum: "16.–21. Juli", name: "12. Mallorca", naechte: 5, info: "Autofähre Ibiza–Palma (ca. 2,5–4 Std.)"},
+    {datum: "21.–23. Juli", name: "13. Barcelona", naechte: 2, info: "Autofähre Palma–Barcelona (ca. 6,5–7,5 Std.)"},
     {
       datum: "23.–24. Juli",
       name: "Zwischenübernachtung Avignon",
       naechte: 1,
-      info: "Auto über Perpignan und Montpellier (ca. 3,5 Std., ca. 340 km)"
+      info: "Auto über Girona, Perpignan und Montpellier (ca. 4–4,5 Std., ca. 430 km)"
     }
   ],
   rueckflug: {
@@ -83,11 +82,11 @@ REISEN.spanien2 = {
   planHinweise: [
     [
       "Gesamt",
-      "36 Nächte, 14 Stationen und 3 Zwischenübernachtungen (Sète, Bilbao, Avignon). Keine Flüge: alles mit dem eigenen Auto, zu den Inseln mit drei Autofähren. Insgesamt ca. 5’900 km Autofahrt und ca. 13 Std. auf Fähren, zusammen ca. 72 Std. reine Reisezeit (ca. 59 Std. Auto und 13 Std. Fähre); mit Pausen, Check-in an den Häfen und Sommerstau realistisch ca. 83–88 Std. Die längsten Reisetage: Brig-Glis–Sète (ca. 7–7,5 Std.), Fähre Palma–Barcelona (ca. 6,5–7,5 Std.), Sète–Valencia (ca. 6–6,5 Std.), Bardenas–Benidorm (ca. 5–5,5 Std.), Avignon–Brig-Glis (ca. 5–5,5 Std.), Valencia–Cabo de Gata (ca. 4,5–5 Std.) und Sevilla–Lissabon (ca. 4,5–5 Std.). Nach den zwei Fahrtagen zum Start zwei Nächte Pause in Valencia."
+      "36 Nächte, 13 Stationen und 3 Zwischenübernachtungen (Sète, Bilbao, Avignon). Keine Flüge: alles mit dem eigenen Auto, zu den Inseln mit drei Autofähren. Insgesamt ca. 5’850 km Autofahrt und ca. 13 Std. auf Fähren, zusammen ca. 71 Std. reine Reisezeit (ca. 58 Std. Auto und 13 Std. Fähre); mit Pausen, Check-in an den Häfen und Sommerstau realistisch ca. 82–87 Std. Die längsten Reisetage: Brig-Glis–Sète (ca. 7–7,5 Std.), Fähre Palma–Barcelona (ca. 6,5–7,5 Std.), Sète–Valencia (ca. 6–6,5 Std.), Bardenas–Benidorm (ca. 5–5,5 Std.), Avignon–Brig-Glis (ca. 5–5,5 Std.), Valencia–Cabo de Gata (ca. 4,5–5 Std.) und Sevilla–Lissabon (ca. 4,5–5 Std.). Nach den zwei Fahrtagen zum Start zwei Nächte Pause in Valencia."
     ],
     [
       "Vorab buchen",
-      "Autofähren Dénia–Ibiza, Ibiza–Palma und Palma–Barcelona (Mitte Juli Hochsaison, früh buchen, Check-in 60–90 Min. vor Abfahrt), Unterkünfte auf den Inseln, in Benidorm und an der Costa Brava, Alhambra (im Sommer oft drei Monate im Voraus ausverkauft), Caminito del Rey, Oceanogràfic in Valencia, Sagrada Família, Terra Mítica oder Aqualandia, Reservation für die Playa de las Catedrales (gratis, frühestens 30 Tage vorher)."
+      "Autofähren Dénia–Ibiza, Ibiza–Palma und Palma–Barcelona (Mitte Juli Hochsaison, früh buchen, Check-in 60–90 Min. vor Abfahrt), Unterkünfte auf den Inseln und in Benidorm, Alhambra (im Sommer oft drei Monate im Voraus ausverkauft), Caminito del Rey, Oceanogràfic in Valencia, Sagrada Família, Terra Mítica oder Aqualandia, Reservation für die Playa de las Catedrales (gratis, frühestens 30 Tage vorher)."
     ],
     [
       "Auto",
@@ -105,7 +104,7 @@ REISEN.spanien2 = {
     karten: [
       {datei: "karten/spanien2.svg"},
       {
-        titel: "Spanien und Portugal im Detail, umgekehrte Reihenfolge (Stationen 1 bis 14)",
+        titel: "Spanien und Portugal im Detail, umgekehrte Reihenfolge (Stationen 1 bis 13)",
         datei: "karten/spanien2-detail.svg"
       }
     ]
@@ -114,7 +113,7 @@ REISEN.spanien2 = {
   abwechslung: [
     [
       "Action und Freizeitparks",
-      "Oceanogràfic in Valencia, Terra Mítica und Aqualandia in Benidorm, Caminito del Rey, Kajak und Schnorcheln bei den Islas Medas, Coasteering auf Mallorca, Isla Mágica in Sevilla; optional PortAventura."
+      "Oceanogràfic in Valencia, Terra Mítica und Aqualandia in Benidorm, Caminito del Rey, Schnorcheln und Kajak auf Mallorca und Ibiza, Coasteering auf Mallorca, Isla Mágica in Sevilla; optional PortAventura."
     ],
     [
       "Kultur und Geschichte",
@@ -126,14 +125,14 @@ REISEN.spanien2 = {
     ],
     [
       "Strand und Schnorcheln",
-      "Cabo de Gata, Benidorm, Ibiza und Formentera, Mallorca und die Costa Brava (Islas Medas, Sa Tuna); im Mittelmeer ist das Wasser Ende Juni ca. 23 °C, Ende Juli ca. 25–26 °C warm, am Atlantik deutlich kühler."
+      "Cabo de Gata, Benidorm, Ibiza und Formentera, Mallorca; im Mittelmeer ist das Wasser Ende Juni ca. 23 °C, Ende Juli ca. 25–26 °C warm, am Atlantik deutlich kühler."
     ],
     [
       "Mitmachen",
       "Tapas- und Paella-Kurs, Velotour in Sevilla oder Lissabon, Bootstour auf dem Douro in Porto, Surf-Schnupperstunde in Galicien."
     ]
   ],
-  stationenIntro: "Vierzehn Stationen: Start in Valencia, dann Andalusien, Portugal und der Norden, zum Schluss Benidorm, die Balearen, Barcelona und die Costa Brava. Über jeder Station steht, wie ihr dorthin kommt.",
+  stationenIntro: "Dreizehn Stationen: Start in Valencia, dann Andalusien, Portugal und der Norden, zum Schluss Benidorm, die Balearen und Barcelona. Über jeder Station steht, wie ihr dorthin kommt.",
   stationen: [
     {
       nr: 1,
@@ -404,13 +403,13 @@ REISEN.spanien2 = {
       name: "Ibiza und Formentera",
       land: "es",
       region: "Balearen",
-      datum: "12.–15. Juli",
-      naechte: "3 Nächte",
+      datum: "12.–16. Juli",
+      naechte: "4 Nächte",
       anreise: "Mit dem Auto nach Dénia (ca. 40–45 Min., ca. 50 km), dann Autofähre Dénia–Ibiza (ca. 2,5 Std.); Check-in mit dem Auto ca. 60–90 Min. vor Abfahrt. Nach Formentera als Tagesausflug ohne Auto mit der Schnellfähre ab Ibiza-Stadt (ca. 30 Min.).",
       text: "Ibiza abseits der Partys: ruhige Buchten im Norden, die Altstadt Dalt Vila und das türkisfarbene Wasser von Formentera mit seinen Seegraswiesen.",
       teens: "Tagesausflug nach Formentera mit Velos (Ses Illetes), Schnorcheln in klarem Wasser, Sonnenuntergang bei Es Vedrà, Altstadt Dalt Vila.",
       fakten: [
-        "<strong>Dauer:</strong> 3 Nächte: ein ganzer Tag auf Formentera, ein Tag Buchten und Schnorcheln auf Ibiza, ein Tag Dalt Vila und Sonnenuntergang bei Es Vedrà.",
+        "<strong>Dauer:</strong> 4 Nächte: ein ganzer Tag auf Formentera, zwei Tage Buchten und Schnorcheln auf Ibiza (z.B. Cala Comte), ein Tag Dalt Vila und Sonnenuntergang bei Es Vedrà.",
         "<strong>Formentera:</strong> Mit dem Auto auf die Insel ist teuer und im Sommer geregelt; ohne Auto per Schnellfähre und Velo ist einfacher.",
         "<strong>Unterkunft:</strong> Im Norden oder Osten (z.B. Santa Eulària) ruhiger als in Sant Antoni."
       ],
@@ -429,13 +428,13 @@ REISEN.spanien2 = {
       name: "Mallorca",
       land: "es",
       region: "Balearen",
-      datum: "15.–19. Juli",
-      naechte: "4 Nächte",
+      datum: "16.–21. Juli",
+      naechte: "5 Nächte",
       anreise: "Autofähre Ibiza–Palma (ca. 2,5–4 Std., je nach Schiff); Check-in mit dem Auto ca. 60–90 Min. vor Abfahrt.",
       text: "Die grösste Baleareninsel mit Buchten, dem Tramuntana-Gebirge und der Altstadt von Palma. Mit dem eigenen Auto erreicht ihr auch die ruhigeren Ecken.",
       teens: "Coasteering oder Kajak an der Steilküste, Drachenhöhlen bei Porto Cristo, Baden in der Cala Mondragó oder Caló des Moro, Fahrt durch die Serra de Tramuntana nach Sa Calobra.",
       fakten: [
-        "<strong>Dauer:</strong> 4 Nächte, z.B. im Osten oder Südosten. Ein Tag Palma, ein Tag Tramuntana, zwei Strandtage. Mitte Juli ist Hochsaison: Strände früh, Unterkunft früh buchen.",
+        "<strong>Dauer:</strong> 5 Nächte, z.B. im Osten oder Südosten. Ein Tag Palma, ein Tag Tramuntana, drei Strand- und Schnorcheltage (z.B. Caló des Moro, Bootsausflug nach Cabrera). Mitte Juli ist Hochsaison: Strände früh, Unterkunft früh buchen.",
         "<strong>Touristenabgabe:</strong> Auf den Balearen gilt eine Abgabe pro Person und Nacht; Kinder unter 16 sind befreit.",
         "<strong>Strassen:</strong> Die Bergstrasse nach Sa Calobra ist sehr kurvig und im Sommer voll; früh fahren."
       ],
@@ -451,16 +450,16 @@ REISEN.spanien2 = {
     },
     {
       nr: 13,
-      name: "Barcelona",
+      name: "Barcelona (Schluss)",
       land: "es",
       region: "Katalonien",
-      datum: "19.–21. Juli",
+      datum: "21.–23. Juli",
       naechte: "2 Nächte",
       anreise: "Autofähre Palma–Barcelona mit Baleària, Trasmed oder GNV (ca. 6,5–7,5 Std.), als Tagesfähre oder Nachtfähre mit Kabine. Das Auto vorab für die Umweltzone registrieren und im Hotel-Parkhaus abstellen; in der Stadt Metro und zu Fuss.",
       text: "Gaudís Bauten, Altstadtgassen, Strand und eine lebendige Grossstadt. In der Nacht vom 23. auf den 24. Juni feiert die Stadt Sant Joan mit Feuerwerk und Feuern am Strand.",
       teens: "Sagrada Família (Turm), Park Güell, Camp Nou bzw. Barça-Museum, Seilbahn auf den Montjuïc, Strand Barceloneta, Markt La Boqueria.",
       fakten: [
-        "<strong>Dauer:</strong> 2 Nächte: ein Tag Sagrada Família und Park Güell, ein Tag Altstadt, Hafen und Strand.",
+        "<strong>Dauer:</strong> 2 Nächte: ein Tag Sagrada Família und Park Güell, ein Tag Altstadt, Hafen und Strand. Danach über Girona, Perpignan und Montpellier nach Avignon (ca. 4–4,5 Std.), am nächsten Tag nach Brig-Glis (ca. 5–5,5 Std.).",
         "<strong>Tickets:</strong> Sagrada Família und Park Güell nur online mit Zeitfenster; Kinder unter 11 gratis, brauchen aber ein Ticket.",
         "<strong>Taschendiebe:</strong> Auf den Ramblas, in der Metro und am Strand Wertsachen gut verstauen."
       ],
@@ -472,31 +471,6 @@ REISEN.spanien2 = {
         {titel: "Barri Gòtic", suche: "Barri Gotic Barcelona", stichwort: "gotic|gòtic"},
         {titel: "Barceloneta", suche: "Barceloneta beach", stichwort: "barceloneta"},
         {titel: "Montjuïc", suche: "Montjuic cable car|Montjuic", stichwort: "montju"}
-      ]
-    },
-    {
-      nr: 14,
-      name: "Costa Brava (Schluss)",
-      land: "es",
-      region: "Katalonien",
-      datum: "21.–23. Juli",
-      naechte: "2 Nächte",
-      anreise: "Mit dem Auto von Barcelona an die Costa Brava (ca. 1,5 Std., ca. 140 km).",
-      text: "Felsige Buchten, Pinienwälder und kleine Fischerorte zwischen der französischen Grenze und Barcelona. Vor L’Estartit liegen die Islas Medas, eines der besten Schnorchel- und Tauchgebiete im westlichen Mittelmeer.",
-      teens: "Schnorcheln oder Glasbodenboot im Meeresschutzgebiet der Islas Medas, Kajak entlang der Küste, Baden in der Bucht Sa Tuna, Küstenpfad (Camí de Ronda) von Begur aus.",
-      fakten: [
-        "<strong>Dauer:</strong> 2 Nächte, z.B. in L’Estartit oder Begur: ein Tag Islas Medas, ein Tag Buchten um Begur. Danach über Perpignan und Montpellier nach Avignon (ca. 3,5 Std.), am nächsten Tag nach Brig-Glis (ca. 5–5,5 Std.).",
-        "<strong>Islas Medas:</strong> Bootstouren mit Schnorcheln ab L’Estartit dauern ca. 2–2,5 Std.; das Schutzgebiet ist reich an Fischen, Zackenbarschen und Seegras.",
-        "<strong>Sa Tuna:</strong> Kleine Kiesbucht ca. 3 km von Begur; im Sommer früh kommen, die Parkplätze sind knapp."
-      ],
-      ausserdem: "Altstadt von Begur und Pals, Dalí-Museum in Figueres, Girona (Altstadt), Cala Aiguablava, Calella de Palafrugell.",
-      bilder: [
-        {titel: "Islas Medas", suche: "Medes Islands|Illes Medes L'Estartit", stichwort: "medes|medas"},
-        {titel: "Sa Tuna", suche: "Cala Sa Tuna Begur|Sa Tuna", stichwort: "tuna"},
-        {titel: "Begur", suche: "Begur Costa Brava|Begur castle", stichwort: "begur"},
-        {titel: "Aiguablava", suche: "Aiguablava|Cala Aiguablava", stichwort: "aiguablava"},
-        {titel: "Pals", suche: "Pals Girona medieval village|Pals", stichwort: "pals"},
-        {titel: "Calella de Palafrugell", suche: "Calella de Palafrugell", stichwort: "calella"}
       ]
     }
   ],
@@ -530,7 +504,7 @@ REISEN.spanien2 = {
         "Unterkunft (Familienzimmer, Apartment oder 2 Zimmer)",
         "5’900–10’400",
         "8’000",
-        "ca. 160–290 CHF pro Nacht; Inseln und Costa Brava Mitte Juli am teuersten"
+        "ca. 160–290 CHF pro Nacht; die Inseln Mitte Juli am teuersten"
       ],
       ["Verpflegung (Tapas, Restaurants, Einkauf)", "3’600–6’150", "4’750", "ca. 100–170 CHF pro Tag für 4 Personen"],
       [
@@ -560,10 +534,9 @@ REISEN.spanien2 = {
       ["Zwischenübernachtung Bilbao (1)", "300–450"],
       ["9. Bardenas Reales (1)", "250–400"],
       ["10. Benidorm (3)", "900–1’500"],
-      ["11. Ibiza und Formentera (3)", "1’250–2’050"],
-      ["12. Mallorca (4)", "1’600–2’700"],
+      ["11. Ibiza und Formentera (4)", "1’650–2’750"],
+      ["12. Mallorca (5)", "2’000–3’400"],
       ["13. Barcelona (2)", "750–1’250"],
-      ["14. Costa Brava (2)", "750–1’250"],
       ["Zwischenübernachtung Avignon (1)", "250–400"]
     ],
     hinweise: [
