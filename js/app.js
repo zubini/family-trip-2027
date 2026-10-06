@@ -460,7 +460,7 @@ function route() {
   var k = null;
   trips.forEach(function (t) { if (h === t || h.indexOf(t + '-') === 0) k = t; });
   if (!k) k = cur || 'start';
-  if (k !== cur) { show(k); cur = k; window.scrollTo(0, 0); }
+  if (k !== cur) { show(k); cur = k; window.scrollTo(0, 0); markiereAbschnitt(); }
   if (h.indexOf('-') > 0) {
     var el = document.getElementById(h);
     if (el) {
@@ -482,12 +482,14 @@ function markiereAbschnitt() {
   spyGeplant = false;
   var leiste = cur && cur !== 'start' && cur !== 'quellen' ? document.querySelector('#trip-' + cur + ' nav.top') : null;
   if (!leiste) return;
-  var grenze = leiste.getBoundingClientRect().bottom + 40, aktiv = null;
-  [].slice.call(leiste.querySelectorAll('a')).forEach(function (a) {
+  // ganz oben (im Titelbild) gilt der erste Abschnitt (Reiseplan) als aktiv
+  var links = [].slice.call(leiste.querySelectorAll('a'));
+  var grenze = leiste.getBoundingClientRect().bottom + 40, aktiv = links[0];
+  links.forEach(function (a) {
     var sec = document.getElementById(a.getAttribute('href').slice(1));
     if (sec && sec.getBoundingClientRect().top <= grenze) aktiv = a;
   });
-  [].slice.call(leiste.querySelectorAll('a')).forEach(function (a) { a.classList.toggle('on', a === aktiv); });
+  links.forEach(function (a) { a.classList.toggle('on', a === aktiv); });
 }
 window.addEventListener('scroll', function () {
   if (!spyGeplant) { spyGeplant = true; window.requestAnimationFrame(markiereAbschnitt); }
