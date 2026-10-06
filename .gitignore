@@ -1,0 +1,8 @@
+# Zwischendateien des Generators
+src/build/
+src/index.html
+__pycache__/
+*.pyc
+
+# Offline-Version mit eingebetteten Bildern (gross, jederzeit neu erzeugbar)
+docs/index-offline.html
