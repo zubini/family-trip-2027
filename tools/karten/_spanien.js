@@ -34,8 +34,8 @@ const wege = [
   ['car', 'Porto – Braga – Lugo – Ribadeo', ['PO', 'BG', 'VL', [42.5, -8.1], 'LU', 'RI']],
   ['car', 'Ribadeo – Nordküste – Bilbao', ['RI', [43.5, -6.5], 'OV', [43.42, -4.8], 'SA', 'BI']],
   ['car', 'Bilbao – Vitoria – Logroño – Bardenas Reales', ['BI', 'VI', 'LG', [42.3, -2.0], 'BA']],
-  ['car', 'Bardenas – Saragossa – Lleida – Perpignan – Carcassonne', ['BA', 'ZA', 'LL', 'MR', 'VC', 'GI', 'FIG', 'PP', 'NB', 'CA']],
-  ['car', 'Carcassonne – Montpellier – Lyon – Genf – Brig-Glis', ['CA', 'NB', 'MP', 'NI', 'OR', 'VA', 'LY', [45.95, 5.35], [46.0, 5.8], 'GE', [46.45, 6.55], [46.38, 6.85], 'MA', 'BR']]
+  ['car', 'Bardenas – Saragossa – Lleida – Perpignan – Montpellier', ['BA', 'ZA', 'LL', 'MR', 'VC', 'GI', 'FIG', 'PP', 'NB', 'MP']],
+  ['car', 'Montpellier – Lyon – Genf – Brig-Glis', ['MP', 'NI', 'OR', 'VA', 'LY', [45.95, 5.35], [46.0, 5.8], 'GE', [46.45, 6.55], [46.38, 6.85], 'MA', 'BR']]
 ];
 const stationen = [
   [1, 'BC', 'l'], [2, 'VAL', 'l'], [3, 'IBN', 'r'], [4, 'FO', 'r'], [5, 'BE', 'r'], [6, 'GR', 'u'], [7, 'SJ', 'r'],

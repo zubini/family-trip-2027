@@ -58,20 +58,20 @@ REISEN.spanien = {
     {datum: "22.–23. Juli", name: "14. Bardenas Reales", naechte: 1, info: "Auto (ca. 2,5 Std.)"},
     {
       datum: "23.–24. Juli",
-      name: "Zwischenübernachtung Carcassonne",
+      name: "Zwischenübernachtung Montpellier",
       naechte: 1,
-      info: "Auto über Saragossa, Lleida und Perpignan (ca. 6,5–7 Std., ca. 690 km)"
+      info: "Auto über Saragossa, Lleida, Girona und Perpignan (ca. 7–7,5 Std., ca. 720 km)"
     }
   ],
   rueckflug: {
     datum: "24. Juli",
     name: "Ankunft in Brig-Glis",
-    info: "Carcassonne – Montpellier – Lyon – Genf – Brig-Glis (ca. 7,5–8 Std., ca. 780 km)"
+    info: "Montpellier – Lyon – Genf – Brig-Glis (ca. 6,5–7 Std., ca. 600 km)"
   },
   planHinweise: [
     [
       "Gesamt",
-      "36 Nächte, 14 Stationen und 3 Zwischenübernachtungen (Sète, Bilbao, Carcassonne). Keine Flüge: alles mit dem eigenen Elektroauto, zu den Inseln mit drei Autofähren. Insgesamt ca. 6’100 km Autofahrt und ca. 6–7 Std. auf Fähren, zusammen ca. 69 Std. reine Reisezeit (ca. 62 Std. Auto); mit Pausen, Ladestopps, Check-in an den Häfen und Sommerstau realistisch ca. 83–86 Std. von Tür zu Tür (ca. 74–76 Std. im Auto inklusive ca. 11–13 Ladestopps à ca. 15–25 Min. an Tesla-Superchargern, ca. 9–10 Std. für die Fähren mit Check-in). Die längsten Reisetage: Brig-Glis–Sète (ca. 7–7,5 Std. plus 1–2 Ladestopps), Carcassonne–Brig-Glis (ca. 7,5–8 Std. plus 2–3 Ladestopps), Bardenas–Carcassonne (ca. 6,5–7 Std. plus 2 Ladestopps), Formentera–Benidorm (Fähre ca. 2–4,5 Std. und Auto ca. 45 Min.), Benidorm–Granada (ca. 4–4,5 Std.), Porto–Ribadeo (ca. 4–4,5 Std.), Valencia–Ibiza (Auto ca. 1–1,25 Std. und Fähre ca. 2,5 Std.) und Barcelona–Valencia (ca. 3,5 Std.)."
+      "36 Nächte, 14 Stationen und 3 Zwischenübernachtungen (Sète, Bilbao, Montpellier). Keine Flüge: alles mit dem eigenen Elektroauto, zu den Inseln mit drei Autofähren. Insgesamt ca. 5’950 km Autofahrt und ca. 6–7 Std. auf Fähren, zusammen ca. 68 Std. reine Reisezeit (ca. 61 Std. Auto); mit Pausen, Ladestopps, Check-in an den Häfen und Sommerstau realistisch ca. 82–85 Std. von Tür zu Tür (ca. 73–75 Std. im Auto inklusive ca. 11–13 Ladestopps à ca. 15–25 Min. an Tesla-Superchargern, ca. 9–10 Std. für die Fähren mit Check-in). Die längsten Reisetage: Brig-Glis–Sète (ca. 7–7,5 Std. plus 1–2 Ladestopps), Bardenas–Montpellier (ca. 7–7,5 Std. plus 2 Ladestopps), Montpellier–Brig-Glis (ca. 6,5–7 Std. plus 1–2 Ladestopps), Formentera–Benidorm (Fähre ca. 2–4,5 Std. und Auto ca. 45 Min.), Benidorm–Granada (ca. 4–4,5 Std.), Porto–Ribadeo (ca. 4–4,5 Std.), Valencia–Ibiza (Auto ca. 1–1,25 Std. und Fähre ca. 2,5 Std.) und Barcelona–Valencia (ca. 3,5 Std.)."
     ],
     [
       "Vorab buchen",
@@ -103,7 +103,7 @@ REISEN.spanien = {
     ],
     [
       "Kultur und Geschichte",
-      "Sagrada Família und Park Güell in Barcelona, Alhambra in Granada, Alcázar und Kathedrale in Sevilla, Belém in Lissabon, Altstadt von Porto, Cité von Carcassonne."
+      "Sagrada Família und Park Güell in Barcelona, Alhambra in Granada, Alcázar und Kathedrale in Sevilla, Belém in Lissabon, Altstadt von Porto."
     ],
     [
       "Natur und Landschaft",
@@ -513,20 +513,20 @@ REISEN.spanien = {
       fakten: [
         "<strong>Dauer:</strong> 1 Nacht in Tudela oder Arguedas; die Piste am Abend und am frühen Morgen fahren, mittags werden es über 40 °C.",
         "<strong>Regeln:</strong> Geöffnet ab 8 Uhr bis eine Stunde vor Sonnenuntergang, Höchstgeschwindigkeit 40 km/h, nur auf der markierten Piste, ein Teil ist militärisches Übungsgebiet.",
-        "<strong>Rückfahrt:</strong> Über Saragossa, Lleida und Perpignan nach Carcassonne (ca. 6,5–7 Std.), dort übernachten, am nächsten Tag über Montpellier, Lyon und Genf nach Brig-Glis (ca. 7,5–8 Std.)."
+        "<strong>Rückfahrt:</strong> Über Saragossa, Lleida, Girona und Perpignan nach Montpellier (ca. 7–7,5 Std., ca. 720 km), dort übernachten, am nächsten Tag über Lyon und Genf nach Brig-Glis (ca. 6,5–7 Std., ca. 600 km)."
       ],
-      ausserdem: "Guggenheim Bilbao, Altstadt von Tudela, Olite (Königspalast), Cité von Carcassonne (Burg, auf der Rückfahrt).",
+      ausserdem: "Guggenheim Bilbao, Altstadt von Tudela, Olite (Königspalast), Altstadt von Montpellier (auf der Rückfahrt).",
       bilder: [
         {titel: "Castildetierra", suche: "Castildetierra Bardenas Reales", stichwort: "castildetierra"},
         {titel: "Bardena Blanca", suche: "Bardenas Reales", stichwort: "bardena"},
         {titel: "Tafelberge", suche: "Bardenas Reales landscape", stichwort: "bardena"},
         {titel: "Guggenheim Bilbao", suche: "Guggenheim Museum Bilbao", stichwort: "guggenheim"},
         {titel: "Olite", suche: "Olite royal palace", stichwort: "olite"},
-        {titel: "Carcassonne", suche: "Cite de Carcassonne", stichwort: "carcassonne"}
+        {titel: "Tudela", suche: "Tudela Navarra cathedral|Tudela Navarra", stichwort: "tudela"}
       ]
     }
   ],
-  abschluss: "Nach einer Zwischenübernachtung in Carcassonne Rückfahrt über Montpellier, Lyon und Genf nach Brig-Glis am Sa, 24.07.2027 (ca. 7,5–8 Std.).",
+  abschluss: "Nach einer Zwischenübernachtung in Montpellier Rückfahrt über Lyon und Genf nach Brig-Glis am Sa, 24.07.2027 (ca. 6,5–7 Std.).",
   budgetIntro: "Mittelklasse inklusive Maut, Fähren, Unterkunft, Verpflegung und Aktivitäten; Laden an Tesla-Superchargern ist gratis, ohne Abnutzung des eigenen Autos. Alle Beträge sind Schätzungen in CHF.",
   budget: {
     naechte: 36,
@@ -535,7 +535,7 @@ REISEN.spanien = {
     proTag: "ca. 530 CHF pro Tag, ca. 4’750 pro Person",
     posten: [
       [
-        "Auto: Maut, Vignetten, Laden unterwegs (ca. 6’100 km)",
+        "Auto: Maut, Vignetten, Laden unterwegs (ca. 5’950 km)",
         "250–450",
         "350",
         "Supercharging gratis; Maut vor allem in Frankreich und Portugal, Crit’Air-Vignette, Registrierung Umweltzone Barcelona, Zufahrt Ibiza, Laden auf den Inseln und im Hotel, allfällige Blockiergebühren"
@@ -590,7 +590,7 @@ REISEN.spanien = {
       ["13. Playa de las Catedrales (2)", "550–900"],
       ["Zwischenübernachtung Bilbao (1)", "300–450"],
       ["14. Bardenas Reales (1)", "250–400"],
-      ["Zwischenübernachtung Carcassonne (1)", "250–400"]
+      ["Zwischenübernachtung Montpellier (1)", "250–400"]
     ],
     hinweise: [
       "Preise für die Kids: Viele Sehenswürdigkeiten sind für Kinder bis 11 oder 12 Jahre günstiger oder gratis; die Tochter (14) zahlt oft schon den Jugend- oder Erwachsenenpreis.",
