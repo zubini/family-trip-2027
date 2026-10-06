@@ -58,7 +58,7 @@ Sie sind eine Einschätzung und werden nicht automatisch angepasst.
 - Tausendertrenner Apostroph: `20’600`. Spannen und Strecken mit Halbgeviertstrich: `5–6 Std.`, `Zürich–Singapur`.
 - Anführungszeichen «…». Abkürzungen: «ca.», «Std.», «Min.», «z.B.».
 - Daten in den Daten-Dateien **ohne Wochentag** (`"19.–22. Juni"`), die Wochentage rechnet `js/app.js`.
-- Familie: 2 Erwachsene, 2 Kids, Sohn (12) und Tochter (14). Kurz, sachlich, ohne Werbesprache.
+- Familie: 2 Erwachsene und 2 Kids, Sohn (12) und Tochter (14). Kurz, sachlich, ohne Werbesprache.
 
 ## 5. Datenschutz
 
