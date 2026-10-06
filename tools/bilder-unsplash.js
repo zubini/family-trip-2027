@@ -7,7 +7,8 @@
 //
 // Ohne Angabe werden alle Reisen bearbeitet. Bereits gesuchte Bilder werden übersprungen, auch die ohne
 // Treffer; --neu sucht die ohne Treffer nochmals. Ein unpassendes Foto in data/bilder-unsplash.js durch
-// {"nein": ["<id>"]} ersetzen: dann zeigt die Seite das Commons-Bild, und --neu sucht ein anderes Foto. Läuft normalerweise in der GitHub-Action «Unsplash-Bilder»,
+// {"nein": ["<id>"]} ersetzen: dann zeigt die Seite das Commons-Bild, und --neu sucht ein anderes Foto.
+// Fotos mit "locker": true nennen nur den Ort der Station, nicht das Motiv: von Hand prüfen. Läuft normalerweise in der GitHub-Action «Unsplash-Bilder»,
 // die den Schlüssel als Repository-Secret hat. Der Schlüssel gehört nie ins Repo.
 //
 // Demo-Schlüssel erlauben 50 Anfragen pro Stunde. Pro Bild braucht es eine Suche und, bei einem Treffer,
@@ -38,14 +39,20 @@ if (fs.existsSync(ZIEL)) { global.UNSPLASH = null; require(ZIEL); bisher = globa
 const benutzt = new Set(Object.values(bisher).filter(b => b && b.id).map(b => b.id));
 Object.values(bisher).forEach(b => { if (b && b.nein) b.nein.forEach(id => benutzt.add(id)); });
 
+// Orte einer Station für lockere Treffer, z.B. «Caminito del Rey (El Chorro)» -> Caminito del Rey, El Chorro
+function ortsnamen(s) {
+  const teile = s.name.replace(/[()]/g, '|').split(/\||\/| und /).map(t => t.trim()).filter(t => t && !/^(Start|Schluss|Finale)$/.test(t));
+  return s.ersatzsuche ? teile.concat(s.ersatzsuche.split('|')) : teile;
+}
+
 // Bilder in Reihenfolge der Seite: Titelbild, dann die ersten vier Bilder jeder Galerie
 const PRO_STATION = 4;
 const auftraege = [];
 for (const k of keys) {
   const R = global.REISEN[k];
   if (!R) { console.error('Unbekannte Reise: ' + k); process.exit(1); }
-  if (R.titelbild && R.titelbild.suche) auftraege.push(R.titelbild);
-  for (const s of R.stationen) s.bilder.filter(b => b.suche).slice(0, PRO_STATION).forEach(b => auftraege.push(b));
+  if (R.titelbild && R.titelbild.suche) auftraege.push({ b: R.titelbild, orte: [] });
+  for (const s of R.stationen) s.bilder.filter(b => b.suche).slice(0, PRO_STATION).forEach(b => auftraege.push({ b, orte: ortsnamen(s), titel: b.titel }));
 }
 
 const norm = t => String(t || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[_\-]/g, ' ');
@@ -73,17 +80,24 @@ function speichern() {
 
 (async () => {
   let neuGefunden = 0, ohne = 0;
-  for (const b of auftraege) {
+  for (const { b, orte, titel } of auftraege) {
     const alt = bisher[b.suche];
     if (b.suche in bisher && ((alt && alt.url) || !neu)) continue;
-    let treffer = null;
-    for (const q of b.suche.split('|').slice(0, 1)) { // nur die erste Suche, um Anfragen zu sparen
-      if (rest < 3) break;
+    // Zuerst ein Foto, das das Motiv nennt (genau). Sonst eines vom Ort der Station (locker, wird von Hand geprüft).
+    // Zweite Suche nur, wenn die erste nichts Genaues bringt.
+    const alternativen = b.suche.split('|');
+    const suchen = [alternativen[0], alternativen[1] || (titel && orte[0] ? titel + ' ' + orte[0] : null)].filter(Boolean);
+    let treffer = null, locker = null;
+    for (const q of suchen) {
+      if (rest < 4) break;
       const d = await api('https://api.unsplash.com/search/photos?per_page=20&orientation=landscape&content_filter=high&query=' + encodeURIComponent(q));
-      treffer = d.results.find(f => !benutzt.has(f.id) && f.width >= 1600 && passt(f, b.stichwort || q));
+      const frei = d.results.filter(f => !benutzt.has(f.id) && f.width >= 1600);
+      treffer = frei.find(f => passt(f, b.stichwort || q));
       if (treffer) break;
+      if (!locker && orte.length) locker = frei.find(f => passt(f, orte.join('|')));
     }
-    if (rest < 3 && !treffer) { console.log('Anfragen für diese Stunde aufgebraucht, nächster Lauf macht weiter.'); break; }
+    if (!treffer && locker) { treffer = locker; treffer.locker = true; }
+    if (rest < 4 && !treffer) { console.log('Anfragen für diese Stunde aufgebraucht, nächster Lauf macht weiter.'); break; }
     if (treffer) {
       await api(treffer.links.download_location); // Pflichtmeldung an Unsplash, dass das Foto verwendet wird
       benutzt.add(treffer.id);
@@ -95,11 +109,12 @@ function speichern() {
         seite: treffer.links.html + '?' + UTM,
         farbe: treffer.color
       };
+      if (treffer.locker) bisher[b.suche].locker = true;
       if (alt && alt.nein) bisher[b.suche].nein = alt.nein;
       neuGefunden++;
     } else { bisher[b.suche] = alt && alt.nein ? { nein: alt.nein } : 0; ohne++; }
     speichern();
   }
-  const offen = auftraege.filter(b => !(b.suche in bisher)).length;
+  const offen = auftraege.filter(a => !(a.b.suche in bisher)).length;
   console.log(`Neu gefunden: ${neuGefunden}, ohne passendes Foto: ${ohne}, noch offen: ${offen}`);
 })().catch(e => { speichern(); console.error(e.message); process.exit(1); });
