@@ -14,5 +14,11 @@ html = html.replace(/(href|src)="((?:css|js|data)\/[^"?]+)"/g, (m, attr, f) => `
 const karten = fs.readdirSync(path.join(root, 'karten')).filter(f => f.endsWith('.svg')).sort()
   .map(f => fs.readFileSync(path.join(root, 'karten', f)));
 html = html.replace('<html lang="de">', `<html lang="de" data-v="${hash(Buffer.concat(karten))}">`);
+// Zeitpunkt der Veröffentlichung (Schweizer Zeit) im Footer
+const teile = {};
+new Intl.DateTimeFormat('de-CH', { timeZone: 'Europe/Zurich', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', hour12: false })
+  .formatToParts(new Date()).forEach(t => { teile[t.type] = t.value; });
+const stand = `Aktualisiert am ${teile.day}.${teile.month}.${teile.year} um ${teile.hour}:${teile.minute} Uhr.`;
+html = html.replace('<!--STAND-->', '<br>' + stand);
 fs.writeFileSync(datei, html);
-console.log('Versionen gesetzt:', (html.match(/\?v=/g) || []).length, 'Dateien plus Karten');
+console.log('Versionen gesetzt:', (html.match(/\?v=/g) || []).length, 'Dateien plus Karten;', stand);

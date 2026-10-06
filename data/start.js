@@ -8,7 +8,7 @@ window.START = {
   zeitraum: "Ab Fr, 18.06.2027 für fünf Wochen, 2 Erwachsene und 2 Kids",
   untertitel: "Verschiedene Reisevarianten als Fahrplan für eine Entscheidung.",
   reisenIntro: "Alle Reisen dauern 34 bis 36 Nächte und sind für die Familie mit Sohn (12) und Tochter (14) geplant. Spanien / Portugal ohne Flug und Jetlag kann bis Sa, 24.07.2027 dauern, die anderen enden am Do, 22.07.2027. Ein Klick führt zum vollständigen Fahrplan mit Stationen, Karte und Budget.",
-  bewertungIntro: "Bewertet werden Natur, Dschungelfeeling, Schnorcheln, Abenteuer, Städte, Budget und Reisekomfort. Fünf Punkte sind die beste Bewertung (beim Budget heisst das: günstig). Die Skala ist fest und nicht nur ein Vergleich der vier Reisen: 5 heisst Weltklasse (z.B. tropische Riffe beim Schnorcheln, kurze Etappen beim Reisekomfort), 0 heisst, dass es das auf der Reise nicht gibt. Die Punkte sind eine Einschätzung auf Basis der Reisepläne, keine Messung.",
+  bewertungIntro: "Bewertet werden Natur, Dschungelfeeling, Strand und Baden, Schnorcheln, Abenteuer, Städte, Gesundheit und Sicherheit, Budget, Reisekomfort sowie CO₂ und Umwelt. Fünf Punkte sind die beste Bewertung (beim Budget heisst das: günstig, beim CO₂: wenig Ausstoss). Die Skala ist fest und nicht nur ein Vergleich der vier Reisen: 5 heisst Weltklasse (z.B. tropische Riffe beim Schnorcheln, kurze Etappen beim Reisekomfort), 0 heisst, dass es das auf der Reise nicht gibt. Die Punkte sind eine Einschätzung auf Basis der Reisepläne, keine Messung.",
   budgetIntro: "Mittelklasse inklusive Flüge bzw. Autokosten, Transport, Unterkunft, Verpflegung und Aktivitäten für 4 Personen. Der dunkle Punkt ist der Planwert, der helle Balken die Spanne.",
   vergleichIntro: "Die wichtigsten Unterschiede nebeneinander.",
   entscheidIntro: "Welche Reise passt, hängt davon ab, ob Strand und Schnorcheln, Vulkane und Tempel, Städte und Kultur ohne Flug oder Nationalparks im Vordergrund stehen.",
@@ -156,6 +156,25 @@ window.START = {
       bali: [3, "Tioman, dazu Wasserfälle und Vulkanlandschaften auf Java und Bali; Dschungel eher als Kulisse."]
     },
     {
+      kriterium: "Strand und Baden",
+      spanien: [
+        4,
+        "Viele Strandtage auf Mallorca, Ibiza, Formentera, in Benidorm und am Cabo de Gata, Mittelmeer ca. 23–26 °C; im Juli aber voll, und kein tropisch warmes Wasser."
+      ],
+      usa: [
+        1,
+        "Kaum Meer auf der Route; Baden höchstens im Lake Powell, in Hotelpools oder am Lake Michigan in Chicago."
+      ],
+      asien: [
+        5,
+        "Tioman, Perhentian Islands, Khanom, Koh Samui, Koh Tao und Hua Hin: tropische Strände mit ca. 29 °C warmem Wasser an fast jeder zweiten Station."
+      ],
+      bali: [
+        3,
+        "Tioman, Nusa Penida und Uluwatu: schöne Buchten, aber auf Bali oft Wellen und Strömung, auf Java keine Badestrände."
+      ]
+    },
+    {
       kriterium: "Schnorcheln",
       spanien: [
         2,
@@ -189,6 +208,25 @@ window.START = {
       bali: [3, "Singapur, Kuala Lumpur, Jakarta und Yogyakarta; Bali ist eher Kultur und Natur als Stadt."]
     },
     {
+      kriterium: "Gesundheit und Sicherheit",
+      spanien: [
+        5,
+        "Europa: Krankenversicherungskarte gilt, Leitungswasser trinkbar, gute Spitäler, keine Impfungen nötig; Vorsicht bei Hitze, Taschendieben und auf langen Autofahrten."
+      ],
+      usa: [
+        4,
+        "Sehr gute Spitäler, aber sehr teuer (Reiseversicherung mit hoher Deckung nötig); Hitze in der Wüste, sonst unkompliziert."
+      ],
+      asien: [
+        3,
+        "Singapur sehr sicher; in Malaysia und Thailand Dengue-Mückenschutz, kein Leitungswasser, Impfstatus vorab klären; auf den Inseln (Tioman, Perhentian) ist ein Spital weit weg, Bootsfahrten bei Wellengang."
+      ],
+      bali: [
+        2,
+        "Dengue, Tollwut-Risiko, Methanol in selbst gemischten Getränken, kein Leitungswasser, Impfungen vorab klären; Schwefelgase am Ijen, steile Strassen auf Nusa Penida."
+      ]
+    },
+    {
       kriterium: "Budget (mehr Punkte = günstiger)",
       spanien: [
         4,
@@ -206,7 +244,7 @@ window.START = {
       ],
       usa: [
         2,
-        "Kurze Flüge (12 und 7,5–8 Stunden), aber realistisch ca. 70–75 Stunden im Auto, davon 10 und 12 Stunden reine Fahrzeit an den zwei Roadtrip-Tagen."
+        "Flüge von ca. 12 und 7,5–8 Stunden, aber realistisch ca. 70–75 Stunden im Auto, davon 10 und 12 Stunden reine Fahrzeit an den zwei Roadtrip-Tagen."
       ],
       asien: [
         3,
@@ -215,6 +253,25 @@ window.START = {
       bali: [
         2,
         "Rückflug mit Stopp (17–22 Stunden), ein Flug dazwischen und lange Zugtage auf Java; realistisch ca. 60 Stunden unterwegs."
+      ]
+    },
+    {
+      kriterium: "CO₂ und Umwelt (mehr Punkte = weniger CO₂)",
+      spanien: [
+        4,
+        "Kein Flug: eigenes Auto (ca. 5’500 km) und drei Fähren, grob geschätzt ca. 0,3–0,5 t CO₂ pro Person."
+      ],
+      usa: [
+        1,
+        "Zwei Langstreckenflüge (ca. 15’000 km) und ca. 6’000 km Mietwagen, grob geschätzt ca. 3–3,5 t CO₂ pro Person."
+      ],
+      asien: [
+        1,
+        "Zwei Langstreckenflüge (ca. 19’000 km), unterwegs Bus, Zug und Fähre, grob geschätzt ca. 4 t CO₂ pro Person."
+      ],
+      bali: [
+        1,
+        "Zwei Langstreckenflüge mit Stopp und ein Flug Kuala Lumpur–Jakarta (zusammen ca. 24’000 km), grob geschätzt ca. 5 t CO₂ pro Person."
       ]
     }
   ]

@@ -72,6 +72,13 @@ window.QUELLEN = {
       ]
     },
     {
+      titel: "Bewertung: CO₂",
+      links: [
+        ["myclimate: Hin- und Rückflug Genf–New York in Economy ca. 2,5 t CO₂ pro Person (Grundlage für die groben Schätzungen, ca. 0,2 kg pro km)", "https://www.MyClimate.org/fileadmin/user_upload/myclimate_-_home/01_Information/02_News_Press/03_Press_releases/Documents/190814_PressRelease_myclimate_How_much_CO2_is_emitted_durig_a_flight.pdf"],
+        ["myclimate: CO₂-Rechner für Flüge und Autofahrten", "https://co2.myclimate.org"]
+      ]
+    },
+    {
       titel: "Einreise",
       links: [
         ["Swiss Helping Point: Thailand verkürzt visumfreien Aufenthalt auf 30 Tage (ab 15.09.2026)", "https://www.swisshelpingpoint.com/en/thailand-visabefreiung-auf-30-tage-reduziert/"],
