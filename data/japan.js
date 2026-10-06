@@ -56,7 +56,7 @@ REISEN.japan = {
     ]
   ],
   karte: {
-    intro: "Ungefährer Verlauf der Fahrtwege, eingefärbt nach Verkehrsmittel. Mit der Maus über eine Linie oder Station fahren zeigt Details.",
+    intro: "Ungefährer Verlauf der Fahrtwege, eingefärbt nach Verkehrsmittel.",
     breit: true,
     legende: ["train", "ferry"],
     karten: [{datei: "karten/japan.svg"}]

@@ -55,7 +55,7 @@ REISEN.costarica = {
     ]
   ],
   karte: {
-    intro: "Ungefährer Verlauf der Fahrtwege, eingefärbt nach Verkehrsmittel. Mit der Maus über eine Linie oder Station fahren zeigt Details.",
+    intro: "Ungefährer Verlauf der Fahrtwege, eingefärbt nach Verkehrsmittel.",
     breit: true,
     legende: ["bus", "car", "ferry"],
     karten: [{datei: "karten/costarica.svg"}]
