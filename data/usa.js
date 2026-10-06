@@ -298,7 +298,7 @@ REISEN.usa = {
       datum: "2.–5. Juli",
       naechte: "3 Nächte",
       zwischenstopp: {text: "Zwischenübernachtung in Oklahoma City", datum: "1.–2. Juli"},
-      anreise: "Mietwagen-Roadtrip in 2 Tagen ab White Sands: Tag 1 nach Oklahoma City (ca. 960 km, ca. 10 Std.), Tag 2 nach Chicago (ca. 1’270 km, ca. 12 Std.). Zusammen ca. 2’230 km und 22 Std. reine Fahrzeit, mit Pausen eher 25 Std. Zeitverschiebung +1 Std.",
+      anreise: "Mietwagen-Roadtrip in 2 Tagen ab White Sands: Tag 1 nach Oklahoma City (ca. 1’010 km, ca. 10 Std.), Tag 2 nach Chicago (ca. 1’270 km, ca. 12 Std.). Zusammen ca. 2’290 km und 22 Std. reine Fahrzeit, mit Pausen eher 25 Std. Zeitverschiebung +1 Std.",
       text: "Die grosse Stadt am Michigansee mit Wolkenkratzern, Parks und Stadtstrand. Hier beginnt der Osten: Chicago ist das Tor zu den Grossen Seen. Ihr kommt nach zwei langen Fahrtagen an.",
       teens: "Skydeck im Willis Tower (Glasbalkon «Ledge»), Architektur-Bootsfahrt auf dem Chicago River, Millennium Park mit «Cloud Gate» (The Bean), Navy Pier mit Riesenrad, Field Museum und Shedd Aquarium.",
       fakten: [

@@ -19,3 +19,7 @@ nav.top a:hover { background: var(--mist); color: var(--sea); }
   :root { --g: 52px; }
   .gnav a { font-size: .85rem; padding: 6px 11px; }
 }
+
+/* Nebenseiten (Quellen) rechts in der Hauptnavigation, etwas zurückhaltender */
+.gnav a.neben { margin-left: auto; font-weight: 600; border-color: transparent; opacity: .85; }
+.gnav a.neben.on { opacity: 1; }

@@ -8,7 +8,7 @@ Reiseführer und Variantenvergleich für die Familienreise 2027 (18. Juni bis 22
 - **Singapur – Bali** über Malaysia und Java
 - **Las Vegas – New York** quer durch die USA
 
-Dazu eine Einstiegsseite mit Vergleich, Bewertung, Budget sowie Pro und Contra.
+Dazu eine Einstiegsseite mit Vergleich, Bewertung, Budget sowie Pro und Contra und eine Seite mit den Quellen.
 
 ## Aufbau
 
@@ -21,6 +21,7 @@ data/             die Inhalte, hier wird fast alles geändert
   asien.js        Singapur–Bangkok
   bali.js         Singapur–Bali
   usa.js          Las Vegas–New York
+  quellen.js      Seite «Quellen» (Belege für Fahrzeiten, Einreise, Bilder)
 css/              Gestaltung (basis, navigation, reise, karte, start)
 js/app.js         baut die Seite aus den Daten, lädt Bilder, Navigation
 karten/           Routenkarten als SVG
@@ -51,6 +52,7 @@ Jede Reise in `data/` enthält der Reihe nach:
 - **Budget:** Die Beträge werden von Hand gepflegt. Die Einstiegsseite liest Planwert, Spanne und Nächte automatisch aus den Reisen.
 - **Bewertung und Pro/Contra** in `data/start.js` sind eine Einschätzung. Bei Änderungen an den Reisen von Hand nachziehen.
 - **Bilder:** Jedes Bild hat einen `titel` (Bildunterschrift) und entweder eine feste `datei` auf Wikimedia Commons oder `suche` (Suchbegriffe, mit `|` getrennt) und `stichwort` (muss im Dateinamen vorkommen). Gesuchte Bilder werden beim Öffnen der Seite automatisch gefunden.
+- **Quellen:** Neue Belege in `data/quellen.js` als `["Beschreibung", "https://…"]` in die passende Gruppe eintragen.
 - **Texte** dürfen einfaches HTML enthalten (`<b>`, `<strong>`).
 - **Symbol der Anreise** (Bus, Zug, Schiff, Flug, Auto) wird am Anfang des Anreise-Textes erkannt.
 - **Länder-Etikett:** `land` ist das Kürzel für die Farbe (`sg`, `my`, `th`, `id`, `us`, Farben in `css/reise.css`), `region` der angezeigte Text.

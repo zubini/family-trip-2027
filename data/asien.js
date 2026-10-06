@@ -32,7 +32,7 @@ REISEN.asien = {
       naechte: 4,
       info: "Bus nach Mersing (ca. 3,5–4 Std.), Fähre (ca. 1,5–2 Std.)"
     },
-    {datum: "26.–29. Juni", name: "3. Kuala Lumpur", naechte: 3, info: "Fähre nach Mersing, Bus (ca. 5–6 Std.)"},
+    {datum: "26.–29. Juni", name: "3. Kuala Lumpur", naechte: 3, info: "Fähre nach Mersing (ca. 1,5–2 Std.), Bus (ca. 5–6 Std.); insgesamt ca. 7–8 Std."},
     {
       datum: "29.–30. Juni",
       name: "Zwischenübernachtung Kuala Besut",

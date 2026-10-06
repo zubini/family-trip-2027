@@ -6,11 +6,11 @@
 const path = require('path');
 const root = path.join(__dirname, '..');
 global.window = global;
-for (const f of ['start', 'asien', 'bali', 'usa']) require(path.join(root, 'data', f + '.js'));
+for (const f of ['start', 'asien', 'bali', 'usa', 'quellen']) require(path.join(root, 'data', f + '.js'));
 const app = require(path.join(root, 'js', 'app.js'));
 
 const fehler = [];
-try { app.seite(START, REISEN); } catch (e) { fehler.push('Seite lässt sich nicht aufbauen: ' + e.message); }
+try { app.seite(START, REISEN, QUELLEN); } catch (e) { fehler.push('Seite lässt sich nicht aufbauen: ' + e.message); }
 
 const MONATE = ['Januar', 'Februar', 'März', 'April', 'Mai', 'Juni', 'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember'];
 // "29. Juni–1. Juli" -> [Startdatum, Enddatum]

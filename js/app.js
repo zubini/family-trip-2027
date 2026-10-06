@@ -1,5 +1,5 @@
 // Familienreise 2027: baut die Seite aus den Daten in data/*.js
-// Aufbau: 1. Hilfsfunktionen  2. Reiseseiten  3. Einstiegsseite  4. Bildlader  5. Navigation
+// Aufbau: 1. Hilfsfunktionen  2. Reiseseiten  3. Einstiegsseite  3b. Quellen  4. Bildlader  5. Navigation
 (function () {
 'use strict';
 
@@ -31,7 +31,8 @@ function datum(t) {
 // Ersetzt alle Daten in einem Text (z.B. "4 Nächte, Rückflug 22. Juli")
 function datenImText(t) {
   t = t.replace(new RegExp('(\\d+)\\.(?: (' + MONAT + '))?–(\\d+)\\. (' + MONAT + ')', 'g'), function (x) { return datum(x); });
-  return t.replace(new RegExp('(?<![\\d.])(\\d+)\\. (' + MONAT + ')(?! 20)', 'g'), function (x, d, m) { return tag(d, m); });
+  // (ohne Lookbehind, damit auch ältere iPhones und iPads die Seite anzeigen)
+  return t.replace(new RegExp('(^|[^\\d.])(\\d+)\\. (' + MONAT + ')(?! 20)', 'g'), function (x, vor, d, m) { return vor + tag(d, m); });
 }
 
 function esc(s) {
@@ -132,8 +133,10 @@ var LEGENDE = {
   bus: ['lb', 'Bus, Minivan, Taxi'], car: ['lc', 'Mietwagen'], train: ['lt', 'Zug'], ferry: ['lf', 'Fähre, Boot'], air: ['la', 'Flug']
 };
 
-function karte(K) {
-  var obj = function (x) { return '<div class="mapwrap' + (K.breit ? ' wide' : '') + '"><object data="' + x.datei + '" type="image/svg+xml"></object></div>'; };
+function karte(K, name) {
+  var obj = function (x) {
+    return '<div class="mapwrap' + (K.breit ? ' wide' : '') + '"><object data="' + x.datei + '" type="image/svg+xml" aria-label="' + esc(x.titel || 'Routenkarte ' + name) + '"></object></div>';
+  };
   var lg = '<div class="lg">' + liste(K.legende, function (m) { return '<span><i class="' + LEGENDE[m][0] + '"></i>' + LEGENDE[m][1] + '</span>'; }) +
     '<span><b class="lz"></b>Zwischenübernachtung oder Umstieg</span></div>';
   return '<p class="intro">' + K.intro + '</p>' + obj(K.karten[0]) + lg +
@@ -152,7 +155,7 @@ function reise(k, R) {
     '<section id="' + p + 'plan"><div class="wrap">\n<h2>Reiseplan</h2>\n<p class="intro">' + R.planIntro + '</p>\n' +
     '<div class="plan">' + plan + '</div>\n' +
     '<div class="notes">' + liste(R.planHinweise, function (x) { return '<p><b>' + x[0] + '</b>' + x[1] + '</p>'; }) + '</div>\n</div></section>\n' +
-    '<section id="' + p + 'karte" style="padding-top:0"><div class="wrap">\n<h2>Die Route auf der Karte</h2>\n' + karte(R.karte) + '\n</div></section>\n' +
+    '<section id="' + p + 'karte" style="padding-top:0"><div class="wrap">\n<h2>Die Route auf der Karte</h2>\n' + karte(R.karte, R.menu) + '\n</div></section>\n' +
     '<section style="padding-top:0"><div class="wrap">\n<h2>Abwechslung unterwegs</h2>\n<p class="intro">' + R.abwechslungIntro + '</p>\n' +
     '<div class="mix">' + liste(R.abwechslung, function (x) { return '<div><h3>' + x[0] + '</h3><p>' + x[1] + '</p></div>'; }) + '</div>\n</div></section>\n' +
     '<section id="' + p + 'stationen" style="background:#E4EEEC"><div class="wrap">\n<h2>Die Stationen</h2>\n<p class="intro">' + R.stationenIntro + '</p>\n' +
@@ -244,20 +247,33 @@ function einstieg(S, REISEN) {
     '</main></div>';
 }
 
+// ---------- 3b. Quellen ----------
+
+function quellen(Q) {
+  return '<div class="trip" id="trip-quellen" hidden><main><section class="quellen"><div class="wrap">' +
+    '<h2>' + Q.titel + '</h2><p class="intro">' + Q.intro + '</p>' +
+    liste(Q.gruppen, function (g) {
+      return '<h3>' + g.titel + '</h3><ul>' + liste(g.links, function (l) {
+        return '<li><a href="' + esc(l[1]) + '" target="_blank" rel="noopener">' + l[0] + '</a></li>';
+      }) + '</ul>';
+    }) + '</div></section></main></div>';
+}
+
 // Seite zusammensetzen (auch von tools/pruefen.js genutzt, deshalb ohne DOM)
-function seite(S, REISEN) {
+function seite(S, REISEN, Q) {
   var h = einstieg(S, REISEN);
   Object.keys(REISEN).forEach(function (k) { h += '\n' + reise(k, REISEN[k]); });
+  if (Q) h += '\n' + quellen(Q);
   return h;
 }
 
 if (typeof document === 'undefined') { module.exports = { seite: seite, reise: reise, einstieg: einstieg, datum: datum }; return; }
 
 var inhalt = document.getElementById('inhalt');
-inhalt.innerHTML = seite(window.START, window.REISEN);
+inhalt.innerHTML = seite(window.START, window.REISEN, window.QUELLEN);
 document.querySelector('.gnav .wrap').insertAdjacentHTML('beforeend', liste(Object.keys(window.REISEN), function (k) {
   return '<a href="#' + k + '" data-trip="' + k + '">' + window.REISEN[k].menu + '</a>';
-}));
+}) + (window.QUELLEN ? '<a class="neben" href="#quellen" data-trip="quellen">Quellen</a>' : ''));
 
 // ---------- 4. Bildlader ----------
 // Bilder mit data-file kommen direkt von Commons. Bilder mit data-q werden über die Commons-Suche
@@ -353,11 +369,12 @@ function ladeBilder(root) {
 // ---------- 5. Navigation ----------
 // Immer nur eine Reise ist sichtbar. Die Adresse (#bali, #bali-s3 usw.) bestimmt, welche.
 
-var trips = ['start'].concat(Object.keys(window.REISEN));
+var trips = ['start'].concat(Object.keys(window.REISEN), window.QUELLEN ? ['quellen'] : []);
 function show(k) {
   trips.forEach(function (t) { document.getElementById('trip-' + t).hidden = (t !== k); });
   [].slice.call(document.querySelectorAll('.gnav a[data-trip]')).forEach(function (a) { a.classList.toggle('on', a.dataset.trip === k); });
-  document.title = k === 'start' ? 'Familienreise 2027' : 'Familienreise 2027 · ' + window.REISEN[k].menu;
+  var name = k === 'quellen' ? window.QUELLEN.titel : k !== 'start' && window.REISEN[k].menu;
+  document.title = name ? 'Familienreise 2027 · ' + name : 'Familienreise 2027';
   ladeBilder(document.getElementById('trip-' + k));
 }
 var cur = null;

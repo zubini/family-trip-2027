@@ -31,7 +31,7 @@ REISEN.bali = {
       naechte: 4,
       info: "Bus nach Mersing (ca. 3,5–4 Std.), Fähre (ca. 1,5–2 Std.)"
     },
-    {datum: "26.–29. Juni", name: "3. Kuala Lumpur", naechte: 3, info: "Fähre nach Mersing, Bus (ca. 5–6 Std.)"},
+    {datum: "26.–29. Juni", name: "3. Kuala Lumpur", naechte: 3, info: "Fähre nach Mersing (ca. 1,5–2 Std.), Bus (ca. 5–6 Std.); insgesamt ca. 7–8 Std."},
     {datum: "29. Juni–1. Juli", name: "4. Jakarta", naechte: 2, info: "Flug ab Kuala Lumpur (ca. 2–2,5 Std.)"},
     {datum: "1.–6. Juli", name: "5. Yogyakarta", naechte: 5, info: "Zug ab Jakarta (ca. 6–6,5 Std.)"},
     {datum: "6.–9. Juli", name: "6. Bromo und Malang", naechte: 3, info: "Zug nach Malang (ca. 7–8 Std.)"},
