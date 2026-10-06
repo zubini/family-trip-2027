@@ -6,7 +6,7 @@ REISEN.japan = {
   titel: "Japan-Rundreise ab Tokio",
   menu: "Japan",
   untertitel: "Fünf Wochen mit dem Zug durch Japan: Grossstadt, Tempel, Berge, Kunstinseln und der Regenwald von Yakushima.",
-  zeitraum: "Fr, 18.06.2027 bis Do, 22.07.2027, 2 Erwachsene, 2 Kids",
+  zeitraum: "Fr, 18.06.2027 bis Do, 22.07.2027, 2 Erwachsene und 2 Kids",
   titelbild: {
     suche: "Chureito Pagoda Mount Fuji|Mount Fuji Lake Ashi Hakone|Fushimi Inari torii",
     stichwort: "chureito|fuji|fushimi inari",

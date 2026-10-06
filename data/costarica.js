@@ -6,7 +6,7 @@ REISEN.costarica = {
   titel: "Costa-Rica-Rundreise ab San José",
   menu: "Costa Rica",
   untertitel: "Fünf Wochen Regenwald, Vulkane und zwei Meere: Karibik, Arenal, Nebelwald und die wilde Osa-Halbinsel am Pazifik.",
-  zeitraum: "Fr, 18.06.2027 bis Do, 22.07.2027, 2 Erwachsene, 2 Kids",
+  zeitraum: "Fr, 18.06.2027 bis Do, 22.07.2027, 2 Erwachsene und 2 Kids",
   titelbild: {
     suche: "Arenal Volcano|Manuel Antonio beach|Corcovado National Park",
     stichwort: "arenal|manuel antonio|corcovado",

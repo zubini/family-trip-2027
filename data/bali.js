@@ -6,7 +6,7 @@ REISEN.bali = {
   titel: "Von Singapur nach Bali",
   menu: "Singapur–Bali",
   untertitel: "Fünf Wochen durch Malaysia, Java und Bali: Vulkane, Tempel, Regenwald und Inseln.",
-  zeitraum: "Fr, 18.06.2027 bis Do, 22.07.2027, 2 Erwachsene, 2 Kids",
+  zeitraum: "Fr, 18.06.2027 bis Do, 22.07.2027, 2 Erwachsene und 2 Kids",
   titelbild: {
     suche: "Mount Bromo sunrise|Tegalalang rice terrace|Pura Ulun Danu Bratan|Tanah Lot temple",
     stichwort: "bromo|tegalalang|ulun danu|tanah lot",

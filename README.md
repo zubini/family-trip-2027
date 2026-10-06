@@ -2,7 +2,7 @@
 
 **Zur Seite: https://zubini.github.io/family-trip-2027/**
 
-Reiseführer und Variantenvergleich für die Familienreise 2027 (18. Juni bis 22. Juli, 2 Erwachsene, 2 Kids) mit fünf Varianten:
+Reiseführer und Variantenvergleich für die Familienreise 2027 (18. Juni bis 22. Juli, 2 Erwachsene und 2 Kids) mit fünf Varianten:
 
 - **Singapur – Bangkok** über Malaysia und Thailand
 - **Singapur – Bali** über Malaysia und Java
