@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 1000 774" overflow="hidden" role="img" aria-labelledby="mt" xmlns="http://www.w3.org/2000/svg"><title id="mt">Karte der Japan-Rundreise ab Tokio mit Zug- und Fährstrecken</title>
+<style>
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400;0,600;0,700;0,800;1,400&amp;display=swap");
+.lr{fill:#F4F1E4;stroke:#B9B39A;stroke-width:.8}
+.lo{fill:#ECECE6;stroke:#C9C9BF;stroke-width:.8}
+.cn{font:600 15px "Figtree",system-ui,sans-serif;fill:#9A9580;letter-spacing:.05em}
+.sea{font:italic 14px "Figtree",system-ui,sans-serif;fill:#6E98A6}
+.sl{font:700 13px "Figtree",system-ui,sans-serif;fill:#1C2B2D;paint-order:stroke;stroke:#fff;stroke-width:3.5px;stroke-linejoin:round}
+.tl{font:600 11.5px "Figtree",system-ui,sans-serif;fill:#5B6B6E;paint-order:stroke;stroke:#fff;stroke-width:3px}
+.nm{font:800 12px "Figtree",system-ui,sans-serif;fill:#fff}
+.nm2{font:800 10px "Figtree",system-ui,sans-serif;fill:#fff}
+.fl{font:600 12px "Figtree",system-ui,sans-serif;fill:#5B6B6E;paint-order:stroke;stroke:#fff;stroke-width:3px}
+</style>
+<rect width="1000" height="774" fill="#D7E9EE"/>
+<path class="lo" fill-rule="evenodd" d="M-235,-16 L-228,-5 L-228,-23 L-226,-24 L-203,-53 L-203,-54 L-203,-55 L-204,-55 L-189,-71 L-143,-72 L-143,-72 L-134,-74 L-133,-73 L-133,-72 L-129,-71 L-128,-71 L-127,-73 L-123,-72 L-119,-72 L-103,-75 L-99,-77 L-98,-78 L-93,-83 L-93,-84 L-87,-103 L3,54 L-3,160 L15,159 L4,212 L-3,206 L-3,225 L-36,258 L-43,249 L-48,262 L-68,240 L-64,254 L-87,256 L-75,259 L-82,285 L-89,265 L-113,267 L-112,253 L-128,267 L-112,290 L-128,288 L-128,266 L-140,262 L-153,271 L-135,276 L-147,299 L-158,272 L-171,277 L-158,303 L-172,317 L-191,307 L-172,290 L-181,285 L-203,298 L-209,320 L-218,298 L-239,333 L-241,306 L-258,305 L-262,292 L-246,303 L-251,288 L-234,299 L-244,289 L-229,279 L-253,283 L-248,263 L-258,268 L-251,258 L-263,250 L-248,258 L-258,237 L-243,209 L-227,206 L-245,200 L-243,180 L-236,192 L-209,170 L-234,166 L-246,180 L-240,164 L-213,155 L-242,148 L-234,114 L-246,90 L-259,103 L-274,83 L-258,62 L-253,77 L-256,60 L-244,67 L-242,54 L-213,77 L-200,68 L-229,45 L-218,30 L-235,25 L-235,-16Z"/>
+<path class="lo" fill-rule="evenodd" d="M-65,272 L-57,258 L-55,282 L-68,292 L-78,273 L-65,272Z"/>
+<path class="lr" fill-rule="evenodd" d="M326,144 L315,140 L323,126 L326,144Z"/>
+<path class="lr" fill-rule="evenodd" d="M735,-21 L737,-48 L759,-73 L758,-32 L735,-21Z"/>
+<path class="lr" fill-rule="evenodd" d="M461,316 L462,335 L444,343 L438,333 L467,301 L461,316Z"/>
+<path class="lr" fill-rule="evenodd" d="M311,371 L352,357 L347,336 L395,322 L432,338 L435,377 L446,379 L409,404 L398,438 L377,413 L346,406 L301,461 L302,491 L269,487 L277,472 L256,471 L251,441 L263,439 L247,430 L252,416 L217,428 L271,392 L291,350 L311,371Z"/>
+<path class="lr" fill-rule="evenodd" d="M399,313 L414,306 L412,319 L399,313Z"/>
+<path class="lr" fill-rule="evenodd" d="M381,301 L377,317 L358,306 L270,342 L246,326 L228,379 L199,356 L196,355 L167,355 L156,370 L137,357 L127,368 L122,333 L137,325 L131,318 L167,320 L269,232 L269,217 L307,201 L333,216 L428,194 L459,200 L485,183 L492,195 L479,205 L493,216 L505,201 L527,213 L552,185 L557,193 L547,163 L560,136 L607,93 L613,24 L662,8 L622,49 L638,49 L632,74 L652,85 L762,23 L787,-22 L831,-50 L869,-132 L890,-213 L857,-241 L872,-239 L886,-263 L872,-303 L910,-329 L912,-368 L936,-361 L944,-325 L957,-343 L976,-329 L984,-337 L983,-371 L947,-357 L960,-397 L989,-377 L1006,-385 L1003,-312 L1035,-268 L1056,-196 L1043,-151 L1018,-141 L1022,-127 L1003,-108 L1010,-67 L989,-82 L961,-57 L965,60 L950,69 L930,133 L953,186 L921,209 L915,242 L874,271 L862,264 L865,230 L894,204 L863,195 L857,247 L845,230 L813,235 L812,272 L787,302 L780,264 L792,256 L775,247 L747,270 L736,303 L683,295 L679,280 L679,294 L635,304 L662,283 L636,284 L632,264 L624,289 L625,253 L608,254 L594,301 L627,318 L625,334 L605,327 L577,342 L530,419 L472,374 L484,347 L472,332 L502,310 L501,292 L471,300 L422,280 L381,301ZM916,151 L901,154 L926,165 L916,151ZM562,211 L540,260 L571,233 L562,211Z"/>
+<path class="lr" fill-rule="evenodd" d="M6,427 L13,421 L-3,445 L6,427Z"/>
+<path class="lr" fill-rule="evenodd" d="M-62,491 L-49,482 L-42,498 L-63,504 L-62,491Z"/>
+<path class="lr" fill-rule="evenodd" d="M57,541 L47,539 L51,510 L88,510 L57,541Z"/>
+<path class="lr" fill-rule="evenodd" d="M73,445 L60,452 L60,474 L77,476 L80,495 L64,504 L57,483 L28,506 L39,488 L19,469 L23,452 L32,475 L52,478 L12,440 L14,424 L38,434 L37,406 L52,417 L67,395 L83,402 L74,394 L94,373 L124,373 L133,365 L142,400 L168,406 L189,395 L195,415 L176,435 L208,435 L199,450 L224,469 L191,507 L162,626 L142,615 L134,627 L144,635 L105,664 L117,629 L99,604 L114,607 L117,593 L103,590 L92,614 L99,647 L59,622 L77,607 L65,552 L78,552 L105,500 L88,502 L102,483 L73,445Z"/>
+<path class="lr" fill-rule="evenodd" d="M0,314 L-4,332 L-14,326 L4,290 L0,314Z"/>
+<path class="lr" fill-rule="evenodd" d="M-4,334 L-19,352 L-17,329 L-4,334Z"/>
+<path class="lr" fill-rule="evenodd" d="M93,741 L82,726 L92,717 L106,726 L93,741Z"/>
+<text class="cn" x="766.7" y="100.5" text-anchor="middle">Japan</text>
+<text class="sea" x="383.3" y="60.3" text-anchor="middle">Japanisches Meer</text>
+<text class="sea" x="675.0" y="542.8" text-anchor="middle">Pazifik</text>
+<text class="sea" x="100.0" y="673.5" text-anchor="middle">Ostchinesisches Meer</text>
+<text class="cn" x="158.3" y="522.7" text-anchor="middle">Kyushu</text>
+<text class="cn" x="333.3" y="402.1" text-anchor="middle">Shikoku</text>
+<polyline points="863.9,192.9 862.5,165.9 860.8,122.6 850.0,85.4" fill="none" stroke="#fff" stroke-width="6.6" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="863.9,192.9 862.5,165.9 860.8,122.6 850.0,85.4" fill="none" stroke="#0F4C55" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"><title>Zug: Tokio – Nikko</title></polyline>
+<polyline points="850.0,85.4 860.8,122.6 862.5,165.9 863.9,192.9 858.3,192.0 833.3,217.1 812.9,235.6 808.3,237.9" fill="none" stroke="#fff" stroke-width="6.6" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="850.0,85.4 860.8,122.6 862.5,165.9 863.9,192.9 858.3,192.0 833.3,217.1 812.9,235.6 808.3,237.9" fill="none" stroke="#0F4C55" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"><title>Zug: Nikko – Tokio – Hakone</title></polyline>
+<polyline points="808.3,237.9 812.9,235.6 806.7,251.3 749.2,264.4 694.2,291.5 623.3,244.3 613.3,220.1 653.3,179.9 654.2,146.8" fill="none" stroke="#fff" stroke-width="6.6" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="808.3,237.9 812.9,235.6 806.7,251.3 749.2,264.4 694.2,291.5 623.3,244.3 613.3,220.1 653.3,179.9 654.2,146.8" fill="none" stroke="#0F4C55" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"><title>Zug: Hakone – Nagoya – Takayama</title></polyline>
+<polyline points="654.2,146.8 653.3,179.9 613.3,220.1 623.3,244.3 574.2,230.2 530.0,261.3" fill="none" stroke="#fff" stroke-width="6.6" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="654.2,146.8 653.3,179.9 613.3,220.1 623.3,244.3 574.2,230.2 530.0,261.3" fill="none" stroke="#0F4C55" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"><title>Zug: Takayama – Nagoya – Kyoto</title></polyline>
+<polyline points="530.0,261.3 508.3,288.5" fill="none" stroke="#fff" stroke-width="6.6" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="530.0,261.3 508.3,288.5" fill="none" stroke="#0F4C55" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"><title>Zug: Kyoto – Osaka</title></polyline>
+<polyline points="508.3,288.5 483.3,292.5 440.8,278.4 376.5,294.9 330.0,312.6 256.2,321.7" fill="none" stroke="#fff" stroke-width="6.6" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="508.3,288.5 483.3,292.5 440.8,278.4 376.5,294.9 330.0,312.6 256.2,321.7" fill="none" stroke="#0F4C55" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"><title>Zug: Osaka – Hiroshima</title></polyline>
+<polyline points="241.7,330.7 243.3,331.7" fill="none" stroke="#fff" stroke-width="6.0" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="241.7,330.7 243.3,331.7" fill="none" stroke="#E08A12" stroke-width="3.0" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 6"><title>Fähre oder Boot: Miyajimaguchi – Miyajima</title></polyline>
+<polyline points="256.2,321.7 200.8,356.8 123.3,373.3 85.0,403.1 107.5,483.5 105.0,510.6 95.0,605.1" fill="none" stroke="#fff" stroke-width="6.6" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="256.2,321.7 200.8,356.8 123.3,373.3 85.0,403.1 107.5,483.5 105.0,510.6 95.0,605.1" fill="none" stroke="#0F4C55" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"><title>Zug: Hiroshima – Kagoshima</title></polyline>
+<polyline points="95.0,605.1 105.0,643.3 108.3,683.5 95.8,723.7" fill="none" stroke="#fff" stroke-width="6.0" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="95.0,605.1 105.0,643.3 108.3,683.5 95.8,723.7" fill="none" stroke="#E08A12" stroke-width="3.0" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 6"><title>Fähre oder Boot: Kagoshima – Yakushima (hin und zurück)</title></polyline>
+<polyline points="95.0,605.1 105.0,510.6 107.5,483.5 85.0,403.1 123.3,373.3 200.8,356.8 256.2,321.7 330.0,312.6 376.5,294.9" fill="none" stroke="#fff" stroke-width="6.6" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="95.0,605.1 105.0,510.6 107.5,483.5 85.0,403.1 123.3,373.3 200.8,356.8 256.2,321.7 330.0,312.6 376.5,294.9" fill="none" stroke="#0F4C55" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"><title>Zug: Kagoshima – Okayama</title></polyline>
+<polyline points="376.5,294.9 379.2,312.6" fill="none" stroke="#fff" stroke-width="6.6" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="376.5,294.9 379.2,312.6" fill="none" stroke="#0F4C55" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"><title>Zug: Okayama – Uno (Ausflug Naoshima)</title></polyline>
+<polyline points="379.2,312.6 382.5,315.6" fill="none" stroke="#fff" stroke-width="6.0" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="379.2,312.6 382.5,315.6" fill="none" stroke="#E08A12" stroke-width="3.0" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 6"><title>Fähre oder Boot: Uno – Naoshima</title></polyline>
+<polyline points="376.5,294.9 440.8,278.4 483.3,292.5 508.3,288.5 530.0,261.3 574.2,230.2 623.3,244.3 694.2,291.5 749.2,264.4 806.7,251.3 808.3,264.4 795.0,293.5" fill="none" stroke="#fff" stroke-width="6.6" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="376.5,294.9 440.8,278.4 483.3,292.5 508.3,288.5 530.0,261.3 574.2,230.2 623.3,244.3 694.2,291.5 749.2,264.4 806.7,251.3 808.3,264.4 795.0,293.5" fill="none" stroke="#0F4C55" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"><title>Zug: Okayama – Nagoya – Atami – Shimoda</title></polyline>
+<polyline points="795.0,293.5 808.3,264.4 806.7,251.3 812.9,235.6 833.3,217.1 851.7,214.1 863.9,192.9" fill="none" stroke="#fff" stroke-width="6.6" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="795.0,293.5 808.3,264.4 806.7,251.3 812.9,235.6 833.3,217.1 851.7,214.1 863.9,192.9" fill="none" stroke="#0F4C55" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"><title>Zug: Shimoda – Tokio</title></polyline>
+<g><title>Zwischenübernachtung Kagoshima</title><circle cx="95.0" cy="605.1" r="6" fill="#fff" stroke="#718096" stroke-width="2.5"/></g>
+<text class="tl" x="105.0" y="609.1">Kagoshima</text>
+<g><title>Umstieg: Nagoya</title><circle cx="623.3" cy="244.3" r="4.5" fill="#fff" stroke="#718096" stroke-width="2"/></g>
+<text class="tl" x="632.3" y="248.3" text-anchor="start">Nagoya</text>
+<g><title>1, 11. Tokio: </title><circle cx="863.9" cy="192.9" r="19" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm2" x="863.9" y="196.5" text-anchor="middle">1, 11</text></g>
+<text class="sl" x="887.9" y="197.9" text-anchor="start">Tokio</text>
+<g><title>2. Nikko: Mi, 23.06.2027 – Fr, 25.06.2027, 2 Nächte</title><circle cx="850.0" cy="85.4" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="850.0" y="89.6" text-anchor="middle">2</text></g>
+<text class="sl" x="850.0" y="67.4" text-anchor="middle">Nikko</text>
+<g><title>3. Hakone: Fr, 25.06.2027 – So, 27.06.2027, 2 Nächte</title><circle cx="808.3" cy="237.9" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="808.3" y="242.1" text-anchor="middle">3</text></g>
+<text class="sl" x="791.3" y="242.9" text-anchor="end">Hakone</text>
+<g><title>4. Takayama: So, 27.06.2027 – Mi, 30.06.2027, 3 Nächte</title><circle cx="654.2" cy="146.8" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="654.2" y="151.0" text-anchor="middle">4</text></g>
+<text class="sl" x="654.2" y="128.8" text-anchor="middle">Takayama</text>
+<g><title>5. Kyoto: Mi, 30.06.2027 – Mo, 05.07.2027, 5 Nächte</title><circle cx="530.0" cy="261.3" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="530.0" y="265.5" text-anchor="middle">5</text></g>
+<text class="sl" x="530.0" y="243.3" text-anchor="middle">Kyoto</text>
+<g><title>6. Osaka: Mo, 05.07.2027 – Do, 08.07.2027, 3 Nächte</title><circle cx="508.3" cy="288.5" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="508.3" y="292.7" text-anchor="middle">6</text></g>
+<text class="sl" x="508.3" y="315.5" text-anchor="middle">Osaka</text>
+<g><title>7. Hiroshima: Do, 08.07.2027 – So, 11.07.2027, 3 Nächte</title><circle cx="256.2" cy="321.7" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="256.2" y="325.9" text-anchor="middle">7</text></g>
+<text class="sl" x="239.2" y="326.7" text-anchor="end">Hiroshima</text>
+<g><title>8. Yakushima: Mo, 12.07.2027 – Sa, 17.07.2027, 5 Nächte</title><circle cx="95.8" cy="723.7" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="95.8" y="727.9" text-anchor="middle">8</text></g>
+<text class="sl" x="112.8" y="728.7" text-anchor="start">Yakushima</text>
+<g><title>9. Okayama: Sa, 17.07.2027 – Mo, 19.07.2027, 2 Nächte</title><circle cx="376.5" cy="294.9" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="376.5" y="299.1" text-anchor="middle">9</text></g>
+<text class="sl" x="376.5" y="276.9" text-anchor="middle">Okayama</text>
+<g><title>10. Shimoda: Mo, 19.07.2027 – Mi, 21.07.2027, 2 Nächte</title><circle cx="795.0" cy="293.5" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="795.0" y="297.7" text-anchor="middle">10</text></g>
+<text class="sl" x="795.0" y="320.5" text-anchor="middle">Shimoda</text>
+<text class="fl" x="887.5" y="286.5" text-anchor="middle">✈ Ankunft und Rückflug: Narita</text>
+</svg>

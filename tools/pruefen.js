@@ -5,11 +5,15 @@
 // - Die Daten im Plan schliessen lückenlos aneinander an
 // - Budget: Posten ergeben ungefähr das Total, Stationskosten decken alle Nächte ab
 // - Karten: Daten in den Tooltips der Stationen stimmen mit den Stationen überein
+// - Karten: karten/*.svg sind aktuell (sonst: node tools/karte.js)
 const fs = require('fs');
 const path = require('path');
 const root = path.join(__dirname, '..');
 global.window = global;
-for (const f of ['start', 'asien', 'bali', 'usa', 'quellen']) require(path.join(root, 'data', f + '.js'));
+// Datendateien in der Reihenfolge, wie index.html sie lädt
+const index = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
+const dateien = [...index.matchAll(/<script src="(data\/[^"]+\.js)"/g)].map(m => m[1]);
+for (const f of dateien) require(path.join(root, f));
 const app = require(path.join(root, 'js', 'app.js'));
 
 const fehler = [];
@@ -72,6 +76,18 @@ for (const [k, R] of Object.entries(REISEN)) {
     }
   }
 }
+
+// Karten: aus den Beschreibungen in tools/karten/ neu zeichnen und mit den Dateien vergleichen
+const karte = require(path.join(__dirname, 'karte.js'));
+for (const name of karte.alleNamen()) {
+  try {
+    const datei = path.join(root, 'karten', name + '.svg');
+    if (!fs.existsSync(datei) || fs.readFileSync(datei, 'utf8') !== karte.zeichne(karte.ladeDefinition(name)))
+      fehler.push(`karten/${name}.svg ist veraltet: node tools/karte.js ${name}`);
+  } catch (e) { fehler.push(`tools/karten/${name}.js: ${e.message}`); }
+}
+for (const [k, R] of Object.entries(REISEN)) for (const kt of R.karte.karten)
+  if (!fs.existsSync(path.join(root, kt.datei))) fehler.push(`${k}: Karte ${kt.datei} fehlt`);
 
 if (fehler.length) { console.log(fehler.join('\n')); process.exit(1); }
 console.log('OK: keine Widersprüche gefunden');

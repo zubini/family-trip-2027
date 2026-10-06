@@ -38,6 +38,35 @@ window.QUELLEN = {
       ]
     },
     {
+      titel: "Japan",
+      links: [
+        ["Flightmapper: Swiss LX160 Zürich–Tokio-Narita (Flugzeit, Flugtage)", "https://info.flightmapper.net/flight/Swiss_LX_160"],
+        ["Airpaz: Swiss LX161 Tokio–Zürich", "https://www.airpaz.com/en/flight/code/LX-161"],
+        ["japan-guide.com: Regenzeit (Tsuyu) und durchschnittliches Ende", "https://www.japan-guide.com/e/e2277.html"],
+        ["Ekitan: Limited Express Hida (Nagoya–Takayama)", "https://ekitan.com/en/article/hida"],
+        ["Ekitan: Shinkansen Hiroshima–Kagoshima-Chuo", "https://ekitan.com/en/article/hiroshima-to-kagoshima-shinkansen"],
+        ["Ekitan: Shinkansen Kagoshima-Chuo–Shin-Osaka", "https://ekitan.com/en/article/kagoshima-to-osaka-shinkansen"],
+        ["Ekitan: Limited Express Odoriko (Tokio–Izukyu-Shimoda)", "https://ekitan.com/en/article/odoriko"],
+        ["Japan Experience: Jetfoil Toppy nach Yakushima", "https://www.japan-experience.com/plan-your-trip/to-know/traveling-japan/toppy-jetfoil-yakushima"],
+        ["Japan Travel (JNTO): Preise Japan Rail Pass ab Oktober 2026", "https://www.japan.travel/en/ca/news/price-increases-are-coming-to-the-nationwide-japan-rail-pass-2026/"],
+        ["Islands.com: Yakushima, Schnorcheln mit Meeresschildkröten", "https://www.islands.com/1808870/swim-rare-sea-turtles-wander-mountain-fairy-forest-lush-japanese-yakushima-island"],
+        ["Japan Experience: Reisegenehmigung JESTA ab 2028", "https://www.japan-experience.com/plan-your-trip/to-know/before-you-travel/jesta-authorization-travel-visa-japan"]
+      ]
+    },
+    {
+      titel: "Costa Rica",
+      links: [
+        ["Edelweiss: Flugplan Zürich–San José", "https://www.flyedelweiss.com/us/en/fly/flight-information/timetable.html?destination=SJO"],
+        ["Rough Guides: San José–Tortuguero (Shuttle und Boot)", "https://roughguides.com/costa-rica/getting-around/san-jose-to-tortuguero"],
+        ["kimkim: Tortuguero–Puerto Viejo", "https://kimkim.com/ab/tortuguero-to-puerto-viejo-de-talamanca"],
+        ["kimkim: Puerto Viejo–La Fortuna", "https://www.kimkim.com/ab/puerto-viejo-de-talamanca-to-arenal-la-fortuna"],
+        ["Enter Costa Rica: Fahrzeiten zwischen den Reisezielen", "https://www.entercostarica.com/travel-guide/drive-times"],
+        ["Along Dusty Roads: Anreise nach Drake Bay über Sierpe", "https://www.alongdustyroads.com/posts/how-to-get-to-drake-bay-sierpe-boat"],
+        ["Costa Rica Shuttle: Uvita–San Gerardo de Dota", "https://costaricashuttle.rezdy.com/117499/private-transportation-uvita-to-san-gerardo-de-dota"],
+        ["VisaRequirements: Einreise für Schweizer Reisende", "https://visarequirements.info/countries/switzerland/costa-rica/"]
+      ]
+    },
+    {
       titel: "Einreise",
       links: [
         ["Swiss Helping Point: Thailand verkürzt visumfreien Aufenthalt auf 30 Tage (ab 15.09.2026)", "https://www.swisshelpingpoint.com/en/thailand-visabefreiung-auf-30-tage-reduziert/"],

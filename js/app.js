@@ -133,9 +133,12 @@ var LEGENDE = {
   bus: ['lb', 'Bus, Minivan, Taxi'], car: ['lc', 'Mietwagen'], train: ['lt', 'Zug'], ferry: ['lf', 'Fähre, Boot'], air: ['la', 'Flug']
 };
 
+// Version für den Browser-Cache, gesetzt von tools/version.js beim Veröffentlichen (<html data-v="…">)
+var VERSION = typeof document !== 'undefined' && document.documentElement.getAttribute('data-v');
+
 function karte(K, name) {
   var obj = function (x) {
-    return '<div class="mapwrap' + (K.breit ? ' wide' : '') + '"><object data="' + x.datei + '" type="image/svg+xml" aria-label="' + esc(x.titel || 'Routenkarte ' + name) + '"></object></div>';
+    return '<div class="mapwrap' + (K.breit ? ' wide' : '') + '"><object data="' + x.datei + (VERSION ? '?v=' + VERSION : '') + '" type="image/svg+xml" aria-label="' + esc(x.titel || 'Routenkarte ' + name) + '"></object></div>';
   };
   var lg = '<div class="lg">' + liste(K.legende, function (m) { return '<span><i class="' + LEGENDE[m][0] + '"></i>' + LEGENDE[m][1] + '</span>'; }) +
     '<span><b class="lz"></b>Zwischenübernachtung oder Umstieg</span></div>';
@@ -234,7 +237,7 @@ function einstieg(S, REISEN) {
     '<p class="sub">' + S.untertitel + '</p>' +
     '<ol class="chain">' + liste(T, function (t) { return '<li><a href="#' + t.k + '">' + t.name + '</a></li>'; }) + '</ol></div></header>' +
     '<main>' +
-    '<section id="start-reisen"><div class="wrap"><h2>Die drei Reisen</h2><p class="intro">' + S.reisenIntro + '</p>' +
+    '<section id="start-reisen"><div class="wrap"><h2>Die Reisen</h2><p class="intro">' + S.reisenIntro + '</p>' +
     '<div class="vgrid">' + karten + '</div></div></section>' +
     '<section id="start-bewertung" style="padding-top:0"><div class="wrap"><h2>Bewertung nach euren Wünschen</h2><p class="intro">' + S.bewertungIntro + '</p>' +
     '<div class="cmpwrap">' + bewertung + '</div>' + empfehlung + '</div></section>' +

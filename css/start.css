@@ -27,12 +27,12 @@
 .bv small { display: block; font-weight: 400; color: var(--muted); font-size: .8rem; }
 
 .cmpwrap { overflow-x: auto; background: var(--card); border: 1px solid var(--line); border-radius: 14px; }
-table.cmp { width: 100%; border-collapse: collapse; font-size: .92rem; min-width: 820px; }
+table.cmp { width: 100%; border-collapse: collapse; font-size: .9rem; min-width: 1000px; }
 table.cmp th, table.cmp td { padding: 12px 14px; border-bottom: 1px solid var(--line); vertical-align: top; text-align: left; }
 table.cmp thead th { background: #F7FAF9; color: var(--sea); font-size: 1.05rem; }
 table.cmp thead th small { display: block; font-weight: 400; color: var(--muted); font-size: .8rem; }
-table.cmp tbody th { width: 150px; color: var(--muted); font-weight: 700; background: #FBFDFC; }
-table.rate td { min-width: 210px; }
+table.cmp tbody th { width: 130px; color: var(--muted); font-weight: 700; background: #FBFDFC; }
+table.rate td { min-width: 170px; }
 .dots { display: block; margin-bottom: 8px; font-size: 1.05rem; letter-spacing: .15em; color: var(--lagoon); }
 .dots .off { color: #CFDDDB; }
 .rtxt { display: block; margin-top: 3px; font-size: .88rem; color: var(--muted); }

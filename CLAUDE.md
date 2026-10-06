@@ -1,6 +1,6 @@
 # Regeln für dieses Projekt
 
-Familienreise 2027: Reiseführer und Vergleich von drei Reisevarianten als statische Webseite
+Familienreise 2027: Reiseführer und Vergleich mehrerer Reisevarianten als statische Webseite
 (https://zubini.github.io/family-trip-2027/). Aufbau und Datenfelder stehen im README.
 Diese Regeln gelten für alle Änderungen, egal ob von Hand oder mit Claude.
 
@@ -15,7 +15,8 @@ Eine Reise ist an vielen Stellen beschrieben. Wer etwas ändert, zieht **alle** 
   `tempo` und `dazwischen` in `data/start.js`, Bewertung «Reisekomfort», Pro und Contra.
 - Daten und Nächte (siehe unten), Nummern der Stationen und Links im Plan.
 - Budget: Posten (v.a. Fernverkehr, Unterkunft), Stationskosten, Total, Spanne, Betrag pro Tag und Person.
-- Karte in `karten/`: Linien, Stationspunkte, Beschriftungen und Tooltips.
+- Karte: Beschreibung in `tools/karten/<name>.js` anpassen (Orte, Wege, Stationen) und `node tools/karte.js <name>` ausführen.
+  Die SVG-Dateien in `karten/` nie von Hand ändern.
 - Texte, die die Route nennen: `untertitel`, `stationenIntro`, `abwechslung`, `tipps`,
   in `data/start.js` `route`, `stationen`, `hoehepunkte`, Bewertung, Empfehlung.
 - Neue Quellen in `data/quellen.js` eintragen.
@@ -23,7 +24,7 @@ Eine Reise ist an vielen Stellen beschrieben. Wer etwas ändert, zieht **alle** 
 **Daten oder Nächte geändert:**
 - `plan`, `stationen[].datum` und `naechte`, `zwischenstopp.datum`.
 - Ausgeschriebene Daten mit Wochentag in Texten (z.B. «Fr, 18.06.2027» in `planIntro`, Flughinweisen, Fakten).
-- Tooltips der Stationen in den Karten.
+- Karten neu zeichnen (`node tools/karte.js`); die Tooltips übernehmen die Daten automatisch.
 - `budget.naechte` und die Nächte bei den Stationskosten.
 
 **Preise geändert:** Posten, Total, Spanne, «pro Tag» und «pro Person» passend halten.
@@ -73,12 +74,15 @@ Adressen, Telefonnummern oder sonstigen persönlichen Daten eintragen.
   keine neuesten Sprachfeatures). Die Seite muss auch per Doppelklick (`file://`) funktionieren:
   kein `fetch` für eigene Dateien.
 - Bilder nur von Wikimedia Commons: feste `datei` (mit Auflösung und Motiv geprüft) oder `suche` plus `stichwort`.
-- Karten sind eigenständige SVG-Dateien mit eigenem `<style>`. Die Küstenlinien-Lizenz bleibt erhalten.
+- Karten werden mit `tools/karte.js` erzeugt (eigenständige SVG-Dateien mit eigenem `<style>`). Die Küstenlinien-Lizenz bleibt erhalten.
+- Neue CSS- oder JS-Dateien mit normalem Pfad in `index.html` einbinden; die Cache-Versionen setzt `tools/version.js` beim Veröffentlichen.
 - Neue Farben für Länder-Etiketten in `css/reise.css` ergänzen.
+- Neue Reise: `data/<name>.js` nach Vorlage einer bestehenden Reise, in `index.html` einbinden, Einträge in
+  `data/start.js` (Reisen, Bewertung) und `data/quellen.js` ergänzen, Karte unter `tools/karten/` anlegen.
 
 ## 7. Prüfen und veröffentlichen
 
-- Vor jedem Commit: `node tools/pruefen.js` (prüft Daten, Nächte, Budget und Karten-Tooltips).
+- Vor jedem Commit: `node tools/pruefen.js` (prüft Daten, Nächte, Budget und ob die Karten aktuell sind).
 - Grössere Änderungen zusätzlich im Browser anschauen, auf Desktop- und Handybreite.
 - Neue Widerspruchsarten, die sich automatisch prüfen lassen, in `tools/pruefen.js` ergänzen.
 - Kleine Commits mit aussagekräftiger Nachricht auf Deutsch. Jeder Push auf den Standard-Branch
