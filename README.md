@@ -2,12 +2,11 @@
 
 **Zur Seite: https://zubini.github.io/family-trip-2027/**
 
-Reiseführer und Variantenvergleich für die Familienreise 2027 (ab 18. Juni, 2 Erwachsene und 2 Kids) mit vier Varianten:
+Reiseführer und Variantenvergleich für die Familienreise 2027 (ab 18. Juni, 2 Erwachsene und 2 Kids) mit drei Varianten:
 
 - **Spanien / Portugal**: mit dem eigenen Auto ab Brig-Glis, zu den Balearen mit der Autofähre, ohne Flug (bis 24. Juli)
 - **USA**: von Las Vegas nach New York (bis 22. Juli)
 - **Malaysia / Thailand**: von Singapur nach Bangkok (bis 22. Juli)
-- **Malaysia / Indonesien**: von Singapur über Java nach Bali (bis 22. Juli)
 
 Dazu eine Einstiegsseite mit Vergleich, Bewertung, Budget sowie Pro und Contra und eine Seite mit den Quellen.
 
@@ -23,7 +22,6 @@ data/             die Inhalte, hier wird fast alles geändert
   spanien2.js     dieselbe Reise in umgekehrter Reihenfolge (Variante)
   usa.js          USA (Las Vegas–New York)
   asien.js        Malaysia / Thailand (Singapur–Bangkok)
-  bali.js         Malaysia / Indonesien (Singapur–Bali)
   quellen.js      Seite «Quellen» (Belege für Fahrzeiten, Einreise, Bilder)
   bilder-unsplash.js  Unsplash-Fotos (erzeugt von tools/bilder-unsplash.js)
 css/              Gestaltung (basis, navigation, reise, karte, start)
@@ -70,7 +68,7 @@ Jede Reise in `data/` enthält der Reihe nach:
 - **Reihenfolge:** Die Navigation folgt der Reihenfolge der Skripte in `index.html`, die Spalten der Einstiegsseite der Reihenfolge in `data/start.js`.
 - **Texte** dürfen einfaches HTML enthalten (`<b>`, `<strong>`).
 - **Symbol der Anreise** (Bus, Zug, Schiff, Flug, Auto) wird am Anfang des Anreise-Textes erkannt (z.B. «Mit dem Auto…», «Autofähre…», «Zug…»).
-- **Länder-Etikett:** `land` ist das Kürzel für die Farbe (`sg`, `my`, `th`, `id`, `us`, `es`, `pt`, Farben in `css/reise.css`), `region` der angezeigte Text.
+- **Länder-Etikett:** `land` ist das Kürzel für die Farbe (`sg`, `my`, `th`, `us`, `es`, `pt`, Farben in `css/reise.css`), `region` der angezeigte Text.
 
 Prüfen vor dem Push (braucht [Node.js](https://nodejs.org)). Geprüft werden Daten und Nächte, Budget-Summen und die Daten in den Karten:
 

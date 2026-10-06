@@ -1,17 +1,17 @@
 // Einstiegsseite: Vergleich der Reisen
 // Budgetzahlen kommen automatisch aus den Reisen (data/spanien.js usw.).
-// Platzhalter in Texten: {plan:spanien}, {plan:usa}, {plan:asien}, {plan:bali} = Planwert, {mehrkosten} = USA minus Malaysia / Thailand.
+// Platzhalter in Texten: {plan:spanien}, {plan:usa}, {plan:asien} = Planwert, {mehrkosten} = USA minus Malaysia / Thailand.
 // Reihenfolge der Reisen hier = Reihenfolge der Spalten; die Navigation folgt der Reihenfolge in index.html.
 // Bewertung: [Punkte 0–5, Text]. Die Punkte und Pro/Contra sind eine Einschätzung und bei Änderungen an den Reisen von Hand anzupassen.
 window.START = {
   titel: "Familienreise 2027",
   zeitraum: "Ab Fr, 18.06.2027 für fünf Wochen, 2 Erwachsene und 2 Kids",
   untertitel: "Verschiedene Reisevarianten als Fahrplan für eine Entscheidung.",
-  reisenIntro: "Alle Reisen dauern 34 bis 36 Nächte und sind für die Familie mit Sohn (12) und Tochter (14) geplant. Spanien / Portugal ohne Flug und Jetlag kann bis Sa, 24.07.2027 dauern, die anderen enden am Do, 22.07.2027. Ein Klick führt zum vollständigen Fahrplan mit Stationen, Karte und Budget.",
+  reisenIntro: "Alle Reisen dauern 33 bis 36 Nächte und sind für die Familie mit Sohn (12) und Tochter (14) geplant. Spanien / Portugal ohne Flug und Jetlag kann bis Sa, 24.07.2027 dauern, die anderen enden am Do, 22.07.2027. Ein Klick führt zum vollständigen Fahrplan mit Stationen, Karte und Budget.",
   bewertungIntro: "Bewertet werden Natur, Dschungelfeeling, Strand und Baden, Schnorcheln, Abenteuer, Städte, Gesundheit und Sicherheit, Budget, Reisekomfort sowie CO₂ und Umwelt. Fünf Punkte sind die beste Bewertung (beim Budget heisst das: günstig, beim CO₂: wenig Ausstoss). Die Skala ist fest und nicht nur ein Vergleich der vier Reisen: 5 heisst Weltklasse (z.B. tropische Riffe beim Schnorcheln, kurze Etappen beim Reisekomfort), 0 heisst, dass es das auf der Reise nicht gibt. Die Punkte sind eine Einschätzung auf Basis der Reisepläne, keine Messung.",
   budgetIntro: "Mittelklasse inklusive Flüge bzw. Autokosten, Transport, Unterkunft, Verpflegung und Aktivitäten für 4 Personen. Der dunkle Punkt ist der Planwert, der helle Balken die Spanne.",
   vergleichIntro: "Die wichtigsten Unterschiede nebeneinander.",
-  entscheidIntro: "Welche Reise passt, hängt davon ab, ob Strand und Schnorcheln, Vulkane und Tempel, Städte und Kultur ohne Flug oder Nationalparks im Vordergrund stehen.",
+  entscheidIntro: "Welche Reise passt, hängt davon ab, ob Strand und Schnorcheln, Städte und Kultur ohne Flug oder Nationalparks und Roadtrip im Vordergrund stehen.",
   reisen: {
     spanien: {
       name: "Spanien / Portugal",
@@ -101,35 +101,6 @@ window.START = {
         "Dengue-Mückenschutz, kein Leitungswasser, Impfstatus vorab klären",
         "Zwei Langstreckenflüge mit viel CO₂; Thailand nur 30 Tage visafrei, Regeln prüfen"
       ]
-    },
-    bali: {
-      name: "Malaysia / Indonesien",
-      zusatz: "von Singapur nach Bali",
-      passt: "Vulkane, Tempel und Abenteuer im Vordergrund stehen und ihr den langen Rückflug mit Stopp in Kauf nehmt.",
-      kurz: "Fünf Wochen durch Malaysia, Java und Bali mit Vulkanen, Tempeln und Inseln.",
-      route: "Singapur, Pulau Tioman, Kuala Lumpur, Jakarta, Yogyakarta, Bromo und Malang, Ijen und Banyuwangi, Ubud, Nusa Penida, Uluwatu",
-      stationen: "10 Stationen",
-      laender: "Singapur, Malaysia, Indonesien",
-      hinflug: "Direktflug Zürich–Singapur ca. 12–13 Std.",
-      rueckflug: "Kein Direktflug ab Denpasar, mit einem Stopp ca. 17–22 Std.",
-      dazwischen: "1 Flug dazwischen (Kuala Lumpur–Jakarta, ca. 2–2,5 Std.), sonst Bus, Zug und Fähre",
-      tempo: "Ca. 50 Std. reine Reisezeit mit Bus, Zug, Fähre und einem Flug, realistisch mit Wartezeiten ca. 60 Std.; 5 lange Reisetage mit 5–8 Std. (Tioman–Kuala Lumpur, Jakarta–Yogyakarta, Yogyakarta–Malang, Bromo–Banyuwangi, Banyuwangi–Ubud); dazu ein nächtlicher Ijen-Aufstieg",
-      gesamt: "Ca. 101–108 Std. Tür zu Tür: Bahn Brig-Glis–Zürich Flughafen (ca. 2,5 Std.), ca. 2 Std. Wartezeit am Flughafen, Flüge (Rückflug mit Stopp) und Transfers zusammen ca. 41–48 Std., dazu ca. 60 Std. mit Bus, Zug, Fähre und einem Inlandflug. Uhr +6 Std., Jetlag vor allem nach der Ankunft.",
-      wetter: "Trockenzeit auf Java und Bali (beste Reisezeit, Bali Hochsaison); Bromo und Ijen sind nachts sehr kalt.",
-      einreise: "Visa on Arrival bzw. e-VOA für 30 Tage reicht (ca. 23 Tage Aufenthalt), dazu Einreiseformular und Touristenabgabe für Bali. Singapur und Malaysia visafrei.",
-      hoehepunkte: "Borobudur und Prambanan, Sonnenaufgang am Bromo, «Blue Fire» am Ijen, Ubud, Nusa Penida mit Mantarochen, Uluwatu.",
-      teens: "Jeeptour auf den Bromo, Ijen-Nachtaufstieg, Höhlen-Tubing, Schnorcheln, Surf-Schnupperstunde.",
-      pro: [
-        "Trockenzeit auf Java und Bali, die beste Reisezeit",
-        "Vulkane Bromo und Ijen, Borobudur und Prambanan, Reisterrassen bei Ubud und Mantarochen bei Nusa Penida",
-        "Günstig (ca. {plan:bali} CHF)"
-      ],
-      contra: [
-        "Rückflug mit Stopp (ca. 17–22 Std.), ein Inlandflug und lange Zugtage; Tür zu Tür ca. 101–108 Std. und Jetlag",
-        "Gesundheit: Dengue, Tollwut-Risiko, Methanol in Getränken, kein Leitungswasser",
-        "Der Ijen-Nachtaufstieg ist für den Sohn (12) anspruchsvoll",
-        "Am meisten CO₂ (ca. 24’000 km Flug); auf Bali oft Wellen statt ruhiger Badestrände"
-      ]
     }
   },
   bewertung: [
@@ -146,10 +117,6 @@ window.START = {
       asien: [
         4,
         "Inseln, Strände und Riffe von Tioman bis Koh Tao, dazu Delfine bei Khanom und Wasserfälle; eher sanfte als dramatische Landschaften."
-      ],
-      bali: [
-        4,
-        "Vulkane wie Bromo und Ijen, Reisterrassen bei Ubud und die Klippen von Nusa Penida; dramatisch und abwechslungsreich."
       ]
     },
     {
@@ -159,8 +126,7 @@ window.START = {
       asien: [
         3,
         "Dschungelwanderung auf Tioman, Wasserfälle und Inselwälder; kein grosser zusammenhängender Regenwald auf der Route."
-      ],
-      bali: [3, "Tioman, dazu Wasserfälle und Vulkanlandschaften auf Java und Bali; Dschungel eher als Kulisse."]
+      ]
     },
     {
       kriterium: "Strand und Baden",
@@ -175,10 +141,6 @@ window.START = {
       asien: [
         5,
         "Tioman, Perhentian Islands, Khanom, Koh Samui, Koh Tao und Hua Hin: tropische Strände mit ca. 29 °C warmem Wasser an fast jeder zweiten Station."
-      ],
-      bali: [
-        3,
-        "Tioman, Nusa Penida und Uluwatu: schöne Buchten, aber auf Bali oft Wellen und Strömung, auf Java keine Badestrände."
       ]
     },
     {
@@ -191,8 +153,7 @@ window.START = {
       asien: [
         5,
         "Tioman, Perhentian Islands, Koh Samui und Koh Tao: fast jede Inselstation hat Riffe, Schildkröten und Schnorchelboote."
-      ],
-      bali: [3, "Tioman und die Mantarochen bei Nusa Penida; auf Java gibt es keine Riffe."]
+      ]
     },
     {
       kriterium: "Abenteuer",
@@ -201,8 +162,7 @@ window.START = {
         "Caminito del Rey, Achterbahnen in Terra Mítica, Kajak und Coasteering, Pisten durch die Bardenas und Gorafe; eher Entdecken als Wildnis."
       ],
       usa: [4, "Durch die Narrows waten, Antelope Canyon, 2-Tage-Roadtrip und Cedar Point."],
-      asien: [3, "Kajak, Seilrutschen, Inselhopping und Fähren; eher abenteuerlich beim Reisen als in der Natur."],
-      bali: [4, "Bromo-Jeep bei Nacht, Ijen-Aufstieg zum «Blue Fire», Höhlen-Tubing und Surfen."]
+      asien: [3, "Kajak, Seilrutschen, Inselhopping und Fähren; eher abenteuerlich beim Reisen als in der Natur."]
     },
     {
       kriterium: "Städte",
@@ -211,8 +171,7 @@ window.START = {
         "Barcelona, Palma, Granada, Sevilla, Lissabon, Porto und Bilbao mit Alhambra, Sagrada Família und viel Kultur."
       ],
       usa: [5, "Las Vegas, Chicago, Washington, Philadelphia und New York mit Museen und Aussichtsplattformen."],
-      asien: [4, "Singapur, Kuala Lumpur, Penang und Bangkok mit Street-Food und Tempeln."],
-      bali: [3, "Singapur, Kuala Lumpur, Jakarta und Yogyakarta; Bali ist eher Kultur und Natur als Stadt."]
+      asien: [4, "Singapur, Kuala Lumpur, Penang und Bangkok mit Street-Food und Tempeln."]
     },
     {
       kriterium: "Gesundheit und Sicherheit",
@@ -227,10 +186,6 @@ window.START = {
       asien: [
         3,
         "Singapur sehr sicher; in Malaysia und Thailand Dengue-Mückenschutz, kein Leitungswasser, Impfstatus vorab klären; auf den Inseln (Tioman, Perhentian) ist ein Spital weit weg, Bootsfahrten bei Wellengang."
-      ],
-      bali: [
-        2,
-        "Dengue, Tollwut-Risiko, Methanol in selbst gemischten Getränken, kein Leitungswasser, Impfungen vorab klären; Schwefelgase am Ijen, steile Strassen auf Nusa Penida."
       ]
     },
     {
@@ -240,8 +195,7 @@ window.START = {
         "ca. {plan:spanien} CHF: knapp die günstigste Variante; kein Flug, dafür Benzin, Maut, Fähren und teure Unterkünfte in der Hochsaison."
       ],
       usa: [1, "ca. {plan:usa} CHF: rund {mehrkosten} CHF mehr, vor allem Unterkünfte und Mietwagen."],
-      asien: [4, "ca. {plan:asien} CHF: Singapur ist teuer, der Rest günstig."],
-      bali: [4, "ca. {plan:bali} CHF: fast gleich wie Malaysia / Thailand."]
+      asien: [4, "ca. {plan:asien} CHF: Singapur ist teuer, der Rest günstig."]
     },
     {
       kriterium: "Reisekomfort",
@@ -256,10 +210,6 @@ window.START = {
       asien: [
         2,
         "Ca. 101–108 Stunden Tür zu Tür: zwei Direktflüge mit Jetlag, dazu ca. 65–70 Stunden mit Bus, Zug und Fähre und viele Umstiege mit Gepäck; niemand muss selber fahren."
-      ],
-      bali: [
-        1,
-        "Ca. 101–108 Stunden Tür zu Tür: Rückflug mit Stopp (17–22 Stunden), ein Inlandflug, lange Zugtage auf Java, viele Umstiege mit Gepäck und Jetlag; dazu der nächtliche Ijen-Aufstieg."
       ]
     },
     {
@@ -275,10 +225,6 @@ window.START = {
       asien: [
         1,
         "Zwei Langstreckenflüge (ca. 19’000 km), unterwegs Bus, Zug und Fähre, grob geschätzt ca. 4 t CO₂ pro Person."
-      ],
-      bali: [
-        1,
-        "Zwei Langstreckenflüge mit Stopp und ein Flug Kuala Lumpur–Jakarta (zusammen ca. 24’000 km), grob geschätzt ca. 5 t CO₂ pro Person."
       ]
     }
   ]

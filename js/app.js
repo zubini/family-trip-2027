@@ -443,7 +443,7 @@ function ladeBilder(root) {
 }
 
 // ---------- 5. Navigation ----------
-// Immer nur eine Reise ist sichtbar. Die Adresse (#bali, #bali-s3 usw.) bestimmt, welche.
+// Immer nur eine Reise ist sichtbar. Die Adresse (#usa, #usa-s3 usw.) bestimmt, welche.
 
 var trips = ['start'].concat(Object.keys(window.REISEN), window.QUELLEN ? ['quellen'] : []);
 function show(k) {

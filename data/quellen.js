@@ -52,16 +52,6 @@ window.QUELLEN = {
       ]
     },
     {
-      titel: "Fahrzeiten Malaysia / Indonesien",
-      links: [
-        ["bobobox.com: Zug Jakarta–Yogyakarta", "https://bobobox.com/blog/en/train-from-jakarta-to-yogyakarta/"],
-        ["Wikipedia: Argo Dwipangga (Fahrzeit Jakarta–Yogyakarta)", "https://en.wikipedia.org/wiki/Argo_Dwipangga"],
-        ["Salt in our Hair: Zug Yogyakarta–Malang", "https://saltinourhair.com/indonesia/malioboro-train-yogyakarta-malang"],
-        ["Gecko Routes: Bromo–Ijen", "https://geckoroutes.com/indonesia/bromo-to-ijen/"],
-        ["rome2rio: Gilimanuk–Ubud", "https://www.rome2rio.com/s/Gilimanuk/Ubud"]
-      ]
-    },
-    {
       titel: "Fahrzeiten USA",
       links: [
         ["Wanderlog: Springdale (Zion)–Page", "https://Wanderlog.com/drive/between/59086/58476/springdale-to-page-drive"],

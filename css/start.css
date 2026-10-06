@@ -2,7 +2,7 @@
 .hero-start { min-height: 56vh; background: linear-gradient(135deg, #0F4C55 0%, #1F9A8F 55%, #F0A23B 130%); }
 .hero-start::after { display: none; }
 
-.vgrid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+.vgrid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
 .vcard { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 22px; display: flex; flex-direction: column; gap: 8px; }
 .vcard h3 { font-size: 1.8rem; color: var(--sea); }
 .vtag { align-self: flex-start; font-size: .8rem; font-weight: 700; color: #fff; background: var(--sea); padding: 3px 10px; border-radius: 999px; }
@@ -38,7 +38,7 @@ table.cmp tbody th { color: var(--muted); font-weight: 700; background: #FBFDFC;
 .dots .off { color: #CFDDDB; }
 .rtxt { display: block; margin-top: 3px; font-size: .88rem; color: var(--muted); }
 
-.pgrid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+.pgrid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
 .pcard { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 20px; }
 .pcard h3 { color: var(--sea); font-size: 1.5rem; margin-bottom: 6px; }
 .pcard h4 { margin: 12px 0 4px; font-size: .95rem; }
