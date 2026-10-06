@@ -35,7 +35,9 @@ window.QUELLEN = {
         ["Heycar: Umweltzone Lyon (Crit’Air)", "https://heycar.com/fr/news/zfe-lyon"],
         ["Barcelona.com: Umweltzone ZBE, Registrierung ausländischer Autos", "https://www.barcelona.com/transportation/zbe-barcelona"],
         ["TollGuru: Maut in Portugal (EasyToll, A22)", "https://tollguru.mapup.ai/portugal-toll"],
-        ["Bison Futé: Verkehrsprognose Frankreich", "https://www.bison-fute.gouv.fr"]
+        ["Bison Futé: Verkehrsprognose Frankreich", "https://www.bison-fute.gouv.fr"],
+        ["Movilidad Eléctrica: Ionity-Preise 2026 in Europa", "https://movilidadelectrica.com/ionity-sube-precios-recarga-rapida-europa-2026/"],
+        ["Mobilize Charge Pass: Ladepreise Frankreich und Spanien (Mai 2026)", "https://cdn.group.renault.com/ren/fr/energie/Tarifs_charge_pass_mai_2026.pdf"]
       ]
     },
     {
@@ -66,7 +68,10 @@ window.QUELLEN = {
       links: [
         ["Trainline: Zürich Flughafen–Brig mit dem Zug (ca. 2,5 Std.)", "https://thetrainline.com/train-times/zurich-to-brig"],
         ["myclimate: Hin- und Rückflug Genf–New York in Economy ca. 2,5 t CO₂ pro Person (Grundlage für die groben Schätzungen, ca. 0,2 kg pro km)", "https://www.MyClimate.org/fileadmin/user_upload/myclimate_-_home/01_Information/02_News_Press/03_Press_releases/Documents/190814_PressRelease_myclimate_How_much_CO2_is_emitted_durig_a_flight.pdf"],
-        ["myclimate: CO₂-Rechner für Flüge und Autofahrten", "https://co2.myclimate.org"]
+        ["myclimate: CO₂-Rechner für Flüge und Autofahrten", "https://co2.myclimate.org"],
+        ["Electricity Maps: Strommix Frankreich 2025 (ca. 32 g CO₂ pro kWh)", "https://www.electricitymaps.com/grid-in-review-2025/france"],
+        ["Electricity Maps: Strommix Spanien 2025 (ca. 132 g CO₂ pro kWh)", "https://www.electricitymaps.com/grid-in-review-2025/spain"],
+        ["Electricity Maps: Strommix Portugal 2025 (ca. 117 g CO₂ pro kWh)", "https://www.electricitymaps.com/grid-in-review-2025/portugal"]
       ]
     },
     {

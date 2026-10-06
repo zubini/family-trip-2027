@@ -23,22 +23,22 @@ window.START = {
       laender: "Frankreich, Spanien, Portugal",
       hinflug: "Kein Flug: mit dem eigenen Auto ab Brig-Glis, Zwischenstopp am Meer in Sète (ca. 7–7,5 Std.), dann nach Barcelona (ca. 3–3,5 Std.)",
       rueckflug: "Mit dem Auto in zwei Tagen über Carcassonne (ca. 6,5–7 und 7,5–8 Std.), Ankunft Sa, 24.07.2027",
-      dazwischen: "Keine Flüge: eigenes Auto, dazu drei Autofähren (Barcelona–Palma, Palma–Ibiza, Ibiza–Dénia)",
-      tempo: "Ca. 67 Std. reine Reisezeit (ca. 54 Std. Auto für ca. 5’500 km und ca. 13 Std. Fähre), realistisch mit Pausen, Check-in und Stau ca. 77–79 Std.; 5 lange Reisetage mit 6,5–8 Std. (Brig-Glis–Sète, Fähre Barcelona–Palma, Bardenas–Carcassonne, Carcassonne–Brig-Glis) bzw. 4,5–5 Std. (Sevilla–Lissabon)",
-      gesamt: "Ca. 77–79 Std. Tür zu Tür, ohne Flughafen und ohne Jetlag: davon realistisch ca. 62–64 Std. im Auto (ca. 54 Std. reine Fahrzeit) und ca. 15 Std. auf den Fähren inklusive Check-in, wo man sich bewegen und ausruhen kann.",
+      dazwischen: "Keine Flüge: eigenes Elektroauto, dazu drei Autofähren (Barcelona–Palma, Palma–Ibiza, Ibiza–Dénia)",
+      tempo: "Ca. 67 Std. reine Reisezeit (ca. 54 Std. Elektroauto für ca. 5’500 km und ca. 13 Std. Fähre), realistisch mit Pausen, Ladestopps, Check-in und Stau ca. 80–83 Std.; 5 lange Reisetage mit 6,5–8 Std. (Brig-Glis–Sète, Fähre Barcelona–Palma, Bardenas–Carcassonne, Carcassonne–Brig-Glis) bzw. 4,5–5 Std. (Sevilla–Lissabon)",
+      gesamt: "Ca. 80–83 Std. Tür zu Tür, ohne Flughafen und ohne Jetlag: davon realistisch ca. 65–68 Std. im Elektroauto inklusive ca. 10–12 Ladestopps (ca. 54 Std. reine Fahrzeit) und ca. 15 Std. auf den Fähren inklusive Check-in, wo man sich bewegen und ausruhen kann.",
       wetter: "Heiss und trocken: in Andalusien und den Bardenas oft 35–42 °C, an den Küsten 28–32 °C; Portugal und der Norden angenehmer, Mittelmeer ca. 23–26 °C.",
       einreise: "Schengen: Identitätskarte genügt, keine Formulare. Crit’Air-Vignette für Frankreich, Registrierung für die Umweltzone Barcelona, elektronische Maut in Portugal.",
       hoehepunkte: "Sagrada Família, Inselhopping mit dem Auto auf Mallorca, Ibiza und Formentera, Terra Mítica und Aqualandia in Benidorm, Cabo de Gata, Alhambra und Gorafe, Caminito del Rey, Sevilla, Lissabon, Porto, Playa de las Catedrales, Bardenas Reales.",
       teens: "Freizeit- und Wasserparks (Terra Mítica, Aqualandia, Isla Mágica), Schnorcheln und Kajak, Caminito del Rey, Game-of-Thrones-Drehorte, Höhlen und Felsbögen bei Ebbe, Surfen in Galicien.",
       pro: [
-        "Kein Flug und kein Jetlag, Tür zu Tür am wenigsten Reisezeit (ca. 77–79 Std.); zwei Tage länger möglich",
+        "Kein Flug und kein Jetlag, Tür zu Tür am wenigsten Reisezeit (ca. 80–83 Std.); zwei Tage länger möglich",
         "Viele Strand- und Badetage auf Mallorca, Ibiza, Formentera und in Benidorm, Schnorcheln in klarem Mittelmeer",
         "Städte und Kultur: Barcelona, Granada mit der Alhambra, Sevilla, Lissabon und Porto",
         "Unkompliziert und sicher: Europa, keine Impfungen, eigenes Auto mit viel Platz fürs Gepäck",
         "Am wenigsten CO₂ und knapp die günstigste Variante"
       ],
       contra: [
-        "Ca. 62–64 Std. am Steuer, je ca. 7–8 Std. am ersten und letzten Tag",
+        "Ca. 65–68 Std. im Auto inklusive Ladestopps, am ersten und letzten Tag je ca. 8–9 Std.",
         "Grosse Hitze in Andalusien und den Bardenas (oft 35–42 °C)",
         "Hochsaison: Strände voll, Fähren, Unterkünfte und Alhambra früh buchen",
         "Keine Korallenriffe und kein Dschungel; der Atlantik in Galicien ist kühl"
@@ -192,7 +192,7 @@ window.START = {
       kriterium: "Budget (mehr Punkte = günstiger)",
       spanien: [
         4,
-        "ca. {plan:spanien} CHF: knapp die günstigste Variante; kein Flug, dafür Benzin, Maut, Fähren und teure Unterkünfte in der Hochsaison."
+        "ca. {plan:spanien} CHF: knapp die günstigste Variante; kein Flug, dafür Strom, Maut, Fähren und teure Unterkünfte in der Hochsaison."
       ],
       usa: [1, "ca. {plan:usa} CHF: rund {mehrkosten} CHF mehr, vor allem Unterkünfte und Mietwagen."],
       asien: [4, "ca. {plan:asien} CHF: Singapur ist teuer, der Rest günstig."]
@@ -201,7 +201,7 @@ window.START = {
       kriterium: "Reisekomfort",
       spanien: [
         3,
-        "Tür zu Tür am wenigsten Reisezeit (ca. 77–79 Stunden), kein Flughafen, kein Jetlag, eigenes Auto mit viel Platz fürs Gepäck; dafür ca. 62–64 Stunden am Steuer, je ca. 7–8 Stunden am ersten und letzten Tag. Auf den Fähren (ca. 15 Stunden) kann man sich bewegen und ausruhen."
+        "Tür zu Tür am wenigsten Reisezeit (ca. 80–83 Stunden), kein Flughafen, kein Jetlag, eigenes Auto mit viel Platz fürs Gepäck; dafür ca. 65–68 Stunden im Auto inklusive Ladestopps, am ersten und letzten Tag je ca. 8–9 Stunden. Auf den Fähren (ca. 15 Stunden) kann man sich bewegen und ausruhen."
       ],
       usa: [
         2,
@@ -215,8 +215,8 @@ window.START = {
     {
       kriterium: "CO₂ und Umwelt (mehr Punkte = weniger CO₂)",
       spanien: [
-        4,
-        "Kein Flug: eigenes Auto (ca. 5’500 km) und drei Fähren, grob geschätzt ca. 0,3–0,5 t CO₂ pro Person."
+        5,
+        "Kein Flug: Elektroauto (ca. 1’100 kWh, Strom in Frankreich ca. 30 g, in Spanien und Portugal ca. 120–130 g CO₂ pro kWh) und drei Fähren; grob geschätzt ca. 0,1–0,2 t CO₂ pro Person, das meiste davon auf den Fähren."
       ],
       usa: [
         1,

@@ -13,7 +13,7 @@ REISEN.spanien = {
     stichwort: "catedrales|castildetierra|caminito",
     alt: "Landschaft in Spanien"
   },
-  planIntro: "Abfahrt in Brig-Glis am Fr, 18.06.2027, Rückkehr am Sa, 24.07.2027. Alle Strecken mit dem eigenen Auto, zu den Inseln mit der Autofähre. Ein Klick auf eine Station springt zur Beschreibung.",
+  planIntro: "Abfahrt in Brig-Glis am Fr, 18.06.2027, Rückkehr am Sa, 24.07.2027. Alle Strecken mit dem eigenen Elektroauto, zu den Inseln mit der Autofähre. Ein Klick auf eine Station springt zur Beschreibung.",
   hinflug: {
     datum: "18. Juni",
     name: "Abfahrt in Brig-Glis",
@@ -64,7 +64,7 @@ REISEN.spanien = {
   planHinweise: [
     [
       "Gesamt",
-      "36 Nächte, 12 Stationen und 3 Zwischenübernachtungen (Sète, Bilbao, Carcassonne). Keine Flüge: alles mit dem eigenen Auto, zu den Inseln mit drei Autofähren. Insgesamt ca. 5’500 km Autofahrt und ca. 13 Std. auf Fähren, zusammen ca. 67 Std. reine Reisezeit; mit Pausen, Check-in an den Häfen und Sommerstau realistisch ca. 77–79 Std. von Tür zu Tür (ca. 62–64 Std. im Auto, ca. 15 Std. auf den Fähren). Die längsten Reisetage: Brig-Glis–Sète (ca. 7–7,5 Std.), Carcassonne–Brig-Glis (ca. 7,5–8 Std.), Fähre Barcelona–Palma (ca. 6,5–7,5 Std.), Bardenas–Carcassonne (ca. 6,5–7 Std.), Sevilla–Lissabon (ca. 4,5–5 Std.), Porto–Ribadeo (ca. 4–4,5 Std.) und Benidorm–Cabo de Gata (ca. 3,5–4 Std.)."
+      "36 Nächte, 12 Stationen und 3 Zwischenübernachtungen (Sète, Bilbao, Carcassonne). Keine Flüge: alles mit dem eigenen Auto, zu den Inseln mit drei Autofähren. Insgesamt ca. 5’500 km Autofahrt und ca. 13 Std. auf Fähren, zusammen ca. 67 Std. reine Reisezeit; mit Pausen, Check-in an den Häfen und Sommerstau mit dem Elektroauto realistisch ca. 80–83 Std. von Tür zu Tür (ca. 65–68 Std. im Auto inklusive ca. 10–12 Ladestopps à 20–30 Min., ca. 15 Std. auf den Fähren). Die längsten Reisetage: Brig-Glis–Sète (ca. 7–7,5 Std. plus 1–2 Ladestopps), Carcassonne–Brig-Glis (ca. 7,5–8 Std. plus 2–3 Ladestopps), Fähre Barcelona–Palma (ca. 6,5–7,5 Std.), Bardenas–Carcassonne (ca. 6,5–7 Std. plus 2 Ladestopps), Sevilla–Lissabon (ca. 4,5–5 Std.), Porto–Ribadeo (ca. 4–4,5 Std.) und Benidorm–Cabo de Gata (ca. 3,5–4 Std.)."
     ],
     [
       "Vorab buchen",
@@ -72,7 +72,7 @@ REISEN.spanien = {
     ],
     [
       "Auto",
-      "Crit’Air-Vignette für Frankreich vorab bestellen (Umweltzonen in Lyon, Montpellier und weiteren Städten), Auto für die Umweltzone von Barcelona online registrieren, in Portugal elektronische Maut über EasyToll an der Grenze oder Via Verde. CH-Kleber, Warnwesten für alle und Pannenhilfe-Versicherung mitnehmen. In Städten Parkhaus beim Hotel buchen, keine Wertsachen sichtbar im Auto lassen."
+      "Elektroauto: Ladekarte oder App mit Roaming für Frankreich, Spanien und Portugal (z.B. vom eigenen Stromanbieter), Schnelllader an den Autobahnen (u.a. Ionity, Tesla Supercharger für alle Marken, Fastned, Electra, Zunder, Iberdrola) und Unterkünfte mit Lademöglichkeit buchen, vor allem auf den Inseln und in den Altstädten. Ladestopps mit Pausen verbinden; bei Hitze und Klimaanlage steigt der Verbrauch. Crit’Air-Vignette (grün, Klasse 0) für Frankreich vorab bestellen, Auto für die Umweltzone von Barcelona online registrieren, in Portugal elektronische Maut über EasyToll an der Grenze oder Via Verde. CH-Kleber, Warnwesten für alle und Pannenhilfe-Versicherung mitnehmen. In Städten Parkhaus beim Hotel buchen, keine Wertsachen sichtbar im Auto lassen."
     ],
     [
       "Optional",
@@ -421,18 +421,18 @@ REISEN.spanien = {
     }
   ],
   abschluss: "Nach einer Zwischenübernachtung in Carcassonne Rückfahrt über Montpellier, Lyon und Genf nach Brig-Glis am Sa, 24.07.2027 (ca. 7,5–8 Std.).",
-  budgetIntro: "Mittelklasse inklusive Benzin, Maut, Fähren, Unterkunft, Verpflegung und Aktivitäten, ohne Abnutzung des eigenen Autos. Alle Beträge sind Schätzungen in CHF.",
+  budgetIntro: "Mittelklasse inklusive Strom fürs Elektroauto, Maut, Fähren, Unterkunft, Verpflegung und Aktivitäten, ohne Abnutzung des eigenen Autos. Alle Beträge sind Schätzungen in CHF.",
   budget: {
     naechte: 36,
-    total: "19’500",
-    spanne: "14’450–25’300",
-    proTag: "ca. 540 CHF pro Tag, ca. 4’900 pro Person",
+    total: "19’350",
+    spanne: "14’300–25’150",
+    proTag: "ca. 540 CHF pro Tag, ca. 4’850 pro Person",
     posten: [
       [
-        "Auto: Benzin, Maut, Vignetten (ca. 5’500 km)",
-        "800–1’200",
-        "1’000",
-        "ca. 400 l Benzin, Maut vor allem in Frankreich und Portugal, Crit’Air-Vignette, Registrierung Umweltzone Barcelona"
+        "Auto: Strom, Maut, Vignetten (ca. 5’500 km)",
+        "650–1’050",
+        "850",
+        "ca. 1’100 kWh, davon der grösste Teil an Schnellladern (ca. 0,45–0,70 € pro kWh), Rest im Hotel; Maut vor allem in Frankreich und Portugal, Crit’Air-Vignette, Registrierung Umweltzone Barcelona"
       ],
       [
         "Autofähren (Barcelona–Palma–Ibiza–Dénia)",
@@ -506,7 +506,7 @@ REISEN.spanien = {
     ],
     [
       "Fähren mit dem Auto",
-      "Check-in 60–90 Min. vor Abfahrt, Auto während der Fahrt nicht zugänglich: Badesachen, Snacks und Medikamente ins Handgepäck. Auf den Inseln eng und im Sommer voll; Parkplätze an Stränden früh."
+      "Check-in 60–90 Min. vor Abfahrt, Auto während der Fahrt nicht zugänglich: Badesachen, Snacks und Medikamente ins Handgepäck. Auf den Inseln eng und im Sommer voll; Parkplätze an Stränden früh. Elektroautos werden mitgenommen; Regeln zu Ladestand und Laden an Bord beim Buchen bestätigen. Nach der Ankunft auf den Inseln ist das Ladenetz dünner als auf dem Festland: Unterkunft mit Lademöglichkeit wählen."
     ],
     ["Währung und Zahlung", "Euro. Karten werden fast überall akzeptiert, etwas Bargeld für kleine Lokale und Märkte."],
     [
