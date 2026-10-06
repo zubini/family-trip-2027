@@ -107,8 +107,8 @@ window.START = {
     {
       kriterium: "Natur und Landschaft",
       spanien: [
-        3,
-        "Einzelne starke Naturziele zwischen den Städten: Halbwüsten Bardenas Reales und Gorafe, Vulkanküste am Cabo de Gata, Schlucht des Caminito del Rey, Felsküste der Algarve, Felsbögen der Playa de las Catedrales und die Buchten von Ibiza und Formentera."
+        4,
+        "Abwechslungsreich: Felsküste und Grotten der Algarve, Buchten von Ibiza und Formentera, Vulkanküste am Cabo de Gata, Schlucht des Caminito del Rey, Halbwüsten Bardenas Reales und Gorafe, Felsbögen der Playa de las Catedrales; keine grossen Nationalparks wie in den USA."
       ],
       usa: [
         5,
@@ -168,7 +168,7 @@ window.START = {
       kriterium: "Städte",
       spanien: [
         5,
-        "Barcelona, Valencia, Granada, Sevilla, Lissabon, Porto und Bilbao mit Alhambra, Sagrada Família und viel Kultur."
+        "Barcelona, Valencia, Granada, Sevilla, Lissabon und Porto mit Alhambra, Sagrada Família und viel Kultur."
       ],
       usa: [5, "Las Vegas, Chicago, Washington, Philadelphia und New York mit Museen und Aussichtsplattformen."],
       asien: [4, "Singapur, Kuala Lumpur, Penang und Bangkok mit Street-Food und Tempeln."]
