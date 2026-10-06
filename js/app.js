@@ -87,9 +87,9 @@ var ICONS = {
 
 // Symbol für die Anreise, erkannt am Anfang des Textes
 function icon(t) {
-  if (t.indexOf('Mietwagen') === 0) return ICONS.auto;
+  if (/^(Mietwagen|Mit dem Auto|Auto\b)/.test(t)) return ICONS.auto;
   if (/flug/i.test(t.slice(0, 20))) return ICONS.flug;
-  if (/Fähre|Katamaran|Speedboot|Boot/.test(t.slice(0, 60))) return ICONS.schiff;
+  if (/^Autofähre/.test(t) || /Fähre|Katamaran|Speedboot|Boot/.test(t.slice(0, 60))) return ICONS.schiff;
   if (/Zug|ETS/.test(t.slice(0, 40))) return ICONS.zug;
   return ICONS.bus;
 }
@@ -178,7 +178,7 @@ function einstieg(S, REISEN) {
   var B = {};
   keys.forEach(function (k) {
     var b = REISEN[k].budget, sp = b.spanne.split('–');
-    B[k] = { plan: zahl(b.total), lo: zahl(sp[0]), hi: zahl(sp[1]), nights: b.naechte };
+    B[k] = { plan: zahl(b.total), lo: zahl(sp[0]), hi: zahl(sp[1]), nights: b.naechte, zeit: REISEN[k].zeitraum.split(', 2 ')[0] };
     B[k].day = runden(B[k].plan / B[k].nights, 1);
     B[k].pp = runden(B[k].plan / 4, 2);
   });
@@ -190,7 +190,7 @@ function einstieg(S, REISEN) {
 
   var karten = liste(T, function (t) {
     return '<article class="vcard"><div class="vtag">' + t.laender + '</div><h3>' + t.name + '</h3><p class="vsub">' + t.zusatz + '</p><p>' + t.kurz + '</p>' +
-      '<dl><div><dt>Nächte</dt><dd>' + B[t.k].nights + '</dd></div><div><dt>Budget (Plan)</dt><dd>' + chf(B[t.k].plan) + ' CHF</dd></div><div><dt>Hinflug</dt><dd>' + t.hinflug + '</dd></div><div><dt>Rückflug</dt><dd>' + t.rueckflug + '</dd></div></dl>' +
+      '<dl><div><dt>Nächte</dt><dd>' + B[t.k].nights + '</dd></div><div><dt>Budget (Plan)</dt><dd>' + chf(B[t.k].plan) + ' CHF</dd></div><div><dt>Hinreise</dt><dd>' + t.hinflug + '</dd></div><div><dt>Rückreise</dt><dd>' + t.rueckflug + '</dd></div></dl>' +
       '<p class="vhl">' + t.hoehepunkte + '</p><a class="btn" href="#' + t.k + '">Zur Reise</a></article>';
   });
 
@@ -207,8 +207,8 @@ function einstieg(S, REISEN) {
 
   var kopf = '<thead><tr><th></th>' + liste(T, function (t) { return '<th scope="col">' + t.name + '<small>' + t.zusatz + '</small></th>'; }) + '</tr></thead>';
   var ZEILEN = [
-    ['Route', 'route'], ['Nächte vor Ort', function (b) { return b.nights + ' Nächte (Fr, 18.06.2027 bis Do, 22.07.2027)'; }],
-    ['Stationen', 'stationen'], ['Länder', 'laender'], ['Hinflug ab Zürich', 'hinflug'], ['Rückflug nach Zürich', 'rueckflug'],
+    ['Route', 'route'], ['Nächte vor Ort', function (b) { return b.nights + ' Nächte (' + b.zeit + ')'; }],
+    ['Stationen', 'stationen'], ['Länder', 'laender'], ['Hinreise', 'hinflug'], ['Rückreise', 'rueckflug'],
     ['Flüge dazwischen', 'dazwischen'], ['Reisetempo', 'tempo'],
     ['Budget (Plan, 4 Personen)', function (b) { return '<b>' + chf(b.plan) + ' CHF</b> (Spanne ' + chf(b.lo) + '–' + chf(b.hi) + ' CHF)'; }],
     ['Pro Tag und pro Person', function (b) { return 'ca. ' + chf(b.day) + ' CHF pro Tag, ca. ' + chf(b.pp) + ' CHF pro Person'; }],

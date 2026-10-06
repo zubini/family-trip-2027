@@ -5,6 +5,33 @@ window.QUELLEN = {
   intro: "Woher die Angaben stammen. Fahrzeiten sind gerundete Richtwerte ohne Pausen, zusammengetragen aus Fahrplänen, Routenportalen und Reiseberichten (Stand Oktober 2026). Fahrpläne, Preise und Einreiseregeln vor der Buchung prüfen.",
   gruppen: [
     {
+      titel: "Spanien / Portugal",
+      links: [
+        ["Ferryhopper: Fähre Barcelona–Palma (ca. 6–8 Std.)", "https://www.ferryhopper.com/en/ferry-routes/direct/palma-barcelona"],
+        ["Direct Ferries: Barcelona–Palma, Fahrzeiten und Anbieter", "https://ca.directferries.com/barcelona_palma_ferry.htm"],
+        ["Ferryscanner: Fähre Palma–Ibiza (ca. 2,25–4 Std.)", "https://ferryscanner.com/en/ferry-routes/ferry-palma-de-mallorca-ibiza"],
+        ["Ferryscanner: Fähre Ibiza–Dénia (ca. 2,25 Std.)", "https://ferryscanner.com/en/ferry-routes/ferry-ibiza-denia"],
+        ["Rome2rio: Brig–Genf mit dem Auto", "https://www.rome2rio.com/s/Brig/Geneva"],
+        ["Rome2rio: Genf–Montpellier", "https://www.rome2rio.com/Train/Geneva/Montpellier"],
+        ["Himmera: Distanz Genf–Carcassonne", "https://distancecalculator.himmera.com/distance-geneva-carcassonne-100011.html"],
+        ["Rome2rio: Sevilla–Lissabon", "https://www.rome2rio.com/Bus/Lisbon-Sete-Rios/Seville"],
+        ["Distancias entre ciudades: Bilbao–Tudela", "https://www.distanciasentreciudades.com/distancia-bilbao-a-tudela"],
+        ["Caminito del Rey: Regeln (Mindestalter 8, montags geschlossen)", "https://caminodelrey.es/caminito-del-rey-rules-and-regulations/comment-page-1"],
+        ["Xunta de Galicia: Reservation Playa de las Catedrales (1. Juli bis 30. September)", "https://ascatedrais.xunta.es/monatr/inicio?lang=es"],
+        ["Guías Viajar: Bardenas Reales, Öffnungszeiten und Regeln", "https://guias-viajar.com/en/tourism-spain/visit-navarre/Navarra-visits-Bardenas-Reales/"],
+        ["Cabo de Gata Almería: Playa de Mónsul, Zufahrt im Sommer", "https://cabogataalmeria.com/en/beach/monsul"],
+        ["Murcia Today: Strände am Cabo de Gata mit Zufahrtsgebühr", "https://murciatoday.com/these-are-the-5-beaches-in-almerias-cabo-de-gata-you-have-to-pay-to-visit_1000083867-a.html?region=16"],
+        ["Andalucía Turismo: Wüste von Gorafe", "https://andalucia.org/en/routes-gorafe-desert-route"],
+        ["Civitatis: Schnorcheln bei den Islas Medas", "https://www.civitatis.com/EN/estartit/medes-islands-snorkelling?aid=3886"],
+        ["Lonely Planet: Cala de Sa Tuna", "https://www.lonelyplanet.com/points-of-interest/cala-de-sa-tuna/1585086"],
+        ["The Better Vacation: Alhambra-Tickets im Sommer", "https://thebettervacation.com/granada/last-minute-alhambra/"],
+        ["Heycar: Umweltzone Lyon (Crit’Air)", "https://heycar.com/fr/news/zfe-lyon"],
+        ["Barcelona.com: Umweltzone ZBE, Registrierung ausländischer Autos", "https://www.barcelona.com/transportation/zbe-barcelona"],
+        ["TollGuru: Maut in Portugal (EasyToll, A22)", "https://tollguru.mapup.ai/portugal-toll"],
+        ["Bison Futé: Verkehrsprognose Frankreich", "https://www.bison-fute.gouv.fr"]
+      ]
+    },
+    {
       titel: "Fahrzeiten Malaysia / Thailand",
       links: [
         ["KTM: Fahrplan Padang Besar–Hat Yai 2025 (PDF)", "https://www.ktmb.com.my/assets/pdf/2025/Jadual-Sawasdee-A4.pdf"],
@@ -35,40 +62,6 @@ window.QUELLEN = {
         ["LazyTrips: Roadtrip Las Vegas–Santa Fe (Monument Valley–Santa Fe)", "https://lazytrips.com/trip/road-trip-from-las-vegas-to-santa-fe"],
         ["Wanderlog: Strecken ab Alamogordo (Oklahoma City ca. 10 Std.)", "https://wanderlog.com/drive/between/58219/59899/kansas-city-to-alamogordo-drive"],
         ["Meetways: Oklahoma City–Chicago", "https://www.meetways.com/info/driving-time/Chicago,%20Illinois/Oklahoma%20City,%20Oklahoma"]
-      ]
-    },
-    {
-      titel: "Japan",
-      links: [
-        ["Flightmapper: Swiss LX160 Zürich–Tokio-Narita (Flugzeit, Flugtage)", "https://info.flightmapper.net/flight/Swiss_LX_160"],
-        ["Airpaz: Swiss LX161 Tokio–Zürich", "https://www.airpaz.com/en/flight/code/LX-161"],
-        ["japan-guide.com: Regenzeit (Tsuyu) und durchschnittliches Ende", "https://www.japan-guide.com/e/e2277.html"],
-        ["Ekitan: Limited Express Hida (Nagoya–Takayama)", "https://ekitan.com/en/article/hida"],
-        ["Ekitan: Shinkansen Hiroshima–Kagoshima-Chuo", "https://ekitan.com/en/article/hiroshima-to-kagoshima-shinkansen"],
-        ["Ekitan: Shinkansen Kagoshima-Chuo–Shin-Osaka", "https://ekitan.com/en/article/kagoshima-to-osaka-shinkansen"],
-        ["Ekitan: Limited Express Odoriko (Tokio–Izukyu-Shimoda)", "https://ekitan.com/en/article/odoriko"],
-        ["Japan Experience: Jetfoil Toppy nach Yakushima", "https://www.japan-experience.com/plan-your-trip/to-know/traveling-japan/toppy-jetfoil-yakushima"],
-        ["Japan Travel (JNTO): Preise Japan Rail Pass ab Oktober 2026", "https://www.japan.travel/en/ca/news/price-increases-are-coming-to-the-nationwide-japan-rail-pass-2026/"],
-        ["Islands.com: Yakushima, Schnorcheln mit Meeresschildkröten", "https://www.islands.com/1808870/swim-rare-sea-turtles-wander-mountain-fairy-forest-lush-japanese-yakushima-island"],
-        ["Benesse Art Site: Chichu-Kunstmuseum (Öffnungstage, Reservation)", "https://www.benesse-artsite.jp/en/art/chichu.html"],
-        ["GoAsia: Ausreisesteuer Japan 3’000 Yen ab Juli 2026", "https://goasia.cc/en/news/japan-departure-tax-increase-2026"],
-        ["Japan Experience: Reisegenehmigung JESTA ab 2028", "https://www.japan-experience.com/plan-your-trip/to-know/before-you-travel/jesta-authorization-travel-visa-japan"]
-      ]
-    },
-    {
-      titel: "Costa Rica",
-      links: [
-        ["Flightmapper: Edelweiss WK37 San José–Zürich (Flugzeit)", "https://info.flightmapper.net/flight/Edelweiss_Air_WK_37"],
-        ["Edelweiss: Flugplan Zürich–San José", "https://www.flyedelweiss.com/us/en/fly/flight-information/timetable.html?destination=SJO"],
-        ["Rough Guides: San José–Tortuguero (Shuttle und Boot)", "https://roughguides.com/costa-rica/getting-around/san-jose-to-tortuguero"],
-        ["kimkim: Tortuguero–Puerto Viejo", "https://kimkim.com/ab/tortuguero-to-puerto-viejo-de-talamanca"],
-        ["kimkim: Puerto Viejo–La Fortuna", "https://www.kimkim.com/ab/puerto-viejo-de-talamanca-to-arenal-la-fortuna"],
-        ["Enter Costa Rica: Fahrzeiten zwischen den Reisezielen", "https://www.entercostarica.com/travel-guide/drive-times"],
-        ["Along Dusty Roads: Anreise nach Drake Bay über Sierpe", "https://www.alongdustyroads.com/posts/how-to-get-to-drake-bay-sierpe-boat"],
-        ["Costa Rica Shuttle: Uvita–San Gerardo de Dota", "https://costaricashuttle.rezdy.com/117499/private-transportation-uvita-to-san-gerardo-de-dota"],
-        ["Dominical Realty / Tico Times: Ruhetag Nationalpark Manuel Antonio", "https://ticotimes.net/?p=110824"],
-        ["Pacuare Lodge: Rafting Klasse III–IV (Mindestalter)", "https://www.pacuarelodge.com/rafting"],
-        ["VisaRequirements: Einreise für Schweizer Reisende", "https://visarequirements.info/countries/switzerland/costa-rica/"]
       ]
     },
     {

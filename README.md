@@ -2,13 +2,12 @@
 
 **Zur Seite: https://zubini.github.io/family-trip-2027/**
 
-Reiseführer und Variantenvergleich für die Familienreise 2027 (18. Juni bis 22. Juli, 2 Erwachsene und 2 Kids) mit fünf Varianten:
+Reiseführer und Variantenvergleich für die Familienreise 2027 (ab 18. Juni, 2 Erwachsene und 2 Kids) mit vier Varianten:
 
-- **Malaysia / Thailand**: von Singapur nach Bangkok
-- **Malaysia / Indonesien**: von Singapur über Java nach Bali
-- **USA**: von Las Vegas nach New York
-- **Japan** als Rundreise ab Tokio mit Bahn und Fähre
-- **Costa Rica** als Rundreise ab San José mit Mietwagen und Boot
+- **Spanien / Portugal**: mit dem eigenen Auto ab Brig-Glis, zu den Balearen mit der Autofähre, ohne Flug (bis 24. Juli)
+- **USA**: von Las Vegas nach New York (bis 22. Juli)
+- **Malaysia / Thailand**: von Singapur nach Bangkok (bis 22. Juli)
+- **Malaysia / Indonesien**: von Singapur über Java nach Bali (bis 22. Juli)
 
 Dazu eine Einstiegsseite mit Vergleich, Bewertung, Budget sowie Pro und Contra und eine Seite mit den Quellen.
 
@@ -20,11 +19,10 @@ Reines HTML, CSS und JavaScript, ohne Build-Schritt. Was im Repo liegt, ist die 
 index.html        Seitengerüst
 data/             die Inhalte, hier wird fast alles geändert
   start.js        Einstiegsseite: Texte, Bewertung, Pro und Contra
+  spanien.js      Spanien / Portugal (mit dem eigenen Auto ab Brig-Glis)
+  usa.js          USA (Las Vegas–New York)
   asien.js        Malaysia / Thailand (Singapur–Bangkok)
   bali.js         Malaysia / Indonesien (Singapur–Bali)
-  usa.js          USA (Las Vegas–New York)
-  japan.js        Japan-Rundreise ab Tokio
-  costarica.js    Costa-Rica-Rundreise ab San José
   quellen.js      Seite «Quellen» (Belege für Fahrzeiten, Einreise, Bilder)
 css/              Gestaltung (basis, navigation, reise, karte, start)
 js/app.js         baut die Seite aus den Daten, lädt Bilder, Navigation
@@ -63,11 +61,12 @@ Jede Reise in `data/` enthält der Reihe nach:
 - **Budget:** Die Beträge werden von Hand gepflegt. Die Einstiegsseite liest Planwert, Spanne und Nächte automatisch aus den Reisen.
 - **Bewertung und Pro/Contra** in `data/start.js` sind eine Einschätzung. Bei Änderungen an den Reisen von Hand nachziehen.
 - **Bilder:** Jedes Bild hat einen `titel` (Bildunterschrift) und entweder eine feste `datei` auf Wikimedia Commons oder `suche` (Suchbegriffe, mit `|` getrennt) und `stichwort` (muss im Dateinamen vorkommen). Gesuchte Bilder werden beim Öffnen der Seite automatisch gefunden.
-- **Ersatzbilder:** Findet die Seite zu einem Motiv kein Bild, sucht sie ein anderes Bild der Station (über den Stationsnamen). Heisst der Ort auf Englisch anders, `ersatzsuche` setzen (z.B. `"Tokyo"`).
+- **Ersatzbilder:** Findet die Seite zu einem Motiv kein Bild, sucht sie ein anderes Bild der Station (über den Stationsnamen). Heisst der Ort auf Englisch anders, `ersatzsuche` setzen (z.B. `"Lisbon"`).
 - **Quellen:** Neue Belege in `data/quellen.js` als `["Beschreibung", "https://…"]` in die passende Gruppe eintragen.
+- **Reihenfolge:** Die Navigation folgt der Reihenfolge der Skripte in `index.html`, die Spalten der Einstiegsseite der Reihenfolge in `data/start.js`.
 - **Texte** dürfen einfaches HTML enthalten (`<b>`, `<strong>`).
-- **Symbol der Anreise** (Bus, Zug, Schiff, Flug, Auto) wird am Anfang des Anreise-Textes erkannt.
-- **Länder-Etikett:** `land` ist das Kürzel für die Farbe (`sg`, `my`, `th`, `id`, `us`, `jp`, `cr`, Farben in `css/reise.css`), `region` der angezeigte Text.
+- **Symbol der Anreise** (Bus, Zug, Schiff, Flug, Auto) wird am Anfang des Anreise-Textes erkannt (z.B. «Mit dem Auto…», «Autofähre…», «Zug…»).
+- **Länder-Etikett:** `land` ist das Kürzel für die Farbe (`sg`, `my`, `th`, `id`, `us`, `es`, `pt`, Farben in `css/reise.css`), `region` der angezeigte Text.
 
 Prüfen vor dem Push (braucht [Node.js](https://nodejs.org)). Geprüft werden Daten und Nächte, Budget-Summen und die Daten in den Karten:
 
@@ -85,7 +84,7 @@ Die GitHub-Action macht das bei jedem Push ebenfalls und veröffentlicht nur, we
 
 Die Karten werden aus kurzen Beschreibungen erzeugt. Für eine neue oder geänderte Karte:
 
-1. In `tools/karten/<name>.js` Orte, Wege und Stationen eintragen (Vorlage: eine bestehende Datei kopieren).
+1. In `tools/karten/<name>.js` Orte, Wege und Stationen eintragen (Vorlage: eine bestehende Datei kopieren). Dateien mit `_` am Anfang enthalten Orte und Wege, die mehrere Karten gemeinsam nutzen.
 2. `node tools/karte.js <name>` ausführen. Das schreibt `karten/<name>.svg`.
 3. In `data/<reise>.js` unter `karte.karten` die Datei eintragen.
 
@@ -95,11 +94,12 @@ Aufbau einer Beschreibung (Koordinaten immer `[Breite, Länge]`, z.B. aus Google
 |---|---|
 | `reise` | Name der Datendatei; Namen und Daten der Stationen kommen von dort |
 | `projektion`, `laenge`, `breitengrad`, `breite` | Ausschnitt und Bildbreite; `parallel` gleicht die Verzerrung abseits des Äquators aus |
-| `laender` | Länder, die hell dargestellt werden (Kürzel wie `JPN`, `CRI`) |
+| `laender` | Länder, die hell dargestellt werden (Kürzel wie `ESP`, `PRT`) |
 | `orte` | benannte Koordinaten, damit Wege und Stationen sie wiederverwenden können |
 | `wege` | `[Verkehrsmittel, Bezeichnung, [Orte oder Koordinaten]]`; Verkehrsmittel: `bus`, `car`, `train`, `ferry`, `air` |
 | `stationen` | `[Nummer, Ort, Seite der Beschriftung (l/r/u/d), eigener Name optional]` |
 | `zwischenstopps`, `umstiege` | kleine weisse Punkte mit Beschriftung |
+| `klein` | Stationen nur als Punkte ohne Nummer (für Übersichtskarten) |
 | `beschriftungen`, `hinweise` | Länder- und Meernamen, freie Texte wie «Ankunft aus Zürich» |
 
 `node tools/pruefen.js` meldet, wenn eine Karte nach einer Änderung (z.B. neue Daten) nicht neu gezeichnet wurde.
