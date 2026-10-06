@@ -235,7 +235,7 @@ function einstieg(S, REISEN) {
   return '<div class="trip" id="trip-start" hidden>' +
     '<header class="hero hero-start"><div class="wrap"><p class="when">' + S.zeitraum + '</p><h1>' + S.titel + '</h1>' +
     '<p class="sub">' + S.untertitel + '</p>' +
-    '<ol class="chain">' + liste(T, function (t) { return '<li><a href="#' + t.k + '">' + t.name + '</a></li>'; }) + '</ol></div></header>' +
+    '</div></header>' +
     '<main>' +
     '<section id="start-reisen"><div class="wrap"><h2>Die Reisen</h2><p class="intro">' + S.reisenIntro + '</p>' +
     '<div class="vgrid">' + karten + '</div></div></section>' +
