@@ -196,7 +196,9 @@ function einstieg(S, REISEN) {
 
   var mx = Math.max.apply(null, keys.map(function (k) { return B[k].hi; }));
   var pct = function (x) { return (100 * x / mx).toFixed(1); };
-  var balken = liste(T, function (t) {
+  // Budgetbalken nach Planwert sortiert, günstigste Reise zuerst
+  var nachPreis = T.slice().sort(function (a, b) { return B[a.k].plan - B[b.k].plan; });
+  var balken = liste(nachPreis, function (t) {
     var b = B[t.k];
     return '<div class="brow"><div class="bl"><b>' + t.name + '</b><span>' + t.zusatz + '</span></div>' +
       '<div class="track"><i class="range" style="left:' + pct(b.lo) + '%;width:' + pct(b.hi - b.lo) + '%"></i><i class="plan" style="left:' + pct(b.plan) + '%"></i></div>' +
