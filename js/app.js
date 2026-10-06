@@ -228,7 +228,6 @@ function einstieg(S, REISEN) {
       return '<td data-label="' + t.name + '">' + punkte(z[t.k][0]) + '<span class="rtxt">' + fuell(z[t.k][1]) + '</span></td>';
     }) + '</tr>';
   }) + '</tbody></table>';
-  var empfehlung = '<div class="callout"><b>Empfehlung</b>' + liste(S.empfehlung, function (p) { return '<p>' + p + '</p>'; }) + '</div>';
 
   var proContra = liste(T, function (t) {
     return '<article class="pcard"><h3>' + t.name + '</h3><p class="fit"><b>Passt am besten, wenn</b> ' + fuell(t.passt) + '</p>' +
@@ -244,7 +243,7 @@ function einstieg(S, REISEN) {
     '<section id="start-reisen"><div class="wrap"><h2>Die Reisen</h2><p class="intro">' + S.reisenIntro + '</p>' +
     '<div class="vgrid">' + karten + '</div></div></section>' +
     '<section id="start-bewertung" style="padding-top:0"><div class="wrap"><h2>Bewertung nach euren Wünschen</h2><p class="intro">' + S.bewertungIntro + '</p>' +
-    '<div class="cmpwrap">' + bewertung + '</div>' + empfehlung + '</div></section>' +
+    '<div class="cmpwrap">' + bewertung + '</div></div></section>' +
     '<section id="start-budget" style="padding-top:0"><div class="wrap"><h2>Budget im Vergleich</h2><p class="intro">' + S.budgetIntro + '</p>' +
     '<div class="bars">' + balken + '</div></div></section>' +
     '<section id="start-vergleich" style="padding-top:0"><div class="wrap"><h2>Direktvergleich</h2>' +

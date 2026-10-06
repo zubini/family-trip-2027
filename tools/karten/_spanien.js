@@ -11,7 +11,7 @@ const orte = {
   PO: [41.15, -8.61], BG: [41.55, -8.42], VL: [42.03, -8.64], LU: [43.01, -7.56], RI: [43.536, -7.04],
   OV: [43.36, -5.85], SA: [43.46, -3.80], BI: [43.263, -2.935], VI: [42.85, -2.67], LG: [42.465, -2.445],
   BA: [42.13, -1.55], ZA: [41.65, -0.88], LL: [41.617, 0.62], MR: [41.73, 1.83], VC: [41.93, 2.25],
-  CA: [43.213, 2.353]
+  CA: [43.213, 2.353], BE: [38.54, -0.13]
 };
 const wege = [
   ['car', 'Brig-Glis – Genf – Lyon – Montpellier – Sète', ['BR', 'MA', [46.38, 6.85], [46.45, 6.55], 'GE', [46.0, 5.8], [45.95, 5.35], 'LY', 'VA', 'OR', 'NI', 'MP', 'SE']],
@@ -22,7 +22,8 @@ const wege = [
   ['ferry', 'Palma – Ibiza (Autofähre)', ['PA', [39.2, 2.0], 'IB']],
   ['ferry', 'Ibiza – Formentera (Schnellfähre, Tagesausflug)', ['IB', 'FO']],
   ['ferry', 'Ibiza – Dénia (Autofähre)', ['IB', [38.9, 0.8], 'DE']],
-  ['car', 'Dénia – Alicante – Murcia – Cabo de Gata', ['DE', [38.6, -0.1], 'AL', 'MU', 'LO', [37.2, -2.0], 'SJ']],
+  ['car', 'Dénia – Benidorm', ['DE', [38.75, -0.05], 'BE']],
+  ['car', 'Benidorm – Alicante – Murcia – Cabo de Gata', ['BE', 'AL', 'MU', 'LO', [37.2, -2.0], 'SJ']],
   ['car', 'Cabo de Gata – Almería – Guadix – Granada', ['SJ', 'AM', [37.05, -2.75], 'GU', 'GR']],
   ['car', 'Granada – Loja – Antequera – El Chorro', ['GR', 'LJ', 'AN', 'EC']],
   ['car', 'El Chorro – Sevilla', ['EC', 'AN', [37.25, -5.10], 'SV']],
@@ -35,7 +36,7 @@ const wege = [
   ['car', 'Carcassonne – Montpellier – Lyon – Genf – Brig-Glis', ['CA', 'NB', 'MP', 'NI', 'OR', 'VA', 'LY', [45.95, 5.35], [46.0, 5.8], 'GE', [46.45, 6.55], [46.38, 6.85], 'MA', 'BR']]
 ];
 const stationen = [
-  [1, 'ES', 'r'], [2, 'BC', 'l'], [3, 'MAL', 'r'], [4, 'IB', 'u'], [5, 'SJ', 'r'], [6, 'GR', 'u'],
-  [7, 'EC', 'd'], [8, 'SV', 'u'], [9, 'LI', 'l'], [10, 'PO', 'l'], [11, 'RI', 'u'], [12, 'BA', 'r']
+  [1, 'ES', 'r'], [2, 'BC', 'l'], [3, 'MAL', 'r'], [4, 'IB', 'u'], [5, 'BE', 'r'], [6, 'SJ', 'r'], [7, 'GR', 'u'],
+  [8, 'EC', 'd'], [9, 'SV', 'u'], [10, 'LI', 'l'], [11, 'PO', 'l'], [12, 'RI', 'u'], [13, 'BA', 'r']
 ];
 module.exports = { orte, wege, stationen };

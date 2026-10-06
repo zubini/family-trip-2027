@@ -9,10 +9,6 @@ window.START = {
   untertitel: "Verschiedene Reisevarianten als Fahrplan für eine Entscheidung.",
   reisenIntro: "Alle Reisen dauern 34 bis 36 Nächte und sind für die Familie mit Sohn (12) und Tochter (14) geplant. Spanien / Portugal ohne Flug und Jetlag kann bis Sa, 24.07.2027 dauern, die anderen enden am Do, 22.07.2027. Ein Klick führt zum vollständigen Fahrplan mit Stationen, Karte und Budget.",
   bewertungIntro: "Bewertet werden Natur, Dschungelfeeling, Schnorcheln, Abenteuer, Städte, Budget und Reisekomfort. Fünf Punkte sind die beste Bewertung (beim Budget heisst das: günstig). Die Skala ist fest und nicht nur ein Vergleich der vier Reisen: 5 heisst Weltklasse (z.B. tropische Riffe beim Schnorcheln, kurze Etappen beim Reisekomfort), 0 heisst, dass es das auf der Reise nicht gibt. Die Punkte sind eine Einschätzung auf Basis der Reisepläne, keine Messung.",
-  empfehlung: [
-    "Sollen Schnorcheln und Dschungelfeeling zusammenkommen, empfiehlt sich <b>Malaysia / Thailand</b>. <b>Malaysia / Indonesien</b> punktet mit Vulkanen, Reisterrassen und Inseln, hat aber den langen Rückflug als Nachteil. Die <b>USA</b> bieten die grössten Landschaften und Städte ohne Schnorcheln, sind aber am teuersten. <b>Spanien / Portugal</b> ist knapp die günstigste Variante und kommt ohne Flug und Jetlag aus: Städte, Kultur, Strände und Inseln mit dem eigenen Auto, dafür viele Stunden am Steuer und grosse Hitze in Andalusien.",
-    "Mehr Dschungel bei Malaysia / Thailand: Khao Sok (Regenwald und Cheow-Lan-See) lässt sich in die Route einbauen. Dafür liessen sich Khanom oder Penang kürzen."
-  ],
   budgetIntro: "Mittelklasse inklusive Flüge bzw. Autokosten, Transport, Unterkunft, Verpflegung und Aktivitäten für 4 Personen. Der dunkle Punkt ist der Planwert, der helle Balken die Spanne.",
   vergleichIntro: "Die wichtigsten Unterschiede nebeneinander.",
   entscheidIntro: "Welche Reise passt, hängt davon ab, ob Strand und Schnorcheln, Vulkane und Tempel, Städte und Kultur ohne Flug oder Nationalparks im Vordergrund stehen.",
@@ -21,9 +17,9 @@ window.START = {
       name: "Spanien / Portugal",
       zusatz: "Roadtrip ab Brig-Glis",
       passt: "ihr ohne Flug und Jetlag reisen, Städte, Kultur und Strände verbinden und die langen Autofahrten in Kauf nehmen möchtet.",
-      kurz: "Fünf Wochen mit dem eigenen Auto über die Costa Brava, Barcelona und die Balearen nach Andalusien, Portugal und in den Norden Spaniens.",
-      route: "Brig-Glis, Sète, Costa Brava, Barcelona, Mallorca, Ibiza und Formentera, Dénia, Cabo de Gata, Granada, Caminito del Rey, Sevilla, Lissabon, Porto, Playa de las Catedrales, Bilbao, Bardenas Reales, Carcassonne, Brig-Glis",
-      stationen: "12 Stationen und 4 Zwischenübernachtungen",
+      kurz: "Fünf Wochen mit dem eigenen Auto über die Costa Brava, Barcelona, die Balearen und Benidorm nach Andalusien, Portugal und in den Norden Spaniens.",
+      route: "Brig-Glis, Sète, Costa Brava, Barcelona, Mallorca, Ibiza und Formentera, Benidorm, Cabo de Gata, Granada, Caminito del Rey, Sevilla, Lissabon, Porto, Playa de las Catedrales, Bilbao, Bardenas Reales, Carcassonne, Brig-Glis",
+      stationen: "13 Stationen und 3 Zwischenübernachtungen",
       laender: "Frankreich, Spanien, Portugal",
       hinflug: "Kein Flug: mit dem eigenen Auto ab Brig-Glis, Zwischenstopp am Meer in Sète (ca. 7–7,5 Std.), dann an die Costa Brava (ca. 3 Std.)",
       rueckflug: "Mit dem Auto in zwei Tagen über Carcassonne (ca. 6,5–7 und 7,5–8 Std.), Ankunft Sa, 24.07.2027",
@@ -31,8 +27,8 @@ window.START = {
       tempo: "Ca. 68 Std. reine Reisezeit (ca. 55 Std. Auto für ca. 5’500 km und ca. 13 Std. Fähre), realistisch mit Pausen, Check-in und Stau ca. 78–80 Std.; 5 lange Reisetage mit 6,5–8 Std. (Brig-Glis–Sète, Fähre Barcelona–Palma, Bardenas–Carcassonne, Carcassonne–Brig-Glis) bzw. 4,5–5 Std. (Sevilla–Lissabon)",
       wetter: "Heiss und trocken: in Andalusien und den Bardenas oft 35–42 °C, an den Küsten 28–32 °C; Portugal und der Norden angenehmer, Mittelmeer ca. 23–26 °C.",
       einreise: "Schengen: Identitätskarte genügt, keine Formulare. Crit’Air-Vignette für Frankreich, Registrierung für die Umweltzone Barcelona, elektronische Maut in Portugal.",
-      hoehepunkte: "Islas Medas und Sa Tuna, Sagrada Família, Inselhopping mit dem Auto auf Mallorca, Ibiza und Formentera, Cabo de Gata, Alhambra und Gorafe, Caminito del Rey, Sevilla, Lissabon, Porto, Playa de las Catedrales, Bardenas Reales.",
-      teens: "Schnorcheln und Kajak, Caminito del Rey, Freizeitparks (Isla Mágica, optional PortAventura), Game-of-Thrones-Drehorte, Höhlen und Felsbögen bei Ebbe, Surfen in Galicien.",
+      hoehepunkte: "Islas Medas und Sa Tuna, Sagrada Família, Inselhopping mit dem Auto auf Mallorca, Ibiza und Formentera, Terra Mítica und Aqualandia in Benidorm, Cabo de Gata, Alhambra und Gorafe, Caminito del Rey, Sevilla, Lissabon, Porto, Playa de las Catedrales, Bardenas Reales.",
+      teens: "Freizeit- und Wasserparks (Terra Mítica, Aqualandia, Isla Mágica), Schnorcheln und Kajak, Caminito del Rey, Game-of-Thrones-Drehorte, Höhlen und Felsbögen bei Ebbe, Surfen in Galicien.",
       pro: [
         "Kein Flug, kein Jetlag, zwei Tage länger möglich",
         "Knapp die günstigste Variante, flexibel mit dem eigenen Auto und viel Gepäckraum",
@@ -176,7 +172,7 @@ window.START = {
       kriterium: "Abenteuer",
       spanien: [
         3,
-        "Caminito del Rey, Kajak und Coasteering, Pisten durch die Bardenas und Gorafe; eher Entdecken als Wildnis."
+        "Caminito del Rey, Achterbahnen in Terra Mítica, Kajak und Coasteering, Pisten durch die Bardenas und Gorafe; eher Entdecken als Wildnis."
       ],
       usa: [4, "Durch die Narrows waten, Antelope Canyon, 2-Tage-Roadtrip und Cedar Point."],
       asien: [3, "Kajak, Seilrutschen, Inselhopping und Fähren; eher abenteuerlich beim Reisen als in der Natur."],

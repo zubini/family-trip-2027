@@ -18,7 +18,7 @@ Eine Reise ist an vielen Stellen beschrieben. Wer etwas ändert, zieht **alle** 
 - Karte: Beschreibung in `tools/karten/<name>.js` anpassen (Orte, Wege, Stationen) und `node tools/karte.js <name>` ausführen.
   Die SVG-Dateien in `karten/` nie von Hand ändern.
 - Texte, die die Route nennen: `untertitel`, `stationenIntro`, `abwechslung`, `tipps`,
-  in `data/start.js` `route`, `stationen`, `hoehepunkte`, Bewertung, Empfehlung.
+  in `data/start.js` `route`, `stationen`, `hoehepunkte`, Bewertung.
 - Neue Quellen in `data/quellen.js` eintragen.
 
 **Daten oder Nächte geändert:**
@@ -30,7 +30,7 @@ Eine Reise ist an vielen Stellen beschrieben. Wer etwas ändert, zieht **alle** 
 **Preise geändert:** Posten, Total, Spanne, «pro Tag» und «pro Person» passend halten.
 Die Einstiegsseite rechnet Planwert und Spanne automatisch, die Texte in der Bewertung nicht immer.
 
-**Reise verändert:** Bewertungspunkte, Pro/Contra und Empfehlung in `data/start.js` kritisch überprüfen.
+**Reise verändert:** Bewertungspunkte und Pro/Contra in `data/start.js` kritisch überprüfen.
 Sie sind eine Einschätzung und werden nicht automatisch angepasst.
 
 ## 2. Zeitangaben
@@ -59,7 +59,7 @@ Sie sind eine Einschätzung und werden nicht automatisch angepasst.
 - Tausendertrenner Apostroph: `20’600`. Spannen und Strecken mit Halbgeviertstrich: `5–6 Std.`, `Zürich–Singapur`.
 - Anführungszeichen «…». Abkürzungen: «ca.», «Std.», «Min.», «z.B.».
 - Daten in den Daten-Dateien **ohne Wochentag** (`"19.–22. Juni"`), die Wochentage rechnet `js/app.js`.
-- Familie: 2 Erwachsene und 2 Kids, Sohn (12) und Tochter (14). Kurz, sachlich, ohne Werbesprache.
+- Familie: 2 Erwachsene und 2 Kids, Sohn (12) und Tochter (14). Kurz, sachlich, ohne Werbesprache. Keine Empfehlung für eine Variante: die Seite informiert, entscheiden tut die Familie.
 
 ## 5. Datenschutz
 
