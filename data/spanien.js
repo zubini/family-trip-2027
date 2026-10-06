@@ -7,7 +7,11 @@ REISEN.spanien = {
   menu: "Spanien / Portugal",
   untertitel: "Fünf Wochen Roadtrip ab Brig-Glis: Barcelona, Valencia, Schnorcheln auf Ibiza und Formentera, Benidorm, Andalusien, Lissabon, Porto und der wilde Norden.",
   zeitraum: "Fr, 18.06.2027 bis Sa, 24.07.2027, 2 Erwachsene und 2 Kids",
-  titelbild: {suche: "Formentera beach", stichwort: "formentera", alt: "Türkisfarbenes Wasser auf Formentera"},
+  titelbild: {
+    suche: "Ses Illetes Formentera",
+    stichwort: "illetes|formentera",
+    alt: "Türkisfarbenes Wasser bei Ses Illetes auf Formentera"
+  },
   planIntro: "Abfahrt in Brig-Glis am Fr, 18.06.2027, Rückkehr am Sa, 24.07.2027. Alle Strecken mit dem eigenen Elektroauto, zu den Inseln mit der Autofähre. Ein Klick auf eine Station springt zur Beschreibung.",
   hinflug: {
     datum: "18. Juni",
@@ -247,13 +251,13 @@ REISEN.spanien = {
       ],
       ausserdem: "Leuchtturm Cap de Barbaria, Salinen, Es Pujols, Markt in Sant Francesc.",
       bilder: [
-        {titel: "Ses Illetes", suche: "Ses Illetes Formentera", stichwort: "illetes"},
         {
           titel: "Cala Saona",
           datei: "Formentera. Cala Saona. Varadors.jpg",
           suche: "Cala Saona Formentera",
           stichwort: "saona"
         },
+        {titel: "Ses Illetes", suche: "Ses Illetes beach Formentera", stichwort: "illetes"},
         {
           titel: "Es Caló",
           datei: "Formentera Es Caló de Sant Agustí.jpg",
