@@ -22,8 +22,10 @@
 
 nav.top { position: sticky; top: var(--g); z-index: 1100; background: rgba(255,255,255,.94); backdrop-filter: blur(8px); border-bottom: 1px solid var(--line); }
 nav.top .wrap { display: flex; gap: 4px; overflow-x: auto; padding-top: 10px; padding-bottom: 10px; }
-nav.top a { flex: none; text-decoration: none; color: var(--ink); font-weight: 600; font-size: .95rem; padding: 6px 12px; border-radius: 8px; }
+nav.top a { flex: none; text-decoration: none; color: var(--ink); font-weight: 600; font-size: .95rem; padding: 6px 12px; border-radius: 8px; border: 1px solid transparent; }
 nav.top a:hover { background: var(--mist); color: var(--sea); }
+/* aktiver Abschnitt (gesetzt von js/app.js beim Scrollen) */
+nav.top a.on { background: #E4EEEC; border-color: #9FC9C3; color: var(--sea); }
 
 @media (max-width: 960px) {
   .menu-btn { display: inline-flex; }

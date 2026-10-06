@@ -74,6 +74,7 @@ REISEN.japan = {
     {
       nr: 1,
       name: "Tokio (Start)",
+      ersatzsuche: "Tokyo",
       land: "jp",
       region: "Kanto",
       datum: "19.–23. Juni",
@@ -328,6 +329,7 @@ REISEN.japan = {
     {
       nr: 11,
       name: "Tokio (Finale)",
+      ersatzsuche: "Tokyo",
       land: "jp",
       region: "Kanto",
       datum: "21.–22. Juli",

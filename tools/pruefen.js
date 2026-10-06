@@ -3,6 +3,7 @@
 // - Reiseplan und Stationen haben dieselben Daten und Nächte
 // - Nächte im Plan ergeben die Nächte im Budget
 // - Die Daten im Plan schliessen lückenlos aneinander an
+// - Jede Station hat genau 6 Bilder
 // - Budget: Posten ergeben ungefähr das Total, Stationskosten decken alle Nächte ab
 // - Karten: Daten in den Tooltips der Stationen stimmen mit den Stationen überein
 // - Karten: karten/*.svg sind aktuell (sonst: node tools/karte.js)
@@ -48,6 +49,7 @@ for (const [k, R] of Object.entries(REISEN)) {
   }
   if (summe !== R.budget.naechte) fehler.push(`${k}: Plan ergibt ${summe} Nächte, Budget rechnet mit ${R.budget.naechte}`);
   R.stationen.forEach((s, i) => { if (s.nr !== i + 1) fehler.push(`${k}: Station an Position ${i + 1} hat Nummer ${s.nr}`); });
+  R.stationen.forEach(s => { if (s.bilder.length !== 6) fehler.push(`${k}: Station ${s.nr} hat ${s.bilder.length} statt 6 Bilder`); });
 
   // Budget: Summe der Planwerte ≈ Total (Total ist gerundet, 1 % Toleranz)
   const zahl = x => parseInt(String(x).replace(/\D/g, ''), 10);

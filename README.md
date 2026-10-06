@@ -63,6 +63,7 @@ Jede Reise in `data/` enthält der Reihe nach:
 - **Budget:** Die Beträge werden von Hand gepflegt. Die Einstiegsseite liest Planwert, Spanne und Nächte automatisch aus den Reisen.
 - **Bewertung und Pro/Contra** in `data/start.js` sind eine Einschätzung. Bei Änderungen an den Reisen von Hand nachziehen.
 - **Bilder:** Jedes Bild hat einen `titel` (Bildunterschrift) und entweder eine feste `datei` auf Wikimedia Commons oder `suche` (Suchbegriffe, mit `|` getrennt) und `stichwort` (muss im Dateinamen vorkommen). Gesuchte Bilder werden beim Öffnen der Seite automatisch gefunden.
+- **Ersatzbilder:** Findet die Seite zu einem Motiv kein Bild, sucht sie ein anderes Bild der Station (über den Stationsnamen). Heisst der Ort auf Englisch anders, `ersatzsuche` setzen (z.B. `"Tokyo"`).
 - **Quellen:** Neue Belege in `data/quellen.js` als `["Beschreibung", "https://…"]` in die passende Gruppe eintragen.
 - **Texte** dürfen einfaches HTML enthalten (`<b>`, `<strong>`).
 - **Symbol der Anreise** (Bus, Zug, Schiff, Flug, Auto) wird am Anfang des Anreise-Textes erkannt.

@@ -118,6 +118,7 @@ REISEN.asien = {
     {
       nr: 1,
       name: "Singapur",
+      ersatzsuche: "Singapore",
       land: "sg",
       region: "Singapur",
       datum: "19.–22. Juni",

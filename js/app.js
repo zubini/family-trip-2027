@@ -56,11 +56,13 @@ function commonsUrl(datei, breite) {
   return 'https://commons.wikimedia.org/wiki/Special:FilePath/' + q + '?width=' + breite;
 }
 
-function bild(b) {
+// fb = Ersatzsuche (Name der Station), falls zum Motiv kein Bild gefunden wird
+function bild(b, fb) {
+  var ersatz = fb ? ' data-fb="' + esc(fb) + '"' : '';
   if (b.datei) {
-    return '<figure><img src="' + commonsUrl(b.datei, 1280) + '" loading="lazy" alt="' + esc(b.titel) + '" data-file="' + esc(b.datei) + '"><figcaption>' + b.titel + '</figcaption></figure>';
+    return '<figure><img src="' + commonsUrl(b.datei, 1280) + '" loading="lazy" alt="' + esc(b.titel) + '" data-file="' + esc(b.datei) + '"' + ersatz + '><figcaption>' + b.titel + '</figcaption></figure>';
   }
-  return '<figure><img data-q="' + esc(b.suche) + '" data-kw="' + esc(b.stichwort) + '" alt="' + esc(b.titel) + '"><figcaption>' + b.titel + '</figcaption></figure>';
+  return '<figure><img data-q="' + esc(b.suche) + '" data-kw="' + esc(b.stichwort) + '" alt="' + esc(b.titel) + '"' + ersatz + '><figcaption>' + b.titel + '</figcaption></figure>';
 }
 
 function titelbild(b) {
@@ -110,7 +112,7 @@ function station(s, k) {
   return '<div class="leg"><span class="ic" aria-hidden="true">' + icon(s.anreise) + '</span><p><b>Anreise:</b> ' + vor + s.anreise + '</p></div>' +
     '<article class="stop" id="' + k + '-s' + s.nr + '"><span class="num">' + s.nr + '</span>\n' +
     '<div class="shead"><h3>' + s.name + '</h3><span class="tag ' + s.land + '">' + s.region + '</span><p class="when">' + datum(s.datum) + ', <b>' + datenImText(s.naechte) + '</b></p></div>\n' +
-    '<div class="gal">' + liste(s.bilder, bild) + '</div>\n' +
+    '<div class="gal">' + liste(s.bilder, function (b) { return bild(b, s.ersatzsuche || kurzname(s.name).split(' und ').join('|')); }) + '</div>\n' +
     '<p class="lead">' + s.text + '</p>' + (s.teens ? '<div class="teen"><h4>Für Teens</h4><p>' + s.teens + '</p></div>' : '') + '\n' +
     '<ul class="facts">' + liste(s.fakten, function (f) { return '<li>' + f + '</li>'; }) + '</ul>\n' +
     '<p class="more"><b>Ausserdem sehenswert:</b> ' + s.ausserdem + '</p>' + (s.warnung ? '<div class="warn">' + s.warnung + '</div>' : '') + '\n' +
@@ -329,6 +331,28 @@ function wp(base, kw) {
   })();
 }
 function hide(img) { var f = img.closest('figure'); if (f) f.style.display = 'none'; else img.remove(); }
+function setze(img, h) {
+  img.src = h.src; img.title = h.alt;
+  img.onerror = function () { img.onerror = null; ersatz(img); };
+}
+// Kein Bild zum Motiv gefunden oder Bild defekt: ein anderes Bild der Station suchen (data-fb),
+// erst wenn auch das nichts ergibt, wird die Kachel ausgeblendet.
+function ersatz(img, fertig) {
+  var fb = img.dataset.fb, j = 0;
+  var ende = function () { if (fertig) fertig(); };
+  if (!fb || img.__fb) { hide(img); ende(); return; }
+  img.__fb = 1;
+  var namen = fb.split('|');
+  (function versuch() {
+    if (j >= namen.length) {
+      wp(namen, fb).then(function (h) { if (h) setze(img, h); else hide(img); ende(); }).catch(function () { hide(img); ende(); });
+      return;
+    }
+    search(namen[j++], fb, 0, false, 600).then(function (h) {
+      if (h) { setze(img, h); ende(); } else versuch();
+    }).catch(function () { hide(img); ende(); });
+  })();
+}
 var queue = [];
 function next() {
   if (!queue.length) return;
@@ -341,14 +365,13 @@ function next() {
   (function tryq() {
     if (j >= qs.length) {
       wp(base, kw).then(function (h) {
-        if (h) { img.src = h.src; img.title = h.alt; img.onerror = function () { hide(img); }; } else hide(img);
-        next();
-      }).catch(function () { hide(img); next(); });
+        if (h) { setze(img, h); next(); } else ersatz(img, next);
+      }).catch(function () { ersatz(img, next); });
       return;
     }
     var t = qs[j++];
     search(t[0], kw, t[1], hero, t[2]).then(function (h) {
-      if (h) { img.src = h.src; img.title = h.alt; img.onerror = function () { hide(img); }; next(); } else tryq();
+      if (h) { setze(img, h); next(); } else tryq();
     }).catch(function () { hide(img); next(); });
   })();
 }
@@ -360,7 +383,7 @@ function ladeBilder(root) {
     if (i.__f) return;
     i.__f = 1;
     i.onerror = function () {
-      if (i.dataset.q && !i.__q) { i.__q = 1; i.removeAttribute('srcset'); i.removeAttribute('src'); queue.push(i); next(); } else hide(i);
+      if (i.dataset.q && !i.__q) { i.__q = 1; i.removeAttribute('srcset'); i.removeAttribute('src'); queue.push(i); next(); } else { i.onerror = null; ersatz(i); }
     };
   });
   [].slice.call(root.querySelectorAll('img[data-q]')).forEach(function (i) {
@@ -402,6 +425,24 @@ menuBtn.addEventListener('click', function () { menu(!gnav.classList.contains('o
 document.addEventListener('click', function (e) { if (!gnav.contains(e.target) || e.target.closest('.menu a, a.logo')) menu(false); });
 document.addEventListener('keydown', function (e) { if (e.key === 'Escape') menu(false); });
 
+// Abschnittsleiste: den Abschnitt markieren, in dem man sich gerade befindet
+var spyGeplant = false;
+function markiereAbschnitt() {
+  spyGeplant = false;
+  var leiste = cur && cur !== 'start' && cur !== 'quellen' ? document.querySelector('#trip-' + cur + ' nav.top') : null;
+  if (!leiste) return;
+  var grenze = leiste.getBoundingClientRect().bottom + 40, aktiv = null;
+  [].slice.call(leiste.querySelectorAll('a')).forEach(function (a) {
+    var sec = document.getElementById(a.getAttribute('href').slice(1));
+    if (sec && sec.getBoundingClientRect().top <= grenze) aktiv = a;
+  });
+  [].slice.call(leiste.querySelectorAll('a')).forEach(function (a) { a.classList.toggle('on', a === aktiv); });
+}
+window.addEventListener('scroll', function () {
+  if (!spyGeplant) { spyGeplant = true; window.requestAnimationFrame(markiereAbschnitt); }
+}, { passive: true });
+
 window.addEventListener('hashchange', route);
 route();
+markiereAbschnitt();
 })();
