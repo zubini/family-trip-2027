@@ -4,9 +4,9 @@
 
 Reiseführer und Variantenvergleich für die Familienreise 2027 (18. Juni bis 22. Juli, 2 Erwachsene und 2 Kids) mit fünf Varianten:
 
-- **Singapur – Bangkok** über Malaysia und Thailand
-- **Singapur – Bali** über Malaysia und Java
-- **Las Vegas – New York** quer durch die USA
+- **Malaysia / Thailand**: von Singapur nach Bangkok
+- **Malaysia / Indonesien**: von Singapur über Java nach Bali
+- **USA**: von Las Vegas nach New York
 - **Japan** als Rundreise ab Tokio mit Bahn und Fähre
 - **Costa Rica** als Rundreise ab San José mit Mietwagen und Boot
 
@@ -20,9 +20,9 @@ Reines HTML, CSS und JavaScript, ohne Build-Schritt. Was im Repo liegt, ist die 
 index.html        Seitengerüst
 data/             die Inhalte, hier wird fast alles geändert
   start.js        Einstiegsseite: Texte, Bewertung, Pro und Contra
-  asien.js        Singapur–Bangkok
-  bali.js         Singapur–Bali
-  usa.js          Las Vegas–New York
+  asien.js        Malaysia / Thailand (Singapur–Bangkok)
+  bali.js         Malaysia / Indonesien (Singapur–Bali)
+  usa.js          USA (Las Vegas–New York)
   japan.js        Japan-Rundreise ab Tokio
   costarica.js    Costa-Rica-Rundreise ab San José
   quellen.js      Seite «Quellen» (Belege für Fahrzeiten, Einreise, Bilder)

@@ -1,6 +1,6 @@
 // Einstiegsseite: Vergleich der Reisen
 // Budgetzahlen kommen automatisch aus den Reisen (data/asien.js usw.).
-// Platzhalter in Texten: {plan:asien}, {plan:bali}, {plan:usa}, {plan:japan}, {plan:costarica} = Planwert, {mehrkosten} = USA minus Singapur–Bangkok.
+// Platzhalter in Texten: {plan:asien}, {plan:bali}, {plan:usa}, {plan:japan}, {plan:costarica} = Planwert, {mehrkosten} = USA minus Malaysia / Thailand.
 // Bewertung: [Punkte 0–5, Text]. Die Punkte und Pro/Contra sind eine Einschätzung und bei Änderungen an den Reisen von Hand anzupassen.
 window.START = {
   titel: "Familienreise 2027",
@@ -9,16 +9,16 @@ window.START = {
   reisenIntro: "Alle Reisen dauern 33 bis 34 Nächte und sind für die Familie mit Sohn (12) und Tochter (14) geplant. Ein Klick führt zum vollständigen Fahrplan mit Stationen, Karte und Budget.",
   bewertungIntro: "Bewertet werden Natur, Dschungelfeeling, Schnorcheln, Abenteuer, Städte, Budget und Reisekomfort. Fünf Punkte sind die beste Bewertung (beim Budget heisst das: günstig). Die Punkte sind eine Einschätzung auf Basis der Reisepläne, keine Messung.",
   empfehlung: [
-    "Sollen Schnorcheln und Dschungelfeeling zusammenkommen, empfiehlt sich <b>Singapur–Bangkok</b>. Wer vor allem Regenwald, Tiere und Abenteuer sucht, ist mit <b>Costa Rica</b> am besten bedient; geschnorchelt wird dort nur an wenigen Orten. Für Grossstädte, Kultur und bequemes Reisen mit dem Zug passt <b>Japan</b>, allerdings mit Regenzeit und schwüler Hitze. <b>Las Vegas–New York</b> bietet die grössten Landschaften und Städte ohne Schnorcheln, ist aber am teuersten. <b>Singapur–Bali</b> punktet mit Vulkanen, Reisterrassen und Inseln, hat aber den langen Rückflug als Nachteil.",
-    "Mehr Dschungel bei Singapur–Bangkok: Khao Sok (Regenwald und Cheow-Lan-See) lässt sich in die Route einbauen. Dafür liessen sich Khanom oder Penang kürzen."
+    "Sollen Schnorcheln und Dschungelfeeling zusammenkommen, empfiehlt sich <b>Malaysia / Thailand</b>. Wer vor allem Regenwald, Tiere und Abenteuer sucht, ist mit <b>Costa Rica</b> am besten bedient; geschnorchelt wird dort nur an wenigen Orten. Für Grossstädte, Kultur und bequemes Reisen mit dem Zug passt <b>Japan</b>, allerdings mit Regenzeit und schwüler Hitze. Die <b>USA</b> bieten die grössten Landschaften und Städte ohne Schnorcheln, sind aber am teuersten. <b>Malaysia / Indonesien</b> punktet mit Vulkanen, Reisterrassen und Inseln, hat aber den langen Rückflug als Nachteil.",
+    "Mehr Dschungel bei Malaysia / Thailand: Khao Sok (Regenwald und Cheow-Lan-See) lässt sich in die Route einbauen. Dafür liessen sich Khanom oder Penang kürzen."
   ],
   budgetIntro: "Mittelklasse inklusive Flüge, Transport, Unterkunft, Verpflegung und Aktivitäten für 4 Personen. Der dunkle Punkt ist der Planwert, der helle Balken die Spanne.",
   vergleichIntro: "Die wichtigsten Unterschiede nebeneinander.",
   entscheidIntro: "Welche Reise passt, hängt davon ab, ob Strand und Schnorcheln, Vulkane und Tempel, Regenwald und Abenteuer, Städte und Kultur oder Nationalparks im Vordergrund stehen.",
   reisen: {
     asien: {
-      name: "Singapur–Bangkok",
-      zusatz: "über Malaysia und Thailand",
+      name: "Malaysia / Thailand",
+      zusatz: "von Singapur nach Bangkok",
       passt: "ihr Schnorcheln, Inseln und Strand wollt und trotzdem Singapur, Kuala Lumpur und Bangkok sehen möchtet.",
       kurz: "Fünf Wochen über Land und Wasser durch Singapur, Malaysia und Thailand.",
       route: "Singapur, Pulau Tioman, Kuala Lumpur, Perhentian Islands, Penang, Khanom, Koh Samui, Koh Tao, Hua Hin, Bangkok",
@@ -45,8 +45,8 @@ window.START = {
       ]
     },
     bali: {
-      name: "Singapur–Bali",
-      zusatz: "über Malaysia und Java",
+      name: "Malaysia / Indonesien",
+      zusatz: "von Singapur nach Bali",
       passt: "Abenteuer mit Vulkanen und Tempeln im Vordergrund stehen und ihr den langen Rückflug mit Stopp in Kauf nehmt.",
       kurz: "Fünf Wochen durch Malaysia, Java und Bali mit Vulkanen, Tempeln und Inseln.",
       route: "Singapur, Pulau Tioman, Kuala Lumpur, Jakarta, Yogyakarta, Bromo und Malang, Ijen und Banyuwangi, Ubud, Nusa Penida, Uluwatu",
@@ -72,8 +72,8 @@ window.START = {
       ]
     },
     usa: {
-      name: "Las Vegas–New York",
-      zusatz: "quer durch die USA",
+      name: "USA",
+      zusatz: "von Las Vegas nach New York",
       passt: "Roadtrip, Nationalparks und Grossstädte wichtiger sind als Dschungel und Schnorcheln und das Budget (rund {mehrkosten} CHF mehr) passt.",
       kurz: "Fünf Wochen quer durch die USA mit Nationalparks, Grossen Seen und Grossstädten.",
       route: "Las Vegas, Zion, Page, Grand Canyon, Monument Valley, Santa Fe, White Sands, Chicago, Sandusky, Niagara Falls, Washington, Philadelphia, New York",
@@ -236,7 +236,7 @@ window.START = {
     {
       kriterium: "Budget (mehr Punkte = günstiger)",
       asien: [4, "ca. {plan:asien} CHF: Singapur ist teuer, der Rest günstig."],
-      bali: [4, "ca. {plan:bali} CHF: fast gleich wie Singapur–Bangkok."],
+      bali: [4, "ca. {plan:bali} CHF: fast gleich wie Malaysia / Thailand."],
       usa: [1, "ca. {plan:usa} CHF: rund {mehrkosten} CHF mehr, vor allem Unterkünfte und Mietwagen."],
       japan: [2, "ca. {plan:japan} CHF: Unterkünfte in Tokio und Kyoto sind teuer, Essen und Bahn moderat."],
       costarica: [2, "ca. {plan:costarica} CHF: teuerstes Land Mittelamerikas, Lodges und Touren kosten."]

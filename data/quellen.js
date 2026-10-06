@@ -5,7 +5,7 @@ window.QUELLEN = {
   intro: "Woher die Angaben stammen. Fahrzeiten sind gerundete Richtwerte ohne Pausen, zusammengetragen aus Fahrplänen, Routenportalen und Reiseberichten (Stand Oktober 2026). Fahrpläne, Preise und Einreiseregeln vor der Buchung prüfen.",
   gruppen: [
     {
-      titel: "Fahrzeiten Singapur–Bangkok",
+      titel: "Fahrzeiten Malaysia / Thailand",
       links: [
         ["KTM: Fahrplan Padang Besar–Hat Yai 2025 (PDF)", "https://www.ktmb.com.my/assets/pdf/2025/Jadual-Sawasdee-A4.pdf"],
         ["Thai Train Guide: Pendelzug Hat Yai–Padang Besar", "https://www.thaitrainguide.com/international/hat-yai-to-padang-besar/"],
@@ -18,7 +18,7 @@ window.QUELLEN = {
       ]
     },
     {
-      titel: "Fahrzeiten Singapur–Bali",
+      titel: "Fahrzeiten Malaysia / Indonesien",
       links: [
         ["bobobox.com: Zug Jakarta–Yogyakarta", "https://bobobox.com/blog/en/train-from-jakarta-to-yogyakarta/"],
         ["Wikipedia: Argo Dwipangga (Fahrzeit Jakarta–Yogyakarta)", "https://en.wikipedia.org/wiki/Argo_Dwipangga"],
@@ -28,7 +28,7 @@ window.QUELLEN = {
       ]
     },
     {
-      titel: "Fahrzeiten Las Vegas–New York",
+      titel: "Fahrzeiten USA",
       links: [
         ["Wanderlog: Springdale (Zion)–Page", "https://Wanderlog.com/drive/between/59086/58476/springdale-to-page-drive"],
         ["guias-viajar.com: Grand Canyon–Monument Valley", "https://guias-viajar.com/en/America/tourism-in-the-united-states/monument-valley-road-trip-from-grand-canon/"],
@@ -84,8 +84,8 @@ window.QUELLEN = {
       titel: "Bilder und Karten",
       links: [
         ["Wikimedia Commons: alle Bilder (Urheber und Lizenz auf der jeweiligen Dateiseite)", "https://commons.wikimedia.org/"],
-        ["Titelbild Singapur–Bangkok: Nang Yuan Island, Koh Tao (Fabio Achilli)", "https://commons.wikimedia.org/wiki/File:Nang_Yuan_Island,_Koh_Tao_(48109157601).jpg"],
-        ["Titelbild Las Vegas–New York: Horseshoe Bend (Luca Galuzzi)", "https://commons.wikimedia.org/wiki/File:USA_10187_Horseshoe_Bend_Luca_Galuzzi_2007.jpg"],
+        ["Titelbild Malaysia / Thailand: Nang Yuan Island, Koh Tao (Fabio Achilli)", "https://commons.wikimedia.org/wiki/File:Nang_Yuan_Island,_Koh_Tao_(48109157601).jpg"],
+        ["Titelbild USA: Horseshoe Bend (Luca Galuzzi)", "https://commons.wikimedia.org/wiki/File:USA_10187_Horseshoe_Bend_Luca_Galuzzi_2007.jpg"],
         ["Küstenlinien der Karten: geo-maps von Simone Primarosa (MIT-Lizenz)", "https://github.com/simonepri/geo-maps"]
       ]
     }
