@@ -17,28 +17,28 @@ window.START = {
       name: "Spanien / Portugal",
       zusatz: "Roadtrip ab Brig-Glis",
       passt: "ihr ohne Flug und Jetlag reisen, Städte, Kultur und Schnorcheln im Mittelmeer verbinden möchtet und viele Stunden am Steuer in Kauf nehmt.",
-      kurz: "Fünf Wochen mit dem eigenen Elektroauto über Barcelona, Valencia, Ibiza und Formentera nach Andalusien, Portugal und in den Norden Spaniens.",
-      route: "Brig-Glis, Sète, Barcelona, Valencia, Ibiza, Formentera, Benidorm, Cabo de Gata, Granada, Caminito del Rey, Sevilla, Lissabon, Porto, Playa de las Catedrales, Bilbao, Bardenas Reales, Carcassonne, Brig-Glis",
-      stationen: "13 Stationen und 3 Zwischenübernachtungen",
+      kurz: "Fünf Wochen mit dem eigenen Elektroauto im Wechsel von Städten, Strand und Natur: Barcelona, Valencia, Ibiza und Formentera, Andalusien, die Algarve, Lissabon, Porto und der Norden Spaniens.",
+      route: "Brig-Glis, Sète, Barcelona, Valencia, Ibiza, Formentera, Benidorm, Granada, Cabo de Gata, Caminito del Rey, Sevilla, Algarve (Lagos), Lissabon, Porto, Playa de las Catedrales, Bilbao, Bardenas Reales, Carcassonne, Brig-Glis",
+      stationen: "14 Stationen und 3 Zwischenübernachtungen",
       laender: "Frankreich, Spanien, Portugal",
       hinflug: "Kein Flug: mit dem eigenen Auto ab Brig-Glis, Zwischenstopp am Meer in Sète (ca. 7–7,5 Std.), dann nach Barcelona (ca. 3–3,5 Std.)",
       rueckflug: "Mit dem Auto in zwei Tagen über Carcassonne (ca. 6,5–7 und 7,5–8 Std.), Ankunft Sa, 24.07.2027",
       dazwischen: "Keine Flüge: eigenes Elektroauto, dazu drei Autofähren (Dénia–Ibiza, Ibiza–Formentera, Formentera–Dénia)",
-      tempo: "Ca. 66 Std. reine Reisezeit (ca. 59 Std. Elektroauto für ca. 5’800 km und ca. 6–7 Std. Fähre), realistisch mit Pausen, Ladestopps, Check-in und Stau ca. 80–84 Std.; 3 lange Fahrtage mit 6,5–8 Std. plus Ladestopps (Brig-Glis–Sète, Bardenas–Carcassonne, Carcassonne–Brig-Glis), dazu Sevilla–Lissabon (ca. 4,5–5 Std.) und Formentera–Benidorm (Fähre und Auto)",
-      gesamt: "Ca. 80–84 Std. Tür zu Tür, ohne Flughafen und ohne Jetlag: davon realistisch ca. 71–74 Std. im Elektroauto inklusive ca. 10–12 Ladestopps (ca. 59 Std. reine Fahrzeit) und ca. 9–10 Std. für die Fähren inklusive Check-in.",
+      tempo: "Ca. 69 Std. reine Reisezeit (ca. 62 Std. Elektroauto für ca. 6’100 km und ca. 6–7 Std. Fähre), realistisch mit Pausen, Ladestopps, Check-in und Stau ca. 83–86 Std.; 3 lange Fahrtage mit 6,5–8 Std. plus Ladestopps (Brig-Glis–Sète, Bardenas–Carcassonne, Carcassonne–Brig-Glis), dazu Benidorm–Granada (ca. 4–4,5 Std.) und Formentera–Benidorm (Fähre und Auto); sonst meist 2–3,5 Std.",
+      gesamt: "Ca. 83–86 Std. Tür zu Tür, ohne Flughafen und ohne Jetlag: davon realistisch ca. 74–76 Std. im Elektroauto inklusive ca. 11–13 Ladestopps (ca. 62 Std. reine Fahrzeit) und ca. 9–10 Std. für die Fähren inklusive Check-in.",
       wetter: "Heiss und trocken: in Andalusien und den Bardenas oft 35–42 °C, an den Küsten 28–32 °C; Portugal und der Norden angenehmer, Mittelmeer ca. 23–26 °C.",
       einreise: "Schengen: Identitätskarte genügt, keine Formulare. Crit’Air-Vignette für Frankreich, Registrierung für die Umweltzone Barcelona, elektronische Maut in Portugal.",
-      hoehepunkte: "Sagrada Família, Oceanogràfic in Valencia, Schnorcheln an den Buchten von Ibiza und Formentera, Terra Mítica und Aqualandia in Benidorm, Cabo de Gata, Alhambra und Gorafe, Caminito del Rey, Sevilla, Lissabon, Porto, Playa de las Catedrales, Bardenas Reales.",
-      teens: "Freizeit- und Wasserparks (Terra Mítica, Aqualandia, Isla Mágica), Schnorcheln und Kajak, Caminito del Rey, Game-of-Thrones-Drehorte, Höhlen und Felsbögen bei Ebbe, Surfen in Galicien.",
+      hoehepunkte: "Sagrada Família, Oceanogràfic in Valencia, Schnorcheln an den Buchten von Ibiza und Formentera, Terra Mítica und Aqualandia in Benidorm, Alhambra und Gorafe, Cabo de Gata, Caminito del Rey, Sevilla, Kajak durch die Grotten der Algarve, Lissabon, Porto, Playa de las Catedrales, Bardenas Reales.",
+      teens: "Freizeit- und Wasserparks (Terra Mítica, Aqualandia), Schnorcheln und Kajak, Grotten der Algarve, Caminito del Rey, Game-of-Thrones-Drehorte, Höhlen und Felsbögen bei Ebbe, Surfen in Galicien.",
       pro: [
-        "Kein Flug und kein Jetlag, Tür zu Tür am wenigsten Reisezeit (ca. 80–84 Std.); zwei Tage länger möglich",
-        "Sieben Nächte auf Ibiza und Formentera an den besten Schnorchelplätzen des Mittelmeers, dazu Strandtage in Benidorm und am Cabo de Gata",
+        "Kein Flug und kein Jetlag, Tür zu Tür am wenigsten Reisezeit (ca. 83–86 Std.); zwei Tage länger möglich",
+        "Abwechslung: sieben Nächte Schnorcheln auf Ibiza und Formentera, danach Städte, Strand und Natur im Wechsel (Granada, Cabo de Gata, Caminito, Sevilla, Algarve)",
         "Städte und Kultur: Barcelona, Valencia, Granada mit der Alhambra, Sevilla, Lissabon und Porto",
         "Unkompliziert und sicher: Europa, keine Impfungen, eigenes Auto mit viel Platz fürs Gepäck",
         "Am wenigsten CO₂ und knapp die günstigste Variante"
       ],
       contra: [
-        "Ca. 71–74 Std. im Auto inklusive Ladestopps, am ersten und letzten Tag je ca. 8–9 Std.",
+        "Ca. 74–76 Std. im Auto inklusive Ladestopps, am ersten und letzten Tag je ca. 8–9 Std.",
         "Grosse Hitze in Andalusien und den Bardenas (oft 35–42 °C)",
         "Hochsaison: Strände voll; Fähren, Zufahrt fürs Auto auf Ibiza und Formentera, Unterkünfte und Alhambra früh buchen",
         "Keine Korallenriffe und kein Dschungel; der Atlantik in Galicien ist kühl"
@@ -108,7 +108,7 @@ window.START = {
       kriterium: "Natur und Landschaft",
       spanien: [
         3,
-        "Einzelne starke Naturziele zwischen den Städten: Halbwüsten Bardenas Reales und Gorafe, Vulkanküste am Cabo de Gata, Schlucht des Caminito del Rey, Felsbögen der Playa de las Catedrales und die Buchten von Ibiza und Formentera."
+        "Einzelne starke Naturziele zwischen den Städten: Halbwüsten Bardenas Reales und Gorafe, Vulkanküste am Cabo de Gata, Schlucht des Caminito del Rey, Felsküste der Algarve, Felsbögen der Playa de las Catedrales und die Buchten von Ibiza und Formentera."
       ],
       usa: [
         5,
@@ -132,7 +132,7 @@ window.START = {
       kriterium: "Strand und Baden",
       spanien: [
         4,
-        "Viele Strandtage auf Ibiza, Formentera, in Benidorm und am Cabo de Gata, Mittelmeer ca. 23–26 °C; im Juli aber voll, und kein tropisch warmes Wasser."
+        "Viele Strandtage auf Ibiza, Formentera, in Benidorm, am Cabo de Gata und an der Algarve, Mittelmeer ca. 23–26 °C; im Juli aber voll, und kein tropisch warmes Wasser."
       ],
       usa: [
         1,
@@ -159,7 +159,7 @@ window.START = {
       kriterium: "Abenteuer",
       spanien: [
         3,
-        "Caminito del Rey, Achterbahnen in Terra Mítica, Kajak und Coasteering, Pisten durch die Bardenas und Gorafe; eher Entdecken als Wildnis."
+        "Caminito del Rey, Kajak durch die Grotten der Algarve, Achterbahnen in Terra Mítica, Schnorcheln, Pisten durch die Bardenas und Gorafe; eher Entdecken als Wildnis."
       ],
       usa: [4, "Durch die Narrows waten, Antelope Canyon, 2-Tage-Roadtrip und Cedar Point."],
       asien: [3, "Kajak, Seilrutschen, Inselhopping und Fähren; eher abenteuerlich beim Reisen als in der Natur."]
@@ -201,7 +201,7 @@ window.START = {
       kriterium: "Reisekomfort",
       spanien: [
         3,
-        "Tür zu Tür am wenigsten Reisezeit (ca. 80–84 Stunden), kein Flughafen, kein Jetlag, eigenes Auto mit viel Platz fürs Gepäck; dafür ca. 71–74 Stunden im Auto inklusive Ladestopps, am ersten und letzten Tag je ca. 8–9 Stunden. Die Fähren sind kurz (zusammen ca. 6–7 Stunden)."
+        "Tür zu Tür am wenigsten Reisezeit (ca. 83–86 Stunden), kein Flughafen, kein Jetlag, eigenes Auto mit viel Platz fürs Gepäck, die meisten Etappen 2–3,5 Stunden; dafür ca. 74–76 Stunden im Auto inklusive Ladestopps, am ersten und letzten Tag je ca. 8–9 Stunden. Die Fähren sind kurz (zusammen ca. 6–7 Stunden)."
       ],
       usa: [
         2,
@@ -216,7 +216,7 @@ window.START = {
       kriterium: "CO₂ und Umwelt (mehr Punkte = weniger CO₂)",
       spanien: [
         5,
-        "Kein Flug: Elektroauto (ca. 1’150 kWh, Strom in Frankreich ca. 30 g, in Spanien und Portugal ca. 120–130 g CO₂ pro kWh) und drei kurze Fähren; grob geschätzt ca. 0,1–0,2 t CO₂ pro Person."
+        "Kein Flug: Elektroauto (ca. 1’200 kWh, Strom in Frankreich ca. 30 g, in Spanien und Portugal ca. 120–130 g CO₂ pro kWh) und drei kurze Fähren; grob geschätzt ca. 0,1–0,2 t CO₂ pro Person."
       ],
       usa: [
         1,

@@ -35,25 +35,31 @@ REISEN.spanien = {
     },
     {datum: "27.–30. Juni", name: "4. Formentera", naechte: 3, info: "Autofähre Ibiza–Formentera (ca. 30–60 Min.)"},
     {
-      datum: "30. Juni–4. Juli",
+      datum: "30. Juni–3. Juli",
       name: "5. Benidorm",
-      naechte: 4,
+      naechte: 3,
       info: "Autofähre Formentera–Dénia (ca. 2–4,5 Std.), Auto (ca. 40–45 Min.)"
     },
-    {datum: "4.–7. Juli", name: "6. Cabo de Gata", naechte: 3, info: "Auto über Alicante und Murcia (ca. 3,5–4 Std.)"},
-    {datum: "7.–10. Juli", name: "7. Granada", naechte: 3, info: "Auto (ca. 2–2,5 Std.)"},
-    {datum: "10.–12. Juli", name: "8. Caminito del Rey (El Chorro)", naechte: 2, info: "Auto (ca. 1,5–2 Std.)"},
-    {datum: "12.–15. Juli", name: "9. Sevilla", naechte: 3, info: "Auto (ca. 2 Std.)"},
-    {datum: "15.–17. Juli", name: "10. Lissabon", naechte: 2, info: "Auto (ca. 4,5–5 Std.), Uhr −1 Std."},
-    {datum: "17.–19. Juli", name: "11. Porto", naechte: 2, info: "Auto (ca. 3 Std.)"},
-    {datum: "19.–21. Juli", name: "12. Playa de las Catedrales", naechte: 2, info: "Auto (ca. 4–4,5 Std.), Uhr +1 Std."},
+    {datum: "3.–6. Juli", name: "6. Granada", naechte: 3, info: "Auto über Murcia und Baza (ca. 4–4,5 Std.)"},
+    {datum: "6.–9. Juli", name: "7. Cabo de Gata", naechte: 3, info: "Auto über Guadix und Almería (ca. 2–2,5 Std.)"},
+    {
+      datum: "9.–11. Juli",
+      name: "8. Caminito del Rey (El Chorro)",
+      naechte: 2,
+      info: "Auto über Almería und Málaga (ca. 2,5–3 Std.)"
+    },
+    {datum: "11.–13. Juli", name: "9. Sevilla", naechte: 2, info: "Auto (ca. 2 Std.)"},
+    {datum: "13.–15. Juli", name: "10. Algarve (Lagos)", naechte: 2, info: "Auto (ca. 2,75–3 Std.), Uhr −1 Std."},
+    {datum: "15.–17. Juli", name: "11. Lissabon", naechte: 2, info: "Auto über die A2 (ca. 3–3,5 Std.)"},
+    {datum: "17.–19. Juli", name: "12. Porto", naechte: 2, info: "Auto (ca. 3 Std.)"},
+    {datum: "19.–21. Juli", name: "13. Playa de las Catedrales", naechte: 2, info: "Auto (ca. 4–4,5 Std.), Uhr +1 Std."},
     {
       datum: "21.–22. Juli",
       name: "Zwischenübernachtung Bilbao",
       naechte: 1,
       info: "Auto entlang der Nordküste (ca. 4 Std.)"
     },
-    {datum: "22.–23. Juli", name: "13. Bardenas Reales", naechte: 1, info: "Auto (ca. 2,5 Std.)"},
+    {datum: "22.–23. Juli", name: "14. Bardenas Reales", naechte: 1, info: "Auto (ca. 2,5 Std.)"},
     {
       datum: "23.–24. Juli",
       name: "Zwischenübernachtung Carcassonne",
@@ -69,11 +75,11 @@ REISEN.spanien = {
   planHinweise: [
     [
       "Gesamt",
-      "36 Nächte, 13 Stationen und 3 Zwischenübernachtungen (Sète, Bilbao, Carcassonne). Keine Flüge: alles mit dem eigenen Elektroauto, zu den Inseln mit drei Autofähren. Insgesamt ca. 5’800 km Autofahrt und ca. 6–7 Std. auf Fähren, zusammen ca. 66 Std. reine Reisezeit (ca. 59 Std. Auto); mit Pausen, Ladestopps, Check-in an den Häfen und Sommerstau realistisch ca. 80–84 Std. von Tür zu Tür (ca. 71–74 Std. im Auto inklusive ca. 10–12 Ladestopps à 20–30 Min., ca. 9–10 Std. für die Fähren mit Check-in). Die längsten Reisetage: Brig-Glis–Sète (ca. 7–7,5 Std. plus 1–2 Ladestopps), Carcassonne–Brig-Glis (ca. 7,5–8 Std. plus 2–3 Ladestopps), Bardenas–Carcassonne (ca. 6,5–7 Std. plus 2 Ladestopps), Formentera–Benidorm (Fähre ca. 2–4,5 Std. und Auto ca. 45 Min.), Sevilla–Lissabon (ca. 4,5–5 Std.), Valencia–Ibiza (Auto ca. 1–1,25 Std. und Fähre ca. 2,5 Std.), Porto–Ribadeo (ca. 4–4,5 Std.) und Barcelona–Valencia (ca. 3,5 Std.)."
+      "36 Nächte, 14 Stationen und 3 Zwischenübernachtungen (Sète, Bilbao, Carcassonne). Keine Flüge: alles mit dem eigenen Elektroauto, zu den Inseln mit drei Autofähren. Insgesamt ca. 6’100 km Autofahrt und ca. 6–7 Std. auf Fähren, zusammen ca. 69 Std. reine Reisezeit (ca. 62 Std. Auto); mit Pausen, Ladestopps, Check-in an den Häfen und Sommerstau realistisch ca. 83–86 Std. von Tür zu Tür (ca. 74–76 Std. im Auto inklusive ca. 11–13 Ladestopps à 20–30 Min., ca. 9–10 Std. für die Fähren mit Check-in). Die längsten Reisetage: Brig-Glis–Sète (ca. 7–7,5 Std. plus 1–2 Ladestopps), Carcassonne–Brig-Glis (ca. 7,5–8 Std. plus 2–3 Ladestopps), Bardenas–Carcassonne (ca. 6,5–7 Std. plus 2 Ladestopps), Formentera–Benidorm (Fähre ca. 2–4,5 Std. und Auto ca. 45 Min.), Benidorm–Granada (ca. 4–4,5 Std.), Porto–Ribadeo (ca. 4–4,5 Std.), Valencia–Ibiza (Auto ca. 1–1,25 Std. und Fähre ca. 2,5 Std.) und Barcelona–Valencia (ca. 3,5 Std.)."
     ],
     [
       "Vorab buchen",
-      "Autofähren Dénia–Ibiza, Ibiza–Formentera und Formentera–Dénia (im Juli früh buchen, Check-in 60–90 Min. vor Abfahrt), Zufahrtsbewilligung fürs Auto auf Ibiza und Formentera, Unterkünfte auf den Inseln (Hochsaison), Alhambra (im Sommer oft drei Monate im Voraus ausverkauft), Sagrada Família, Oceanogràfic, Caminito del Rey, Terra Mítica oder Aqualandia, Reservation für die Playa de las Catedrales (gratis, frühestens 30 Tage vorher)."
+      "Autofähren Dénia–Ibiza, Ibiza–Formentera und Formentera–Dénia (im Juli früh buchen, Check-in 60–90 Min. vor Abfahrt), Zufahrtsbewilligung fürs Auto auf Ibiza und Formentera, Unterkünfte auf den Inseln (Hochsaison), Alhambra (im Sommer oft drei Monate im Voraus ausverkauft), Sagrada Família, Oceanogràfic, Caminito del Rey, Terra Mítica oder Aqualandia, Kajaktour an der Algarve, Reservation für die Playa de las Catedrales (gratis, frühestens 30 Tage vorher)."
     ],
     [
       "Auto",
@@ -81,7 +87,7 @@ REISEN.spanien = {
     ],
     [
       "Optional",
-      "PortAventura (Freizeitpark bei Tarragona, auf dem Weg nach Valencia), Bootsausflug zur Insel S’Espalmador (ab Formentera), Ronda (bei El Chorro), Algarve (zwischen Sevilla und Lissabon), Sintra (Abstecher auf dem Weg nach Porto), San Sebastián (statt Bilbao)."
+      "PortAventura (Freizeitpark bei Tarragona, auf dem Weg nach Valencia), Bootsausflug zur Insel S’Espalmador (ab Formentera), Ronda (bei El Chorro), Benagil-Höhle (Bootstour ab Portimão), Sintra (Abstecher auf dem Weg nach Porto), San Sebastián (statt Bilbao)."
     ]
   ],
   karte: {
@@ -90,14 +96,14 @@ REISEN.spanien = {
     legende: ["car", "ferry"],
     karten: [
       {datei: "karten/spanien.svg"},
-      {titel: "Spanien und Portugal im Detail (Stationen 1 bis 13)", datei: "karten/spanien-detail.svg"}
+      {titel: "Spanien und Portugal im Detail (Stationen 1 bis 14)", datei: "karten/spanien-detail.svg"}
     ]
   },
-  abwechslungIntro: "Nach zwei aktiven Tagen jeweils einen ruhigen Tag einplanen. In Andalusien Programm auf Morgen und Abend legen, mittags ist es sehr heiss.",
+  abwechslungIntro: "Städte, Strand und Natur wechseln sich ab: nach Barcelona und Valencia sieben Tage Schnorcheln auf Ibiza und Formentera, danach Freizeitparks, Granada, Strand am Cabo de Gata, der Caminito, Sevilla, die Algarve, Lissabon und Porto. In Andalusien Programm auf Morgen und Abend legen, mittags ist es sehr heiss.",
   abwechslung: [
     [
       "Action und Freizeitparks",
-      "Oceanogràfic in Valencia, Terra Mítica und Aqualandia in Benidorm, Caminito del Rey, Schnorcheln und Kajak auf Ibiza und Formentera, Isla Mágica in Sevilla; optional PortAventura."
+      "Oceanogràfic in Valencia, Terra Mítica und Aqualandia in Benidorm, Caminito del Rey, Schnorcheln und Kajak auf Ibiza und Formentera, Kajak durch die Grotten der Ponta da Piedade; optional PortAventura und Isla Mágica in Sevilla."
     ],
     [
       "Kultur und Geschichte",
@@ -105,18 +111,18 @@ REISEN.spanien = {
     ],
     [
       "Natur und Landschaft",
-      "Halbwüste Bardenas Reales, Badlands und Dolmen von Gorafe, Vulkanküste am Cabo de Gata, Schlucht des Caminito del Rey, Felsbögen der Playa de las Catedrales."
+      "Halbwüste Bardenas Reales, Badlands und Dolmen von Gorafe, Vulkanküste am Cabo de Gata, Schlucht des Caminito del Rey, Felsküste der Algarve, Felsbögen der Playa de las Catedrales."
     ],
     [
       "Strand und Schnorcheln",
-      "Die besten Schnorchelplätze der Reise: Cala Xarraca, Portinatx, Punta de sa Galera und Cala Comte auf Ibiza, Cala Saona, Es Caló und Ses Illetes auf Formentera (klares Wasser über Seegraswiesen); dazu Benidorm und Cabo de Gata. Im Mittelmeer ist das Wasser im Juli ca. 23–26 °C warm, am Atlantik deutlich kühler."
+      "Die besten Schnorchelplätze der Reise: Cala Xarraca, Portinatx, Punta de sa Galera und Cala Comte auf Ibiza, Cala Saona, Es Caló und Ses Illetes auf Formentera (klares Wasser über Seegraswiesen); dazu Benidorm, Cabo de Gata und die Buchten bei Lagos. Im Mittelmeer ist das Wasser im Juli ca. 23–26 °C warm, am Atlantik deutlich kühler."
     ],
     [
       "Mitmachen",
       "Tapas- und Paella-Kurs, Velotour in Sevilla oder Lissabon, Bootstour auf dem Douro in Porto, Surf-Schnupperstunde in Galicien."
     ]
   ],
-  stationenIntro: "Dreizehn Stationen von Barcelona über Valencia, Ibiza und Formentera, Benidorm, Andalusien und Portugal bis in den Norden. Über jeder Station steht, wie ihr dorthin kommt.",
+  stationenIntro: "Vierzehn Stationen im Wechsel von Städten, Strand und Natur: Barcelona, Valencia, Ibiza und Formentera, Benidorm, Granada, Cabo de Gata, Caminito del Rey, Sevilla, die Algarve, Lissabon, Porto und der Norden. Über jeder Station steht, wie ihr dorthin kommt.",
   stationen: [
     {
       nr: 1,
@@ -194,12 +200,37 @@ REISEN.spanien = {
       ],
       ausserdem: "Cala Salada, Hippiemarkt Las Dalias, Salinen von Ses Salines, Santa Eulària.",
       bilder: [
-        {titel: "Cala Xarraca", datei: "Cala Xarraca - panoramio.jpg", suche: "Cala Xarraca Ibiza", stichwort: "xarraca"},
-        {titel: "Cala Comte", datei: "Cala Conta Ibiza 17 May 2011 (2).JPG", suche: "Cala Comte Ibiza", stichwort: "comte|conta"},
-        {titel: "Portinatx", datei: "Cala de Portinatx, Ibiza (1672988340).jpg", suche: "Portinatx Ibiza", stichwort: "portinatx"},
-        {titel: "Bei der Punta de sa Galera", datei: "Cap Nono desde Punta Galera - panoramio.jpg", suche: "Punta Galera Ibiza", stichwort: "galera"},
+        {
+          titel: "Cala Xarraca",
+          datei: "Cala Xarraca - panoramio.jpg",
+          suche: "Cala Xarraca Ibiza",
+          stichwort: "xarraca"
+        },
+        {
+          titel: "Cala Comte",
+          datei: "Cala Conta Ibiza 17 May 2011 (2).JPG",
+          suche: "Cala Comte Ibiza",
+          stichwort: "comte|conta"
+        },
+        {
+          titel: "Portinatx",
+          datei: "Cala de Portinatx, Ibiza (1672988340).jpg",
+          suche: "Portinatx Ibiza",
+          stichwort: "portinatx"
+        },
+        {
+          titel: "Bei der Punta de sa Galera",
+          datei: "Cap Nono desde Punta Galera - panoramio.jpg",
+          suche: "Punta Galera Ibiza",
+          stichwort: "galera"
+        },
         {titel: "Es Vedrà", suche: "Es Vedra Ibiza", stichwort: "vedr"},
-        {titel: "Dalt Vila", datei: "Ibiza City Dalt Vila from seaport asv2023-04.jpg", suche: "Dalt Vila Ibiza", stichwort: "dalt vila"}
+        {
+          titel: "Dalt Vila",
+          datei: "Ibiza City Dalt Vila from seaport asv2023-04.jpg",
+          suche: "Dalt Vila Ibiza",
+          stichwort: "dalt vila"
+        }
       ]
     },
     {
@@ -221,9 +252,24 @@ REISEN.spanien = {
       ausserdem: "Leuchtturm Cap de Barbaria, Salinen, Es Pujols, Markt in Sant Francesc.",
       bilder: [
         {titel: "Ses Illetes", suche: "Ses Illetes Formentera", stichwort: "illetes"},
-        {titel: "Cala Saona", datei: "Formentera. Cala Saona. Varadors.jpg", suche: "Cala Saona Formentera", stichwort: "saona"},
-        {titel: "Es Caló", datei: "Formentera Es Caló de Sant Agustí.jpg", suche: "Es Calo Formentera", stichwort: "calo|caló"},
-        {titel: "S’Espalmador", datei: "Isla de Espalmador, Formentera. Islas Baleares.jpg", suche: "Espalmador Formentera", stichwort: "espalmador"},
+        {
+          titel: "Cala Saona",
+          datei: "Formentera. Cala Saona. Varadors.jpg",
+          suche: "Cala Saona Formentera",
+          stichwort: "saona"
+        },
+        {
+          titel: "Es Caló",
+          datei: "Formentera Es Caló de Sant Agustí.jpg",
+          suche: "Es Calo Formentera",
+          stichwort: "calo|caló"
+        },
+        {
+          titel: "S’Espalmador",
+          datei: "Isla de Espalmador, Formentera. Islas Baleares.jpg",
+          suche: "Espalmador Formentera",
+          stichwort: "espalmador"
+        },
         {titel: "Cap de Barbaria", suche: "Cap de Barbaria lighthouse", stichwort: "barbaria"},
         {titel: "Leuchtturm La Mola", suche: "Far de la Mola Formentera", stichwort: "mola"}
       ]
@@ -233,13 +279,13 @@ REISEN.spanien = {
       name: "Benidorm",
       land: "es",
       region: "Costa Blanca",
-      datum: "30. Juni–4. Juli",
-      naechte: "4 Nächte",
+      datum: "30. Juni–3. Juli",
+      naechte: "3 Nächte",
       anreise: "Autofähre Formentera–Dénia (direkt ca. 2 Std., über Ibiza bis ca. 4,5 Std.; nur wenige Verbindungen pro Tag, Fahrplan prüfen); Check-in mit dem Auto ca. 60–90 Min. vor Abfahrt. Von Dénia mit dem Auto nach Benidorm (ca. 40–45 Min., ca. 50 km).",
       text: "Hochhausstadt an der Costa Blanca mit zwei langen Sandstränden, Freizeit- und Wasserparks. Nach den Inseln Action und Strand; im Hinterland liegen das Bergdorf Guadalest und die Wasserfälle von Algar.",
       teens: "Terra Mítica (Achterbahnen), Aqualandia (einer der grössten Wasserparks Europas), Boot zur Isla de Benidorm mit Schnorcheln, Aussicht vom Balcón del Mediterráneo, Baden in den Wasserfällen von Algar.",
       fakten: [
-        "<strong>Dauer:</strong> 4 Nächte: ein Tag Terra Mítica, ein Tag Aqualandia, ein Tag Strand und Isla de Benidorm, ein Tag Guadalest und Algar.",
+        "<strong>Dauer:</strong> 3 Nächte: ein Tag Terra Mítica oder Aqualandia, ein Tag Strand und Isla de Benidorm, ein Tag Guadalest und Algar.",
         "<strong>Parks:</strong> Terra Mítica und Aqualandia gehören zusammen, Kombitickets gibt es online; Saison ab Mitte Mai, Öffnungstage vorab prüfen.",
         "<strong>Isla de Benidorm:</strong> Boote ab dem Hafen, ca. 15 Min.; die Insel gehört zum Naturpark Serra Gelada.",
         "<strong>Unterkunft:</strong> Apartment oder Hotel mit Pool und Parkplatz, z.B. an der Playa de Poniente (ruhiger als Levante)."
@@ -256,37 +302,12 @@ REISEN.spanien = {
     },
     {
       nr: 6,
-      name: "Cabo de Gata",
-      land: "es",
-      region: "Andalusien",
-      datum: "4.–7. Juli",
-      naechte: "3 Nächte",
-      anreise: "Mit dem Auto von Benidorm über Alicante, Murcia und Almería nach San José (ca. 3,5–4 Std., ca. 310 km).",
-      text: "Naturpark mit Vulkanküste, Halbwüste und den letzten wilden Stränden Andalusiens. Das klare Wasser über Felsen und Seegras ist ideal zum Schnorcheln.",
-      teens: "Schnorcheln an der Cala de San Pedro oder bei Los Escullos, Kajak entlang der Küste, Strände Mónsul und Los Genoveses, Western-Filmkulisse Fort Bravo bei Tabernas.",
-      fakten: [
-        "<strong>Dauer:</strong> 3 Nächte in San José oder Las Negras: Strände, Schnorcheln und ein ruhiger Tag.",
-        "<strong>Strände:</strong> Von ca. 21. Juni bis 22. September ist die Zufahrt zu Mónsul und Los Genoveses beschränkt; Shuttlebus ab San José, oder vor 10 Uhr mit dem Auto (Parkgebühr).",
-        "<strong>Hitze:</strong> Wenig Schatten an den Stränden: Sonnenschirm, Wasser und Sonnenschutz mitnehmen."
-      ],
-      ausserdem: "Leuchtturm Cabo de Gata, Arrecife de las Sirenas, Rodalquilar (Goldminen), Salinen mit Flamingos, Wüste von Tabernas.",
-      bilder: [
-        {titel: "Playa de Mónsul", suche: "Playa de Monsul", stichwort: "monsul|mónsul"},
-        {titel: "Los Genoveses", suche: "Playa de los Genoveses", stichwort: "genoveses"},
-        {titel: "Arrecife de las Sirenas", suche: "Arrecife de las Sirenas Cabo de Gata", stichwort: "sirenas"},
-        {titel: "San José", suche: "San Jose Almeria Cabo de Gata", stichwort: "san jos"},
-        {titel: "Flamingos", suche: "Salinas de Cabo de Gata flamingos", stichwort: "salinas|flamingo"},
-        {titel: "Wüste von Tabernas", suche: "Tabernas Desert", stichwort: "tabernas"}
-      ]
-    },
-    {
-      nr: 7,
       name: "Granada",
       land: "es",
       region: "Andalusien",
-      datum: "7.–10. Juli",
+      datum: "3.–6. Juli",
       naechte: "3 Nächte",
-      anreise: "Mit dem Auto über Almería und Guadix nach Granada (ca. 2–2,5 Std., ca. 200 km). Das Auto im Hotel-Parkhaus lassen; die Altstadt ist zum Teil gesperrt.",
+      anreise: "Mit dem Auto von Benidorm über Alicante, Murcia und Baza nach Granada (ca. 4–4,5 Std., ca. 390 km); die Wüste von Gorafe liegt nahe der Strecke bei Guadix. Das Auto im Hotel-Parkhaus lassen; die Altstadt ist zum Teil gesperrt.",
       text: "Die Alhambra, die Burg der maurischen Könige, über einer Stadt voller Gassen und Teestuben. Eine Stunde entfernt liegt die Wüste von Gorafe mit Badlands und über 240 Dolmen.",
       teens: "Alhambra mit den Nasridenpalästen, Sonnenuntergang am Mirador San Nicolás, Tagesausflug in die Wüste von Gorafe (Badlands, Dolmen, Höhlenwohnungen in Guadix).",
       fakten: [
@@ -305,17 +326,42 @@ REISEN.spanien = {
       ]
     },
     {
+      nr: 7,
+      name: "Cabo de Gata",
+      land: "es",
+      region: "Andalusien",
+      datum: "6.–9. Juli",
+      naechte: "3 Nächte",
+      anreise: "Mit dem Auto von Granada über Guadix und Almería nach San José (ca. 2–2,5 Std., ca. 200 km).",
+      text: "Naturpark mit Vulkanküste, Halbwüste und den letzten wilden Stränden Andalusiens. Das klare Wasser über Felsen und Seegras ist ideal zum Schnorcheln.",
+      teens: "Schnorcheln an der Cala de San Pedro oder bei Los Escullos, Kajak entlang der Küste, Strände Mónsul und Los Genoveses, Western-Filmkulisse Fort Bravo bei Tabernas.",
+      fakten: [
+        "<strong>Dauer:</strong> 3 Nächte in San José oder Las Negras: nach Granada wieder Strand, Schnorcheln und ein ruhiger Tag.",
+        "<strong>Strände:</strong> Von ca. 21. Juni bis 22. September ist die Zufahrt zu Mónsul und Los Genoveses beschränkt; Shuttlebus ab San José, oder vor 10 Uhr mit dem Auto (Parkgebühr).",
+        "<strong>Hitze:</strong> Wenig Schatten an den Stränden: Sonnenschirm, Wasser und Sonnenschutz mitnehmen."
+      ],
+      ausserdem: "Leuchtturm Cabo de Gata, Arrecife de las Sirenas, Rodalquilar (Goldminen), Salinen mit Flamingos, Wüste von Tabernas.",
+      bilder: [
+        {titel: "Playa de Mónsul", suche: "Playa de Monsul", stichwort: "monsul|mónsul"},
+        {titel: "Los Genoveses", suche: "Playa de los Genoveses", stichwort: "genoveses"},
+        {titel: "Arrecife de las Sirenas", suche: "Arrecife de las Sirenas Cabo de Gata", stichwort: "sirenas"},
+        {titel: "San José", suche: "San Jose Almeria Cabo de Gata", stichwort: "san jos"},
+        {titel: "Flamingos", suche: "Salinas de Cabo de Gata flamingos", stichwort: "salinas|flamingo"},
+        {titel: "Wüste von Tabernas", suche: "Tabernas Desert", stichwort: "tabernas"}
+      ]
+    },
+    {
       nr: 8,
       name: "Caminito del Rey (El Chorro)",
       land: "es",
       region: "Andalusien",
-      datum: "10.–12. Juli",
+      datum: "9.–11. Juli",
       naechte: "2 Nächte",
-      anreise: "Mit dem Auto über Loja und Antequera nach El Chorro (ca. 1,5–2 Std., ca. 140 km).",
+      anreise: "Mit dem Auto von San José über Almería und die Küstenautobahn A-7 bei Málaga nach El Chorro (ca. 2,5–3 Std., ca. 250 km).",
       text: "Ein Steig hoch über der Schlucht Desfiladero de los Gaitanes, früher einer der gefährlichsten Wege der Welt, heute gut gesichert. Rund um El Chorro liegen Stauseen zum Baden.",
       teens: "Caminito del Rey (ca. 3–4 Std.), Baden und Paddeln im Stausee Conde de Guadalhorce, Felslandschaft El Torcal bei Antequera.",
       fakten: [
-        "<strong>Dauer:</strong> 2 Nächte. Den Caminito am So, 11.07.2027 planen (am Wochenende früh buchen); montags ist er geschlossen.",
+        "<strong>Dauer:</strong> 2 Nächte. Den Caminito am Sa, 10.07.2027 planen (am Wochenende früh buchen); montags ist er geschlossen.",
         "<strong>Tickets:</strong> Nur online mit Zeitfenster; Mindestalter 8 Jahre, Ausweis mitnehmen. Früher Einlass wegen der Hitze.",
         "<strong>Hinweis:</strong> Der Weg ist ein Einweg mit Shuttlebus zurück zum Parkplatz; Helm wird gestellt."
       ],
@@ -335,13 +381,13 @@ REISEN.spanien = {
       ersatzsuche: "Seville",
       land: "es",
       region: "Andalusien",
-      datum: "12.–15. Juli",
-      naechte: "3 Nächte",
+      datum: "11.–13. Juli",
+      naechte: "2 Nächte",
       anreise: "Mit dem Auto über Antequera nach Sevilla (ca. 2 Std., ca. 150 km). Hotel mit Parkhaus wählen.",
       text: "Andalusiens Hauptstadt mit Kathedrale, Alcázar, der Plaza de España und Flamenco. Im Juli ist es sehr heiss, das Leben spielt sich am Morgen und am Abend ab.",
       teens: "Alcázar (Drehort von «Game of Thrones»), Plaza de España mit Booten, Setas (Metropol Parasol) mit Dachweg, Flamenco-Show am Abend, Freizeitpark Isla Mágica.",
       fakten: [
-        "<strong>Dauer:</strong> 3 Nächte, ein Tag davon für Isla Mágica oder den Pool; mittags Pause im klimatisierten Hotel oder am Pool.",
+        "<strong>Dauer:</strong> 2 Nächte: Alcázar, Kathedrale und Plaza de España am Morgen und Abend, mittags Pause im klimatisierten Hotel oder am Pool.",
         "<strong>Hitze:</strong> Im Juli oft 38–42 °C; viel trinken, Kopfbedeckung, Programm vor 12 und nach 18 Uhr.",
         "<strong>Tickets:</strong> Alcázar und Kathedrale online buchen, sonst lange Schlangen in der Sonne."
       ],
@@ -357,13 +403,38 @@ REISEN.spanien = {
     },
     {
       nr: 10,
+      name: "Algarve (Lagos)",
+      land: "pt",
+      region: "Portugal",
+      datum: "13.–15. Juli",
+      naechte: "2 Nächte",
+      anreise: "Mit dem Auto von Sevilla über Huelva auf der Algarve-Autobahn A22 nach Lagos (ca. 2,75–3 Std., ca. 270 km). In Portugal ist es eine Stunde früher. Maut: die A22 ist frei, die A2 nach Lissabon hat Zahlstellen; für elektronische Maut EasyToll an der Grenze.",
+      text: "Goldgelbe Felsküste mit Grotten, Felsbögen und kleinen Buchten. Nach Sevilla ein Strandstopp, bevor es in die Städte Lissabon und Porto geht.",
+      teens: "Kajak- oder Bootstour durch die Grotten der Ponta da Piedade, Baden in den Buchten Praia do Camilo und Praia Dona Ana, Sonnenuntergang an den Klippen, optional Bootstour zur Benagil-Höhle.",
+      fakten: [
+        "<strong>Dauer:</strong> 2 Nächte in Lagos: ein Tag Kajak an der Ponta da Piedade und Strand, ein halber Tag Altstadt.",
+        "<strong>Kajak:</strong> Geführte Touren ab der Marina von Lagos dauern ca. 2 Std. (ab ca. 35 € pro Person); Kids unter 16 nur mit Erwachsenen, alle müssen schwimmen können. Vorab buchen, bei Wellengang fällt die Tour aus.",
+        "<strong>Wasser:</strong> Atlantik, deutlich kühler als das Mittelmeer; die Buchten sind bei Ebbe grösser."
+      ],
+      ausserdem: "Altstadt von Lagos mit Stadtmauer, Praia da Marinha, Leuchtturm Ponta da Piedade, Sagres und Cabo de São Vicente.",
+      bilder: [
+        {titel: "Ponta da Piedade", suche: "Ponta da Piedade Lagos", stichwort: "piedade"},
+        {titel: "Praia do Camilo", suche: "Praia do Camilo Lagos", stichwort: "camilo"},
+        {titel: "Praia Dona Ana", suche: "Praia Dona Ana Lagos", stichwort: "dona ana"},
+        {titel: "Benagil-Höhle", suche: "Benagil cave", stichwort: "benagil"},
+        {titel: "Praia da Marinha", suche: "Praia da Marinha Algarve", stichwort: "marinha"},
+        {titel: "Altstadt von Lagos", suche: "Lagos Portugal old town", stichwort: "lagos"}
+      ]
+    },
+    {
+      nr: 11,
       name: "Lissabon",
       ersatzsuche: "Lisbon",
       land: "pt",
       region: "Portugal",
       datum: "15.–17. Juli",
       naechte: "2 Nächte",
-      anreise: "Mit dem Auto über Huelva und die Algarve-Autobahn nach Lissabon (ca. 4,5–5 Std., ca. 460 km). In Portugal ist es eine Stunde früher. Maut: die A22 ist frei, die A2 hat Zahlstellen; für elektronische Maut EasyToll an der Grenze.",
+      anreise: "Mit dem Auto von Lagos über die A2 nach Lissabon (ca. 3–3,5 Std., ca. 300 km, Maut an Zahlstellen).",
       text: "Hügelige Hauptstadt am Tejo mit Strassenbahnen, Aussichtspunkten, Fliesenfassaden und Pastéis de Nata. Nah am Meer und an Sintra.",
       teens: "Oceanário (eines der grössten Aquarien Europas), Strassenbahn 28, Belém mit Turm und Pastéis de Belém, Tagesausflug nach Sintra (Pena-Palast) und ans Cabo da Roca, Surfen in Carcavelos.",
       fakten: [
@@ -382,7 +453,7 @@ REISEN.spanien = {
       ]
     },
     {
-      nr: 11,
+      nr: 12,
       name: "Porto",
       land: "pt",
       region: "Portugal",
@@ -407,7 +478,7 @@ REISEN.spanien = {
       ]
     },
     {
-      nr: 12,
+      nr: 13,
       name: "Playa de las Catedrales",
       land: "es",
       region: "Galicien",
@@ -433,7 +504,7 @@ REISEN.spanien = {
       ]
     },
     {
-      nr: 13,
+      nr: 14,
       name: "Bardenas Reales (Finale)",
       land: "es",
       region: "Navarra",
@@ -463,15 +534,15 @@ REISEN.spanien = {
   budgetIntro: "Mittelklasse inklusive Strom fürs Elektroauto, Maut, Fähren, Unterkunft, Verpflegung und Aktivitäten, ohne Abnutzung des eigenen Autos. Alle Beträge sind Schätzungen in CHF.",
   budget: {
     naechte: 36,
-    total: "19’500",
-    spanne: "14’500–25’300",
-    proTag: "ca. 540 CHF pro Tag, ca. 4’900 pro Person",
+    total: "19’650",
+    spanne: "14’650–25’450",
+    proTag: "ca. 550 CHF pro Tag, ca. 4’900 pro Person",
     posten: [
       [
-        "Auto: Strom, Maut, Vignetten (ca. 5’800 km)",
-        "700–1’100",
-        "900",
-        "ca. 1’150 kWh, davon der grösste Teil an Schnellladern (ca. 0,45–0,70 € pro kWh), Rest im Hotel; Maut vor allem in Frankreich und Portugal, Crit’Air-Vignette, Registrierung Umweltzone Barcelona, Zufahrt Ibiza und Formentera"
+        "Auto: Strom, Maut, Vignetten (ca. 6’100 km)",
+        "750–1’150",
+        "950",
+        "ca. 1’200 kWh, davon der grösste Teil an Schnellladern (ca. 0,45–0,70 € pro kWh), Rest im Hotel; Maut vor allem in Frankreich und Portugal, Crit’Air-Vignette, Registrierung Umweltzone Barcelona, Zufahrt Ibiza und Formentera"
       ],
       [
         "Autofähren (Dénia–Ibiza–Formentera–Dénia)",
@@ -494,9 +565,9 @@ REISEN.spanien = {
       ["Verpflegung (Tapas, Restaurants, Einkauf)", "3’600–6’150", "4’750", "ca. 100–170 CHF pro Tag für 4 Personen"],
       [
         "Aktivitäten und Eintritte",
-        "1’750–3’100",
-        "2’400",
-        "Terra Mítica oder Aqualandia, Alhambra, Sagrada Família, Caminito del Rey, Bootstouren, Schnorcheln, Oceanário, Museen"
+        "1’850–3’200",
+        "2’500",
+        "Oceanogràfic, Terra Mítica oder Aqualandia, Alhambra, Sagrada Família, Caminito del Rey, Kajak an der Algarve, Bootstouren, Schnorcheln, Oceanário, Museen"
       ],
       [
         "Versicherung, Pannenhilfe, Reiseapotheke",
@@ -512,16 +583,17 @@ REISEN.spanien = {
       ["2. Valencia (2)", "650–1’050"],
       ["3. Ibiza (4)", "1’550–2’550"],
       ["4. Formentera (3)", "1’300–2’200"],
-      ["5. Benidorm (4)", "1’200–2’000"],
-      ["6. Cabo de Gata (3)", "850–1’450"],
-      ["7. Granada (3)", "1’050–1’700"],
+      ["5. Benidorm (3)", "900–1’500"],
+      ["6. Granada (3)", "1’050–1’700"],
+      ["7. Cabo de Gata (3)", "850–1’450"],
       ["8. Caminito del Rey (2)", "550–950"],
-      ["9. Sevilla (3)", "950–1’550"],
-      ["10. Lissabon (2)", "700–1’150"],
-      ["11. Porto (2)", "650–1’050"],
-      ["12. Playa de las Catedrales (2)", "550–900"],
+      ["9. Sevilla (2)", "650–1’050"],
+      ["10. Algarve (2)", "600–1’000"],
+      ["11. Lissabon (2)", "700–1’150"],
+      ["12. Porto (2)", "650–1’050"],
+      ["13. Playa de las Catedrales (2)", "550–900"],
       ["Zwischenübernachtung Bilbao (1)", "300–450"],
-      ["13. Bardenas Reales (1)", "250–400"],
+      ["14. Bardenas Reales (1)", "250–400"],
       ["Zwischenübernachtung Carcassonne (1)", "250–400"]
     ],
     hinweise: [
@@ -564,7 +636,7 @@ REISEN.spanien = {
     ],
     [
       "Sicherheit",
-      "Taschendiebe in Barcelona, Sevilla und Lissabon. Aufbrüche an Strandparkplätzen und Aussichtspunkten: nichts sichtbar im Auto lassen."
+      "Taschendiebe in Barcelona, Valencia, Sevilla und Lissabon. Aufbrüche an Strandparkplätzen und Aussichtspunkten: nichts sichtbar im Auto lassen."
     ],
     [
       "Kultur und Verhalten",

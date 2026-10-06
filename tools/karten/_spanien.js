@@ -11,7 +11,7 @@ const orte = {
   PO: [41.15, -8.61], BG: [41.55, -8.42], VL: [42.03, -8.64], LU: [43.01, -7.56], RI: [43.536, -7.04],
   OV: [43.36, -5.85], SA: [43.46, -3.80], BI: [43.263, -2.935], VI: [42.85, -2.67], LG: [42.465, -2.445],
   BA: [42.13, -1.55], ZA: [41.65, -0.88], LL: [41.617, 0.62], MR: [41.73, 1.83], VC: [41.93, 2.25],
-  CA: [43.213, 2.353], BE: [38.54, -0.13], IBN: [39.11, 1.52], VAL: [39.47, -0.376], AVI: [43.95, 4.81], TER: [40.34, -1.11],
+  CA: [43.213, 2.353], BE: [38.54, -0.13], IBN: [39.11, 1.52], LAG: [37.10, -8.67], BAZ: [37.49, -2.77], MOT: [36.75, -3.52], MAG: [36.72, -4.42], VAL: [39.47, -0.376], AVI: [43.95, 4.81], TER: [40.34, -1.11],
   DA: [41.11, -1.41], SAG: [39.68, -0.27], CS: [39.99, -0.05], TA: [41.12, 1.25]
 };
 const wege = [
@@ -24,11 +24,12 @@ const wege = [
   ['ferry', 'Ibiza – Formentera (Autofähre)', ['IB', 'FO']],
   ['ferry', 'Formentera – Dénia (Autofähre)', ['FO', [38.7, 0.6], 'DE']],
   ['car', 'Dénia – Benidorm', ['DE', [38.75, -0.05], 'BE']],
-  ['car', 'Benidorm – Alicante – Murcia – Cabo de Gata', ['BE', 'AL', 'MU', 'LO', [37.2, -2.0], 'SJ']],
-  ['car', 'Cabo de Gata – Almería – Guadix – Granada', ['SJ', 'AM', [37.05, -2.75], 'GU', 'GR']],
-  ['car', 'Granada – Loja – Antequera – El Chorro', ['GR', 'LJ', 'AN', 'EC']],
+  ['car', 'Benidorm – Alicante – Murcia – Baza – Granada', ['BE', 'AL', 'MU', 'LO', 'BAZ', 'GU', 'GR']],
+  ['car', 'Granada – Guadix – Almería – Cabo de Gata', ['GR', 'GU', [37.05, -2.75], 'AM', 'SJ']],
+  ['car', 'Cabo de Gata – Almería – Málaga – El Chorro', ['SJ', 'AM', 'MOT', 'MAG', 'EC']],
   ['car', 'El Chorro – Sevilla', ['EC', 'AN', [37.25, -5.10], 'SV']],
-  ['car', 'Sevilla – Huelva – Algarve – Lissabon', ['SV', 'HU', 'AY', 'ALB', [37.6, -8.25], 'GRA', 'SET', 'LI']],
+  ['car', 'Sevilla – Huelva – Lagos', ['SV', 'HU', 'AY', 'ALB', 'LAG']],
+  ['car', 'Lagos – Lissabon (A2)', ['LAG', [37.6, -8.45], 'GRA', 'SET', 'LI']],
   ['car', 'Lissabon – Porto (A1)', ['LI', [39.2, -8.75], 'LE', 'CO', 'AV', 'PO']],
   ['car', 'Porto – Braga – Lugo – Ribadeo', ['PO', 'BG', 'VL', [42.5, -8.1], 'LU', 'RI']],
   ['car', 'Ribadeo – Nordküste – Bilbao', ['RI', [43.5, -6.5], 'OV', [43.42, -4.8], 'SA', 'BI']],
@@ -37,7 +38,7 @@ const wege = [
   ['car', 'Carcassonne – Montpellier – Lyon – Genf – Brig-Glis', ['CA', 'NB', 'MP', 'NI', 'OR', 'VA', 'LY', [45.95, 5.35], [46.0, 5.8], 'GE', [46.45, 6.55], [46.38, 6.85], 'MA', 'BR']]
 ];
 const stationen = [
-  [1, 'BC', 'l'], [2, 'VAL', 'l'], [3, 'IBN', 'r'], [4, 'FO', 'r'], [5, 'BE', 'r'], [6, 'SJ', 'r'], [7, 'GR', 'u'],
-  [8, 'EC', 'd'], [9, 'SV', 'u'], [10, 'LI', 'l'], [11, 'PO', 'l'], [12, 'RI', 'u'], [13, 'BA', 'r']
+  [1, 'BC', 'l'], [2, 'VAL', 'l'], [3, 'IBN', 'r'], [4, 'FO', 'r'], [5, 'BE', 'r'], [6, 'GR', 'u'], [7, 'SJ', 'r'],
+  [8, 'EC', 'd'], [9, 'SV', 'u'], [10, 'LAG', 'd', 'Algarve'], [11, 'LI', 'l'], [12, 'PO', 'l'], [13, 'RI', 'u'], [14, 'BA', 'r']
 ];
 module.exports = { orte, wege, stationen };
