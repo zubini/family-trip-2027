@@ -6,7 +6,7 @@
 .hero::after { content: ""; position: absolute; top: 0; right: 0; bottom: 0; left: 0; background: linear-gradient(180deg, rgba(15,76,85,.15) 0%, rgba(15,40,45,.35) 45%, rgba(10,30,34,.88) 100%); }
 .hero .wrap { position: relative; z-index: 1; padding-top: 120px; padding-bottom: 44px; width: 100%; }
 .hero p.when { margin: 0 0 10px; font-size: 1rem; opacity: .9; }
-.hero h1 { font-size: clamp(2.6rem, 7vw, 5.2rem); font-weight: 800; letter-spacing: -.02em; max-width: 12ch; }
+.hero h1 { font-size: clamp(2.6rem, 7vw, 5.2rem); font-weight: 800; letter-spacing: -.02em; max-width: 16ch; }
 .hero p.sub { font-size: 1.15rem; max-width: 46ch; margin: 16px 0 28px; opacity: .95; }
 .chain { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 0; padding: 0; margin: 0; list-style: none; }
 .chain li { display: flex; align-items: center; font-size: .9rem; font-weight: 600; white-space: nowrap; }
