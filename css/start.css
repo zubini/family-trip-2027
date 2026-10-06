@@ -16,7 +16,7 @@
 .btn { margin-top: auto; align-self: flex-start; background: var(--sea); color: #fff; text-decoration: none; font-weight: 700; padding: 10px 20px; border-radius: 999px; }
 .btn:hover { background: #0B3A41; }
 
-.bars { display: grid; gap: 16px; max-width: 900px; }
+.bars { display: grid; gap: 16px; }
 .brow { display: grid; grid-template-columns: 200px 1fr 230px; gap: 14px; align-items: center; background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; }
 .bl b { display: block; }
 .bl span { font-size: .85rem; color: var(--muted); }
@@ -27,16 +27,17 @@
 .bv small { display: block; font-weight: 400; color: var(--muted); font-size: .8rem; }
 
 .cmpwrap { overflow-x: auto; background: var(--card); border: 1px solid var(--line); border-radius: 14px; }
-table.cmp { width: 100%; border-collapse: collapse; font-size: .9rem; min-width: 1000px; }
-table.cmp th, table.cmp td { padding: 12px 14px; border-bottom: 1px solid var(--line); vertical-align: top; text-align: left; }
+/* Tabellen passen sich der Breite an (kein seitliches Scrollen); auf dem Handy werden sie zu Karten */
+table.cmp { width: 100%; border-collapse: collapse; font-size: .9rem; table-layout: fixed; }
+table.cmp th, table.cmp td { padding: 12px 14px; border-bottom: 1px solid var(--line); vertical-align: top; text-align: left; hyphens: auto; overflow-wrap: break-word; }
 table.cmp thead th { background: #F7FAF9; color: var(--sea); font-size: 1.05rem; }
 table.cmp thead th small { display: block; font-weight: 400; color: var(--muted); font-size: .8rem; }
-table.cmp tbody th { width: 130px; color: var(--muted); font-weight: 700; background: #FBFDFC; }
-table.rate td { min-width: 170px; }
+table.cmp thead th:first-child, table.cmp tbody th { width: 130px; }
+table.cmp tbody th { color: var(--muted); font-weight: 700; background: #FBFDFC; }
 .dots { display: block; margin-bottom: 8px; font-size: 1.05rem; letter-spacing: .15em; color: var(--lagoon); }
 .dots .off { color: #CFDDDB; }
 .rtxt { display: block; margin-top: 3px; font-size: .88rem; color: var(--muted); }
-.callout { background: #FFF6E8; border-left: 5px solid var(--mango); border-radius: 10px; padding: 14px 18px; margin-top: 18px; max-width: 900px; }
+.callout { background: #FFF6E8; border-left: 5px solid var(--mango); border-radius: 10px; padding: 14px 18px; margin-top: 18px; }
 .callout p { margin: 6px 0 0; }
 
 .pgrid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 18px; }
@@ -48,6 +49,11 @@ table.rate td { min-width: 170px; }
 .pcard ul.con li::marker { color: #C2523D; }
 .fit { margin: 0 0 8px; font-size: .93rem; }
 
+@media (max-width: 1000px) {
+  table.cmp { font-size: .85rem; }
+  table.cmp th, table.cmp td { padding: 10px 9px; }
+  table.cmp thead th:first-child, table.cmp tbody th { width: 110px; }
+}
 @media (max-width: 760px) {
   .brow { grid-template-columns: 1fr; }
   /* Vergleichstabellen werden zu Karten */
@@ -58,7 +64,6 @@ table.rate td { min-width: 170px; }
   table.cmp tbody th { background: transparent; padding: 8px 14px 2px; width: 100%; color: var(--sea); }
   table.cmp td { border: 0; padding: 4px 14px; }
   table.cmp td::before { content: attr(data-label); display: block; font-size: .75rem; font-weight: 700; color: var(--muted); }
-  table.rate td { min-width: 0; }
 }
 
 /* Seite «Quellen» */

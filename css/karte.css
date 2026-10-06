@@ -1,6 +1,6 @@
 /* Karten (SVG-Dateien in karten/) und Legende */
 .mapwrap { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 8px; max-width: 600px; }
-.mapwrap.wide { max-width: 820px; }
+.mapwrap.wide { max-width: none; }  /* Querformat-Karten volle Breite; hochformatige (Asien) bleiben schmaler */
 .mapwrap object { display: block; width: 100%; height: auto; border-radius: 8px; }
 .mapnote { font-size: .9rem; color: var(--muted); margin: 14px 0 6px; font-weight: 700; }
 
