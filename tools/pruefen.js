@@ -3,6 +3,9 @@
 // - Reiseplan und Stationen haben dieselben Daten und Nächte
 // - Nächte im Plan ergeben die Nächte im Budget
 // - Die Daten im Plan schliessen lückenlos aneinander an
+// - Budget: Posten ergeben ungefähr das Total, Stationskosten decken alle Nächte ab
+// - Karten: Daten in den Tooltips der Stationen stimmen mit den Stationen überein
+const fs = require('fs');
 const path = require('path');
 const root = path.join(__dirname, '..');
 global.window = global;
@@ -41,6 +44,33 @@ for (const [k, R] of Object.entries(REISEN)) {
   }
   if (summe !== R.budget.naechte) fehler.push(`${k}: Plan ergibt ${summe} Nächte, Budget rechnet mit ${R.budget.naechte}`);
   R.stationen.forEach((s, i) => { if (s.nr !== i + 1) fehler.push(`${k}: Station an Position ${i + 1} hat Nummer ${s.nr}`); });
+
+  // Budget: Summe der Planwerte ≈ Total (Total ist gerundet, 1 % Toleranz)
+  const zahl = x => parseInt(String(x).replace(/\D/g, ''), 10);
+  const b = R.budget, posten = b.posten.filter(p => !/Total/.test(p[0]));
+  const summePlan = posten.reduce((a, p) => a + zahl(p[2]), 0);
+  if (Math.abs(summePlan - zahl(b.total)) > zahl(b.total) * 0.01)
+    fehler.push(`${k}: Budget-Posten ergeben ${summePlan} CHF, Total ist ${b.total}`);
+  const [lo, hi] = b.spanne.split('–').map(zahl);
+  const sLo = posten.reduce((a, p) => a + zahl(p[1].split('–')[0]), 0), sHi = posten.reduce((a, p) => a + zahl(p[1].split('–')[1]), 0);
+  if (Math.abs(sLo - lo) > lo * 0.01 || Math.abs(sHi - hi) > hi * 0.01)
+    fehler.push(`${k}: Budget-Spannen ergeben ${sLo}–${sHi} CHF, angegeben ist ${b.spanne}`);
+  const proTag = (b.proTag.match(/ca\. ([\d’]+) CHF pro Tag/) || [])[1];
+  if (proTag && Math.abs(zahl(proTag) - zahl(b.total) / b.naechte) > 15)
+    fehler.push(`${k}: «${proTag} CHF pro Tag» passt nicht zu ${b.total} CHF / ${b.naechte} Nächte`);
+  const stNaechte = b.stationen.reduce((a, s) => a + zahl((s[0].match(/\((\d+)\)\s*$/) || [0, 0])[1]), 0);
+  if (stNaechte !== b.naechte) fehler.push(`${k}: Stationskosten im Budget decken ${stNaechte} Nächte ab, nicht ${b.naechte}`);
+
+  // Karten: Tooltips wie «3. Kuala Lumpur: Sa, 26.06.2027 – Di, 29.06.2027, 3 Nächte»
+  for (const kt of R.karte.karten) {
+    const svg = fs.readFileSync(path.join(root, kt.datei), 'utf8');
+    for (const m of svg.matchAll(/<title>(\d+)\. ([^:<]+): ([^<]+), (\d+) (?:Nächte|Nacht)<\/title>/g)) {
+      const st = R.stationen.find(x => x.nr === +m[1]);
+      if (!st) { fehler.push(`${kt.datei}: Station ${m[1]} gibt es nicht`); continue; }
+      if (m[3] !== app.datum(st.datum) || +m[4] !== parseInt(st.naechte, 10))
+        fehler.push(`${kt.datei}: Tooltip Station ${m[1]} «${m[3]}, ${m[4]} Nächte» passt nicht zu ${st.datum}, ${st.naechte}`);
+    }
+  }
 }
 
 if (fehler.length) { console.log(fehler.join('\n')); process.exit(1); }

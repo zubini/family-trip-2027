@@ -72,7 +72,7 @@ REISEN.asien = {
   planHinweise: [
     [
       "Gesamt",
-      "33 Nächte, 10 Stationen und zwei Zwischenübernachtungen (Kuala Besut, Hat Yai). Nur Hin- und Rückflug, alle Strecken dazwischen per Bus, Zug und Fähre. Die längsten Reisetage (Tioman–Kuala Lumpur, Kuala Lumpur–Kuala Besut, Perhentian–Penang, Penang–Hat Yai, Hat Yai–Khanom, Koh Tao–Hua Hin) dauern ca. 5–9 Stunden. Zusammen seid ihr zwischen Singapur und Bangkok ca. 55–60 Stunden unterwegs."
+      "33 Nächte, 10 Stationen und zwei Zwischenübernachtungen (Kuala Besut, Hat Yai). Nur Hin- und Rückflug, alle Strecken dazwischen per Bus, Zug und Fähre. Die längsten Reisetage (Tioman–Kuala Lumpur, Kuala Lumpur–Kuala Besut, Perhentian–Penang, Penang–Hat Yai, Hat Yai–Khanom, Koh Tao–Hua Hin) dauern ca. 5–9 Stunden. Zusammen sind es zwischen Singapur und Bangkok ca. 55–60 Stunden reine Reisezeit; mit Wartezeiten auf Fähren und Züge, Grenzübertritten und Transfers zur Unterkunft realistisch ca. 65–70 Stunden."
     ],
     [
       "Vorab buchen",

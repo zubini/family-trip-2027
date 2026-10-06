@@ -59,7 +59,7 @@ REISEN.bali = {
   planHinweise: [
     [
       "Gesamt",
-      "33 Nächte, 10 Stationen. Hinflug nach Singapur, Rückflug ab Bali. Ein einziger Flug dazwischen (Kuala Lumpur–Jakarta); alle anderen Strecken per Bus, Zug und Fähre. Die längsten Reisetage: Tioman–Kuala Lumpur (ca. 7–8 Std.), Jakarta–Yogyakarta (ca. 6–6,5 Std.), Yogyakarta–Malang (ca. 7–8 Std.), Bromo–Banyuwangi (ca. 6–8 Std.) und Banyuwangi–Ubud (ca. 5–6 Std.). Zusammen seid ihr zwischen Singapur und Bali ca. 50 Stunden unterwegs."
+      "33 Nächte, 10 Stationen. Hinflug nach Singapur, Rückflug ab Bali. Ein einziger Flug dazwischen (Kuala Lumpur–Jakarta); alle anderen Strecken per Bus, Zug und Fähre. Die längsten Reisetage: Tioman–Kuala Lumpur (ca. 7–8 Std.), Jakarta–Yogyakarta (ca. 6–6,5 Std.), Yogyakarta–Malang (ca. 7–8 Std.), Bromo–Banyuwangi (ca. 6–8 Std.) und Banyuwangi–Ubud (ca. 5–6 Std.). Zusammen sind es zwischen Singapur und Bali ca. 50 Stunden reine Reisezeit; mit Wartezeiten, Flughafen- und Bahnhofstransfers realistisch ca. 60 Stunden."
     ],
     [
       "Vorab buchen",

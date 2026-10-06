@@ -53,7 +53,7 @@ REISEN.usa = {
   planHinweise: [
     [
       "Gesamt",
-      "34 Nächte, 13 Stationen und eine Zwischenübernachtung (Oklahoma City). Keine Inlandflüge: nur Hin- und Rückflug. Eine Einwegmiete (Las Vegas–Washington, ca. 25 Tage) und Amtrak-Züge im Nordosten. Insgesamt ca. 5’800 km und rund 60 Stunden reine Fahrzeit an 11 Fahrtagen. Die längsten: Roadtrip White Sands–Oklahoma City (ca. 10 Std.) und Oklahoma City–Chicago (ca. 12 Std.), Niagara Falls–Washington (ca. 7 Std.), Monument Valley–Santa Fe (ca. 6,5–7 Std.) und Chicago–Sandusky (ca. 4,5–5 Std.)."
+      "34 Nächte, 13 Stationen und eine Zwischenübernachtung (Oklahoma City). Keine Inlandflüge: nur Hin- und Rückflug. Eine Einwegmiete (Las Vegas–Washington, ca. 25 Tage) und Amtrak-Züge im Nordosten. Insgesamt ca. 5’800 km und rund 60 Stunden reine Fahrzeit an 11 Fahrtagen; mit Pausen, Tanken, Stau und Fahrten vor Ort (z.B. am Grand Canyon oder im Monument Valley) realistisch ca. 70–75 Stunden im Auto. Die längsten: Roadtrip White Sands–Oklahoma City (ca. 10 Std.) und Oklahoma City–Chicago (ca. 12 Std.), Niagara Falls–Washington (ca. 7 Std.), Monument Valley–Santa Fe (ca. 6,5–7 Std.) und Chicago–Sandusky (ca. 4,5–5 Std.)."
     ],
     [
       "Vorab buchen",

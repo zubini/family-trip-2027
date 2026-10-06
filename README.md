@@ -26,9 +26,12 @@ css/              Gestaltung (basis, navigation, reise, karte, start)
 js/app.js         baut die Seite aus den Daten, lädt Bilder, Navigation
 karten/           Routenkarten als SVG
 tools/pruefen.js  prüft die Daten auf Widersprüche
+CLAUDE.md         Regeln für Änderungen
 ```
 
 ## Inhalte ändern
+
+Die verbindlichen Regeln für Änderungen (Folgeänderungen bei Routen, Zeitangaben, Quellen, Schreibweise, Datenschutz) stehen in [`CLAUDE.md`](CLAUDE.md).
 
 Datei in `data/` bearbeiten, committen, pushen. Die Seite wird automatisch neu veröffentlicht.
 
@@ -57,7 +60,7 @@ Jede Reise in `data/` enthält der Reihe nach:
 - **Symbol der Anreise** (Bus, Zug, Schiff, Flug, Auto) wird am Anfang des Anreise-Textes erkannt.
 - **Länder-Etikett:** `land` ist das Kürzel für die Farbe (`sg`, `my`, `th`, `id`, `us`, Farben in `css/reise.css`), `region` der angezeigte Text.
 
-Prüfen vor dem Push (braucht [Node.js](https://nodejs.org)):
+Prüfen vor dem Push (braucht [Node.js](https://nodejs.org)). Geprüft werden Daten und Nächte, Budget-Summen und die Daten in den Karten:
 
 ```sh
 node tools/pruefen.js
