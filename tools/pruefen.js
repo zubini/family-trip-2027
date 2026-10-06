@@ -20,7 +20,12 @@ const fehlerUnsplash = Object.entries(global.UNSPLASH || {}).filter(([k, f]) => 
 
 const fehler = [];
 fehlerUnsplash.forEach(k => fehler.push(`data/bilder-unsplash.js: Eintrag «${k}» ohne Bildadresse oder Fotograf`));
-try { app.seite(START, REISEN, QUELLEN); } catch (e) { fehler.push('Seite lässt sich nicht aufbauen: ' + e.message); }
+try {
+  const html = app.seite(START, REISEN, QUELLEN);
+  // Platzhalter wie {plan:usa} müssen auf der fertigen Seite ersetzt sein
+  const rest = html.match(/\{(plan:\w+|mehrkosten)\}/g);
+  if (rest) fehler.push('Nicht ersetzte Platzhalter auf der Seite: ' + [...new Set(rest)].join(', '));
+} catch (e) { fehler.push('Seite lässt sich nicht aufbauen: ' + e.message); }
 
 const MONATE = ['Januar', 'Februar', 'März', 'April', 'Mai', 'Juni', 'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember'];
 // "29. Juni–1. Juli" -> [Startdatum, Enddatum]

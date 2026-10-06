@@ -269,8 +269,8 @@ function einstieg(S, REISEN) {
 
   var proContra = liste(T, function (t) {
     return '<article class="pcard"><h3>' + t.name + '</h3><p class="fit"><b>Passt am besten, wenn</b> ' + fuell(t.passt) + '</p>' +
-      '<h4>Dafür spricht</h4><ul class="pro">' + liste(t.pro, function (x) { return '<li>' + x + '</li>'; }) + '</ul>' +
-      '<h4>Dagegen spricht</h4><ul class="con">' + liste(t.contra, function (x) { return '<li>' + x + '</li>'; }) + '</ul></article>';
+      '<h4>Dafür spricht</h4><ul class="pro">' + liste(t.pro, function (x) { return '<li>' + fuell(x) + '</li>'; }) + '</ul>' +
+      '<h4>Dagegen spricht</h4><ul class="con">' + liste(t.contra, function (x) { return '<li>' + fuell(x) + '</li>'; }) + '</ul></article>';
   });
 
   return '<div class="trip" id="trip-start" hidden>' +
