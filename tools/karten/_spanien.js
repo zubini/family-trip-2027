@@ -59,7 +59,7 @@ const wege2 = [
   ['car', 'Avignon – Lyon – Genf – Brig-Glis', ['AVI', 'OR', 'VA'].concat(BRIG_GENF.slice().reverse())]
 ]);
 const stationen2 = [
-  [1, 'SJ', 'r'], [2, 'GR', 'u'], [3, 'EC', 'd'], [4, 'SV', 'u'], [5, 'LI', 'l'], [6, 'PO', 'l'], [7, 'RI', 'u'],
-  [8, 'BA', 'r'], [9, 'BE', 'r'], [10, 'IB', 'u'], [11, 'MAL', 'r'], [12, 'BC', 'l'], [13, 'ES', 'r']
+  [1, 'VAL', 'l'], [2, 'SJ', 'r'], [3, 'GR', 'u'], [4, 'EC', 'd'], [5, 'SV', 'u'], [6, 'LI', 'l'], [7, 'PO', 'l'],
+  [8, 'RI', 'u'], [9, 'BA', 'r'], [10, 'BE', 'r'], [11, 'IB', 'u'], [12, 'MAL', 'r'], [13, 'BC', 'l'], [14, 'ES', 'r']
 ];
 module.exports = { orte, wege, stationen, wege2, stationen2 };

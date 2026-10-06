@@ -8,7 +8,7 @@ REISEN.spanien2 = {
   menu: "Spanien / Portugal (umgekehrt)",
   alternativeZu: "spanien",
   variante: "Andalusien zuerst",
-  untertitel: "Fünf Wochen Roadtrip ab Brig-Glis in umgekehrter Reihenfolge: zuerst Andalusien, dann Portugal und der Norden, zum Schluss Benidorm, die Inseln, Barcelona und die Costa Brava.",
+  untertitel: "Fünf Wochen Roadtrip ab Brig-Glis in umgekehrter Reihenfolge: Start in Valencia, dann Andalusien, Portugal und der Norden, zum Schluss Benidorm, die Inseln, Barcelona und die Costa Brava.",
   zeitraum: "Fr, 18.06.2027 bis Sa, 24.07.2027, 2 Erwachsene und 2 Kids",
   titelbild: {
     suche: "Playa de las Catedrales|Bardenas Reales Castildetierra|Caminito del Rey",
@@ -29,45 +29,45 @@ REISEN.spanien2 = {
       info: "Brig-Glis – Genf – Lyon – Montpellier – Sète (ca. 7–7,5 Std., ca. 630 km)"
     },
     {
-      datum: "19.–20. Juni",
-      name: "Zwischenübernachtung Valencia",
-      naechte: 1,
+      datum: "19.–21. Juni",
+      name: "1. Valencia",
+      naechte: 2,
       info: "Auto über Perpignan, Barcelona und Castelló (ca. 6–6,5 Std., ca. 670 km)"
     },
     {
-      datum: "20.–23. Juni",
-      name: "1. Cabo de Gata",
+      datum: "21.–24. Juni",
+      name: "2. Cabo de Gata",
       naechte: 3,
       info: "Auto über Alicante und Murcia (ca. 4,5–5 Std., ca. 450 km)"
     },
-    {datum: "23.–26. Juni", name: "2. Granada", naechte: 3, info: "Auto (ca. 2–2,5 Std.)"},
-    {datum: "26.–28. Juni", name: "3. Caminito del Rey (El Chorro)", naechte: 2, info: "Auto (ca. 1,5–2 Std.)"},
-    {datum: "28. Juni–1. Juli", name: "4. Sevilla", naechte: 3, info: "Auto (ca. 2 Std.)"},
-    {datum: "1.–3. Juli", name: "5. Lissabon", naechte: 2, info: "Auto (ca. 4,5–5 Std.), Uhr −1 Std."},
-    {datum: "3.–5. Juli", name: "6. Porto", naechte: 2, info: "Auto (ca. 3 Std.)"},
-    {datum: "5.–7. Juli", name: "7. Playa de las Catedrales", naechte: 2, info: "Auto (ca. 4–4,5 Std.), Uhr +1 Std."},
+    {datum: "24.–27. Juni", name: "3. Granada", naechte: 3, info: "Auto (ca. 2–2,5 Std.)"},
+    {datum: "27.–29. Juni", name: "4. Caminito del Rey (El Chorro)", naechte: 2, info: "Auto (ca. 1,5–2 Std.)"},
+    {datum: "29. Juni–1. Juli", name: "5. Sevilla", naechte: 2, info: "Auto (ca. 2 Std.)"},
+    {datum: "1.–3. Juli", name: "6. Lissabon", naechte: 2, info: "Auto (ca. 4,5–5 Std.), Uhr −1 Std."},
+    {datum: "3.–5. Juli", name: "7. Porto", naechte: 2, info: "Auto (ca. 3 Std.)"},
+    {datum: "5.–7. Juli", name: "8. Playa de las Catedrales", naechte: 2, info: "Auto (ca. 4–4,5 Std.), Uhr +1 Std."},
     {
       datum: "7.–8. Juli",
       name: "Zwischenübernachtung Bilbao",
       naechte: 1,
       info: "Auto entlang der Nordküste (ca. 4 Std.)"
     },
-    {datum: "8.–9. Juli", name: "8. Bardenas Reales", naechte: 1, info: "Auto (ca. 2,5 Std.)"},
+    {datum: "8.–9. Juli", name: "9. Bardenas Reales", naechte: 1, info: "Auto (ca. 2,5 Std.)"},
     {
       datum: "9.–12. Juli",
-      name: "9. Benidorm",
+      name: "10. Benidorm",
       naechte: 3,
       info: "Auto über Saragossa, Teruel und Valencia (ca. 5–5,5 Std., ca. 500 km)"
     },
     {
       datum: "12.–15. Juli",
-      name: "10. Ibiza und Formentera",
+      name: "11. Ibiza und Formentera",
       naechte: 3,
       info: "Auto nach Dénia (ca. 40–45 Min.), Autofähre Dénia–Ibiza (ca. 2,5 Std.)"
     },
-    {datum: "15.–19. Juli", name: "11. Mallorca", naechte: 4, info: "Autofähre Ibiza–Palma (ca. 2,5–4 Std.)"},
-    {datum: "19.–21. Juli", name: "12. Barcelona", naechte: 2, info: "Autofähre Palma–Barcelona (ca. 6,5–7,5 Std.)"},
-    {datum: "21.–23. Juli", name: "13. Costa Brava", naechte: 2, info: "Auto (ca. 1,5 Std.)"},
+    {datum: "15.–19. Juli", name: "12. Mallorca", naechte: 4, info: "Autofähre Ibiza–Palma (ca. 2,5–4 Std.)"},
+    {datum: "19.–21. Juli", name: "13. Barcelona", naechte: 2, info: "Autofähre Palma–Barcelona (ca. 6,5–7,5 Std.)"},
+    {datum: "21.–23. Juli", name: "14. Costa Brava", naechte: 2, info: "Auto (ca. 1,5 Std.)"},
     {
       datum: "23.–24. Juli",
       name: "Zwischenübernachtung Avignon",
@@ -83,11 +83,11 @@ REISEN.spanien2 = {
   planHinweise: [
     [
       "Gesamt",
-      "36 Nächte, 13 Stationen und 4 Zwischenübernachtungen (Sète, Valencia, Bilbao, Avignon). Keine Flüge: alles mit dem eigenen Auto, zu den Inseln mit drei Autofähren. Insgesamt ca. 5’900 km Autofahrt und ca. 13 Std. auf Fähren, zusammen ca. 72 Std. reine Reisezeit (ca. 59 Std. Auto und 13 Std. Fähre); mit Pausen, Check-in an den Häfen und Sommerstau realistisch ca. 83–88 Std. Die längsten Reisetage: Brig-Glis–Sète (ca. 7–7,5 Std.), Fähre Palma–Barcelona (ca. 6,5–7,5 Std.), Sète–Valencia (ca. 6–6,5 Std.), Bardenas–Benidorm (ca. 5–5,5 Std.), Avignon–Brig-Glis (ca. 5–5,5 Std.), Valencia–Cabo de Gata (ca. 4,5–5 Std.) und Sevilla–Lissabon (ca. 4,5–5 Std.). Die ersten drei Tage sind reine Fahrtage."
+      "36 Nächte, 14 Stationen und 3 Zwischenübernachtungen (Sète, Bilbao, Avignon). Keine Flüge: alles mit dem eigenen Auto, zu den Inseln mit drei Autofähren. Insgesamt ca. 5’900 km Autofahrt und ca. 13 Std. auf Fähren, zusammen ca. 72 Std. reine Reisezeit (ca. 59 Std. Auto und 13 Std. Fähre); mit Pausen, Check-in an den Häfen und Sommerstau realistisch ca. 83–88 Std. Die längsten Reisetage: Brig-Glis–Sète (ca. 7–7,5 Std.), Fähre Palma–Barcelona (ca. 6,5–7,5 Std.), Sète–Valencia (ca. 6–6,5 Std.), Bardenas–Benidorm (ca. 5–5,5 Std.), Avignon–Brig-Glis (ca. 5–5,5 Std.), Valencia–Cabo de Gata (ca. 4,5–5 Std.) und Sevilla–Lissabon (ca. 4,5–5 Std.). Nach den zwei Fahrtagen zum Start zwei Nächte Pause in Valencia."
     ],
     [
       "Vorab buchen",
-      "Autofähren Dénia–Ibiza, Ibiza–Palma und Palma–Barcelona (Mitte Juli Hochsaison, früh buchen, Check-in 60–90 Min. vor Abfahrt), Unterkünfte auf den Inseln, in Benidorm und an der Costa Brava, Alhambra (im Sommer oft drei Monate im Voraus ausverkauft), Caminito del Rey, Sagrada Família, Terra Mítica oder Aqualandia, Reservation für die Playa de las Catedrales (gratis, frühestens 30 Tage vorher)."
+      "Autofähren Dénia–Ibiza, Ibiza–Palma und Palma–Barcelona (Mitte Juli Hochsaison, früh buchen, Check-in 60–90 Min. vor Abfahrt), Unterkünfte auf den Inseln, in Benidorm und an der Costa Brava, Alhambra (im Sommer oft drei Monate im Voraus ausverkauft), Caminito del Rey, Oceanogràfic in Valencia, Sagrada Família, Terra Mítica oder Aqualandia, Reservation für die Playa de las Catedrales (gratis, frühestens 30 Tage vorher)."
     ],
     [
       "Auto",
@@ -95,7 +95,7 @@ REISEN.spanien2 = {
     ],
     [
       "Optional",
-      "Oceanogràfic und Stadt der Künste in Valencia (auf der Hinfahrt, dann eine Nacht mehr), PortAventura (bei Tarragona, ca. 1,5 Std. ab Barcelona), Ronda (bei El Chorro), Algarve (zwischen Sevilla und Lissabon), Sintra (Abstecher auf dem Weg nach Porto), San Sebastián (statt Bilbao), Carcassonne (statt Avignon)."
+      "Bioparc in Valencia, PortAventura (bei Tarragona, ca. 1,5 Std. ab Barcelona), Ronda (bei El Chorro), Algarve (zwischen Sevilla und Lissabon), Sintra (Abstecher auf dem Weg nach Porto), San Sebastián (statt Bilbao), Carcassonne (statt Avignon)."
     ]
   ],
   karte: {
@@ -105,7 +105,7 @@ REISEN.spanien2 = {
     karten: [
       {datei: "karten/spanien2.svg"},
       {
-        titel: "Spanien und Portugal im Detail, umgekehrte Reihenfolge (Stationen 1 bis 13)",
+        titel: "Spanien und Portugal im Detail, umgekehrte Reihenfolge (Stationen 1 bis 14)",
         datei: "karten/spanien2-detail.svg"
       }
     ]
@@ -114,7 +114,7 @@ REISEN.spanien2 = {
   abwechslung: [
     [
       "Action und Freizeitparks",
-      "Terra Mítica und Aqualandia in Benidorm, Caminito del Rey, Kajak und Schnorcheln bei den Islas Medas, Coasteering auf Mallorca, Isla Mágica in Sevilla; optional PortAventura."
+      "Oceanogràfic in Valencia, Terra Mítica und Aqualandia in Benidorm, Caminito del Rey, Kajak und Schnorcheln bei den Islas Medas, Coasteering auf Mallorca, Isla Mágica in Sevilla; optional PortAventura."
     ],
     [
       "Kultur und Geschichte",
@@ -133,20 +133,54 @@ REISEN.spanien2 = {
       "Tapas- und Paella-Kurs, Velotour in Sevilla oder Lissabon, Bootstour auf dem Douro in Porto, Surf-Schnupperstunde in Galicien."
     ]
   ],
-  stationenIntro: "Dreizehn Stationen: zuerst Andalusien, dann Portugal und der Norden, zum Schluss Benidorm, die Balearen, Barcelona und die Costa Brava. Über jeder Station steht, wie ihr dorthin kommt.",
+  stationenIntro: "Vierzehn Stationen: Start in Valencia, dann Andalusien, Portugal und der Norden, zum Schluss Benidorm, die Balearen, Barcelona und die Costa Brava. Über jeder Station steht, wie ihr dorthin kommt.",
   stationen: [
     {
       nr: 1,
+      name: "Valencia (Start)",
+      land: "es",
+      region: "Valencia",
+      datum: "19.–21. Juni",
+      naechte: "2 Nächte",
+      zwischenstopp: {text: "Zwischenübernachtung in Sète", datum: "18.–19. Juni"},
+      anreise: "Mit dem Auto ab Brig-Glis über Genf, Lyon und Montpellier nach Sète (ca. 7–7,5 Std., ca. 630 km), dort am Mittelmeer übernachten. Am nächsten Tag über Perpignan, Barcelona und Castelló nach Valencia (ca. 6–6,5 Std., ca. 670 km), Uhr ohne Zeitverschiebung.",
+      text: "Drittgrösste Stadt Spaniens mit der futuristischen Stadt der Künste und Wissenschaften, einem langen Stadtstrand und dem grünen Turia-Park im alten Flussbett. Hier kommt die Paella her.",
+      teens: "Oceanogràfic (das grösste Aquarium Europas, mit Haien und Belugas), Wissenschaftsmuseum, Velotour durch den Turia-Park, Baden an der Malvarrosa, Paella in der Albufera.",
+      fakten: [
+        "<strong>Dauer:</strong> 2 Nächte: ein Tag Oceanogràfic und Stadt der Künste, ein halber Tag Altstadt oder Strand. Nach den zwei Fahrtagen zum Ankommen.",
+        "<strong>Tickets:</strong> Oceanogràfic online buchen, Kombiticket mit Museum und Hemisfèric möglich.",
+        "<strong>Auto:</strong> Hotel mit Parkhaus wählen und in der Stadt Metro, Bus oder Velo nutzen; Regeln der Umweltzone vorab prüfen."
+      ],
+      ausserdem: "Mercado Central, Kathedrale mit dem Miguelete-Turm, Bioparc, Naturpark Albufera mit Bootsfahrt.",
+      bilder: [
+        {
+          titel: "Stadt der Künste und Wissenschaften",
+          suche: "City of Arts and Sciences Valencia|Ciudad de las Artes y las Ciencias",
+          stichwort: "arts|ciencias|ciències"
+        },
+        {titel: "Oceanogràfic", suche: "Oceanografic Valencia", stichwort: "oceanogr"},
+        {titel: "Turia-Park", suche: "Jardin del Turia Valencia|Turia gardens", stichwort: "turia"},
+        {titel: "Malvarrosa", suche: "Malvarrosa beach Valencia", stichwort: "malvarrosa"},
+        {
+          titel: "Mercado Central",
+          suche: "Mercado Central Valencia|Mercat Central Valencia",
+          stichwort: "mercado central|mercat central"
+        },
+        {titel: "Albufera", suche: "Albufera Valencia", stichwort: "albufera"}
+      ]
+    },
+    {
+      nr: 2,
       name: "Cabo de Gata",
       land: "es",
       region: "Andalusien",
-      datum: "20.–23. Juni",
+      datum: "21.–24. Juni",
       naechte: "3 Nächte",
-      anreise: "Mit dem Auto ab Brig-Glis über Genf, Lyon und Montpellier nach Sète (ca. 7–7,5 Std., ca. 630 km), am nächsten Tag über Perpignan und Barcelona nach Valencia (ca. 6–6,5 Std., ca. 670 km). Am dritten Tag über Alicante und Murcia nach San José (ca. 4,5–5 Std., ca. 450 km), Uhr ohne Zeitverschiebung.",
+      anreise: "Mit dem Auto von Valencia über Alicante und Murcia nach San José (ca. 4,5–5 Std., ca. 450 km).",
       text: "Naturpark mit Vulkanküste, Halbwüste und den letzten wilden Stränden Andalusiens. Das klare Wasser über Felsen und Seegras ist ideal zum Schnorcheln.",
       teens: "Schnorcheln an der Cala de San Pedro oder bei Los Escullos, Kajak entlang der Küste, Strände Mónsul und Los Genoveses, Western-Filmkulisse Fort Bravo bei Tabernas.",
       fakten: [
-        "<strong>Dauer:</strong> 3 Nächte in San José oder Las Negras: nach drei Fahrtagen zum Ankommen, Strände, Schnorcheln und ein ruhiger Tag.",
+        "<strong>Dauer:</strong> 3 Nächte in San José oder Las Negras: Strände, Schnorcheln und ein ruhiger Tag.",
         "<strong>Strände:</strong> Von ca. 21. Juni bis 22. September ist die Zufahrt zu Mónsul und Los Genoveses beschränkt; Shuttlebus ab San José, oder vor 10 Uhr mit dem Auto (Parkgebühr).",
         "<strong>Hitze:</strong> Wenig Schatten an den Stränden: Sonnenschirm, Wasser und Sonnenschutz mitnehmen."
       ],
@@ -158,15 +192,14 @@ REISEN.spanien2 = {
         {titel: "San José", suche: "San Jose Almeria Cabo de Gata", stichwort: "san jos"},
         {titel: "Flamingos", suche: "Salinas de Cabo de Gata flamingos", stichwort: "salinas|flamingo"},
         {titel: "Wüste von Tabernas", suche: "Tabernas Desert", stichwort: "tabernas"}
-      ],
-      zwischenstopp: {text: "Zwischenübernachtungen in Sète und Valencia", datum: "18.–20. Juni", naechte: 2}
+      ]
     },
     {
-      nr: 2,
+      nr: 3,
       name: "Granada",
       land: "es",
       region: "Andalusien",
-      datum: "23.–26. Juni",
+      datum: "24.–27. Juni",
       naechte: "3 Nächte",
       anreise: "Mit dem Auto über Almería und Guadix nach Granada (ca. 2–2,5 Std., ca. 200 km). Das Auto im Hotel-Parkhaus lassen; die Altstadt ist zum Teil gesperrt.",
       text: "Die Alhambra, die Burg der maurischen Könige, über einer Stadt voller Gassen und Teestuben. Eine Stunde entfernt liegt die Wüste von Gorafe mit Badlands und über 240 Dolmen.",
@@ -187,17 +220,17 @@ REISEN.spanien2 = {
       ]
     },
     {
-      nr: 3,
+      nr: 4,
       name: "Caminito del Rey (El Chorro)",
       land: "es",
       region: "Andalusien",
-      datum: "26.–28. Juni",
+      datum: "27.–29. Juni",
       naechte: "2 Nächte",
       anreise: "Mit dem Auto über Loja und Antequera nach El Chorro (ca. 1,5–2 Std., ca. 140 km).",
       text: "Ein Steig hoch über der Schlucht Desfiladero de los Gaitanes, früher einer der gefährlichsten Wege der Welt, heute gut gesichert. Rund um El Chorro liegen Stauseen zum Baden.",
       teens: "Caminito del Rey (ca. 3–4 Std.), Baden und Paddeln im Stausee Conde de Guadalhorce, Felslandschaft El Torcal bei Antequera.",
       fakten: [
-        "<strong>Dauer:</strong> 2 Nächte. Den Caminito am So, 27.06.2027 planen (am Wochenende früh buchen); montags ist er geschlossen.",
+        "<strong>Dauer:</strong> 2 Nächte. Der 28. Juni ist ein Montag, dann ist der Caminito geschlossen: am So, 27.06.2027 nachmittags (je nach Zeitfenster) oder am Di, 29.06.2027 früh vor der Fahrt nach Sevilla gehen.",
         "<strong>Tickets:</strong> Nur online mit Zeitfenster; Mindestalter 8 Jahre, Ausweis mitnehmen. Früher Einlass wegen der Hitze.",
         "<strong>Hinweis:</strong> Der Weg ist ein Einweg mit Shuttlebus zurück zum Parkplatz; Helm wird gestellt."
       ],
@@ -212,18 +245,18 @@ REISEN.spanien2 = {
       ]
     },
     {
-      nr: 4,
+      nr: 5,
       name: "Sevilla",
       ersatzsuche: "Seville",
       land: "es",
       region: "Andalusien",
-      datum: "28. Juni–1. Juli",
-      naechte: "3 Nächte",
+      datum: "29. Juni–1. Juli",
+      naechte: "2 Nächte",
       anreise: "Mit dem Auto über Antequera nach Sevilla (ca. 2 Std., ca. 150 km). Hotel mit Parkhaus wählen.",
       text: "Andalusiens Hauptstadt mit Kathedrale, Alcázar, der Plaza de España und Flamenco. Im Juli ist es sehr heiss, das Leben spielt sich am Morgen und am Abend ab.",
       teens: "Alcázar (Drehort von «Game of Thrones»), Plaza de España mit Booten, Setas (Metropol Parasol) mit Dachweg, Flamenco-Show am Abend, Freizeitpark Isla Mágica.",
       fakten: [
-        "<strong>Dauer:</strong> 3 Nächte, ein Tag davon für Isla Mágica oder den Pool; mittags Pause im klimatisierten Hotel oder am Pool.",
+        "<strong>Dauer:</strong> 2 Nächte; mittags Pause im klimatisierten Hotel oder am Pool.",
         "<strong>Hitze:</strong> Ende Juni im Schnitt etwas weniger heiss als Mitte Juli, aber oft 35–40 °C; viel trinken, Kopfbedeckung, Programm vor 12 und nach 18 Uhr.",
         "<strong>Tickets:</strong> Alcázar und Kathedrale online buchen, sonst lange Schlangen in der Sonne."
       ],
@@ -238,7 +271,7 @@ REISEN.spanien2 = {
       ]
     },
     {
-      nr: 5,
+      nr: 6,
       name: "Lissabon",
       ersatzsuche: "Lisbon",
       land: "pt",
@@ -264,7 +297,7 @@ REISEN.spanien2 = {
       ]
     },
     {
-      nr: 6,
+      nr: 7,
       name: "Porto",
       land: "pt",
       region: "Portugal",
@@ -289,7 +322,7 @@ REISEN.spanien2 = {
       ]
     },
     {
-      nr: 7,
+      nr: 8,
       name: "Playa de las Catedrales",
       land: "es",
       region: "Galicien",
@@ -315,7 +348,7 @@ REISEN.spanien2 = {
       ]
     },
     {
-      nr: 8,
+      nr: 9,
       name: "Bardenas Reales (Finale)",
       land: "es",
       region: "Navarra",
@@ -341,7 +374,7 @@ REISEN.spanien2 = {
       ]
     },
     {
-      nr: 9,
+      nr: 10,
       name: "Benidorm",
       land: "es",
       region: "Costa Blanca",
@@ -367,7 +400,7 @@ REISEN.spanien2 = {
       ]
     },
     {
-      nr: 10,
+      nr: 11,
       name: "Ibiza und Formentera",
       land: "es",
       region: "Balearen",
@@ -392,7 +425,7 @@ REISEN.spanien2 = {
       ]
     },
     {
-      nr: 11,
+      nr: 12,
       name: "Mallorca",
       land: "es",
       region: "Balearen",
@@ -417,7 +450,7 @@ REISEN.spanien2 = {
       ]
     },
     {
-      nr: 12,
+      nr: 13,
       name: "Barcelona",
       land: "es",
       region: "Katalonien",
@@ -442,7 +475,7 @@ REISEN.spanien2 = {
       ]
     },
     {
-      nr: 13,
+      nr: 14,
       name: "Costa Brava (Schluss)",
       land: "es",
       region: "Katalonien",
@@ -471,8 +504,8 @@ REISEN.spanien2 = {
   budgetIntro: "Mittelklasse inklusive Benzin, Maut, Fähren, Unterkunft, Verpflegung und Aktivitäten, ohne Abnutzung des eigenen Autos. Alle Beträge sind Schätzungen in CHF.",
   budget: {
     naechte: 36,
-    total: "20’000",
-    spanne: "14’800–25’850",
+    total: "20’150",
+    spanne: "14’900–26’000",
     proTag: "ca. 560 CHF pro Tag, ca. 5’000 pro Person",
     posten: [
       [
@@ -502,9 +535,9 @@ REISEN.spanien2 = {
       ["Verpflegung (Tapas, Restaurants, Einkauf)", "3’600–6’150", "4’750", "ca. 100–170 CHF pro Tag für 4 Personen"],
       [
         "Aktivitäten und Eintritte",
-        "1’750–3’100",
-        "2’400",
-        "Terra Mítica oder Aqualandia, Alhambra, Sagrada Família, Caminito del Rey, Bootstouren, Schnorcheln, Oceanário, Museen"
+        "1’850–3’250",
+        "2’550",
+        "Oceanogràfic, Terra Mítica oder Aqualandia, Alhambra, Sagrada Família, Caminito del Rey, Bootstouren, Schnorcheln, Oceanário, Museen"
       ],
       [
         "Versicherung, Pannenhilfe, Reiseapotheke",
@@ -516,21 +549,21 @@ REISEN.spanien2 = {
     ],
     stationen: [
       ["Zwischenübernachtung Sète (1)", "250–400"],
-      ["Zwischenübernachtung Valencia (1)", "250–400"],
-      ["1. Cabo de Gata (3)", "850–1’450"],
-      ["2. Granada (3)", "1’050–1’700"],
-      ["3. Caminito del Rey (2)", "550–950"],
-      ["4. Sevilla (3)", "950–1’550"],
-      ["5. Lissabon (2)", "700–1’150"],
-      ["6. Porto (2)", "650–1’050"],
-      ["7. Playa de las Catedrales (2)", "550–900"],
+      ["1. Valencia (2)", "650–1’050"],
+      ["2. Cabo de Gata (3)", "850–1’450"],
+      ["3. Granada (3)", "1’050–1’700"],
+      ["4. Caminito del Rey (2)", "550–950"],
+      ["5. Sevilla (2)", "650–1’050"],
+      ["6. Lissabon (2)", "700–1’150"],
+      ["7. Porto (2)", "650–1’050"],
+      ["8. Playa de las Catedrales (2)", "550–900"],
       ["Zwischenübernachtung Bilbao (1)", "300–450"],
-      ["8. Bardenas Reales (1)", "250–400"],
-      ["9. Benidorm (3)", "900–1’500"],
-      ["10. Ibiza und Formentera (3)", "1’250–2’050"],
-      ["11. Mallorca (4)", "1’600–2’700"],
-      ["12. Barcelona (2)", "750–1’250"],
-      ["13. Costa Brava (2)", "750–1’250"],
+      ["9. Bardenas Reales (1)", "250–400"],
+      ["10. Benidorm (3)", "900–1’500"],
+      ["11. Ibiza und Formentera (3)", "1’250–2’050"],
+      ["12. Mallorca (4)", "1’600–2’700"],
+      ["13. Barcelona (2)", "750–1’250"],
+      ["14. Costa Brava (2)", "750–1’250"],
       ["Zwischenübernachtung Avignon (1)", "250–400"]
     ],
     hinweise: [

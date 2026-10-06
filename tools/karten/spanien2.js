@@ -6,7 +6,7 @@ module.exports = {
   projektion: 'eq', parallel: 41.5, laenge: [-10.2, 10.0], breitengrad: [35.7, 47.2], breite: 1000, klein: true,
   laender: ['ESP', 'PRT', 'FRA', 'CHE'],
   orte, wege, stationen,
-  zwischenstopps: [['Brig-Glis', 'BR', 0], ['Sète', 'SE', 0], ['Avignon', 'AVI', 0], ['Valencia', 'VAL', 0], ['Bilbao', 'BI', -12]],
+  zwischenstopps: [['Brig-Glis', 'BR', 0], ['Sète', 'SE', 0], ['Avignon', 'AVI', 0], ['Bilbao', 'BI', -12]],
   umstiege: [['Dénia', 'DE', 'l']],
   beschriftungen: [
     ['Spanien', 39.9, -3.6, 'cn'], ['Portugal', 39.6, -7.95, 'cn', -80], ['Frankreich', 45.6, 1.3, 'cn'], ['Schweiz', 46.95, 7.6, 'cn'],
