@@ -1,0 +1,21 @@
+/* Hauptnavigation (Reisen) und Abschnittsnavigation (Reiseplan, Karte, …) */
+:root { --g: 56px; }
+.trip[hidden] { display: none; }
+
+.gnav { position: sticky; top: 0; z-index: 1300; background: #0F2E33; color: #fff; }
+.gnav .wrap { display: flex; gap: 6px; overflow-x: auto; padding-top: 9px; padding-bottom: 9px; align-items: center; }
+.gnav a { flex: none; color: #fff; text-decoration: none; font-weight: 700; font-size: .95rem; padding: 7px 14px; border-radius: 999px; border: 1px solid rgba(255,255,255,.25); }
+.gnav a:hover { background: rgba(255,255,255,.14); }
+.gnav a.on { background: var(--mango); color: var(--ink); border-color: var(--mango); }
+.gnav a.logo { font: 800 1rem "Bricolage Grotesque", system-ui, sans-serif; margin-right: 10px; color: var(--mango); border: 0; padding: 7px 4px; }
+.gnav a.logo.on { background: none; color: #fff; }
+
+nav.top { position: sticky; top: var(--g); z-index: 1100; background: rgba(255,255,255,.94); backdrop-filter: blur(8px); border-bottom: 1px solid var(--line); }
+nav.top .wrap { display: flex; gap: 4px; overflow-x: auto; padding-top: 10px; padding-bottom: 10px; }
+nav.top a { flex: none; text-decoration: none; color: var(--ink); font-weight: 600; font-size: .95rem; padding: 6px 12px; border-radius: 8px; }
+nav.top a:hover { background: var(--mist); color: var(--sea); }
+
+@media (max-width: 640px) {
+  :root { --g: 52px; }
+  .gnav a { font-size: .85rem; padding: 6px 11px; }
+}

@@ -2,74 +2,75 @@
 
 **Zur Seite: https://zubini.github.io/family-trip-2027/**
 
-Reiseführer und Variantenvergleich für die Familienreise 2027 – als eine einzige, statische HTML-Seite.
-Die Seite enthält drei Reisevarianten:
+Reiseführer und Variantenvergleich für die Familienreise 2027 (18. Juni bis 22. Juli, 2 Erwachsene, 2 Kids) mit drei Varianten:
 
-- **Singapur – Bangkok**
-- **Singapur – Bali**
-- **Las Vegas – New York**
+- **Singapur – Bangkok** über Malaysia und Thailand
+- **Singapur – Bali** über Malaysia und Java
+- **Las Vegas – New York** quer durch die USA
 
-Dazu eine Einstiegsseite mit Vergleich, Bewertung nach Wünschen sowie Pro und Contra, Karten (SVG, offline), Tagesplänen, Budget und Tipps.
+Dazu eine Einstiegsseite mit Vergleich, Bewertung, Budget sowie Pro und Contra.
 
-## Aufbau des Repos
+## Aufbau
+
+Reines HTML, CSS und JavaScript, ohne Build-Schritt. Was im Repo liegt, ist die Webseite.
 
 ```
-docs/                 fertige Webseite (das, was man im Browser öffnet)
-  index.html          wird aus src/ erzeugt – nicht von Hand ändern
-src/                  Python-Generator für die Seite
-  site.py             Einstieg: Seitenaufbau, Navigation, Bildlader (JS)
-  gen3.py             Grundlayout, Farben (CSS), Datumsfunktionen
-  gen2.py, imgs.py    Singapur–Bangkok: Plan, Stationen, Budget, Tipps, Bilder
-  svgmap.py, route.py Singapur–Bangkok: Karte und Wege
-  trip_bali.py        Singapur–Bali: alles
-  trip_usa.py         Las Vegas–New York: alles
-  maps_new.py         Karten Bali/USA: Koordinaten und Wege
-  svgmap2.py          Karten Bali/USA: Zeichnen
-  start_page.py       Einstiegsseite: Vergleich, Bewertung, Pro/Contra
-  start.css           Styles der Einstiegsseite
-  gen.py              Altlast (erste Indonesien-Version, liefert Hilfswerte)
-  geo/                Küstenlinien (MIT-Lizenz, siehe LICENSE-countries-land-10km.txt)
-tools/
-  bilder-einbetten.py erzeugt docs/index-offline.html mit eingebetteten Bildern
-Makefile              Befehle zum Bauen und Prüfen
+index.html        Seitengerüst
+data/             die Inhalte, hier wird fast alles geändert
+  start.js        Einstiegsseite: Texte, Bewertung, Pro und Contra
+  asien.js        Singapur–Bangkok
+  bali.js         Singapur–Bali
+  usa.js          Las Vegas–New York
+css/              Gestaltung (basis, navigation, reise, karte, start)
+js/app.js         baut die Seite aus den Daten, lädt Bilder, Navigation
+karten/           Routenkarten als SVG
+tools/pruefen.js  prüft die Daten auf Widersprüche
 ```
 
-## Benutzen
+## Inhalte ändern
 
-Voraussetzung: Python 3 – keine Zusatzpakete, für den Build kein Internet.
+Datei in `data/` bearbeiten, committen, pushen. Die Seite wird automatisch neu veröffentlicht.
+
+Jede Reise in `data/` enthält der Reihe nach:
+
+| Feld | Inhalt |
+|---|---|
+| `titel`, `untertitel`, `titelbild` | Kopfbereich |
+| `hinflug`, `plan`, `rueckflug` | Reiseplan-Tabelle |
+| `planHinweise` | Hinweise unter dem Reiseplan |
+| `karte` | Einleitung, Legende und Karten-Dateien |
+| `abwechslung` | Kacheln «Abwechslung unterwegs» |
+| `stationen` | die Stationen mit Anreise, Text, Teens, Fakten, Bildern |
+| `budget` | Gesamtbetrag, Posten, Kosten pro Station, Hinweise |
+| `tipps` | «Wichtige Hinweise» zum Aufklappen |
+
+**Regeln:**
+
+- **Daten ohne Wochentag eintragen**, z.B. `"19.–22. Juni"` oder `"22. Juli"`. Wochentage und das Jahr 2027 ergänzt `js/app.js` selbst.
+- **Plan und Stationen müssen zusammenpassen:** gleiches Datum und gleiche Nächte. Die Nächte im Plan ergeben zusammen `budget.naechte`.
+- **Budget:** Die Beträge werden von Hand gepflegt. Die Einstiegsseite liest Planwert, Spanne und Nächte automatisch aus den Reisen.
+- **Bewertung und Pro/Contra** in `data/start.js` sind eine Einschätzung. Bei Änderungen an den Reisen von Hand nachziehen.
+- **Bilder:** Jedes Bild hat einen `titel` (Bildunterschrift) und entweder eine feste `datei` auf Wikimedia Commons oder `suche` (Suchbegriffe, mit `|` getrennt) und `stichwort` (muss im Dateinamen vorkommen). Gesuchte Bilder werden beim Öffnen der Seite automatisch gefunden.
+- **Texte** dürfen einfaches HTML enthalten (`<b>`, `<strong>`).
+- **Symbol der Anreise** (Bus, Zug, Schiff, Flug, Auto) wird am Anfang des Anreise-Textes erkannt.
+- **Länder-Etikett:** `land` ist das Kürzel für die Farbe (`sg`, `my`, `th`, `id`, `us`, Farben in `css/reise.css`), `region` der angezeigte Text.
+
+Prüfen vor dem Push (braucht [Node.js](https://nodejs.org)):
 
 ```sh
-make            # docs/index.html aus src/ neu erzeugen
-make check      # prüfen, ob docs/index.html zum Quellcode passt
-make serve      # Vorschau auf http://localhost:8000
-make offline    # docs/index-offline.html mit eingebetteten Bildern (braucht Internet)
-make clean      # Zwischendateien löschen
+node tools/pruefen.js
 ```
 
-Ohne `make`: `cd src && python3 site.py` erzeugt `src/index.html`.
+Die GitHub-Action macht das bei jedem Push ebenfalls und veröffentlicht nur, wenn alles stimmt.
 
-**Ablauf beim Ändern:** Datei in `src/` bearbeiten → `make` → `docs/index.html` mit committen.
-Die GitHub-Action prüft bei jedem Push mit `make check`, dass beides zusammenpasst.
+## Ansehen
 
-Die Bilder werden im Browser von Wikimedia Commons nachgeladen. Wer die Seite ohne Internet
-(oder in einer Vorschau) ansehen will, erzeugt mit `make offline` eine Version mit eingebetteten Bildern.
+`index.html` per Doppelklick im Browser öffnen, ganz ohne Server. Die Bilder werden von Wikimedia Commons geladen und brauchen deshalb Internet.
 
-## Wichtige Regeln beim Ändern
+## Karten
 
-- **Nächte und Daten müssen zusammenpassen.** Jede Reise hat eine Plan-Tabelle (`plan` bzw. `PLAN`) und die Stationen mit Datum (`tt` bzw. `ST`). Beide müssen dieselben Daten und Nächte haben. Das Budget (Spannen, Planwert, Stationskosten) wird von Hand mitgeführt.
-- **Einstiegsseite:** Die Budgetzahlen dort werden automatisch aus den Reisen gelesen. Die Bewertungspunkte und die Pro-und-Contra-Texte in `start_page.py` sind eine Einschätzung und müssen bei Änderungen an den Reisen von Hand angepasst werden.
-- **Jahr und Wochentage:** Die Wochentage werden aus dem Jahr 2027 berechnet (`gen3.py`, Funktionen `fd` und `fdin`).
-- **Bilder:** Jedes Bild hat eine Bildunterschrift, Suchbegriffe (mit `|` getrennte Alternativen) und Stichworte, die im Dateinamen vorkommen müssen. Fest eingesetzte Bilder haben als viertes Element den Dateinamen auf Wikimedia Commons.
-- **Karten:** Die Wege sind vereinfachte Linien (Koordinaten in `maps_new.py`, `route.py`), keine exakten Strassen- oder Fährverläufe.
-
-## Altlasten
-
-- `gen.py` ist die erste Version der Indonesien-Reise. Sie wird nur wegen einiger Hilfswerte geladen und kann entfernt werden, wenn `gen2.py` entsprechend angepasst wird.
-- Die Daten für Singapur–Bangkok liegen in `gen2.py`, weil sie dort über viele Änderungen gewachsen sind. Singapur–Bali und Las Vegas–New York sind sauberer in eigene Dateien aufgeteilt.
+Die Karten in `karten/` sind fertige SVG-Dateien und lassen sich mit jedem Texteditor oder Vektorprogramm (z.B. Inkscape) bearbeiten. Die Wege sind vereinfachte Linien, keine exakten Strassen- oder Fährverläufe. Die Küstenlinien stammen aus einem MIT-lizenzierten Datensatz (siehe `karten/LICENSE-kuestenlinien.txt`).
 
 ## Veröffentlichen
 
-Die Seite liegt auf GitHub Pages: **https://zubini.github.io/family-trip-2027/**
-
-Bei jedem Push auf den Standard-Branch prüft die GitHub-Action die Seite (`make check`) und veröffentlicht danach `docs/`.
-Voraussetzung ist einmalig *Settings → Pages → Source:* „GitHub Actions“.
+Die Seite liegt auf GitHub Pages. Bei jedem Push auf den Standard-Branch prüft die GitHub-Action die Daten und veröffentlicht danach die Seite. Voraussetzung ist einmalig *Settings → Pages → Source:* „GitHub Actions“ (ist eingerichtet).
