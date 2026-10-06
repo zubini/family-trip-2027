@@ -19,7 +19,6 @@ index.html        Seitengerüst
 data/             die Inhalte, hier wird fast alles geändert
   start.js        Einstiegsseite: Texte, Bewertung, Pro und Contra
   spanien.js      Spanien / Portugal (mit dem eigenen Auto ab Brig-Glis)
-  spanien2.js     dieselbe Reise in umgekehrter Reihenfolge (Variante)
   usa.js          USA (Las Vegas–New York)
   asien.js        Malaysia / Thailand (Singapur–Bangkok)
   quellen.js      Seite «Quellen» (Belege für Fahrzeiten, Einreise, Bilder)
@@ -64,7 +63,7 @@ Jede Reise in `data/` enthält der Reihe nach:
 - **Unsplash:** Die ersten vier Bilder jeder Station und die Titelbilder kommen, wenn möglich, von Unsplash. Die GitHub-Action «Unsplash-Bilder» sucht sie stündlich mit `tools/bilder-unsplash.js` (Schlüssel im Repository-Secret `UNSPLASH_ACCESS_KEY`, 50 Anfragen pro Stunde) und schreibt sie nach `data/bilder-unsplash.js`. Ein unpassendes Foto dort löschen und den Eintrag auf `0` setzen, dann kommt wieder das Commons-Bild. Neue oder geänderte `suche`-Texte werden beim nächsten Lauf gesucht.
 - **Ersatzbilder:** Findet die Seite zu einem Motiv kein Bild, sucht sie ein anderes Bild der Station (über den Stationsnamen). Heisst der Ort auf Englisch anders, `ersatzsuche` setzen (z.B. `"Lisbon"`).
 - **Quellen:** Neue Belege in `data/quellen.js` als `["Beschreibung", "https://…"]` in die passende Gruppe eintragen.
-- **Varianten:** Eine Reise kann eine Alternative haben, z.B. `data/spanien2.js` (umgekehrte Reihenfolge). Die Alternative bekommt `alternativeZu: "spanien"` und beide ein `variante` (Text im Umschalter). Sie erscheint nicht im Menü und nicht auf der Einstiegsseite, sondern als Umschalter oben auf der Reiseseite. Eigene Karten unter `tools/karten/` anlegen.
+- **Varianten:** Eine Reise kann eine Alternative haben (eigene Datei mit `alternativeZu: "<reise>"`, beide mit `variante` als Text im Umschalter). Die Alternative erscheint nicht im Menü und nicht auf der Einstiegsseite, sondern als Umschalter oben auf der Reiseseite. Eigene Karten unter `tools/karten/` anlegen.
 - **Reihenfolge:** Die Navigation folgt der Reihenfolge der Skripte in `index.html`, die Spalten der Einstiegsseite der Reihenfolge in `data/start.js`.
 - **Texte** dürfen einfaches HTML enthalten (`<b>`, `<strong>`).
 - **Symbol der Anreise** (Bus, Zug, Schiff, Flug, Auto) wird am Anfang des Anreise-Textes erkannt (z.B. «Mit dem Auto…», «Autofähre…», «Zug…»).

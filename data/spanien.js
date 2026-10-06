@@ -5,8 +5,7 @@ window.REISEN = window.REISEN || {};
 REISEN.spanien = {
   titel: "Mit dem Auto durch Spanien und Portugal",
   menu: "Spanien / Portugal",
-  variante: "Inseln zuerst",
-  untertitel: "Fünf Wochen Roadtrip ab Brig-Glis: Barcelona, Inselhopping mit der Autofähre, Benidorm, Andalusien, Lissabon, Porto und der wilde Norden.",
+  untertitel: "Fünf Wochen Roadtrip ab Brig-Glis: Barcelona, Valencia, Schnorcheln auf Ibiza und Formentera, Benidorm, Andalusien, Lissabon, Porto und der wilde Norden.",
   zeitraum: "Fr, 18.06.2027 bis Sa, 24.07.2027, 2 Erwachsene und 2 Kids",
   titelbild: {
     suche: "Playa de las Catedrales|Bardenas Reales Castildetierra|Caminito del Rey",
@@ -27,28 +26,34 @@ REISEN.spanien = {
       info: "Brig-Glis – Genf – Lyon – Montpellier – Sète (ca. 7–7,5 Std., ca. 630 km)"
     },
     {datum: "19.–21. Juni", name: "1. Barcelona", naechte: 2, info: "Auto über Perpignan (ca. 3–3,5 Std., ca. 330 km)"},
-    {datum: "21.–26. Juni", name: "2. Mallorca", naechte: 5, info: "Autofähre Barcelona–Palma (ca. 6,5–7,5 Std.)"},
-    {datum: "26.–30. Juni", name: "3. Ibiza und Formentera", naechte: 4, info: "Autofähre Palma–Ibiza (ca. 2,5–4 Std.)"},
+    {datum: "21.–23. Juni", name: "2. Valencia", naechte: 2, info: "Auto auf der AP-7 (ca. 3,5 Std., ca. 350 km)"},
+    {
+      datum: "23.–27. Juni",
+      name: "3. Ibiza",
+      naechte: 4,
+      info: "Auto nach Dénia (ca. 1–1,25 Std.), Autofähre Dénia–Ibiza (ca. 2,5 Std.)"
+    },
+    {datum: "27.–30. Juni", name: "4. Formentera", naechte: 3, info: "Autofähre Ibiza–Formentera (ca. 30–60 Min.)"},
     {
       datum: "30. Juni–4. Juli",
-      name: "4. Benidorm",
+      name: "5. Benidorm",
       naechte: 4,
-      info: "Autofähre Ibiza–Dénia (ca. 2,5 Std.), Auto (ca. 40–45 Min.)"
+      info: "Autofähre Formentera–Dénia (ca. 2–4,5 Std.), Auto (ca. 40–45 Min.)"
     },
-    {datum: "4.–7. Juli", name: "5. Cabo de Gata", naechte: 3, info: "Auto über Alicante und Murcia (ca. 3,5–4 Std.)"},
-    {datum: "7.–10. Juli", name: "6. Granada", naechte: 3, info: "Auto (ca. 2–2,5 Std.)"},
-    {datum: "10.–12. Juli", name: "7. Caminito del Rey (El Chorro)", naechte: 2, info: "Auto (ca. 1,5–2 Std.)"},
-    {datum: "12.–15. Juli", name: "8. Sevilla", naechte: 3, info: "Auto (ca. 2 Std.)"},
-    {datum: "15.–17. Juli", name: "9. Lissabon", naechte: 2, info: "Auto (ca. 4,5–5 Std.), Uhr −1 Std."},
-    {datum: "17.–19. Juli", name: "10. Porto", naechte: 2, info: "Auto (ca. 3 Std.)"},
-    {datum: "19.–21. Juli", name: "11. Playa de las Catedrales", naechte: 2, info: "Auto (ca. 4–4,5 Std.), Uhr +1 Std."},
+    {datum: "4.–7. Juli", name: "6. Cabo de Gata", naechte: 3, info: "Auto über Alicante und Murcia (ca. 3,5–4 Std.)"},
+    {datum: "7.–10. Juli", name: "7. Granada", naechte: 3, info: "Auto (ca. 2–2,5 Std.)"},
+    {datum: "10.–12. Juli", name: "8. Caminito del Rey (El Chorro)", naechte: 2, info: "Auto (ca. 1,5–2 Std.)"},
+    {datum: "12.–15. Juli", name: "9. Sevilla", naechte: 3, info: "Auto (ca. 2 Std.)"},
+    {datum: "15.–17. Juli", name: "10. Lissabon", naechte: 2, info: "Auto (ca. 4,5–5 Std.), Uhr −1 Std."},
+    {datum: "17.–19. Juli", name: "11. Porto", naechte: 2, info: "Auto (ca. 3 Std.)"},
+    {datum: "19.–21. Juli", name: "12. Playa de las Catedrales", naechte: 2, info: "Auto (ca. 4–4,5 Std.), Uhr +1 Std."},
     {
       datum: "21.–22. Juli",
       name: "Zwischenübernachtung Bilbao",
       naechte: 1,
       info: "Auto entlang der Nordküste (ca. 4 Std.)"
     },
-    {datum: "22.–23. Juli", name: "12. Bardenas Reales", naechte: 1, info: "Auto (ca. 2,5 Std.)"},
+    {datum: "22.–23. Juli", name: "13. Bardenas Reales", naechte: 1, info: "Auto (ca. 2,5 Std.)"},
     {
       datum: "23.–24. Juli",
       name: "Zwischenübernachtung Carcassonne",
@@ -64,11 +69,11 @@ REISEN.spanien = {
   planHinweise: [
     [
       "Gesamt",
-      "36 Nächte, 12 Stationen und 3 Zwischenübernachtungen (Sète, Bilbao, Carcassonne). Keine Flüge: alles mit dem eigenen Auto, zu den Inseln mit drei Autofähren. Insgesamt ca. 5’500 km Autofahrt und ca. 13 Std. auf Fähren, zusammen ca. 67 Std. reine Reisezeit; mit Pausen, Check-in an den Häfen und Sommerstau mit dem Elektroauto realistisch ca. 80–83 Std. von Tür zu Tür (ca. 65–68 Std. im Auto inklusive ca. 10–12 Ladestopps à 20–30 Min., ca. 15 Std. auf den Fähren). Die längsten Reisetage: Brig-Glis–Sète (ca. 7–7,5 Std. plus 1–2 Ladestopps), Carcassonne–Brig-Glis (ca. 7,5–8 Std. plus 2–3 Ladestopps), Fähre Barcelona–Palma (ca. 6,5–7,5 Std.), Bardenas–Carcassonne (ca. 6,5–7 Std. plus 2 Ladestopps), Sevilla–Lissabon (ca. 4,5–5 Std.), Porto–Ribadeo (ca. 4–4,5 Std.) und Benidorm–Cabo de Gata (ca. 3,5–4 Std.)."
+      "36 Nächte, 13 Stationen und 3 Zwischenübernachtungen (Sète, Bilbao, Carcassonne). Keine Flüge: alles mit dem eigenen Elektroauto, zu den Inseln mit drei Autofähren. Insgesamt ca. 5’800 km Autofahrt und ca. 6–7 Std. auf Fähren, zusammen ca. 66 Std. reine Reisezeit (ca. 59 Std. Auto); mit Pausen, Ladestopps, Check-in an den Häfen und Sommerstau realistisch ca. 80–84 Std. von Tür zu Tür (ca. 71–74 Std. im Auto inklusive ca. 10–12 Ladestopps à 20–30 Min., ca. 9–10 Std. für die Fähren mit Check-in). Die längsten Reisetage: Brig-Glis–Sète (ca. 7–7,5 Std. plus 1–2 Ladestopps), Carcassonne–Brig-Glis (ca. 7,5–8 Std. plus 2–3 Ladestopps), Bardenas–Carcassonne (ca. 6,5–7 Std. plus 2 Ladestopps), Formentera–Benidorm (Fähre ca. 2–4,5 Std. und Auto ca. 45 Min.), Sevilla–Lissabon (ca. 4,5–5 Std.), Valencia–Ibiza (Auto ca. 1–1,25 Std. und Fähre ca. 2,5 Std.), Porto–Ribadeo (ca. 4–4,5 Std.) und Barcelona–Valencia (ca. 3,5 Std.)."
     ],
     [
       "Vorab buchen",
-      "Autofähren Barcelona–Palma, Palma–Ibiza und Ibiza–Dénia (im Juli früh buchen, Check-in 60–90 Min. vor Abfahrt), Unterkünfte an den Küsten und auf den Inseln (Hochsaison), Alhambra (im Sommer oft drei Monate im Voraus ausverkauft), Sagrada Família, Caminito del Rey, Terra Mítica oder Aqualandia, Reservation für die Playa de las Catedrales (gratis, frühestens 30 Tage vorher)."
+      "Autofähren Dénia–Ibiza, Ibiza–Formentera und Formentera–Dénia (im Juli früh buchen, Check-in 60–90 Min. vor Abfahrt), Zufahrtsbewilligung fürs Auto auf Ibiza und Formentera, Unterkünfte auf den Inseln (Hochsaison), Alhambra (im Sommer oft drei Monate im Voraus ausverkauft), Sagrada Família, Oceanogràfic, Caminito del Rey, Terra Mítica oder Aqualandia, Reservation für die Playa de las Catedrales (gratis, frühestens 30 Tage vorher)."
     ],
     [
       "Auto",
@@ -76,7 +81,7 @@ REISEN.spanien = {
     ],
     [
       "Optional",
-      "PortAventura (Freizeitpark bei Tarragona, ca. 1,5 Std. ab Barcelona), Valencia mit Oceanogràfic (Tagesausflug ab Benidorm, ca. 1,5 Std.), Ronda (bei El Chorro), Algarve (zwischen Sevilla und Lissabon), Sintra (Abstecher auf dem Weg nach Porto), San Sebastián (statt Bilbao)."
+      "PortAventura (Freizeitpark bei Tarragona, auf dem Weg nach Valencia), Bootsausflug zur Insel S’Espalmador (ab Formentera), Ronda (bei El Chorro), Algarve (zwischen Sevilla und Lissabon), Sintra (Abstecher auf dem Weg nach Porto), San Sebastián (statt Bilbao)."
     ]
   ],
   karte: {
@@ -85,14 +90,14 @@ REISEN.spanien = {
     legende: ["car", "ferry"],
     karten: [
       {datei: "karten/spanien.svg"},
-      {titel: "Spanien und Portugal im Detail (Stationen 1 bis 12)", datei: "karten/spanien-detail.svg"}
+      {titel: "Spanien und Portugal im Detail (Stationen 1 bis 13)", datei: "karten/spanien-detail.svg"}
     ]
   },
   abwechslungIntro: "Nach zwei aktiven Tagen jeweils einen ruhigen Tag einplanen. In Andalusien Programm auf Morgen und Abend legen, mittags ist es sehr heiss.",
   abwechslung: [
     [
       "Action und Freizeitparks",
-      "Terra Mítica und Aqualandia in Benidorm, Caminito del Rey, Schnorcheln und Kajak auf Mallorca und Ibiza, Coasteering auf Mallorca, Isla Mágica in Sevilla; optional PortAventura."
+      "Oceanogràfic in Valencia, Terra Mítica und Aqualandia in Benidorm, Caminito del Rey, Schnorcheln und Kajak auf Ibiza und Formentera, Isla Mágica in Sevilla; optional PortAventura."
     ],
     [
       "Kultur und Geschichte",
@@ -104,14 +109,14 @@ REISEN.spanien = {
     ],
     [
       "Strand und Schnorcheln",
-      "Mallorca, Ibiza und Formentera, Benidorm, Cabo de Gata; im Mittelmeer ist das Wasser im Juli ca. 23–26 °C warm, am Atlantik deutlich kühler."
+      "Die besten Schnorchelplätze der Reise: Cala Xarraca, Portinatx, Punta de sa Galera und Cala Comte auf Ibiza, Cala Saona, Es Caló und Ses Illetes auf Formentera (klares Wasser über Seegraswiesen); dazu Benidorm und Cabo de Gata. Im Mittelmeer ist das Wasser im Juli ca. 23–26 °C warm, am Atlantik deutlich kühler."
     ],
     [
       "Mitmachen",
       "Tapas- und Paella-Kurs, Velotour in Sevilla oder Lissabon, Bootstour auf dem Douro in Porto, Surf-Schnupperstunde in Galicien."
     ]
   ],
-  stationenIntro: "Zwölf Stationen von Barcelona über die Balearen, Benidorm, Andalusien und Portugal bis in den Norden. Über jeder Station steht, wie ihr dorthin kommt.",
+  stationenIntro: "Dreizehn Stationen von Barcelona über Valencia, Ibiza und Formentera, Benidorm, Andalusien und Portugal bis in den Norden. Über jeder Station steht, wie ihr dorthin kommt.",
   stationen: [
     {
       nr: 1,
@@ -124,7 +129,7 @@ REISEN.spanien = {
       text: "Gaudís Bauten, Altstadtgassen, Strand und eine lebendige Grossstadt. In der Nacht vom 23. auf den 24. Juni feiert die Stadt Sant Joan mit Feuerwerk und Feuern am Strand.",
       teens: "Sagrada Família (Turm), Park Güell, Camp Nou bzw. Barça-Museum, Seilbahn auf den Montjuïc, Strand Barceloneta, Markt La Boqueria.",
       fakten: [
-        "<strong>Dauer:</strong> 2 Nächte: ein Tag Sagrada Família und Park Güell, ein Tag Altstadt, Hafen und Strand. Am 21. Juni geht die Fähre nach Mallorca.",
+        "<strong>Dauer:</strong> 2 Nächte: ein Tag Sagrada Família und Park Güell, ein Tag Altstadt, Hafen und Strand. Am 21. Juni weiter nach Valencia.",
         "<strong>Tickets:</strong> Sagrada Família und Park Güell nur online mit Zeitfenster; Kinder unter 11 gratis, brauchen aber ein Ticket.",
         "<strong>Taschendiebe:</strong> Auf den Ramblas, in der Metro und am Strand Wertsachen gut verstauen."
       ],
@@ -141,62 +146,96 @@ REISEN.spanien = {
     },
     {
       nr: 2,
-      name: "Mallorca",
+      name: "Valencia",
       land: "es",
-      region: "Balearen",
-      datum: "21.–26. Juni",
-      naechte: "5 Nächte",
-      anreise: "Autofähre Barcelona–Palma mit Baleària, Trasmed oder GNV (ca. 6,5–7,5 Std.); Check-in mit dem Auto ca. 60–90 Min. vor Abfahrt. Tagesfähre am Morgen oder Nachtfähre mit Kabine.",
-      text: "Die grösste Baleareninsel mit Buchten, dem Tramuntana-Gebirge und der Altstadt von Palma. Mit dem eigenen Auto erreicht ihr auch die ruhigeren Ecken.",
-      teens: "Coasteering oder Kajak an der Steilküste, Drachenhöhlen bei Porto Cristo, Baden in der Cala Mondragó oder Caló des Moro, Fahrt durch die Serra de Tramuntana nach Sa Calobra.",
+      region: "Valencia",
+      datum: "21.–23. Juni",
+      naechte: "2 Nächte",
+      anreise: "Mit dem Auto von Barcelona auf der AP-7 nach Valencia (ca. 3,5 Std., ca. 350 km). Hotel mit Parkhaus oder Ladestation wählen.",
+      text: "Drittgrösste Stadt Spaniens mit der futuristischen Stadt der Künste und Wissenschaften, einem langen Stadtstrand und dem grünen Turia-Park im alten Flussbett. Hier kommt die Paella her.",
+      teens: "Oceanogràfic (das grösste Aquarium Europas, mit Haien und Belugas), Wissenschaftsmuseum, Velotour durch den Turia-Park, Baden an der Malvarrosa, Paella in der Albufera.",
       fakten: [
-        "<strong>Dauer:</strong> 5 Nächte, z.B. im Osten oder Südosten. Ein Tag Palma, ein Tag Tramuntana, drei Strand- und Schnorcheltage (z.B. Caló des Moro, Bootsausflug nach Cabrera).",
-        "<strong>Touristenabgabe:</strong> Auf den Balearen gilt eine Abgabe pro Person und Nacht; Kinder unter 16 sind befreit.",
-        "<strong>Strassen:</strong> Die Bergstrasse nach Sa Calobra ist sehr kurvig und im Sommer voll; früh fahren."
+        "<strong>Dauer:</strong> 2 Nächte: ein Tag Oceanogràfic und Stadt der Künste, ein halber Tag Altstadt oder Strand.",
+        "<strong>Tickets:</strong> Oceanogràfic online buchen, Kombiticket mit Museum und Hemisfèric möglich.",
+        "<strong>Auto:</strong> Hotel mit Parkhaus wählen und in der Stadt Metro, Bus oder Velo nutzen; Regeln der Umweltzone vorab prüfen."
       ],
-      ausserdem: "Kathedrale La Seu in Palma, Valldemossa, Sóller mit dem historischen Zug, Cap de Formentor, Bootsausflug zur Insel Cabrera.",
+      ausserdem: "Mercado Central, Kathedrale mit dem Miguelete-Turm, Bioparc, Naturpark Albufera mit Bootsfahrt.",
       bilder: [
-        {titel: "Kathedrale von Palma", suche: "Palma Cathedral La Seu", stichwort: "palma|seu"},
-        {titel: "Caló des Moro", suche: "Calo des Moro", stichwort: "moro"},
-        {titel: "Sa Calobra", suche: "Sa Calobra road|Sa Calobra", stichwort: "calobra"},
-        {titel: "Cap de Formentor", suche: "Cap de Formentor", stichwort: "formentor"},
-        {titel: "Drachenhöhlen", suche: "Cuevas del Drach|Coves del Drac", stichwort: "drac|drach"},
-        {titel: "Valldemossa", suche: "Valldemossa", stichwort: "valldemossa"}
+        {
+          titel: "Stadt der Künste und Wissenschaften",
+          suche: "City of Arts and Sciences Valencia|Ciudad de las Artes y las Ciencias",
+          stichwort: "arts|ciencias|ciències"
+        },
+        {titel: "Oceanogràfic", suche: "Oceanografic Valencia", stichwort: "oceanogr"},
+        {titel: "Turia-Park", suche: "Jardin del Turia Valencia|Turia gardens", stichwort: "turia"},
+        {titel: "Malvarrosa", suche: "Malvarrosa beach Valencia", stichwort: "malvarrosa"},
+        {
+          titel: "Mercado Central",
+          suche: "Mercado Central Valencia|Mercat Central Valencia",
+          stichwort: "mercado central|mercat central"
+        },
+        {titel: "Albufera", suche: "Albufera Valencia", stichwort: "albufera"}
       ]
     },
     {
       nr: 3,
-      name: "Ibiza und Formentera",
+      name: "Ibiza",
       land: "es",
       region: "Balearen",
-      datum: "26.–30. Juni",
+      datum: "23.–27. Juni",
       naechte: "4 Nächte",
-      anreise: "Autofähre Palma–Ibiza (ca. 2,5–4 Std., je nach Schiff). Nach Formentera als Tagesausflug ohne Auto mit der Schnellfähre ab Ibiza-Stadt (ca. 30 Min.).",
-      text: "Ibiza abseits der Partys: ruhige Buchten im Norden, die Altstadt Dalt Vila und das türkisfarbene Wasser von Formentera mit seinen Seegraswiesen.",
-      teens: "Tagesausflug nach Formentera mit Velos (Ses Illetes), Schnorcheln in klarem Wasser, Sonnenuntergang bei Es Vedrà, Altstadt Dalt Vila.",
+      anreise: "Mit dem Auto von Valencia nach Dénia (ca. 1–1,25 Std., ca. 105 km), dann Autofähre Dénia–Ibiza (ca. 2,5 Std.); Check-in mit dem Auto ca. 60–90 Min. vor Abfahrt.",
+      text: "Ibiza abseits der Partys: Im Norden und Westen liegen felsige Buchten mit sehr klarem Wasser, Seegraswiesen und Fischschwärmen, dazu die Altstadt Dalt Vila und der Felsen Es Vedrà.",
+      teens: "Schnorcheln an der Cala Xarraca, bei Portinatx und an den Felsen der Punta de sa Galera, Kajak oder Stand-up-Paddle, Sonnenuntergang an der Cala Comte mit Blick auf die Inselchen, Altstadt Dalt Vila.",
       fakten: [
-        "<strong>Dauer:</strong> 4 Nächte: ein ganzer Tag auf Formentera, zwei Tage Buchten und Schnorcheln auf Ibiza (z.B. Cala Comte), ein Tag Dalt Vila und Sonnenuntergang bei Es Vedrà.",
-        "<strong>Formentera:</strong> Mit dem Auto auf die Insel ist teuer und im Sommer geregelt; ohne Auto per Schnellfähre und Velo ist einfacher.",
-        "<strong>Unterkunft:</strong> Im Norden oder Osten (z.B. Santa Eulària) ruhiger als in Sant Antoni."
+        "<strong>Dauer:</strong> 4 Nächte, Unterkunft im Norden (z.B. Portinatx) oder Westen (bei Sant Antoni), nah an den Schnorchelplätzen: zwei Tage Buchten im Norden, ein Tag Punta de sa Galera und Cala Comte, ein Tag Dalt Vila und Es Vedrà.",
+        "<strong>Schnorchelplätze:</strong> Cala Xarraca (sehr klares Wasser, viele Fische), Portinatx und Cala d’en Serra im Norden, Punta de sa Galera (Felskante mit Seesternen und Schwämmen) und Cala Comte im Westen. Am Morgen kommen, mittags sind die Buchten voll.",
+        "<strong>Auto:</strong> Vom 1. Juni bis 30. September braucht ein Auto ohne Wohnsitz auf Ibiza eine Zufahrtsbewilligung (2026: 1 € pro Tag, Elektroautos ausserhalb des Kontingents); bei Buchung von Hin- und Rückfahrt übernimmt die Reederei das teils. Regeln für 2027 vorab prüfen."
       ],
-      ausserdem: "Cala Comte, Cala Salada, Hippiemarkt Las Dalias, Salinen von Ses Salines.",
+      ausserdem: "Cala Salada, Hippiemarkt Las Dalias, Salinen von Ses Salines, Santa Eulària.",
       bilder: [
-        {titel: "Ses Illetes", suche: "Ses Illetes Formentera", stichwort: "illetes"},
-        {titel: "Dalt Vila", suche: "Dalt Vila Ibiza", stichwort: "dalt vila"},
+        {titel: "Cala Xarraca", suche: "Cala Xarraca Ibiza", stichwort: "xarraca"},
+        {titel: "Cala Comte", suche: "Cala Comte Ibiza", stichwort: "comte|conta"},
+        {titel: "Portinatx", suche: "Portinatx Ibiza", stichwort: "portinatx"},
+        {titel: "Punta de sa Galera", suche: "Punta Galera Ibiza", stichwort: "galera"},
         {titel: "Es Vedrà", suche: "Es Vedra Ibiza", stichwort: "vedr"},
-        {titel: "Cala Comte", suche: "Cala Comte Ibiza", stichwort: "comte"},
-        {titel: "Formentera", suche: "Formentera beach", stichwort: "formentera"},
-        {titel: "Cala Salada", suche: "Cala Salada Ibiza", stichwort: "salada"}
+        {titel: "Dalt Vila", suche: "Dalt Vila Ibiza", stichwort: "dalt vila"}
       ]
     },
     {
       nr: 4,
+      name: "Formentera",
+      land: "es",
+      region: "Balearen",
+      datum: "27.–30. Juni",
+      naechte: "3 Nächte",
+      anreise: "Autofähre Ibiza–La Savina (ca. 30–60 Min., mehrmals täglich).",
+      text: "Die kleine Nachbarinsel ist flach, ruhig und für ihr türkisfarbenes Wasser bekannt: Die grossen Seegraswiesen (Posidonia, Unesco-Welterbe) machen das Wasser so klar wie kaum anderswo im Mittelmeer.",
+      teens: "Schnorcheln an der Cala Saona und in der Felsbucht Es Caló, Baden an Ses Illetes, Bootsausflug zur Insel S’Espalmador, Velotour durch die Salinen, Leuchtturm La Mola.",
+      fakten: [
+        "<strong>Dauer:</strong> 3 Nächte: ein Tag Cala Saona und Westküste, ein Tag Es Caló und Leuchtturm La Mola, ein Tag Ses Illetes und S’Espalmador.",
+        "<strong>Schnorchelplätze:</strong> Cala Saona und Punta Gavina im Westen, Es Caló im Nordosten (natürliches «Aquarium»), Ses Illetes und S’Espalmador im Norden.",
+        "<strong>Auto:</strong> Vom 1. Juni bis 30. September braucht jedes Auto von auswärts eine Bewilligung (formentera.eco); Elektroautos sind von der Gebühr befreit. Regeln für 2027 vorab prüfen.",
+        "<strong>Weiterfahrt:</strong> Autofähre Formentera–Dénia direkt (ca. 2 Std., nur wenige Verbindungen pro Tag, Fahrplan prüfen) oder über Ibiza (bis ca. 4,5 Std.)."
+      ],
+      ausserdem: "Leuchtturm Cap de Barbaria, Salinen, Es Pujols, Markt in Sant Francesc.",
+      bilder: [
+        {titel: "Ses Illetes", suche: "Ses Illetes Formentera", stichwort: "illetes"},
+        {titel: "Cala Saona", suche: "Cala Saona Formentera", stichwort: "saona"},
+        {titel: "Es Caló", suche: "Es Calo Formentera", stichwort: "calo|caló"},
+        {titel: "S’Espalmador", suche: "Espalmador Formentera", stichwort: "espalmador"},
+        {titel: "Cap de Barbaria", suche: "Cap de Barbaria lighthouse", stichwort: "barbaria"},
+        {titel: "Leuchtturm La Mola", suche: "Far de la Mola Formentera", stichwort: "mola"}
+      ]
+    },
+    {
+      nr: 5,
       name: "Benidorm",
       land: "es",
       region: "Costa Blanca",
       datum: "30. Juni–4. Juli",
       naechte: "4 Nächte",
-      anreise: "Autofähre Ibiza–Dénia (ca. 2,5 Std.); Check-in mit dem Auto ca. 60–90 Min. vor Abfahrt. Von Dénia mit dem Auto nach Benidorm (ca. 40–45 Min., ca. 50 km).",
+      anreise: "Autofähre Formentera–Dénia (direkt ca. 2 Std., über Ibiza bis ca. 4,5 Std.; nur wenige Verbindungen pro Tag, Fahrplan prüfen); Check-in mit dem Auto ca. 60–90 Min. vor Abfahrt. Von Dénia mit dem Auto nach Benidorm (ca. 40–45 Min., ca. 50 km).",
       text: "Hochhausstadt an der Costa Blanca mit zwei langen Sandstränden, Freizeit- und Wasserparks. Nach den Inseln Action und Strand; im Hinterland liegen das Bergdorf Guadalest und die Wasserfälle von Algar.",
       teens: "Terra Mítica (Achterbahnen), Aqualandia (einer der grössten Wasserparks Europas), Boot zur Isla de Benidorm mit Schnorcheln, Aussicht vom Balcón del Mediterráneo, Baden in den Wasserfällen von Algar.",
       fakten: [
@@ -216,7 +255,7 @@ REISEN.spanien = {
       ]
     },
     {
-      nr: 5,
+      nr: 6,
       name: "Cabo de Gata",
       land: "es",
       region: "Andalusien",
@@ -241,7 +280,7 @@ REISEN.spanien = {
       ]
     },
     {
-      nr: 6,
+      nr: 7,
       name: "Granada",
       land: "es",
       region: "Andalusien",
@@ -266,7 +305,7 @@ REISEN.spanien = {
       ]
     },
     {
-      nr: 7,
+      nr: 8,
       name: "Caminito del Rey (El Chorro)",
       land: "es",
       region: "Andalusien",
@@ -291,7 +330,7 @@ REISEN.spanien = {
       ]
     },
     {
-      nr: 8,
+      nr: 9,
       name: "Sevilla",
       ersatzsuche: "Seville",
       land: "es",
@@ -317,7 +356,7 @@ REISEN.spanien = {
       ]
     },
     {
-      nr: 9,
+      nr: 10,
       name: "Lissabon",
       ersatzsuche: "Lisbon",
       land: "pt",
@@ -343,7 +382,7 @@ REISEN.spanien = {
       ]
     },
     {
-      nr: 10,
+      nr: 11,
       name: "Porto",
       land: "pt",
       region: "Portugal",
@@ -368,7 +407,7 @@ REISEN.spanien = {
       ]
     },
     {
-      nr: 11,
+      nr: 12,
       name: "Playa de las Catedrales",
       land: "es",
       region: "Galicien",
@@ -394,7 +433,7 @@ REISEN.spanien = {
       ]
     },
     {
-      nr: 12,
+      nr: 13,
       name: "Bardenas Reales (Finale)",
       land: "es",
       region: "Navarra",
@@ -424,21 +463,21 @@ REISEN.spanien = {
   budgetIntro: "Mittelklasse inklusive Strom fürs Elektroauto, Maut, Fähren, Unterkunft, Verpflegung und Aktivitäten, ohne Abnutzung des eigenen Autos. Alle Beträge sind Schätzungen in CHF.",
   budget: {
     naechte: 36,
-    total: "19’350",
-    spanne: "14’300–25’150",
-    proTag: "ca. 540 CHF pro Tag, ca. 4’850 pro Person",
+    total: "19’500",
+    spanne: "14’500–25’300",
+    proTag: "ca. 540 CHF pro Tag, ca. 4’900 pro Person",
     posten: [
       [
-        "Auto: Strom, Maut, Vignetten (ca. 5’500 km)",
-        "650–1’050",
-        "850",
-        "ca. 1’100 kWh, davon der grösste Teil an Schnellladern (ca. 0,45–0,70 € pro kWh), Rest im Hotel; Maut vor allem in Frankreich und Portugal, Crit’Air-Vignette, Registrierung Umweltzone Barcelona"
+        "Auto: Strom, Maut, Vignetten (ca. 5’800 km)",
+        "700–1’100",
+        "900",
+        "ca. 1’150 kWh, davon der grösste Teil an Schnellladern (ca. 0,45–0,70 € pro kWh), Rest im Hotel; Maut vor allem in Frankreich und Portugal, Crit’Air-Vignette, Registrierung Umweltzone Barcelona, Zufahrt Ibiza und Formentera"
       ],
       [
-        "Autofähren (Barcelona–Palma–Ibiza–Dénia)",
-        "500–1’000",
-        "750",
-        "Auto und 4 Personen mit Sitzplätzen, dazu Schnellfähre nach Formentera; im Juli früh buchen"
+        "Autofähren (Dénia–Ibiza–Formentera–Dénia)",
+        "450–850",
+        "650",
+        "Auto und 4 Personen mit Sitzplätzen; im Juli früh buchen"
       ],
       [
         "Parkieren und lokale Transfers",
@@ -448,8 +487,8 @@ REISEN.spanien = {
       ],
       [
         "Unterkunft (Familienzimmer, Apartment oder 2 Zimmer)",
-        "5’700–10’100",
-        "7’750",
+        "5’900–10’350",
+        "7’950",
         "ca. 160–280 CHF pro Nacht; die Inseln im Juli am teuersten"
       ],
       ["Verpflegung (Tapas, Restaurants, Einkauf)", "3’600–6’150", "4’750", "ca. 100–170 CHF pro Tag für 4 Personen"],
@@ -470,18 +509,19 @@ REISEN.spanien = {
     stationen: [
       ["Zwischenübernachtung Sète (1)", "250–400"],
       ["1. Barcelona (2)", "750–1’250"],
-      ["2. Mallorca (5)", "1’750–3’000"],
-      ["3. Ibiza und Formentera (4)", "1’550–2’550"],
-      ["4. Benidorm (4)", "1’200–2’000"],
-      ["5. Cabo de Gata (3)", "850–1’450"],
-      ["6. Granada (3)", "1’050–1’700"],
-      ["7. Caminito del Rey (2)", "550–950"],
-      ["8. Sevilla (3)", "950–1’550"],
-      ["9. Lissabon (2)", "700–1’150"],
-      ["10. Porto (2)", "650–1’050"],
-      ["11. Playa de las Catedrales (2)", "550–900"],
+      ["2. Valencia (2)", "650–1’050"],
+      ["3. Ibiza (4)", "1’550–2’550"],
+      ["4. Formentera (3)", "1’300–2’200"],
+      ["5. Benidorm (4)", "1’200–2’000"],
+      ["6. Cabo de Gata (3)", "850–1’450"],
+      ["7. Granada (3)", "1’050–1’700"],
+      ["8. Caminito del Rey (2)", "550–950"],
+      ["9. Sevilla (3)", "950–1’550"],
+      ["10. Lissabon (2)", "700–1’150"],
+      ["11. Porto (2)", "650–1’050"],
+      ["12. Playa de las Catedrales (2)", "550–900"],
       ["Zwischenübernachtung Bilbao (1)", "300–450"],
-      ["12. Bardenas Reales (1)", "250–400"],
+      ["13. Bardenas Reales (1)", "250–400"],
       ["Zwischenübernachtung Carcassonne (1)", "250–400"]
     ],
     hinweise: [
@@ -506,7 +546,7 @@ REISEN.spanien = {
     ],
     [
       "Fähren mit dem Auto",
-      "Check-in 60–90 Min. vor Abfahrt, Auto während der Fahrt nicht zugänglich: Badesachen, Snacks und Medikamente ins Handgepäck. Auf den Inseln eng und im Sommer voll; Parkplätze an Stränden früh. Elektroautos werden mitgenommen; Regeln zu Ladestand und Laden an Bord beim Buchen bestätigen. Nach der Ankunft auf den Inseln ist das Ladenetz dünner als auf dem Festland: Unterkunft mit Lademöglichkeit wählen."
+      "Check-in 60–90 Min. vor Abfahrt, Auto während der Fahrt nicht zugänglich: Badesachen, Snacks und Medikamente ins Handgepäck. Auf den Inseln eng und im Sommer voll; Parkplätze an Stränden früh. Elektroautos werden mitgenommen; Regeln zu Ladestand und Laden an Bord beim Buchen bestätigen. Auf Ibiza und Formentera ist das Ladenetz dünner als auf dem Festland: Unterkunft mit Lademöglichkeit wählen."
     ],
     ["Währung und Zahlung", "Euro. Karten werden fast überall akzeptiert, etwas Bargeld für kleine Lokale und Märkte."],
     [
