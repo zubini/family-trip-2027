@@ -287,7 +287,7 @@ REISEN.japan = {
       teens: "Velotour auf Naoshima zu Yayoi Kusamas gelbem Kürbis, Chichu-Kunstmuseum, Baden am Strand, Kurashiki (Kanäle der Altstadt), Okayama-Burg.",
       fakten: [
         "<strong>Dauer:</strong> 2 Nächte. Ein Tag Naoshima (Zug nach Uno ca. 1 Std., Fähre ca. 20 Min.), ein ruhiger Tag in Okayama.",
-        "<strong>Museen:</strong> Das Chichu-Kunstmuseum braucht ein Zeitfenster-Ticket; viele Museen auf Naoshima sind montags geschlossen.",
+        "<strong>Museen:</strong> Das Chichu-Kunstmuseum braucht ein Zeitfenster-Ticket (Verkauf jeweils am 5. für den übernächsten Monat). Die Museen auf Naoshima sind montags geschlossen, an Feiertagen wie dem Mo, 19.07.2027 (Tag des Meeres) offen und dafür am Dienstag zu.",
         "<strong>Velo:</strong> E-Bikes am Hafen Miyanoura mieten, die Insel ist hügelig."
       ],
       ausserdem: "Korakuen-Garten, Kurashiki Bikan (Altstadt), Teshima (Nachbarinsel), Benesse House.",
@@ -390,7 +390,7 @@ REISEN.japan = {
   },
   tippsIntro: "Einreise, Gesundheit, Sicherheit und Praktisches für die Reise mit 2 Erwachsenen und 2 Kids.",
   tipps: [
-    ["Einreise", "Für Schweizer Reisende visumfrei bis 90 Tage, Reisepass für die ganze Aufenthaltsdauer gültig. Einreise- und Zollformular vorab online über «Visit Japan Web» ausfüllen (QR-Code). Die elektronische Reisegenehmigung JESTA ist erst ab 2028 geplant. Vor Abreise beim EDA und der japanischen Botschaft prüfen."],
+    ["Einreise", "Für Schweizer Reisende visumfrei bis 90 Tage, Reisepass für die ganze Aufenthaltsdauer gültig. Einreise- und Zollformular vorab online über «Visit Japan Web» ausfüllen (QR-Code). Die elektronische Reisegenehmigung JESTA ist erst ab 2028 geplant. Die Ausreisesteuer (seit Juli 2026 3’000 Yen pro Person) ist im Flugpreis enthalten. Vor Abreise beim EDA und der japanischen Botschaft prüfen."],
     ["Währung und Zahlung", "Japanischer Yen. Karten werden in Städten fast überall akzeptiert, auf dem Land und in kleinen Lokalen oft nur Bargeld. Geld am Automaten in Konbini (7-Eleven) oder bei der Post abheben. IC-Karte (Suica, Pasmo) für Bahn, Bus und Läden."],
     ["Wetter im Juni und Juli", "Bis Mitte oder Ende Juli Regenzeit (Tsuyu) mit feuchtwarmen Tagen um 25–30 °C; danach heiss und schwül mit 30–35 °C. In den Bergen (Nikko, Hakone, Takayama) kühler. Taifune sind ab Juli möglich, besonders im Süden."],
     ["Zeitzone", "Japan ist UTC+9, im Sommer 7 Stunden vor der Schweiz."],

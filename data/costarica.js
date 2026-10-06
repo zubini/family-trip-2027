@@ -184,7 +184,7 @@ REISEN.costarica = {
       text: "Kleiner Nationalpark, in dem Regenwald direkt an weisse Sandstrände grenzt. Affen, Faultiere und Waschbären sind fast garantiert.",
       teens: "Nationalpark mit Guide (Faultiere, Kapuzineraffen, Totenkopfäffchen), Baden an der Playa Manuel Antonio, Katamaran-Ausflug mit Schnorcheln, Kajak in den Mangroven, Surfstunde in Playa Espadilla.",
       fakten: [
-        "<strong>Dauer:</strong> 4 Nächte. Der Park ist montags geschlossen, Tickets nur online und mit Zeitfenster.",
+        "<strong>Dauer:</strong> 4 Nächte. Der Park ist dienstags geschlossen (am Di, 06.07.2027 also nicht einplanen), Tickets nur online und mit Zeitfenster.",
         "<strong>Hinweis:</strong> Affen nicht füttern, Essen gut verstauen; in den Park dürfen keine Snacks und Plastiktüten mitgenommen werden.",
         "<strong>Wetter:</strong> Grüne Saison: Vormittags oft sonnig, nachmittags Schauer. Ende Juni oder Juli gibt es oft eine trockenere Phase («Veranillo»)."
       ],

@@ -50,12 +50,15 @@ window.QUELLEN = {
         ["Japan Experience: Jetfoil Toppy nach Yakushima", "https://www.japan-experience.com/plan-your-trip/to-know/traveling-japan/toppy-jetfoil-yakushima"],
         ["Japan Travel (JNTO): Preise Japan Rail Pass ab Oktober 2026", "https://www.japan.travel/en/ca/news/price-increases-are-coming-to-the-nationwide-japan-rail-pass-2026/"],
         ["Islands.com: Yakushima, Schnorcheln mit Meeresschildkröten", "https://www.islands.com/1808870/swim-rare-sea-turtles-wander-mountain-fairy-forest-lush-japanese-yakushima-island"],
+        ["Benesse Art Site: Chichu-Kunstmuseum (Öffnungstage, Reservation)", "https://www.benesse-artsite.jp/en/art/chichu.html"],
+        ["GoAsia: Ausreisesteuer Japan 3’000 Yen ab Juli 2026", "https://goasia.cc/en/news/japan-departure-tax-increase-2026"],
         ["Japan Experience: Reisegenehmigung JESTA ab 2028", "https://www.japan-experience.com/plan-your-trip/to-know/before-you-travel/jesta-authorization-travel-visa-japan"]
       ]
     },
     {
       titel: "Costa Rica",
       links: [
+        ["Flightmapper: Edelweiss WK37 San José–Zürich (Flugzeit)", "https://info.flightmapper.net/flight/Edelweiss_Air_WK_37"],
         ["Edelweiss: Flugplan Zürich–San José", "https://www.flyedelweiss.com/us/en/fly/flight-information/timetable.html?destination=SJO"],
         ["Rough Guides: San José–Tortuguero (Shuttle und Boot)", "https://roughguides.com/costa-rica/getting-around/san-jose-to-tortuguero"],
         ["kimkim: Tortuguero–Puerto Viejo", "https://kimkim.com/ab/tortuguero-to-puerto-viejo-de-talamanca"],
@@ -63,6 +66,8 @@ window.QUELLEN = {
         ["Enter Costa Rica: Fahrzeiten zwischen den Reisezielen", "https://www.entercostarica.com/travel-guide/drive-times"],
         ["Along Dusty Roads: Anreise nach Drake Bay über Sierpe", "https://www.alongdustyroads.com/posts/how-to-get-to-drake-bay-sierpe-boat"],
         ["Costa Rica Shuttle: Uvita–San Gerardo de Dota", "https://costaricashuttle.rezdy.com/117499/private-transportation-uvita-to-san-gerardo-de-dota"],
+        ["Dominical Realty / Tico Times: Ruhetag Nationalpark Manuel Antonio", "https://ticotimes.net/?p=110824"],
+        ["Pacuare Lodge: Rafting Klasse III–IV (Mindestalter)", "https://www.pacuarelodge.com/rafting"],
         ["VisaRequirements: Einreise für Schweizer Reisende", "https://visarequirements.info/countries/switzerland/costa-rica/"]
       ]
     },
