@@ -64,7 +64,7 @@ REISEN.spanien = {
   planHinweise: [
     [
       "Gesamt",
-      "36 Nächte, 12 Stationen und 3 Zwischenübernachtungen (Sète, Bilbao, Carcassonne). Keine Flüge: alles mit dem eigenen Auto, zu den Inseln mit drei Autofähren. Insgesamt ca. 5’500 km Autofahrt und ca. 13 Std. auf Fähren, zusammen ca. 67 Std. reine Reisezeit; mit Pausen, Check-in an den Häfen und Sommerstau realistisch ca. 77–79 Std. Die längsten Reisetage: Brig-Glis–Sète (ca. 7–7,5 Std.), Carcassonne–Brig-Glis (ca. 7,5–8 Std.), Fähre Barcelona–Palma (ca. 6,5–7,5 Std.), Bardenas–Carcassonne (ca. 6,5–7 Std.), Sevilla–Lissabon (ca. 4,5–5 Std.), Porto–Ribadeo (ca. 4–4,5 Std.) und Benidorm–Cabo de Gata (ca. 3,5–4 Std.)."
+      "36 Nächte, 12 Stationen und 3 Zwischenübernachtungen (Sète, Bilbao, Carcassonne). Keine Flüge: alles mit dem eigenen Auto, zu den Inseln mit drei Autofähren. Insgesamt ca. 5’500 km Autofahrt und ca. 13 Std. auf Fähren, zusammen ca. 67 Std. reine Reisezeit; mit Pausen, Check-in an den Häfen und Sommerstau realistisch ca. 77–79 Std. von Tür zu Tür (ca. 62–64 Std. im Auto, ca. 15 Std. auf den Fähren). Die längsten Reisetage: Brig-Glis–Sète (ca. 7–7,5 Std.), Carcassonne–Brig-Glis (ca. 7,5–8 Std.), Fähre Barcelona–Palma (ca. 6,5–7,5 Std.), Bardenas–Carcassonne (ca. 6,5–7 Std.), Sevilla–Lissabon (ca. 4,5–5 Std.), Porto–Ribadeo (ca. 4–4,5 Std.) und Benidorm–Cabo de Gata (ca. 3,5–4 Std.)."
     ],
     [
       "Vorab buchen",

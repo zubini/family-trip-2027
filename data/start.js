@@ -16,7 +16,7 @@ window.START = {
     spanien: {
       name: "Spanien / Portugal",
       zusatz: "Roadtrip ab Brig-Glis",
-      passt: "ihr ohne Flug und Jetlag reisen, Städte, Kultur und Strände verbinden und die langen Autofahrten in Kauf nehmen möchtet.",
+      passt: "ihr ohne Flug und Jetlag reisen, Städte, Kultur und Inseln verbinden möchtet und viele Stunden am Steuer in Kauf nehmt.",
       kurz: "Fünf Wochen mit dem eigenen Auto über Barcelona, die Balearen und Benidorm nach Andalusien, Portugal und in den Norden Spaniens. Auf der Reiseseite auch in umgekehrter Reihenfolge (Andalusien zuerst).",
       route: "Brig-Glis, Sète, Barcelona, Mallorca, Ibiza und Formentera, Benidorm, Cabo de Gata, Granada, Caminito del Rey, Sevilla, Lissabon, Porto, Playa de las Catedrales, Bilbao, Bardenas Reales, Carcassonne, Brig-Glis",
       stationen: "12 Stationen und 3 Zwischenübernachtungen",
@@ -25,26 +25,29 @@ window.START = {
       rueckflug: "Mit dem Auto in zwei Tagen über Carcassonne (ca. 6,5–7 und 7,5–8 Std.), Ankunft Sa, 24.07.2027",
       dazwischen: "Keine Flüge: eigenes Auto, dazu drei Autofähren (Barcelona–Palma, Palma–Ibiza, Ibiza–Dénia)",
       tempo: "Ca. 67 Std. reine Reisezeit (ca. 54 Std. Auto für ca. 5’500 km und ca. 13 Std. Fähre), realistisch mit Pausen, Check-in und Stau ca. 77–79 Std.; 5 lange Reisetage mit 6,5–8 Std. (Brig-Glis–Sète, Fähre Barcelona–Palma, Bardenas–Carcassonne, Carcassonne–Brig-Glis) bzw. 4,5–5 Std. (Sevilla–Lissabon)",
+      gesamt: "Ca. 77–79 Std. Tür zu Tür, ohne Flughafen und ohne Jetlag: davon realistisch ca. 62–64 Std. im Auto (ca. 54 Std. reine Fahrzeit) und ca. 15 Std. auf den Fähren inklusive Check-in, wo man sich bewegen und ausruhen kann.",
       wetter: "Heiss und trocken: in Andalusien und den Bardenas oft 35–42 °C, an den Küsten 28–32 °C; Portugal und der Norden angenehmer, Mittelmeer ca. 23–26 °C.",
       einreise: "Schengen: Identitätskarte genügt, keine Formulare. Crit’Air-Vignette für Frankreich, Registrierung für die Umweltzone Barcelona, elektronische Maut in Portugal.",
       hoehepunkte: "Sagrada Família, Inselhopping mit dem Auto auf Mallorca, Ibiza und Formentera, Terra Mítica und Aqualandia in Benidorm, Cabo de Gata, Alhambra und Gorafe, Caminito del Rey, Sevilla, Lissabon, Porto, Playa de las Catedrales, Bardenas Reales.",
       teens: "Freizeit- und Wasserparks (Terra Mítica, Aqualandia, Isla Mágica), Schnorcheln und Kajak, Caminito del Rey, Game-of-Thrones-Drehorte, Höhlen und Felsbögen bei Ebbe, Surfen in Galicien.",
       pro: [
-        "Kein Flug, kein Jetlag, zwei Tage länger möglich",
-        "Knapp die günstigste Variante, flexibel mit dem eigenen Auto und viel Gepäckraum",
-        "Sehr abwechslungsreich: Städte, Kultur, Inseln, Strände und Wüsten"
+        "Kein Flug und kein Jetlag, Tür zu Tür am wenigsten Reisezeit (ca. 77–79 Std.); zwei Tage länger möglich",
+        "Viele Strand- und Badetage auf Mallorca, Ibiza, Formentera und in Benidorm, Schnorcheln in klarem Mittelmeer",
+        "Städte und Kultur: Barcelona, Granada mit der Alhambra, Sevilla, Lissabon und Porto",
+        "Unkompliziert und sicher: Europa, keine Impfungen, eigenes Auto mit viel Platz fürs Gepäck",
+        "Am wenigsten CO₂ und knapp die günstigste Variante"
       ],
       contra: [
-        "Viele Stunden im Auto (realistisch ca. 77–79 Std.), lange An- und Rückreise",
-        "Grosse Hitze in Andalusien und den Bardenas",
-        "Hochsaison: Fähren, Inseln und Alhambra früh buchen",
-        "Kaum Dschungel, Schnorcheln ohne tropische Riffe"
+        "Ca. 62–64 Std. am Steuer, je ca. 7–8 Std. am ersten und letzten Tag",
+        "Grosse Hitze in Andalusien und den Bardenas (oft 35–42 °C)",
+        "Hochsaison: Strände voll, Fähren, Unterkünfte und Alhambra früh buchen",
+        "Keine Korallenriffe und kein Dschungel; der Atlantik in Galicien ist kühl"
       ]
     },
     usa: {
       name: "USA",
       zusatz: "von Las Vegas nach New York",
-      passt: "Roadtrip, Nationalparks und Grossstädte wichtiger sind als Dschungel und Schnorcheln und das Budget (rund {mehrkosten} CHF mehr) passt.",
+      passt: "Nationalparks, Roadtrip und Grossstädte im Vordergrund stehen und das höhere Budget (rund {mehrkosten} CHF mehr) passt.",
       kurz: "Fünf Wochen quer durch die USA mit Nationalparks, Grossen Seen und Grossstädten.",
       route: "Las Vegas, Zion, Page, Grand Canyon, Monument Valley, Santa Fe, White Sands, Chicago, Sandusky, Niagara Falls, Washington, Philadelphia, New York",
       stationen: "13 Stationen und 1 Zwischenübernachtung",
@@ -53,26 +56,27 @@ window.START = {
       rueckflug: "New York–Zürich ca. 7,5–8 Std.",
       dazwischen: "Keine Flüge dazwischen: Mietwagen und 2-Tage-Roadtrip, im Osten Amtrak",
       tempo: "Ca. 60 Std. reine Fahrzeit (ca. 5’800 km), realistisch mit Pausen und Stau ca. 70–75 Std. im Auto, an 11 Fahrtagen: Roadtrip mit 10 und 12 Std., 5 Tage mit 4–7 Std., 4 Tage mit 2,5–3,5 Std.",
+      gesamt: "Ca. 102–109 Std. Tür zu Tür: Bahn Brig-Glis–Zürich Flughafen (ca. 2,5 Std.), ca. 2 Std. Wartezeit am Flughafen, Flüge, Einreise und Mietwagen zusammen ca. 32–34 Std. (mit Direktflug, mit Umsteigen mehr), dazu ca. 70–75 Std. im Auto. Uhr −9 Std., Jetlag vor allem nach der Rückkehr.",
       wetter: "Las Vegas, Zion und White Sands 38–45 °C; ab Juli Monsungewitter und Sturzfluten im Südwesten; im Osten heiss und schwül mit Gewittern.",
       einreise: "ESTA für alle vier (ca. 40 USD pro Person), Regeln im Wandel. Nationalpark-Jahrespass für Nicht-Residenten 250 USD, 100 USD Zusatzgebühr pro Person ab 16 Jahren in 11 Parks.",
       hoehepunkte: "Zion, Antelope Canyon, Horseshoe Bend, Grand Canyon, Monument Valley, White Sands, Chicago, Niagarafälle, Washington, New York.",
       teens: "Cedar Point (Achterbahnen), Meow Wolf, Sandboarding auf White Sands, Smithsonian, New York.",
       pro: [
-        "Kurze Flüge (ca. 12 und 7,5–8 Std.)",
-        "Grosse Naturwunder und Städte mit vielen Teenager-Highlights",
-        "Eigenes Tempo mit dem Mietwagen"
+        "Die spektakulärsten Landschaften: Zion, Grand Canyon, Antelope Canyon, Monument Valley, White Sands und die Niagarafälle",
+        "Grossstädte wie Las Vegas, Chicago, Washington und New York mit vielen Teenager-Highlights, dazu Cedar Point",
+        "Eigenes Tempo mit dem Mietwagen, sehr gute medizinische Versorgung"
       ],
       contra: [
-        "Mit Abstand am teuersten",
-        "Hitze und Monsun im Südwesten im Juli",
-        "Realistisch ca. 70–75 Std. im Auto, davon 2 sehr lange Fahrtage",
-        "Parkgebühren und ESTA-Regeln im Wandel"
+        "Mit Abstand am teuersten (ca. {plan:usa} CHF), Arztkosten sehr hoch",
+        "Am meisten Zeit im Auto (ca. 70–75 Std.), zwei Tage mit 10 und 12 Std. reiner Fahrzeit; Tür zu Tür ca. 102–109 Std. und Jetlag",
+        "Hitze im Südwesten (Las Vegas oft über 40 °C) und Gewitter im Monsun",
+        "Kaum Strand und kein Schnorcheln, zwei Langstreckenflüge mit viel CO₂, ESTA-Regeln vorab prüfen"
       ]
     },
     asien: {
       name: "Malaysia / Thailand",
       zusatz: "von Singapur nach Bangkok",
-      passt: "ihr Schnorcheln, Inseln und Strand wollt und trotzdem Singapur, Kuala Lumpur und Bangkok sehen möchtet.",
+      passt: "Schnorcheln, tropische Inseln und Strand im Vordergrund stehen und ihr dazu Singapur, Kuala Lumpur, Penang und Bangkok erleben möchtet.",
       kurz: "Fünf Wochen über Land und Wasser durch Singapur, Malaysia und Thailand.",
       route: "Singapur, Pulau Tioman, Kuala Lumpur, Perhentian Islands, Penang, Khanom, Koh Samui, Koh Tao, Hua Hin, Bangkok",
       stationen: "10 Stationen und 2 Zwischenübernachtungen",
@@ -81,26 +85,27 @@ window.START = {
       rueckflug: "Direktflug Bangkok–Zürich ca. 11,5–12 Std.",
       dazwischen: "Keine Flüge dazwischen, alles per Bus, Zug und Fähre",
       tempo: "Ca. 55–60 Std. reine Reisezeit mit Bus, Zug und Fähre, realistisch mit Wartezeiten ca. 65–70 Std.; 6 lange Reisetage mit 5–9 Std. (Tioman–Kuala Lumpur, Kuala Lumpur–Kuala Besut, Perhentian–Penang, Penang–Hat Yai, Hat Yai–Khanom, Koh Tao–Hua Hin)",
+      gesamt: "Ca. 101–108 Std. Tür zu Tür: Bahn Brig-Glis–Zürich Flughafen (ca. 2,5 Std.), ca. 2 Std. Wartezeit am Flughafen, Flüge und Transfers zusammen ca. 36–38 Std., dazu ca. 65–70 Std. mit Bus, Zug und Fähre; niemand muss selber fahren. Uhr +6 Std. (Thailand +5 Std.), Jetlag vor allem nach der Ankunft.",
       wetter: "Penang und Bangkok haben Regenzeit; die Ostküste Malaysias (Tioman, Perhentian) und der Golf von Thailand (Samui, Tao) sind meist ruhiger.",
       einreise: "Singapur und Malaysia visafrei. Thailand: seit 15.09.2026 nur noch 30 Tage visafrei und höchstens zwei Landgrenz-Einreisen pro Jahr, Länderliste prüfen. Online-Anmeldungen (SG Arrival Card, MDAC, TDAC).",
       hoehepunkte: "Schnorcheln auf Tioman, den Perhentians, Samui und Koh Tao, Street-Food in Penang, Delfine bei Khanom, Ang Thong, Grand Palace und Wat Arun in Bangkok.",
       teens: "Schnorcheln, Inselhopping, Wasserparks, Sentosa mit Universal Studios, Kajak.",
       pro: [
-        "Viele Strand- und Schnorchelstationen",
-        "Direktflüge hin und zurück, kein Flug dazwischen",
-        "Günstig, fast gleich wie Indonesien"
+        "Die meisten Schnorchel- und Strandtage: Tioman, Perhentian Islands, Koh Samui und Koh Tao bei ca. 29 °C warmem Wasser",
+        "Städte mit Street-Food und Tempeln: Singapur, Kuala Lumpur, Penang und Bangkok",
+        "Direktflüge hin und zurück, unterwegs muss niemand selber fahren; günstig (ca. {plan:asien} CHF)"
       ],
       contra: [
-        "Viele Etappen und lange Reisetage",
-        "Regenzeit in Penang und Bangkok",
-        "Tioman und Perhentian ähneln sich",
-        "Einreiseregeln für Thailand (30 Tage visafrei) prüfen"
+        "Tür zu Tür ca. 101–108 Std., davon 6 lange Reisetage mit 5–9 Std. und viele Umstiege mit Gepäck; Jetlag",
+        "Regenzeit in Penang und Bangkok, schwüle Hitze",
+        "Dengue-Mückenschutz, kein Leitungswasser, Impfstatus vorab klären",
+        "Zwei Langstreckenflüge mit viel CO₂; Thailand nur 30 Tage visafrei, Regeln prüfen"
       ]
     },
     bali: {
       name: "Malaysia / Indonesien",
       zusatz: "von Singapur nach Bali",
-      passt: "Abenteuer mit Vulkanen und Tempeln im Vordergrund stehen und ihr den langen Rückflug mit Stopp in Kauf nehmt.",
+      passt: "Vulkane, Tempel und Abenteuer im Vordergrund stehen und ihr den langen Rückflug mit Stopp in Kauf nehmt.",
       kurz: "Fünf Wochen durch Malaysia, Java und Bali mit Vulkanen, Tempeln und Inseln.",
       route: "Singapur, Pulau Tioman, Kuala Lumpur, Jakarta, Yogyakarta, Bromo und Malang, Ijen und Banyuwangi, Ubud, Nusa Penida, Uluwatu",
       stationen: "10 Stationen",
@@ -109,19 +114,21 @@ window.START = {
       rueckflug: "Kein Direktflug ab Denpasar, mit einem Stopp ca. 17–22 Std.",
       dazwischen: "1 Flug dazwischen (Kuala Lumpur–Jakarta, ca. 2–2,5 Std.), sonst Bus, Zug und Fähre",
       tempo: "Ca. 50 Std. reine Reisezeit mit Bus, Zug, Fähre und einem Flug, realistisch mit Wartezeiten ca. 60 Std.; 5 lange Reisetage mit 5–8 Std. (Tioman–Kuala Lumpur, Jakarta–Yogyakarta, Yogyakarta–Malang, Bromo–Banyuwangi, Banyuwangi–Ubud); dazu ein nächtlicher Ijen-Aufstieg",
+      gesamt: "Ca. 101–108 Std. Tür zu Tür: Bahn Brig-Glis–Zürich Flughafen (ca. 2,5 Std.), ca. 2 Std. Wartezeit am Flughafen, Flüge (Rückflug mit Stopp) und Transfers zusammen ca. 41–48 Std., dazu ca. 60 Std. mit Bus, Zug, Fähre und einem Inlandflug. Uhr +6 Std., Jetlag vor allem nach der Ankunft.",
       wetter: "Trockenzeit auf Java und Bali (beste Reisezeit, Bali Hochsaison); Bromo und Ijen sind nachts sehr kalt.",
       einreise: "Visa on Arrival bzw. e-VOA für 30 Tage reicht (ca. 23 Tage Aufenthalt), dazu Einreiseformular und Touristenabgabe für Bali. Singapur und Malaysia visafrei.",
       hoehepunkte: "Borobudur und Prambanan, Sonnenaufgang am Bromo, «Blue Fire» am Ijen, Ubud, Nusa Penida mit Mantarochen, Uluwatu.",
       teens: "Jeeptour auf den Bromo, Ijen-Nachtaufstieg, Höhlen-Tubing, Schnorcheln, Surf-Schnupperstunde.",
       pro: [
-        "Trockenzeit auf Java und Bali",
-        "Vulkane, Tempel und Strände in grosser Abwechslung",
-        "Günstig, ähnlich wie Thailand"
+        "Trockenzeit auf Java und Bali, die beste Reisezeit",
+        "Vulkane Bromo und Ijen, Borobudur und Prambanan, Reisterrassen bei Ubud und Mantarochen bei Nusa Penida",
+        "Günstig (ca. {plan:bali} CHF)"
       ],
       contra: [
-        "Rückflug mit Stopp (ca. 17–22 Std.)",
-        "Ein Flug dazwischen und lange Zugtage auf Java",
-        "Ijen-Nachtaufstieg ist für den Sohn (12) anspruchsvoll"
+        "Rückflug mit Stopp (ca. 17–22 Std.), ein Inlandflug und lange Zugtage; Tür zu Tür ca. 101–108 Std. und Jetlag",
+        "Gesundheit: Dengue, Tollwut-Risiko, Methanol in Getränken, kein Leitungswasser",
+        "Der Ijen-Nachtaufstieg ist für den Sohn (12) anspruchsvoll",
+        "Am meisten CO₂ (ca. 24’000 km Flug); auf Bali oft Wellen statt ruhiger Badestrände"
       ]
     }
   },
@@ -240,19 +247,19 @@ window.START = {
       kriterium: "Reisekomfort",
       spanien: [
         3,
-        "Kein Flug, kein Jetlag und das eigene Auto mit viel Platz fürs Gepäck, die meisten Etappen 1,5–3 Stunden; aber realistisch ca. 77–79 Stunden unterwegs, je ca. 7–8 Stunden am ersten und letzten Tag, und jemand muss fahren."
+        "Tür zu Tür am wenigsten Reisezeit (ca. 77–79 Stunden), kein Flughafen, kein Jetlag, eigenes Auto mit viel Platz fürs Gepäck; dafür ca. 62–64 Stunden am Steuer, je ca. 7–8 Stunden am ersten und letzten Tag. Auf den Fähren (ca. 15 Stunden) kann man sich bewegen und ausruhen."
       ],
       usa: [
         2,
-        "Flüge von ca. 12 und 7,5–8 Stunden, aber realistisch ca. 70–75 Stunden im Auto, davon 10 und 12 Stunden reine Fahrzeit an den zwei Roadtrip-Tagen."
+        "Ca. 102–109 Stunden Tür zu Tür: zwei Langstreckenflüge mit Einreise und Jetlag, dazu am meisten Zeit im Auto (ca. 70–75 Stunden), mit 10 und 12 Stunden reiner Fahrzeit an den zwei Roadtrip-Tagen."
       ],
       asien: [
-        3,
-        "Direktflüge hin und zurück, niemand muss selber fahren; aber realistisch ca. 65–70 Stunden unterwegs, davon 6 lange Reisetage mit 5–9 Stunden und vielen Umstiegen mit Gepäck."
+        2,
+        "Ca. 101–108 Stunden Tür zu Tür: zwei Direktflüge mit Jetlag, dazu ca. 65–70 Stunden mit Bus, Zug und Fähre und viele Umstiege mit Gepäck; niemand muss selber fahren."
       ],
       bali: [
-        2,
-        "Rückflug mit Stopp (17–22 Stunden), ein Flug dazwischen und lange Zugtage auf Java; realistisch ca. 60 Stunden unterwegs."
+        1,
+        "Ca. 101–108 Stunden Tür zu Tür: Rückflug mit Stopp (17–22 Stunden), ein Inlandflug, lange Zugtage auf Java, viele Umstiege mit Gepäck und Jetlag; dazu der nächtliche Ijen-Aufstieg."
       ]
     },
     {

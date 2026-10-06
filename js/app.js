@@ -247,7 +247,7 @@ function einstieg(S, REISEN) {
   var ZEILEN = [
     ['Route', 'route'], ['Nächte vor Ort', function (b) { return b.nights + ' Nächte (' + b.zeit + ')'; }],
     ['Stationen', 'stationen'], ['Länder', 'laender'], ['Hinreise', 'hinflug'], ['Rückreise', 'rueckflug'],
-    ['Flüge dazwischen', 'dazwischen'], ['Reisetempo', 'tempo'],
+    ['Flüge dazwischen', 'dazwischen'], ['Reisetempo', 'tempo'], ['Reisezeit Tür zu Tür', 'gesamt'],
     ['Budget (Plan, 4 Personen)', function (b) { return '<b>' + chf(b.plan) + ' CHF</b> (Spanne ' + chf(b.lo) + '–' + chf(b.hi) + ' CHF)'; }],
     ['Pro Tag und pro Person', function (b) { return 'ca. ' + chf(b.day) + ' CHF pro Tag, ca. ' + chf(b.pp) + ' CHF pro Person'; }],
     ['Wetter im Juli', 'wetter'], ['Einreise', 'einreise'], ['Höhepunkte', 'hoehepunkte'], ['Für die Teenager', 'teens']

@@ -41,6 +41,9 @@ Sie sind eine Einschätzung und werden nicht automatisch angepasst.
 - Pro Etappe: gerundete Spanne, z.B. «ca. 4,5–5 Std.». Teilstrecken nennen, wenn es mehrere
   Verkehrsmittel sind, z.B. «Fähre (ca. 1,5–2 Std.), Bus (ca. 5–6 Std.); insgesamt ca. 7–8 Std.»
 - Die Gesamtzeit muss zur Summe der Etappen passen. Bei jeder Änderung nachrechnen.
+- Für den Vergleich zusätzlich die Reisezeit **Tür zu Tür** ab Brig-Glis (`gesamt` in `data/start.js`): bei Flugreisen
+  inklusive Bahn nach Zürich Flughafen (ca. 2,5 Std.), Check-in, Einreise und Transfers; bei Autoreisen Zeit im Auto
+  und auf Fähren getrennt nennen.
 - Zeitzonenwechsel erwähnen (z.B. «Uhr +1 Std.»).
 - Fahrpläne mit wenigen Verbindungen pro Tag als solche kennzeichnen (z.B. «nur drei Züge pro Tag»).
 - Distanzen in km; wo Meilen stehen, sinnvoll gerundet umrechnen und an allen Stellen gleich halten.

@@ -72,8 +72,9 @@ window.QUELLEN = {
       ]
     },
     {
-      titel: "Bewertung: CO₂",
+      titel: "Bewertung: Reisezeit und CO₂",
       links: [
+        ["Trainline: Zürich Flughafen–Brig mit dem Zug (ca. 2,5 Std.)", "https://thetrainline.com/train-times/zurich-to-brig"],
         ["myclimate: Hin- und Rückflug Genf–New York in Economy ca. 2,5 t CO₂ pro Person (Grundlage für die groben Schätzungen, ca. 0,2 kg pro km)", "https://www.MyClimate.org/fileadmin/user_upload/myclimate_-_home/01_Information/02_News_Press/03_Press_releases/Documents/190814_PressRelease_myclimate_How_much_CO2_is_emitted_durig_a_flight.pdf"],
         ["myclimate: CO₂-Rechner für Flüge und Autofahrten", "https://co2.myclimate.org"]
       ]
