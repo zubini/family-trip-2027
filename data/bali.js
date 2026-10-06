@@ -364,7 +364,7 @@ REISEN.bali = {
         {titel: "Tanah Lot", suche: "Tanah Lot temple", stichwort: "tanah lot"},
         {titel: "Jimbaran", suche: "Jimbaran beach", stichwort: "jimbaran"},
         {titel: "Suluban", suche: "Suluban beach Uluwatu|Blue Point beach Uluwatu", stichwort: "suluban|blue point"},
-        {titel: "Melasti", suche: "Melasti beach Bali", stichwort: "melasti"}
+        {titel: "Kecak-Tanz", suche: "Kecak dance Uluwatu|Kecak dance", stichwort: "kecak"}
       ]
     }
   ],

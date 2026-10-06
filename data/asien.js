@@ -345,9 +345,9 @@ REISEN.asien = {
       ],
       ausserdem: "John-Suwan-Aussichtspunkt, Freedom Beach, Sairee Beach (Sonnenuntergang), Wanderungen, Haistation-Besuch (Ethik beachten).",
       bilder: [
-        {titel: "Koh Nang Yuan", suche: "Ko Nang Yuan sandbar|Koh Nang Yuan", stichwort: "nang yuan"},
+        {titel: "Riffhai", suche: "blacktip reef shark|Carcharhinus melanopterus", stichwort: "blacktip|melanopterus"},
         {titel: "Sairee Beach", suche: "Sairee Beach Ko Tao|Sairee", stichwort: "sairee"},
-        {titel: "Koh Tao", suche: "Ko Tao island bay|Koh Tao", stichwort: "ko tao|koh tao"},
+        {titel: "Aussichtspunkt", suche: "John-Suwan Viewpoint Koh Tao|Koh Tao viewpoint", stichwort: "suwan|viewpoint"},
         {titel: "Tanote Bay", suche: "Tanote Bay Ko Tao|Tanote Bay", stichwort: "tanote"},
         {titel: "Shark Bay", suche: "Shark Bay Ko Tao|Thian Og bay", stichwort: "shark bay|thian og"},
         {titel: "Mango Bay", suche: "Mango Bay Ko Tao|Ao Mamuang", stichwort: "mango bay|mamuang"}

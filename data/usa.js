@@ -174,7 +174,7 @@ REISEN.usa = {
         {titel: "Antelope Canyon", suche: "Antelope Canyon|Lower Antelope Canyon", stichwort: "antelope canyon"},
         {titel: "Lake Powell", suche: "Lake Powell Arizona|Lake Powell", stichwort: "lake powell"},
         {titel: "Glen Canyon Dam", suche: "Glen Canyon Dam", stichwort: "glen canyon dam"},
-        {titel: "Upper Antelope", suche: "Upper Antelope Canyon light beam", stichwort: "antelope"},
+        {titel: "Rainbow Bridge", suche: "Rainbow Bridge National Monument|Rainbow Bridge Lake Powell", stichwort: "rainbow bridge national|lake powell"},
         {titel: "Page", suche: "Page Arizona|Wahweap Bay", stichwort: "page|wahweap"}
       ]
     },
@@ -197,10 +197,10 @@ REISEN.usa = {
       bilder: [
         {titel: "South Rim", suche: "Grand Canyon South Rim|Grand Canyon National Park", stichwort: "grand canyon"},
         {titel: "Mather Point", suche: "Mather Point Grand Canyon", stichwort: "mather point"},
-        {titel: "Hopi Point", suche: "Hopi Point Grand Canyon", stichwort: "hopi point"},
+        {titel: "Kalifornischer Kondor", suche: "California condor Grand Canyon|California condor", stichwort: "condor"},
         {titel: "Desert View", suche: "Desert View Watchtower", stichwort: "desert view"},
         {titel: "Bright Angel Trail", suche: "Bright Angel Trail Grand Canyon", stichwort: "bright angel"},
-        {titel: "Sonnenuntergang", suche: "Grand Canyon sunset", stichwort: "grand canyon"}
+        {titel: "Maultiere", suche: "Grand Canyon mule ride|Grand Canyon mules", stichwort: "mule"}
       ]
     },
     {
@@ -221,11 +221,7 @@ REISEN.usa = {
       ausserdem: "Goosenecks State Park, Valley of the Gods (Schotterstrasse), Mexican Hat (Felsformation), Four Corners Monument (optional, ca. 1,5 Std.).",
       bilder: [
         {titel: "Monument Valley", suche: "Monument Valley Utah Arizona|Monument Valley", stichwort: "monument valley"},
-        {
-          titel: "Mitten Buttes",
-          suche: "Mitten Buttes Monument Valley|Monument Valley Mittens",
-          stichwort: "mitten|monument valley"
-        },
+        {titel: "Navajo-Hogan", suche: "Navajo hogan Monument Valley|Navajo hogan", stichwort: "hogan"},
         {
           titel: "Forrest Gump Point",
           suche: "Forrest Gump Point US 163|US 163 Monument Valley",
@@ -284,10 +280,10 @@ REISEN.usa = {
       bilder: [
         {titel: "Gipsdünen", suche: "White Sands National Park dunes|White Sands dunes", stichwort: "white sands"},
         {titel: "Sonnenuntergang", suche: "White Sands sunset", stichwort: "white sands"},
-        {titel: "Dune Drive", suche: "White Sands dune drive|White Sands road", stichwort: "white sands"},
-        {titel: "Alkali Flat", suche: "Alkali Flat White Sands", stichwort: "alkali"},
+        {titel: "Besucherzentrum", suche: "White Sands National Monument Visitor Center", stichwort: "visitor center"},
+        {titel: "Weisse Eidechse", suche: "Holbrookia maculata White Sands|bleached earless lizard", stichwort: "holbrookia|lizard"},
         {titel: "Yucca", suche: "White Sands yucca|White Sands plants", stichwort: "white sands"},
-        {titel: "Gipsdünen am Morgen", suche: "White Sands New Mexico sunrise", stichwort: "white sands"}
+        {titel: "Raumfahrtmuseum", suche: "New Mexico Museum of Space History", stichwort: "space history"}
       ]
     },
     {
@@ -368,16 +364,12 @@ REISEN.usa = {
       ],
       ausserdem: "Goat Island, Niagara Gorge Trail, Old Fort Niagara, Buffalo (Chicken Wings).",
       bilder: [
-        {titel: "Niagarafälle", suche: "Niagara Falls|Niagara Falls New York", stichwort: "niagara"},
+        {titel: "Cave of the Winds", suche: "Cave of the Winds Niagara", stichwort: "cave of the winds"},
         {titel: "American Falls", suche: "American Falls Niagara", stichwort: "american falls"},
         {titel: "Horseshoe Falls", suche: "Horseshoe Falls Niagara", stichwort: "horseshoe falls"},
         {titel: "Maid of the Mist", suche: "Maid of the Mist Niagara", stichwort: "maid of the mist"},
         {titel: "Abends", suche: "Niagara Falls night illumination|Niagara Falls at night", stichwort: "niagara"},
-        {
-          titel: "Goat Island",
-          suche: "Goat Island Niagara Falls|Three Sisters Islands",
-          stichwort: "goat island|three sisters"
-        }
+        {titel: "Rainbow Bridge", suche: "Rainbow Bridge Niagara Falls", stichwort: "rainbow bridge"}
       ]
     },
     {

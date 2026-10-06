@@ -119,7 +119,7 @@ REISEN.costarica = {
         {titel: "Punta Uva", suche: "Punta Uva beach", stichwort: "punta uva"},
         {titel: "Manzanillo", suche: "Manzanillo Costa Rica beach|Gandoca Manzanillo", stichwort: "manzanillo"},
         {titel: "Puerto Viejo", suche: "Puerto Viejo de Talamanca", stichwort: "puerto viejo"},
-        {titel: "Faultier", suche: "three-toed sloth Costa Rica|Bradypus variegatus", stichwort: "sloth|bradypus"},
+        {titel: "Pfeilgiftfrosch", suche: "Oophaga pumilio|strawberry poison dart frog", stichwort: "oophaga|pumilio|poison"},
         {titel: "Korallenriff", suche: "Cahuita coral reef", stichwort: "cahuita|coral"}
       ]
     },
@@ -144,7 +144,7 @@ REISEN.costarica = {
         {titel: "Wasserfall La Fortuna", suche: "La Fortuna Waterfall", stichwort: "fortuna"},
         {titel: "Rio Celeste", suche: "Rio Celeste Tenorio", stichwort: "celeste"},
         {titel: "Hängebrücke", suche: "Arenal hanging bridges|Mistico hanging bridge", stichwort: "hanging bridge|arenal"},
-        {titel: "Arenal-See", suche: "Lake Arenal", stichwort: "arenal"},
+        {titel: "Heisse Quellen", suche: "Tabacon hot springs|Arenal hot springs", stichwort: "tabacon|hot spring"},
         {titel: "Tenorio", suche: "Tenorio Volcano National Park", stichwort: "tenorio"}
       ]
     },
@@ -166,9 +166,9 @@ REISEN.costarica = {
       ausserdem: "Santa-Elena-Reservat, Kolibri-Garten, Schmetterlingsgarten, Curi-Cancha-Reservat, Käserei.",
       bilder: [
         {titel: "Nebelwald", suche: "Monteverde Cloud Forest", stichwort: "monteverde"},
-        {titel: "Hängebrücke", suche: "Monteverde hanging bridge", stichwort: "monteverde"},
-        {titel: "Kolibri", suche: "hummingbird Monteverde", stichwort: "monteverde|hummingbird"},
-        {titel: "Quetzal", suche: "resplendent quetzal Monteverde", stichwort: "quetzal"},
+        {titel: "Zipline", suche: "zip line Monteverde|canopy zip line Costa Rica", stichwort: "zip"},
+        {titel: "Nasenbär", suche: "white-nosed coati Costa Rica|Nasua narica", stichwort: "coati|nasua"},
+        {titel: "Glasfrosch", suche: "glass frog Costa Rica|Hyalinobatrachium", stichwort: "glass frog|hyalinobatrachium"},
         {titel: "Santa Elena", suche: "Santa Elena Cloud Forest Reserve", stichwort: "santa elena"},
         {titel: "Orchidee", suche: "Monteverde orchid", stichwort: "monteverde|orchid"}
       ]

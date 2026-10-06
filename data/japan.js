@@ -143,7 +143,7 @@ REISEN.japan = {
         {titel: "Owakudani", suche: "Owakudani", stichwort: "owakudani"},
         {titel: "Piratenschiff", suche: "Hakone pirate ship Lake Ashi", stichwort: "pirate|ashi"},
         {titel: "Freilichtmuseum", suche: "Hakone Open-Air Museum", stichwort: "open air museum|open-air museum"},
-        {titel: "Fuji", suche: "Mount Fuji from Hakone|Mount Fuji", stichwort: "fuji"}
+        {titel: "Onsen", suche: "Hakone onsen|onsen open-air bath", stichwort: "onsen"}
       ]
     },
     {
@@ -218,7 +218,7 @@ REISEN.japan = {
         {titel: "Osaka-Burg", suche: "Osaka Castle", stichwort: "osaka castle|osaka-jo"},
         {titel: "Universal Studios", suche: "Universal Studios Japan", stichwort: "universal"},
         {titel: "Kaiyukan", suche: "Osaka Aquarium Kaiyukan", stichwort: "kaiyukan"},
-        {titel: "Umeda Sky Building", suche: "Umeda Sky Building", stichwort: "umeda"},
+        {titel: "Takoyaki", suche: "Takoyaki Osaka|Takoyaki", stichwort: "takoyaki"},
         {titel: "Shinsekai", suche: "Shinsekai Tsutenkaku", stichwort: "shinsekai|tsutenkaku"}
       ]
     },
@@ -345,8 +345,8 @@ REISEN.japan = {
         {titel: "Tokyo Station", suche: "Tokyo Station Marunouchi", stichwort: "tokyo station"},
         {titel: "Tokyo Tower", suche: "Tokyo Tower", stichwort: "tokyo tower"},
         {titel: "Ueno", suche: "Ueno Park", stichwort: "ueno"},
-        {titel: "Skyline", suche: "Tokyo skyline night", stichwort: "tokyo"},
-        {titel: "Shibuya Sky", suche: "Shibuya Scramble Square|Shibuya Sky", stichwort: "shibuya"},
+        {titel: "Shinkansen", suche: "Shinkansen N700S|Shinkansen Mount Fuji", stichwort: "shinkansen"},
+        {titel: "Sushi", suche: "Nigiri sushi|Sushi platter", stichwort: "sushi"},
         {titel: "Ameyoko", suche: "Ameyoko market", stichwort: "ameyoko"}
       ]
     }
