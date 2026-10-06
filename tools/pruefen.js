@@ -16,7 +16,7 @@ const index = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
 const dateien = [...index.matchAll(/<script src="(data\/[^"]+\.js)"/g)].map(m => m[1]);
 for (const f of dateien) require(path.join(root, f));
 const app = require(path.join(root, 'js', 'app.js'));
-const fehlerUnsplash = Object.entries(global.UNSPLASH || {}).filter(([k, f]) => f && !(f.url && f.name && f.profil)).map(([k]) => k);
+const fehlerUnsplash = Object.entries(global.UNSPLASH || {}).filter(([k, f]) => f && !f.nein && !(f.url && f.name && f.profil)).map(([k]) => k);
 
 const fehler = [];
 fehlerUnsplash.forEach(k => fehler.push(`data/bilder-unsplash.js: Eintrag «${k}» ohne Bildadresse oder Fotograf`));

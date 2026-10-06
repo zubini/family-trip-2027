@@ -1,5 +1,6 @@
 // Von tools/bilder-unsplash.js erzeugt, nicht von Hand ändern (ausser zum Entfernen eines unpassenden Fotos).
 // Schlüssel = «suche» des Bildes; 0 = auf Unsplash nichts Passendes, die Seite sucht dann auf Wikimedia Commons.
+// {"nein": [ids]} = abgelehnte Fotos (nicht passend), ebenfalls Commons.
 window.UNSPLASH = {
   "Aiguablava|Cala Aiguablava": 0,
   "Albaicin Granada": {"id":"fOIbxCpATCg","url":"https://images.unsplash.com/photo-1593776280031-60d7e0a1b3fc?ixid=M3wxMDk0OTEzfDB8MXxzZWFyY2h8NHx8QWxiYWljaW4lMjBHcmFuYWRhfGVufDF8MHx8fDE3OTEzMTI2NTZ8MA&ixlib=rb-4.1.0","name":"Rosa Armada","profil":"https://unsplash.com/@rosarmada?utm_source=familienreise_2027&utm_medium=referral","seite":"https://unsplash.com/photos/brown-and-white-concrete-houses-under-blue-sky-during-daytime-fOIbxCpATCg?utm_source=familienreise_2027&utm_medium=referral","farbe":"#598cc0"},
@@ -8,7 +9,7 @@ window.UNSPLASH = {
   "Balcon del Mediterraneo Benidorm": {"id":"7TIgflA-XtU","url":"https://images.unsplash.com/photo-1723156357491-29d591f726e7?ixid=M3wxMDk0OTEzfDB8MXxzZWFyY2h8MXx8QmFsY29uJTIwZGVsJTIwTWVkaXRlcnJhbmVvJTIwQmVuaWRvcm18ZW58MXwwfHx8MTc5MTMxMjY1NHww&ixlib=rb-4.1.0","name":"Shell Chapman","profil":"https://unsplash.com/@walkswithmycamera?utm_source=familienreise_2027&utm_medium=referral","seite":"https://unsplash.com/photos/a-group-of-people-standing-on-top-of-a-pier-next-to-the-ocean-7TIgflA-XtU?utm_source=familienreise_2027&utm_medium=referral","farbe":"#73a6d9"},
   "Barri Gotic Barcelona": 0,
   "Begur Costa Brava|Begur castle": 0,
-  "Benidorm skyline|Benidorm beach": {"id":"hfnTeXSQ6jM","url":"https://images.unsplash.com/photo-1555574588-c1951128987c?ixid=M3wxMDk0OTEzfDB8MXxzZWFyY2h8OHx8QmVuaWRvcm0lMjBza3lsaW5lfGVufDF8MHx8fDE3OTEzMTI2NTN8MA&ixlib=rb-4.1.0","name":"Carlos Torres","profil":"https://unsplash.com/@elcarito?utm_source=familienreise_2027&utm_medium=referral","seite":"https://unsplash.com/photos/aerial-photo-of-sea-near-city-hfnTeXSQ6jM?utm_source=familienreise_2027&utm_medium=referral","farbe":"#f3f3f3"},
+  "Benidorm skyline|Benidorm beach": {"nein": ["hfnTeXSQ6jM"]},
   "Cala Comte Ibiza": 0,
   "Cala Sa Tuna Begur|Sa Tuna": 0,
   "Calo des Moro": 0,
@@ -16,10 +17,10 @@ window.UNSPLASH = {
   "Cap de Formentor": {"id":"fpiiJxQ1YVc","url":"https://images.unsplash.com/photo-1625243316186-6d7537d930b7?ixid=M3wxMDk0OTEzfDB8MXxzZWFyY2h8MTZ8fENhcCUyMGRlJTIwRm9ybWVudG9yfGVufDF8MHx8fDE3OTEzMTI2NTF8MA&ixlib=rb-4.1.0","name":"Fabian S","profil":"https://unsplash.com/@45foto?utm_source=familienreise_2027&utm_medium=referral","seite":"https://unsplash.com/photos/white-and-brown-concrete-building-on-top-of-mountain-during-daytime-fpiiJxQ1YVc?utm_source=familienreise_2027&utm_medium=referral","farbe":"#d9c0c0"},
   "Casa Batllo": {"id":"AHriUrIdtqQ","url":"https://images.unsplash.com/photo-1651940774004-c1b6e2f6de6a?ixid=M3wxMDk0OTEzfDB8MXxzZWFyY2h8M3x8Q2FzYSUyMEJhdGxsb3xlbnwxfDB8fHwxNzkxMzEyNjUwfDA&ixlib=rb-4.1.0","name":"Yu","profil":"https://unsplash.com/@hiraganakat?utm_source=familienreise_2027&utm_medium=referral","seite":"https://unsplash.com/photos/casa-batllo-with-statues-on-the-roof-AHriUrIdtqQ?utm_source=familienreise_2027&utm_medium=referral","farbe":"#737373"},
   "Court of the Lions Alhambra|Patio de los Leones": 0,
-  "Dalt Vila Ibiza": {"id":"vja_5iP97XU","url":"https://images.unsplash.com/photo-1512298980958-b2bfd58b51a3?ixid=M3wxMDk0OTEzfDB8MXxzZWFyY2h8NHx8RGFsdCUyMFZpbGElMjBJYml6YXxlbnwxfDB8fHwxNzkxMzEyNjUyfDA&ixlib=rb-4.1.0","name":"Katy Cao","profil":"https://unsplash.com/@katycao?utm_source=familienreise_2027&utm_medium=referral","seite":"https://unsplash.com/photos/person-standing-under-balcony-with-bicycle-vja_5iP97XU?utm_source=familienreise_2027&utm_medium=referral","farbe":"#c0c0c0"},
+  "Dalt Vila Ibiza": {"nein": ["vja_5iP97XU"]},
   "Desfiladero de los Gaitanes": 0,
   "El Chorro Malaga": {"id":"ovdavWgN8Ls","url":"https://images.unsplash.com/photo-1714392278866-1bd2144643e3?ixid=M3wxMDk0OTEzfDB8MXxzZWFyY2h8Mnx8RWwlMjBDaG9ycm8lMjBNYWxhZ2F8ZW58MXwwfHx8MTc5MTMxMjY1N3ww&ixlib=rb-4.1.0","name":"Miguel Romero González","profil":"https://unsplash.com/@miguel_rg?utm_source=familienreise_2027&utm_medium=referral","seite":"https://unsplash.com/photos/a-bird-flying-over-a-mountain-at-sunset-ovdavWgN8Ls?utm_source=familienreise_2027&utm_medium=referral","farbe":"#40260c"},
-  "El Torcal de Antequera": {"id":"IU7ad5M2cpc","url":"https://images.unsplash.com/photo-1568476994182-3fb60a3cf51c?ixid=M3wxMDk0OTEzfDB8MXxzZWFyY2h8NXx8RWwlMjBUb3JjYWwlMjBkZSUyMEFudGVxdWVyYXxlbnwxfDB8fHwxNzkxMzEyNjU3fDA&ixlib=rb-4.1.0","name":"Quino Al","profil":"https://unsplash.com/@quinoal?utm_source=familienreise_2027&utm_medium=referral","seite":"https://unsplash.com/photos/mountains-during-day-IU7ad5M2cpc?utm_source=familienreise_2027&utm_medium=referral","farbe":"#c0d9f3"},
+  "El Torcal de Antequera": {"nein": ["IU7ad5M2cpc"]},
   "Es Vedra Ibiza": {"id":"7RTfWKy1iko","url":"https://images.unsplash.com/photo-1656426890856-7b9282c28c26?ixid=M3wxMDk0OTEzfDB8MXxzZWFyY2h8NHx8RXMlMjBWZWRyYSUyMEliaXphfGVufDF8MHx8fDE3OTEzMTI2NTJ8MA&ixlib=rb-4.1.0","name":"Bjorn Agerbeek","profil":"https://unsplash.com/@bjornagerbeek?utm_source=familienreise_2027&utm_medium=referral","seite":"https://unsplash.com/photos/a-rocky-island-in-the-ocean-7RTfWKy1iko?utm_source=familienreise_2027&utm_medium=referral","farbe":"#c0d9d9"},
   "Gorafe desert|Desierto de Gorafe": 0,
   "Medes Islands|Illes Medes L'Estartit": 0,

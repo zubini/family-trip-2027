@@ -6,7 +6,8 @@
 //   UNSPLASH_ACCESS_KEY=… node tools/bilder-unsplash.js [reise …] [--neu]
 //
 // Ohne Angabe werden alle Reisen bearbeitet. Bereits gesuchte Bilder werden übersprungen, auch die ohne
-// Treffer; --neu sucht die ohne Treffer nochmals. Läuft normalerweise in der GitHub-Action «Unsplash-Bilder»,
+// Treffer; --neu sucht die ohne Treffer nochmals. Ein unpassendes Foto in data/bilder-unsplash.js durch
+// {"nein": ["<id>"]} ersetzen: dann zeigt die Seite das Commons-Bild, und --neu sucht ein anderes Foto. Läuft normalerweise in der GitHub-Action «Unsplash-Bilder»,
 // die den Schlüssel als Repository-Secret hat. Der Schlüssel gehört nie ins Repo.
 //
 // Demo-Schlüssel erlauben 50 Anfragen pro Stunde. Pro Bild braucht es eine Suche und, bei einem Treffer,
@@ -34,7 +35,8 @@ const keys = reisen.length ? reisen : Object.keys(global.REISEN);
 // Bisherige Treffer laden (Schlüssel = «suche»; 0 = gesucht, aber nichts Passendes gefunden)
 let bisher = {};
 if (fs.existsSync(ZIEL)) { global.UNSPLASH = null; require(ZIEL); bisher = global.UNSPLASH || {}; }
-const benutzt = new Set(Object.values(bisher).filter(Boolean).map(b => b.id));
+const benutzt = new Set(Object.values(bisher).filter(b => b && b.id).map(b => b.id));
+Object.values(bisher).forEach(b => { if (b && b.nein) b.nein.forEach(id => benutzt.add(id)); });
 
 // Bilder in Reihenfolge der Seite: Titelbild, dann die ersten vier Bilder jeder Galerie
 const PRO_STATION = 4;
@@ -65,13 +67,15 @@ function speichern() {
   const zeilen = Object.keys(bisher).sort().map(k => '  ' + JSON.stringify(k) + ': ' + JSON.stringify(bisher[k]));
   fs.writeFileSync(ZIEL, '// Von tools/bilder-unsplash.js erzeugt, nicht von Hand ändern (ausser zum Entfernen eines unpassenden Fotos).\n' +
     '// Schlüssel = «suche» des Bildes; 0 = auf Unsplash nichts Passendes, die Seite sucht dann auf Wikimedia Commons.\n' +
+    '// {"nein": [ids]} = abgelehnte Fotos (nicht passend), ebenfalls Commons.\n' +
     'window.UNSPLASH = {\n' + zeilen.join(',\n') + '\n};\n');
 }
 
 (async () => {
   let neuGefunden = 0, ohne = 0;
   for (const b of auftraege) {
-    if (b.suche in bisher && (bisher[b.suche] || !neu)) continue;
+    const alt = bisher[b.suche];
+    if (b.suche in bisher && ((alt && alt.url) || !neu)) continue;
     let treffer = null;
     for (const q of b.suche.split('|').slice(0, 1)) { // nur die erste Suche, um Anfragen zu sparen
       if (rest < 3) break;
@@ -91,8 +95,9 @@ function speichern() {
         seite: treffer.links.html + '?' + UTM,
         farbe: treffer.color
       };
+      if (alt && alt.nein) bisher[b.suche].nein = alt.nein;
       neuGefunden++;
-    } else { bisher[b.suche] = 0; ohne++; }
+    } else { bisher[b.suche] = alt && alt.nein ? { nein: alt.nein } : 0; ohne++; }
     speichern();
   }
   const offen = auftraege.filter(b => !(b.suche in bisher)).length;
