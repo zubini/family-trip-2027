@@ -274,7 +274,7 @@ if (typeof document === 'undefined') { module.exports = { seite: seite, reise: r
 
 var inhalt = document.getElementById('inhalt');
 inhalt.innerHTML = seite(window.START, window.REISEN, window.QUELLEN);
-document.querySelector('.gnav .wrap').insertAdjacentHTML('beforeend', liste(Object.keys(window.REISEN), function (k) {
+document.getElementById('menu').insertAdjacentHTML('beforeend', liste(Object.keys(window.REISEN), function (k) {
   return '<a href="#' + k + '" data-trip="' + k + '">' + window.REISEN[k].menu + '</a>';
 }) + (window.QUELLEN ? '<a class="neben" href="#quellen" data-trip="quellen">Quellen</a>' : ''));
 
@@ -395,6 +395,13 @@ function route() {
     }
   } else if (h === k) { window.scrollTo(0, 0); }
 }
+// Menü auf schmalen Bildschirmen: auf- und zuklappen, nach einer Auswahl wieder schliessen
+var gnav = document.querySelector('.gnav'), menuBtn = gnav.querySelector('.menu-btn');
+function menu(offen) { gnav.classList.toggle('offen', offen); menuBtn.setAttribute('aria-expanded', offen ? 'true' : 'false'); }
+menuBtn.addEventListener('click', function () { menu(!gnav.classList.contains('offen')); });
+document.addEventListener('click', function (e) { if (!gnav.contains(e.target) || e.target.closest('.menu a, a.logo')) menu(false); });
+document.addEventListener('keydown', function (e) { if (e.key === 'Escape') menu(false); });
+
 window.addEventListener('hashchange', route);
 route();
 })();
