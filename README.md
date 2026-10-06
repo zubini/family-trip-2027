@@ -25,6 +25,7 @@ data/             die Inhalte, hier wird fast alles geändert
   asien.js        Malaysia / Thailand (Singapur–Bangkok)
   bali.js         Malaysia / Indonesien (Singapur–Bali)
   quellen.js      Seite «Quellen» (Belege für Fahrzeiten, Einreise, Bilder)
+  bilder-unsplash.js  Unsplash-Fotos (erzeugt von tools/bilder-unsplash.js)
 css/              Gestaltung (basis, navigation, reise, karte, start)
 js/app.js         baut die Seite aus den Daten, lädt Bilder, Navigation
 karten/           Routenkarten als SVG (werden erzeugt, nicht von Hand ändern)
@@ -62,6 +63,7 @@ Jede Reise in `data/` enthält der Reihe nach:
 - **Budget:** Die Beträge werden von Hand gepflegt. Die Einstiegsseite liest Planwert, Spanne und Nächte automatisch aus den Reisen.
 - **Bewertung und Pro/Contra** in `data/start.js` sind eine Einschätzung. Bei Änderungen an den Reisen von Hand nachziehen.
 - **Bilder:** Jedes Bild hat einen `titel` (Bildunterschrift) und entweder eine feste `datei` auf Wikimedia Commons oder `suche` (Suchbegriffe, mit `|` getrennt) und `stichwort` (muss im Dateinamen vorkommen). Gesuchte Bilder werden beim Öffnen der Seite automatisch gefunden.
+- **Unsplash:** Die ersten vier Bilder jeder Station und die Titelbilder kommen, wenn möglich, von Unsplash. Die GitHub-Action «Unsplash-Bilder» sucht sie stündlich mit `tools/bilder-unsplash.js` (Schlüssel im Repository-Secret `UNSPLASH_ACCESS_KEY`, 50 Anfragen pro Stunde) und schreibt sie nach `data/bilder-unsplash.js`. Ein unpassendes Foto dort löschen und den Eintrag auf `0` setzen, dann kommt wieder das Commons-Bild. Neue oder geänderte `suche`-Texte werden beim nächsten Lauf gesucht.
 - **Ersatzbilder:** Findet die Seite zu einem Motiv kein Bild, sucht sie ein anderes Bild der Station (über den Stationsnamen). Heisst der Ort auf Englisch anders, `ersatzsuche` setzen (z.B. `"Lisbon"`).
 - **Quellen:** Neue Belege in `data/quellen.js` als `["Beschreibung", "https://…"]` in die passende Gruppe eintragen.
 - **Varianten:** Eine Reise kann eine Alternative haben, z.B. `data/spanien2.js` (umgekehrte Reihenfolge). Die Alternative bekommt `alternativeZu: "spanien"` und beide ein `variante` (Text im Umschalter). Sie erscheint nicht im Menü und nicht auf der Einstiegsseite, sondern als Umschalter oben auf der Reiseseite. Eigene Karten unter `tools/karten/` anlegen.

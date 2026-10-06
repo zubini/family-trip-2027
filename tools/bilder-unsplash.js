@@ -1,0 +1,100 @@
+// Sucht zu den ersten vier Bildern jeder Station (Felder «suche» und «stichwort») und zu den Titelbildern
+// passende Fotos auf Unsplash und
+// schreibt sie fest nach data/bilder-unsplash.js. Die Seite zeigt diese Fotos mit Nennung des Fotografen;
+// wo nichts Passendes gefunden wurde, sucht sie wie bisher auf Wikimedia Commons.
+//
+//   UNSPLASH_ACCESS_KEY=… node tools/bilder-unsplash.js [reise …] [--neu]
+//
+// Ohne Angabe werden alle Reisen bearbeitet. Bereits gesuchte Bilder werden übersprungen, auch die ohne
+// Treffer; --neu sucht die ohne Treffer nochmals. Läuft normalerweise in der GitHub-Action «Unsplash-Bilder»,
+// die den Schlüssel als Repository-Secret hat. Der Schlüssel gehört nie ins Repo.
+//
+// Demo-Schlüssel erlauben 50 Anfragen pro Stunde. Pro Bild braucht es eine Suche und, bei einem Treffer,
+// eine Meldung an Unsplash (Pflicht laut API-Richtlinien), also bis 8 Anfragen pro Station. Das Werkzeug hört
+// rechtzeitig auf und macht beim nächsten Lauf weiter. Die übrigen Bilder kommen immer von Wikimedia Commons.
+const fs = require('fs');
+const path = require('path');
+const root = path.join(__dirname, '..');
+const ZIEL = path.join(root, 'data', 'bilder-unsplash.js');
+const KEY = process.env.UNSPLASH_ACCESS_KEY;
+const UTM = 'utm_source=familienreise_2027&utm_medium=referral';
+
+if (!KEY) { console.error('UNSPLASH_ACCESS_KEY fehlt.'); process.exit(1); }
+
+const args = process.argv.slice(2);
+const neu = args.includes('--neu');
+global.window = global;
+const html = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
+for (const m of html.matchAll(/<script src="(data\/[^"]+\.js)"><\/script>/g)) {
+  if (!/start|quellen|bilder-unsplash/.test(m[1])) require(path.join(root, m[1]));
+}
+const reisen = args.filter(a => !a.startsWith('--'));
+const keys = reisen.length ? reisen : Object.keys(global.REISEN);
+
+// Bisherige Treffer laden (Schlüssel = «suche»; 0 = gesucht, aber nichts Passendes gefunden)
+let bisher = {};
+if (fs.existsSync(ZIEL)) { global.UNSPLASH = null; require(ZIEL); bisher = global.UNSPLASH || {}; }
+const benutzt = new Set(Object.values(bisher).filter(Boolean).map(b => b.id));
+
+// Bilder in Reihenfolge der Seite: Titelbild, dann die ersten vier Bilder jeder Galerie
+const PRO_STATION = 4;
+const auftraege = [];
+for (const k of keys) {
+  const R = global.REISEN[k];
+  if (!R) { console.error('Unbekannte Reise: ' + k); process.exit(1); }
+  if (R.titelbild && R.titelbild.suche) auftraege.push(R.titelbild);
+  for (const s of R.stationen) s.bilder.filter(b => b.suche).slice(0, PRO_STATION).forEach(b => auftraege.push(b));
+}
+
+const norm = t => String(t || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[_\-]/g, ' ');
+function passt(foto, stichwort) {
+  const text = norm([foto.alt_description, foto.description, foto.location && foto.location.name,
+    foto.location && foto.location.city, ...(foto.tags || []).map(t => t.title)].join(' '));
+  return stichwort.split('|').some(w => text.includes(norm(w).trim()));
+}
+
+let rest = 50;
+async function api(url) {
+  const r = await fetch(url, { headers: { Authorization: 'Client-ID ' + KEY, 'Accept-Version': 'v1' } });
+  rest = parseInt(r.headers.get('x-ratelimit-remaining') || '0', 10);
+  if (!r.ok) throw new Error(r.status + ' ' + url);
+  return r.json();
+}
+
+function speichern() {
+  const zeilen = Object.keys(bisher).sort().map(k => '  ' + JSON.stringify(k) + ': ' + JSON.stringify(bisher[k]));
+  fs.writeFileSync(ZIEL, '// Von tools/bilder-unsplash.js erzeugt, nicht von Hand ändern (ausser zum Entfernen eines unpassenden Fotos).\n' +
+    '// Schlüssel = «suche» des Bildes; 0 = auf Unsplash nichts Passendes, die Seite sucht dann auf Wikimedia Commons.\n' +
+    'window.UNSPLASH = {\n' + zeilen.join(',\n') + '\n};\n');
+}
+
+(async () => {
+  let neuGefunden = 0, ohne = 0;
+  for (const b of auftraege) {
+    if (b.suche in bisher && (bisher[b.suche] || !neu)) continue;
+    let treffer = null;
+    for (const q of b.suche.split('|').slice(0, 1)) { // nur die erste Suche, um Anfragen zu sparen
+      if (rest < 3) break;
+      const d = await api('https://api.unsplash.com/search/photos?per_page=20&orientation=landscape&content_filter=high&query=' + encodeURIComponent(q));
+      treffer = d.results.find(f => !benutzt.has(f.id) && f.width >= 1600 && passt(f, b.stichwort || q));
+      if (treffer) break;
+    }
+    if (rest < 3 && !treffer) { console.log('Anfragen für diese Stunde aufgebraucht, nächster Lauf macht weiter.'); break; }
+    if (treffer) {
+      await api(treffer.links.download_location); // Pflichtmeldung an Unsplash, dass das Foto verwendet wird
+      benutzt.add(treffer.id);
+      bisher[b.suche] = {
+        id: treffer.id,
+        url: treffer.urls.raw,
+        name: treffer.user.name,
+        profil: treffer.user.links.html + '?' + UTM,
+        seite: treffer.links.html + '?' + UTM,
+        farbe: treffer.color
+      };
+      neuGefunden++;
+    } else { bisher[b.suche] = 0; ohne++; }
+    speichern();
+  }
+  const offen = auftraege.filter(b => !(b.suche in bisher)).length;
+  console.log(`Neu gefunden: ${neuGefunden}, ohne passendes Foto: ${ohne}, noch offen: ${offen}`);
+})().catch(e => { speichern(); console.error(e.message); process.exit(1); });

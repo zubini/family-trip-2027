@@ -73,7 +73,10 @@ Adressen, Telefonnummern oder sonstigen persönlichen Daten eintragen.
 - JavaScript so schreiben, dass es auch auf älteren iPhones und iPads läuft (kein Regex-Lookbehind,
   keine neuesten Sprachfeatures). Die Seite muss auch per Doppelklick (`file://`) funktionieren:
   kein `fetch` für eigene Dateien.
-- Bilder nur von Wikimedia Commons: feste `datei` (mit Auflösung und Motiv geprüft) oder `suche` plus `stichwort`.
+- Bilder nur von Unsplash oder Wikimedia Commons: in den Daten `suche` plus `stichwort` (oder eine feste Commons-`datei`).
+  Die ersten vier Bilder jeder Station und die Titelbilder sucht `tools/bilder-unsplash.js` (GitHub-Action «Unsplash-Bilder»)
+  auf Unsplash und schreibt sie nach `data/bilder-unsplash.js`; der Rest und alles ohne Treffer kommt von Commons.
+  Bei Unsplash-Fotos immer den Fotografen nennen (macht `js/app.js`). Den Schlüssel nie ins Repo schreiben.
 - Karten werden mit `tools/karte.js` erzeugt (eigenständige SVG-Dateien mit eigenem `<style>`). Die Küstenlinien-Lizenz bleibt erhalten.
 - Neue CSS- oder JS-Dateien mit normalem Pfad in `index.html` einbinden; die Cache-Versionen setzt `tools/version.js` beim Veröffentlichen.
 - Neue Farben für Länder-Etiketten in `css/reise.css` ergänzen.

@@ -56,9 +56,26 @@ function commonsUrl(datei, breite) {
   return 'https://commons.wikimedia.org/wiki/Special:FilePath/' + q + '?width=' + breite;
 }
 
+// Fotos von Unsplash (data/bilder-unsplash.js, erzeugt von tools/bilder-unsplash.js) mit Nennung des Fotografen
+var UTM = 'utm_source=familienreise_2027&utm_medium=referral';
+function unsplash(b) {
+  var u = typeof window !== 'undefined' && window.UNSPLASH;
+  return (u && b.suche && u[b.suche]) || null;
+}
+function uUrl(f, w) { return f.url + (f.url.indexOf('?') < 0 ? '?' : '&') + 'w=' + w + '&q=75&auto=format&fit=crop'; }
+function credit(f) {
+  return '<span class="credit">Foto: <a href="' + esc(f.profil) + '" target="_blank" rel="noopener">' + esc(f.name) + '</a> / ' +
+    '<a href="https://unsplash.com/?' + UTM + '" target="_blank" rel="noopener">Unsplash</a></span>';
+}
+
 // fb = Ersatzsuche (Name der Station), falls zum Motiv kein Bild gefunden wird
 function bild(b, fb) {
   var ersatz = fb ? ' data-fb="' + esc(fb) + '"' : '';
+  var f = unsplash(b);
+  if (f) {
+    return '<figure><img src="' + uUrl(f, 1280) + '" srcset="' + uUrl(f, 640) + ' 640w, ' + uUrl(f, 1280) + ' 1280w" sizes="(max-width: 640px) 100vw, 60vw" loading="lazy" alt="' + esc(b.titel) +
+      '" data-u="1" data-q="' + esc(b.suche) + '" data-kw="' + esc(b.stichwort) + '"' + ersatz + ' style="background:' + esc(f.farbe || '#E4EEEC') + '"><figcaption>' + b.titel + '</figcaption>' + credit(f) + '</figure>';
+  }
   if (b.datei) {
     return '<figure><img src="' + commonsUrl(b.datei, 1280) + '" loading="lazy" alt="' + esc(b.titel) + '" data-file="' + esc(b.datei) + '"' + ersatz + '><figcaption>' + b.titel + '</figcaption></figure>';
   }
@@ -66,6 +83,11 @@ function bild(b, fb) {
 }
 
 function titelbild(b) {
+  var f = unsplash(b);
+  if (f) {
+    return '<img src="' + uUrl(f, 2400) + '" srcset="' + [1280, 1920, 2560].map(function (w) { return uUrl(f, w) + ' ' + w + 'w'; }).join(', ') +
+      '" sizes="100vw" alt="' + esc(b.alt) + '" data-u="1" data-q="' + esc(b.suche) + '" data-kw="' + esc(b.stichwort) + '" data-hero="1" fetchpriority="high">' + credit(f);
+  }
   var a = '<img';
   if (b.datei) {
     a += ' src="' + commonsUrl(b.datei, 2400) + '" srcset="' + [1280, 1920, 2560].map(function (w) { return commonsUrl(b.datei, w) + ' ' + w + 'w'; }).join(', ') +
@@ -400,6 +422,17 @@ function ladeBilder(root) {
     i.__f = 1;
     i.onerror = function () {
       if (i.dataset.q && !i.__q) { i.__q = 1; i.removeAttribute('srcset'); i.removeAttribute('src'); queue.push(i); next(); } else { i.onerror = null; ersatz(i); }
+    };
+  });
+  // Unsplash-Foto lädt nicht: Hinweis auf den Fotografen entfernen und wie bisher auf Commons suchen
+  [].slice.call(root.querySelectorAll('img[data-u]')).forEach(function (i) {
+    if (i.__f) return;
+    i.__f = 1;
+    i.onerror = function () {
+      i.onerror = null;
+      var c = i.parentNode.querySelector('.credit');
+      if (c) c.parentNode.removeChild(c);
+      i.removeAttribute('srcset'); i.removeAttribute('src'); i.__q = 1; queue.push(i); next();
     };
   });
   [].slice.call(root.querySelectorAll('img[data-q]')).forEach(function (i) {

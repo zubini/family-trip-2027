@@ -1,0 +1,56 @@
+name: Unsplash-Bilder
+
+# Sucht mit tools/bilder-unsplash.js Fotos auf Unsplash und schreibt sie nach data/bilder-unsplash.js.
+# Läuft stündlich, weil der Demo-Schlüssel nur 50 Anfragen pro Stunde erlaubt; sind alle Bilder gesucht,
+# macht ein Lauf nichts mehr (keine Anfragen). Den Schlüssel liefert das Repository-Secret UNSPLASH_ACCESS_KEY.
+on:
+  workflow_dispatch:
+    inputs:
+      reisen:
+        description: 'Reisen, leer = alle (z.B. "spanien spanien2")'
+        required: false
+        default: ''
+      neu:
+        description: 'Bilder ohne Treffer nochmals suchen'
+        type: boolean
+        default: false
+  schedule:
+    - cron: '17 * * * *'
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: unsplash
+  cancel-in-progress: false
+
+jobs:
+  bilder:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Fotos suchen
+        env:
+          UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
+          REISEN: ${{ inputs.reisen }}
+          NEU: ${{ inputs.neu && '--neu' || '' }}
+        run: node tools/bilder-unsplash.js $REISEN $NEU
+      - name: Daten prüfen
+        run: node tools/pruefen.js
+      - name: Committen und Seite neu veröffentlichen
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git diff --quiet -- data/bilder-unsplash.js; then echo "Keine neuen Fotos."; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/bilder-unsplash.js
+          git commit -m "Unsplash-Fotos ergänzt"
+          git pull --rebase origin "$GITHUB_REF_NAME"
+          git push origin "HEAD:$GITHUB_REF_NAME"
+          # Pushes mit dem Action-Token starten keine anderen Workflows, deshalb die Seite ausdrücklich neu bauen
+          gh workflow run site.yml --ref "$GITHUB_REF_NAME"
