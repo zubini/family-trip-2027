@@ -104,33 +104,33 @@ window.START = {
       ]
     },
     usa2: {
-      name: "USA (Miami – Las Vegas)",
-      zusatz: "Florida Keys, Golfküste und Südwesten",
-      passt: "ihr Strand und Schnorcheln in Florida mit Freizeitparks, Raumfahrt und den Nationalparks im Südwesten verbinden möchtet und lange Autofahrten sowie das höhere Budget in Kauf nehmt.",
-      kurz: "Fünf Wochen mit dem Mietwagen von Miami über die Florida Keys, Orlando und die Golfküste durch Texas in die Nationalparks des Südwestens bis Las Vegas.",
-      route: "Miami, Key West, Key Largo und Islamorada, Orlando, Destin, New Orleans, Houston, San Antonio, Fort Stockton, Carlsbad Caverns, White Sands, Santa Fe, Monument Valley, Grand Canyon, Page, Zion, Las Vegas",
+      name: "USA (Las Vegas – Miami – New York)",
+      zusatz: "Südwesten, Florida und Ostküste",
+      passt: "ihr Nationalparks, Strand und Schnorcheln in Florida, die Städte der Südstaaten und New York verbinden möchtet und einen Inlandflug, viele Fahrtage und das höchste Budget in Kauf nehmt.",
+      kurz: "Fünf Wochen USA: Nationalparks im Südwesten, Inlandflug nach Miami, Roadtrip über die Florida Keys, Orlando, St. Augustine, Savannah, Charleston, die Smoky Mountains und Shenandoah nach Washington und mit dem Zug nach New York.",
+      route: "Las Vegas, Zion, Page, Monument Valley, Grand Canyon, Las Vegas, (Flug) Miami, Key West, Key Largo und Islamorada, Orlando, St. Augustine, Savannah, Charleston, Asheville und Great Smoky Mountains, Shenandoah, Washington, New York",
       stationen: "16 Stationen und 1 Zwischenübernachtung",
-      laender: "USA (Florida bis Nevada)",
-      hinflug: "Direktflug Zürich–Miami ca. 10,5 Std. (täglich)",
-      rueckflug: "Las Vegas–Zürich direkt ca. 10,5 Std. nur an einzelnen Wochentagen, sonst mit Umstieg ca. 14–17 Std.",
-      dazwischen: "Keine Flüge dazwischen: eine Einwegmiete Miami–Las Vegas",
-      tempo: "Ca. 64–65 Std. reine Fahrzeit (ca. 6’000 km), realistisch mit Pausen und Stau ca. 74–78 Std. im Auto an 16 Fahrtagen; die längsten: Santa Fe–Monument Valley (ca. 6,5–7 Std.), Orlando–Destin (ca. 6–7 Std.), New Orleans–Houston (ca. 5–6 Std.), San Antonio–Fort Stockton (ca. 5–5,5 Std.)",
-      gesamt: "Ca. 108–113 Std. Tür zu Tür: Bahn Brig-Glis–Zürich Flughafen (ca. 2,5 Std.), ca. 2 Std. Wartezeit am Flughafen, Flüge, Einreise und Mietwagen zusammen ca. 34–35 Std. (Rückflug direkt, mit Umstieg mehr), dazu ca. 74–78 Std. im Auto. Uhr −6 Std. bei der Ankunft, −9 Std. in Las Vegas; Jetlag vor allem nach der Rückkehr.",
-      wetter: "Florida und die Golfküste heiss und feucht mit Gewittern am Nachmittag, Hurrikansaison; Las Vegas, Zion und White Sands 38–45 °C mit Monsungewittern.",
-      einreise: "ESTA für alle vier (ca. 40 USD pro Person), Regeln im Wandel. Nationalpark-Jahrespass für Nicht-Residenten 250 USD, 100 USD Zusatzgebühr pro Person ab 16 Jahren in 11 Parks.",
-      hoehepunkte: "Everglades, Florida Keys mit Korallenriff, Kennedy Space Center, Universal, weisse Strände bei Destin, New Orleans, Space Center Houston, Carlsbad Caverns, White Sands, Monument Valley, Grand Canyon, Antelope Canyon, Zion.",
-      teens: "Schnorcheln am Riff, Airboat in den Everglades, Universal, Raketen im Kennedy Space Center, Sumpftour in Louisiana, Tropfsteinhöhle, Dünenrutschen auf White Sands, Meow Wolf.",
+      laender: "USA (Nevada bis New York)",
+      hinflug: "Zürich–Las Vegas ca. 12 Std. direkt (nur an einzelnen Wochentagen), sonst 14–17 Std.",
+      rueckflug: "New York–Zürich ca. 7,5–8 Std.",
+      dazwischen: "Inlandflug Las Vegas–Miami (ca. 4,5–5 Std.), zwei Mietwagen (Rundmiete im Südwesten, Einwegmiete Miami–Washington), Amtrak nach New York",
+      tempo: "Ca. 47 Std. reine Fahrzeit (ca. 4’100 km), realistisch mit Pausen und Stau ca. 55–60 Std. im Auto an 15 Fahrtagen; die längsten: Asheville–Luray (ca. 6–6,5 Std.), Key Largo–Orlando (ca. 4,5–5,5 Std.), Charleston–Asheville und Grand Canyon–Las Vegas (je ca. 4,5–5 Std.); dazu Inlandflug und Zug",
+      gesamt: "Ca. 100–110 Std. Tür zu Tür: Bahn Brig-Glis–Zürich Flughafen und zurück (je ca. 2,5 Std.), Flüge mit Wartezeiten, Einreise und Mietwagen zusammen ca. 36–42 Std. (inklusive Inlandflug Las Vegas–Miami), Amtrak Washington–New York ca. 4–5 Std. mit Transfers, dazu ca. 55–60 Std. im Auto. Uhr −9 Std. bei der Ankunft, −6 Std. im Osten; Jetlag vor allem nach der Rückkehr.",
+      wetter: "Südwesten 35–45 °C, ab Juli Monsungewitter; Florida und die Südstaaten heiss und feucht mit Gewittern am Nachmittag, Hurrikansaison; in den Appalachen angenehmer; im Osten schwül.",
+      einreise: "ESTA für alle vier (ca. 40 USD pro Person), Regeln im Wandel. Nationalpark-Jahrespass für Nicht-Residenten 250 USD, 100 USD Zusatzgebühr pro Person ab 16 Jahren in 11 Parks (u.a. Zion, Grand Canyon, Everglades).",
+      hoehepunkte: "Zion, Antelope Canyon, Monument Valley, Grand Canyon, Everglades, Florida Keys mit Korallenriff, Universal und Kennedy Space Center, St. Augustine, Savannah, Charleston, Great Smoky Mountains, Shenandoah, Washington, New York.",
+      teens: "Narrows in Zion, Antelope Canyon, Schnorcheln am Riff, Airboat in den Everglades, Universal, Raketen im Kennedy Space Center, Flugzeugträger in Charleston, Bären in den Smokies, Air and Space Museum, Freiheitsstatue.",
       pro: [
-        "Strand und Schnorcheln in den Florida Keys (einziges Korallenriff vor dem US-Festland) und an der Golfküste",
-        "Die Nationalparks im Südwesten wie bei Las Vegas–New York, dazu Everglades und Carlsbad Caverns",
-        "Viele Teenager-Highlights: Universal, Kennedy Space Center, Space Center Houston, Airboat, Sumpftour",
-        "Direktflug nach Miami, eigenes Tempo mit dem Mietwagen"
+        "Am meisten Abwechslung in den USA: Nationalparks im Südwesten, Strand und Riff in Florida, Altstädte der Südstaaten, Berge der Appalachen, Washington und New York",
+        "Kein langer Roadtrip quer durchs Land: der Inlandflug spart rund 3’500 km; im Osten meist Etappen von 2–5 Std.",
+        "Viele Teenager-Highlights: Universal, Kennedy Space Center, Schnorcheln, Airboat, Antelope Canyon, Freiheitsstatue",
+        "Rückflug ab New York täglich direkt"
       ],
       contra: [
-        "Am teuersten (ca. {plan:usa2} CHF), Einwegmiete quer durchs Land mit hoher Rückgabegebühr, Arztkosten sehr hoch",
-        "Viele Fahrtage (ca. 74–78 Std. im Auto, 16 Fahrtage); Tür zu Tür ca. 108–113 Std. und Jetlag",
-        "Hurrikansaison in Florida, Hitze im Südwesten (Las Vegas oft über 40 °C)",
-        "Kaum Grossstädte wie New York oder Chicago, zwei Langstreckenflüge mit viel CO₂, Rückflug direkt nur an einzelnen Tagen"
+        "Am teuersten (ca. {plan:usa2} CHF): drei Flüge, zwei Mietwagen, Unterkünfte in New York und Key West; Arztkosten sehr hoch",
+        "Tür zu Tür ca. 100–110 Std. mit Jetlag und einem Inlandflug, ca. 55–60 Std. im Auto; viele Unterkunftswechsel",
+        "Hitze im Südwesten, Hurrikansaison in Florida, schwüle Städte im Osten",
+        "Drei Flüge mit viel CO₂; Hinflug direkt nur an einzelnen Wochentagen"
       ]
     },
     asien: {
@@ -180,7 +180,7 @@ window.START = {
       ],
       usa2: [
         5,
-        "Everglades, Florida Keys und Golfküste, Carlsbad Caverns, White Sands, Monument Valley, Grand Canyon, Antelope Canyon und Zion."
+        "Zion, Antelope Canyon, Horseshoe Bend, Monument Valley, Grand Canyon, Everglades, Florida Keys, Great Smoky Mountains und Shenandoah: Wüste, Riff und Berge."
       ],
       asien: [
         4,
@@ -192,7 +192,7 @@ window.START = {
       spanien: [0, "Kein Regenwald: Halbwüsten, Küsten, Pinienwälder und im Norden grüne Hügel."],
       balkan: [0, "Kein Regenwald: Buchenwälder bei Plitvice und am Gargano, Macchia, Pinien und Olivenhaine."],
       usa: [0, "Kein Dschungel: Wüsten, Canyons, Seen und im Osten Laubwälder."],
-      usa2: [1, "Mangroven und Sümpfe in den Everglades und in Louisiana, aber kein Regenwald."],
+      usa2: [1, "Mangroven und Sümpfe in den Everglades, dichte Laubwälder in den Smokies, aber kein Regenwald."],
       asien: [
         3,
         "Dschungelwanderung auf Tioman, Wasserfälle und Inselwälder; kein grosser zusammenhängender Regenwald auf der Route."
@@ -213,8 +213,8 @@ window.START = {
         "Kaum Meer auf der Route; Baden höchstens im Lake Powell, in Hotelpools oder am Lake Michigan in Chicago."
       ],
       usa2: [
-        4,
-        "Florida Keys und die weissen Strände der Golfküste bei Destin mit ca. 29–30 °C warmem Wasser; Gewitter am Nachmittag und Strömung bei roter Flagge."
+        3,
+        "Miami Beach, die Florida Keys und Atlantikstrände in St. Augustine, auf Tybee Island und am Folly Beach mit warmem Wasser; aber nur etwa ein Viertel der Reise am Meer, Gewitter am Nachmittag."
       ],
       asien: [
         5,
@@ -254,7 +254,7 @@ window.START = {
       usa: [4, "Durch die Narrows waten, Antelope Canyon, 2-Tage-Roadtrip und Cedar Point."],
       usa2: [
         4,
-        "Airboat in den Everglades, Schnorcheln am Riff, Tropfsteinhöhle, Dünenrutschen, Narrows in Zion, Antelope Canyon."
+        "Narrows in Zion, Antelope Canyon, Airboat in den Everglades, Schnorcheln am Riff, Wandern zu Wasserfällen und Bären in den Smokies, Tropfsteinhöhle in Luray."
       ],
       asien: [3, "Kajak, Seilrutschen, Inselhopping und Fähren; eher abenteuerlich beim Reisen als in der Natur."]
     },
@@ -270,8 +270,8 @@ window.START = {
       ],
       usa: [5, "Las Vegas, Chicago, Washington, Philadelphia und New York mit Museen und Aussichtsplattformen."],
       usa2: [
-        4,
-        "Miami, New Orleans, Houston, San Antonio, Santa Fe und Las Vegas; ohne New York, Chicago und Washington."
+        5,
+        "Las Vegas, Miami, Key West, St. Augustine, Savannah, Charleston, Washington und New York mit Museen und Altstädten."
       ],
       asien: [4, "Singapur, Kuala Lumpur, Penang und Bangkok mit Street-Food und Tempeln."]
     },
@@ -291,7 +291,7 @@ window.START = {
       ],
       usa2: [
         4,
-        "Sehr gute Spitäler, aber sehr teuer (Reiseversicherung mit hoher Deckung nötig); Hurrikansaison in Florida, Hitze in der Wüste."
+        "Sehr gute Spitäler, aber sehr teuer (Reiseversicherung mit hoher Deckung nötig); Hitze im Südwesten, Hurrikansaison in Florida."
       ],
       asien: [
         3,
@@ -309,7 +309,7 @@ window.START = {
         "ca. {plan:balkan} CHF: kein Flug, Laden an Superchargern gratis, Albanien günstig; dafür teure Unterkünfte in Dubrovnik, auf Hvar und in Apulien im Juli."
       ],
       usa: [1, "ca. {plan:usa} CHF: rund {mehrkosten} CHF mehr, vor allem Unterkünfte und Mietwagen."],
-      usa2: [1, "ca. {plan:usa2} CHF: Einwegmiete Miami–Las Vegas, Unterkünfte in den Keys und Freizeitparks."],
+      usa2: [1, "ca. {plan:usa2} CHF: drei Flüge, zwei Mietwagen, Unterkünfte in New York, Key West und den Nationalparks."],
       asien: [4, "ca. {plan:asien} CHF: Singapur ist teuer, der Rest günstig."]
     },
     {
@@ -328,7 +328,7 @@ window.START = {
       ],
       usa2: [
         2,
-        "Ca. 108–113 Stunden Tür zu Tür: zwei Langstreckenflüge mit Einreise und Jetlag (Rückflug direkt nur an einzelnen Tagen), dazu ca. 74–78 Stunden im Auto an 16 Fahrtagen, die längsten 5–7 Stunden."
+        "Ca. 100–110 Stunden Tür zu Tür: zwei Langstreckenflüge mit Jetlag und ein Inlandflug, dazu ca. 55–60 Stunden im Auto an 15 Fahrtagen, längste Etappe 6–6,5 Stunden; kein Roadtrip quer durchs Land."
       ],
       asien: [
         2,
@@ -351,7 +351,7 @@ window.START = {
       ],
       usa2: [
         1,
-        "Zwei Langstreckenflüge (ca. 17’000 km) und ca. 6’000 km Mietwagen, grob geschätzt ca. 3,5–4 t CO₂ pro Person."
+        "Zwei Langstreckenflüge und ein Inlandflug (zusammen ca. 19’000 km) und ca. 4’100 km Mietwagen, grob geschätzt ca. 4 t CO₂ pro Person."
       ],
       asien: [
         1,

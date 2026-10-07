@@ -61,6 +61,16 @@ function projektion(def) {
   return { W: Math.round(def.breite), H: Math.round(H), p: (lat, lon) => { const [x, y] = roh(lat, lon); return [(x - mnx) * S, (y - mny) * S]; } };
 }
 
+// Liegt der Punkt (px, py) im Polygon? (Strahlverfahren)
+function imRing(ring, px, py) {
+  let drin = false;
+  for (let i = 0, j = ring.length - 1; i < ring.length; j = i++) {
+    const [xi, yi] = ring[i], [xj, yj] = ring[j];
+    if ((yi > py) !== (yj > py) && px < (xj - xi) * (py - yi) / (yj - yi) + xi) drin = !drin;
+  }
+  return drin;
+}
+
 function ladeReise(name) {
   global.window = global;
   require(path.join(root, 'data', name + '.js'));
@@ -87,7 +97,9 @@ function zeichne(def) {
     const polys = g.type === 'MultiPolygon' ? g.coordinates : [g.coordinates];
     for (const poly of polys) {
       const ring = poly[0].map(([x, y]) => p(y, x));
-      if (!ring.some(([x, y]) => x >= -60 && x <= W + 60 && y >= -60 && y <= H + 60)) continue;
+      // Zeichnen, wenn ein Punkt im Ausschnitt liegt oder der Ausschnitt ganz im Land liegt (z.B. Detailkarte mitten in den USA)
+      const innen = ring.some(([x, y]) => x >= -60 && x <= W + 60 && y >= -60 && y <= H + 60);
+      if (!innen && !imRing(ring, W / 2, H / 2)) continue;
       const d = poly.map(r => 'M' + r.map(([x, y]) => p(y, x).map(v => Math.round(v)).join(',')).join(' L') + 'Z').join('');
       out.push(`<path class="${hervor.includes(f.properties.A3) ? 'lr' : 'lo'}" fill-rule="evenodd" d="${d}"/>`);
     }

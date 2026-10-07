@@ -1,10 +1,9 @@
-// Detailkarte Südwesten der Variante Miami–Las Vegas (Stationen 9 bis 16).
+// Detailkarte Südwesten der Reise Las Vegas – Miami – New York (Stationen 1 bis 5).
 const { basis, wege, stationen } = require('./_usa2.js');
 module.exports = Object.assign({}, basis, {
-  titel: 'Detailkarte Südwesten: Carlsbad Caverns bis Las Vegas',
-  laenge: [-117.5, -101.2], breitengrad: [30.4, 38.4], breite: 1000,
-  wege: wege.slice(7),
-  stationen: stationen({ 9: 'r', 10: 'l', 11: 'r', 12: 'r', 13: 'l', 14: 'r', 15: 'u', 16: 'l' }),
-  zwischenstopps: [['Fort Stockton', 'FST', 0]],
-  hinweise: [['Rückflug nach Zürich ✈', [35.7, -115.2], 'middle']]
+  titel: 'Detailkarte Südwesten: Las Vegas, Zion, Page, Monument Valley und Grand Canyon',
+  laenge: [-116.0, -109.3], breitengrad: [35.0, 37.7], breite: 1000,
+  wege: wege.slice(0, 5),
+  stationen: stationen({ 1: 'l', 2: 'u', 3: 'r', 4: 'u', 5: 'd' }),
+  hinweise: [['Flug nach Miami ✈', [35.75, -115.2], 'middle']]
 });

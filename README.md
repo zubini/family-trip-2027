@@ -7,7 +7,7 @@ Reiseführer und Variantenvergleich für die Familienreise 2027 (ab 18. Juni, 2 
 - **Spanien / Portugal**: mit dem eigenen Auto ab Brig-Glis, zu den Balearen mit der Autofähre, ohne Flug (bis 24. Juli)
 - **Adria-Rundreise**: mit dem eigenen Auto über Kroatien, Montenegro, Albanien und Griechenland, mit der Fähre nach Bari und an der Ostküste Italiens zurück (bis 24. Juli)
 - **USA (Las Vegas – New York)** (bis 22. Juli)
-- **USA (Miami – Las Vegas)**: über die Florida Keys und die Golfküste in den Südwesten (bis 22. Juli)
+- **USA (Las Vegas – Miami – New York)**: Nationalparks im Südwesten, Inlandflug nach Miami, Roadtrip bis Washington, mit dem Zug nach New York (bis 22. Juli)
 - **Malaysia / Thailand**: von Singapur nach Bangkok (bis 22. Juli)
 
 Dazu eine Einstiegsseite mit Vergleich, Bewertung, Budget sowie Pro und Contra und eine Seite mit den Quellen.
@@ -23,7 +23,7 @@ data/             die Inhalte, hier wird fast alles geändert
   spanien.js      Spanien / Portugal (mit dem eigenen Auto ab Brig-Glis)
   balkan.js       Adria-Rundreise (mit dem eigenen Auto ab Brig-Glis)
   usa.js          USA (Las Vegas–New York)
-  usa2.js         USA (Miami–Las Vegas)
+  usa2.js         USA (Las Vegas–Miami–New York)
   asien.js        Malaysia / Thailand (Singapur–Bangkok)
   quellen.js      Seite «Quellen» (Belege für Fahrzeiten, Einreise, Bilder)
   bilder-unsplash.js  Unsplash-Fotos (erzeugt von tools/bilder-unsplash.js)
