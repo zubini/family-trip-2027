@@ -49,17 +49,17 @@ window.START = {
       zusatz: "Roadtrip ab Brig-Glis, Marokko mit Fähre",
       passt: "ihr ohne Flug reisen, Städte in Spanien und Portugal mit einer Woche Marokko (Medina, Atlas, Wüste) verbinden möchtet und grosse Hitze, viele Reisetage und mehrere Wechsel zwischen Auto, Fähre und Zug in Kauf nehmt.",
       kurz: "Fünf Wochen mit dem eigenen Elektroauto durch Spanien, Portugal und Südfrankreich mit Schnorcheln bei den Medes-Inseln und am Cabo de Gata, dazu rund sechs Tage Marokko mit Fähre, Zug und Mietwagen: Marrakesch, Hoher Atlas, Wüste bei Merzouga und Fès.",
-      route: "Brig-Glis, Sète, Costa Brava (L’Estartit), Barcelona, Valencia, Cabo de Palos, Cabo de Gata, Tarifa, (Fähre) Tanger, Marrakesch, Dadès-Schlucht, Merzouga, Fès, Cádiz, Sevilla, Algarve (Lagos), Lissabon, Porto, Playa de las Catedrales, San Sebastián, Carcassonne, Avignon, Brig-Glis",
-      stationen: "17 Stationen und 2 Zwischenübernachtungen",
+      route: "Brig-Glis, Sète, Costa Brava (L’Estartit), Barcelona, Valencia, Cabo de Palos, Cabo de Gata, Caminito del Rey, Tarifa, (Fähre) Tanger, Marrakesch, Dadès-Schlucht, Merzouga, Fès, Cádiz, Sevilla, Algarve (Lagos), Lissabon, Porto, Playa de las Catedrales, San Sebastián, Carcassonne, Avignon, Brig-Glis",
+      stationen: "18 Stationen und 2 Zwischenübernachtungen",
       laender: "Frankreich, Spanien, Marokko, Portugal",
       hinflug: "Kein Flug: mit dem eigenen Auto ab Brig-Glis, Zwischenstopp in Sète (ca. 7–7,5 Std.), dann an die Costa Brava (ca. 2,5–3 Std.)",
       rueckflug: "Mit dem Auto ab Avignon über Lyon und Genf (ca. 5,5–6 Std.), Ankunft Sa, 24.07.2027",
       dazwischen: "Keine Flüge: eigenes Elektroauto; nach Marokko mit der Fähre ohne Auto (Tarifa–Tanger), dort Zug und Mietwagen (Einwegmiete Marrakesch–Fès)",
-      tempo: "Ca. 74 Std. reine Fahrzeit (ca. 5’450 km eigenes Auto, ca. 1’000 km Mietwagen), dazu Fähren und Züge in Marokko (ca. 11–13 Std.); realistisch ca. 101–106 Std. Tür zu Tür; die längsten Tage: Brig-Glis–Sète (ca. 7–7,5 Std.), Merzouga–Fès (ca. 7 Std.), Fès–Cádiz und Tarifa–Marrakesch (Fähre und Zug, je ca. 7–9 Std.), Ribadeo–San Sebastián (ca. 5 Std.)",
-      gesamt: "Ca. 101–106 Std. Tür zu Tür, ohne Flughafen und ohne Jetlag: davon realistisch ca. 85–89 Std. im Auto inklusive Ladestopps (ca. 74 Std. reine Fahrzeit) und ca. 16–18 Std. für Fähren und Züge in Marokko mit Passkontrolle und Umsteigen.",
+      tempo: "Ca. 75 Std. reine Fahrzeit (ca. 5’550 km eigenes Auto, ca. 1’000 km Mietwagen), dazu Fähren und Züge in Marokko (ca. 11–13 Std.); realistisch ca. 102–107 Std. Tür zu Tür; die längsten Tage: Brig-Glis–Sète (ca. 7–7,5 Std.), Merzouga–Fès (ca. 7 Std.), Fès–Cádiz und Tarifa–Marrakesch (Fähre und Zug, je ca. 7–9 Std.), Ribadeo–San Sebastián (ca. 5 Std.)",
+      gesamt: "Ca. 102–107 Std. Tür zu Tür, ohne Flughafen und ohne Jetlag: davon realistisch ca. 86–90 Std. im Auto inklusive Ladestopps (ca. 75 Std. reine Fahrzeit) und ca. 16–18 Std. für Fähren und Züge in Marokko mit Passkontrolle und Umsteigen.",
       wetter: "Sehr heiss: Marrakesch und Fès oft 38–42 °C, die Wüste bei Merzouga 42–45 °C, Andalusien 35–40 °C; Lissabon, San Sebastián und die Küsten angenehmer.",
       einreise: "Schengen bis auf Marokko: dort Reisepass für alle (Identitätskarte genügt nicht), kein Visum. Internationaler Führerausweis für den Mietwagen, Crit’Air-Vignette für Frankreich, Umweltzone Barcelona, elektronische Maut in Portugal.",
-      hoehepunkte: "Schnorcheln bei den Medes-Inseln und am Cabo de Gata, Sagrada Família, Oceanogràfic, Jemaa el-Fna in Marrakesch, Pass über den Hohen Atlas, Aït Ben Haddou, Kamelritt und Nacht im Wüstencamp, Medina von Fès, Cádiz, Sevilla, Grotten der Algarve, Lissabon, Felsbögen der Playa de las Catedrales, San Sebastián, Carcassonne.",
+      hoehepunkte: "Schnorcheln bei den Medes-Inseln und am Cabo de Gata, Sagrada Família, Oceanogràfic, Caminito del Rey, Jemaa el-Fna in Marrakesch, Pass über den Hohen Atlas, Aït Ben Haddou, Kamelritt und Nacht im Wüstencamp, Medina von Fès, Cádiz, Sevilla, Grotten der Algarve, Lissabon, Felsbögen der Playa de las Catedrales, San Sebastián, Carcassonne.",
       teens: "Kamelritt und Sandboarding in der Wüste, Souks und Gaukler in Marrakesch, Game-of-Thrones-Drehorte, Kajak an der Algarve, Surfen in San Sebastián, Ritterburg Carcassonne.",
       pro: [
         "Kein Flug und kein Jetlag, und trotzdem eine Woche Afrika: Marrakesch, Atlas, Wüste und Fès",
@@ -69,7 +69,7 @@ window.START = {
       ],
       contra: [
         "Grosse Hitze im Juli: in der Wüste bei Merzouga 42–45 °C, einige Camps schliessen im Sommer; auch Marrakesch und Fès sehr heiss",
-        "Tür zu Tür ca. 101–106 Std., viele Wechsel zwischen eigenem Auto, Fähre, Zug und Mietwagen; einige lange Tage mit 7–9 Std.",
+        "Tür zu Tür ca. 102–107 Std., viele Wechsel zwischen eigenem Auto, Fähre, Zug und Mietwagen; einige lange Tage mit 7–9 Std.",
         "Für Marokko Reisepass für alle, keine Krankenversicherungskarte, kein Leitungswasser; aufdringliche Händler in den Medinas",
         "Weniger Badetage im warmen Mittelmeer als bei Spanien / Portugal"
       ]
@@ -269,7 +269,7 @@ window.START = {
       ],
       marokko: [
         4,
-        "Kamelritt und Nacht im Wüstencamp, Sandboarding, Pass über den Hohen Atlas, Medinas mit Führer, Kajak durch die Grotten der Algarve, Surfen in San Sebastián."
+        "Caminito del Rey, Kamelritt und Nacht im Wüstencamp, Sandboarding, Pass über den Hohen Atlas, Medinas mit Führer, Kajak durch die Grotten der Algarve, Surfen in San Sebastián."
       ],
       usa: [4, "Durch die Narrows waten, Antelope Canyon, 2-Tage-Roadtrip und Cedar Point."],
       usa2: [
@@ -337,7 +337,7 @@ window.START = {
       ],
       marokko: [
         2,
-        "Ca. 101–106 Stunden Tür zu Tür, kein Jetlag; aber viele Wechsel zwischen eigenem Auto, Fähre, Zug und Mietwagen, Passkontrollen und mehrere lange Tage mit 7–9 Stunden."
+        "Ca. 102–107 Stunden Tür zu Tür, kein Jetlag; aber viele Wechsel zwischen eigenem Auto, Fähre, Zug und Mietwagen, Passkontrollen und mehrere lange Tage mit 7–9 Stunden."
       ],
       usa: [
         2,

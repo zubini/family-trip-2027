@@ -41,70 +41,76 @@ REISEN.marokko = {
     },
     {
       datum: "28.–29. Juni",
-      name: "5. Tarifa",
+      name: "5. Caminito del Rey (El Chorro)",
       naechte: 1,
-      info: "Auto über Almería und Málaga (ca. 4–4,5 Std., ca. 380 km)"
+      info: "Auto über Almería und Málaga (ca. 2,5–3 Std., ca. 250 km)"
     },
+    {datum: "29.–30. Juni", name: "6. Tarifa", naechte: 1, info: "Auto über Málaga (ca. 2,25–2,5 Std., ca. 210 km)"},
     {
-      datum: "29. Juni–1. Juli",
-      name: "6. Marrakesch",
+      datum: "30. Juni–2. Juli",
+      name: "7. Marrakesch",
       naechte: 2,
       info: "Fähre nach Tanger (ca. 1 Std., Uhr −1 Std.), Zug über Casablanca (ca. 5,5–6,5 Std.)"
     },
     {
-      datum: "1.–2. Juli",
-      name: "7. Dadès-Schlucht",
+      datum: "2.–3. Juli",
+      name: "8. Dadès-Schlucht",
       naechte: 1,
       info: "Mietwagen über den Tizi n’Tichka und Aït Ben Haddou (ca. 5–6 Std., ca. 310 km)"
     },
     {
-      datum: "2.–3. Juli",
-      name: "8. Merzouga (Wüste)",
+      datum: "3.–4. Juli",
+      name: "9. Merzouga (Wüste)",
       naechte: 1,
       info: "Mietwagen über Tinghir (ca. 4 Std., ca. 250 km)"
     },
-    {datum: "3.–5. Juli", name: "9. Fès", naechte: 2, info: "Mietwagen über Midelt und Ifrane (ca. 7 Std., ca. 460 km)"},
     {
-      datum: "5.–7. Juli",
-      name: "10. Cádiz",
+      datum: "4.–6. Juli",
+      name: "10. Fès",
+      naechte: 2,
+      info: "Mietwagen über Midelt und Ifrane (ca. 7 Std., ca. 460 km)"
+    },
+    {
+      datum: "6.–8. Juli",
+      name: "11. Cádiz",
       naechte: 2,
       info: "Zug nach Tanger (ca. 3,5–4,5 Std.), Fähre nach Tarifa (ca. 1 Std., Uhr +1 Std.), Auto (ca. 1,25 Std.)"
     },
-    {datum: "7.–9. Juli", name: "11. Sevilla", naechte: 2, info: "Auto (ca. 1,25–1,5 Std., ca. 125 km)"},
+    {datum: "8.–10. Juli", name: "12. Sevilla", naechte: 2, info: "Auto (ca. 1,25–1,5 Std., ca. 125 km)"},
     {
-      datum: "9.–12. Juli",
-      name: "12. Algarve (Lagos)",
+      datum: "10.–13. Juli",
+      name: "13. Algarve (Lagos)",
       naechte: 3,
       info: "Auto (ca. 2,75–3 Std., ca. 270 km), Uhr −1 Std."
     },
-    {datum: "12.–14. Juli", name: "13. Lissabon", naechte: 2, info: "Auto über die A2 (ca. 3–3,5 Std., ca. 300 km)"},
+    {datum: "13.–15. Juli", name: "14. Lissabon", naechte: 2, info: "Auto über die A2 (ca. 3–3,5 Std., ca. 300 km)"},
     {
-      datum: "14.–15. Juli",
+      datum: "15.–16. Juli",
       name: "Zwischenübernachtung Porto",
       naechte: 1,
       info: "Auto auf der A1 (ca. 3 Std., ca. 315 km)"
     },
     {
-      datum: "15.–17. Juli",
-      name: "14. Playa de las Catedrales",
+      datum: "16.–18. Juli",
+      name: "15. Playa de las Catedrales",
       naechte: 2,
       info: "Auto über Braga und Lugo (ca. 4–4,5 Std., ca. 400 km), Uhr +1 Std."
     },
     {
-      datum: "17.–20. Juli",
-      name: "15. San Sebastián",
-      naechte: 3,
+      datum: "18.–20. Juli",
+      name: "16. San Sebastián",
+      naechte: 2,
       info: "Auto entlang der Nordküste über Bilbao (ca. 5 Std., ca. 480 km)"
     },
     {
       datum: "20.–22. Juli",
-      name: "16. Carcassonne",
+      name: "17. Carcassonne",
       naechte: 2,
       info: "Auto über Bayonne und Toulouse (ca. 4–4,5 Std., ca. 435 km)"
     },
     {
       datum: "22.–24. Juli",
-      name: "17. Avignon",
+      name: "18. Avignon",
       naechte: 2,
       info: "Auto über Montpellier und Nîmes (ca. 2,5–3 Std., ca. 250 km)"
     }
@@ -117,11 +123,11 @@ REISEN.marokko = {
   planHinweise: [
     [
       "Gesamt",
-      "36 Nächte, 17 Stationen und 2 Zwischenübernachtungen (Sète, Porto). Keine Flüge: mit dem eigenen Elektroauto ca. 5’450 km (ca. 58 Std. reine Fahrzeit), in Marokko mit dem Mietwagen ca. 1’000 km (ca. 16–17 Std.), dazu zweimal die Fähre über die Meerenge (je ca. 1 Std.) und Züge zwischen Tanger, Marrakesch und Fès (zusammen ca. 9–11 Std.). Mit Pausen, Ladestopps, Grenz- und Passkontrollen, Umsteigen und Stau realistisch ca. 101–106 Std. von Tür zu Tür (ca. 85–89 Std. im Auto, ca. 16–18 Std. für Fähren und Züge mit Wartezeiten). Die längsten Reisetage: Brig-Glis–Sète (ca. 7–7,5 Std.), Merzouga–Fès (ca. 7 Std. im Mietwagen), Fès–Cádiz (Zug, Fähre und Auto, ca. 8–9 Std.), Tarifa–Marrakesch (Fähre und Zug, ca. 7–8 Std.), Ribadeo–San Sebastián (ca. 5 Std.), Porto–Ribadeo (ca. 4–4,5 Std.) und Avignon–Brig-Glis (ca. 5,5–6 Std.)."
+      "36 Nächte, 18 Stationen und 2 Zwischenübernachtungen (Sète, Porto). Keine Flüge: mit dem eigenen Elektroauto ca. 5’550 km (ca. 59 Std. reine Fahrzeit), in Marokko mit dem Mietwagen ca. 1’000 km (ca. 16–17 Std.), dazu zweimal die Fähre über die Meerenge (je ca. 1 Std.) und Züge zwischen Tanger, Marrakesch und Fès (zusammen ca. 9–11 Std.). Mit Pausen, Ladestopps, Grenz- und Passkontrollen, Umsteigen und Stau realistisch ca. 102–107 Std. von Tür zu Tür (ca. 86–90 Std. im Auto, ca. 16–18 Std. für Fähren und Züge mit Wartezeiten). Die längsten Reisetage: Brig-Glis–Sète (ca. 7–7,5 Std.), Merzouga–Fès (ca. 7 Std. im Mietwagen), Fès–Cádiz (Zug, Fähre und Auto, ca. 8–9 Std.), Tarifa–Marrakesch (Fähre und Zug, ca. 7–8 Std.), Ribadeo–San Sebastián (ca. 5 Std.), Porto–Ribadeo (ca. 4–4,5 Std.) und Avignon–Brig-Glis (ca. 5,5–6 Std.)."
     ],
     [
       "Vorab buchen",
-      "Schnorcheltour zu den Medes-Inseln, Kajak- und Schnorcheltour in Cabo de Palos, Parkplatz für das eigene Auto in Tarifa (ca. eine Woche), Fähre Tarifa–Tanger hin und zurück, Zugtickets in Marokko (ONCF), Mietwagen als Einwegmiete Marrakesch–Fès, Riads in Marrakesch und Fès, Wüstencamp in Merzouga (im Sommer geöffnet und mit Klimaanlage?), Sagrada Família, Oceanogràfic, Alcázar in Sevilla, Kajak an der Algarve, Unterkünfte in San Sebastián und Avignon (Festival)., Reservation für die Playa de las Catedrales (gratis, frühestens 30 Tage vorher)"
+      "Schnorcheltour zu den Medes-Inseln, Kajak- und Schnorcheltour in Cabo de Palos, Parkplatz für das eigene Auto in Tarifa (ca. eine Woche), Fähre Tarifa–Tanger hin und zurück, Zugtickets in Marokko (ONCF), Mietwagen als Einwegmiete Marrakesch–Fès, Riads in Marrakesch und Fès, Wüstencamp in Merzouga (im Sommer geöffnet und mit Klimaanlage?), Caminito del Rey (Zeitfenster), Sagrada Família, Oceanogràfic, Alcázar in Sevilla, Kajak an der Algarve, Unterkünfte in San Sebastián und Avignon (Festival)., Reservation für die Playa de las Catedrales (gratis, frühestens 30 Tage vorher)"
     ],
     [
       "Auto und Laden",
@@ -138,10 +144,10 @@ REISEN.marokko = {
     legende: ["car", "ferry", "train"],
     karten: [
       {datei: "karten/marokko.svg"},
-      {titel: "Spanien, Portugal und Marokko im Detail (Stationen 1 bis 15)", datei: "karten/marokko-detail.svg"}
+      {titel: "Spanien, Portugal und Marokko im Detail (Stationen 1 bis 16)", datei: "karten/marokko-detail.svg"}
     ]
   },
-  abwechslungIntro: "Städte, Meer, Wüste und Berge wechseln sich ab: Schnorcheln bei den Medes-Inseln, Barcelona und Valencia, Schnorcheln in Cabo de Palos und am Cabo de Gata, eine Woche Marokko mit Medina, Atlas und Sahara, danach Atlantik in Cádiz und an der Algarve, Sevilla, Lissabon, die Felsbögen der Playa de las Catedrales und zum Schluss das grüne Baskenland und Südfrankreich.",
+  abwechslungIntro: "Städte, Meer, Wüste und Berge wechseln sich ab: Schnorcheln bei den Medes-Inseln, Barcelona und Valencia, Schnorcheln in Cabo de Palos und am Cabo de Gata, der Caminito del Rey, eine Woche Marokko mit Medina, Atlas und Sahara, danach Atlantik in Cádiz und an der Algarve, Sevilla, Lissabon, die Felsbögen der Playa de las Catedrales und zum Schluss das grüne Baskenland und Südfrankreich.",
   abwechslung: [
     [
       "Städte",
@@ -157,14 +163,14 @@ REISEN.marokko = {
     ],
     [
       "Action",
-      "Oceanogràfic, Kajak durch die Grotten der Algarve, Sandboarding in der Wüste, Surfen in San Sebastián, Ritterspiele in Carcassonne."
+      "Oceanogràfic, Caminito del Rey, Kajak durch die Grotten der Algarve, Sandboarding in der Wüste, Surfen in San Sebastián, Ritterspiele in Carcassonne."
     ],
     [
       "Natur und Landschaft",
-      "Vulkanküste am Cabo de Gata, Wüste von Tabernas, Hoher Atlas, Sahara-Dünen, Felsküste der Algarve, Felsbögen der Playa de las Catedrales, Baskenküste."
+      "Vulkanküste am Cabo de Gata, Wüste von Tabernas, Schlucht des Caminito del Rey, Hoher Atlas, Sahara-Dünen, Felsküste der Algarve, Felsbögen der Playa de las Catedrales, Baskenküste."
     ]
   ],
-  stationenIntro: "Siebzehn Stationen in Spanien, Marokko, Portugal und Frankreich, dazu Zwischenhalte in Sète und Porto. Über jeder Station steht, wie ihr dorthin kommt.",
+  stationenIntro: "Achtzehn Stationen in Spanien, Marokko, Portugal und Frankreich, dazu Zwischenhalte in Sète und Porto. Über jeder Station steht, wie ihr dorthin kommt.",
   stationen: [
     {
       nr: 1,
@@ -283,12 +289,37 @@ REISEN.marokko = {
     },
     {
       nr: 5,
-      name: "Tarifa",
+      name: "Caminito del Rey (El Chorro)",
       land: "es",
       region: "Andalusien",
       datum: "28.–29. Juni",
       naechte: "1 Nacht",
-      anreise: "Mit dem Auto von San José über Almería, die Küstenautobahn A-7 und Málaga nach Tarifa (ca. 4–4,5 Std., ca. 380 km).",
+      anreise: "Mit dem Auto von San José über Almería und die Küstenautobahn A-7 bei Málaga nach El Chorro (ca. 2,5–3 Std., ca. 250 km).",
+      text: "Ein Steig hoch über der Schlucht Desfiladero de los Gaitanes, früher einer der gefährlichsten Wege der Welt, heute gut gesichert. Rund um El Chorro liegen Stauseen zum Baden.",
+      teens: "Caminito del Rey (ca. 3–4 Std.), am Ankunftsabend Baden und Paddeln im Stausee Conde de Guadalhorce.",
+      fakten: [
+        "<strong>Dauer:</strong> 1 Nacht: am Morgen des Di, 29.06.2027 den Caminito (früher Einlass wegen der Hitze; montags geschlossen), am Nachmittag weiter nach Tarifa (ca. 2,25–2,5 Std.).",
+        "<strong>Tickets:</strong> Nur online mit Zeitfenster; Mindestalter 8 Jahre, Ausweis mitnehmen. Früher Einlass wegen der Hitze.",
+        "<strong>Hinweis:</strong> Der Weg ist ein Einweg mit Shuttlebus zurück zum Parkplatz; Helm wird gestellt."
+      ],
+      ausserdem: "El Torcal (Karstfelsen), Dolmen von Antequera (Unesco), Ronda mit der Puente Nuevo (ca. 1 Std.), Málaga (auf der Weiterfahrt).",
+      bilder: [
+        {titel: "Caminito del Rey", suche: "Caminito del Rey", stichwort: "caminito"},
+        {titel: "Schlucht", suche: "Desfiladero de los Gaitanes", stichwort: "gaitanes"},
+        {titel: "El Chorro", suche: "El Chorro Malaga", stichwort: "chorro"},
+        {titel: "El Torcal", suche: "El Torcal de Antequera", stichwort: "torcal"},
+        {titel: "Stausee", suche: "Embalse del Conde de Guadalhorce|Guadalhorce reservoir", stichwort: "guadalhorce"},
+        {titel: "Ronda", suche: "Ronda Puente Nuevo", stichwort: "ronda"}
+      ]
+    },
+    {
+      nr: 6,
+      name: "Tarifa",
+      land: "es",
+      region: "Andalusien",
+      datum: "29.–30. Juni",
+      naechte: "1 Nacht",
+      anreise: "Mit dem Auto von El Chorro über Málaga und die Küstenautobahn A-7 nach Tarifa (ca. 2,25–2,5 Std., ca. 210 km).",
       text: "Die Südspitze Europas: weisse Altstadt, lange Strände voller Kitesurfer und auf der anderen Seite der Meerenge die Berge Afrikas. Von hier fährt die Fähre nach Tanger.",
       teens: "Baden und Kitesurfer beobachten an der Playa de los Lances, Sonnenuntergang mit Blick auf Marokko, Bootstour zu den Delfinen und Walen in der Meerenge, römische Ruinen von Baelo Claudia an der Düne von Bolonia.",
       fakten: [
@@ -311,12 +342,12 @@ REISEN.marokko = {
       ]
     },
     {
-      nr: 6,
+      nr: 7,
       name: "Marrakesch",
       ersatzsuche: "Marrakech",
       land: "ma",
       region: "Marokko",
-      datum: "29. Juni–1. Juli",
+      datum: "30. Juni–2. Juli",
       naechte: "2 Nächte",
       anreise: "Fähre Tarifa–Tanger Ville ohne Auto (ca. 1 Std., Baleària oder Africa Morocco Link, mehrmals täglich; Passkontrolle an Bord oder im Hafen). In Marokko ist es eine Stunde früher. Vom Hafen mit dem Taxi zum Bahnhof Tanger Ville, mit dem Hochgeschwindigkeitszug Al Boraq nach Casablanca (ca. 2,25 Std.) und weiter mit dem Zug nach Marrakesch (ca. 2,5–3 Std.); insgesamt ca. 5,5–6,5 Std. mit Umsteigen.",
       text: "Die rote Stadt am Fuss des Atlas: Gaukler, Musik und Garküchen auf dem Platz Jemaa el-Fna, enge Gassen in der Medina mit den Souks und ruhige Gärten wie der Jardin Majorelle.",
@@ -337,12 +368,12 @@ REISEN.marokko = {
       ]
     },
     {
-      nr: 7,
+      nr: 8,
       name: "Dadès-Schlucht",
       ersatzsuche: "Dades Gorge|Boumalne Dades",
       land: "ma",
       region: "Marokko",
-      datum: "1.–2. Juli",
+      datum: "2.–3. Juli",
       naechte: "1 Nacht",
       anreise: "Mit dem Mietwagen über den Hohen Atlas und den Pass Tizi n’Tichka (2’260 m), mit Halt im Lehmdorf Aït Ben Haddou, über Ouarzazate in die Dadès-Schlucht (ca. 5–6 Std., ca. 310 km; kurvige Passstrasse).",
       text: "Von Marrakesch über den Atlas in die «Strasse der Kasbahs»: Lehmburgen, Oasen mit Palmen und die rote Felsschlucht des Dadès mit ihren Serpentinen.",
@@ -363,12 +394,12 @@ REISEN.marokko = {
       ]
     },
     {
-      nr: 8,
+      nr: 9,
       name: "Merzouga (Wüste)",
       ersatzsuche: "Merzouga|Erg Chebbi",
       land: "ma",
       region: "Marokko",
-      datum: "2.–3. Juli",
+      datum: "3.–4. Juli",
       naechte: "1 Nacht",
       anreise: "Mit dem Mietwagen über Tinghir mit der Todra-Schlucht und Erfoud nach Merzouga (ca. 4 Std., ca. 250 km), am späten Nachmittag mit dem Kamel oder dem Geländewagen ins Wüstencamp.",
       text: "Die Sanddünen des Erg Chebbi sind bis 150 m hoch. Mit dem Kamel in den Sonnenuntergang, eine Nacht im Zeltcamp unter dem Sternenhimmel und am Morgen der Sonnenaufgang über den Dünen.",
@@ -389,19 +420,19 @@ REISEN.marokko = {
       ]
     },
     {
-      nr: 9,
+      nr: 10,
       name: "Fès",
       ersatzsuche: "Fes|Fez",
       land: "ma",
       region: "Marokko",
-      datum: "3.–5. Juli",
+      datum: "4.–6. Juli",
       naechte: "2 Nächte",
       anreise: "Mit dem Mietwagen von Merzouga über Erfoud, Midelt und den Mittleren Atlas mit den Zedernwäldern von Ifrane nach Fès (ca. 7 Std., ca. 460 km; der längste Fahrtag in Marokko, früh starten). Mietwagen in Fès zurückgeben.",
       text: "Die Altstadt Fès el-Bali ist eine der grössten autofreien Städte der Welt: über 9’000 Gassen, Handwerker, Koranschulen und die Färberei Chouara mit ihren bunten Becken. Unesco-Welterbe.",
       teens: "Blick über die Färberei Chouara von einer Dachterrasse, Labyrinth der Medina mit einem lokalen Führer, Bab Bou Jeloud (Blaues Tor), Medersa Bou Inania, Aussicht von den Merinidengräbern bei Sonnenuntergang.",
       fakten: [
         "<strong>Dauer:</strong> 2 Nächte in einem Riad: ein Tag Medina mit Führer (offizielle Führer über das Tourismusbüro oder den Riad), ein ruhiger Tag.",
-        "<strong>Weiterreise:</strong> Am 5. Juli mit dem Zug nach Tanger (über Kénitra mit dem Al Boraq ca. 3,5–4 Std., direkt ca. 4,5 Std.) und mit der Fähre nach Tarifa.",
+        "<strong>Weiterreise:</strong> Am 6. Juli mit dem Zug nach Tanger (über Kénitra mit dem Al Boraq ca. 3,5–4 Std., direkt ca. 4,5 Std.) und mit der Fähre nach Tarifa.",
         "<strong>Hinweis:</strong> In der Medina bieten sich viele «Führer» an; höflich ablehnen und nur offizielle Führer nehmen."
       ],
       ausserdem: "Meknès und die römischen Ruinen von Volubilis (ca. 1 Std.), Ifrane mit Berberaffen in den Zedernwäldern (auf der Anreise), Chefchaouen (blaue Stadt, ca. 3,5 Std., mit einer Nacht mehr).",
@@ -419,11 +450,11 @@ REISEN.marokko = {
       ]
     },
     {
-      nr: 10,
+      nr: 11,
       name: "Cádiz",
       land: "es",
       region: "Andalusien",
-      datum: "5.–7. Juli",
+      datum: "6.–8. Juli",
       naechte: "2 Nächte",
       anreise: "Zug Fès–Tanger (ca. 3,5–4,5 Std.), Fähre Tanger Ville–Tarifa (ca. 1 Std., Uhr +1 Std.), in Tarifa das eigene Auto abholen und nach Cádiz (ca. 1,25 Std., ca. 100 km). Ein langer Reisetag mit ca. 8–9 Std. von Tür zu Tür.",
       text: "Eine der ältesten Städte Europas auf einer Halbinsel im Atlantik: weisse Häuser, Wachtürme, Stadtstrände direkt an der Altstadt. Nach Marokko zwei ruhige Tage am Meer.",
@@ -444,12 +475,12 @@ REISEN.marokko = {
       ]
     },
     {
-      nr: 11,
+      nr: 12,
       name: "Sevilla",
       ersatzsuche: "Seville",
       land: "es",
       region: "Andalusien",
-      datum: "7.–9. Juli",
+      datum: "8.–10. Juli",
       naechte: "2 Nächte",
       anreise: "Mit dem Auto von Cádiz über die Autobahn AP-4 nach Sevilla (ca. 1,25–1,5 Std., ca. 125 km). Hotel mit Parkhaus wählen.",
       text: "Andalusiens Hauptstadt mit Kathedrale, Alcázar, der Plaza de España und Flamenco. Im Juli ist es sehr heiss, das Leben spielt sich am Morgen und am Abend ab.",
@@ -470,11 +501,11 @@ REISEN.marokko = {
       ]
     },
     {
-      nr: 12,
+      nr: 13,
       name: "Algarve (Lagos)",
       land: "pt",
       region: "Portugal",
-      datum: "9.–12. Juli",
+      datum: "10.–13. Juli",
       naechte: "3 Nächte",
       anreise: "Mit dem Auto von Sevilla über Huelva auf der Algarve-Autobahn A22 nach Lagos (ca. 2,75–3 Std., ca. 270 km). In Portugal ist es eine Stunde früher. Maut: die A22 ist frei, die A2 nach Lissabon hat Zahlstellen; für elektronische Maut EasyToll an der Grenze.",
       text: "Goldgelbe Felsküste mit Grotten, Felsbögen und kleinen Buchten. Nach Sevilla drei Tage Strand und Meer, bevor es in die Städte Lissabon und Porto geht.",
@@ -495,12 +526,12 @@ REISEN.marokko = {
       ]
     },
     {
-      nr: 13,
+      nr: 14,
       name: "Lissabon",
       ersatzsuche: "Lisbon",
       land: "pt",
       region: "Portugal",
-      datum: "12.–14. Juli",
+      datum: "13.–15. Juli",
       naechte: "2 Nächte",
       anreise: "Mit dem Auto von Lagos über die A2 nach Lissabon (ca. 3–3,5 Std., ca. 300 km, Maut an Zahlstellen).",
       text: "Hügelige Hauptstadt am Tejo mit Strassenbahnen, Aussichtspunkten, Fliesenfassaden und Pastéis de Nata. Nah am Meer und an Sintra.",
@@ -521,13 +552,13 @@ REISEN.marokko = {
       ]
     },
     {
-      nr: 14,
+      nr: 15,
       name: "Playa de las Catedrales",
       land: "es",
       region: "Galicien",
-      datum: "15.–17. Juli",
+      datum: "16.–18. Juli",
       naechte: "2 Nächte",
-      zwischenstopp: {text: "Zwischenübernachtung in Porto", datum: "14.–15. Juli"},
+      zwischenstopp: {text: "Zwischenübernachtung in Porto", datum: "15.–16. Juli"},
       anreise: "Mit dem Auto von Lissabon auf der A1 nach Porto (ca. 3 Std., ca. 315 km), dort übernachten und am Abend durch die Ribeira. Am nächsten Tag über Braga, Valença und Lugo nach Ribadeo (ca. 4–4,5 Std., ca. 400 km). In Spanien ist es wieder eine Stunde später.",
       text: "Bei Ebbe läuft man zwischen meterhohen Felsbögen und Höhlen am Strand. Nach Wüste, Medinas und Andalusien ist die grüne, kühle Küste Galiciens ein starker Kontrast.",
       teens: "Bei Ebbe durch die «Kathedralen» laufen, Höhlen erkunden, Küstenwanderung, Surf-Schnupperstunde, Altstadt von Ribadeo.",
@@ -548,18 +579,18 @@ REISEN.marokko = {
       ]
     },
     {
-      nr: 15,
+      nr: 16,
       name: "San Sebastián",
       ersatzsuche: "San Sebastian|Donostia",
       land: "es",
       region: "Baskenland",
-      datum: "17.–20. Juli",
-      naechte: "3 Nächte",
+      datum: "18.–20. Juli",
+      naechte: "2 Nächte",
       anreise: "Mit dem Auto von Ribadeo entlang der Nordküste über Oviedo, Santander und Bilbao nach San Sebastián (ca. 5 Std., ca. 480 km); Halt in Bilbao beim Guggenheim-Museum möglich.",
       text: "Elegante Stadt an einer muschelförmigen Bucht mit Stadtstrand, Altstadt voller Pintxos-Bars und zwei Aussichtsbergen. Nach der Hitze im Süden ist es hier grün und angenehm.",
       teens: "Baden an der Playa de la Concha, Surfstunde an der Zurriola, Standseilbahn auf den Monte Igueldo mit altem Freizeitpark, Aquarium, Pintxos am Abend, Ausflug nach Bilbao ins Guggenheim.",
       fakten: [
-        "<strong>Dauer:</strong> 3 Nächte: ein Tag Strand und Altstadt, ein Tag Surfen oder Küstenwanderung, ein Tag Bilbao (ca. 1,25 Std.) oder Biarritz (ca. 45 Min.).",
+        "<strong>Dauer:</strong> 2 Nächte: ein Tag Strand und Altstadt, ein Tag Surfen, Küstenwanderung oder Ausflug nach Biarritz (ca. 45 Min.).",
         "<strong>Wetter:</strong> Meist 22–26 °C, Atlantik ca. 20–22 °C, Regenschauer möglich.",
         "<strong>Auto:</strong> Parkhaus beim Hotel; in der Stadt zu Fuss, mit Bus oder Velo."
       ],
@@ -574,7 +605,7 @@ REISEN.marokko = {
       ]
     },
     {
-      nr: 16,
+      nr: 17,
       name: "Carcassonne",
       land: "fr",
       region: "Okzitanien",
@@ -599,7 +630,7 @@ REISEN.marokko = {
       ]
     },
     {
-      nr: 17,
+      nr: 18,
       name: "Avignon (Finale)",
       land: "fr",
       region: "Provence",
@@ -666,7 +697,7 @@ REISEN.marokko = {
         "Aktivitäten und Eintritte",
         "1’900–3’300",
         "2’500",
-        "Schnorcheltouren Medes-Inseln und Cabo de Palos, Sagrada Família, Oceanogràfic, Kamelritt und Wüstencamp, Führer in Fès, Alcázar, Kajak an der Algarve, Oceanário, Papstpalast"
+        "Schnorcheltouren Medes-Inseln und Cabo de Palos, Sagrada Família, Oceanogràfic, Caminito del Rey, Kamelritt und Wüstencamp, Führer in Fès, Alcázar, Kajak an der Algarve, Oceanário, Papstpalast"
       ],
       [
         "Versicherung, Pannenhilfe, Reiseapotheke",
@@ -682,20 +713,21 @@ REISEN.marokko = {
       ["2. Barcelona (2)", "750–1’250"],
       ["3. Valencia (2)", "650–1’050"],
       ["4. Cabo de Gata (3)", "850–1’450"],
-      ["5. Tarifa (1)", "300–500"],
-      ["6. Marrakesch (2)", "600–1’000"],
-      ["7. Dadès-Schlucht (1)", "200–350"],
-      ["8. Merzouga (1)", "300–550"],
-      ["9. Fès (2)", "500–850"],
-      ["10. Cádiz (2)", "600–1’000"],
-      ["11. Sevilla (2)", "650–1’050"],
-      ["12. Algarve (3)", "900–1’500"],
-      ["13. Lissabon (2)", "700–1’150"],
+      ["5. Caminito del Rey (1)", "300–500"],
+      ["6. Tarifa (1)", "300–500"],
+      ["7. Marrakesch (2)", "600–1’000"],
+      ["8. Dadès-Schlucht (1)", "200–350"],
+      ["9. Merzouga (1)", "300–550"],
+      ["10. Fès (2)", "500–850"],
+      ["11. Cádiz (2)", "600–1’000"],
+      ["12. Sevilla (2)", "650–1’050"],
+      ["13. Algarve (3)", "900–1’500"],
+      ["14. Lissabon (2)", "700–1’150"],
       ["Zwischenübernachtung Porto (1)", "250–400"],
-      ["14. Playa de las Catedrales (2)", "550–900"],
-      ["15. San Sebastián (3)", "1’100–1’800"],
-      ["16. Carcassonne (2)", "550–900"],
-      ["17. Avignon (2)", "550–900"]
+      ["15. Playa de las Catedrales (2)", "550–900"],
+      ["16. San Sebastián (2)", "750–1’200"],
+      ["17. Carcassonne (2)", "550–900"],
+      ["18. Avignon (2)", "550–900"]
     ],
     hinweise: [
       "Preise für die Kids: Viele Sehenswürdigkeiten sind für Kinder bis 11 oder 12 Jahre günstiger oder gratis; die Tochter (14) zahlt oft schon den Jugend- oder Erwachsenenpreis.",

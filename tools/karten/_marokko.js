@@ -15,7 +15,8 @@ const wege = [
   ['car', 'L’Estartit – Girona – Barcelona', weg('L’Estartit – Girona – Barcelona')],
   ['car', 'Barcelona – Tarragona – Valencia', weg('Barcelona – Tarragona – Valencia')],
   ['car', 'Valencia – Alicante – Cabo de Palos – Almería – Cabo de Gata', ['VAL', [39.0, -0.2], 'BE', 'AL', [37.9, -0.8], 'CPA', 'LO', [37.2, -1.9], 'AM', 'SJ']],
-  ['car', 'Cabo de Gata – Almería – Málaga – Tarifa', ['SJ', 'AM', 'MOT', 'MAG', [36.5, -4.9], [36.2, -5.35], 'TAR']],
+  ['car', 'Cabo de Gata – Almería – Málaga – El Chorro', weg('Cabo de Gata – Almería – Málaga – El Chorro')],
+  ['car', 'El Chorro – Málaga – Tarifa', ['EC', [36.80, -4.55], 'MAG', [36.5, -4.9], [36.2, -5.35], 'TAR']],
   ['ferry', 'Tarifa – Tanger Ville (Fähre)', ['TAR', 'TNG']],
   ['train', 'Tanger – Kénitra – Rabat – Casablanca – Marrakesch', ['TNG', [35.2, -6.15], 'KEN', 'RAB', 'CASA', [32.6, -7.85], 'RAK']],
   ['car', 'Marrakesch – Tizi n’Tichka – Aït Ben Haddou – Ouarzazate – Dadès', ['RAK', [31.45, -7.6], 'TIC', 'ABH', 'OUZ', [31.05, -6.55], [31.3, -6.2], 'DAD']],
@@ -35,8 +36,8 @@ const wege = [
   ['car', 'Avignon – Lyon – Genf – Brig-Glis', ['AVI', 'OR', 'VA', 'LY', [45.95, 5.35], [46.0, 5.8], 'GE', [46.45, 6.55], [46.38, 6.85], 'MA', 'BR']]
 ];
 const stationen = [
-  [1, 'ES', 'l', 'Costa Brava'], [2, 'BC', 'l'], [3, 'VAL', 'l'], [4, 'SJ', 'r'], [5, 'TAR', 'l'], [6, 'RAK', 'l'], [7, 'DAD', 'u', 'Dadès'], [8, 'MRZ', 'r'], [9, 'FES', 'r'],
-  [10, 'CAD', 'l'], [11, 'SV', 'u'], [12, 'LAG', 'd', 'Algarve'], [13, 'LI', 'l'], [14, 'RI', 'u', 'Catedrales'], [15, 'SS', 'u'],
-  [16, 'CA', 'u'], [17, 'AVI', 'u']
+  [1, 'ES', 'l', 'Costa Brava'], [2, 'BC', 'l'], [3, 'VAL', 'l'], [4, 'SJ', 'r'], [5, 'EC', 'u', 'Caminito del Rey'], [6, 'TAR', 'l'], [7, 'RAK', 'l'],
+  [8, 'DAD', 'u', 'Dadès'], [9, 'MRZ', 'r'], [10, 'FES', 'r'], [11, 'CAD', 'l'], [12, 'SV', 'u'], [13, 'LAG', 'd', 'Algarve'], [14, 'LI', 'l'],
+  [15, 'RI', 'u', 'Catedrales'], [16, 'SS', 'u'], [17, 'CA', 'u'], [18, 'AVI', 'u']
 ];
 module.exports = { orte, wege, stationen };

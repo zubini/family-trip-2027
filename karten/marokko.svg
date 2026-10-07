@@ -53,8 +53,10 @@
 <polyline points="633.7,356.3 630.0,345.8 587.5,373.1 560.0,393.4 522.5,444.8 511.5,464.5 506.2,477.8" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Barcelona – Tarragona – Valencia</title></polyline>
 <polyline points="506.2,477.8 515.0,507.6 518.5,536.8 501.0,549.2 485.0,577.4 490.5,594.5 440.0,591.6 430.0,621.8 401.8,645.0 419.7,649.4" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
 <polyline points="506.2,477.8 515.0,507.6 518.5,536.8 501.0,549.2 485.0,577.4 490.5,594.5 440.0,591.6 430.0,621.8 401.8,645.0 419.7,649.4" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Valencia – Alicante – Cabo de Palos – Almería – Cabo de Gata</title></polyline>
-<polyline points="419.7,649.4 401.8,645.0 349.0,650.4 304.0,652.3 280.0,666.2 257.5,685.3 244.7,697.1" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
-<polyline points="419.7,649.4 401.8,645.0 349.0,650.4 304.0,652.3 280.0,666.2 257.5,685.3 244.7,697.1" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Cabo de Gata – Almería – Málaga – Tarifa</title></polyline>
+<polyline points="419.7,649.4 401.8,645.0 349.0,650.4 304.0,652.3 287.1,640.5" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="419.7,649.4 401.8,645.0 349.0,650.4 304.0,652.3 287.1,640.5" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Cabo de Gata – Almería – Málaga – El Chorro</title></polyline>
+<polyline points="287.1,640.5 297.5,647.2 304.0,652.3 280.0,666.2 257.5,685.3 244.7,697.1" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="287.1,640.5 297.5,647.2 304.0,652.3 280.0,666.2 257.5,685.3 244.7,697.1" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: El Chorro – Málaga – Tarifa</title></polyline>
 <polyline points="244.7,697.1 234.5,711.9" fill="none" stroke="#fff" stroke-width="6.0" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
 <polyline points="244.7,697.1 234.5,711.9" fill="none" stroke="#E08A12" stroke-width="3.0" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 6"><title>Fähre oder Boot: Tarifa – Tanger Ville (Fähre)</title></polyline>
 <polyline points="234.5,711.9 217.5,748.7 196.0,808.4 183.0,823.6 144.0,850.9 132.5,913.7 125.0,975.2" fill="none" stroke="#fff" stroke-width="6.6" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
@@ -101,17 +103,18 @@
 <g><title>2. Barcelona: Mo, 21.06.2027 – Mi, 23.06.2027, 2 Nächte</title><circle cx="633.7" cy="356.3" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
 <g><title>3. Valencia: Mi, 23.06.2027 – Fr, 25.06.2027, 2 Nächte</title><circle cx="506.2" cy="477.8" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
 <g><title>4. Cabo de Gata: Fr, 25.06.2027 – Mo, 28.06.2027, 3 Nächte</title><circle cx="419.7" cy="649.4" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
-<g><title>5. Tarifa: Mo, 28.06.2027 – Di, 29.06.2027, 1 Nacht</title><circle cx="244.7" cy="697.1" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
-<g><title>6. Marrakesch: Di, 29.06.2027 – Do, 01.07.2027, 2 Nächte</title><circle cx="125.0" cy="975.2" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
-<g><title>7. Dadès: Do, 01.07.2027 – Fr, 02.07.2027, 1 Nacht</title><circle cx="227.5" cy="987.9" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
-<g><title>8. Merzouga: Fr, 02.07.2027 – Sa, 03.07.2027, 1 Nacht</title><circle cx="324.5" cy="1008.9" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
-<g><title>9. Fès: Sa, 03.07.2027 – Mo, 05.07.2027, 2 Nächte</title><circle cx="275.0" cy="823.0" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
-<g><title>10. Cádiz: Mo, 05.07.2027 – Mi, 07.07.2027, 2 Nächte</title><circle cx="210.5" cy="664.3" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
-<g><title>11. Sevilla: Mi, 07.07.2027 – Fr, 09.07.2027, 2 Nächte</title><circle cx="225.8" cy="609.8" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
-<g><title>12. Algarve: Fr, 09.07.2027 – Mo, 12.07.2027, 3 Nächte</title><circle cx="91.5" cy="628.2" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
-<g><title>13. Lissabon: Mo, 12.07.2027 – Mi, 14.07.2027, 2 Nächte</title><circle cx="68.1" cy="525.2" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
-<g><title>14. Catedrales: Do, 15.07.2027 – Sa, 17.07.2027, 2 Nächte</title><circle cx="173.0" cy="219.8" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
-<g><title>15. San Sebastián: Sa, 17.07.2027 – Di, 20.07.2027, 3 Nächte</title><circle cx="426.0" cy="233.5" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
-<g><title>16. Carcassonne: Di, 20.07.2027 – Do, 22.07.2027, 2 Nächte</title><circle cx="642.6" cy="240.3" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
-<g><title>17. Avignon: Do, 22.07.2027 – Sa, 24.07.2027, 2 Nächte</title><circle cx="765.5" cy="193.5" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
+<g><title>5. Caminito del Rey: Mo, 28.06.2027 – Di, 29.06.2027, 1 Nacht</title><circle cx="287.1" cy="640.5" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
+<g><title>6. Tarifa: Di, 29.06.2027 – Mi, 30.06.2027, 1 Nacht</title><circle cx="244.7" cy="697.1" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
+<g><title>7. Marrakesch: Mi, 30.06.2027 – Fr, 02.07.2027, 2 Nächte</title><circle cx="125.0" cy="975.2" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
+<g><title>8. Dadès: Fr, 02.07.2027 – Sa, 03.07.2027, 1 Nacht</title><circle cx="227.5" cy="987.9" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
+<g><title>9. Merzouga: Sa, 03.07.2027 – So, 04.07.2027, 1 Nacht</title><circle cx="324.5" cy="1008.9" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
+<g><title>10. Fès: So, 04.07.2027 – Di, 06.07.2027, 2 Nächte</title><circle cx="275.0" cy="823.0" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
+<g><title>11. Cádiz: Di, 06.07.2027 – Do, 08.07.2027, 2 Nächte</title><circle cx="210.5" cy="664.3" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
+<g><title>12. Sevilla: Do, 08.07.2027 – Sa, 10.07.2027, 2 Nächte</title><circle cx="225.8" cy="609.8" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
+<g><title>13. Algarve: Sa, 10.07.2027 – Di, 13.07.2027, 3 Nächte</title><circle cx="91.5" cy="628.2" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
+<g><title>14. Lissabon: Di, 13.07.2027 – Do, 15.07.2027, 2 Nächte</title><circle cx="68.1" cy="525.2" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
+<g><title>15. Catedrales: Fr, 16.07.2027 – So, 18.07.2027, 2 Nächte</title><circle cx="173.0" cy="219.8" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
+<g><title>16. San Sebastián: So, 18.07.2027 – Di, 20.07.2027, 2 Nächte</title><circle cx="426.0" cy="233.5" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
+<g><title>17. Carcassonne: Di, 20.07.2027 – Do, 22.07.2027, 2 Nächte</title><circle cx="642.6" cy="240.3" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
+<g><title>18. Avignon: Do, 22.07.2027 – Sa, 24.07.2027, 2 Nächte</title><circle cx="765.5" cy="193.5" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
 </svg>
