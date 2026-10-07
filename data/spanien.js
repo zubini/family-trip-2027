@@ -34,19 +34,19 @@ REISEN.spanien = {
     {datum: "21.–23. Juni", name: "2. Barcelona", naechte: 2, info: "Auto über Girona (ca. 1,75–2 Std., ca. 140 km)"},
     {datum: "23.–25. Juni", name: "3. Valencia", naechte: 2, info: "Auto auf der AP-7 (ca. 3,5 Std., ca. 350 km)"},
     {
-      datum: "25.–29. Juni",
+      datum: "25.–28. Juni",
       name: "4. Ibiza",
-      naechte: 4,
+      naechte: 3,
       info: "Auto nach Dénia (ca. 1–1,25 Std.), Autofähre Dénia–Ibiza (ca. 2,5 Std.)"
     },
-    {datum: "29. Juni–2. Juli", name: "5. Formentera", naechte: 3, info: "Autofähre Ibiza–Formentera (ca. 30–60 Min.)"},
+    {datum: "28. Juni–1. Juli", name: "5. Formentera", naechte: 3, info: "Autofähre Ibiza–Formentera (ca. 30–60 Min.)"},
     {
-      datum: "2.–4. Juli",
+      datum: "1.–3. Juli",
       name: "6. Benidorm",
       naechte: 2,
       info: "Autofähre Formentera–Dénia (ca. 2–4,5 Std.), Auto (ca. 40–45 Min.)"
     },
-    {datum: "4.–6. Juli", name: "7. Granada", naechte: 2, info: "Auto über Murcia und Baza (ca. 4–4,5 Std.)"},
+    {datum: "3.–6. Juli", name: "7. Granada", naechte: 3, info: "Auto über Murcia und Baza (ca. 4–4,5 Std.)"},
     {datum: "6.–9. Juli", name: "8. Cabo de Gata", naechte: 3, info: "Auto über Guadix und Almería (ca. 2–2,5 Std.)"},
     {
       datum: "9.–10. Juli",
@@ -105,7 +105,7 @@ REISEN.spanien = {
       {titel: "Spanien und Portugal im Detail (Stationen 1 bis 14)", datei: "karten/spanien-detail.svg"}
     ]
   },
-  abwechslungIntro: "Städte, Strand und Natur wechseln sich ab: zuerst Schnorcheln bei den Medes-Inseln, dann Barcelona und Valencia, sieben Tage Schnorcheln auf Ibiza und Formentera, danach Freizeitparks, Granada, Strand am Cabo de Gata, der Caminito, Sevilla, die Algarve, Lissabon und Porto. In Andalusien Programm auf Morgen und Abend legen, mittags ist es sehr heiss.",
+  abwechslungIntro: "Städte, Strand und Natur wechseln sich ab: zuerst Schnorcheln bei den Medes-Inseln, dann Barcelona und Valencia, sechs Tage Schnorcheln auf Ibiza und Formentera, danach Freizeitparks, Granada, Strand am Cabo de Gata, der Caminito, Sevilla, die Algarve, Lissabon und Porto. In Andalusien Programm auf Morgen und Abend legen, mittags ist es sehr heiss.",
   abwechslung: [
     [
       "Action und Freizeitparks",
@@ -224,13 +224,13 @@ REISEN.spanien = {
       name: "Ibiza",
       land: "es",
       region: "Balearen",
-      datum: "25.–29. Juni",
-      naechte: "4 Nächte",
+      datum: "25.–28. Juni",
+      naechte: "3 Nächte",
       anreise: "Mit dem Auto von Valencia nach Dénia (ca. 1–1,25 Std., ca. 105 km), dann Autofähre Dénia–Ibiza (ca. 2,5 Std.); Check-in mit dem Auto ca. 60–90 Min. vor Abfahrt.",
       text: "Ibiza abseits der Partys: Im Norden und Westen liegen felsige Buchten mit sehr klarem Wasser, Seegraswiesen und Fischschwärmen, dazu die Altstadt Dalt Vila und der Felsen Es Vedrà.",
       teens: "Schnorcheln an der Cala Xarraca, bei Portinatx und an den Felsen der Punta de sa Galera, Kajak oder Stand-up-Paddle, Sonnenuntergang an der Cala Comte mit Blick auf die Inselchen, Altstadt Dalt Vila.",
       fakten: [
-        "<strong>Dauer:</strong> 4 Nächte, Unterkunft im Norden (z.B. Portinatx) oder Westen (bei Sant Antoni), nah an den Schnorchelplätzen: zwei Tage Buchten im Norden, ein Tag Punta de sa Galera und Cala Comte, ein Tag Dalt Vila und Es Vedrà.",
+        "<strong>Dauer:</strong> 3 Nächte, Unterkunft im Norden (z.B. Portinatx) oder Westen (bei Sant Antoni), nah an den Schnorchelplätzen: ein Tag Buchten im Norden, ein Tag Punta de sa Galera und Cala Comte, ein halber Tag Dalt Vila und Es Vedrà.",
         "<strong>Schnorchelplätze:</strong> Cala Xarraca (sehr klares Wasser, viele Fische), Portinatx und Cala d’en Serra im Norden, Punta de sa Galera (Felskante mit Seesternen und Schwämmen) und Cala Comte im Westen. Am Morgen kommen, mittags sind die Buchten voll.",
         "<strong>Auto:</strong> Vom 1. Juni bis 30. September braucht ein Auto ohne Wohnsitz auf Ibiza eine Zufahrtsbewilligung (2026: 1 € pro Tag, Elektroautos ausserhalb des Kontingents); bei Buchung von Hin- und Rückfahrt übernimmt die Reederei das teils. Regeln für 2027 vorab prüfen."
       ],
@@ -274,7 +274,7 @@ REISEN.spanien = {
       name: "Formentera",
       land: "es",
       region: "Balearen",
-      datum: "29. Juni–2. Juli",
+      datum: "28. Juni–1. Juli",
       naechte: "3 Nächte",
       anreise: "Autofähre Ibiza–La Savina (ca. 30–60 Min., mehrmals täglich).",
       text: "Die kleine Nachbarinsel ist flach, ruhig und für ihr türkisfarbenes Wasser bekannt: Die grossen Seegraswiesen (Posidonia, Unesco-Welterbe) machen das Wasser so klar wie kaum anderswo im Mittelmeer.",
@@ -315,7 +315,7 @@ REISEN.spanien = {
       name: "Benidorm",
       land: "es",
       region: "Costa Blanca",
-      datum: "2.–4. Juli",
+      datum: "1.–3. Juli",
       naechte: "2 Nächte",
       anreise: "Autofähre Formentera–Dénia (direkt ca. 2 Std., über Ibiza bis ca. 4,5 Std.; nur wenige Verbindungen pro Tag, Fahrplan prüfen); Check-in mit dem Auto ca. 60–90 Min. vor Abfahrt. Von Dénia mit dem Auto nach Benidorm (ca. 40–45 Min., ca. 50 km).",
       text: "Hochhausstadt an der Costa Blanca mit zwei langen Sandstränden, Freizeit- und Wasserparks. Nach den Inseln Action und Strand; im Hinterland liegen das Bergdorf Guadalest und die Wasserfälle von Algar.",
@@ -341,13 +341,13 @@ REISEN.spanien = {
       name: "Granada",
       land: "es",
       region: "Andalusien",
-      datum: "4.–6. Juli",
-      naechte: "2 Nächte",
+      datum: "3.–6. Juli",
+      naechte: "3 Nächte",
       anreise: "Mit dem Auto von Benidorm über Alicante, Murcia und Baza nach Granada (ca. 4–4,5 Std., ca. 390 km); die Wüste von Gorafe liegt nahe der Strecke bei Guadix. Das Auto im Hotel-Parkhaus lassen; die Altstadt ist zum Teil gesperrt.",
       text: "Die Alhambra, die Burg der maurischen Könige, über einer Stadt voller Gassen und Teestuben. Eine Stunde entfernt liegt die Wüste von Gorafe mit Badlands und über 240 Dolmen.",
       teens: "Alhambra mit den Nasridenpalästen, Sonnenuntergang am Mirador San Nicolás, Tagesausflug in die Wüste von Gorafe (Badlands, Dolmen, Höhlenwohnungen in Guadix).",
       fakten: [
-        "<strong>Dauer:</strong> 2 Nächte: ein Tag Alhambra und Albaicín; die Wüste von Gorafe liegt auf der Weiterfahrt zum Cabo de Gata (ca. 1 Std. Umweg über Guadix).",
+        "<strong>Dauer:</strong> 3 Nächte: ein Tag Alhambra und Albaicín, ein Tag Gorafe und Guadix.",
         "<strong>Alhambra:</strong> Tickets nur online, im Sommer oft drei Monate im Voraus ausverkauft; Kinder unter 12 gratis, brauchen aber ein Ticket.",
         "<strong>Gorafe:</strong> Ca. 1 Std. ab Granada; Pisten sind teils unbefestigt, früh am Morgen fahren, es wird über 35 °C heiss."
       ],
@@ -619,10 +619,10 @@ REISEN.spanien = {
       ["1. Costa Brava (2)", "650–1’100"],
       ["2. Barcelona (2)", "750–1’250"],
       ["3. Valencia (2)", "650–1’050"],
-      ["4. Ibiza (4)", "1’550–2’550"],
+      ["4. Ibiza (3)", "1’150–1’900"],
       ["5. Formentera (3)", "1’300–2’200"],
       ["6. Benidorm (2)", "600–1’000"],
-      ["7. Granada (2)", "700–1’150"],
+      ["7. Granada (3)", "1’050–1’700"],
       ["8. Cabo de Gata (3)", "850–1’450"],
       ["9. Caminito del Rey (1)", "300–500"],
       ["10. Sevilla (2)", "650–1’050"],

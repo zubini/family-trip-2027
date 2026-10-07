@@ -5,7 +5,7 @@ window.REISEN = window.REISEN || {};
 REISEN.marokko = {
   titel: "Mit dem Auto nach Spanien, Portugal und Marokko",
   menu: "Spanien / Marokko",
-  untertitel: "Fünf Wochen ab Brig-Glis: Schnorcheln bei den Medes-Inseln, Barcelona, Valencia, Cabo de Gata, mit der Fähre nach Marokko zu Marrakesch, Atlas, Wüste und Fès, dann Cádiz, Sevilla, Algarve, Lissabon und über Salamanca, San Sebastián und Südfrankreich zurück.",
+  untertitel: "Fünf Wochen ab Brig-Glis: Schnorcheln bei den Medes-Inseln, Barcelona, Valencia, Cabo de Gata, mit der Fähre nach Marokko zu Marrakesch, Atlas, Wüste und Fès, dann Cádiz, Sevilla, Algarve, Lissabon und über die Playa de las Catedrales, San Sebastián und Südfrankreich zurück.",
   zeitraum: "Fr, 18.06.2027 bis Sa, 24.07.2027, 2 Erwachsene und 2 Kids",
   titelbild: {
     suche: "Erg Chebbi dunes camel caravan|Sahara Merzouga dunes",
@@ -72,23 +72,29 @@ REISEN.marokko = {
     },
     {datum: "7.–9. Juli", name: "11. Sevilla", naechte: 2, info: "Auto (ca. 1,25–1,5 Std., ca. 125 km)"},
     {
-      datum: "9.–13. Juli",
+      datum: "9.–12. Juli",
       name: "12. Algarve (Lagos)",
-      naechte: 4,
+      naechte: 3,
       info: "Auto (ca. 2,75–3 Std., ca. 270 km), Uhr −1 Std."
     },
-    {datum: "13.–16. Juli", name: "13. Lissabon", naechte: 3, info: "Auto über die A2 (ca. 3–3,5 Std., ca. 300 km)"},
+    {datum: "12.–15. Juli", name: "13. Lissabon", naechte: 3, info: "Auto über die A2 (ca. 3–3,5 Std., ca. 300 km)"},
     {
-      datum: "16.–17. Juli",
-      name: "14. Salamanca",
+      datum: "15.–16. Juli",
+      name: "Zwischenübernachtung Porto",
       naechte: 1,
-      info: "Auto über Guarda (ca. 4,5–5 Std., ca. 470 km), Uhr +1 Std."
+      info: "Auto auf der A1 (ca. 3 Std., ca. 315 km)"
     },
     {
-      datum: "17.–20. Juli",
+      datum: "16.–18. Juli",
+      name: "14. Playa de las Catedrales",
+      naechte: 2,
+      info: "Auto über Braga und Lugo (ca. 4–4,5 Std., ca. 400 km), Uhr +1 Std."
+    },
+    {
+      datum: "18.–20. Juli",
       name: "15. San Sebastián",
-      naechte: 3,
-      info: "Auto über Valladolid und Burgos (ca. 4,5–5 Std., ca. 470 km)"
+      naechte: 2,
+      info: "Auto entlang der Nordküste über Bilbao (ca. 5 Std., ca. 480 km)"
     },
     {
       datum: "20.–22. Juli",
@@ -111,11 +117,11 @@ REISEN.marokko = {
   planHinweise: [
     [
       "Gesamt",
-      "36 Nächte, 17 Stationen und 1 Zwischenübernachtung (Sète). Keine Flüge: mit dem eigenen Elektroauto ca. 5’200 km (ca. 55 Std. reine Fahrzeit), in Marokko mit dem Mietwagen ca. 1’000 km (ca. 16–17 Std.), dazu zweimal die Fähre über die Meerenge (je ca. 1 Std.) und Züge zwischen Tanger, Marrakesch und Fès (zusammen ca. 9–11 Std.). Mit Pausen, Ladestopps, Grenz- und Passkontrollen, Umsteigen und Stau realistisch ca. 98–103 Std. von Tür zu Tür (ca. 82–86 Std. im Auto, ca. 16–18 Std. für Fähren und Züge mit Wartezeiten). Die längsten Reisetage: Brig-Glis–Sète (ca. 7–7,5 Std.), Merzouga–Fès (ca. 7 Std. im Mietwagen), Fès–Cádiz (Zug, Fähre und Auto, ca. 8–9 Std.), Tarifa–Marrakesch (Fähre und Zug, ca. 7–8 Std.), Lissabon–Salamanca und Salamanca–San Sebastián (je ca. 4,5–5 Std.) und Avignon–Brig-Glis (ca. 5,5–6 Std.)."
+      "36 Nächte, 17 Stationen und 2 Zwischenübernachtungen (Sète, Porto). Keine Flüge: mit dem eigenen Elektroauto ca. 5’450 km (ca. 58 Std. reine Fahrzeit), in Marokko mit dem Mietwagen ca. 1’000 km (ca. 16–17 Std.), dazu zweimal die Fähre über die Meerenge (je ca. 1 Std.) und Züge zwischen Tanger, Marrakesch und Fès (zusammen ca. 9–11 Std.). Mit Pausen, Ladestopps, Grenz- und Passkontrollen, Umsteigen und Stau realistisch ca. 101–106 Std. von Tür zu Tür (ca. 85–89 Std. im Auto, ca. 16–18 Std. für Fähren und Züge mit Wartezeiten). Die längsten Reisetage: Brig-Glis–Sète (ca. 7–7,5 Std.), Merzouga–Fès (ca. 7 Std. im Mietwagen), Fès–Cádiz (Zug, Fähre und Auto, ca. 8–9 Std.), Tarifa–Marrakesch (Fähre und Zug, ca. 7–8 Std.), Ribadeo–San Sebastián (ca. 5 Std.), Porto–Ribadeo (ca. 4–4,5 Std.) und Avignon–Brig-Glis (ca. 5,5–6 Std.)."
     ],
     [
       "Vorab buchen",
-      "Schnorcheltour zu den Medes-Inseln, Kajak- und Schnorcheltour in Cabo de Palos, Parkplatz für das eigene Auto in Tarifa (ca. eine Woche), Fähre Tarifa–Tanger hin und zurück, Zugtickets in Marokko (ONCF), Mietwagen als Einwegmiete Marrakesch–Fès, Riads in Marrakesch und Fès, Wüstencamp in Merzouga (im Sommer geöffnet und mit Klimaanlage?), Sagrada Família, Oceanogràfic, Alcázar in Sevilla, Kajak an der Algarve, Unterkünfte in San Sebastián und Avignon (Festival)."
+      "Schnorcheltour zu den Medes-Inseln, Kajak- und Schnorcheltour in Cabo de Palos, Parkplatz für das eigene Auto in Tarifa (ca. eine Woche), Fähre Tarifa–Tanger hin und zurück, Zugtickets in Marokko (ONCF), Mietwagen als Einwegmiete Marrakesch–Fès, Riads in Marrakesch und Fès, Wüstencamp in Merzouga (im Sommer geöffnet und mit Klimaanlage?), Sagrada Família, Oceanogràfic, Alcázar in Sevilla, Kajak an der Algarve, Unterkünfte in San Sebastián und Avignon (Festival)., Reservation für die Playa de las Catedrales (gratis, frühestens 30 Tage vorher)"
     ],
     [
       "Auto und Laden",
@@ -123,7 +129,7 @@ REISEN.marokko = {
     ],
     [
       "Optional",
-      "Chefchaouen (blaue Stadt, eine Nacht mehr in Marokko), Volubilis und Meknès (ab Fès), Agafay-Wüste (ab Marrakesch, als Ausweichziel bei grosser Hitze), Córdoba (ab Sevilla), Sintra (ab Lissabon), Burgos (zwischen Salamanca und San Sebastián), Bilbao (ab San Sebastián), Pont du Gard (auf dem Weg nach Avignon)."
+      "Chefchaouen (blaue Stadt, eine Nacht mehr in Marokko), Volubilis und Meknès (ab Fès), Agafay-Wüste (ab Marrakesch, als Ausweichziel bei grosser Hitze), Córdoba (ab Sevilla), Sintra (ab Lissabon), Porto (am Zwischenhalt), Bilbao mit dem Guggenheim (zwischen Ribadeo und San Sebastián), Bilbao (ab San Sebastián), Pont du Gard (auf dem Weg nach Avignon)."
     ]
   ],
   karte: {
@@ -135,11 +141,11 @@ REISEN.marokko = {
       {titel: "Spanien, Portugal und Marokko im Detail (Stationen 1 bis 15)", datei: "karten/marokko-detail.svg"}
     ]
   },
-  abwechslungIntro: "Städte, Meer, Wüste und Berge wechseln sich ab: Schnorcheln bei den Medes-Inseln, Barcelona und Valencia, Schnorcheln in Cabo de Palos und am Cabo de Gata, eine Woche Marokko mit Medina, Atlas und Sahara, danach Atlantik in Cádiz und an der Algarve, Sevilla, Lissabon, Salamanca und zum Schluss das grüne Baskenland und Südfrankreich.",
+  abwechslungIntro: "Städte, Meer, Wüste und Berge wechseln sich ab: Schnorcheln bei den Medes-Inseln, Barcelona und Valencia, Schnorcheln in Cabo de Palos und am Cabo de Gata, eine Woche Marokko mit Medina, Atlas und Sahara, danach Atlantik in Cádiz und an der Algarve, Sevilla, Lissabon, die Felsbögen der Playa de las Catedrales und zum Schluss das grüne Baskenland und Südfrankreich.",
   abwechslung: [
     [
       "Städte",
-      "Barcelona, Valencia, Marrakesch, Fès, Cádiz, Sevilla, Lissabon, Salamanca, San Sebastián, Carcassonne und Avignon."
+      "Barcelona, Valencia, Marrakesch, Fès, Cádiz, Sevilla, Lissabon, Porto, San Sebastián, Carcassonne und Avignon."
     ],
     [
       "Marokko",
@@ -155,10 +161,10 @@ REISEN.marokko = {
     ],
     [
       "Natur und Landschaft",
-      "Vulkanküste am Cabo de Gata, Wüste von Tabernas, Hoher Atlas, Sahara-Dünen, Felsküste der Algarve, Baskenküste."
+      "Vulkanküste am Cabo de Gata, Wüste von Tabernas, Hoher Atlas, Sahara-Dünen, Felsküste der Algarve, Felsbögen der Playa de las Catedrales, Baskenküste."
     ]
   ],
-  stationenIntro: "Siebzehn Stationen in Spanien, Marokko, Portugal und Frankreich. Über jeder Station steht, wie ihr dorthin kommt.",
+  stationenIntro: "Siebzehn Stationen in Spanien, Marokko, Portugal und Frankreich, dazu Zwischenhalte in Sète und Porto. Über jeder Station steht, wie ihr dorthin kommt.",
   stationen: [
     {
       nr: 1,
@@ -468,13 +474,13 @@ REISEN.marokko = {
       name: "Algarve (Lagos)",
       land: "pt",
       region: "Portugal",
-      datum: "9.–13. Juli",
-      naechte: "4 Nächte",
+      datum: "9.–12. Juli",
+      naechte: "3 Nächte",
       anreise: "Mit dem Auto von Sevilla über Huelva auf der Algarve-Autobahn A22 nach Lagos (ca. 2,75–3 Std., ca. 270 km). In Portugal ist es eine Stunde früher. Maut: die A22 ist frei, die A2 nach Lissabon hat Zahlstellen; für elektronische Maut EasyToll an der Grenze.",
       text: "Goldgelbe Felsküste mit Grotten, Felsbögen und kleinen Buchten. Nach Sevilla drei Tage Strand und Meer, bevor es in die Städte Lissabon und Porto geht.",
       teens: "Kajak- oder Bootstour durch die Grotten der Ponta da Piedade, Baden in den Buchten Praia do Camilo und Praia Dona Ana, Sonnenuntergang an den Klippen, optional Bootstour zur Benagil-Höhle.",
       fakten: [
-        "<strong>Dauer:</strong> 4 Nächte in Lagos: ein Tag Kajak an der Ponta da Piedade, zwei Tage Buchten und Strand, ein Tag Bootstour zur Benagil-Höhle oder Ausflug nach Sagres.",
+        "<strong>Dauer:</strong> 3 Nächte in Lagos: ein Tag Kajak an der Ponta da Piedade, ein Tag Buchten und Strand, ein Tag Bootstour zur Benagil-Höhle oder Ausflug nach Sagres.",
         "<strong>Kajak:</strong> Geführte Touren ab der Marina von Lagos dauern ca. 2 Std. (ab ca. 35 € pro Person); Kids unter 16 nur mit Erwachsenen, alle müssen schwimmen können. Vorab buchen, bei Wellengang fällt die Tour aus.",
         "<strong>Wasser:</strong> Atlantik, deutlich kühler als das Mittelmeer; die Buchten sind bei Ebbe grösser."
       ],
@@ -494,7 +500,7 @@ REISEN.marokko = {
       ersatzsuche: "Lisbon",
       land: "pt",
       region: "Portugal",
-      datum: "13.–16. Juli",
+      datum: "12.–15. Juli",
       naechte: "3 Nächte",
       anreise: "Mit dem Auto von Lagos über die A2 nach Lissabon (ca. 3–3,5 Std., ca. 300 km, Maut an Zahlstellen).",
       text: "Hügelige Hauptstadt am Tejo mit Strassenbahnen, Aussichtspunkten, Fliesenfassaden und Pastéis de Nata. Nah am Meer und an Sintra.",
@@ -516,27 +522,29 @@ REISEN.marokko = {
     },
     {
       nr: 14,
-      name: "Salamanca",
+      name: "Playa de las Catedrales",
       land: "es",
-      region: "Kastilien und León",
-      datum: "16.–17. Juli",
-      naechte: "1 Nacht",
-      anreise: "Mit dem Auto von Lissabon über Guarda und die Grenze bei Vilar Formoso nach Salamanca (ca. 4,5–5 Std., ca. 470 km). In Spanien ist es wieder eine Stunde später.",
-      text: "Goldgelbe Universitätsstadt mit einem der schönsten Plätze Spaniens, der Plaza Mayor, zwei Kathedralen und einer der ältesten Universitäten Europas. Die ganze Altstadt ist Unesco-Welterbe.",
-      teens: "Abend auf der Plaza Mayor, Aufstieg auf die Türme der Kathedrale, den kleinen Frosch an der Fassade der Universität suchen, Casa de las Conchas mit über 300 Muscheln an der Wand, Churros.",
+      region: "Galicien",
+      datum: "16.–18. Juli",
+      naechte: "2 Nächte",
+      zwischenstopp: {text: "Zwischenübernachtung in Porto", datum: "15.–16. Juli"},
+      anreise: "Mit dem Auto von Lissabon auf der A1 nach Porto (ca. 3 Std., ca. 315 km), dort übernachten und am Abend durch die Ribeira. Am nächsten Tag über Braga, Valença und Lugo nach Ribadeo (ca. 4–4,5 Std., ca. 400 km). In Spanien ist es wieder eine Stunde später.",
+      text: "Bei Ebbe läuft man zwischen meterhohen Felsbögen und Höhlen am Strand. Nach Wüste, Medinas und Andalusien ist die grüne, kühle Küste Galiciens ein starker Kontrast.",
+      teens: "Bei Ebbe durch die «Kathedralen» laufen, Höhlen erkunden, Küstenwanderung, Surf-Schnupperstunde, Altstadt von Ribadeo.",
       fakten: [
-        "<strong>Dauer:</strong> 1 Nacht als Zwischenhalt: Ankunft am Nachmittag, Abend auf der Plaza Mayor, am Morgen Kathedrale, dann weiter nach San Sebastián.",
-        "<strong>Wetter:</strong> Hochebene auf ca. 800 m: tagsüber heiss, abends angenehm kühl.",
-        "<strong>Auto:</strong> Hotel mit Parkplatz am Rand der Altstadt wählen, die Altstadt zu Fuss."
+        "<strong>Dauer:</strong> 2 Nächte in Ribadeo, damit eine Ebbe bei Tageslicht sicher passt.",
+        "<strong>Reservation:</strong> Vom 1. Juli bis 30. September gratis online nötig, frühestens 30 Tage vorher, begrenzte Plätze.",
+        "<strong>Gezeiten:</strong> Die Bögen sind nur bei Ebbe zugänglich; Gezeitentabelle prüfen und die Flut nicht verpassen.",
+        "<strong>Wasser:</strong> Der Atlantik hat im Juli nur ca. 17–19 °C."
       ],
-      ausserdem: "Casa Lis (Jugendstil-Museum), Römerbrücke, Ciudad Rodrigo (an der Strecke), Burgos mit der Kathedrale (auf der Weiterfahrt).",
+      ausserdem: "Ribadeo mit Ría, Mondoñedo, Tapia de Casariego, Strände der Mariña Lucense. Auf der Anreise ab Porto: Santiago de Compostela (Kathedrale, Umweg).",
       bilder: [
-        {titel: "Plaza Mayor", suche: "Plaza Mayor Salamanca", stichwort: "plaza mayor|salamanca"},
-        {titel: "Kathedrale", suche: "Salamanca Cathedral", stichwort: "cathedral|salamanca"},
-        {titel: "Universität", suche: "University of Salamanca facade", stichwort: "universi|salamanca"},
-        {titel: "Casa de las Conchas", suche: "Casa de las Conchas Salamanca", stichwort: "conchas"},
-        {titel: "Römerbrücke", suche: "Roman bridge Salamanca", stichwort: "bridge|salamanca"},
-        {titel: "Burgos", suche: "Burgos Cathedral", stichwort: "burgos"}
+        {titel: "Felsbögen", suche: "Playa de las Catedrales|Praia As Catedrais", stichwort: "catedra"},
+        {titel: "Bei Ebbe", suche: "Playa de las Catedrales low tide", stichwort: "catedra"},
+        {titel: "Ribadeo", suche: "Ribadeo", stichwort: "ribadeo"},
+        {titel: "Küste", suche: "Mariña Lucense coast|Galicia coast Lugo", stichwort: "galicia|mariña|lugo"},
+        {titel: "Höhle", suche: "As Catedrais cave", stichwort: "catedra"},
+        {titel: "Mondoñedo", suche: "Mondonedo cathedral", stichwort: "mondo"}
       ]
     },
     {
@@ -545,13 +553,13 @@ REISEN.marokko = {
       ersatzsuche: "San Sebastian|Donostia",
       land: "es",
       region: "Baskenland",
-      datum: "17.–20. Juli",
-      naechte: "3 Nächte",
-      anreise: "Mit dem Auto von Salamanca über Valladolid und Burgos nach San Sebastián (ca. 4,5–5 Std., ca. 470 km, Maut auf der AP-1).",
+      datum: "18.–20. Juli",
+      naechte: "2 Nächte",
+      anreise: "Mit dem Auto von Ribadeo entlang der Nordküste über Oviedo, Santander und Bilbao nach San Sebastián (ca. 5 Std., ca. 480 km); Halt in Bilbao beim Guggenheim-Museum möglich.",
       text: "Elegante Stadt an einer muschelförmigen Bucht mit Stadtstrand, Altstadt voller Pintxos-Bars und zwei Aussichtsbergen. Nach der Hitze im Süden ist es hier grün und angenehm.",
       teens: "Baden an der Playa de la Concha, Surfstunde an der Zurriola, Standseilbahn auf den Monte Igueldo mit altem Freizeitpark, Aquarium, Pintxos am Abend, Ausflug nach Bilbao ins Guggenheim.",
       fakten: [
-        "<strong>Dauer:</strong> 3 Nächte: ein Tag Strand und Altstadt, ein Tag Surfen oder Küstenwanderung, ein Tag Bilbao (ca. 1,25 Std.) oder Biarritz (ca. 45 Min.).",
+        "<strong>Dauer:</strong> 2 Nächte: ein Tag Strand und Altstadt, ein Tag Surfen, Küstenwanderung oder Ausflug nach Biarritz (ca. 45 Min.).",
         "<strong>Wetter:</strong> Meist 22–26 °C, Atlantik ca. 20–22 °C, Regenschauer möglich.",
         "<strong>Auto:</strong> Parkhaus beim Hotel; in der Stadt zu Fuss, mit Bus oder Velo."
       ],
@@ -681,10 +689,11 @@ REISEN.marokko = {
       ["9. Fès (2)", "500–850"],
       ["10. Cádiz (2)", "600–1’000"],
       ["11. Sevilla (2)", "650–1’050"],
-      ["12. Algarve (4)", "1’200–2’000"],
+      ["12. Algarve (3)", "900–1’500"],
       ["13. Lissabon (3)", "1’000–1’700"],
-      ["14. Salamanca (1)", "250–400"],
-      ["15. San Sebastián (3)", "1’100–1’800"],
+      ["Zwischenübernachtung Porto (1)", "250–400"],
+      ["14. Playa de las Catedrales (2)", "550–900"],
+      ["15. San Sebastián (2)", "750–1’200"],
       ["16. Carcassonne (2)", "550–900"],
       ["17. Avignon (2)", "550–900"]
     ],

@@ -27,15 +27,16 @@ const wege = [
   ['car', 'Cádiz – Sevilla', ['CAD', [36.85, -6.05], 'SV']],
   ['car', 'Sevilla – Huelva – Lagos', weg('Sevilla – Huelva – Lagos')],
   ['car', 'Lagos – Lissabon (A2)', weg('Lagos – Lissabon (A2)')],
-  ['car', 'Lissabon – Guarda – Salamanca', ['LI', [39.0, -8.75], [39.47, -8.0], [39.82, -7.5], 'GUA', [40.62, -6.8], [40.6, -6.2], 'SAL']],
-  ['car', 'Salamanca – Valladolid – Burgos – San Sebastián', ['SAL', 'VLD', 'BUR', [42.85, -2.68], [43.07, -2.2], 'SS']],
+  ['car', 'Lissabon – Porto (A1)', weg('Lissabon – Porto (A1)')],
+  ['car', 'Porto – Braga – Lugo – Ribadeo', weg('Porto – Braga – Lugo – Ribadeo')],
+  ['car', 'Ribadeo – Nordküste – Bilbao – San Sebastián', weg('Ribadeo – Nordküste – Bilbao').concat([[43.29, -2.4], 'SS'])],
   ['car', 'San Sebastián – Bayonne – Toulouse – Carcassonne', ['SS', 'BAY', 'PAU', [43.23, 0.07], 'TOU', 'CA']],
   ['car', 'Carcassonne – Narbonne – Montpellier – Avignon', ['CA', 'NB', [43.34, 3.22], 'MP', 'NIM', 'AVI']],
   ['car', 'Avignon – Lyon – Genf – Brig-Glis', ['AVI', 'OR', 'VA', 'LY', [45.95, 5.35], [46.0, 5.8], 'GE', [46.45, 6.55], [46.38, 6.85], 'MA', 'BR']]
 ];
 const stationen = [
   [1, 'ES', 'l', 'Costa Brava'], [2, 'BC', 'l'], [3, 'VAL', 'l'], [4, 'SJ', 'r'], [5, 'TAR', 'l'], [6, 'RAK', 'l'], [7, 'DAD', 'u', 'Dadès'], [8, 'MRZ', 'r'], [9, 'FES', 'r'],
-  [10, 'CAD', 'l'], [11, 'SV', 'u'], [12, 'LAG', 'd', 'Algarve'], [13, 'LI', 'l'], [14, 'SAL', 'r'], [15, 'SS', 'u'],
+  [10, 'CAD', 'l'], [11, 'SV', 'u'], [12, 'LAG', 'd', 'Algarve'], [13, 'LI', 'l'], [14, 'RI', 'u', 'Catedrales'], [15, 'SS', 'u'],
   [16, 'CA', 'u'], [17, 'AVI', 'u']
 ];
 module.exports = { orte, wege, stationen };

@@ -64,16 +64,20 @@
 <polyline points="301.1,573.4 232.1,584.9 199.3,589.4 142.9,593.0 109.3,599.2" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Sevilla – Huelva – Lagos</title></polyline>
 <polyline points="109.3,599.2 125.0,554.5 116.4,503.5 89.3,465.1 75.8,454.2" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
 <polyline points="109.3,599.2 125.0,554.5 116.4,503.5 89.3,465.1 75.8,454.2" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Lagos – Lissabon (A2)</title></polyline>
-<polyline points="75.8,454.2 103.6,429.3 157.1,387.3 192.9,356.0 209.3,291.6 242.9,284.4 285.7,286.2 324.0,253.6" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
-<polyline points="75.8,454.2 103.6,429.3 157.1,387.3 192.9,356.0 209.3,291.6 242.9,284.4 285.7,286.2 324.0,253.6" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Lissabon – Guarda – Salamanca</title></polyline>
-<polyline points="324.0,253.6 391.4,192.3 464.3,130.6 537.1,85.0 571.4,65.3 587.1,42.9" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
-<polyline points="324.0,253.6 391.4,192.3 464.3,130.6 537.1,85.0 571.4,65.3 587.1,42.9" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Salamanca – Valladolid – Burgos – San Sebastián</title></polyline>
+<polyline points="75.8,454.2 103.6,411.4 99.3,363.1 126.4,321.1 110.7,282.6 113.6,237.0" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="75.8,454.2 103.6,411.4 99.3,363.1 126.4,321.1 110.7,282.6 113.6,237.0" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Lissabon – Porto (A1)</title></polyline>
+<polyline points="113.6,237.0 127.1,201.2 111.4,158.3 150.0,116.3 188.6,70.7 225.7,23.6" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="113.6,237.0 127.1,201.2 111.4,158.3 150.0,116.3 188.6,70.7 225.7,23.6" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Porto – Braga – Lugo – Ribadeo</title></polyline>
+<polyline points="225.7,23.6 264.3,26.8 310.7,39.4 385.7,34.0 457.1,30.4 518.9,48.0 557.1,45.6 587.1,42.9" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="225.7,23.6 264.3,26.8 310.7,39.4 385.7,34.0 457.1,30.4 518.9,48.0 557.1,45.6 587.1,42.9" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Ribadeo – Nordküste – Bilbao – San Sebastián</title></polyline>
 <polyline points="587.1,42.9 623.6,27.7 702.1,44.7 733.6,51.0 831.4,17.9 896.6,52.5" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
 <polyline points="587.1,42.9 623.6,27.7 702.1,44.7 733.6,51.0 831.4,17.9 896.6,52.5" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: San Sebastián – Bayonne – Toulouse – Carcassonne</title></polyline>
 <polyline points="896.6,52.5 943.1,55.1 958.6,41.1 1005.5,16.9 1040.0,-3.6 1072.1,-13.4" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
 <polyline points="896.6,52.5 943.1,55.1 958.6,41.1 1005.5,16.9 1040.0,-3.6 1072.1,-13.4" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Carcassonne – Narbonne – Montpellier – Avignon</title></polyline>
 <polyline points="1072.1,-13.4 1072.1,-30.2 1078.0,-101.3 1074.0,-175.7 1110.7,-192.3 1142.9,-196.8 1167.4,-215.0 1196.4,-237.0 1217.9,-230.8 1233.6,-205.7 1299.1,-225.0" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
 <polyline points="1072.1,-13.4 1072.1,-30.2 1078.0,-101.3 1074.0,-175.7 1110.7,-192.3 1142.9,-196.8 1167.4,-215.0 1196.4,-237.0 1217.9,-230.8 1233.6,-205.7 1299.1,-225.0" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Avignon – Lyon – Genf – Brig-Glis</title></polyline>
+<g><title>Zwischenübernachtung Porto</title><circle cx="113.6" cy="237.0" r="6" fill="#fff" stroke="#718096" stroke-width="2.5"/></g>
+<text class="tl" x="123.6" y="241.0">Porto</text>
 <g><title>Umstieg: Tanger</title><circle cx="313.6" cy="717.3" r="4.5" fill="#fff" stroke="#718096" stroke-width="2"/></g>
 <text class="tl" x="304.6" y="721.3" text-anchor="end">Tanger</text>
 <g><title>1. Costa Brava: Sa, 19.06.2027 – Mo, 21.06.2027, 2 Nächte</title><circle cx="957.0" cy="156.2" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="957.0" y="160.4" text-anchor="middle">1</text></g>
@@ -98,13 +102,13 @@
 <text class="sl" x="262.3" y="655.2" text-anchor="end">Cádiz</text>
 <g><title>11. Sevilla: Mi, 07.07.2027 – Fr, 09.07.2027, 2 Nächte</title><circle cx="301.1" cy="573.4" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="301.1" y="577.6" text-anchor="middle">11</text></g>
 <text class="sl" x="301.1" y="555.4" text-anchor="middle">Sevilla</text>
-<g><title>12. Algarve: Fr, 09.07.2027 – Di, 13.07.2027, 4 Nächte</title><circle cx="109.3" cy="599.2" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="109.3" y="603.4" text-anchor="middle">12</text></g>
+<g><title>12. Algarve: Fr, 09.07.2027 – Mo, 12.07.2027, 3 Nächte</title><circle cx="109.3" cy="599.2" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="109.3" y="603.4" text-anchor="middle">12</text></g>
 <text class="sl" x="109.3" y="626.2" text-anchor="middle">Algarve</text>
-<g><title>13. Lissabon: Di, 13.07.2027 – Fr, 16.07.2027, 3 Nächte</title><circle cx="75.8" cy="454.2" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="75.8" y="458.4" text-anchor="middle">13</text></g>
+<g><title>13. Lissabon: Mo, 12.07.2027 – Do, 15.07.2027, 3 Nächte</title><circle cx="75.8" cy="454.2" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="75.8" y="458.4" text-anchor="middle">13</text></g>
 <text class="sl" x="58.8" y="459.2" text-anchor="end">Lissabon</text>
-<g><title>14. Salamanca: Fr, 16.07.2027 – Sa, 17.07.2027, 1 Nacht</title><circle cx="324.0" cy="253.6" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="324.0" y="257.8" text-anchor="middle">14</text></g>
-<text class="sl" x="341.0" y="258.6" text-anchor="start">Salamanca</text>
-<g><title>15. San Sebastián: Sa, 17.07.2027 – Di, 20.07.2027, 3 Nächte</title><circle cx="587.1" cy="42.9" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="587.1" y="47.1" text-anchor="middle">15</text></g>
+<g><title>14. Catedrales: Fr, 16.07.2027 – So, 18.07.2027, 2 Nächte</title><circle cx="225.7" cy="23.6" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="225.7" y="27.8" text-anchor="middle">14</text></g>
+<text class="sl" x="225.7" y="5.6" text-anchor="middle">Catedrales</text>
+<g><title>15. San Sebastián: So, 18.07.2027 – Di, 20.07.2027, 2 Nächte</title><circle cx="587.1" cy="42.9" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="587.1" y="47.1" text-anchor="middle">15</text></g>
 <text class="sl" x="587.1" y="24.9" text-anchor="middle">San Sebastián</text>
 <text class="fl" x="971.4" y="35.8" text-anchor="end">Hin- und Rückfahrt Brig-Glis ↗</text>
 </svg>

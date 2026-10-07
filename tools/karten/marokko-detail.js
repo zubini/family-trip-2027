@@ -6,6 +6,7 @@ module.exports = {
   projektion: 'eq', parallel: 37, laenge: [-10.2, 3.8], breitengrad: [30.6, 43.8], breite: 1000,
   laender: ['ESP', 'PRT', 'MAR'],
   orte, wege, stationen: stationen.filter(s => s[0] <= 15),
+  zwischenstopps: [['Porto', 'PO', 0]],
   umstiege: [['Tanger', 'TNG', 'l']],
   beschriftungen: [
     ['Spanien', 39.4, -2.6, 'cn'], ['Portugal', 39.6, -7.95, 'cn', -80], ['Marokko', 32.6, -6.8, 'cn'], ['Frankreich', 43.55, 0.4, 'cn'],
