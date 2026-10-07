@@ -1,11 +1,11 @@
-// Reise: USA von Las Vegas durch die Nationalparks im Südwesten, mit dem Flugzeug nach Miami, als Roadtrip bis Washington und mit dem Zug nach New York.
+// Reise: USA als Roadtrip von Las Vegas durch den Südwesten, Texas, die Golfküste und Florida die Ostküste hinauf bis Washington, mit dem Zug nach New York.
 // Daten in "datum" ohne Wochentag schreiben (z.B. "19.–22. Juni"), die Wochentage rechnet js/app.js aus.
 // Texte dürfen einfaches HTML enthalten (<b>, <strong>, <i>).
 window.REISEN = window.REISEN || {};
 REISEN.usa2 = {
-  titel: "Von Las Vegas über Miami nach New York",
+  titel: "Von Las Vegas über Florida nach New York",
   menu: "USA (über Florida)",
-  untertitel: "Fünf Wochen USA: Nationalparks im Südwesten, mit dem Flugzeug nach Miami, dann als Roadtrip über die Florida Keys, Orlando und die Altstädte der Südstaaten durch die Appalachen nach Washington und mit dem Zug nach New York.",
+  untertitel: "Fünf Wochen Roadtrip quer durch die USA: Nationalparks im Südwesten, Texas, New Orleans, die Golfküste, Orlando und die Florida Keys, dann die Ostküste hinauf nach Washington und mit dem Zug nach New York.",
   zeitraum: "Fr, 18.06.2027 bis Do, 22.07.2027, 2 Erwachsene und 2 Kids",
   titelbild: {
     suche: "Seven Mile Bridge Florida Keys|Florida Keys aerial",
@@ -19,53 +19,48 @@ REISEN.usa2 = {
     info: "Abflug am Fr, 18.06.2027, Direktflug ca. 12 Std. nur an einzelnen Wochentagen, sonst mit Umstieg ca. 14–17 Std.; Ankunft am selben Tag"
   },
   plan: [
-    {datum: "18.–20. Juni", name: "1. Las Vegas", naechte: 2, info: "Mietwagen am Flughafen abholen (Rundmiete)"},
+    {
+      datum: "18.–20. Juni",
+      name: "1. Las Vegas",
+      naechte: 2,
+      info: "Mietwagen am Flughafen abholen (Einwegmiete bis Washington)"
+    },
     {datum: "20.–22. Juni", name: "2. Zion National Park", naechte: 2, info: "Mietwagen (ca. 2,5–3 Std.), Uhr +1 Std."},
-    {datum: "22.–24. Juni", name: "3. Page und Lake Powell", naechte: 2, info: "Mietwagen (ca. 2,5 Std.), Uhr −1 Std."},
-    {datum: "24.–25. Juni", name: "4. Monument Valley", naechte: 1, info: "Mietwagen (ca. 2 Std.), Uhr +1 Std."},
+    {datum: "22.–23. Juni", name: "3. Page und Lake Powell", naechte: 1, info: "Mietwagen (ca. 2,5 Std.), Uhr −1 Std."},
+    {datum: "23.–24. Juni", name: "4. Grand Canyon (South Rim)", naechte: 1, info: "Mietwagen (ca. 2,5 Std.)"},
+    {datum: "24.–25. Juni", name: "5. Monument Valley", naechte: 1, info: "Mietwagen (ca. 3,5 Std.), Uhr +1 Std."},
+    {datum: "25.–26. Juni", name: "6. Albuquerque", naechte: 1, info: "Mietwagen (ca. 5,5–6,5 Std.)"},
+    {datum: "26.–27. Juni", name: "7. White Sands (Alamogordo)", naechte: 1, info: "Mietwagen (ca. 3,5–4 Std.)"},
+    {datum: "27.–28. Juni", name: "8. Carlsbad Caverns", naechte: 1, info: "Mietwagen (ca. 3–3,5 Std.)"},
     {
-      datum: "25.–27. Juni",
-      name: "5. Grand Canyon (South Rim)",
-      naechte: 2,
-      info: "Mietwagen (ca. 3,5 Std.), Uhr −1 Std."
-    },
-    {
-      datum: "27.–28. Juni",
-      name: "Zwischenübernachtung Las Vegas",
+      datum: "28.–29. Juni",
+      name: "Zwischenübernachtung Fort Stockton",
       naechte: 1,
-      info: "Mietwagen über den Hoover-Staudamm (ca. 4,5–5 Std.), Rückgabe in Las Vegas"
+      info: "Mietwagen (ca. 2,5–3,5 Std.), Uhr +1 Std."
     },
+    {datum: "29. Juni–1. Juli", name: "9. San Antonio", naechte: 2, info: "Mietwagen (ca. 5–5,5 Std.)"},
+    {datum: "1.–2. Juli", name: "10. Houston", naechte: 1, info: "Mietwagen (ca. 3–3,5 Std.)"},
+    {datum: "2.–4. Juli", name: "11. New Orleans", naechte: 2, info: "Mietwagen (ca. 5–6 Std.)"},
+    {datum: "4.–6. Juli", name: "12. Destin (Golfküste)", naechte: 2, info: "Mietwagen (ca. 4–4,5 Std.)"},
+    {datum: "6.–8. Juli", name: "13. Orlando", naechte: 2, info: "Mietwagen (ca. 6–7 Std.), Uhr +1 Std."},
+    {datum: "8.–10. Juli", name: "14. Key Largo und Islamorada", naechte: 2, info: "Mietwagen (ca. 4,5–5,5 Std.)"},
     {
-      datum: "28.–30. Juni",
-      name: "6. Miami",
+      datum: "10.–12. Juli",
+      name: "15. Key West",
       naechte: 2,
-      info: "Inlandflug Las Vegas–Miami (ca. 4,5–5 Std.), Uhr +3 Std.; zweiten Mietwagen abholen (Einwegmiete bis Washington)"
+      info: "Mietwagen über den Overseas Highway (ca. 2–2,5 Std.)"
     },
+    {datum: "12.–13. Juli", name: "16. Miami", naechte: 1, info: "Mietwagen (ca. 3,5–4 Std.)"},
+    {datum: "13.–14. Juli", name: "17. St. Augustine", naechte: 1, info: "Mietwagen (ca. 4,5–5 Std.)"},
+    {datum: "14.–16. Juli", name: "18. Charleston", naechte: 2, info: "Mietwagen über Savannah (ca. 4,5–5,5 Std.)"},
+    {datum: "16.–17. Juli", name: "19. Williamsburg", naechte: 1, info: "Mietwagen (ca. 7–7,5 Std.)"},
     {
-      datum: "30. Juni–2. Juli",
-      name: "7. Key West",
+      datum: "17.–19. Juli",
+      name: "20. Washington, D.C.",
       naechte: 2,
-      info: "Mietwagen über den Overseas Highway (ca. 3,5–4 Std.)"
+      info: "Mietwagen (ca. 2,5–3 Std.), Rückgabe in Washington"
     },
-    {datum: "2.–4. Juli", name: "8. Key Largo und Islamorada", naechte: 2, info: "Mietwagen (ca. 2–2,5 Std.)"},
-    {datum: "4.–7. Juli", name: "9. Orlando", naechte: 3, info: "Mietwagen (ca. 4,5–5,5 Std.)"},
-    {datum: "7.–8. Juli", name: "10. St. Augustine", naechte: 1, info: "Mietwagen (ca. 1,75–2 Std.)"},
-    {datum: "8.–10. Juli", name: "11. Savannah", naechte: 2, info: "Mietwagen (ca. 2,75–3 Std.)"},
-    {datum: "10.–12. Juli", name: "12. Charleston", naechte: 2, info: "Mietwagen (ca. 1,75–2 Std.)"},
-    {
-      datum: "12.–14. Juli",
-      name: "13. Asheville und Great Smoky Mountains",
-      naechte: 2,
-      info: "Mietwagen (ca. 4,5–5 Std.)"
-    },
-    {datum: "14.–15. Juli", name: "14. Shenandoah (Luray)", naechte: 1, info: "Mietwagen (ca. 6–6,5 Std.)"},
-    {
-      datum: "15.–18. Juli",
-      name: "15. Washington, D.C.",
-      naechte: 3,
-      info: "Mietwagen (ca. 1,75–2 Std.), Rückgabe in Washington"
-    },
-    {datum: "18.–22. Juli", name: "16. New York", naechte: 4, info: "Amtrak-Zug (ca. 3–3,5 Std.); Rückflug 22. Juli"}
+    {datum: "19.–22. Juli", name: "21. New York", naechte: 3, info: "Amtrak-Zug (ca. 3–3,5 Std.); Rückflug 22. Juli"}
   ],
   rueckflug: {
     datum: "22. Juli",
@@ -75,55 +70,55 @@ REISEN.usa2 = {
   planHinweise: [
     [
       "Gesamt",
-      "34 Nächte, 16 Stationen und eine Zwischenübernachtung (Las Vegas). Ein Inlandflug (Las Vegas–Miami), zwei Mietwagen (Rundmiete ab Las Vegas für ca. 10 Tage, Einwegmiete Miami–Washington für ca. 17 Tage) und der Amtrak-Zug nach New York. Insgesamt ca. 4’100 km (ca. 2’550 Meilen) und ca. 47 Std. reine Fahrzeit an 15 Fahrtagen (Südwesten ca. 16 Std., Osten ca. 31 Std.); mit Pausen, Tanken, Stau und Fahrten vor Ort realistisch ca. 55–60 Std. im Auto. Die längsten: Asheville–Luray (ca. 6–6,5 Std.), Key Largo–Orlando (ca. 4,5–5,5 Std.), Charleston–Asheville (ca. 4,5–5 Std.), Grand Canyon–Las Vegas (ca. 4,5–5 Std.) und Miami–Key West (ca. 3,5–4 Std.). Dazu der Flug nach Miami (ca. 4,5–5 Std. plus ca. 3 Std. Flughafen und Mietwagen) und der Zug nach New York (ca. 3–3,5 Std.)."
+      "34 Nächte, 21 Stationen und eine Zwischenübernachtung (Fort Stockton). Keine Inlandflüge: nur Hin- und Rückflug, dazwischen eine Einwegmiete Las Vegas–Washington (ca. 29 Tage) und der Amtrak-Zug nach New York. Insgesamt ca. 7’600 km (ca. 4’700 Meilen) und ca. 80–85 Std. reine Fahrzeit an 20 Fahrtagen; mit Pausen, Tanken, Stau und Fahrten vor Ort realistisch ca. 95–103 Std. im Auto. Die längsten: Williamsburg (ca. 7–7,5 Std. ab Charleston), Destin–Orlando (ca. 6–7 Std.), Monument Valley–Albuquerque (ca. 5,5–6,5 Std.), Houston–New Orleans (ca. 5–6 Std.), Fort Stockton–San Antonio und Key Largo–Orlando (je ca. 5–5,5 Std.). Acht Stationen mit nur einer Nacht."
     ],
     [
       "Vorab buchen",
-      "Unterkünfte im Grand Canyon und in Monument Valley (oft Monate im Voraus), Antelope-Canyon-Tour, Inlandflug Las Vegas–Miami, Unterkünfte in Key West und den Keys, Schnorcheltour im Pennekamp-Park, Tickets für Universal und das Kennedy Space Center, Fort Sumter, Zeitfenster für das Air and Space Museum, Amtrak-Züge, Aussichtsplattform und Broadway in New York, Mietwagen."
+      "Unterkünfte im Grand Canyon und in Monument Valley (oft Monate im Voraus), Antelope-Canyon-Tour, Zeitfenster für Carlsbad Caverns, Unterkünfte in Key West und den Keys, Schnorcheltour im Pennekamp-Park, Tickets für Universal und das Kennedy Space Center, Fort Sumter, Zeitfenster für das Air and Space Museum, Amtrak-Züge, Aussichtsplattform und Broadway in New York, Einwegmiete."
     ],
     [
       "Optional",
-      "Bryce Canyon (ab Zion, ca. 2 Std., ebenfalls mit Zusatzgebühr), Dry Tortugas (ab Key West), Cocoa Beach (ab Orlando), Jekyll Island (zwischen St. Augustine und Savannah), Outer Banks an der Küste von North Carolina (statt Asheville, längere Fahrt), Gettysburg (zwischen Luray und Washington), Philadelphia (Halt mit dem Zug zwischen Washington und New York)."
+      "Bryce Canyon (ab Zion, ca. 2 Std., ebenfalls mit Zusatzgebühr), Santa Fe mit Meow Wolf (ab Albuquerque, ca. 1 Std.), Big Bend National Park (ab Fort Stockton, Umweg), Galveston (Strand, ab Houston), Dry Tortugas (ab Key West), Savannah mit einer eigenen Nacht, Philadelphia (Halt mit dem Zug zwischen Washington und New York)."
     ],
     [
       "Flug ab und nach Zürich",
-      "Hinflug: Zürich–Las Vegas als Direktflug ca. 12 Std. (im Sommer 2026 nur an einzelnen Wochentagen; am Freitag mit einem Umstieg ca. 14–17 Std.), Ankunft am selben Tag (Zeitverschiebung −9 Std.). Inlandflug Las Vegas–Miami: Nonstop ca. 4,5–5 Std., Uhr +3 Std. Rückflug: New York–Zürich ca. 7,5–8 Std. als Nachtflug am Do, 22.07.2027, Ankunft am nächsten Morgen. Flugpläne 2027 bei der Buchung prüfen."
+      "Hinflug: Zürich–Las Vegas als Direktflug ca. 12 Std. (im Sommer 2026 nur an einzelnen Wochentagen; am Freitag mit einem Umstieg ca. 14–17 Std.), Ankunft am selben Tag (Zeitverschiebung −9 Std.). Rückflug: New York–Zürich ca. 7,5–8 Std. als Nachtflug am Do, 22.07.2027, Ankunft am nächsten Morgen. Flugpläne 2027 bei der Buchung prüfen."
     ]
   ],
   karte: {
-    intro: "Ungefährer Verlauf: Mietwagen im Südwesten, Inlandflug nach Miami, Mietwagen bis Washington und Amtrak nach New York. Darunter zwei Detailkarten.",
+    intro: "Ungefährer Verlauf der Fahrtwege mit dem Mietwagen von Las Vegas über Texas und Florida bis Washington und mit Amtrak nach New York. Darunter zwei Detailkarten.",
     breit: true,
-    legende: ["car", "air", "train"],
+    legende: ["car", "train"],
     karten: [
       {datei: "karten/usa2.svg"},
-      {titel: "Südwesten im Detail (Stationen 1 bis 5)", datei: "karten/usa2-suedwesten.svg"},
-      {titel: "Osten im Detail (Stationen 6 bis 16)", datei: "karten/usa2-osten.svg"}
+      {titel: "Südwesten und Texas im Detail (Stationen 1 bis 11)", datei: "karten/usa2-suedwesten.svg"},
+      {titel: "Golfküste, Florida und Ostküste im Detail (Stationen 11 bis 21)", datei: "karten/usa2-osten.svg"}
     ]
   },
-  abwechslungIntro: "Wüste, Meer, Städte und Berge wechseln sich ab: zuerst die Nationalparks im Südwesten, dann Strand und Riff in Florida, Freizeitparks in Orlando, die Altstädte der Südstaaten, die Appalachen und zum Schluss Washington und New York.",
+  abwechslungIntro: "Wüste, Städte, Meer und Geschichte wechseln sich ab: Nationalparks im Südwesten, Höhle und Dünen in New Mexico, die Städte von Texas und New Orleans, Strand an der Golfküste und in den Keys, Freizeitparks in Orlando und zum Schluss die Ostküste. Nach langen Fahrtagen jeweils eine Station mit zwei Nächten.",
   abwechslung: [
     [
       "Naturwunder",
-      "Zion, Antelope Canyon und Horseshoe Bend, Monument Valley, Grand Canyon, Everglades, Florida Keys, Great Smoky Mountains, Blue Ridge Parkway und Shenandoah mit den Luray Caverns."
+      "Zion, Antelope Canyon und Horseshoe Bend, Grand Canyon, Monument Valley, White Sands, Carlsbad Caverns, Everglades und Florida Keys."
     ],
     [
       "Strand und Schnorcheln",
-      "South Beach in Miami, Korallenriff im Pennekamp-Park (Key Largo), Key West, Atlantikstrände in St. Augustine, auf Tybee Island und am Folly Beach."
+      "Weisse Strände bei Destin, Korallenriff im Pennekamp-Park (Key Largo), Key West, South Beach in Miami, Atlantikstrand in St. Augustine."
     ],
     [
       "Action und Freizeitparks",
-      "Universal in Orlando, Kennedy Space Center, Airboat in den Everglades, Flugzeugträger USS Yorktown, Air and Space Museum, Aussichtsplattformen in New York, Las Vegas."
+      "Universal in Orlando, Kennedy Space Center und Space Center Houston, Sandia Peak Tramway, Busch Gardens Williamsburg, Flugzeugträger in Charleston, Las Vegas."
     ],
     [
       "Städte und Kultur",
-      "Las Vegas, Miami mit Little Havana, Key West, St. Augustine, Savannah, Charleston, Washington mit den Smithsonian-Museen und New York."
+      "Las Vegas, Albuquerque, San Antonio mit dem Alamo, Houston, New Orleans mit Jazz, Miami, St. Augustine, Charleston, Colonial Williamsburg, Washington und New York."
     ],
     [
       "Ruhetage",
-      "Key Largo, Savannah und Asheville sorgen für Erholung zwischen den Fahrtagen; nach dem Flug nach Miami ein ruhiger Abend am Strand."
+      "Zion, San Antonio, Destin und die Keys mit je zwei Nächten sorgen für Erholung zwischen den Fahrtagen."
     ]
   ],
-  stationenIntro: "Sechzehn Stationen von Las Vegas über Miami bis New York. Über jeder Station steht, wie ihr dorthin kommt.",
+  stationenIntro: "Einundzwanzig Stationen von Las Vegas über Texas und Florida bis New York. Über jeder Station steht, wie ihr dorthin kommt.",
   stationen: [
     {
       nr: 1,
@@ -132,7 +127,7 @@ REISEN.usa2 = {
       region: "Nevada",
       datum: "18.–20. Juni",
       naechte: "2 Nächte",
-      anreise: "Flug Zürich–Las Vegas am Fr, 18.06.2027 (Direktflug ca. 12 Std. nur an einzelnen Wochentagen, sonst mit Umstieg ca. 14–17 Std.), Ankunft am selben Tag (Zeitverschiebung −9 Std.). Mietwagen am Flughafen abholen (Rundmiete, Rückgabe wieder in Las Vegas).",
+      anreise: "Flug Zürich–Las Vegas am Fr, 18.06.2027 (Direktflug ca. 12 Std. nur an einzelnen Wochentagen, sonst mit Umstieg ca. 14–17 Std.), Ankunft am selben Tag (Zeitverschiebung −9 Std.). Mietwagen am Flughafen abholen (Einwegmiete bis Washington).",
       text: "Der Einstieg in der Wüste: Neonlichter, Hotels wie Freizeitparks und die Wasserspiele des Bellagio. Zwei Nächte, um den Jetlag zu überwinden, bevor es in die Nationalparks geht.",
       teens: "High Roller (Riesenrad) bei Sonnenuntergang, Wasserspiele des Bellagio, Red Rock Canyon (Felsen und Aussicht) früh am Morgen, Hoover-Staudamm als Halbtagesausflug, Shows und Hotels als Kulisse.",
       fakten: [
@@ -180,15 +175,15 @@ REISEN.usa2 = {
       name: "Page und Lake Powell",
       land: "us",
       region: "Arizona",
-      datum: "22.–24. Juni",
-      naechte: "2 Nächte",
+      datum: "22.–23. Juni",
+      naechte: "1 Nacht",
       anreise: "Mietwagen von Springdale über den Zion–Mount Carmel Highway und Kanab nach Page (ca. 2,5 Std., ca. 180 km). Arizona hat keine Sommerzeit, die Uhr springt −1 Std.",
       text: "Kleinstadt am Lake Powell mit zwei weltberühmten Fotomotiven: dem Horseshoe Bend und dem Antelope Canyon. Beides liegt auf oder neben Navajo-Land.",
       teens: "Geführte Tour durch den Antelope Canyon (Zeitfenster vorab buchen), Horseshoe Bend zum Sonnenuntergang, Bootsfahrt oder Baden im Lake Powell.",
       fakten: [
+        "<strong>Dauer:</strong> 1 Nacht: am Nachmittag Antelope Canyon (Tour mit Zeitfenster), am Abend Horseshoe Bend.",
         "<strong>Hinweis:</strong> Der Antelope Canyon ist nur mit zugelassenen Navajo-Führern zugänglich. Bei Gewitter oder Regen in der Umgebung werden Touren wegen Sturzfluten abgesagt (Juli: Monsun).",
-        "<strong>Zeit:</strong> Page richtet sich nach der Arizona-Zeit (keine Sommerzeit). Die Uhr ändert sich gegenüber Utah um eine Stunde.",
-        "<strong>Hitze:</strong> Mittags 38 °C und mehr; Touren am frühen Morgen oder am Abend wählen."
+        "<strong>Zeit:</strong> Page richtet sich nach der Arizona-Zeit (keine Sommerzeit). Die Uhr ändert sich gegenüber Utah um eine Stunde."
       ],
       ausserdem: "Glen Canyon Dam (Besucherzentrum), Wahweap-Strand, Rainbow Bridge (nur per Boot), Waterholes Canyon (Tour).",
       bilder: [
@@ -206,12 +201,37 @@ REISEN.usa2 = {
     },
     {
       nr: 4,
+      name: "Grand Canyon (South Rim)",
+      land: "us",
+      region: "Arizona",
+      datum: "23.–24. Juni",
+      naechte: "1 Nacht",
+      anreise: "Mietwagen von Page über den Highway 89 und Cameron zum Südrand (ca. 2,5 Std., ca. 220 km).",
+      text: "Der Südrand des Grand Canyon ist der klassische Zugang: Aussichtspunkte direkt am Rand, Wanderwege und ein kostenloser Parkshuttle. Eine Nacht am Rand reicht für Sonnenuntergang und Sonnenaufgang, am besten im Park oder im nahen Tusayan.",
+      teens: "Mather Point und Rim Trail (flach, grosse Aussicht), Sonnenuntergang am Hopi Point, Junior-Ranger-Programm im Visitor Center, Desert View Watchtower, ein Stück den Bright Angel Trail hinunterwandern (nicht bis zum Fluss).",
+      fakten: [
+        "<strong>Gebühr:</strong> Auch der Grand Canyon gehört zu den 11 Parks mit 100 USD Zusatzgebühr pro Person ab 16 Jahren. Mit dem Jahrespass (250 USD) entfällt sie.",
+        "<strong>Sicherheit:</strong> Auf Trails nicht zu weit absteigen: der Aufstieg dauert doppelt so lang wie der Abstieg. Wasser, salzige Snacks und Hut mitnehmen.",
+        "<strong>Unterkunft:</strong> Zimmer im Park sind oft Monate im Voraus ausgebucht; sonst in Tusayan übernachten."
+      ],
+      ausserdem: "Desert View Drive (Panoramastrasse), Grand Canyon Railway (Williams), Cameron Trading Post.",
+      bilder: [
+        {titel: "South Rim", suche: "Grand Canyon South Rim|Grand Canyon National Park", stichwort: "grand canyon"},
+        {titel: "Mather Point", suche: "Mather Point Grand Canyon", stichwort: "mather point"},
+        {titel: "Kalifornischer Kondor", suche: "California condor Grand Canyon|California condor", stichwort: "condor"},
+        {titel: "Desert View", suche: "Desert View Watchtower", stichwort: "desert view"},
+        {titel: "Bright Angel Trail", suche: "Bright Angel Trail Grand Canyon", stichwort: "bright angel"},
+        {titel: "Maultiere", suche: "Grand Canyon mule ride|Grand Canyon mules", stichwort: "mule"}
+      ]
+    },
+    {
+      nr: 5,
       name: "Monument Valley (Navajo Nation)",
       land: "us",
       region: "Utah und Arizona",
       datum: "24.–25. Juni",
       naechte: "1 Nacht",
-      anreise: "Mietwagen von Page über Kayenta nach Monument Valley (ca. 2 Std., ca. 200 km). Die Navajo Nation hat Sommerzeit, die Uhr springt +1 Std.",
+      anreise: "Mietwagen vom Südrand über Cameron, Tuba City und Kayenta nach Monument Valley (ca. 3,5 Std., ca. 290 km). Die Navajo Nation hat Sommerzeit, die Uhr springt +1 Std.",
       text: "Die roten Sandsteintürme aus unzähligen Westernfilmen liegen im Navajo Tribal Park an der Grenze von Utah und Arizona. Eine Nacht reicht, wenn ihr Sonnenuntergang und Sonnenaufgang erlebt.",
       teens: "Valley Drive (ca. 27 km Schotterpiste, mit eigenem Fahrzeug oder geführter Jeeptour der Navajo), Fotostopp am Forrest Gump Point auf der Strasse 163, Sonnenaufgang vom Balkon des The View Hotel (früh buchen).",
       fakten: [
@@ -234,89 +254,237 @@ REISEN.usa2 = {
       ]
     },
     {
-      nr: 5,
-      name: "Grand Canyon (South Rim)",
-      land: "us",
-      region: "Arizona",
-      datum: "25.–27. Juni",
-      naechte: "2 Nächte",
-      anreise: "Mietwagen von Monument Valley über Kayenta, Tuba City und Cameron zum Südrand (ca. 3,5 Std., ca. 290 km); in Arizona springt die Uhr −1 Std.",
-      text: "Der Südrand des Grand Canyon ist der klassische Zugang: Aussichtspunkte direkt am Rand, Wanderwege und ein kostenloser Parkshuttle. Zwei Nächte am Rand, am besten im Park oder im nahen Tusayan.",
-      teens: "Mather Point und Rim Trail (flach, grosse Aussicht), Sonnenuntergang am Hopi Point, Junior-Ranger-Programm im Visitor Center, Desert View Watchtower, ein Stück den Bright Angel Trail hinunterwandern (nicht bis zum Fluss).",
-      fakten: [
-        "<strong>Gebühr:</strong> Auch der Grand Canyon gehört zu den 11 Parks mit 100 USD Zusatzgebühr pro Person ab 16 Jahren. Mit dem Jahrespass (250 USD) entfällt sie.",
-        "<strong>Sicherheit:</strong> Auf Trails nicht zu weit absteigen: der Aufstieg dauert doppelt so lang wie der Abstieg. Wasser, salzige Snacks und Hut mitnehmen.",
-        "<strong>Weiterfahrt:</strong> Am 27. Juni über Williams, Kingman und den Hoover-Staudamm zurück nach Las Vegas (ca. 4,5–5 Std., ca. 450 km), dort übernachten und am Morgen nach Miami fliegen. Zimmer im Park sind oft Monate im Voraus ausgebucht; sonst in Tusayan oder Williams übernachten."
-      ],
-      ausserdem: "Desert View Drive (Panoramastrasse), Grand Canyon Railway (Williams), Cameron Trading Post.",
-      bilder: [
-        {titel: "South Rim", suche: "Grand Canyon South Rim|Grand Canyon National Park", stichwort: "grand canyon"},
-        {titel: "Mather Point", suche: "Mather Point Grand Canyon", stichwort: "mather point"},
-        {titel: "Kalifornischer Kondor", suche: "California condor Grand Canyon|California condor", stichwort: "condor"},
-        {titel: "Desert View", suche: "Desert View Watchtower", stichwort: "desert view"},
-        {titel: "Bright Angel Trail", suche: "Bright Angel Trail Grand Canyon", stichwort: "bright angel"},
-        {titel: "Maultiere", suche: "Grand Canyon mule ride|Grand Canyon mules", stichwort: "mule"}
-      ]
-    },
-    {
       nr: 6,
-      name: "Miami",
+      name: "Albuquerque",
       land: "us",
-      region: "Florida",
-      datum: "28.–30. Juni",
-      naechte: "2 Nächte",
-      zwischenstopp: {text: "Zwischenübernachtung in Las Vegas", datum: "27.–28. Juni"},
-      anreise: "Mietwagen von Grand Canyon über den Hoover-Staudamm zurück nach Las Vegas (ca. 4,5–5 Std., ca. 450 km), dort übernachten und den Mietwagen zurückgeben. Am Morgen Inlandflug Las Vegas–Miami (Nonstop ca. 4,5–5 Std., Flugplan 2027 prüfen), Uhr +3 Std., Ankunft am späten Nachmittag. Am Flughafen Miami den zweiten Mietwagen abholen (Einwegmiete bis Washington).",
-      text: "Nach der Wüste das Meer: Art-déco-Häuser und Strand in South Beach, kubanisches Essen in Little Havana und gleich vor der Stadt die Everglades mit Alligatoren und Mangroven.",
-      teens: "Airboat-Fahrt und Alligatoren in den Everglades, Strand und Art-déco-Viertel in South Beach, Graffiti-Kunst in Wynwood Walls, Little Havana mit kubanischem Essen.",
+      region: "New Mexico",
+      datum: "25.–26. Juni",
+      naechte: "1 Nacht",
+      anreise: "Mietwagen von Monument Valley über Kayenta, Shiprock und Gallup auf die Interstate 40 nach Albuquerque (ca. 5,5–6,5 Std., ca. 520 km). Einer der längeren Fahrtage: früh starten.",
+      text: "Die grösste Stadt New Mexicos am Rio Grande: eine Altstadt mit Lehmziegelbauten, die Route 66 und eine der längsten Pendelseilbahnen der Welt auf den Sandia Peak.",
+      teens: "Sandia Peak Tramway auf über 3’100 m mit Blick über die Wüste (oben kühl), Old Town mit Lehmziegelkirche, Felszeichnungen im Petroglyph National Monument, Neonschilder an der Route 66.",
       fakten: [
-        "<strong>Dauer:</strong> 2 Nächte: am Ankunftsabend South Beach, ein Tag Everglades und Little Havana.",
-        "<strong>Wetter:</strong> Heiss und feucht, am Nachmittag oft kurze Gewitter; Juni bis November ist Hurrikansaison, Wetterberichte verfolgen.",
-        "<strong>Everglades:</strong> Gehört zu den 11 Parks mit 100 USD Zusatzgebühr pro Person ab 16 Jahren für Nicht-US-Bewohner; mit dem Jahrespass (250 USD) entfällt sie. Airboat-Touren gibt es auch ausserhalb des Parks."
+        "<strong>Dauer:</strong> 1 Nacht: am Abend Sandia Peak zum Sonnenuntergang oder Old Town, am Morgen weiter nach White Sands.",
+        "<strong>Höhe:</strong> Albuquerque liegt auf ca. 1’600 m, der Sandia Peak auf ca. 3’160 m: Jacke für oben, Sonnencreme und viel trinken.",
+        "<strong>Abstecher:</strong> Santa Fe mit Meow Wolf liegt ca. 1 Std. nördlich; mit einer zweiten Nacht möglich."
       ],
-      ausserdem: "Everglades National Park (Shark Valley), Vizcaya Museum, Key Biscayne, Frost Science Museum.",
+      ausserdem: "Indian Pueblo Cultural Center, Explora (Wissenschaftsmuseum), Santa Fe (ca. 1 Std.), Kasha-Katuwe Tent Rocks.",
       bilder: [
-        {titel: "South Beach", suche: "Miami South Beach|Miami Beach", stichwort: "miami beach|south beach"},
-        {titel: "Everglades", suche: "Everglades National Park airboat|Everglades", stichwort: "everglades"},
-        {titel: "Art déco", suche: "Ocean Drive Miami art deco", stichwort: "ocean drive|art deco"},
-        {titel: "Wynwood Walls", suche: "Wynwood Walls Miami", stichwort: "wynwood"},
-        {titel: "Little Havana", suche: "Little Havana Miami Calle Ocho", stichwort: "little havana|calle ocho"},
-        {titel: "Skyline", suche: "Miami skyline", stichwort: "miami"}
+        {titel: "Sandia Peak Tramway", suche: "Sandia Peak Tramway Albuquerque", stichwort: "sandia"},
+        {titel: "Old Town", suche: "Albuquerque Old Town San Felipe de Neri", stichwort: "old town|albuquerque|felipe"},
+        {titel: "Petroglyphen", suche: "Petroglyph National Monument", stichwort: "petroglyph"},
+        {titel: "Route 66", suche: "Route 66 Albuquerque neon", stichwort: "route 66"},
+        {
+          titel: "Rio Grande",
+          suche: "Rio Grande Albuquerque bosque|Albuquerque sunset",
+          stichwort: "rio grande|albuquerque"
+        },
+        {
+          titel: "Tent Rocks",
+          suche: "Kasha-Katuwe Tent Rocks National Monument|Tent Rocks",
+          stichwort: "tent rocks|kasha"
+        }
       ]
     },
     {
       nr: 7,
-      name: "Key West",
+      name: "White Sands (Alamogordo)",
       land: "us",
-      region: "Florida Keys",
-      datum: "30. Juni–2. Juli",
-      naechte: "2 Nächte",
-      anreise: "Mietwagen von Miami über den Overseas Highway und die Seven Mile Bridge bis ans Ende der Keys (ca. 3,5–4 Std., ca. 260 km).",
-      text: "Die südlichste Stadt der USA am Ende einer Kette von Inseln und Brücken: bunte Holzhäuser, Hühner auf der Strasse und jeden Abend das Sonnenuntergangsfest am Mallory Square.",
-      teens: "Seven Mile Bridge auf der Fahrt, Sonnenuntergang am Mallory Square, Schnorcheln am Riff per Boot, optional Tagesausflug zum Fort in den Dry Tortugas.",
+      region: "New Mexico",
+      datum: "26.–27. Juni",
+      naechte: "1 Nacht",
+      anreise: "Mietwagen von Albuquerque über die Interstate 25, Carrizozo und die US-54 nach Alamogordo (ca. 3,5–4 Std., ca. 360 km).",
+      text: "Weisse Gipsdünen in der Wüste von New Mexico: ein einzigartiger Landschaftstyp, durch den man barfuss wandert und auf Plastikschlitten die Dünen hinunterrutscht. White Sands ist ein Nationalpark.",
+      teens: "Dünenrutschen mit Schlitten (im Visitor Center erhältlich), Sonnenuntergangs-Spaziergang, Wanderung auf dem Alkali Flat Trail (nur früh oder spät).",
       fakten: [
-        "<strong>Dauer:</strong> 2 Nächte; Unterkünfte in Key West sind im Sommer teuer, früh buchen.",
-        "<strong>Dry Tortugas:</strong> Fähre «Yankee Freedom» ca. 2,5 Std. pro Weg, mit ca. 4 Std. auf der Insel (Fort, Schnorcheln); 2026 ab ca. 235 USD pro Erwachsenen und 180 USD pro Kind, oft ausgebucht.",
-        "<strong>Unterwegs:</strong> Bahia Honda State Park mit Strand und alter Eisenbahnbrücke liegt auf dem Weg."
+        "<strong>Hitze:</strong> Im Juli bis 40 °C und kaum Schatten. Früh am Morgen oder zum Sonnenuntergang gehen, genug Wasser mitnehmen.",
+        "<strong>Hinweis:</strong> Die Strasse durch den Park kann wegen Raketentests auf dem benachbarten Testgelände zeitweise gesperrt sein; Lage vorab prüfen.",
+        "<strong>Gebühr:</strong> Eintritt pro Fahrzeug (mit dem Jahrespass inklusive); White Sands gehört nicht zu den Parks mit 100 USD Zusatzgebühr."
       ],
-      ausserdem: "Mallory Square, Duval Street, Southernmost Point, Hemingway House (mit den Katzen), Fort Zachary Taylor (Strand).",
+      ausserdem: "Space History Museum in Alamogordo, Three Rivers Petroglyph Site, Lincoln National Forest (kühler).",
       bilder: [
-        {titel: "Seven Mile Bridge", suche: "Seven Mile Bridge Florida Keys", stichwort: "seven mile"},
-        {titel: "Mallory Square", suche: "Mallory Square sunset Key West", stichwort: "mallory"},
-        {titel: "Dry Tortugas", suche: "Fort Jefferson Dry Tortugas", stichwort: "jefferson|tortugas"},
-        {titel: "Bahia Honda", suche: "Bahia Honda State Park", stichwort: "bahia honda"},
-        {titel: "Southernmost Point", suche: "Southernmost point Key West", stichwort: "southernmost"},
-        {titel: "Duval Street", suche: "Duval Street Key West", stichwort: "duval"}
+        {titel: "Gipsdünen", suche: "White Sands National Park dunes|White Sands dunes", stichwort: "white sands"},
+        {titel: "Sonnenuntergang", suche: "White Sands sunset", stichwort: "white sands"},
+        {titel: "Besucherzentrum", suche: "White Sands National Monument Visitor Center", stichwort: "visitor center"},
+        {
+          titel: "Weisse Eidechse",
+          suche: "Holbrookia maculata White Sands|bleached earless lizard",
+          stichwort: "holbrookia|lizard"
+        },
+        {titel: "Yucca", suche: "White Sands yucca|White Sands plants", stichwort: "white sands"},
+        {titel: "Raumfahrtmuseum", suche: "New Mexico Museum of Space History", stichwort: "space history"}
       ]
     },
     {
       nr: 8,
+      name: "Carlsbad Caverns",
+      land: "us",
+      region: "New Mexico",
+      datum: "27.–28. Juni",
+      naechte: "1 Nacht",
+      anreise: "Mietwagen von Alamogordo über die Bergstrasse US-82 durch Cloudcroft und Artesia nach Carlsbad (ca. 3–3,5 Std., ca. 300 km).",
+      text: "Riesige Tropfsteinhöhlen unter der Wüste: Ein Rundweg führt durch den «Big Room», einen der grössten Höhlensäle Nordamerikas. Am Abend fliegen im Sommer Hunderttausende Fledermäuse aus.",
+      teens: "Abstieg zu Fuss durch den natürlichen Eingang oder per Lift, Rundgang durch den Big Room, Fledermausflug in der Abenddämmerung.",
+      fakten: [
+        "<strong>Dauer:</strong> 1 Nacht in Carlsbad oder White’s City.",
+        "<strong>Tickets:</strong> Zeitfenster-Reservation auf recreation.gov (1 USD) dringend empfohlen, dazu Eintritt 15 USD pro Person ab 16 Jahren; Kids bis 15 gratis.",
+        "<strong>Hinweis:</strong> In der Höhle sind es ganzjährig ca. 13 °C: eine Jacke mitnehmen."
+      ],
+      ausserdem: "Living Desert Zoo and Gardens, Guadalupe Mountains National Park (Texas).",
+      bilder: [
+        {titel: "Big Room", suche: "Carlsbad Caverns Big Room", stichwort: "big room|carlsbad"},
+        {titel: "Tropfsteine", suche: "Carlsbad Caverns formations", stichwort: "carlsbad"},
+        {
+          titel: "Natürlicher Eingang",
+          suche: "Carlsbad Caverns natural entrance",
+          stichwort: "natural entrance|carlsbad"
+        },
+        {titel: "Fledermäuse", suche: "Carlsbad Caverns bat flight", stichwort: "bat"},
+        {
+          titel: "Guadalupe Mountains",
+          suche: "Guadalupe Peak|Guadalupe Mountains National Park",
+          stichwort: "guadalupe"
+        },
+        {titel: "Chihuahua-Wüste", suche: "Chihuahuan Desert New Mexico", stichwort: "chihuahuan"}
+      ]
+    },
+    {
+      nr: 9,
+      name: "San Antonio",
+      land: "us",
+      region: "Texas",
+      datum: "29. Juni–1. Juli",
+      naechte: "2 Nächte",
+      zwischenstopp: {text: "Zwischenübernachtung in Fort Stockton", datum: "28.–29. Juni"},
+      anreise: "Mietwagen von Carlsbad über die US-285 nach Fort Stockton (ca. 2,5–3,5 Std., ca. 250 km; schmale Strasse mit viel Lastwagenverkehr, wenig Tankstellen), dort übernachten. In Texas springt die Uhr +1 Std. Am nächsten Tag über die Interstate 10 nach San Antonio (ca. 5–5,5 Std., ca. 520 km).",
+      text: "Texanische Geschichte und Flusspromenade: die Missionsstation Alamo, der River Walk mit Booten und Restaurants am Wasser und Tex-Mex-Küche.",
+      teens: "Bootsfahrt auf dem River Walk, The Alamo, Missions-Weltkulturerbe per Velo, Freizeitpark Six Flags Fiesta Texas oder Wasserpark.",
+      fakten: [
+        "<strong>Dauer:</strong> 2 Nächte zum Ausruhen nach den langen Fahrtagen durch die Wüste.",
+        "<strong>Hitze:</strong> Oft über 35 °C; River Walk am Abend am schönsten.",
+        "<strong>Hinweis:</strong> The Alamo mit Zeitfenster-Tickets (Eintritt in die Kirche gratis, Reservation empfohlen)."
+      ],
+      ausserdem: "San Antonio Missions (Unesco), Pearl District, Natural Bridge Caverns (Höhle).",
+      bilder: [
+        {titel: "River Walk", suche: "San Antonio River Walk", stichwort: "river walk"},
+        {titel: "The Alamo", suche: "The Alamo San Antonio", stichwort: "alamo"},
+        {titel: "Mission San José", suche: "Mission San Jose San Antonio", stichwort: "mission san jos"},
+        {titel: "Flussboot", suche: "San Antonio River Walk boat", stichwort: "river walk"},
+        {titel: "Natural Bridge Caverns", suche: "Natural Bridge Caverns", stichwort: "natural bridge"},
+        {titel: "Pearl District", suche: "Pearl Brewery San Antonio", stichwort: "pearl"}
+      ]
+    },
+    {
+      nr: 10,
+      name: "Houston",
+      land: "us",
+      region: "Texas",
+      datum: "1.–2. Juli",
+      naechte: "1 Nacht",
+      anreise: "Mietwagen von San Antonio über die Interstate 10 (ca. 3–3,5 Std., ca. 320 km).",
+      text: "Die Raumfahrtstadt: Im Space Center Houston steht man in der Halle der Saturn-V-Rakete und neben dem Kontrollraum der Mondlandungen.",
+      teens: "Space Center Houston mit Tram-Tour zum Mission Control und zur Saturn-V-Halle, Museum District, Abend am Buffalo Bayou.",
+      fakten: [
+        "<strong>Dauer:</strong> 1 Nacht; das Space Center liegt ca. 40 Min. südöstlich der Stadt und eignet sich auch als Halt auf der Anreise.",
+        "<strong>Hitze:</strong> Heiss und feucht; das Space Center ist zum grossen Teil klimatisiert."
+      ],
+      ausserdem: "Museum District, Buffalo Bayou Park, Galveston (Strand, ca. 1 Std.).",
+      bilder: [
+        {titel: "Space Center Houston", suche: "Space Center Houston", stichwort: "space center houston"},
+        {titel: "Saturn V", suche: "Saturn V Johnson Space Center", stichwort: "saturn"},
+        {
+          titel: "Mission Control",
+          suche: "Christopher C. Kraft Mission Control Center|Mission Control Houston",
+          stichwort: "mission control"
+        },
+        {titel: "Skyline", suche: "Houston skyline", stichwort: "houston"},
+        {titel: "Buffalo Bayou", suche: "Buffalo Bayou Park Houston", stichwort: "buffalo bayou"},
+        {titel: "Galveston", suche: "Galveston Pleasure Pier", stichwort: "galveston"}
+      ]
+    },
+    {
+      nr: 11,
+      name: "New Orleans",
+      land: "us",
+      region: "Louisiana",
+      datum: "2.–4. Juli",
+      naechte: "2 Nächte",
+      anreise: "Mietwagen von Houston über die Interstate 10 durch Louisiana (ca. 5–6 Std., ca. 560 km).",
+      text: "Jazz, Balkone mit schmiedeeisernen Geländern und kreolische Küche im French Quarter, dazu Sümpfe mit Alligatoren gleich vor der Stadt.",
+      teens: "Sumpftour mit Alligatoren, Raddampfer auf dem Mississippi, Beignets im Café du Monde, Strassenmusik im French Quarter, Insektenmuseum Audubon Insectarium.",
+      fakten: [
+        "<strong>Dauer:</strong> 2 Nächte.",
+        "<strong>Hitze:</strong> Sehr feucht und heiss; Programm am Morgen und Abend, mittags klimatisierte Museen.",
+        "<strong>Sicherheit:</strong> Im French Quarter abends auf belebten Strassen bleiben, Wertsachen nicht offen tragen."
+      ],
+      ausserdem: "Garden District, National WWII Museum, Jackson Square, Frenchmen Street (Jazz).",
+      bilder: [
+        {titel: "French Quarter", suche: "French Quarter New Orleans balconies", stichwort: "french quarter"},
+        {titel: "Sumpftour", suche: "Louisiana swamp tour alligator|Louisiana bayou", stichwort: "swamp|bayou"},
+        {titel: "Raddampfer", suche: "Steamboat Natchez New Orleans", stichwort: "natchez"},
+        {titel: "Jackson Square", suche: "Jackson Square New Orleans", stichwort: "jackson square"},
+        {titel: "Garden District", suche: "Garden District New Orleans", stichwort: "garden district"},
+        {titel: "Café du Monde", suche: "Cafe du Monde New Orleans", stichwort: "du monde"}
+      ]
+    },
+    {
+      nr: 12,
+      name: "Destin (Golfküste)",
+      land: "us",
+      region: "Florida Panhandle",
+      datum: "4.–6. Juli",
+      naechte: "2 Nächte",
+      anreise: "Mietwagen von New Orleans über die Interstate 10 an die Golfküste (ca. 4–4,5 Std., ca. 400 km).",
+      text: "Weisser Quarzsand und smaragdgrünes Wasser am Golf von Mexiko: zwei Strandtage nach den Städten, bevor es nach Florida hineingeht.",
+      teens: "Baden und Sandburgen am Henderson Beach, Delfin-Bootstour, Schnorcheln an den Jetties von Destin (ruhiges Wasser), Stand-up-Paddle.",
+      fakten: [
+        "<strong>Dauer:</strong> 2 Nächte am Strand, z.B. in Destin oder Santa Rosa Beach. Am 4. Juli (Nationalfeiertag) Feuerwerk am Strand; Unterkünfte früh buchen.",
+        "<strong>Baden:</strong> Auf die Strandflaggen achten: rote Flagge heisst gefährliche Strömung (Rip Currents), dann nicht ins Wasser.",
+        "<strong>Wetter:</strong> Gewitter am Nachmittag sind häufig; Hurrikansaison."
+      ],
+      ausserdem: "Henderson Beach State Park, Grayton Beach, Seaside, Pensacola Beach (auf dem Weg nach New Orleans).",
+      bilder: [
+        {titel: "Strand", suche: "Destin Florida beach", stichwort: "destin"},
+        {titel: "Henderson Beach", suche: "Henderson Beach State Park", stichwort: "henderson"},
+        {titel: "Grayton Beach", suche: "Grayton Beach State Park", stichwort: "grayton"},
+        {titel: "Seaside", suche: "Seaside Florida", stichwort: "seaside"},
+        {titel: "Smaragdküste", suche: "Emerald Coast Florida", stichwort: "emerald coast"},
+        {titel: "Pensacola Beach", suche: "Pensacola Beach", stichwort: "pensacola"}
+      ]
+    },
+    {
+      nr: 13,
+      name: "Orlando",
+      land: "us",
+      region: "Florida",
+      datum: "6.–8. Juli",
+      naechte: "2 Nächte",
+      anreise: "Mietwagen von Destin über die Interstate 10 und 75 nach Orlando (ca. 6–7 Std., ca. 620 km). In Orlando gilt Eastern-Zeit, die Uhr springt +1 Std.",
+      text: "Hauptstadt der Freizeitparks und Ausgangspunkt zum Kennedy Space Center, von wo die Raketen starten. Für die Teenager einer der Höhepunkte der Reise.",
+      teens: "Universal Studios und Islands of Adventure (Harry Potter), Kennedy Space Center mit der Saturn-V-Rakete und dem Space Shuttle Atlantis, mit Glück ein Raketenstart.",
+      fakten: [
+        "<strong>Dauer:</strong> 2 Nächte: ein Tag Universal, ein Tag Kennedy Space Center (ca. 1 Std. östlich).",
+        "<strong>Tickets:</strong> Freizeitparks online und früh buchen, die Preise ändern sich je nach Tag.",
+        "<strong>Maut:</strong> Viele Strassen in Florida sind mautpflichtig; beim Mietwagen das Mautpaket oder die Abrechnung per Kennzeichen klären."
+      ],
+      ausserdem: "Walt Disney World, Cocoa Beach, ICON Park mit Riesenrad.",
+      bilder: [
+        {titel: "Kennedy Space Center", suche: "Kennedy Space Center Visitor Complex", stichwort: "kennedy"},
+        {titel: "Space Shuttle Atlantis", suche: "Space Shuttle Atlantis Kennedy", stichwort: "atlantis"},
+        {titel: "Universal", suche: "Universal Studios Florida", stichwort: "universal"},
+        {titel: "Saturn V", suche: "Saturn V Kennedy Space Center", stichwort: "saturn"},
+        {titel: "Raketenstart", suche: "rocket launch Cape Canaveral", stichwort: "canaveral|launch"},
+        {titel: "Cocoa Beach", suche: "Cocoa Beach pier", stichwort: "cocoa beach"}
+      ]
+    },
+    {
+      nr: 14,
       name: "Key Largo und Islamorada",
       land: "us",
       region: "Florida Keys",
-      datum: "2.–4. Juli",
+      datum: "8.–10. Juli",
       naechte: "2 Nächte",
-      anreise: "Mietwagen von Key West zurück über den Overseas Highway nach Islamorada oder Key Largo (ca. 2–2,5 Std., ca. 160 km).",
+      anreise: "Mietwagen von Orlando über den Florida’s Turnpike nach Key Largo (ca. 4,5–5,5 Std., ca. 440 km, Mautstrasse).",
       text: "Die oberen Keys sind das Schnorchelrevier der Reise: das einzige lebende Korallenriff auf dem Festlandsockel der USA liegt vor der Küste, mit Papageifischen, Rochen und manchmal Schildkröten.",
       teens: "Schnorcheltour zum Riff im John Pennekamp Coral Reef State Park, Kajak durch die Mangroven, Tarpune füttern bei Robbie’s in Islamorada, Delfine im Dolphin Research Center.",
       fakten: [
@@ -335,38 +503,63 @@ REISEN.usa2 = {
       ]
     },
     {
-      nr: 9,
-      name: "Orlando",
+      nr: 15,
+      name: "Key West",
       land: "us",
-      region: "Florida",
-      datum: "4.–7. Juli",
-      naechte: "3 Nächte",
-      anreise: "Mietwagen von Key Largo über den Florida’s Turnpike nach Orlando (ca. 4,5–5,5 Std., ca. 440 km, Mautstrasse).",
-      text: "Hauptstadt der Freizeitparks und Ausgangspunkt zum Kennedy Space Center, von wo die Raketen starten. Für die Teenager einer der Höhepunkte der Reise.",
-      teens: "Universal Studios und Islands of Adventure (Harry Potter), Kennedy Space Center mit der Saturn-V-Rakete und dem Space Shuttle Atlantis, mit Glück ein Raketenstart.",
+      region: "Florida Keys",
+      datum: "10.–12. Juli",
+      naechte: "2 Nächte",
+      anreise: "Mietwagen von Key Largo über den Overseas Highway und die Seven Mile Bridge bis ans Ende der Keys (ca. 2–2,5 Std., ca. 160 km).",
+      text: "Die südlichste Stadt der USA am Ende einer Kette von Inseln und Brücken: bunte Holzhäuser, Hühner auf der Strasse und jeden Abend das Sonnenuntergangsfest am Mallory Square.",
+      teens: "Seven Mile Bridge auf der Fahrt, Sonnenuntergang am Mallory Square, Schnorcheln am Riff per Boot, optional Tagesausflug zum Fort in den Dry Tortugas.",
       fakten: [
-        "<strong>Dauer:</strong> 3 Nächte: ein Tag Universal, ein Tag Kennedy Space Center (ca. 1 Std. östlich), ein ruhiger Tag am Pool.",
-        "<strong>Tickets:</strong> Freizeitparks online und früh buchen, die Preise ändern sich je nach Tag.",
-        "<strong>4. Juli:</strong> Am Nationalfeiertag sind Strassen und Parks voll, am Abend gibt es Feuerwerk. Viele Strassen in Florida sind mautpflichtig: beim Mietwagen das Mautpaket oder die Abrechnung per Kennzeichen klären."
+        "<strong>Dauer:</strong> 2 Nächte; Unterkünfte in Key West sind im Sommer teuer, früh buchen.",
+        "<strong>Dry Tortugas:</strong> Fähre «Yankee Freedom» ca. 2,5 Std. pro Weg, mit ca. 4 Std. auf der Insel (Fort, Schnorcheln); 2026 ab ca. 235 USD pro Erwachsenen und 180 USD pro Kind, oft ausgebucht.",
+        "<strong>Unterwegs:</strong> Bahia Honda State Park mit Strand und alter Eisenbahnbrücke liegt auf dem Weg."
       ],
-      ausserdem: "Walt Disney World, Cocoa Beach, ICON Park mit Riesenrad.",
+      ausserdem: "Mallory Square, Duval Street, Southernmost Point, Hemingway House (mit den Katzen), Fort Zachary Taylor (Strand).",
       bilder: [
-        {titel: "Kennedy Space Center", suche: "Kennedy Space Center Visitor Complex", stichwort: "kennedy"},
-        {titel: "Space Shuttle Atlantis", suche: "Space Shuttle Atlantis Kennedy", stichwort: "atlantis"},
-        {titel: "Universal", suche: "Universal Studios Florida", stichwort: "universal"},
-        {titel: "Saturn V", suche: "Saturn V Kennedy Space Center", stichwort: "saturn"},
-        {titel: "Raketenstart", suche: "rocket launch Cape Canaveral", stichwort: "canaveral|launch"},
-        {titel: "Cocoa Beach", suche: "Cocoa Beach pier", stichwort: "cocoa beach"}
+        {titel: "Seven Mile Bridge", suche: "Seven Mile Bridge Florida Keys", stichwort: "seven mile"},
+        {titel: "Mallory Square", suche: "Mallory Square sunset Key West", stichwort: "mallory"},
+        {titel: "Dry Tortugas", suche: "Fort Jefferson Dry Tortugas", stichwort: "jefferson|tortugas"},
+        {titel: "Bahia Honda", suche: "Bahia Honda State Park", stichwort: "bahia honda"},
+        {titel: "Southernmost Point", suche: "Southernmost point Key West", stichwort: "southernmost"},
+        {titel: "Duval Street", suche: "Duval Street Key West", stichwort: "duval"}
       ]
     },
     {
-      nr: 10,
+      nr: 16,
+      name: "Miami",
+      land: "us",
+      region: "Florida",
+      datum: "12.–13. Juli",
+      naechte: "1 Nacht",
+      anreise: "Mietwagen von Key West zurück über den Overseas Highway nach Miami (ca. 3,5–4 Std., ca. 260 km).",
+      text: "Art-déco-Häuser und Strand in South Beach, kubanisches Essen in Little Havana und gleich vor der Stadt die Everglades mit Alligatoren und Mangroven.",
+      teens: "Airboat-Fahrt und Alligatoren in den Everglades, Strand und Art-déco-Viertel in South Beach, Graffiti-Kunst in Wynwood Walls, Little Havana mit kubanischem Essen.",
+      fakten: [
+        "<strong>Dauer:</strong> 1 Nacht: am Abend South Beach und Ocean Drive; die Everglades (Airboat) liegen auf der Anreise aus den Keys bei Homestead.",
+        "<strong>Wetter:</strong> Heiss und feucht, am Nachmittag oft kurze Gewitter; Juni bis November ist Hurrikansaison, Wetterberichte verfolgen.",
+        "<strong>Everglades:</strong> Gehört zu den 11 Parks mit 100 USD Zusatzgebühr pro Person ab 16 Jahren für Nicht-US-Bewohner; mit dem Jahrespass (250 USD) entfällt sie. Airboat-Touren gibt es auch ausserhalb des Parks."
+      ],
+      ausserdem: "Everglades National Park (Shark Valley), Vizcaya Museum, Key Biscayne, Frost Science Museum.",
+      bilder: [
+        {titel: "South Beach", suche: "Miami South Beach|Miami Beach", stichwort: "miami beach|south beach"},
+        {titel: "Everglades", suche: "Everglades National Park airboat|Everglades", stichwort: "everglades"},
+        {titel: "Art déco", suche: "Ocean Drive Miami art deco", stichwort: "ocean drive|art deco"},
+        {titel: "Wynwood Walls", suche: "Wynwood Walls Miami", stichwort: "wynwood"},
+        {titel: "Little Havana", suche: "Little Havana Miami Calle Ocho", stichwort: "little havana|calle ocho"},
+        {titel: "Skyline", suche: "Miami skyline", stichwort: "miami"}
+      ]
+    },
+    {
+      nr: 17,
       name: "St. Augustine",
       land: "us",
       region: "Florida",
-      datum: "7.–8. Juli",
+      datum: "13.–14. Juli",
       naechte: "1 Nacht",
-      anreise: "Mietwagen von Orlando über die Interstate 95 an die Atlantikküste nach St. Augustine (ca. 1,75–2 Std., ca. 170 km).",
+      anreise: "Mietwagen von Miami über die Interstate 95 nach St. Augustine (ca. 4,5–5 Std., ca. 500 km).",
       text: "Die älteste von Europäern gegründete Stadt der USA (1565): eine spanische Festung am Meer, enge Gassen mit Balkonen und ein langer Atlantikstrand gleich vor der Stadt.",
       teens: "Festung Castillo de San Marcos mit Kanonenvorführung, Aufstieg auf den Leuchtturm (219 Stufen), Altstadtgasse St. George Street, Baden am St. Augustine Beach, Alligator Farm.",
       fakten: [
@@ -389,38 +582,13 @@ REISEN.usa2 = {
       ]
     },
     {
-      nr: 11,
-      name: "Savannah",
-      land: "us",
-      region: "Georgia",
-      datum: "8.–10. Juli",
-      naechte: "2 Nächte",
-      anreise: "Mietwagen von St. Augustine über die Interstate 95 nach Savannah (ca. 2,75–3 Std., ca. 300 km).",
-      text: "Eine der schönsten Altstädte der Südstaaten: 22 grüne Plätze mit Eichen voller Spanischem Moos, Häuser aus dem 19. Jahrhundert und die Uferstrasse am Savannah River.",
-      teens: "Spaziergang durch die Plätze und den Forsyth Park, Geistertour am Abend, River Street mit Frachtschiffen, Strandtag auf Tybee Island mit Leuchtturm, Eichenallee von Wormsloe.",
-      fakten: [
-        "<strong>Dauer:</strong> 2 Nächte: ein Tag Altstadt (am Morgen und Abend, mittags heiss und schwül), ein Tag Tybee Island (ca. 30 Min.).",
-        "<strong>Unterwegs:</strong> Die Altstadt ist gut zu Fuss oder mit dem Trolley zu erkunden; Auto im Hotel stehen lassen.",
-        "<strong>Wetter:</strong> Im Juli heiss und feucht, am Nachmittag oft Gewitter."
-      ],
-      ausserdem: "Bonaventure Cemetery, City Market, Fort Pulaski, Jekyll Island (auf der Anreise).",
-      bilder: [
-        {titel: "Forsyth Park", suche: "Forsyth Park fountain Savannah", stichwort: "forsyth"},
-        {titel: "Plätze mit Spanischem Moos", suche: "Savannah square Spanish moss", stichwort: "savannah"},
-        {titel: "River Street", suche: "River Street Savannah", stichwort: "river street"},
-        {titel: "Wormsloe", suche: "Wormsloe Historic Site oak avenue", stichwort: "wormsloe"},
-        {titel: "Tybee Island", suche: "Tybee Island lighthouse", stichwort: "tybee"},
-        {titel: "Bonaventure Cemetery", suche: "Bonaventure Cemetery Savannah", stichwort: "bonaventure"}
-      ]
-    },
-    {
-      nr: 12,
+      nr: 18,
       name: "Charleston",
       land: "us",
       region: "South Carolina",
-      datum: "10.–12. Juli",
+      datum: "14.–16. Juli",
       naechte: "2 Nächte",
-      anreise: "Mietwagen von Savannah über die Interstate 95 oder die Küstenstrasse US-17 nach Charleston (ca. 1,75–2 Std., ca. 175 km).",
+      anreise: "Mietwagen von St. Augustine über die Interstate 95 nach Charleston (ca. 4,5–5,5 Std., ca. 440 km); Halt in der Altstadt von Savannah mit ihren Plätzen und Eichen möglich.",
       text: "Pastellfarbene Häuser, Kirchtürme und Gaslaternen in einer der ältesten Städte der USA. Vor dem Hafen liegt Fort Sumter, wo der Bürgerkrieg begann; Strände und Inseln sind nah.",
       teens: "Flugzeugträger USS Yorktown in Patriots Point, Boot zum Fort Sumter, Rainbow Row und Ananasbrunnen, Baden am Folly Beach, die riesige Angel Oak.",
       fakten: [
@@ -428,7 +596,7 @@ REISEN.usa2 = {
         "<strong>Geschichte:</strong> Charleston war ein grosser Sklavenhandelshafen. Das International African American Museum und Plantagen wie McLeod erzählen diese Geschichte.",
         "<strong>Fort Sumter:</strong> Nur mit dem Boot erreichbar (ca. 2,25 Std. mit Besuch); Tickets vorab."
       ],
-      ausserdem: "Waterfront Park, City Market, Magnolia Plantation, Sullivan’s Island, Isle of Palms.",
+      ausserdem: "Savannah (Halt auf der Anreise), Waterfront Park, City Market, Magnolia Plantation, Sullivan’s Island, Isle of Palms.",
       bilder: [
         {titel: "Rainbow Row", suche: "Rainbow Row Charleston", stichwort: "rainbow row"},
         {titel: "Ananasbrunnen", suche: "Pineapple Fountain Charleston", stichwort: "pineapple"},
@@ -439,69 +607,46 @@ REISEN.usa2 = {
       ]
     },
     {
-      nr: 13,
-      name: "Asheville und Great Smoky Mountains",
-      ersatzsuche: "Asheville|Great Smoky Mountains|Blue Ridge Parkway",
-      land: "us",
-      region: "North Carolina",
-      datum: "12.–14. Juli",
-      naechte: "2 Nächte",
-      anreise: "Mietwagen von Charleston über Columbia und die Interstate 26 in die Berge nach Asheville (ca. 4,5–5 Std., ca. 430 km).",
-      text: "Nach der Küste die Berge: bewaldete Kämme der Appalachen, Wasserfälle und der meistbesuchte Nationalpark der USA. Asheville ist eine lebendige Kleinstadt mit Musik und dem Schloss Biltmore.",
-      teens: "Wanderung zu Wasserfällen und auf den Aussichtsturm Clingmans Dome, Schwarzbären und Wapiti beobachten (aus sicherer Distanz), Fahrt auf dem Blue Ridge Parkway, Baden in Naturrutschen wie Sliding Rock.",
-      fakten: [
-        "<strong>Dauer:</strong> 2 Nächte in Asheville: ein Tag Great Smoky Mountains (ca. 1–1,5 Std. bis zum Park), ein Tag Blue Ridge Parkway mit Wasserfällen oder Biltmore.",
-        "<strong>Gebühr:</strong> Kein Eintritt in den Great Smoky Mountains, aber ein Parkausweis fürs Auto (2026: 5 USD pro Tag, 15 USD pro Woche).",
-        "<strong>Bären:</strong> Abstand halten, kein Essen liegen lassen; im Sommer am Nachmittag Gewitter in den Bergen."
-      ],
-      ausserdem: "Biltmore Estate (grösstes Privathaus der USA, teurer Eintritt), Cherokee mit Museum, Mount Mitchell (höchster Berg östlich des Mississippi), Chimney Rock.",
-      bilder: [
-        {titel: "Great Smoky Mountains", suche: "Great Smoky Mountains National Park", stichwort: "smoky"},
-        {titel: "Blue Ridge Parkway", suche: "Blue Ridge Parkway", stichwort: "blue ridge"},
-        {titel: "Clingmans Dome", suche: "Clingmans Dome", stichwort: "clingmans"},
-        {titel: "Asheville", suche: "Asheville downtown", stichwort: "asheville"},
-        {titel: "Biltmore", suche: "Biltmore Estate Asheville", stichwort: "biltmore"},
-        {titel: "Looking Glass Falls", suche: "Looking Glass Falls", stichwort: "looking glass"}
-      ]
-    },
-    {
-      nr: 14,
-      name: "Shenandoah (Luray)",
-      ersatzsuche: "Shenandoah|Luray",
+      nr: 19,
+      name: "Williamsburg",
       land: "us",
       region: "Virginia",
-      datum: "14.–15. Juli",
+      datum: "16.–17. Juli",
       naechte: "1 Nacht",
-      anreise: "Mietwagen von Asheville über die Interstate 81 durch das Shenandoah-Tal nach Luray (ca. 6–6,5 Std., ca. 620 km). Der längste Fahrtag im Osten: früh starten, ein Stück Blue Ridge Parkway ist möglich, verlängert aber den Tag.",
-      text: "Der Shenandoah-Nationalpark zieht sich mit der Panoramastrasse Skyline Drive über die Blue Ridge Mountains. Im Tal liegen die Tropfsteinhöhlen von Luray.",
-      teens: "Luray Caverns mit Tropfsteinen und der Orgel aus Stalaktiten, Fahrt auf dem Skyline Drive mit Aussichtspunkten, kurze Wanderung zu den Dark Hollow Falls, Hirsche am Strassenrand.",
+      anreise: "Mietwagen von Charleston über die Interstate 95 nach Williamsburg (ca. 7–7,5 Std., ca. 720 km). Der längste Fahrtag im Osten: früh starten.",
+      text: "Colonial Williamsburg zeigt die Hauptstadt der britischen Kolonie Virginia als Freilichtmuseum mit Darstellern in Kostümen. In der Nähe liegen Jamestown, wo 1607 die erste dauerhafte englische Siedlung entstand, und Yorktown, wo der Unabhängigkeitskrieg endete.",
+      teens: "Achterbahnen im Freizeitpark Busch Gardens Williamsburg, Handwerk und Musketen-Vorführungen in Colonial Williamsburg, Nachbauten der Schiffe von 1607 im Jamestown Settlement.",
       fakten: [
-        "<strong>Dauer:</strong> 1 Nacht in Luray: am Abend Luray Caverns oder Sonnenuntergang auf dem Skyline Drive, am Morgen Wanderung und weiter nach Washington.",
-        "<strong>Gebühr:</strong> Eintritt pro Fahrzeug, mit dem Jahrespass inklusive; die Luray Caverns sind privat und kosten extra.",
-        "<strong>Mietwagen:</strong> Am nächsten Tag in Washington zurückgeben (Einwegmiete Miami–Washington)."
+        "<strong>Dauer:</strong> 1 Nacht: am Abend durch Colonial Williamsburg, am Morgen Busch Gardens oder Jamestown, dann weiter nach Washington.",
+        "<strong>Colonial Williamsburg:</strong> Die Strassen sind frei zugänglich, für die Gebäude und Vorführungen braucht es ein Ticket.",
+        "<strong>Weiterfahrt:</strong> Auf der Interstate 95 nach Washington gibt es oft Stau; ausserhalb der Stosszeiten fahren."
       ],
-      ausserdem: "Stony Man Trail, Big Meadows, Shenandoah River (Kanu und Tubing), Gettysburg ist nicht weit (Abstecher).",
+      ausserdem: "Yorktown Battlefield, Water Country USA (Wasserpark), Virginia Beach (ca. 1 Std.).",
       bilder: [
-        {titel: "Skyline Drive", suche: "Skyline Drive Shenandoah", stichwort: "skyline drive|shenandoah"},
-        {titel: "Luray Caverns", suche: "Luray Caverns", stichwort: "luray"},
-        {titel: "Dark Hollow Falls", suche: "Dark Hollow Falls Shenandoah", stichwort: "dark hollow"},
-        {titel: "Stony Man", suche: "Stony Man Shenandoah", stichwort: "stony man"},
-        {titel: "Shenandoah-Tal", suche: "Shenandoah Valley", stichwort: "shenandoah"},
-        {titel: "Big Meadows", suche: "Big Meadows Shenandoah deer", stichwort: "big meadows|shenandoah"}
+        {titel: "Colonial Williamsburg", suche: "Colonial Williamsburg", stichwort: "williamsburg"},
+        {titel: "Governor’s Palace", suche: "Governor's Palace Williamsburg", stichwort: "governor"},
+        {titel: "Busch Gardens", suche: "Busch Gardens Williamsburg", stichwort: "busch gardens"},
+        {titel: "Jamestown Settlement", suche: "Jamestown Settlement ships", stichwort: "jamestown"},
+        {
+          titel: "Duke of Gloucester Street",
+          suche: "Duke of Gloucester Street Williamsburg",
+          stichwort: "gloucester|williamsburg"
+        },
+        {titel: "Yorktown", suche: "Yorktown Battlefield Virginia", stichwort: "yorktown"}
       ]
     },
     {
-      nr: 15,
+      nr: 20,
       name: "Washington, D.C.",
       land: "us",
       region: "Washington, D.C.",
-      datum: "15.–18. Juli",
-      naechte: "3 Nächte",
-      anreise: "Mietwagen von Luray nach Washington (ca. 1,75–2 Std., ca. 145 km), Rückgabe der Einwegmiete am Flughafen oder in der Stadt. In der Stadt Metro und zu Fuss.",
+      datum: "17.–19. Juli",
+      naechte: "2 Nächte",
+      anreise: "Mietwagen von Williamsburg über die Interstate 64 und 95 nach Washington (ca. 2,5–3 Std., ca. 250 km), Rückgabe der Einwegmiete am Flughafen oder in der Stadt. In der Stadt Metro und zu Fuss.",
       text: "Die Hauptstadt der USA: Denkmäler, Regierungsgebäude und eine Vielzahl kostenloser Museen rund um die National Mall. Alles ist gut zu Fuss und mit der Metro erreichbar.",
       teens: "National Air and Space Museum (Zeitfenster-Tickets vorab), Natural History Museum (Hope-Diamant), Spy Museum, Lincoln Memorial und Washington Monument bei Abenddämmerung, Capitol.",
       fakten: [
-        "<strong>Dauer:</strong> 3 Nächte: ein Tag National Mall und Denkmäler, ein Tag Museen, ein halber Tag Arlington oder Georgetown.",
+        "<strong>Dauer:</strong> 2 Nächte: ein Tag National Mall und Denkmäler, ein Tag Museen (Air and Space, Natural History).",
         "<strong>Hitze:</strong> Im Juli heiss und schwül, nachmittags oft Gewitter; Museen als Hitzepause einplanen.",
         "<strong>Hinweis:</strong> Das White House ist von innen nur nach früher Anfrage über die Schweizer Botschaft zu besichtigen, von aussen jederzeit. Den Mietwagen bei der Ankunft zurückgeben; in der Stadt sind Metro und Taxi besser."
       ],
@@ -516,17 +661,17 @@ REISEN.usa2 = {
       ]
     },
     {
-      nr: 16,
+      nr: 21,
       name: "New York (Finale)",
       land: "us",
       region: "New York",
-      datum: "18.–22. Juli",
-      naechte: "4 Nächte, Rückflug 22. Juli",
+      datum: "19.–22. Juli",
+      naechte: "3 Nächte, Rückflug 22. Juli",
       anreise: "Amtrak-Zug ab Washington Union Station nach New York Penn Station (Northeast Regional ca. 3,5 Std., Acela ca. 2,75–3 Std.). Rückflug ab Newark oder John F. Kennedy am Do, 22.07.2027 (Flug ca. 7,5–8 Std., Ankunft in Zürich am nächsten Morgen).",
       text: "Das grosse Finale: Wolkenkratzer, Parks, Museen und Hafenpanorama, nach fünf Wochen Natur, Strand und Kleinstädten.",
       teens: "Fähre zur Freiheitsstatue und nach Ellis Island, Aussicht vom Empire State Building oder Top of the Rock, Broadway-Musical, Brooklyn Bridge, Coney Island (Achterbahn und Strand), Intrepid Museum (Flugzeugträger).",
       fakten: [
-        "<strong>Dauer:</strong> 4 Nächte: Tag 1 Midtown und Aussichtsplattform, Tag 2 Freiheitsstatue und Lower Manhattan (9/11 Memorial), Tag 3 Central Park und Museen, Tag 4 Brooklyn oder Wunschtag der Kids, Abflug am Abend.",
+        "<strong>Dauer:</strong> 3 Nächte: Tag 1 Midtown und Aussichtsplattform, Tag 2 Freiheitsstatue und Lower Manhattan (9/11 Memorial), Tag 3 Central Park oder Brooklyn, Abflug am Abend.",
         "<strong>Fortbewegung:</strong> U-Bahn mit OMNY (Kreditkarte oder Handy), Fähren, Taxi und Uber.",
         "<strong>Hinweis:</strong> Im Hochsommer heiss, Gewitter möglich. Tickets für Aussichtsplattformen und Broadway früh buchen."
       ],
@@ -549,9 +694,9 @@ REISEN.usa2 = {
   budgetIntro: "Mittelklasse inklusive Flüge, Transport, Unterkunft, Verpflegung und Aktivitäten. Alle Beträge sind Schätzungen in CHF.",
   budget: {
     naechte: 34,
-    total: "38’400",
-    spanne: "29’400–49’350",
-    proTag: "ca. 1’130 CHF pro Tag, ca. 9’600 pro Person",
+    total: "39’550",
+    spanne: "30’550–50’750",
+    proTag: "ca. 1’165 CHF pro Tag, ca. 9’900 pro Person",
     posten: [
       [
         "Flüge Zürich–Las Vegas und New York–Zürich",
@@ -559,18 +704,17 @@ REISEN.usa2 = {
         "5’000",
         "ca. 1’000–1’500 pro Person (Juli ist Hochsaison; beide Teenager zahlen Vollpreis)"
       ],
-      ["Inlandflug Las Vegas–Miami", "700–1’400", "1’050", "ca. 150–300 CHF pro Person plus Gepäck"],
       [
-        "Mietwagen (zwei Mieten, Benzin, Parken, Maut)",
-        "2’800–4’800",
-        "3’700",
-        "Rundmiete Las Vegas (ca. 10 Tage) ohne Rückgabegebühr, Einwegmiete Miami–Washington (ca. 17 Tage) mit Rückgabegebühr; ca. 4’100 km"
+        "Mietwagen (Einwegmiete, Benzin, Parken, Maut)",
+        "4’500–7’500",
+        "5’800",
+        "Las Vegas–Washington (ca. 29 Tage, ca. 7’600 km); die Rückgabegebühr für eine Einwegmiete quer durchs Land kann bis gegen 1’500 USD betragen"
       ],
       [
         "Amtrak und lokale Verkehrsmittel",
         "600–1’200",
         "850",
-        "Amtrak Washington–New York, Metro und U-Bahn, Taxi, Parkhäuser in Miami und Charleston"
+        "Amtrak Washington–New York, Metro und U-Bahn, Taxi, Parkhäuser in New Orleans, Miami und Charleston"
       ],
       [
         "Unterkunft (Familienzimmer oder 2 Zimmer, 3 Sterne)",
@@ -583,7 +727,7 @@ REISEN.usa2 = {
         "Aktivitäten und Eintritte (inkl. Nationalpark-Jahrespass)",
         "4’500–8’000",
         "6’000",
-        "Pass 250 USD, Antelope Canyon, Schnorcheltour, Universal, Kennedy Space Center, Fort Sumter, Luray Caverns, Aussichtsplattform und Broadway in New York usw."
+        "Pass 250 USD, Antelope Canyon, Sandia Peak Tramway, Space Center Houston, Universal, Kennedy Space Center, Schnorcheltour, Busch Gardens, Aussichtsplattform und Broadway in New York usw."
       ],
       [
         "ESTA, Versicherung, eSIM",
@@ -591,26 +735,31 @@ REISEN.usa2 = {
         "1’300",
         "ESTA ca. 40 USD pro Person, Reisekranken- und Annullationsschutz mit hoher Deckung"
       ],
-      ["Reserve (ca. 10 %)", "2’650–4’500", "3’500", "Souvenirs, Wäsche, Unvorhergesehenes"]
+      ["Reserve (ca. 10 %)", "2’800–4’600", "3’600", "Souvenirs, Wäsche, Unvorhergesehenes"]
     ],
     stationen: [
       ["1. Las Vegas (2)", "700–1’300"],
       ["2. Zion National Park (2)", "730–1’180"],
-      ["3. Page und Lake Powell (2)", "880–1’480"],
-      ["4. Monument Valley (1)", "540–1’040"],
-      ["5. Grand Canyon (2)", "830–1’430"],
-      ["Zwischenübernachtung Las Vegas (1)", "250–450"],
-      ["6. Miami (2)", "650–1’100"],
-      ["7. Key West (2)", "900–1’600"],
-      ["8. Key Largo und Islamorada (2)", "700–1’200"],
-      ["9. Orlando (3)", "1’050–1’900"],
-      ["10. St. Augustine (1)", "300–500"],
-      ["11. Savannah (2)", "600–1’000"],
-      ["12. Charleston (2)", "650–1’100"],
-      ["13. Asheville und Great Smoky Mountains (2)", "600–1’000"],
-      ["14. Shenandoah (1)", "300–500"],
-      ["15. Washington, D.C. (3)", "1’000–1’700"],
-      ["16. New York (4)", "2’000–3’400"]
+      ["3. Page und Lake Powell (1)", "450–750"],
+      ["4. Grand Canyon (1)", "420–720"],
+      ["5. Monument Valley (1)", "540–1’040"],
+      ["6. Albuquerque (1)", "250–400"],
+      ["7. White Sands (1)", "300–520"],
+      ["8. Carlsbad Caverns (1)", "250–400"],
+      ["Zwischenübernachtung Fort Stockton (1)", "150–250"],
+      ["9. San Antonio (2)", "500–850"],
+      ["10. Houston (1)", "300–500"],
+      ["11. New Orleans (2)", "600–1’000"],
+      ["12. Destin (2)", "600–1’000"],
+      ["13. Orlando (2)", "700–1’300"],
+      ["14. Key Largo und Islamorada (2)", "700–1’200"],
+      ["15. Key West (2)", "900–1’600"],
+      ["16. Miami (1)", "350–600"],
+      ["17. St. Augustine (1)", "300–500"],
+      ["18. Charleston (2)", "650–1’100"],
+      ["19. Williamsburg (1)", "300–500"],
+      ["20. Washington, D.C. (2)", "700–1’150"],
+      ["21. New York (3)", "1’500–2’600"]
     ],
     hinweise: [
       "Preise für die Kids: Der Sohn (12) und die Tochter (14) zahlen bei Eintritten teils Kinderpreise (bis 11 bzw. 12 Jahre), oft aber den Vollpreis.",
@@ -631,7 +780,7 @@ REISEN.usa2 = {
     ],
     [
       "Mietwagen",
-      "Zwei Mieten: im Südwesten eine Rundmiete ab und bis Las Vegas (keine Rückgabegebühr), im Osten eine Einwegmiete Miami–Washington (Rückgabegebühr, Angebote vergleichen). Familienvan oder SUV. In Florida viele Mautstrassen: Mautpaket oder Abrechnung per Kennzeichen beim Vermieter klären. Schweizer Führerschein reicht; ein internationaler Führerschein ist als Zusatz empfehlenswert. Vollkasko prüfen."
+      "Familienvan oder SUV, die Einwegmiete Las Vegas–Washington früh buchen (Rückgabegebühr oft hoch, Angebote mehrerer Firmen vergleichen). In Florida viele Mautstrassen: Mautpaket oder Abrechnung per Kennzeichen beim Vermieter klären. Schweizer Führerschein reicht; ein internationaler Führerschein ist als Zusatz empfehlenswert. Vollkasko prüfen."
     ],
     [
       "Tanken und Zahlen",
@@ -639,11 +788,11 @@ REISEN.usa2 = {
     ],
     [
       "Hitze, Hurrikane und Monsun",
-      "Las Vegas, Zion und der Südwesten erreichen im Juni 35–45 °C; ab Juli beginnt dort der Monsun mit Gewittern und Sturzfluten in Schluchten (Narrows, Antelope Canyon). Florida und die Südstaaten sind heiss und feucht mit Gewittern am Nachmittag; Juni bis November ist Hurrikansaison: Wetterwarnungen verfolgen, flexibel bleiben. In den Appalachen angenehmer, Gewitter am Nachmittag."
+      "Las Vegas, Zion und der Südwesten erreichen im Juni 35–45 °C; ab Juli beginnt dort der Monsun mit Gewittern und Sturzfluten in Schluchten (Narrows, Antelope Canyon). Texas, die Golfküste und Florida sind heiss und feucht mit Gewittern am Nachmittag; Juni bis November ist Hurrikansaison: Wetterwarnungen verfolgen, flexibel bleiben. Im Osten schwül."
     ],
     [
       "Zeitzonen",
-      "Las Vegas Pazifikzeit, Utah und die Navajo Nation Mountain-Zeit, Arizona keine Sommerzeit (wie Las Vegas), der ganze Osten Eastern-Zeit. Zur Schweiz sind es im Westen −9 Stunden, im Osten −6 Stunden; der Flug nach Miami kostet drei Stunden."
+      "Las Vegas Pazifikzeit, Utah, New Mexico und die Navajo Nation Mountain-Zeit, Arizona keine Sommerzeit (wie Las Vegas), Texas, Louisiana und die Florida Panhandle Central-Zeit, Orlando und der ganze Osten Eastern-Zeit. Zur Schweiz sind es −9 bis −6 Stunden."
     ],
     [
       "Versicherung",

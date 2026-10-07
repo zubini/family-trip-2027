@@ -1,9 +1,11 @@
-// Detailkarte Südwesten der Reise Las Vegas – Miami – New York (Stationen 1 bis 5).
+// Detailkarte Südwesten und Texas der Reise Las Vegas – Texas – Florida – New York (Stationen 1 bis 11).
 const { basis, wege, stationen } = require('./_usa2.js');
 module.exports = Object.assign({}, basis, {
-  titel: 'Detailkarte Südwesten: Las Vegas, Zion, Page, Monument Valley und Grand Canyon',
-  laenge: [-116.0, -109.3], breitengrad: [35.0, 37.7], breite: 1000,
-  wege: wege.slice(0, 5),
-  stationen: stationen({ 1: 'l', 2: 'u', 3: 'r', 4: 'u', 5: 'd' }),
-  hinweise: [['Flug nach Miami ✈', [35.75, -115.2], 'middle']]
+  titel: 'Detailkarte Südwesten und Texas: Las Vegas bis New Orleans',
+  laenge: [-116.3, -89.0], breitengrad: [28.6, 38.0], breite: 1000,
+  wege: wege.slice(0, 11),
+  stationen: stationen({ 1: 'l', 2: 'u', 3: 'd', 4: 'l', 5: 'r', 6: 'r', 7: 'l', 8: 'r', 9: 'd', 10: 'd', 11: 'u' }),
+  zwischenstopps: [['Fort Stockton', 'FST', 0]],
+  beschriftungen: [['Golf von Mexiko', 28.9, -92.5, 'sea'], ['Mexiko', 29.3, -105.0, 'cn']],
+  hinweise: [['Ankunft aus Zürich ✈', [36.75, -115.4], 'middle']]
 });
