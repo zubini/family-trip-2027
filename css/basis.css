@@ -23,3 +23,13 @@ footer p { margin: 0; max-width: 70ch; }
   body { font-size: 16px; }
   section { padding: 46px 0; }
 }
+
+/* Zugangsschutz (js/schutz.js) */
+html.gesperrt body > *:not(#sperre) { display: none !important; }
+#sperre { min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 20px; background: var(--sea); }
+#sperre form { background: var(--card); border-radius: 14px; padding: 28px 24px; width: 100%; max-width: 340px; text-align: center; }
+#sperre h1 { color: var(--sea); font-size: 1.6rem; }
+#sperre p { color: var(--muted); margin: 8px 0 16px; }
+#sperre input { width: 100%; font: inherit; font-size: 16px; padding: 10px 12px; border: 1px solid var(--line); border-radius: 8px; }
+#sperre button { width: 100%; margin-top: 10px; font: inherit; font-weight: 700; padding: 10px; border: 0; border-radius: 8px; background: var(--mango); color: var(--ink); cursor: pointer; }
+#sperre .fehler { color: #B3261E; margin: 10px 0 0; min-height: 1.2em; }

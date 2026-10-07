@@ -29,6 +29,7 @@ data/             die Inhalte, hier wird fast alles geändert
   bilder-unsplash.js  Unsplash-Fotos (erzeugt von tools/bilder-unsplash.js)
 css/              Gestaltung (basis, navigation, reise, karte, start)
 js/app.js         baut die Seite aus den Daten, lädt Bilder, Navigation
+js/schutz.js      einfache Passwortsperre (nur Prüfwert im Repo, kein echter Schutz; Anleitung für neues Passwort in der Datei)
 karten/           Routenkarten als SVG (werden erzeugt, nicht von Hand ändern)
 tools/karten/     Kartenbeschreibungen: Orte, Wege, Stationen pro Karte
 tools/karte.js    zeichnet die Karten aus tools/karten/ nach karten/
