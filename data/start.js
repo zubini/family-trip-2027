@@ -48,18 +48,18 @@ window.START = {
       name: "Spanien / Portugal / Marokko",
       zusatz: "Roadtrip ab Brig-Glis, Marokko mit Fähre",
       passt: "ihr ohne Flug reisen, Städte in Spanien und Portugal mit einer Woche Marokko (Medina, Atlas, Wüste) verbinden möchtet und grosse Hitze, viele Reisetage und mehrere Wechsel zwischen Auto, Fähre und Zug in Kauf nehmt.",
-      kurz: "Fünf Wochen mit dem eigenen Elektroauto durch Spanien, Portugal und Südfrankreich mit Schnorcheln bei den Medes-Inseln und am Cabo de Gata, dazu rund sechs Tage Marokko mit Fähre, Zug und Mietwagen: Marrakesch, Hoher Atlas, Wüste bei Merzouga und Fès.",
-      route: "Brig-Glis, Sète, Costa Brava (L’Estartit), Barcelona, Valencia, Cabo de Palos, Cabo de Gata, Caminito del Rey, Tarifa, (Fähre) Tanger, Marrakesch, Dadès-Schlucht, Merzouga, Fès, Cádiz, Sevilla, Algarve (Lagos), Lissabon, Porto, Playa de las Catedrales, San Sebastián, Carcassonne, Avignon, Brig-Glis",
-      stationen: "18 Stationen und 2 Zwischenübernachtungen",
+      kurz: "Fünf Wochen mit dem eigenen Elektroauto durch Spanien, Portugal und Südfrankreich mit Schnorcheln bei den Medes-Inseln, vier Nächten auf Formentera und am Cabo de Gata, dazu rund sechs Tage Marokko mit Fähre, Zug und Mietwagen: Marrakesch, Hoher Atlas, Wüste bei Merzouga und Fès.",
+      route: "Brig-Glis, Sète, Costa Brava (L’Estartit), Barcelona, Valencia, Formentera, Cabo de Gata, Caminito del Rey, Tarifa, (Fähre) Tanger, Marrakesch, Dadès-Schlucht, Merzouga, Fès, Cádiz, Sevilla, Algarve (Lagos), Lissabon, Porto, Playa de las Catedrales, San Sebastián, Carcassonne, Avignon, Brig-Glis",
+      stationen: "19 Stationen und 2 Zwischenübernachtungen",
       laender: "Frankreich, Spanien, Marokko, Portugal",
       hinflug: "Kein Flug: mit dem eigenen Auto ab Brig-Glis, Zwischenstopp in Sète (ca. 7–7,5 Std.), dann an die Costa Brava (ca. 2,5–3 Std.)",
       rueckflug: "Mit dem Auto ab Avignon über Lyon und Genf (ca. 5,5–6 Std.), Ankunft Sa, 24.07.2027",
-      dazwischen: "Keine Flüge: eigenes Elektroauto; nach Marokko mit der Fähre ohne Auto (Tarifa–Tanger), dort Zug und Mietwagen (Einwegmiete Marrakesch–Fès)",
-      tempo: "Ca. 75 Std. reine Fahrzeit (ca. 5’550 km eigenes Auto, ca. 1’000 km Mietwagen), dazu Fähren und Züge in Marokko (ca. 11–13 Std.); realistisch ca. 102–107 Std. Tür zu Tür; die längsten Tage: Brig-Glis–Sète (ca. 7–7,5 Std.), Merzouga–Fès (ca. 7 Std.), Fès–Cádiz und Tarifa–Marrakesch (Fähre und Zug, je ca. 7–9 Std.), Ribadeo–San Sebastián (ca. 5 Std.)",
-      gesamt: "Ca. 102–107 Std. Tür zu Tür, ohne Flughafen und ohne Jetlag: davon realistisch ca. 86–90 Std. im Auto inklusive Ladestopps (ca. 75 Std. reine Fahrzeit) und ca. 16–18 Std. für Fähren und Züge in Marokko mit Passkontrolle und Umsteigen.",
+      dazwischen: "Keine Flüge: eigenes Elektroauto, Autofähre Dénia–Formentera; nach Marokko mit der Fähre ohne Auto (Tarifa–Tanger), dort Zug und Mietwagen (Einwegmiete Marrakesch–Fès)",
+      tempo: "Ca. 76 Std. reine Fahrzeit (ca. 5’600 km eigenes Auto, ca. 1’000 km Mietwagen), dazu Fähren nach Formentera und in Marokko sowie Züge (ca. 15–19 Std.); realistisch ca. 109–115 Std. Tür zu Tür; die längsten Tage: Brig-Glis–Sète (ca. 7–7,5 Std.), Merzouga–Fès (ca. 7 Std.), Fès–Cádiz und Tarifa–Marrakesch (Fähre und Zug, je ca. 7–9 Std.), Ribadeo–San Sebastián (ca. 5 Std.)",
+      gesamt: "Ca. 109–115 Std. Tür zu Tür, ohne Flughafen und ohne Jetlag: davon realistisch ca. 87–91 Std. im Auto inklusive Ladestopps (ca. 76 Std. reine Fahrzeit) und ca. 22–24 Std. für Fähren und Züge mit Passkontrolle und Umsteigen.",
       wetter: "Sehr heiss: Marrakesch und Fès oft 38–42 °C, die Wüste bei Merzouga 42–45 °C, Andalusien 35–40 °C; Lissabon, San Sebastián und die Küsten angenehmer.",
       einreise: "Schengen bis auf Marokko: dort Reisepass für alle (Identitätskarte genügt nicht), kein Visum. Internationaler Führerausweis für den Mietwagen, Crit’Air-Vignette für Frankreich, Umweltzone Barcelona, elektronische Maut in Portugal.",
-      hoehepunkte: "Schnorcheln bei den Medes-Inseln und am Cabo de Gata, Sagrada Família, Oceanogràfic, Caminito del Rey, Jemaa el-Fna in Marrakesch, Pass über den Hohen Atlas, Aït Ben Haddou, Kamelritt und Nacht im Wüstencamp, Medina von Fès, Cádiz, Sevilla, Grotten der Algarve, Lissabon, Felsbögen der Playa de las Catedrales, San Sebastián, Carcassonne.",
+      hoehepunkte: "Schnorcheln bei den Medes-Inseln, auf Formentera und am Cabo de Gata, Sagrada Família, Oceanogràfic, Caminito del Rey, Jemaa el-Fna in Marrakesch, Pass über den Hohen Atlas, Aït Ben Haddou, Kamelritt und Nacht im Wüstencamp, Medina von Fès, Cádiz, Sevilla, Grotten der Algarve, Lissabon, Felsbögen der Playa de las Catedrales, San Sebastián, Carcassonne.",
       teens: "Kamelritt und Sandboarding in der Wüste, Souks und Gaukler in Marrakesch, Game-of-Thrones-Drehorte, Kajak an der Algarve, Surfen in San Sebastián, Ritterburg Carcassonne.",
       pro: [
         "Kein Flug und kein Jetlag, und trotzdem eine Woche Afrika: Marrakesch, Atlas, Wüste und Fès",
@@ -69,9 +69,9 @@ window.START = {
       ],
       contra: [
         "Grosse Hitze im Juli: in der Wüste bei Merzouga 42–45 °C, einige Camps schliessen im Sommer; auch Marrakesch und Fès sehr heiss",
-        "Tür zu Tür ca. 102–107 Std., viele Wechsel zwischen eigenem Auto, Fähre, Zug und Mietwagen; einige lange Tage mit 7–9 Std.",
+        "Tür zu Tür ca. 109–115 Std., viele Wechsel zwischen eigenem Auto, Fähre, Zug und Mietwagen; einige lange Tage mit 7–9 Std.",
         "Für Marokko Reisepass für alle, keine Krankenversicherungskarte, kein Leitungswasser; aufdringliche Händler in den Medinas",
-        "Weniger Badetage im warmen Mittelmeer als bei Spanien / Portugal"
+        "Lange Reisetage wie Formentera–Cabo de Gata (Fähre und Auto, ca. 7–9 Std.); auf Formentera keine Supercharger"
       ]
     },
     usa: {
@@ -225,8 +225,8 @@ window.START = {
         "Viele Strandtage auf Ibiza, Formentera, in Benidorm, am Cabo de Gata und an der Algarve, Mittelmeer ca. 23–26 °C; im Juli aber voll, und kein tropisch warmes Wasser."
       ],
       marokko: [
-        3,
-        "Strandtage am Cabo de Gata, in Tarifa, Cádiz, an der Algarve und in San Sebastián; weniger Badetage als bei Spanien / Portugal und oft der kühlere Atlantik."
+        4,
+        "Vier Nächte auf Formentera, dazu Costa Brava, Cabo de Gata, Tarifa, Cádiz, Algarve und San Sebastián; etwas weniger Badetage als bei Spanien / Portugal, im Juli voll."
       ],
       usa: [
         1,
@@ -248,8 +248,8 @@ window.START = {
         "Schnorcheln an vier Orten mit besonders klarem Wasser: im Meeresschutzgebiet der Medes-Inseln (grosse Fische, geführte Bootstour), sechs Nächte auf Ibiza und Formentera (Cala Xarraca, Punta de sa Galera, Cala Saona, Es Caló) und am Cabo de Gata (Los Escullos, Cala de San Pedro), dazu Tabarca; wenige Korallen (z.B. Gorgonien bei den Medes-Inseln), keine Riffe und kühleres Wasser als in den Tropen."
       ],
       marokko: [
-        3,
-        "Schnorcheln im Meeresschutzgebiet der Medes-Inseln, bei Cabo de Palos (Islas Hormigas) und am Cabo de Gata (Los Escullos, Cala de San Pedro): klares Wasser über Felsen und Seegras; wenige Korallen und keine Inseltage wie auf Ibiza."
+        4,
+        "Schnorcheln im Meeresschutzgebiet der Medes-Inseln, vier Nächte auf Formentera (Cala Saona, Es Caló, Seegraswiesen mit sehr klarem Wasser) und am Cabo de Gata (Los Escullos, Cala de San Pedro); wenige Korallen und keine Riffe."
       ],
       usa: [0, "Kein Schnorcheln im Meer; höchstens Baden im Lake Powell oder in den Narrows."],
       usa2: [
@@ -337,7 +337,7 @@ window.START = {
       ],
       marokko: [
         2,
-        "Ca. 102–107 Stunden Tür zu Tür, kein Jetlag; aber viele Wechsel zwischen eigenem Auto, Fähre, Zug und Mietwagen, Passkontrollen und mehrere lange Tage mit 7–9 Stunden."
+        "Ca. 109–115 Stunden Tür zu Tür, kein Jetlag; aber viele Wechsel zwischen eigenem Auto, Fähre, Zug und Mietwagen, Passkontrollen und mehrere lange Tage mit 7–9 Stunden."
       ],
       usa: [
         2,

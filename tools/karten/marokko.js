@@ -7,7 +7,7 @@ module.exports = {
   laender: ['ESP', 'PRT', 'FRA', 'CHE', 'MAR'],
   orte, wege, stationen,
   zwischenstopps: [['Brig-Glis', 'BR', 0], ['Sète', 'SE', 0], ['Porto', 'PO', 0]],
-  umstiege: [['Tanger', 'TNG', 'l']],
+  umstiege: [['Tanger', 'TNG', 'l'], ['Dénia', 'DE', 'l']],
   beschriftungen: [
     ['Spanien', 40.0, -3.0, 'cn'], ['Portugal', 39.6, -7.95, 'cn', -80], ['Frankreich', 45.6, 1.5, 'cn'], ['Schweiz', 46.95, 7.6, 'cn'],
     ['Marokko', 32.5, -6.5, 'cn'], ['Algerien', 32.0, 1.5, 'cn'],

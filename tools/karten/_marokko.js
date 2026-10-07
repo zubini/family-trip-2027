@@ -14,7 +14,10 @@ const wege = [
   ['car', 'Sète – Perpignan – Figueres – L’Estartit', weg('Sète – Perpignan – Figueres – L’Estartit')],
   ['car', 'L’Estartit – Girona – Barcelona', weg('L’Estartit – Girona – Barcelona')],
   ['car', 'Barcelona – Tarragona – Valencia', weg('Barcelona – Tarragona – Valencia')],
-  ['car', 'Valencia – Alicante – Cabo de Palos – Almería – Cabo de Gata', ['VAL', [39.0, -0.2], 'BE', 'AL', [37.9, -0.8], 'CPA', 'LO', [37.2, -1.9], 'AM', 'SJ']],
+  ['car', 'Valencia – Dénia', weg('Valencia – Dénia')],
+  ['ferry', 'Dénia – Formentera (Autofähre)', ['DE', [38.7, 0.6], 'FO']],
+  ['ferry', 'Formentera – Dénia (Autofähre)', weg('Formentera – Dénia (Autofähre)')],
+  ['car', 'Dénia – Alicante – Murcia – Almería – Cabo de Gata', ['DE', [38.75, -0.05], 'BE', 'AL', 'MU', 'LO', [37.2, -1.9], 'AM', 'SJ']],
   ['car', 'Cabo de Gata – Almería – Málaga – El Chorro', weg('Cabo de Gata – Almería – Málaga – El Chorro')],
   ['car', 'El Chorro – Málaga – Tarifa', ['EC', [36.80, -4.55], 'MAG', [36.5, -4.9], [36.2, -5.35], 'TAR']],
   ['ferry', 'Tarifa – Tanger Ville (Fähre)', ['TAR', 'TNG']],
@@ -36,8 +39,8 @@ const wege = [
   ['car', 'Avignon – Lyon – Genf – Brig-Glis', ['AVI', 'OR', 'VA', 'LY', [45.95, 5.35], [46.0, 5.8], 'GE', [46.45, 6.55], [46.38, 6.85], 'MA', 'BR']]
 ];
 const stationen = [
-  [1, 'ES', 'l', 'Costa Brava'], [2, 'BC', 'l'], [3, 'VAL', 'l'], [4, 'SJ', 'r'], [5, 'EC', 'u', 'Caminito del Rey'], [6, 'TAR', 'l'], [7, 'RAK', 'l'],
-  [8, 'DAD', 'u', 'Dadès'], [9, 'MRZ', 'r'], [10, 'FES', 'r'], [11, 'CAD', 'l'], [12, 'SV', 'u'], [13, 'LAG', 'd', 'Algarve'], [14, 'LI', 'l'],
-  [15, 'RI', 'u', 'Catedrales'], [16, 'SS', 'u'], [17, 'CA', 'u'], [18, 'AVI', 'u']
+  [1, 'ES', 'l', 'Costa Brava'], [2, 'BC', 'l'], [3, 'VAL', 'l'], [4, 'FO', 'r'], [5, 'SJ', 'r'], [6, 'EC', 'u', 'Caminito del Rey'], [7, 'TAR', 'l'],
+  [8, 'RAK', 'l'], [9, 'DAD', 'u', 'Dadès'], [10, 'MRZ', 'r'], [11, 'FES', 'r'], [12, 'CAD', 'l'], [13, 'SV', 'u'], [14, 'LAG', 'd', 'Algarve'],
+  [15, 'LI', 'l'], [16, 'RI', 'u', 'Catedrales'], [17, 'SS', 'u'], [18, 'CA', 'u'], [19, 'AVI', 'u']
 ];
 module.exports = { orte, wege, stationen };
