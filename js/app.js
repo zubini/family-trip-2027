@@ -279,7 +279,7 @@ function einstieg(S, REISEN) {
     '</div></header>' +
     '<main>' +
     '<section id="start-reisen"><div class="wrap"><h2>Die Reisen</h2><p class="intro">' + S.reisenIntro + '</p>' +
-    '<div class="vgrid">' + karten + '</div></div></section>' +
+    '<div class="vgrid' + (T.length === 3 ? ' n3' : '') + '">' + karten + '</div></div></section>' +
     '<section id="start-bewertung" style="padding-top:0"><div class="wrap"><h2>Bewertung nach euren Wünschen</h2><p class="intro">' + S.bewertungIntro + '</p>' +
     '<div class="cmpwrap">' + bewertung + '</div></div></section>' +
     '<section id="start-budget" style="padding-top:0"><div class="wrap"><h2>Budget im Vergleich</h2><p class="intro">' + S.budgetIntro + '</p>' +
@@ -287,7 +287,7 @@ function einstieg(S, REISEN) {
     '<section id="start-vergleich" style="padding-top:0"><div class="wrap"><h2>Direktvergleich</h2>' +
     '<p class="intro">' + S.vergleichIntro + '</p><div class="cmpwrap">' + vergleich + '</div></div></section>' +
     '<section id="start-entscheid" style="background:#E4EEEC"><div class="wrap"><h2>Wofür spricht was</h2><p class="intro">' + S.entscheidIntro + '</p>' +
-    '<div class="pgrid">' + proContra + '</div></div></section>' +
+    '<div class="pgrid' + (T.length === 3 ? ' n3' : '') + '">' + proContra + '</div></div></section>' +
     '</main></div>';
 }
 

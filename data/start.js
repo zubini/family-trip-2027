@@ -1,6 +1,6 @@
 // Einstiegsseite: Vergleich der Reisen
 // Budgetzahlen kommen automatisch aus den Reisen (data/spanien.js usw.).
-// Platzhalter in Texten: {plan:spanien}, {plan:usa}, {plan:asien} = Planwert, {mehrkosten} = USA minus Malaysia / Thailand.
+// Platzhalter in Texten: {plan:spanien}, {plan:usa}, {plan:usa2}, {plan:asien} = Planwert, {mehrkosten} = USA minus Malaysia / Thailand.
 // Reihenfolge der Reisen hier = Reihenfolge der Spalten; die Navigation folgt der Reihenfolge in index.html.
 // Bewertung: [Punkte 0–5, Text]. Die Punkte und Pro/Contra sind eine Einschätzung und bei Änderungen an den Reisen von Hand anzupassen.
 window.START = {
@@ -45,10 +45,10 @@ window.START = {
       ]
     },
     usa: {
-      name: "USA",
-      zusatz: "von Las Vegas nach New York",
+      name: "USA (Las Vegas – New York)",
+      zusatz: "Nationalparks und Grossstädte",
       passt: "Nationalparks, Roadtrip und Grossstädte im Vordergrund stehen und das höhere Budget (rund {mehrkosten} CHF mehr) passt.",
-      kurz: "Fünf Wochen quer durch die USA mit Nationalparks, Grossen Seen und Grossstädten. Auf der Reiseseite auch als Variante von Miami über die Florida Keys nach Las Vegas.",
+      kurz: "Fünf Wochen quer durch die USA mit Nationalparks, Grossen Seen und Grossstädten.",
       route: "Las Vegas, Zion, Page, Grand Canyon, Monument Valley, Santa Fe, White Sands, Chicago, Sandusky, Niagara Falls, Washington, Philadelphia, New York",
       stationen: "13 Stationen und 1 Zwischenübernachtung",
       laender: "USA (Nevada bis New York)",
@@ -67,10 +67,40 @@ window.START = {
         "Eigenes Tempo mit dem Mietwagen, sehr gute medizinische Versorgung"
       ],
       contra: [
-        "Mit Abstand am teuersten (ca. {plan:usa} CHF), Arztkosten sehr hoch",
+        "Teuer (ca. {plan:usa} CHF), Einwegmiete und Unterkünfte in New York, Arztkosten sehr hoch",
         "Am meisten Zeit im Auto (ca. 70–75 Std.), zwei Tage mit 10 und 12 Std. reiner Fahrzeit; Tür zu Tür ca. 102–109 Std. und Jetlag",
         "Hitze im Südwesten (Las Vegas oft über 40 °C) und Gewitter im Monsun",
         "Kaum Strand und kein Schnorcheln, zwei Langstreckenflüge mit viel CO₂, ESTA-Regeln vorab prüfen"
+      ]
+    },
+    usa2: {
+      name: "USA (Miami – Las Vegas)",
+      zusatz: "Florida Keys, Golfküste und Südwesten",
+      passt: "ihr Strand und Schnorcheln in Florida mit Freizeitparks, Raumfahrt und den Nationalparks im Südwesten verbinden möchtet und lange Autofahrten sowie das höhere Budget in Kauf nehmt.",
+      kurz: "Fünf Wochen mit dem Mietwagen von Miami über die Florida Keys, Orlando und die Golfküste durch Texas in die Nationalparks des Südwestens bis Las Vegas.",
+      route: "Miami, Key West, Key Largo und Islamorada, Orlando, Destin, New Orleans, Houston, San Antonio, Fort Stockton, Carlsbad Caverns, White Sands, Santa Fe, Monument Valley, Grand Canyon, Page, Zion, Las Vegas",
+      stationen: "16 Stationen und 1 Zwischenübernachtung",
+      laender: "USA (Florida bis Nevada)",
+      hinflug: "Direktflug Zürich–Miami ca. 10,5 Std. (täglich)",
+      rueckflug: "Las Vegas–Zürich direkt ca. 10,5 Std. nur an einzelnen Wochentagen, sonst mit Umstieg ca. 14–17 Std.",
+      dazwischen: "Keine Flüge dazwischen: eine Einwegmiete Miami–Las Vegas",
+      tempo: "Ca. 64–65 Std. reine Fahrzeit (ca. 6’000 km), realistisch mit Pausen und Stau ca. 74–78 Std. im Auto an 16 Fahrtagen; die längsten: Santa Fe–Monument Valley (ca. 6,5–7 Std.), Orlando–Destin (ca. 6–7 Std.), New Orleans–Houston (ca. 5–6 Std.), San Antonio–Fort Stockton (ca. 5–5,5 Std.)",
+      gesamt: "Ca. 108–113 Std. Tür zu Tür: Bahn Brig-Glis–Zürich Flughafen (ca. 2,5 Std.), ca. 2 Std. Wartezeit am Flughafen, Flüge, Einreise und Mietwagen zusammen ca. 34–35 Std. (Rückflug direkt, mit Umstieg mehr), dazu ca. 74–78 Std. im Auto. Uhr −6 Std. bei der Ankunft, −9 Std. in Las Vegas; Jetlag vor allem nach der Rückkehr.",
+      wetter: "Florida und die Golfküste heiss und feucht mit Gewittern am Nachmittag, Hurrikansaison; Las Vegas, Zion und White Sands 38–45 °C mit Monsungewittern.",
+      einreise: "ESTA für alle vier (ca. 40 USD pro Person), Regeln im Wandel. Nationalpark-Jahrespass für Nicht-Residenten 250 USD, 100 USD Zusatzgebühr pro Person ab 16 Jahren in 11 Parks.",
+      hoehepunkte: "Everglades, Florida Keys mit Korallenriff, Kennedy Space Center, Universal, weisse Strände bei Destin, New Orleans, Space Center Houston, Carlsbad Caverns, White Sands, Monument Valley, Grand Canyon, Antelope Canyon, Zion.",
+      teens: "Schnorcheln am Riff, Airboat in den Everglades, Universal, Raketen im Kennedy Space Center, Sumpftour in Louisiana, Tropfsteinhöhle, Dünenrutschen auf White Sands, Meow Wolf.",
+      pro: [
+        "Strand und Schnorcheln in den Florida Keys (einziges Korallenriff vor dem US-Festland) und an der Golfküste",
+        "Die Nationalparks im Südwesten wie bei Las Vegas–New York, dazu Everglades und Carlsbad Caverns",
+        "Viele Teenager-Highlights: Universal, Kennedy Space Center, Space Center Houston, Airboat, Sumpftour",
+        "Direktflug nach Miami, eigenes Tempo mit dem Mietwagen"
+      ],
+      contra: [
+        "Am teuersten (ca. {plan:usa2} CHF), Einwegmiete quer durchs Land mit hoher Rückgabegebühr, Arztkosten sehr hoch",
+        "Viele Fahrtage (ca. 74–78 Std. im Auto, 16 Fahrtage); Tür zu Tür ca. 108–113 Std. und Jetlag",
+        "Hurrikansaison in Florida, Hitze im Südwesten (Las Vegas oft über 40 °C)",
+        "Kaum Grossstädte wie New York oder Chicago, zwei Langstreckenflüge mit viel CO₂, Rückflug direkt nur an einzelnen Tagen"
       ]
     },
     asien: {
@@ -112,7 +142,11 @@ window.START = {
       ],
       usa: [
         5,
-        "Zion, Antelope Canyon, Horseshoe Bend, Grand Canyon, Monument Valley, White Sands und die Niagarafälle: die spektakulärsten Landschaften aller Reisen."
+        "Zion, Antelope Canyon, Horseshoe Bend, Grand Canyon, Monument Valley, White Sands und die Niagarafälle: spektakuläre Landschaften."
+      ],
+      usa2: [
+        5,
+        "Everglades, Florida Keys und Golfküste, Carlsbad Caverns, White Sands, Monument Valley, Grand Canyon, Antelope Canyon und Zion."
       ],
       asien: [
         4,
@@ -123,6 +157,7 @@ window.START = {
       kriterium: "Dschungelfeeling",
       spanien: [0, "Kein Regenwald: Halbwüsten, Küsten, Pinienwälder und im Norden grüne Hügel."],
       usa: [0, "Kein Dschungel: Wüsten, Canyons, Seen und im Osten Laubwälder."],
+      usa2: [1, "Mangroven und Sümpfe in den Everglades und in Louisiana, aber kein Regenwald."],
       asien: [
         3,
         "Dschungelwanderung auf Tioman, Wasserfälle und Inselwälder; kein grosser zusammenhängender Regenwald auf der Route."
@@ -138,6 +173,10 @@ window.START = {
         1,
         "Kaum Meer auf der Route; Baden höchstens im Lake Powell, in Hotelpools oder am Lake Michigan in Chicago."
       ],
+      usa2: [
+        4,
+        "Florida Keys und die weissen Strände der Golfküste bei Destin mit ca. 29–30 °C warmem Wasser; Gewitter am Nachmittag und Strömung bei roter Flagge."
+      ],
       asien: [
         5,
         "Tioman, Perhentian Islands, Khanom, Koh Samui, Koh Tao und Hua Hin: tropische Strände mit ca. 29 °C warmem Wasser an fast jeder zweiten Station."
@@ -150,6 +189,10 @@ window.START = {
         "Sieben Nächte auf Ibiza und Formentera an guten Schnorchelplätzen (Cala Xarraca, Punta de sa Galera, Cala Saona, Es Caló): sehr klares Wasser über Seegraswiesen mit vielen Fischen, dazu Cabo de Gata; aber keine Korallen und kühleres Wasser."
       ],
       usa: [0, "Kein Schnorcheln im Meer; höchstens Baden im Lake Powell oder in den Narrows."],
+      usa2: [
+        3,
+        "Korallenriff im John Pennekamp Coral Reef State Park bei Key Largo, optional Dry Tortugas; sonst kaum Schnorcheln auf der Route."
+      ],
       asien: [
         5,
         "Tioman, Perhentian Islands, Koh Samui und Koh Tao: fast jede Inselstation hat Riffe, Schildkröten und Schnorchelboote."
@@ -162,6 +205,10 @@ window.START = {
         "Caminito del Rey, Kajak durch die Grotten der Algarve, Achterbahnen in Terra Mítica, Schnorcheln, Pisten durch die Bardenas und Gorafe; eher Entdecken als Wildnis."
       ],
       usa: [4, "Durch die Narrows waten, Antelope Canyon, 2-Tage-Roadtrip und Cedar Point."],
+      usa2: [
+        4,
+        "Airboat in den Everglades, Schnorcheln am Riff, Tropfsteinhöhle, Dünenrutschen, Narrows in Zion, Antelope Canyon."
+      ],
       asien: [3, "Kajak, Seilrutschen, Inselhopping und Fähren; eher abenteuerlich beim Reisen als in der Natur."]
     },
     {
@@ -171,6 +218,10 @@ window.START = {
         "Barcelona, Valencia, Granada, Sevilla, Lissabon und Porto mit Alhambra, Sagrada Família und viel Kultur."
       ],
       usa: [5, "Las Vegas, Chicago, Washington, Philadelphia und New York mit Museen und Aussichtsplattformen."],
+      usa2: [
+        4,
+        "Miami, New Orleans, Houston, San Antonio, Santa Fe und Las Vegas; ohne New York, Chicago und Washington."
+      ],
       asien: [4, "Singapur, Kuala Lumpur, Penang und Bangkok mit Street-Food und Tempeln."]
     },
     {
@@ -182,6 +233,10 @@ window.START = {
       usa: [
         4,
         "Sehr gute Spitäler, aber sehr teuer (Reiseversicherung mit hoher Deckung nötig); Hitze in der Wüste, sonst unkompliziert."
+      ],
+      usa2: [
+        4,
+        "Sehr gute Spitäler, aber sehr teuer (Reiseversicherung mit hoher Deckung nötig); Hurrikansaison in Florida, Hitze in der Wüste."
       ],
       asien: [
         3,
@@ -195,6 +250,7 @@ window.START = {
         "ca. {plan:spanien} CHF: die günstigste Variante; kein Flug, Laden an Tesla-Superchargern gratis; dafür Maut, Fähren und teure Unterkünfte in der Hochsaison."
       ],
       usa: [1, "ca. {plan:usa} CHF: rund {mehrkosten} CHF mehr, vor allem Unterkünfte und Mietwagen."],
+      usa2: [1, "ca. {plan:usa2} CHF: Einwegmiete Miami–Las Vegas, Unterkünfte in den Keys und Freizeitparks."],
       asien: [4, "ca. {plan:asien} CHF: Singapur ist teuer, der Rest günstig."]
     },
     {
@@ -206,6 +262,10 @@ window.START = {
       usa: [
         2,
         "Ca. 102–109 Stunden Tür zu Tür: zwei Langstreckenflüge mit Einreise und Jetlag, dazu am meisten Zeit im Auto (ca. 70–75 Stunden), mit 10 und 12 Stunden reiner Fahrzeit an den zwei Roadtrip-Tagen."
+      ],
+      usa2: [
+        2,
+        "Ca. 108–113 Stunden Tür zu Tür: zwei Langstreckenflüge mit Einreise und Jetlag (Rückflug direkt nur an einzelnen Tagen), dazu ca. 74–78 Stunden im Auto an 16 Fahrtagen, die längsten 5–7 Stunden."
       ],
       asien: [
         2,
@@ -221,6 +281,10 @@ window.START = {
       usa: [
         1,
         "Zwei Langstreckenflüge (ca. 15’000 km) und ca. 6’000 km Mietwagen, grob geschätzt ca. 3–3,5 t CO₂ pro Person."
+      ],
+      usa2: [
+        1,
+        "Zwei Langstreckenflüge (ca. 17’000 km) und ca. 6’000 km Mietwagen, grob geschätzt ca. 3,5–4 t CO₂ pro Person."
       ],
       asien: [
         1,

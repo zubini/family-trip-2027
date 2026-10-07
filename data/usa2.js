@@ -1,13 +1,10 @@
-// Variante der USA-Reise: von Miami über die Florida Keys und die Golfküste in den Südwesten bis Las Vegas.
-// Erscheint nicht im Menü; auf der USA-Seite lässt sich oben zwischen den Varianten umschalten (alternativeZu, variante).
+// Reise: USA von Miami über die Florida Keys und die Golfküste in den Südwesten bis Las Vegas.
 // Daten in "datum" ohne Wochentag schreiben (z.B. "19.–22. Juni"), die Wochentage rechnet js/app.js aus.
 // Texte dürfen einfaches HTML enthalten (<b>, <strong>, <i>).
 window.REISEN = window.REISEN || {};
 REISEN.usa2 = {
   titel: "Von Miami nach Las Vegas",
-  menu: "USA (Miami–Las Vegas)",
-  variante: "Miami – Las Vegas",
-  alternativeZu: "usa",
+  menu: "USA (Miami – Las Vegas)",
   untertitel: "Fünf Wochen von Florida in den Westen: Florida Keys mit Korallenriff, Orlando, Golfküste, New Orleans, Texas, Carlsbad Caverns und die Nationalparks im Südwesten.",
   zeitraum: "Fr, 18.06.2027 bis Do, 22.07.2027, 2 Erwachsene und 2 Kids",
   titelbild: {
