@@ -27,7 +27,14 @@ nav.top a:hover { background: var(--mist); color: var(--sea); }
 /* aktiver Abschnitt (gesetzt von js/app.js beim Scrollen) */
 nav.top a.on { background: #E4EEEC; border-color: #9FC9C3; color: var(--sea); }
 
-@media (max-width: 960px) {
+/* Viele Reisen: Menü etwas kompakter, damit es auf einer Zeile Platz hat */
+@media (max-width: 1440px) {
+  .gnav .wrap, .gnav .menu { gap: 4px; }
+  .gnav a { font-size: .88rem; padding: 6px 10px; }
+  .gnav a.logo { margin-right: 4px; }
+}
+
+@media (max-width: 1180px) {
   .menu-btn { display: inline-flex; }
   .gnav .wrap { flex-wrap: wrap; }
   .gnav .menu { display: none; flex-basis: 100%; flex-direction: column; align-items: stretch; gap: 4px; padding: 6px 0 4px; }

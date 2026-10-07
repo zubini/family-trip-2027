@@ -2,9 +2,10 @@
 
 **Zur Seite: https://zubini.github.io/family-trip-2027/**
 
-Reiseführer und Variantenvergleich für die Familienreise 2027 (ab 18. Juni, 2 Erwachsene und 2 Kids) mit vier Varianten:
+Reiseführer und Variantenvergleich für die Familienreise 2027 (ab 18. Juni, 2 Erwachsene und 2 Kids) mit fünf Varianten:
 
 - **Spanien / Portugal**: mit dem eigenen Auto ab Brig-Glis, zu den Balearen mit der Autofähre, ohne Flug (bis 24. Juli)
+- **Adria-Rundreise**: mit dem eigenen Auto über Kroatien, Montenegro, Albanien und Griechenland, mit der Fähre nach Bari und an der Ostküste Italiens zurück (bis 24. Juli)
 - **USA (Las Vegas – New York)** (bis 22. Juli)
 - **USA (Miami – Las Vegas)**: über die Florida Keys und die Golfküste in den Südwesten (bis 22. Juli)
 - **Malaysia / Thailand**: von Singapur nach Bangkok (bis 22. Juli)
@@ -20,6 +21,7 @@ index.html        Seitengerüst
 data/             die Inhalte, hier wird fast alles geändert
   start.js        Einstiegsseite: Texte, Bewertung, Pro und Contra
   spanien.js      Spanien / Portugal (mit dem eigenen Auto ab Brig-Glis)
+  balkan.js       Adria-Rundreise (mit dem eigenen Auto ab Brig-Glis)
   usa.js          USA (Las Vegas–New York)
   usa2.js         USA (Miami–Las Vegas)
   asien.js        Malaysia / Thailand (Singapur–Bangkok)

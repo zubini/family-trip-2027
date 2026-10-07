@@ -1,14 +1,14 @@
 // Einstiegsseite: Vergleich der Reisen
 // Budgetzahlen kommen automatisch aus den Reisen (data/spanien.js usw.).
-// Platzhalter in Texten: {plan:spanien}, {plan:usa}, {plan:usa2}, {plan:asien} = Planwert, {mehrkosten} = USA minus Malaysia / Thailand.
+// Platzhalter in Texten: {plan:spanien}, {plan:balkan}, {plan:usa}, {plan:usa2}, {plan:asien} = Planwert, {mehrkosten} = USA minus Malaysia / Thailand.
 // Reihenfolge der Reisen hier = Reihenfolge der Spalten; die Navigation folgt der Reihenfolge in index.html.
 // Bewertung: [Punkte 0–5, Text]. Die Punkte und Pro/Contra sind eine Einschätzung und bei Änderungen an den Reisen von Hand anzupassen.
 window.START = {
   titel: "Familienreise 2027",
   zeitraum: "Ab Fr, 18.06.2027 für fünf Wochen, 2 Erwachsene und 2 Kids",
   untertitel: "Verschiedene Reisevarianten als Fahrplan für eine Entscheidung.",
-  reisenIntro: "Alle Reisen dauern 33 bis 36 Nächte und sind für die Familie mit Sohn (12) und Tochter (14) geplant. Spanien / Portugal ohne Flug und Jetlag kann bis Sa, 24.07.2027 dauern, die anderen enden am Do, 22.07.2027. Ein Klick führt zum vollständigen Fahrplan mit Stationen, Karte und Budget.",
-  bewertungIntro: "Bewertet werden Natur, Dschungelfeeling, Strand und Baden, Schnorcheln, Abenteuer, Städte, Gesundheit und Sicherheit, Budget, Reisekomfort sowie CO₂ und Umwelt. Fünf Punkte sind die beste Bewertung (beim Budget heisst das: günstig, beim CO₂: wenig Ausstoss). Die Skala ist fest und nicht nur ein Vergleich der vier Reisen: 5 heisst Weltklasse (z.B. tropische Riffe beim Schnorcheln, kurze Etappen beim Reisekomfort), 0 heisst, dass es das auf der Reise nicht gibt. Die Punkte sind eine Einschätzung auf Basis der Reisepläne, keine Messung.",
+  reisenIntro: "Alle Reisen dauern 33 bis 36 Nächte und sind für die Familie mit Sohn (12) und Tochter (14) geplant. Die beiden Reisen mit dem eigenen Auto ohne Flug und Jetlag können bis Sa, 24.07.2027 dauern, die anderen enden am Do, 22.07.2027. Ein Klick führt zum vollständigen Fahrplan mit Stationen, Karte und Budget.",
+  bewertungIntro: "Bewertet werden Natur, Dschungelfeeling, Strand und Baden, Schnorcheln, Abenteuer, Städte, Gesundheit und Sicherheit, Budget, Reisekomfort sowie CO₂ und Umwelt. Fünf Punkte sind die beste Bewertung (beim Budget heisst das: günstig, beim CO₂: wenig Ausstoss). Die Skala ist fest und nicht nur ein Vergleich der Reisen: 5 heisst Weltklasse (z.B. tropische Riffe beim Schnorcheln, kurze Etappen beim Reisekomfort), 0 heisst, dass es das auf der Reise nicht gibt. Die Punkte sind eine Einschätzung auf Basis der Reisepläne, keine Messung.",
   budgetIntro: "Mittelklasse inklusive Flüge bzw. Autokosten, Transport, Unterkunft, Verpflegung und Aktivitäten für 4 Personen. Der dunkle Punkt ist der Planwert, der helle Balken die Spanne.",
   vergleichIntro: "Die wichtigsten Unterschiede nebeneinander.",
   entscheidIntro: "Welche Reise passt, hängt davon ab, ob Strand und Schnorcheln, Städte und Kultur ohne Flug oder Nationalparks und Roadtrip im Vordergrund stehen.",
@@ -31,17 +31,47 @@ window.START = {
       hoehepunkte: "Sagrada Família, Oceanogràfic in Valencia, Schnorcheln an den Buchten von Ibiza und Formentera, Terra Mítica und Aqualandia in Benidorm, Alhambra und Gorafe, Cabo de Gata, Caminito del Rey, Sevilla, Kajak durch die Grotten der Algarve, Lissabon, Porto, Playa de las Catedrales, Bardenas Reales.",
       teens: "Freizeit- und Wasserparks (Terra Mítica, Aqualandia), Schnorcheln und Kajak, Grotten der Algarve, Caminito del Rey, Game-of-Thrones-Drehorte, Höhlen und Felsbögen bei Ebbe, Surfen in Galicien.",
       pro: [
-        "Kein Flug und kein Jetlag, Tür zu Tür am wenigsten Reisezeit (ca. 82–85 Std.); zwei Tage länger möglich",
+        "Kein Flug und kein Jetlag, Tür zu Tür wenig Reisezeit (ca. 82–85 Std.); zwei Tage länger möglich",
         "Abwechslung: sieben Nächte Schnorcheln auf Ibiza und Formentera, danach Städte, Strand und Natur im Wechsel (Granada, Cabo de Gata, Caminito, Sevilla, Algarve)",
         "Städte und Kultur: Barcelona, Valencia, Granada mit der Alhambra, Sevilla, Lissabon und Porto",
         "Unkompliziert und sicher: Europa, keine Impfungen, eigenes Auto mit viel Platz fürs Gepäck",
-        "Am wenigsten CO₂ und die günstigste Variante (Laden an Superchargern gratis)"
+        "Wenig CO₂ und günstig (Laden an Superchargern gratis)"
       ],
       contra: [
         "Ca. 73–75 Std. im Auto inklusive Ladestopps, am ersten und letzten Tag je ca. 8–9 Std.",
         "Grosse Hitze in Andalusien und den Bardenas (oft 35–42 °C)",
         "Hochsaison: Strände voll; Fähren, Zufahrt fürs Auto auf Ibiza und Formentera, Unterkünfte und Alhambra früh buchen",
         "Keine Korallenriffe und kein Dschungel; der Atlantik in Galicien ist kühl"
+      ]
+    },
+    balkan: {
+      name: "Adria-Rundreise",
+      zusatz: "Roadtrip ab Brig-Glis",
+      passt: "ihr ohne Flug reisen, viele Länder mit Altstädten, Strand und Natur verbinden möchtet und Grenzen, Hitze und einfache Strassen in Albanien in Kauf nehmt.",
+      kurz: "Fünf Wochen mit dem eigenen Elektroauto rund um die Adria: Istrien, Plitvicer Seen, Dalmatien, Montenegro, die albanische Riviera, Meteora und Lefkada, mit der Nachtfähre nach Apulien und an der Ostküste Italiens zurück.",
+      route: "Brig-Glis, Venedig, Rovinj, Plitvicer Seen, Split, Hvar, Dubrovnik, Kotor, Shkodër, Berat, Himarë, Ksamil, Meteora, Lefkada, Igoumenitsa, Bari, Polignano a Mare, Vieste, Rimini, Brig-Glis",
+      stationen: "14 Stationen, 2 Zwischenübernachtungen und 1 Nacht auf der Fähre",
+      laender: "Italien, Slowenien, Kroatien, Montenegro, Albanien, Griechenland",
+      hinflug: "Kein Flug: mit dem eigenen Auto über den Simplon, Zwischenstopp in Venedig (ca. 4,75–5,25 Std.), dann nach Istrien (ca. 3 Std.)",
+      rueckflug: "Mit dem Auto ab Rimini über den Simplon (ca. 5,25–5,75 Std.), Ankunft Sa, 24.07.2027",
+      dazwischen: "Keine Flüge: eigenes Elektroauto, dazu zwei kurze Autofähren in Kroatien und die Nachtfähre Igoumenitsa–Bari",
+      tempo: "Ca. 67 Std. reine Reisezeit (ca. 53 Std. Elektroauto für ca. 3’800 km und ca. 13–14 Std. Fähre), realistisch mit Pausen, Ladestopps, drei Grenzen und Check-in ca. 83–89 Std.; längste Fahrtage Rimini–Brig-Glis (ca. 5,25–5,75 Std.), Brig-Glis–Venedig (ca. 4,75–5,25 Std.), Gargano–Rimini (ca. 4,5–5 Std.), Hvar–Dubrovnik (ca. 4–5 Std. mit Fähre) und Ksamil–Meteora (ca. 4–4,5 Std. plus Grenze); sonst meist 1,5–3,5 Std.",
+      gesamt: "Ca. 83–89 Std. Tür zu Tür, ohne Flughafen und ohne Jetlag: davon realistisch ca. 65–70 Std. im Elektroauto inklusive Ladestopps und drei Grenzen ausserhalb des Schengen-Raums (ca. 53 Std. reine Fahrzeit) und ca. 17–19 Std. für die Fähren inklusive Check-in, davon eine Nacht in der Kabine. Uhr +1 Std. in Griechenland.",
+      wetter: "Heiss: an den Küsten 28–33 °C, im Landesinneren (Berat, Meteora, Matera) oft 35–40 °C, bei den Plitvicer Seen angenehmer; Meer ca. 24–26 °C.",
+      einreise: "Montenegro und Albanien sind nicht im Schengen-Raum: drei Grenzen mit Passkontrolle und im Sommer Wartezeiten, Identitätskarte oder Pass genügt. Grüne Versicherungskarte für Montenegro und Albanien, E-Vignette Slowenien, elektronische Maut in Kroatien ab März 2027.",
+      hoehepunkte: "Rovinj, Plitvicer Seen, Diokletianpalast in Split, Pakleni-Inseln bei Hvar, Stadtmauer von Dubrovnik, Bucht von Kotor, Berat, Strände der albanischen Riviera und von Ksamil, Meteora, Lefkada, Trulli von Alberobello und Matera, Meeresgrotten am Gargano, San Marino.",
+      teens: "Holzstege über die Plitvicer Seen, Kajak um Dubrovnik, Game-of-Thrones-Drehorte, Schnorcheln an der Riviera und auf Lefkada, Klöster auf Felsen, Bootstouren in Meeresgrotten, Freizeitparks bei Rimini.",
+      pro: [
+        "Kein Flug und kein Jetlag, Tür zu Tür ca. 83–89 Std.; meist kurze Etappen von 1,5–3,5 Std., nur eine Nachtfähre",
+        "Sechs Länder und viel Abwechslung: Altstädte, Nationalparks, Inselbuchten, Albanien abseits der bekannten Ziele, Klöster von Meteora und Apulien",
+        "Sehr klares Wasser zum Schnorcheln an vielen Stationen (Hvar, albanische Riviera, Ksamil, Lefkada, Gargano)",
+        "Günstig (ca. {plan:balkan} CHF), weil Albanien deutlich weniger kostet als Kroatien und Italien; wenig CO₂"
+      ],
+      contra: [
+        "Ca. 65–70 Std. im Auto inklusive Ladestopps, an fünf Tagen 4–6 Std.; schmale, kurvige Strassen und forscher Fahrstil in Albanien",
+        "Drei Grenzen ausserhalb des Schengen-Raums mit Wartezeiten im Sommer; keine Supercharger in Montenegro und Albanien",
+        "Hochsaison: Dubrovnik, Hvar, Ksamil und Apulien voll und teils teuer; im Landesinneren grosse Hitze",
+        "Keine Korallenriffe und kein Dschungel; viele Unterkunftswechsel"
       ]
     },
     usa: {
@@ -140,6 +170,10 @@ window.START = {
         4,
         "Abwechslungsreich: Felsküste und Grotten der Algarve, Buchten von Ibiza und Formentera, Vulkanküste am Cabo de Gata, Schlucht des Caminito del Rey, Halbwüsten Bardenas Reales und Gorafe, Felsbögen der Playa de las Catedrales; keine grossen Nationalparks wie in den USA."
       ],
+      balkan: [
+        4,
+        "Plitvicer Seen, Pakleni-Inseln, Bucht von Kotor, Steilküste der albanischen Riviera, Quelle Syri i Kaltër, Felstürme von Meteora, Klippen von Lefkada und des Gargano; keine grossen Nationalparks wie in den USA."
+      ],
       usa: [
         5,
         "Zion, Antelope Canyon, Horseshoe Bend, Grand Canyon, Monument Valley, White Sands und die Niagarafälle: spektakuläre Landschaften."
@@ -156,6 +190,7 @@ window.START = {
     {
       kriterium: "Dschungelfeeling",
       spanien: [0, "Kein Regenwald: Halbwüsten, Küsten, Pinienwälder und im Norden grüne Hügel."],
+      balkan: [0, "Kein Regenwald: Buchenwälder bei Plitvice und am Gargano, Macchia, Pinien und Olivenhaine."],
       usa: [0, "Kein Dschungel: Wüsten, Canyons, Seen und im Osten Laubwälder."],
       usa2: [1, "Mangroven und Sümpfe in den Everglades und in Louisiana, aber kein Regenwald."],
       asien: [
@@ -168,6 +203,10 @@ window.START = {
       spanien: [
         4,
         "Viele Strandtage auf Ibiza, Formentera, in Benidorm, am Cabo de Gata und an der Algarve, Mittelmeer ca. 23–26 °C; im Juli aber voll, und kein tropisch warmes Wasser."
+      ],
+      balkan: [
+        4,
+        "Strandtage auf Hvar, an der albanischen Riviera, in Ksamil, auf Lefkada und am Gargano, Meer ca. 24–26 °C; im Juli voll, oft Kiesstrände, kein tropisch warmes Wasser."
       ],
       usa: [
         1,
@@ -188,6 +227,10 @@ window.START = {
         3,
         "Sieben Nächte auf Ibiza und Formentera an guten Schnorchelplätzen (Cala Xarraca, Punta de sa Galera, Cala Saona, Es Caló): sehr klares Wasser über Seegraswiesen mit vielen Fischen, dazu Cabo de Gata; aber keine Korallen und kühleres Wasser."
       ],
+      balkan: [
+        3,
+        "Sehr klares Wasser über Fels und Seegras an den Pakleni-Inseln, bei Himarë und Ksamil, auf Lefkada und am Gargano, an vielen Stationen; aber keine Korallen."
+      ],
       usa: [0, "Kein Schnorcheln im Meer; höchstens Baden im Lake Powell oder in den Narrows."],
       usa2: [
         3,
@@ -204,6 +247,10 @@ window.START = {
         3,
         "Caminito del Rey, Kajak durch die Grotten der Algarve, Achterbahnen in Terra Mítica, Schnorcheln, Pisten durch die Bardenas und Gorafe; eher Entdecken als Wildnis."
       ],
+      balkan: [
+        3,
+        "Holzstege über die Plitvicer Seen, Kajak um Dubrovnik, Aufstieg zur Festung von Kotor, Pässe und Küstenstrassen in Albanien, Klöster von Meteora, Meeresgrotten am Gargano; eher Entdecken als Wildnis."
+      ],
       usa: [4, "Durch die Narrows waten, Antelope Canyon, 2-Tage-Roadtrip und Cedar Point."],
       usa2: [
         4,
@@ -217,6 +264,10 @@ window.START = {
         5,
         "Barcelona, Valencia, Granada, Sevilla, Lissabon und Porto mit Alhambra, Sagrada Família und viel Kultur."
       ],
+      balkan: [
+        4,
+        "Venedig, Rovinj, Split, Dubrovnik, Kotor, Berat, Matera und San Marino: viele Altstädte und Unesco-Welterbe, aber kaum Grossstädte."
+      ],
       usa: [5, "Las Vegas, Chicago, Washington, Philadelphia und New York mit Museen und Aussichtsplattformen."],
       usa2: [
         4,
@@ -229,6 +280,10 @@ window.START = {
       spanien: [
         5,
         "Europa: Krankenversicherungskarte gilt, Leitungswasser trinkbar, gute Spitäler, keine Impfungen nötig; Vorsicht bei Hitze, Taschendieben und auf langen Autofahrten."
+      ],
+      balkan: [
+        4,
+        "In der EU gilt die Krankenversicherungskarte, in Montenegro und Albanien nicht (Reiseversicherung nötig); einfachere Spitäler und kein trinkbares Leitungswasser in Albanien, forscher Fahrstil und Hitze; keine Impfungen nötig."
       ],
       usa: [
         4,
@@ -247,7 +302,11 @@ window.START = {
       kriterium: "Budget (mehr Punkte = günstiger)",
       spanien: [
         4,
-        "ca. {plan:spanien} CHF: die günstigste Variante; kein Flug, Laden an Tesla-Superchargern gratis; dafür Maut, Fähren und teure Unterkünfte in der Hochsaison."
+        "ca. {plan:spanien} CHF: kein Flug, Laden an Tesla-Superchargern gratis; dafür Maut, Fähren und teure Unterkünfte in der Hochsaison."
+      ],
+      balkan: [
+        4,
+        "ca. {plan:balkan} CHF: kein Flug, Laden an Superchargern gratis, Albanien günstig; dafür teure Unterkünfte in Dubrovnik, auf Hvar und in Apulien im Juli."
       ],
       usa: [1, "ca. {plan:usa} CHF: rund {mehrkosten} CHF mehr, vor allem Unterkünfte und Mietwagen."],
       usa2: [1, "ca. {plan:usa2} CHF: Einwegmiete Miami–Las Vegas, Unterkünfte in den Keys und Freizeitparks."],
@@ -257,7 +316,11 @@ window.START = {
       kriterium: "Reisekomfort",
       spanien: [
         3,
-        "Tür zu Tür am wenigsten Reisezeit (ca. 82–85 Stunden), kein Flughafen, kein Jetlag, eigenes Auto mit viel Platz fürs Gepäck, die meisten Etappen 2–3,5 Stunden; dafür ca. 73–75 Stunden im Auto inklusive Ladestopps, am ersten und letzten Tag je ca. 8–9 Stunden. Die Fähren sind kurz (zusammen ca. 6–7 Stunden)."
+        "Tür zu Tür wenig Reisezeit (ca. 82–85 Stunden), kein Flughafen, kein Jetlag, eigenes Auto mit viel Platz fürs Gepäck, die meisten Etappen 2–3,5 Stunden; dafür ca. 73–75 Stunden im Auto inklusive Ladestopps, am ersten und letzten Tag je ca. 8–9 Stunden. Die Fähren sind kurz (zusammen ca. 6–7 Stunden)."
+      ],
+      balkan: [
+        3,
+        "Ca. 83–89 Stunden Tür zu Tür, kein Flughafen, kein Jetlag, eigenes Auto mit viel Platz fürs Gepäck, die meisten Etappen 1,5–3,5 Stunden; dafür ca. 65–70 Stunden im Auto mit drei Grenzen und langsamen Strassen in Albanien, viele Unterkunftswechsel und eine Nachtfähre."
       ],
       usa: [
         2,
@@ -277,6 +340,10 @@ window.START = {
       spanien: [
         5,
         "Kein Flug: Elektroauto (ca. 1’200 kWh, Strom in Frankreich ca. 30 g, in Spanien und Portugal ca. 120–130 g CO₂ pro kWh) und drei kurze Fähren; grob geschätzt ca. 0,1–0,2 t CO₂ pro Person."
+      ],
+      balkan: [
+        5,
+        "Kein Flug: Elektroauto (ca. 700 kWh, Strom in Albanien fast nur aus Wasserkraft, in Italien und Griechenland mehr fossil) und eine Nachtfähre; grob geschätzt ca. 0,1–0,2 t CO₂ pro Person."
       ],
       usa: [
         1,
