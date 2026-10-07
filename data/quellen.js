@@ -49,6 +49,13 @@ window.QUELLEN = {
     {
       titel: "Spanien / Portugal / Marokko",
       links: [
+        ["Nomado: Marrakesch–Fès mit dem Zug (ca. 6,5–7,5 Std., 4–6 Abfahrten pro Tag, teils Umsteigen)", "https://www.nomadotravel.app/en/guides/marrakech-to-fes-guide"],
+        ["Nomado: Agafay-Wüste ab Marrakesch (erste Camps ca. 40 Min., die entferntesten ca. 60 Min.)", "https://www.nomadotravel.app/en/guides/marrakech-agafay-desert-guide"],
+        ["Barceló: Hassan-II.-Moschee, Führungen und Preise (ca. 130 Dirham)", "https://www.barcelo.com/guia-turismo/en/?p=624092"],
+        ["Fondation de la Mosquée Hassan II (offizielle Seite)", "https://www.fmh2.ma/en"],
+        ["Morocco World News: Züge nach Marrakesch wegen Bauarbeiten unterbrochen (April 2026)", "https://www.moroccoworldnews.com/2026/04/288060/oncf-marrakech-train-service-suspended-for-lgv-works/"],
+        ["TelQuel: Fahrplanänderungen wegen der Schnellfahrstrecke (September 2026)", "https://telquel.ma/instant-t/2026/08/31/travaux-de-la-lgv-loncf-annonce-deux-etapes-de-perturbations-de-trafic-en-septembre_2004827/"],
+        ["Morocco World News: Pünktlichkeit der ONCF-Züge (Al Boraq ca. 98,5 %, Netz ca. 82 %, Juni 2026)", "https://www.moroccoworldnews.com/2026/06/314951/oncf-carries-nearly-2-million-passengers-during-eid-al-adha-travel-period/"],
         ["Rome2rio: Benidorm–Garrucha mit dem Auto (ca. 255 km, ca. 2,75 Std.; bis San José ca. 75 km mehr)", "https://www.rome2rio.com/s/Benidorm/Garrucha"],
         ["Ferryhopper: Fähren Spanien–Marokko 2026 (Tarifa–Tanger Ville ca. 1 Std., Baleària und Africa Morocco Link)", "https://www.ferryhopper.com/en/blog/ferry-news/spain-morocco-ferry-routes"],
         ["Infomédiaire: FRS beendet die Linie Tanger Ville–Tarifa (Mai 2025)", "https://www.infomediaire.net/?p=179625"],
