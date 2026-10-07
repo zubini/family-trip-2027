@@ -49,6 +49,7 @@ window.QUELLEN = {
     {
       titel: "Spanien / Portugal / Marokko",
       links: [
+        ["Rome2rio: Benidorm–Garrucha mit dem Auto (ca. 255 km, ca. 2,75 Std.; bis San José ca. 75 km mehr)", "https://www.rome2rio.com/s/Benidorm/Garrucha"],
         ["Ferryhopper: Fähren Spanien–Marokko 2026 (Tarifa–Tanger Ville ca. 1 Std., Baleària und Africa Morocco Link)", "https://www.ferryhopper.com/en/blog/ferry-news/spain-morocco-ferry-routes"],
         ["Infomédiaire: FRS beendet die Linie Tanger Ville–Tarifa (Mai 2025)", "https://www.infomediaire.net/?p=179625"],
         ["Andalucia.com: Fähre Tarifa–Tanger, Parkplatz am Hafen", "https://www.andalucia.com/tarifa/ferry-to-tangiers.htm"],

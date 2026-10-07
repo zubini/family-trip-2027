@@ -17,7 +17,8 @@ const wege = [
   ['car', 'Valencia – Dénia', weg('Valencia – Dénia')],
   ['ferry', 'Dénia – Formentera (Autofähre)', ['DE', [38.7, 0.6], 'FO']],
   ['ferry', 'Formentera – Dénia (Autofähre)', weg('Formentera – Dénia (Autofähre)')],
-  ['car', 'Dénia – Alicante – Murcia – Almería – Cabo de Gata', ['DE', [38.75, -0.05], 'BE', 'AL', 'MU', 'LO', [37.2, -1.9], 'AM', 'SJ']],
+  ['car', 'Dénia – Benidorm', weg('Dénia – Benidorm')],
+  ['car', 'Benidorm – Alicante – Murcia – Almería – Cabo de Gata', ['BE', 'AL', 'MU', 'LO', [37.2, -1.9], 'AM', 'SJ']],
   ['car', 'Cabo de Gata – Almería – Málaga – El Chorro', weg('Cabo de Gata – Almería – Málaga – El Chorro')],
   ['car', 'El Chorro – Málaga – Tarifa', ['EC', [36.80, -4.55], 'MAG', [36.5, -4.9], [36.2, -5.35], 'TAR']],
   ['ferry', 'Tarifa – Tanger Ville (Fähre)', ['TAR', 'TNG']],
@@ -38,8 +39,8 @@ const wege = [
   ['car', 'Carcassonne – Narbonne – Montpellier – Lyon – Genf – Brig-Glis', ['CA', 'NB', [43.34, 3.22], 'MP', 'NIM', 'OR', 'VA', 'LY', [45.95, 5.35], [46.0, 5.8], 'GE', [46.45, 6.55], [46.38, 6.85], 'MA', 'BR']]
 ];
 const stationen = [
-  [1, 'ES', 'l', 'Costa Brava'], [2, 'BC', 'l'], [3, 'VAL', 'l'], [4, 'FO', 'r'], [5, 'SJ', 'r'], [6, 'EC', 'u', 'Caminito del Rey'], [7, 'TAR', 'l'],
-  [8, 'RAK', 'l'], [9, 'DAD', 'u', 'Dadès'], [10, 'MRZ', 'r'], [11, 'FES', 'r'], [12, 'CAD', 'l'], [13, 'SV', 'u'], [14, 'LAG', 'd', 'Algarve'],
-  [15, 'LI', 'l'], [16, 'RI', 'u', 'Catedrales'], [17, 'SS', 'u'], [18, 'CA', 'u']
+  [1, 'ES', 'l', 'Costa Brava'], [2, 'BC', 'l'], [3, 'VAL', 'l'], [4, 'FO', 'r'], [5, 'BE', 'l'], [6, 'SJ', 'r'], [7, 'EC', 'u', 'Caminito del Rey'], [8, 'TAR', 'l'],
+  [9, 'RAK', 'l'], [10, 'DAD', 'u', 'Dadès'], [11, 'MRZ', 'r'], [12, 'FES', 'r'], [13, 'CAD', 'l'], [14, 'SV', 'u'], [15, 'LAG', 'd', 'Algarve'],
+  [16, 'LI', 'l'], [17, 'RI', 'u', 'Catedrales'], [18, 'SS', 'u'], [19, 'CA', 'u']
 ];
 module.exports = { orte, wege, stationen };

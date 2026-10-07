@@ -5,7 +5,7 @@
 Reiseführer und Variantenvergleich für die Familienreise 2027 (ab 18. Juni, 2 Erwachsene und 2 Kids) mit fünf Varianten:
 
 - **Spanien / Portugal**: mit dem eigenen Auto ab Brig-Glis, zu den Balearen mit der Autofähre, ohne Flug (bis 24. Juli)
-- **Spanien / Portugal / Marokko**: mit dem eigenen Auto ab Brig-Glis, rund sechs Tage Marokko mit Fähre, Zug und Mietwagen (bis 24. Juli)
+- **Spanien / Portugal / Marokko**: mit dem eigenen Auto ab Brig-Glis, rund sechs Tage Marokko mit Fähre, Zug und Mietwagen (bis 25. Juli)
 - **USA (Las Vegas – New York)** (bis 22. Juli)
 - **USA (Las Vegas – Florida – New York)**: Roadtrip vom Südwesten über Texas, New Orleans und Florida bis Washington, mit dem Zug nach New York (bis 22. Juli)
 - **Malaysia / Thailand**: von Singapur nach Bangkok (bis 22. Juli)
