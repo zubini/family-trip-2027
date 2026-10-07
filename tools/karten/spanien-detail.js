@@ -1,9 +1,9 @@
-// Detailkarte Spanien / Portugal mit den Stationen 1 bis 14.
+// Detailkarte Spanien / Portugal mit den Stationen 1 bis 15.
 const { orte, wege, stationen } = require('./_spanien.js');
 module.exports = {
   reise: 'spanien',
   titel: 'Detailkarte der Reiseroute durch Spanien und Portugal mit Auto- und Fährstrecken',
-  projektion: 'eq', parallel: 40, laenge: [-10.4, 5.4], breitengrad: [35.9, 44.0], breite: 1000,
+  projektion: 'eq', parallel: 40, laenge: [-10.4, 5.4], breitengrad: [35.9, 44.3], breite: 1000,
   laender: ['ESP', 'PRT'],
   orte, wege, stationen,
   zwischenstopps: [['Sète', 'SE', 0], ['Montpellier', 'MP', 0], ['Bilbao', 'BI', -12]],

@@ -64,14 +64,8 @@
 .tag.us { background: #2F4C9A; }
 .tag.es { background: #C8102E; }
 .tag.pt { background: #046A38; }
-.tag.si { background: #3C7A3E; }
 .tag.ma { background: #B5442C; }
 .tag.fr { background: #2F4C9A; }
-.tag.hr { background: #1F4E9C; }
-.tag.me { background: #B8862B; }
-.tag.al { background: #A3141E; }
-.tag.gr { background: #2B79C2; }
-.tag.it { background: #2E8B57; }
 
 .gal { display: grid; grid-template-columns: repeat(3, 1fr); grid-auto-rows: 130px; gap: 8px; margin-bottom: 18px; }
 .gal figure { margin: 0; position: relative; overflow: hidden; border-radius: 10px; background: var(--mist); }

@@ -3,7 +3,7 @@ const { orte, wege, stationen } = require('./_marokko.js');
 module.exports = {
   reise: 'marokko',
   titel: 'Detailkarte der Reiseroute durch Spanien, Marokko und Portugal mit Auto, Fähre und Zug',
-  projektion: 'eq', parallel: 37, laenge: [-10.2, 3.6], breitengrad: [30.6, 43.8], breite: 1000,
+  projektion: 'eq', parallel: 37, laenge: [-10.2, 3.8], breitengrad: [30.6, 43.8], breite: 1000,
   laender: ['ESP', 'PRT', 'MAR'],
   orte, wege, stationen: stationen.filter(s => s[0] <= 15),
   umstiege: [['Tanger', 'TNG', 'l']],

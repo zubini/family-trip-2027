@@ -16,7 +16,8 @@ const orte = {
 };
 const wege = [
   ['car', 'Brig-Glis – Genf – Lyon – Montpellier – Sète', ['BR', 'MA', [46.38, 6.85], [46.45, 6.55], 'GE', [46.0, 5.8], [45.95, 5.35], 'LY', 'VA', 'OR', 'NI', 'MP', 'SE']],
-  ['car', 'Sète – Perpignan – Barcelona', ['SE', 'NB', 'PP', [42.45, 2.87], 'FIG', 'GI', [41.70, 2.60], 'BC']],
+  ['car', 'Sète – Perpignan – Figueres – L’Estartit', ['SE', 'NB', 'PP', [42.45, 2.87], 'FIG', [42.12, 3.08], 'ES']],
+  ['car', 'L’Estartit – Girona – Barcelona', ['ES', 'GI', [41.70, 2.60], 'BC']],
   ['car', 'Barcelona – Tarragona – Valencia', ['BC', [41.55, 2.10], 'TA', [40.8, 0.7], 'CS', 'SAG', 'VAL']],
   ['car', 'Valencia – Dénia', ['VAL', [39.0, -0.2], 'DE']],
   ['ferry', 'Dénia – Ibiza (Autofähre)', ['DE', [38.95, 0.6], 'IB']],
@@ -38,7 +39,7 @@ const wege = [
   ['car', 'Montpellier – Lyon – Genf – Brig-Glis', ['MP', 'NI', 'OR', 'VA', 'LY', [45.95, 5.35], [46.0, 5.8], 'GE', [46.45, 6.55], [46.38, 6.85], 'MA', 'BR']]
 ];
 const stationen = [
-  [1, 'BC', 'l'], [2, 'VAL', 'l'], [3, 'IBN', 'r'], [4, 'FO', 'r'], [5, 'BE', 'r'], [6, 'GR', 'u'], [7, 'SJ', 'r'],
-  [8, 'EC', 'd'], [9, 'SV', 'u'], [10, 'LAG', 'd', 'Algarve'], [11, 'LI', 'l'], [12, 'PO', 'l'], [13, 'RI', 'u'], [14, 'BA', 'r']
+  [1, 'ES', 'r', 'Costa Brava'], [2, 'BC', 'l'], [3, 'VAL', 'l'], [4, 'IBN', 'r'], [5, 'FO', 'r'], [6, 'BE', 'r'], [7, 'GR', 'u'], [8, 'SJ', 'r'],
+  [9, 'EC', 'd'], [10, 'SV', 'u'], [11, 'LAG', 'd', 'Algarve'], [12, 'LI', 'l'], [13, 'PO', 'l'], [14, 'RI', 'u'], [15, 'BA', 'r']
 ];
 module.exports = { orte, wege, stationen };

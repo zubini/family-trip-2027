@@ -1,14 +1,14 @@
 // Einstiegsseite: Vergleich der Reisen
 // Budgetzahlen kommen automatisch aus den Reisen (data/spanien.js usw.).
-// Platzhalter in Texten: {plan:spanien}, {plan:balkan}, {plan:marokko}, {plan:usa}, {plan:usa2}, {plan:asien} = Planwert, {mehrkosten} = USA minus Malaysia / Thailand.
+// Platzhalter in Texten: {plan:spanien}, {plan:marokko}, {plan:usa}, {plan:usa2}, {plan:asien} = Planwert, {mehrkosten} = USA minus Malaysia / Thailand.
 // Reihenfolge der Reisen hier = Reihenfolge der Spalten; die Navigation folgt der Reihenfolge in index.html.
 // Bewertung: [Punkte 0–5, Text]. Die Punkte und Pro/Contra sind eine Einschätzung und bei Änderungen an den Reisen von Hand anzupassen.
 window.START = {
   titel: "Familienreise 2027",
   zeitraum: "Ab Fr, 18.06.2027 für fünf Wochen, 2 Erwachsene und 2 Kids",
   untertitel: "Verschiedene Reisevarianten als Fahrplan für eine Entscheidung.",
-  reisenIntro: "Alle Reisen dauern 33 bis 36 Nächte und sind für die Familie mit Sohn (12) und Tochter (14) geplant. Die drei Reisen mit dem eigenen Auto ohne Flug und Jetlag können bis Sa, 24.07.2027 dauern, die anderen enden am Do, 22.07.2027. Ein Klick führt zum vollständigen Fahrplan mit Stationen, Karte und Budget.",
-  bewertungIntro: "Bewertet werden Natur, Dschungelfeeling, Strand und Baden, Schnorcheln, Abenteuer, Städte, Gesundheit und Sicherheit, Budget, Reisekomfort sowie CO₂ und Umwelt. Fünf Punkte sind die beste Bewertung (beim Budget heisst das: günstig, beim CO₂: wenig Ausstoss). Die Skala ist fest und nicht nur ein Vergleich der Reisen: 5 heisst Weltklasse (z.B. tropische Riffe beim Schnorcheln, kurze Etappen beim Reisekomfort), 0 heisst, dass es das auf der Reise nicht gibt. Die Punkte sind eine Einschätzung auf Basis der Reisepläne, keine Messung.",
+  reisenIntro: "Alle Reisen dauern 33 bis 36 Nächte und sind für die Familie mit Sohn (12) und Tochter (14) geplant. Die beiden Reisen mit dem eigenen Auto ohne Flug und Jetlag können bis Sa, 24.07.2027 dauern, die anderen enden am Do, 22.07.2027. Ein Klick führt zum vollständigen Fahrplan mit Stationen, Karte und Budget.",
+  bewertungIntro: "Bewertet werden Natur, Dschungelfeeling, Wüstenfeeling, Strand und Baden, Schnorcheln, Abenteuer, Städte, Gesundheit und Sicherheit, Budget, Reisekomfort sowie CO₂ und Umwelt. Fünf Punkte sind die beste Bewertung (beim Budget heisst das: günstig, beim CO₂: wenig Ausstoss). Die Skala ist fest und nicht nur ein Vergleich der Reisen: 5 heisst Weltklasse (z.B. tropische Riffe beim Schnorcheln, kurze Etappen beim Reisekomfort), 0 heisst, dass es das auf der Reise nicht gibt. Die Punkte sind eine Einschätzung auf Basis der Reisepläne, keine Messung.",
   budgetIntro: "Mittelklasse inklusive Flüge bzw. Autokosten, Transport, Unterkunft, Verpflegung und Aktivitäten für 4 Personen. Der dunkle Punkt ist der Planwert, der helle Balken die Spanne.",
   vergleichIntro: "Die wichtigsten Unterschiede nebeneinander.",
   entscheidIntro: "Welche Reise passt, hängt davon ab, ob Strand und Schnorcheln, Städte und Kultur ohne Flug oder Nationalparks und Roadtrip im Vordergrund stehen.",
@@ -17,91 +17,61 @@ window.START = {
       name: "Spanien / Portugal",
       zusatz: "Roadtrip ab Brig-Glis",
       passt: "ihr ohne Flug und Jetlag reisen, Städte, Kultur und Schnorcheln im Mittelmeer verbinden möchtet und viele Stunden am Steuer in Kauf nehmt.",
-      kurz: "Fünf Wochen mit dem eigenen Elektroauto im Wechsel von Städten, Strand und Natur: Barcelona, Valencia, Ibiza und Formentera, Andalusien, die Algarve, Lissabon, Porto und der Norden Spaniens.",
-      route: "Brig-Glis, Sète, Barcelona, Valencia, Ibiza, Formentera, Benidorm, Granada, Cabo de Gata, Caminito del Rey, Sevilla, Algarve (Lagos), Lissabon, Porto, Playa de las Catedrales, Bilbao, Bardenas Reales, Montpellier, Brig-Glis",
-      stationen: "14 Stationen und 3 Zwischenübernachtungen",
+      kurz: "Fünf Wochen mit dem eigenen Elektroauto im Wechsel von Städten, Strand und Natur: Schnorcheln bei den Medes-Inseln, Barcelona, Valencia, Ibiza und Formentera, Andalusien, die Algarve, Lissabon, Porto und der Norden Spaniens.",
+      route: "Brig-Glis, Sète, Costa Brava (L’Estartit), Barcelona, Valencia, Ibiza, Formentera, Benidorm, Granada, Cabo de Gata, Caminito del Rey, Sevilla, Algarve (Lagos), Lissabon, Porto, Playa de las Catedrales, Bilbao, Bardenas Reales, Montpellier, Brig-Glis",
+      stationen: "15 Stationen und 3 Zwischenübernachtungen",
       laender: "Frankreich, Spanien, Portugal",
-      hinflug: "Kein Flug: mit dem eigenen Auto ab Brig-Glis, Zwischenstopp am Meer in Sète (ca. 7–7,5 Std.), dann nach Barcelona (ca. 3–3,5 Std.)",
+      hinflug: "Kein Flug: mit dem eigenen Auto ab Brig-Glis, Zwischenstopp am Meer in Sète (ca. 7–7,5 Std.), dann an die Costa Brava (ca. 2,5–3 Std.)",
       rueckflug: "Mit dem Auto in zwei Tagen über Montpellier (ca. 7–7,5 und 6,5–7 Std.), Ankunft Sa, 24.07.2027",
       dazwischen: "Keine Flüge: eigenes Elektroauto, dazu drei Autofähren (Dénia–Ibiza, Ibiza–Formentera, Formentera–Dénia)",
-      tempo: "Ca. 68 Std. reine Reisezeit (ca. 61 Std. Elektroauto für ca. 5’950 km und ca. 6–7 Std. Fähre), realistisch mit Pausen, Ladestopps, Check-in und Stau ca. 82–85 Std.; 3 lange Fahrtage mit 6,5–8 Std. plus Ladestopps (Brig-Glis–Sète, Bardenas–Montpellier, Montpellier–Brig-Glis), dazu Benidorm–Granada (ca. 4–4,5 Std.) und Formentera–Benidorm (Fähre und Auto); sonst meist 2–3,5 Std.",
-      gesamt: "Ca. 82–85 Std. Tür zu Tür, ohne Flughafen und ohne Jetlag: davon realistisch ca. 73–75 Std. im Elektroauto inklusive ca. 11–13 Ladestopps an Superchargern (ca. 61 Std. reine Fahrzeit) und ca. 9–10 Std. für die Fähren inklusive Check-in.",
+      tempo: "Ca. 69 Std. reine Reisezeit (ca. 62 Std. Elektroauto für ca. 6’000 km und ca. 6–7 Std. Fähre), realistisch mit Pausen, Ladestopps, Check-in und Stau ca. 83–86 Std.; 3 lange Fahrtage mit 6,5–8 Std. plus Ladestopps (Brig-Glis–Sète, Bardenas–Montpellier, Montpellier–Brig-Glis), dazu Benidorm–Granada (ca. 4–4,5 Std.) und Formentera–Benidorm (Fähre und Auto); sonst meist 2–3,5 Std.",
+      gesamt: "Ca. 83–86 Std. Tür zu Tür, ohne Flughafen und ohne Jetlag: davon realistisch ca. 74–76 Std. im Elektroauto inklusive ca. 11–13 Ladestopps an Superchargern (ca. 62 Std. reine Fahrzeit) und ca. 9–10 Std. für die Fähren inklusive Check-in.",
       wetter: "Heiss und trocken: in Andalusien und den Bardenas oft 35–42 °C, an den Küsten 28–32 °C; Portugal und der Norden angenehmer, Mittelmeer ca. 23–26 °C.",
       einreise: "Schengen: Identitätskarte genügt, keine Formulare. Crit’Air-Vignette für Frankreich, Registrierung für die Umweltzone Barcelona, elektronische Maut in Portugal.",
-      hoehepunkte: "Sagrada Família, Oceanogràfic in Valencia, Schnorcheln an den Buchten von Ibiza und Formentera, Terra Mítica und Aqualandia in Benidorm, Alhambra und Gorafe, Cabo de Gata, Caminito del Rey, Sevilla, Kajak durch die Grotten der Algarve, Lissabon, Porto, Playa de las Catedrales, Bardenas Reales.",
+      hoehepunkte: "Schnorcheln bei den Medes-Inseln, Sagrada Família, Oceanogràfic in Valencia, Schnorcheln an den Buchten von Ibiza und Formentera, Terra Mítica und Aqualandia in Benidorm, Alhambra und Gorafe, Cabo de Gata, Caminito del Rey, Sevilla, Kajak durch die Grotten der Algarve, Lissabon, Porto, Playa de las Catedrales, Bardenas Reales.",
       teens: "Freizeit- und Wasserparks (Terra Mítica, Aqualandia), Schnorcheln und Kajak, Grotten der Algarve, Caminito del Rey, Game-of-Thrones-Drehorte, Höhlen und Felsbögen bei Ebbe, Surfen in Galicien.",
       pro: [
-        "Kein Flug und kein Jetlag, Tür zu Tür wenig Reisezeit (ca. 82–85 Std.); zwei Tage länger möglich",
-        "Abwechslung: sieben Nächte Schnorcheln auf Ibiza und Formentera, danach Städte, Strand und Natur im Wechsel (Granada, Cabo de Gata, Caminito, Sevilla, Algarve)",
+        "Kein Flug und kein Jetlag, Tür zu Tür wenig Reisezeit (ca. 83–86 Std.); zwei Tage länger möglich",
+        "Schnorcheln bewusst eingeplant: Meeresschutzgebiet der Medes-Inseln, sieben Nächte auf Ibiza und Formentera, Cabo de Gata und Tabarca; dazwischen Städte, Strand und Natur im Wechsel",
         "Städte und Kultur: Barcelona, Valencia, Granada mit der Alhambra, Sevilla, Lissabon und Porto",
         "Unkompliziert und sicher: Europa, keine Impfungen, eigenes Auto mit viel Platz fürs Gepäck",
         "Wenig CO₂ und günstig (Laden an Superchargern gratis)"
       ],
       contra: [
-        "Ca. 73–75 Std. im Auto inklusive Ladestopps, am ersten und letzten Tag je ca. 8–9 Std.",
+        "Ca. 74–76 Std. im Auto inklusive Ladestopps, am ersten und letzten Tag je ca. 8–9 Std.",
         "Grosse Hitze in Andalusien und den Bardenas (oft 35–42 °C)",
         "Hochsaison: Strände voll; Fähren, Zufahrt fürs Auto auf Ibiza und Formentera, Unterkünfte und Alhambra früh buchen",
         "Keine Korallenriffe und kein Dschungel; der Atlantik in Galicien ist kühl"
-      ]
-    },
-    balkan: {
-      name: "Adria-Rundreise",
-      zusatz: "Roadtrip ab Brig-Glis",
-      passt: "ihr ohne Flug reisen, viele Länder mit Altstädten, Strand und Natur verbinden möchtet und Grenzen, Hitze und einfache Strassen in Albanien in Kauf nehmt.",
-      kurz: "Fünf Wochen mit dem eigenen Elektroauto rund um die Adria: Ljubljana und Bled, Plitvicer Seen, Dalmatien, Montenegro, Tirana, Berat und die albanische Riviera, Meteora und Lefkada, mit der Nachtfähre nach Apulien und über den Gargano nach Bologna.",
-      route: "Brig-Glis, Gardasee, Ljubljana und Bled, Plitvicer Seen, Split, Hvar, Dubrovnik, Kotor, Tirana, Berat, Himarë, Ksamil, Meteora, Lefkada, Igoumenitsa, Bari, Polignano a Mare, Vieste, Bologna, Brig-Glis",
-      stationen: "15 Stationen, 1 Zwischenübernachtung und 1 Nacht auf der Fähre",
-      laender: "Italien, Slowenien, Kroatien, Montenegro, Albanien, Griechenland",
-      hinflug: "Kein Flug: mit dem eigenen Auto über den Simplon, Zwischenstopp am Gardasee (ca. 3,5–4 Std.), dann nach Ljubljana (ca. 3,5–4 Std.)",
-      rueckflug: "Mit dem Auto ab Bologna über den Simplon (ca. 4,25–4,75 Std.), Ankunft Sa, 24.07.2027",
-      dazwischen: "Keine Flüge: eigenes Elektroauto, dazu zwei kurze Autofähren in Kroatien und die Nachtfähre Igoumenitsa–Bari",
-      tempo: "Ca. 67 Std. reine Reisezeit (ca. 53 Std. Elektroauto für ca. 3’900 km und ca. 13–14 Std. Fähre), realistisch mit Pausen, Ladestopps, drei Grenzen und Check-in ca. 83–89 Std.; längste Fahrtage Gargano–Bologna (ca. 5,5–6 Std.), Bologna–Brig-Glis (ca. 4,25–4,75 Std.), Hvar–Dubrovnik (ca. 4–5 Std. mit Fähre), Ksamil–Meteora (ca. 4–4,5 Std. plus Grenze) und Kotor–Tirana (ca. 3,75–4,25 Std. plus Grenze); sonst meist 1,5–3,5 Std.",
-      gesamt: "Ca. 83–89 Std. Tür zu Tür, ohne Flughafen und ohne Jetlag: davon realistisch ca. 65–70 Std. im Elektroauto inklusive Ladestopps und drei Grenzen ausserhalb des Schengen-Raums (ca. 53 Std. reine Fahrzeit) und ca. 17–19 Std. für die Fähren inklusive Check-in, davon eine Nacht in der Kabine. Uhr +1 Std. in Griechenland.",
-      wetter: "Heiss: an den Küsten 28–33 °C, im Landesinneren (Tirana, Berat, Meteora, Matera, Bologna) oft 35–40 °C; in Slowenien und bei den Plitvicer Seen angenehmer. Meer ca. 24–26 °C.",
-      einreise: "Montenegro und Albanien sind nicht im Schengen-Raum: drei Grenzen mit Passkontrolle und im Sommer Wartezeiten, Identitätskarte oder Pass genügt. Grüne Versicherungskarte für Montenegro und Albanien, E-Vignette Slowenien, elektronische Maut in Kroatien ab März 2027.",
-      hoehepunkte: "Ljubljana und Bleder See, Plitvicer Seen, Diokletianpalast in Split, Pakleni-Inseln bei Hvar, Stadtmauer von Dubrovnik, Bucht von Kotor, Tirana, Berat, Strände der albanischen Riviera und von Ksamil, Meteora, Lefkada, Trulli von Alberobello und Matera, Meeresgrotten am Gargano, Bologna.",
-      teens: "Holzstege über die Plitvicer Seen und durch die Vintgar-Klamm, Kajak um Dubrovnik, Game-of-Thrones-Drehorte, Atombunker in Tirana, Schnorcheln an der Riviera und auf Lefkada, Klöster auf Felsen, Bootstouren in Meeresgrotten.",
-      pro: [
-        "Kein Flug und kein Jetlag, Tür zu Tür ca. 83–89 Std.; meist kurze Etappen von 1,5–3,5 Std., nur eine Nachtfähre",
-        "Sechs Länder und viel Abwechslung: Städte (Ljubljana, Split, Dubrovnik, Tirana, Bologna), Nationalparks, Inselbuchten, Albanien abseits der bekannten Ziele, Klöster von Meteora und Apulien",
-        "Sehr klares Wasser zum Schnorcheln an vielen Stationen (Hvar, albanische Riviera, Ksamil, Lefkada, Gargano)",
-        "Günstig (ca. {plan:balkan} CHF), weil Albanien deutlich weniger kostet als Kroatien und Italien; wenig CO₂"
-      ],
-      contra: [
-        "Ca. 65–70 Std. im Auto inklusive Ladestopps, an fünf Tagen 4–6 Std.; schmale, kurvige Strassen und forscher Fahrstil in Albanien",
-        "Drei Grenzen ausserhalb des Schengen-Raums mit Wartezeiten im Sommer; keine Supercharger in Montenegro und Albanien",
-        "Hochsaison: Dubrovnik, Hvar, Ksamil und Apulien voll und teils teuer; im Landesinneren grosse Hitze",
-        "Keine Korallenriffe und kein Dschungel; viele Unterkunftswechsel"
       ]
     },
     marokko: {
       name: "Spanien / Portugal / Marokko",
       zusatz: "Roadtrip ab Brig-Glis, Marokko mit Fähre",
       passt: "ihr ohne Flug reisen, Städte in Spanien und Portugal mit einer Woche Marokko (Medina, Atlas, Wüste) verbinden möchtet und grosse Hitze, viele Reisetage und mehrere Wechsel zwischen Auto, Fähre und Zug in Kauf nehmt.",
-      kurz: "Fünf Wochen mit dem eigenen Elektroauto durch Spanien, Portugal und Südfrankreich, dazu rund sechs Tage Marokko mit Fähre, Zug und Mietwagen: Marrakesch, Hoher Atlas, Wüste bei Merzouga und Fès.",
-      route: "Brig-Glis, Sète, Barcelona, Valencia, Cabo de Gata, Tarifa, (Fähre) Tanger, Marrakesch, Dadès-Schlucht, Merzouga, Fès, Cádiz, Sevilla, Algarve (Lagos), Lissabon, Madrid, Bardenas Reales, San Sebastián, Carcassonne, Avignon, Brig-Glis",
+      kurz: "Fünf Wochen mit dem eigenen Elektroauto durch Spanien, Portugal und Südfrankreich mit Schnorcheln bei den Medes-Inseln und am Cabo de Gata, dazu rund sechs Tage Marokko mit Fähre, Zug und Mietwagen: Marrakesch, Hoher Atlas, Wüste bei Merzouga und Fès.",
+      route: "Brig-Glis, Sète, Costa Brava (L’Estartit), Barcelona, Valencia, Cabo de Palos, Cabo de Gata, Tarifa, (Fähre) Tanger, Marrakesch, Dadès-Schlucht, Merzouga, Fès, Cádiz, Sevilla, Algarve (Lagos), Lissabon, Salamanca, San Sebastián, Carcassonne, Avignon, Brig-Glis",
       stationen: "17 Stationen und 1 Zwischenübernachtung",
       laender: "Frankreich, Spanien, Marokko, Portugal",
-      hinflug: "Kein Flug: mit dem eigenen Auto ab Brig-Glis, Zwischenstopp in Sète (ca. 7–7,5 Std.), dann nach Barcelona (ca. 3–3,5 Std.)",
+      hinflug: "Kein Flug: mit dem eigenen Auto ab Brig-Glis, Zwischenstopp in Sète (ca. 7–7,5 Std.), dann an die Costa Brava (ca. 2,5–3 Std.)",
       rueckflug: "Mit dem Auto ab Avignon über Lyon und Genf (ca. 5,5–6 Std.), Ankunft Sa, 24.07.2027",
       dazwischen: "Keine Flüge: eigenes Elektroauto; nach Marokko mit der Fähre ohne Auto (Tarifa–Tanger), dort Zug und Mietwagen (Einwegmiete Marrakesch–Fès)",
-      tempo: "Ca. 72 Std. reine Fahrzeit (ca. 5’300 km eigenes Auto, ca. 1’000 km Mietwagen), dazu Fähren und Züge in Marokko (ca. 11–13 Std.); realistisch ca. 100–105 Std. Tür zu Tür; die längsten Tage: Brig-Glis–Sète (ca. 7–7,5 Std.), Merzouga–Fès (ca. 7 Std.), Fès–Cádiz und Tarifa–Marrakesch (Fähre und Zug, je ca. 7–9 Std.), Lissabon–Madrid (ca. 6–6,5 Std.)",
-      gesamt: "Ca. 100–105 Std. Tür zu Tür, ohne Flughafen und ohne Jetlag: davon realistisch ca. 84–88 Std. im Auto inklusive Ladestopps (ca. 72 Std. reine Fahrzeit) und ca. 16–18 Std. für Fähren und Züge in Marokko mit Passkontrolle und Umsteigen.",
-      wetter: "Sehr heiss: Marrakesch und Fès oft 38–42 °C, die Wüste bei Merzouga 42–45 °C, Andalusien und Madrid 35–40 °C; Lissabon, San Sebastián und die Küsten angenehmer.",
-      einreise: "Schengen bis auf Marokko: dort Reisepass für alle (Identitätskarte genügt nicht), kein Visum. Internationaler Führerausweis für den Mietwagen, Crit’Air-Vignette für Frankreich, Umweltzonen Barcelona und Madrid, elektronische Maut in Portugal.",
-      hoehepunkte: "Sagrada Família, Oceanogràfic, Cabo de Gata, Jemaa el-Fna in Marrakesch, Pass über den Hohen Atlas, Aït Ben Haddou, Kamelritt und Nacht im Wüstencamp, Medina von Fès, Cádiz, Sevilla, Grotten der Algarve, Lissabon, Madrid, San Sebastián, Carcassonne.",
-      teens: "Kamelritt und Sandboarding in der Wüste, Souks und Gaukler in Marrakesch, Game-of-Thrones-Drehorte, Kajak an der Algarve, Surfen in San Sebastián, Bernabéu oder Parque Warner in Madrid, Ritterburg Carcassonne.",
+      tempo: "Ca. 71 Std. reine Fahrzeit (ca. 5’200 km eigenes Auto, ca. 1’000 km Mietwagen), dazu Fähren und Züge in Marokko (ca. 11–13 Std.); realistisch ca. 98–103 Std. Tür zu Tür; die längsten Tage: Brig-Glis–Sète (ca. 7–7,5 Std.), Merzouga–Fès (ca. 7 Std.), Fès–Cádiz und Tarifa–Marrakesch (Fähre und Zug, je ca. 7–9 Std.), Lissabon–Salamanca und Salamanca–San Sebastián (je ca. 4,5–5 Std.)",
+      gesamt: "Ca. 98–103 Std. Tür zu Tür, ohne Flughafen und ohne Jetlag: davon realistisch ca. 82–86 Std. im Auto inklusive Ladestopps (ca. 71 Std. reine Fahrzeit) und ca. 16–18 Std. für Fähren und Züge in Marokko mit Passkontrolle und Umsteigen.",
+      wetter: "Sehr heiss: Marrakesch und Fès oft 38–42 °C, die Wüste bei Merzouga 42–45 °C, Andalusien 35–40 °C; Lissabon, San Sebastián und die Küsten angenehmer.",
+      einreise: "Schengen bis auf Marokko: dort Reisepass für alle (Identitätskarte genügt nicht), kein Visum. Internationaler Führerausweis für den Mietwagen, Crit’Air-Vignette für Frankreich, Umweltzone Barcelona, elektronische Maut in Portugal.",
+      hoehepunkte: "Schnorcheln bei den Medes-Inseln und am Cabo de Gata, Sagrada Família, Oceanogràfic, Jemaa el-Fna in Marrakesch, Pass über den Hohen Atlas, Aït Ben Haddou, Kamelritt und Nacht im Wüstencamp, Medina von Fès, Cádiz, Sevilla, Grotten der Algarve, Lissabon, Salamanca, San Sebastián, Carcassonne.",
+      teens: "Kamelritt und Sandboarding in der Wüste, Souks und Gaukler in Marrakesch, Game-of-Thrones-Drehorte, Kajak an der Algarve, Surfen in San Sebastián, Ritterburg Carcassonne.",
       pro: [
         "Kein Flug und kein Jetlag, und trotzdem eine Woche Afrika: Marrakesch, Atlas, Wüste und Fès",
-        "Viele Städte: Barcelona, Valencia, Marrakesch, Fès, Sevilla, Lissabon, Madrid, San Sebastián",
+        "Viele Städte: Barcelona, Valencia, Marrakesch, Fès, Sevilla, Lissabon, Salamanca, San Sebastián",
         "Grosse Abwechslung zwischen Mittelmeer, Wüste, Atlantik, Baskenland und Südfrankreich",
         "Günstig (ca. {plan:marokko} CHF) und wenig CO₂; Laden an Superchargern gratis"
       ],
       contra: [
-        "Grosse Hitze im Juli: in der Wüste bei Merzouga 42–45 °C, einige Camps schliessen im Sommer; auch Marrakesch, Fès und Madrid sehr heiss",
-        "Tür zu Tür ca. 100–105 Std., viele Wechsel zwischen eigenem Auto, Fähre, Zug und Mietwagen; einige lange Tage mit 7–9 Std.",
+        "Grosse Hitze im Juli: in der Wüste bei Merzouga 42–45 °C, einige Camps schliessen im Sommer; auch Marrakesch und Fès sehr heiss",
+        "Tür zu Tür ca. 98–103 Std., viele Wechsel zwischen eigenem Auto, Fähre, Zug und Mietwagen; einige lange Tage mit 7–9 Std.",
         "Für Marokko Reisepass für alle, keine Krankenversicherungskarte, kein Leitungswasser; aufdringliche Händler in den Medinas",
-        "Wenige Badetage im warmen Mittelmeer, kaum Schnorcheln"
+        "Weniger Badetage im warmen Mittelmeer als bei Spanien / Portugal"
       ]
     },
     usa: {
@@ -200,13 +170,9 @@ window.START = {
         4,
         "Abwechslungsreich: Felsküste und Grotten der Algarve, Buchten von Ibiza und Formentera, Vulkanküste am Cabo de Gata, Schlucht des Caminito del Rey, Halbwüsten Bardenas Reales und Gorafe, Felsbögen der Playa de las Catedrales; keine grossen Nationalparks wie in den USA."
       ],
-      balkan: [
-        4,
-        "Bleder See, Plitvicer Seen, Pakleni-Inseln, Bucht von Kotor, Steilküste der albanischen Riviera, Quelle Syri i Kaltër, Felstürme von Meteora, Klippen von Lefkada und des Gargano; keine grossen Nationalparks wie in den USA."
-      ],
       marokko: [
         4,
-        "Vulkanküste am Cabo de Gata, Hoher Atlas, Dadès- und Todra-Schlucht, Sanddünen des Erg Chebbi, Felsküste der Algarve, Halbwüste Bardenas Reales; keine grossen Nationalparks wie in den USA."
+        "Vulkanküste am Cabo de Gata, Hoher Atlas, Dadès- und Todra-Schlucht, Sanddünen des Erg Chebbi, Felsküste der Algarve, Baskenküste; keine grossen Nationalparks wie in den USA."
       ],
       usa: [
         5,
@@ -224,7 +190,6 @@ window.START = {
     {
       kriterium: "Dschungelfeeling",
       spanien: [0, "Kein Regenwald: Halbwüsten, Küsten, Pinienwälder und im Norden grüne Hügel."],
-      balkan: [0, "Kein Regenwald: Buchenwälder bei Plitvice und am Gargano, Macchia, Pinien und Olivenhaine."],
       marokko: [0, "Kein Regenwald: Wüste, Oasen mit Palmen, Zedernwälder im Mittleren Atlas und grüne Hügel im Baskenland."],
       usa: [0, "Kein Dschungel: Wüsten, Canyons, Seen und im Osten Laubwälder."],
       usa2: [1, "Mangroven und Sümpfe in den Everglades und in Louisiana, aber kein Regenwald."],
@@ -234,14 +199,30 @@ window.START = {
       ]
     },
     {
+      kriterium: "Wüstenfeeling",
+      spanien: [
+        2,
+        "Halbwüsten statt Sanddünen: Bardenas Reales, die Badlands von Gorafe und die Wüste von Tabernas beim Cabo de Gata."
+      ],
+      marokko: [
+        5,
+        "Das stärkste Wüstenerlebnis im Vergleich: Kamelritt und Nacht im Zeltcamp in den Sanddünen des Erg Chebbi am Rand der Sahara, dazu Steinwüsten, Oasen und Kasbahs; nur eine Nacht und im Juli sehr heiss."
+      ],
+      usa: [
+        4,
+        "Mojave-Wüste um Las Vegas, rote Felswüsten in Utah und Arizona, Monument Valley und die weissen Gipsdünen von White Sands."
+      ],
+      usa2: [
+        4,
+        "Mojave-Wüste um Las Vegas, Monument Valley, die Gipsdünen von White Sands und die Chihuahua-Wüste in New Mexico und Westtexas."
+      ],
+      asien: [0, "Keine Wüste: tropische Inseln, Regenwald und Städte."]
+    },
+    {
       kriterium: "Strand und Baden",
       spanien: [
         4,
         "Viele Strandtage auf Ibiza, Formentera, in Benidorm, am Cabo de Gata und an der Algarve, Mittelmeer ca. 23–26 °C; im Juli aber voll, und kein tropisch warmes Wasser."
-      ],
-      balkan: [
-        4,
-        "Strandtage auf Hvar, an der albanischen Riviera, in Ksamil, auf Lefkada und am Gargano, Meer ca. 24–26 °C; im Juli voll, oft Kiesstrände, kein tropisch warmes Wasser."
       ],
       marokko: [
         3,
@@ -252,8 +233,8 @@ window.START = {
         "Kaum Meer auf der Route; Baden höchstens im Lake Powell, in Hotelpools oder am Lake Michigan in Chicago."
       ],
       usa2: [
-        4,
-        "Weisse Strände bei Destin, die Florida Keys, Miami Beach und der Atlantik bei St. Augustine mit ca. 28–30 °C warmem Wasser; Gewitter am Nachmittag und Strömung bei roter Flagge."
+        3,
+        "Weisse Strände bei Destin, die Florida Keys, Miami Beach und der Atlantik bei St. Augustine mit ca. 28–30 °C warmem Wasser; aber nur rund 7 von 34 Nächten am Meer, Gewitter am Nachmittag und Strömung bei roter Flagge."
       ],
       asien: [
         5,
@@ -263,14 +244,13 @@ window.START = {
     {
       kriterium: "Schnorcheln",
       spanien: [
-        3,
-        "Sieben Nächte auf Ibiza und Formentera an guten Schnorchelplätzen (Cala Xarraca, Punta de sa Galera, Cala Saona, Es Caló): sehr klares Wasser über Seegraswiesen mit vielen Fischen, dazu Cabo de Gata; aber keine Korallen und kühleres Wasser."
+        4,
+        "Schnorcheln an vier Orten mit besonders klarem Wasser: im Meeresschutzgebiet der Medes-Inseln (grosse Fische, geführte Bootstour), sieben Nächte auf Ibiza und Formentera (Cala Xarraca, Punta de sa Galera, Cala Saona, Es Caló) und am Cabo de Gata (Los Escullos, Cala de San Pedro), dazu Tabarca; wenige Korallen (z.B. Gorgonien bei den Medes-Inseln), keine Riffe und kühleres Wasser als in den Tropen."
       ],
-      balkan: [
+      marokko: [
         3,
-        "Sehr klares Wasser über Fels und Seegras an den Pakleni-Inseln, bei Himarë und Ksamil, auf Lefkada und am Gargano, an vielen Stationen; aber keine Korallen."
+        "Schnorcheln im Meeresschutzgebiet der Medes-Inseln, bei Cabo de Palos (Islas Hormigas) und am Cabo de Gata (Los Escullos, Cala de San Pedro): klares Wasser über Felsen und Seegras; wenige Korallen und keine Inseltage wie auf Ibiza."
       ],
-      marokko: [2, "Schnorcheln vor allem am Cabo de Gata (klares Wasser, Felsen, Seegras), an der Algarve wenig; keine Inseln und keine Korallen."],
       usa: [0, "Kein Schnorcheln im Meer; höchstens Baden im Lake Powell oder in den Narrows."],
       usa2: [
         3,
@@ -286,10 +266,6 @@ window.START = {
       spanien: [
         3,
         "Caminito del Rey, Kajak durch die Grotten der Algarve, Achterbahnen in Terra Mítica, Schnorcheln, Pisten durch die Bardenas und Gorafe; eher Entdecken als Wildnis."
-      ],
-      balkan: [
-        3,
-        "Holzstege über die Plitvicer Seen und durch die Vintgar-Klamm, Kajak um Dubrovnik, Aufstieg zur Festung von Kotor, Pässe und Küstenstrassen in Albanien, Klöster von Meteora, Meeresgrotten am Gargano; eher Entdecken als Wildnis."
       ],
       marokko: [
         4,
@@ -308,13 +284,9 @@ window.START = {
         5,
         "Barcelona, Valencia, Granada, Sevilla, Lissabon und Porto mit Alhambra, Sagrada Família und viel Kultur."
       ],
-      balkan: [
-        4,
-        "Ljubljana, Split, Dubrovnik, Kotor, Tirana, Berat, Matera und Bologna: Hauptstädte und Altstädte, viele davon Unesco-Welterbe, aber keine Weltstädte wie Barcelona oder Lissabon."
-      ],
       marokko: [
         5,
-        "Barcelona, Valencia, Marrakesch, Fès, Cádiz, Sevilla, Lissabon, Madrid, San Sebastián und Avignon: europäische und marokkanische Städte im Wechsel."
+        "Barcelona, Valencia, Marrakesch, Fès, Cádiz, Sevilla, Lissabon, Salamanca, San Sebastián und Avignon: europäische und marokkanische Städte im Wechsel."
       ],
       usa: [5, "Las Vegas, Chicago, Washington, Philadelphia und New York mit Museen und Aussichtsplattformen."],
       usa2: [
@@ -329,13 +301,9 @@ window.START = {
         5,
         "Europa: Krankenversicherungskarte gilt, Leitungswasser trinkbar, gute Spitäler, keine Impfungen nötig; Vorsicht bei Hitze, Taschendieben und auf langen Autofahrten."
       ],
-      balkan: [
-        4,
-        "In der EU gilt die Krankenversicherungskarte, in Montenegro und Albanien nicht (Reiseversicherung nötig); einfachere Spitäler und kein trinkbares Leitungswasser in Albanien, forscher Fahrstil und Hitze; keine Impfungen nötig."
-      ],
       marokko: [
-        3,
-        "Spanien, Portugal und Frankreich unkompliziert; in Marokko keine Krankenversicherungskarte, kein Leitungswasser und auf Hygiene beim Essen achten, vor allem aber extreme Hitze in der Wüste (42–45 °C) und in Marrakesch."
+        4,
+        "Fünf von sechs Wochen in Spanien, Portugal und Frankreich, dort unkompliziert. In Marokko (6 Nächte) keine Krankenversicherungskarte, kein Leitungswasser und auf Hygiene beim Essen achten; das grösste Risiko ist die extreme Hitze in der Wüste (42–45 °C) und in Marrakesch."
       ],
       usa: [
         4,
@@ -356,10 +324,6 @@ window.START = {
         4,
         "ca. {plan:spanien} CHF: kein Flug, Laden an Tesla-Superchargern gratis; dafür Maut, Fähren und teure Unterkünfte in der Hochsaison."
       ],
-      balkan: [
-        4,
-        "ca. {plan:balkan} CHF: kein Flug, Laden an Superchargern gratis, Albanien günstig; dafür teure Unterkünfte in Dubrovnik, auf Hvar und in Apulien im Juli."
-      ],
       marokko: [4, "ca. {plan:marokko} CHF: kein Flug, Supercharging gratis, Marokko günstig; dafür Fähren, Züge und Mietwagen in Marokko sowie Parkplatz in Tarifa."],
       usa: [1, "ca. {plan:usa} CHF: rund {mehrkosten} CHF mehr, vor allem Unterkünfte und Mietwagen."],
       usa2: [1, "ca. {plan:usa2} CHF: Einwegmiete Las Vegas–Washington mit Rückgabegebühr, Unterkünfte in New York, Key West und den Nationalparks."],
@@ -369,15 +333,11 @@ window.START = {
       kriterium: "Reisekomfort",
       spanien: [
         3,
-        "Tür zu Tür wenig Reisezeit (ca. 82–85 Stunden), kein Flughafen, kein Jetlag, eigenes Auto mit viel Platz fürs Gepäck, die meisten Etappen 2–3,5 Stunden; dafür ca. 73–75 Stunden im Auto inklusive Ladestopps, am ersten und letzten Tag je ca. 8–9 Stunden. Die Fähren sind kurz (zusammen ca. 6–7 Stunden)."
-      ],
-      balkan: [
-        3,
-        "Ca. 83–89 Stunden Tür zu Tür, kein Flughafen, kein Jetlag, eigenes Auto mit viel Platz fürs Gepäck, die meisten Etappen 1,5–3,5 Stunden; dafür ca. 65–70 Stunden im Auto mit drei Grenzen und langsamen Strassen in Albanien, viele Unterkunftswechsel und eine Nachtfähre."
+        "Tür zu Tür wenig Reisezeit (ca. 83–86 Stunden), kein Flughafen, kein Jetlag, eigenes Auto mit viel Platz fürs Gepäck, die meisten Etappen 2–3,5 Stunden; dafür ca. 74–76 Stunden im Auto inklusive Ladestopps, am ersten und letzten Tag je ca. 8–9 Stunden. Die Fähren sind kurz (zusammen ca. 6–7 Stunden)."
       ],
       marokko: [
         2,
-        "Ca. 100–105 Stunden Tür zu Tür, kein Jetlag; aber viele Wechsel zwischen eigenem Auto, Fähre, Zug und Mietwagen, Passkontrollen und mehrere lange Tage mit 7–9 Stunden."
+        "Ca. 98–103 Stunden Tür zu Tür, kein Jetlag; aber viele Wechsel zwischen eigenem Auto, Fähre, Zug und Mietwagen, Passkontrollen und mehrere lange Tage mit 7–9 Stunden."
       ],
       usa: [
         2,
@@ -397,10 +357,6 @@ window.START = {
       spanien: [
         5,
         "Kein Flug: Elektroauto (ca. 1’200 kWh, Strom in Frankreich ca. 30 g, in Spanien und Portugal ca. 120–130 g CO₂ pro kWh) und drei kurze Fähren; grob geschätzt ca. 0,1–0,2 t CO₂ pro Person."
-      ],
-      balkan: [
-        5,
-        "Kein Flug: Elektroauto (ca. 700 kWh, Strom in Albanien fast nur aus Wasserkraft, in Italien und Griechenland mehr fossil) und eine Nachtfähre; grob geschätzt ca. 0,1–0,2 t CO₂ pro Person."
       ],
       marokko: [
         5,

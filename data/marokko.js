@@ -5,7 +5,7 @@ window.REISEN = window.REISEN || {};
 REISEN.marokko = {
   titel: "Mit dem Auto nach Spanien, Portugal und Marokko",
   menu: "Spanien / Marokko",
-  untertitel: "Fünf Wochen ab Brig-Glis: Barcelona, Valencia, Cabo de Gata, mit der Fähre nach Marokko zu Marrakesch, Atlas, Wüste und Fès, dann Cádiz, Sevilla, Algarve, Lissabon und über Madrid, San Sebastián und Südfrankreich zurück.",
+  untertitel: "Fünf Wochen ab Brig-Glis: Schnorcheln bei den Medes-Inseln, Barcelona, Valencia, Cabo de Gata, mit der Fähre nach Marokko zu Marrakesch, Atlas, Wüste und Fès, dann Cádiz, Sevilla, Algarve, Lissabon und über Salamanca, San Sebastián und Südfrankreich zurück.",
   zeitraum: "Fr, 18.06.2027 bis Sa, 24.07.2027, 2 Erwachsene und 2 Kids",
   titelbild: {
     suche: "Erg Chebbi dunes camel caravan|Sahara Merzouga dunes",
@@ -25,70 +25,70 @@ REISEN.marokko = {
       naechte: 1,
       info: "Brig-Glis – Genf – Lyon – Montpellier – Sète (ca. 7–7,5 Std., ca. 630 km)"
     },
-    {datum: "19.–21. Juni", name: "1. Barcelona", naechte: 2, info: "Auto über Perpignan (ca. 3–3,5 Std., ca. 330 km)"},
-    {datum: "21.–23. Juni", name: "2. Valencia", naechte: 2, info: "Auto auf der AP-7 (ca. 3,5 Std., ca. 350 km)"},
     {
-      datum: "23.–26. Juni",
-      name: "3. Cabo de Gata",
+      datum: "19.–21. Juni",
+      name: "1. Costa Brava (L’Estartit)",
+      naechte: 2,
+      info: "Auto über Perpignan und Figueres (ca. 2,5–3 Std., ca. 260 km)"
+    },
+    {datum: "21.–23. Juni", name: "2. Barcelona", naechte: 2, info: "Auto über Girona (ca. 1,75–2 Std., ca. 140 km)"},
+    {datum: "23.–25. Juni", name: "3. Valencia", naechte: 2, info: "Auto auf der AP-7 (ca. 3,5 Std., ca. 350 km)"},
+    {
+      datum: "25.–28. Juni",
+      name: "4. Cabo de Gata",
       naechte: 3,
-      info: "Auto über Murcia und Almería (ca. 4,5–5 Std., ca. 470 km)"
+      info: "Auto über Murcia und Almería (ca. 4,5–5 Std., ca. 470 km), Halt in Cabo de Palos zum Schnorcheln"
     },
     {
-      datum: "26.–27. Juni",
-      name: "4. Tarifa",
+      datum: "28.–29. Juni",
+      name: "5. Tarifa",
       naechte: 1,
       info: "Auto über Almería und Málaga (ca. 4–4,5 Std., ca. 380 km)"
     },
     {
-      datum: "27.–29. Juni",
-      name: "5. Marrakesch",
+      datum: "29. Juni–1. Juli",
+      name: "6. Marrakesch",
       naechte: 2,
       info: "Fähre nach Tanger (ca. 1 Std., Uhr −1 Std.), Zug über Casablanca (ca. 5,5–6,5 Std.)"
     },
     {
-      datum: "29.–30. Juni",
-      name: "6. Dadès-Schlucht",
+      datum: "1.–2. Juli",
+      name: "7. Dadès-Schlucht",
       naechte: 1,
       info: "Mietwagen über den Tizi n’Tichka und Aït Ben Haddou (ca. 5–6 Std., ca. 310 km)"
     },
     {
-      datum: "30. Juni–1. Juli",
-      name: "7. Merzouga (Wüste)",
+      datum: "2.–3. Juli",
+      name: "8. Merzouga (Wüste)",
       naechte: 1,
       info: "Mietwagen über Tinghir (ca. 4 Std., ca. 250 km)"
     },
-    {datum: "1.–3. Juli", name: "8. Fès", naechte: 2, info: "Mietwagen über Midelt und Ifrane (ca. 7 Std., ca. 460 km)"},
+    {datum: "3.–5. Juli", name: "9. Fès", naechte: 2, info: "Mietwagen über Midelt und Ifrane (ca. 7 Std., ca. 460 km)"},
     {
-      datum: "3.–5. Juli",
-      name: "9. Cádiz",
+      datum: "5.–7. Juli",
+      name: "10. Cádiz",
       naechte: 2,
       info: "Zug nach Tanger (ca. 3,5–4,5 Std.), Fähre nach Tarifa (ca. 1 Std., Uhr +1 Std.), Auto (ca. 1,25 Std.)"
     },
-    {datum: "5.–7. Juli", name: "10. Sevilla", naechte: 2, info: "Auto (ca. 1,25–1,5 Std., ca. 125 km)"},
+    {datum: "7.–9. Juli", name: "11. Sevilla", naechte: 2, info: "Auto (ca. 1,25–1,5 Std., ca. 125 km)"},
     {
-      datum: "7.–10. Juli",
-      name: "11. Algarve (Lagos)",
-      naechte: 3,
+      datum: "9.–13. Juli",
+      name: "12. Algarve (Lagos)",
+      naechte: 4,
       info: "Auto (ca. 2,75–3 Std., ca. 270 km), Uhr −1 Std."
     },
-    {datum: "10.–13. Juli", name: "12. Lissabon", naechte: 3, info: "Auto über die A2 (ca. 3–3,5 Std., ca. 300 km)"},
-    {
-      datum: "13.–16. Juli",
-      name: "13. Madrid",
-      naechte: 3,
-      info: "Auto über Badajoz (ca. 6–6,5 Std., ca. 625 km), Uhr +1 Std."
-    },
+    {datum: "13.–16. Juli", name: "13. Lissabon", naechte: 3, info: "Auto über die A2 (ca. 3–3,5 Std., ca. 300 km)"},
     {
       datum: "16.–17. Juli",
-      name: "14. Bardenas Reales",
+      name: "14. Salamanca",
       naechte: 1,
-      info: "Auto über Soria (ca. 3–3,5 Std., ca. 320 km)"
+      info: "Auto über Guarda (ca. 4,5–5 Std., ca. 470 km), Uhr +1 Std."
     },
     {
       datum: "17.–20. Juli",
       name: "15. San Sebastián",
       naechte: 3,
-      info: "Auto über Pamplona (ca. 2–2,25 Std., ca. 190 km)"
+      info: "Auto über Valladolid und Burgos (ca. 4,5–5 Std., ca. 470 km)"
     },
     {
       datum: "20.–22. Juli",
@@ -111,19 +111,19 @@ REISEN.marokko = {
   planHinweise: [
     [
       "Gesamt",
-      "36 Nächte, 17 Stationen und 1 Zwischenübernachtung (Sète). Keine Flüge: mit dem eigenen Elektroauto ca. 5’300 km (ca. 56 Std. reine Fahrzeit), in Marokko mit dem Mietwagen ca. 1’000 km (ca. 16–17 Std.), dazu zweimal die Fähre über die Meerenge (je ca. 1 Std.) und Züge zwischen Tanger, Marrakesch und Fès (zusammen ca. 9–11 Std.). Mit Pausen, Ladestopps, Grenz- und Passkontrollen, Umsteigen und Stau realistisch ca. 100–105 Std. von Tür zu Tür (ca. 84–88 Std. im Auto, ca. 16–18 Std. für Fähren und Züge mit Wartezeiten). Die längsten Reisetage: Brig-Glis–Sète (ca. 7–7,5 Std.), Merzouga–Fès (ca. 7 Std. im Mietwagen), Fès–Cádiz (Zug, Fähre und Auto, ca. 8–9 Std.), Tarifa–Marrakesch (Fähre und Zug, ca. 7–8 Std.), Lissabon–Madrid (ca. 6–6,5 Std.) und Avignon–Brig-Glis (ca. 5,5–6 Std.)."
+      "36 Nächte, 17 Stationen und 1 Zwischenübernachtung (Sète). Keine Flüge: mit dem eigenen Elektroauto ca. 5’200 km (ca. 55 Std. reine Fahrzeit), in Marokko mit dem Mietwagen ca. 1’000 km (ca. 16–17 Std.), dazu zweimal die Fähre über die Meerenge (je ca. 1 Std.) und Züge zwischen Tanger, Marrakesch und Fès (zusammen ca. 9–11 Std.). Mit Pausen, Ladestopps, Grenz- und Passkontrollen, Umsteigen und Stau realistisch ca. 98–103 Std. von Tür zu Tür (ca. 82–86 Std. im Auto, ca. 16–18 Std. für Fähren und Züge mit Wartezeiten). Die längsten Reisetage: Brig-Glis–Sète (ca. 7–7,5 Std.), Merzouga–Fès (ca. 7 Std. im Mietwagen), Fès–Cádiz (Zug, Fähre und Auto, ca. 8–9 Std.), Tarifa–Marrakesch (Fähre und Zug, ca. 7–8 Std.), Lissabon–Salamanca und Salamanca–San Sebastián (je ca. 4,5–5 Std.) und Avignon–Brig-Glis (ca. 5,5–6 Std.)."
     ],
     [
       "Vorab buchen",
-      "Parkplatz für das eigene Auto in Tarifa (ca. eine Woche), Fähre Tarifa–Tanger hin und zurück, Zugtickets in Marokko (ONCF), Mietwagen als Einwegmiete Marrakesch–Fès, Riads in Marrakesch und Fès, Wüstencamp in Merzouga (im Sommer geöffnet und mit Klimaanlage?), Sagrada Família, Oceanogràfic, Alcázar in Sevilla, Kajak an der Algarve, Bernabéu-Führung, Unterkünfte in San Sebastián und Avignon (Festival)."
+      "Schnorcheltour zu den Medes-Inseln, Kajak- und Schnorcheltour in Cabo de Palos, Parkplatz für das eigene Auto in Tarifa (ca. eine Woche), Fähre Tarifa–Tanger hin und zurück, Zugtickets in Marokko (ONCF), Mietwagen als Einwegmiete Marrakesch–Fès, Riads in Marrakesch und Fès, Wüstencamp in Merzouga (im Sommer geöffnet und mit Klimaanlage?), Sagrada Família, Oceanogràfic, Alcázar in Sevilla, Kajak an der Algarve, Unterkünfte in San Sebastián und Avignon (Festival)."
     ],
     [
       "Auto und Laden",
-      "Tesla mit Gratis-Supercharging in Frankreich, Spanien und Portugal; die Tesla-Navigation plant die Ladestopps. Das eigene Auto fährt nicht nach Marokko: Es bleibt in Tarifa auf einem bewachten Parkplatz. Für den Mietwagen in Marokko Schweizer Führerausweis und internationalen Führerausweis mitnehmen. Crit’Air-Vignette für Frankreich, Umweltzonen in Barcelona und Madrid prüfen bzw. registrieren, elektronische Maut in Portugal."
+      "Tesla mit Gratis-Supercharging in Frankreich, Spanien und Portugal; die Tesla-Navigation plant die Ladestopps. Das eigene Auto fährt nicht nach Marokko: Es bleibt in Tarifa auf einem bewachten Parkplatz. Für den Mietwagen in Marokko Schweizer Führerausweis und internationalen Führerausweis mitnehmen. Crit’Air-Vignette für Frankreich, Umweltzone in Barcelona registrieren, elektronische Maut in Portugal."
     ],
     [
       "Optional",
-      "Chefchaouen (blaue Stadt, eine Nacht mehr in Marokko), Volubilis und Meknès (ab Fès), Agafay-Wüste (ab Marrakesch, als Ausweichziel bei grosser Hitze), Córdoba (ab Sevilla), Sintra (ab Lissabon), Toledo oder Segovia (ab Madrid), Bilbao (ab San Sebastián), Pont du Gard (auf dem Weg nach Avignon)."
+      "Chefchaouen (blaue Stadt, eine Nacht mehr in Marokko), Volubilis und Meknès (ab Fès), Agafay-Wüste (ab Marrakesch, als Ausweichziel bei grosser Hitze), Córdoba (ab Sevilla), Sintra (ab Lissabon), Burgos (zwischen Salamanca und San Sebastián), Bilbao (ab San Sebastián), Pont du Gard (auf dem Weg nach Avignon)."
     ]
   ],
   karte: {
@@ -135,11 +135,11 @@ REISEN.marokko = {
       {titel: "Spanien, Portugal und Marokko im Detail (Stationen 1 bis 15)", datei: "karten/marokko-detail.svg"}
     ]
   },
-  abwechslungIntro: "Städte, Meer, Wüste und Berge wechseln sich ab: Barcelona und Valencia, Strand am Cabo de Gata, eine Woche Marokko mit Medina, Atlas und Sahara, danach Atlantik in Cádiz und an der Algarve, Sevilla, Lissabon, Madrid und zum Schluss das grüne Baskenland und Südfrankreich.",
+  abwechslungIntro: "Städte, Meer, Wüste und Berge wechseln sich ab: Schnorcheln bei den Medes-Inseln, Barcelona und Valencia, Schnorcheln in Cabo de Palos und am Cabo de Gata, eine Woche Marokko mit Medina, Atlas und Sahara, danach Atlantik in Cádiz und an der Algarve, Sevilla, Lissabon, Salamanca und zum Schluss das grüne Baskenland und Südfrankreich.",
   abwechslung: [
     [
       "Städte",
-      "Barcelona, Valencia, Marrakesch, Fès, Cádiz, Sevilla, Lissabon, Madrid, San Sebastián, Carcassonne und Avignon."
+      "Barcelona, Valencia, Marrakesch, Fès, Cádiz, Sevilla, Lissabon, Salamanca, San Sebastián, Carcassonne und Avignon."
     ],
     [
       "Marokko",
@@ -147,28 +147,58 @@ REISEN.marokko = {
     ],
     [
       "Strand und Meer",
-      "Cabo de Gata (Schnorcheln), Tarifa, Cádiz, die Buchten der Algarve, San Sebastián; Mittelmeer ca. 23–26 °C, Atlantik ca. 18–22 °C."
+      "Schnorcheln bei den Medes-Inseln (Meeresschutzgebiet, geführte Bootstour), in Cabo de Palos (Islas Hormigas) und am Cabo de Gata (Los Escullos, La Isleta del Moro, Cala de San Pedro); dazu Tarifa, Cádiz, die Buchten der Algarve und San Sebastián. Mittelmeer ca. 23–26 °C, Atlantik ca. 18–22 °C."
     ],
     [
       "Action",
-      "Oceanogràfic, Kajak durch die Grotten der Algarve, Sandboarding in der Wüste, Surfen in San Sebastián, Parque Warner in Madrid, Bernabéu, Ritterspiele in Carcassonne."
+      "Oceanogràfic, Kajak durch die Grotten der Algarve, Sandboarding in der Wüste, Surfen in San Sebastián, Ritterspiele in Carcassonne."
     ],
     [
       "Natur und Landschaft",
-      "Vulkanküste am Cabo de Gata, Wüste von Tabernas, Hoher Atlas, Sahara-Dünen, Felsküste der Algarve, Halbwüste Bardenas Reales, Baskenküste."
+      "Vulkanküste am Cabo de Gata, Wüste von Tabernas, Hoher Atlas, Sahara-Dünen, Felsküste der Algarve, Baskenküste."
     ]
   ],
   stationenIntro: "Siebzehn Stationen in Spanien, Marokko, Portugal und Frankreich. Über jeder Station steht, wie ihr dorthin kommt.",
   stationen: [
     {
       nr: 1,
-      name: "Barcelona (Start)",
+      name: "Costa Brava (L’Estartit, Start)",
+      ersatzsuche: "Estartit|Medes|Costa Brava",
       land: "es",
       region: "Katalonien",
       datum: "19.–21. Juni",
       naechte: "2 Nächte",
       zwischenstopp: {text: "Zwischenübernachtung in Sète", datum: "18.–19. Juni"},
-      anreise: "Mit dem Auto ab Brig-Glis über Genf, Lyon und Montpellier nach Sète (ca. 7–7,5 Std., ca. 630 km), dort am Mittelmeer übernachten. Am nächsten Tag über Perpignan nach Barcelona (ca. 3–3,5 Std., ca. 330 km), Uhr ohne Zeitverschiebung. Das Auto vorab für die Umweltzone registrieren und im Hotel-Parkhaus abstellen; in der Stadt Metro und zu Fuss.",
+      anreise: "Mit dem Auto ab Brig-Glis über Genf, Lyon und Montpellier nach Sète (ca. 7–7,5 Std., ca. 630 km), dort am Mittelmeer übernachten. Am nächsten Tag über Perpignan und Figueres nach L’Estartit (ca. 2,5–3 Std., ca. 260 km), Uhr ohne Zeitverschiebung.",
+      text: "Vor dem Badeort L’Estartit liegen die Medes-Inseln, eines der ältesten und bekanntesten Meeresschutzgebiete im Mittelmeer. Weil hier seit den 1980er-Jahren nicht mehr gefischt wird, sind die Fische gross und zahlreich; an Land kommen die Felsbuchten des Naturparks Montgrí dazu.",
+      teens: "Bootsfahrt mit Glasboden und geführtem Schnorchelhalt bei den Medes-Inseln, Schnorcheln in den Buchten des Montgrí (Cala Montgó, Cala Ferriol), Kajak oder Stand-up-Paddle entlang der Küste, Dalí-Museum in Figueres.",
+      fakten: [
+        "<strong>Dauer:</strong> 2 Nächte: ein Tag Medes-Inseln, ein Tag Buchten und Strand oder das Dalí-Museum.",
+        "<strong>Schnorcheln:</strong> Geführte Touren mit dem Boot ab dem Hafen von L’Estartit (ca. 2 Std. mit ca. 1 Std. im Wasser, Ausrüstung inklusive, 2026 ab ca. 30–40 € pro Person); zu sehen sind Zackenbarsche, Brassen, Seesterne und mit Glück Barrakudas. Im Schutzgebiet nichts füttern und nichts mitnehmen.",
+        "<strong>Wasser:</strong> Ende Juni ca. 20–23 °C und damit kühler als im Süden; ein Shorty oder Lycra-Shirt hilft bei längerem Schnorcheln."
+      ],
+      ausserdem: "Pals (mittelalterliches Dorf), Calella de Palafrugell und Cap de Begur (weitere Schnorchelbuchten), Burg von Montgrí, Girona (auf dem Weg nach Barcelona).",
+      bilder: [
+        {titel: "Medes-Inseln", suche: "Medes Islands L'Estartit", stichwort: "medes|estartit"},
+        {
+          titel: "Unter Wasser",
+          suche: "Medes Islands underwater|Mediterranean snorkeling fish Costa Brava",
+          stichwort: "medes|underwater|fish"
+        },
+        {titel: "L’Estartit", suche: "L'Estartit beach", stichwort: "estartit"},
+        {titel: "Cala Montgó", suche: "Cala Montgo Costa Brava", stichwort: "montg"},
+        {titel: "Pals", suche: "Pals Girona medieval village", stichwort: "pals"},
+        {titel: "Dalí-Museum", suche: "Dali Theatre Museum Figueres", stichwort: "dali|dalí"}
+      ]
+    },
+    {
+      nr: 2,
+      name: "Barcelona",
+      land: "es",
+      region: "Katalonien",
+      datum: "21.–23. Juni",
+      naechte: "2 Nächte",
+      anreise: "Mit dem Auto von L’Estartit über Girona nach Barcelona (ca. 1,75–2 Std., ca. 140 km). Das Auto vorab für die Umweltzone registrieren und im Hotel-Parkhaus abstellen; in der Stadt Metro und zu Fuss.",
       text: "Gaudís Bauten, Altstadtgassen, Strand und eine lebendige Grossstadt. In der Nacht vom 23. auf den 24. Juni feiert die Stadt Sant Joan mit Feuerwerk und Feuern am Strand.",
       teens: "Sagrada Família (Turm), Park Güell, Camp Nou bzw. Barça-Museum, Seilbahn auf den Montjuïc, Strand Barceloneta, Markt La Boqueria.",
       fakten: [
@@ -187,11 +217,11 @@ REISEN.marokko = {
       ]
     },
     {
-      nr: 2,
+      nr: 3,
       name: "Valencia",
       land: "es",
       region: "Valencia",
-      datum: "21.–23. Juni",
+      datum: "23.–25. Juni",
       naechte: "2 Nächte",
       anreise: "Mit dem Auto von Barcelona auf der AP-7 nach Valencia (ca. 3,5 Std., ca. 350 km). Hotel mit Parkhaus oder Ladestation wählen.",
       text: "Drittgrösste Stadt Spaniens mit der futuristischen Stadt der Künste und Wissenschaften, einem langen Stadtstrand und dem grünen Turia-Park im alten Flussbett. Hier kommt die Paella her.",
@@ -220,17 +250,18 @@ REISEN.marokko = {
       ]
     },
     {
-      nr: 3,
+      nr: 4,
       name: "Cabo de Gata",
       land: "es",
       region: "Andalusien",
-      datum: "23.–26. Juni",
+      datum: "25.–28. Juni",
       naechte: "3 Nächte",
-      anreise: "Mit dem Auto von Valencia über Alicante, Murcia und Almería nach San José (ca. 4,5–5 Std., ca. 470 km).",
+      anreise: "Mit dem Auto von Valencia über Alicante, Murcia und Almería nach San José (ca. 4,5–5 Std., ca. 470 km). Unterwegs lohnt ein Halt in Cabo de Palos: geführte Kajak- und Schnorcheltour im Meeresschutzgebiet Islas Hormigas (ca. 2–3 Std., ca. 30 Min. Umweg).",
       text: "Naturpark mit Vulkanküste, Halbwüste und den letzten wilden Stränden Andalusiens. Das klare Wasser über Felsen und Seegras ist ideal zum Schnorcheln.",
-      teens: "Schnorcheln an der Cala de San Pedro oder bei Los Escullos, Kajak entlang der Küste, Strände Mónsul und Los Genoveses, Western-Filmkulisse Fort Bravo bei Tabernas.",
+      teens: "Schnorcheln bei Los Escullos, La Isleta del Moro und an der Cala de San Pedro, Kajak entlang der Vulkanküste, Strände Mónsul und Los Genoveses, Western-Filmkulisse Fort Bravo bei Tabernas.",
       fakten: [
         "<strong>Dauer:</strong> 3 Nächte in San José oder Las Negras: Strand, Schnorcheln und Kajak, ein Tag Wüste von Tabernas mit der Western-Filmkulisse.",
+        "<strong>Schnorchelplätze:</strong> Los Escullos, La Isleta del Moro, Playa de los Muertos und Cala de San Pedro (nur zu Fuss ab Las Negras oder per Boot): Felsriffe und Seegraswiesen mit vielen Fischen direkt vom Strand aus. Am Morgen ist das Wasser am ruhigsten.",
         "<strong>Strände:</strong> Von ca. 21. Juni bis 22. September ist die Zufahrt zu Mónsul und Los Genoveses beschränkt; Shuttlebus ab San José, oder vor 10 Uhr mit dem Auto (Parkgebühr).",
         "<strong>Hitze:</strong> Wenig Schatten an den Stränden: Sonnenschirm, Wasser und Sonnenschutz mitnehmen."
       ],
@@ -245,11 +276,11 @@ REISEN.marokko = {
       ]
     },
     {
-      nr: 4,
+      nr: 5,
       name: "Tarifa",
       land: "es",
       region: "Andalusien",
-      datum: "26.–27. Juni",
+      datum: "28.–29. Juni",
       naechte: "1 Nacht",
       anreise: "Mit dem Auto von San José über Almería, die Küstenautobahn A-7 und Málaga nach Tarifa (ca. 4–4,5 Std., ca. 380 km).",
       text: "Die Südspitze Europas: weisse Altstadt, lange Strände voller Kitesurfer und auf der anderen Seite der Meerenge die Berge Afrikas. Von hier fährt die Fähre nach Tanger.",
@@ -274,12 +305,12 @@ REISEN.marokko = {
       ]
     },
     {
-      nr: 5,
+      nr: 6,
       name: "Marrakesch",
       ersatzsuche: "Marrakech",
       land: "ma",
       region: "Marokko",
-      datum: "27.–29. Juni",
+      datum: "29. Juni–1. Juli",
       naechte: "2 Nächte",
       anreise: "Fähre Tarifa–Tanger Ville ohne Auto (ca. 1 Std., Baleària oder Africa Morocco Link, mehrmals täglich; Passkontrolle an Bord oder im Hafen). In Marokko ist es eine Stunde früher. Vom Hafen mit dem Taxi zum Bahnhof Tanger Ville, mit dem Hochgeschwindigkeitszug Al Boraq nach Casablanca (ca. 2,25 Std.) und weiter mit dem Zug nach Marrakesch (ca. 2,5–3 Std.); insgesamt ca. 5,5–6,5 Std. mit Umsteigen.",
       text: "Die rote Stadt am Fuss des Atlas: Gaukler, Musik und Garküchen auf dem Platz Jemaa el-Fna, enge Gassen in der Medina mit den Souks und ruhige Gärten wie der Jardin Majorelle.",
@@ -300,12 +331,12 @@ REISEN.marokko = {
       ]
     },
     {
-      nr: 6,
+      nr: 7,
       name: "Dadès-Schlucht",
       ersatzsuche: "Dades Gorge|Boumalne Dades",
       land: "ma",
       region: "Marokko",
-      datum: "29.–30. Juni",
+      datum: "1.–2. Juli",
       naechte: "1 Nacht",
       anreise: "Mit dem Mietwagen über den Hohen Atlas und den Pass Tizi n’Tichka (2’260 m), mit Halt im Lehmdorf Aït Ben Haddou, über Ouarzazate in die Dadès-Schlucht (ca. 5–6 Std., ca. 310 km; kurvige Passstrasse).",
       text: "Von Marrakesch über den Atlas in die «Strasse der Kasbahs»: Lehmburgen, Oasen mit Palmen und die rote Felsschlucht des Dadès mit ihren Serpentinen.",
@@ -326,12 +357,12 @@ REISEN.marokko = {
       ]
     },
     {
-      nr: 7,
+      nr: 8,
       name: "Merzouga (Wüste)",
       ersatzsuche: "Merzouga|Erg Chebbi",
       land: "ma",
       region: "Marokko",
-      datum: "30. Juni–1. Juli",
+      datum: "2.–3. Juli",
       naechte: "1 Nacht",
       anreise: "Mit dem Mietwagen über Tinghir mit der Todra-Schlucht und Erfoud nach Merzouga (ca. 4 Std., ca. 250 km), am späten Nachmittag mit dem Kamel oder dem Geländewagen ins Wüstencamp.",
       text: "Die Sanddünen des Erg Chebbi sind bis 150 m hoch. Mit dem Kamel in den Sonnenuntergang, eine Nacht im Zeltcamp unter dem Sternenhimmel und am Morgen der Sonnenaufgang über den Dünen.",
@@ -352,19 +383,19 @@ REISEN.marokko = {
       ]
     },
     {
-      nr: 8,
+      nr: 9,
       name: "Fès",
       ersatzsuche: "Fes|Fez",
       land: "ma",
       region: "Marokko",
-      datum: "1.–3. Juli",
+      datum: "3.–5. Juli",
       naechte: "2 Nächte",
       anreise: "Mit dem Mietwagen von Merzouga über Erfoud, Midelt und den Mittleren Atlas mit den Zedernwäldern von Ifrane nach Fès (ca. 7 Std., ca. 460 km; der längste Fahrtag in Marokko, früh starten). Mietwagen in Fès zurückgeben.",
       text: "Die Altstadt Fès el-Bali ist eine der grössten autofreien Städte der Welt: über 9’000 Gassen, Handwerker, Koranschulen und die Färberei Chouara mit ihren bunten Becken. Unesco-Welterbe.",
       teens: "Blick über die Färberei Chouara von einer Dachterrasse, Labyrinth der Medina mit einem lokalen Führer, Bab Bou Jeloud (Blaues Tor), Medersa Bou Inania, Aussicht von den Merinidengräbern bei Sonnenuntergang.",
       fakten: [
         "<strong>Dauer:</strong> 2 Nächte in einem Riad: ein Tag Medina mit Führer (offizielle Führer über das Tourismusbüro oder den Riad), ein ruhiger Tag.",
-        "<strong>Weiterreise:</strong> Am 3. Juli mit dem Zug nach Tanger (über Kénitra mit dem Al Boraq ca. 3,5–4 Std., direkt ca. 4,5 Std.) und mit der Fähre nach Tarifa.",
+        "<strong>Weiterreise:</strong> Am 5. Juli mit dem Zug nach Tanger (über Kénitra mit dem Al Boraq ca. 3,5–4 Std., direkt ca. 4,5 Std.) und mit der Fähre nach Tarifa.",
         "<strong>Hinweis:</strong> In der Medina bieten sich viele «Führer» an; höflich ablehnen und nur offizielle Führer nehmen."
       ],
       ausserdem: "Meknès und die römischen Ruinen von Volubilis (ca. 1 Std.), Ifrane mit Berberaffen in den Zedernwäldern (auf der Anreise), Chefchaouen (blaue Stadt, ca. 3,5 Std., mit einer Nacht mehr).",
@@ -382,11 +413,11 @@ REISEN.marokko = {
       ]
     },
     {
-      nr: 9,
+      nr: 10,
       name: "Cádiz",
       land: "es",
       region: "Andalusien",
-      datum: "3.–5. Juli",
+      datum: "5.–7. Juli",
       naechte: "2 Nächte",
       anreise: "Zug Fès–Tanger (ca. 3,5–4,5 Std.), Fähre Tanger Ville–Tarifa (ca. 1 Std., Uhr +1 Std.), in Tarifa das eigene Auto abholen und nach Cádiz (ca. 1,25 Std., ca. 100 km). Ein langer Reisetag mit ca. 8–9 Std. von Tür zu Tür.",
       text: "Eine der ältesten Städte Europas auf einer Halbinsel im Atlantik: weisse Häuser, Wachtürme, Stadtstrände direkt an der Altstadt. Nach Marokko zwei ruhige Tage am Meer.",
@@ -407,12 +438,12 @@ REISEN.marokko = {
       ]
     },
     {
-      nr: 10,
+      nr: 11,
       name: "Sevilla",
       ersatzsuche: "Seville",
       land: "es",
       region: "Andalusien",
-      datum: "5.–7. Juli",
+      datum: "7.–9. Juli",
       naechte: "2 Nächte",
       anreise: "Mit dem Auto von Cádiz über die Autobahn AP-4 nach Sevilla (ca. 1,25–1,5 Std., ca. 125 km). Hotel mit Parkhaus wählen.",
       text: "Andalusiens Hauptstadt mit Kathedrale, Alcázar, der Plaza de España und Flamenco. Im Juli ist es sehr heiss, das Leben spielt sich am Morgen und am Abend ab.",
@@ -433,17 +464,17 @@ REISEN.marokko = {
       ]
     },
     {
-      nr: 11,
+      nr: 12,
       name: "Algarve (Lagos)",
       land: "pt",
       region: "Portugal",
-      datum: "7.–10. Juli",
-      naechte: "3 Nächte",
+      datum: "9.–13. Juli",
+      naechte: "4 Nächte",
       anreise: "Mit dem Auto von Sevilla über Huelva auf der Algarve-Autobahn A22 nach Lagos (ca. 2,75–3 Std., ca. 270 km). In Portugal ist es eine Stunde früher. Maut: die A22 ist frei, die A2 nach Lissabon hat Zahlstellen; für elektronische Maut EasyToll an der Grenze.",
       text: "Goldgelbe Felsküste mit Grotten, Felsbögen und kleinen Buchten. Nach Sevilla drei Tage Strand und Meer, bevor es in die Städte Lissabon und Porto geht.",
       teens: "Kajak- oder Bootstour durch die Grotten der Ponta da Piedade, Baden in den Buchten Praia do Camilo und Praia Dona Ana, Sonnenuntergang an den Klippen, optional Bootstour zur Benagil-Höhle.",
       fakten: [
-        "<strong>Dauer:</strong> 3 Nächte in Lagos: ein Tag Kajak an der Ponta da Piedade, ein Tag Buchten und Strand, ein Tag Bootstour zur Benagil-Höhle oder Ausflug nach Sagres.",
+        "<strong>Dauer:</strong> 4 Nächte in Lagos: ein Tag Kajak an der Ponta da Piedade, zwei Tage Buchten und Strand, ein Tag Bootstour zur Benagil-Höhle oder Ausflug nach Sagres.",
         "<strong>Kajak:</strong> Geführte Touren ab der Marina von Lagos dauern ca. 2 Std. (ab ca. 35 € pro Person); Kids unter 16 nur mit Erwachsenen, alle müssen schwimmen können. Vorab buchen, bei Wellengang fällt die Tour aus.",
         "<strong>Wasser:</strong> Atlantik, deutlich kühler als das Mittelmeer; die Buchten sind bei Ebbe grösser."
       ],
@@ -458,12 +489,12 @@ REISEN.marokko = {
       ]
     },
     {
-      nr: 12,
+      nr: 13,
       name: "Lissabon",
       ersatzsuche: "Lisbon",
       land: "pt",
       region: "Portugal",
-      datum: "10.–13. Juli",
+      datum: "13.–16. Juli",
       naechte: "3 Nächte",
       anreise: "Mit dem Auto von Lagos über die A2 nach Lissabon (ca. 3–3,5 Std., ca. 300 km, Maut an Zahlstellen).",
       text: "Hügelige Hauptstadt am Tejo mit Strassenbahnen, Aussichtspunkten, Fliesenfassaden und Pastéis de Nata. Nah am Meer und an Sintra.",
@@ -484,52 +515,28 @@ REISEN.marokko = {
       ]
     },
     {
-      nr: 13,
-      name: "Madrid",
-      land: "es",
-      region: "Madrid",
-      datum: "13.–16. Juli",
-      naechte: "3 Nächte",
-      anreise: "Mit dem Auto von Lissabon über Badajoz nach Madrid (ca. 6–6,5 Std., ca. 625 km). In Spanien ist es wieder eine Stunde später. Der längste Fahrtag nach der Anreise: früh starten.",
-      text: "Spaniens Hauptstadt: grosse Plätze, Königspalast, der Retiro-Park mit Ruderbooten und einige der wichtigsten Kunstmuseen der Welt. Abends ist die Stadt lange wach.",
-      teens: "Stadionführung im Santiago Bernabéu (Real Madrid), Ruderboot im Retiro, Freizeitpark Parque Warner, Churros con chocolate, Königspalast, Mercado de San Miguel.",
-      fakten: [
-        "<strong>Dauer:</strong> 3 Nächte: ein Tag Altstadt und Königspalast, ein Tag Retiro und Prado oder Bernabéu, ein Tag Parque Warner oder Toledo.",
-        "<strong>Hitze:</strong> Im Juli oft 35–40 °C; Museen mittags, draussen am Morgen und Abend.",
-        "<strong>Auto:</strong> Umweltzone Madrid: ausländische Autos vorab prüfen bzw. registrieren; Hotel mit Parkhaus, in der Stadt Metro."
-      ],
-      ausserdem: "Prado und Reina Sofía (Picassos Guernica), Plaza Mayor, Puerta del Sol, Toledo (ca. 1 Std.), Segovia mit dem Aquädukt (ca. 1 Std.).",
-      bilder: [
-        {titel: "Königspalast", suche: "Royal Palace of Madrid", stichwort: "palace|palacio|madrid"},
-        {titel: "Retiro", suche: "Retiro Park Madrid lake", stichwort: "retiro"},
-        {titel: "Plaza Mayor", suche: "Plaza Mayor Madrid", stichwort: "plaza mayor"},
-        {titel: "Gran Vía", suche: "Gran Via Madrid", stichwort: "gran via|madrid"},
-        {titel: "Santiago Bernabéu", suche: "Santiago Bernabeu stadium", stichwort: "bernab"},
-        {titel: "Toledo", suche: "Toledo Spain skyline", stichwort: "toledo"}
-      ]
-    },
-    {
       nr: 14,
-      name: "Bardenas Reales",
+      name: "Salamanca",
       land: "es",
-      region: "Navarra",
+      region: "Kastilien und León",
       datum: "16.–17. Juli",
       naechte: "1 Nacht",
-      anreise: "Mit dem Auto von Madrid über Soria nach Tudela (ca. 3–3,5 Std., ca. 320 km).",
-      text: "Halbwüste mit Tafelbergen und bizarren Felsformationen wie dem Castildetierra, mitten in Navarra. Die Landschaft war Drehort für «Game of Thrones».",
-      teens: "Rundfahrt mit dem eigenen Auto auf der 25-km-Piste um die Bardena Blanca, Castildetierra, Sonnenuntergang über den Tafelbergen, Sterne am Abend.",
+      anreise: "Mit dem Auto von Lissabon über Guarda und die Grenze bei Vilar Formoso nach Salamanca (ca. 4,5–5 Std., ca. 470 km). In Spanien ist es wieder eine Stunde später.",
+      text: "Goldgelbe Universitätsstadt mit einem der schönsten Plätze Spaniens, der Plaza Mayor, zwei Kathedralen und einer der ältesten Universitäten Europas. Die ganze Altstadt ist Unesco-Welterbe.",
+      teens: "Abend auf der Plaza Mayor, Aufstieg auf die Türme der Kathedrale, den kleinen Frosch an der Fassade der Universität suchen, Casa de las Conchas mit über 300 Muscheln an der Wand, Churros.",
       fakten: [
-        "<strong>Dauer:</strong> 1 Nacht in Tudela oder Arguedas; die Piste am Abend und am frühen Morgen fahren, mittags werden es über 40 °C.",
-        "<strong>Regeln:</strong> Geöffnet ab 8 Uhr bis eine Stunde vor Sonnenuntergang, Höchstgeschwindigkeit 40 km/h, nur auf der markierten Piste, ein Teil ist militärisches Übungsgebiet."
+        "<strong>Dauer:</strong> 1 Nacht als Zwischenhalt: Ankunft am Nachmittag, Abend auf der Plaza Mayor, am Morgen Kathedrale, dann weiter nach San Sebastián.",
+        "<strong>Wetter:</strong> Hochebene auf ca. 800 m: tagsüber heiss, abends angenehm kühl.",
+        "<strong>Auto:</strong> Hotel mit Parkplatz am Rand der Altstadt wählen, die Altstadt zu Fuss."
       ],
-      ausserdem: "Altstadt von Tudela, Olite (Königspalast), Pamplona (auf der Weiterfahrt).",
+      ausserdem: "Casa Lis (Jugendstil-Museum), Römerbrücke, Ciudad Rodrigo (an der Strecke), Burgos mit der Kathedrale (auf der Weiterfahrt).",
       bilder: [
-        {titel: "Castildetierra", suche: "Castildetierra Bardenas Reales", stichwort: "castildetierra"},
-        {titel: "Bardena Blanca", suche: "Bardenas Reales", stichwort: "bardena"},
-        {titel: "Tafelberge", suche: "Bardenas Reales landscape", stichwort: "bardena"},
-        {titel: "Olite", suche: "Olite royal palace", stichwort: "olite"},
-        {titel: "Tudela", suche: "Tudela Navarra cathedral|Tudela Navarra", stichwort: "tudela"},
-        {titel: "Pamplona", suche: "Pamplona old town", stichwort: "pamplona"}
+        {titel: "Plaza Mayor", suche: "Plaza Mayor Salamanca", stichwort: "plaza mayor|salamanca"},
+        {titel: "Kathedrale", suche: "Salamanca Cathedral", stichwort: "cathedral|salamanca"},
+        {titel: "Universität", suche: "University of Salamanca facade", stichwort: "universi|salamanca"},
+        {titel: "Casa de las Conchas", suche: "Casa de las Conchas Salamanca", stichwort: "conchas"},
+        {titel: "Römerbrücke", suche: "Roman bridge Salamanca", stichwort: "bridge|salamanca"},
+        {titel: "Burgos", suche: "Burgos Cathedral", stichwort: "burgos"}
       ]
     },
     {
@@ -540,7 +547,7 @@ REISEN.marokko = {
       region: "Baskenland",
       datum: "17.–20. Juli",
       naechte: "3 Nächte",
-      anreise: "Mit dem Auto von Tudela über Pamplona nach San Sebastián (ca. 2–2,25 Std., ca. 190 km).",
+      anreise: "Mit dem Auto von Salamanca über Valladolid und Burgos nach San Sebastián (ca. 4,5–5 Std., ca. 470 km, Maut auf der AP-1).",
       text: "Elegante Stadt an einer muschelförmigen Bucht mit Stadtstrand, Altstadt voller Pintxos-Bars und zwei Aussichtsbergen. Nach der Hitze im Süden ist es hier grün und angenehm.",
       teens: "Baden an der Playa de la Concha, Surfstunde an der Zurriola, Standseilbahn auf den Monte Igueldo mit altem Freizeitpark, Aquarium, Pintxos am Abend, Ausflug nach Bilbao ins Guggenheim.",
       fakten: [
@@ -651,7 +658,7 @@ REISEN.marokko = {
         "Aktivitäten und Eintritte",
         "1’900–3’300",
         "2’500",
-        "Sagrada Família, Oceanogràfic, Kamelritt und Wüstencamp, Führer in Fès, Alcázar, Kajak an der Algarve, Oceanário, Bernabéu oder Parque Warner, Papstpalast"
+        "Schnorcheltouren Medes-Inseln und Cabo de Palos, Sagrada Família, Oceanogràfic, Kamelritt und Wüstencamp, Führer in Fès, Alcázar, Kajak an der Algarve, Oceanário, Papstpalast"
       ],
       [
         "Versicherung, Pannenhilfe, Reiseapotheke",
@@ -663,20 +670,20 @@ REISEN.marokko = {
     ],
     stationen: [
       ["Zwischenübernachtung Sète (1)", "250–400"],
-      ["1. Barcelona (2)", "750–1’250"],
-      ["2. Valencia (2)", "650–1’050"],
-      ["3. Cabo de Gata (3)", "850–1’450"],
-      ["4. Tarifa (1)", "300–500"],
-      ["5. Marrakesch (2)", "600–1’000"],
-      ["6. Dadès-Schlucht (1)", "200–350"],
-      ["7. Merzouga (1)", "300–550"],
-      ["8. Fès (2)", "500–850"],
-      ["9. Cádiz (2)", "600–1’000"],
-      ["10. Sevilla (2)", "650–1’050"],
-      ["11. Algarve (3)", "900–1’500"],
-      ["12. Lissabon (3)", "1’000–1’700"],
-      ["13. Madrid (3)", "1’000–1’700"],
-      ["14. Bardenas Reales (1)", "250–400"],
+      ["1. Costa Brava (2)", "650–1’100"],
+      ["2. Barcelona (2)", "750–1’250"],
+      ["3. Valencia (2)", "650–1’050"],
+      ["4. Cabo de Gata (3)", "850–1’450"],
+      ["5. Tarifa (1)", "300–500"],
+      ["6. Marrakesch (2)", "600–1’000"],
+      ["7. Dadès-Schlucht (1)", "200–350"],
+      ["8. Merzouga (1)", "300–550"],
+      ["9. Fès (2)", "500–850"],
+      ["10. Cádiz (2)", "600–1’000"],
+      ["11. Sevilla (2)", "650–1’050"],
+      ["12. Algarve (4)", "1’200–2’000"],
+      ["13. Lissabon (3)", "1’000–1’700"],
+      ["14. Salamanca (1)", "250–400"],
       ["15. San Sebastián (3)", "1’100–1’800"],
       ["16. Carcassonne (2)", "550–900"],
       ["17. Avignon (2)", "550–900"]
@@ -711,7 +718,7 @@ REISEN.marokko = {
     ],
     [
       "Wetter im Juni und Juli",
-      "Marrakesch und Fès oft 38–42 °C, die Wüste bei Merzouga 42–45 °C. Andalusien und Madrid 35–40 °C, an der Küste 28–32 °C, Lissabon und San Sebastián angenehmer. Mittelmeer ca. 23–26 °C, Atlantik ca. 18–22 °C."
+      "Marrakesch und Fès oft 38–42 °C, die Wüste bei Merzouga 42–45 °C. Andalusien 35–40 °C, an der Küste 28–32 °C, Lissabon und San Sebastián angenehmer. Mittelmeer ca. 23–26 °C, Atlantik ca. 18–22 °C."
     ],
     ["Zeitzonen", "Frankreich und Spanien wie die Schweiz, Portugal und Marokko eine Stunde früher."],
     [
@@ -720,7 +727,7 @@ REISEN.marokko = {
     ],
     [
       "Sicherheit",
-      "Taschendiebe in Barcelona, Sevilla, Lissabon, Madrid und in den Medinas. In Marokko aufdringliche Händler und falsche Führer höflich ablehnen. EDA-Reisehinweise für Marokko vor Abreise lesen."
+      "Taschendiebe in Barcelona, Sevilla, Lissabon und in den Medinas. In Marokko aufdringliche Händler und falsche Führer höflich ablehnen. EDA-Reisehinweise für Marokko vor Abreise lesen."
     ],
     [
       "Kultur und Verhalten",
@@ -732,7 +739,7 @@ REISEN.marokko = {
     ],
     [
       "Beteiligung der Kids",
-      "Pro Station wählen Sohn (12) und Tochter (14) je einen Wunsch-Programmpunkt, z.B. Kamelritt, Surfstunde oder Stadionführung."
+      "Pro Station wählen Sohn (12) und Tochter (14) je einen Wunsch-Programmpunkt, z.B. Kamelritt, Surfstunde oder Kajak."
     ]
   ]
 };
