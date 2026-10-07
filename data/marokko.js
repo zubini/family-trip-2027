@@ -127,7 +127,7 @@ REISEN.marokko = {
     ],
     [
       "Vorab buchen",
-      "Autofähre Dénia–Formentera hin und zurück (Direktfähren mit wenigen Abfahrten), Zufahrtsbewilligung fürs Auto auf Formentera, Unterkunft auf Formentera, Schnorcheltour zu den Medes-Inseln, Parkplatz für das eigene Auto in Tarifa (ca. eine Woche), Fähre Tarifa–Tanger hin und zurück, Zugtickets in Marokko (ONCF), Mietwagen als Einwegmiete Marrakesch–Fès, Riads in Marrakesch und Fès, Wüstencamp in Merzouga (im Sommer geöffnet und mit Klimaanlage?), Caminito del Rey (Zeitfenster), Sagrada Família, Oceanogràfic, Alcázar in Sevilla, Kajak an der Algarve, Unterkünfte in San Sebastián., Reservation für die Playa de las Catedrales (gratis, frühestens 30 Tage vorher)"
+      "Autofähre Dénia–Formentera hin und zurück (Direktfähren mit wenigen Abfahrten), Zufahrtsbewilligung fürs Auto auf Formentera, Unterkunft auf Formentera, Schnorcheltour zu den Medes-Inseln, Parkplatz für das eigene Auto in Tarifa (ca. eine Woche), Fähre Tarifa–Tanger hin und zurück, Zugtickets in Marokko (ONCF), Mietwagen als Einwegmiete Marrakesch–Fès, Riads in Marrakesch und Fès, Wüstencamp in Merzouga (im Sommer geöffnet und mit Klimaanlage?), Caminito del Rey (Zeitfenster), Sagrada Família, Oceanogràfic, Alcázar in Sevilla, Kajak an der Algarve, Unterkünfte in San Sebastián, Reservation für die Playa de las Catedrales (gratis, frühestens 30 Tage vorher)"
     ],
     [
       "Auto und Laden",
