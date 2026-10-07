@@ -85,6 +85,30 @@ window.QUELLEN = {
       ]
     },
     {
+      titel: "Spanien / Portugal / Marokko",
+      links: [
+        ["Ferryhopper: Fähren Spanien–Marokko 2026 (Tarifa–Tanger Ville ca. 1 Std., Baleària und Africa Morocco Link)", "https://www.ferryhopper.com/en/blog/ferry-news/spain-morocco-ferry-routes"],
+        ["Infomédiaire: FRS beendet die Linie Tanger Ville–Tarifa (Mai 2025)", "https://www.infomediaire.net/?p=179625"],
+        ["Andalucia.com: Fähre Tarifa–Tanger, Parkplatz am Hafen", "https://www.andalucia.com/tarifa/ferry-to-tangiers.htm"],
+        ["Hespress: Al Boraq Tanger–Casablanca in ca. 2 Std. 17 Min.", "https://fr.hespress.com/483501-le-san-francisco-chronicle-salue-al-boraq-premier-et-unique-tgv-dafrique.html"],
+        ["Railway Gazette: Schnellfahrstrecke Kénitra–Marrakesch erst ab 2029", "https://www.railwaygazette.com/infrastructure/oncf-seeks-to-complete-kenitra-marrakech-high-speed-line-before-2030-world-cup/66405.article"],
+        ["Rome2rio: Tanger–Fès mit dem Zug (über Kénitra ca. 3,5–4 Std.)", "https://www.rome2rio.com/s/Tangier/F%C3%A8s"],
+        ["Civitatis: Marrakesch–Ouarzazate über den Tizi n’Tichka (ca. 4 Std.)", "https://civitatis.com/en/marrakech/merzouga-fez-trip-3-days"],
+        ["Kimkim: Boumalne Dadès–Merzouga (ca. 253 km, ca. 4 Std.)", "https://kimkim.com/ab/boumalne-dades-to-merzouga"],
+        ["Rome2rio: Merzouga–Fès mit dem Auto (ca. 457 km, ca. 7 Std.)", "https://www.rome2rio.com/s/Merzouga/Fes"],
+        ["Bestdateweather: Wetter in Merzouga im Juli (ca. 42 °C)", "https://bestdateweather.com/en/merzouga-weather-july"],
+        ["Viaje en Marruecos: Wüste von Merzouga, beste Reisezeit und Sommer", "https://viajeenmarruecos.com/en/blog/desierto-sahara-merzouga"],
+        ["Avis: Einwegmieten in Marokko, Rückgabegebühr", "https://www.avisrentacar.kr/locations/location/FEZ"],
+        ["Hertz: Mietwagen Marrakesch, internationaler Führerausweis empfohlen", "https://www.hertz.com/us/en/location/Morocco/Marrakech/RAKC60"],
+        ["ASI Reisen: Einreise Marokko für Schweizer (eigener Reisepass, auch für Kinder)", "https://www.asi-reisen.de/l?iso=MA"],
+        ["EDA: Reisehinweise Marokko", "https://www.eda.admin.ch/de/land-marokko"],
+        ["Wanderlog: Valencia–Almería (ca. 435 km, ca. 4 Std.)", "https://Wanderlog.com/drive/between/10045/9657/almeria-to-valencia-drive"],
+        ["Rome2rio: Almerimar–Tarifa (ca. 325 km)", "https://www.rome2rio.com/s/Almerimar/Tarifa"],
+        ["Wanderlog: Lissabon–Madrid (ca. 624 km)", "https://wanderlog.com/drive/between/9626/9621/lisbon-to-madrid-drive"],
+        ["Himmera: San Sebastián–Carcassonne (ca. 434 km, ca. 4 Std.)", "https://distancecalculator.himmera.com/distance-san-sebastian-carcassonne-146798.html"]
+      ]
+    },
+    {
       titel: "Fahrzeiten Malaysia / Thailand",
       links: [
         ["KTM: Fahrplan Padang Besar–Hat Yai 2025 (PDF)", "https://www.ktmb.com.my/assets/pdf/2025/Jadual-Sawasdee-A4.pdf"],

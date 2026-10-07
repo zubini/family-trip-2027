@@ -34,7 +34,7 @@ nav.top a.on { background: #E4EEEC; border-color: #9FC9C3; color: var(--sea); }
   .gnav a.logo { margin-right: 4px; }
 }
 
-@media (max-width: 1180px) {
+@media (max-width: 1300px) {
   .menu-btn { display: inline-flex; }
   .gnav .wrap { flex-wrap: wrap; }
   .gnav .menu { display: none; flex-basis: 100%; flex-direction: column; align-items: stretch; gap: 4px; padding: 6px 0 4px; }

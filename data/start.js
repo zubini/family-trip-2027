@@ -1,13 +1,13 @@
 // Einstiegsseite: Vergleich der Reisen
 // Budgetzahlen kommen automatisch aus den Reisen (data/spanien.js usw.).
-// Platzhalter in Texten: {plan:spanien}, {plan:balkan}, {plan:usa}, {plan:usa2}, {plan:asien} = Planwert, {mehrkosten} = USA minus Malaysia / Thailand.
+// Platzhalter in Texten: {plan:spanien}, {plan:balkan}, {plan:marokko}, {plan:usa}, {plan:usa2}, {plan:asien} = Planwert, {mehrkosten} = USA minus Malaysia / Thailand.
 // Reihenfolge der Reisen hier = Reihenfolge der Spalten; die Navigation folgt der Reihenfolge in index.html.
 // Bewertung: [Punkte 0–5, Text]. Die Punkte und Pro/Contra sind eine Einschätzung und bei Änderungen an den Reisen von Hand anzupassen.
 window.START = {
   titel: "Familienreise 2027",
   zeitraum: "Ab Fr, 18.06.2027 für fünf Wochen, 2 Erwachsene und 2 Kids",
   untertitel: "Verschiedene Reisevarianten als Fahrplan für eine Entscheidung.",
-  reisenIntro: "Alle Reisen dauern 33 bis 36 Nächte und sind für die Familie mit Sohn (12) und Tochter (14) geplant. Die beiden Reisen mit dem eigenen Auto ohne Flug und Jetlag können bis Sa, 24.07.2027 dauern, die anderen enden am Do, 22.07.2027. Ein Klick führt zum vollständigen Fahrplan mit Stationen, Karte und Budget.",
+  reisenIntro: "Alle Reisen dauern 33 bis 36 Nächte und sind für die Familie mit Sohn (12) und Tochter (14) geplant. Die drei Reisen mit dem eigenen Auto ohne Flug und Jetlag können bis Sa, 24.07.2027 dauern, die anderen enden am Do, 22.07.2027. Ein Klick führt zum vollständigen Fahrplan mit Stationen, Karte und Budget.",
   bewertungIntro: "Bewertet werden Natur, Dschungelfeeling, Strand und Baden, Schnorcheln, Abenteuer, Städte, Gesundheit und Sicherheit, Budget, Reisekomfort sowie CO₂ und Umwelt. Fünf Punkte sind die beste Bewertung (beim Budget heisst das: günstig, beim CO₂: wenig Ausstoss). Die Skala ist fest und nicht nur ein Vergleich der Reisen: 5 heisst Weltklasse (z.B. tropische Riffe beim Schnorcheln, kurze Etappen beim Reisekomfort), 0 heisst, dass es das auf der Reise nicht gibt. Die Punkte sind eine Einschätzung auf Basis der Reisepläne, keine Messung.",
   budgetIntro: "Mittelklasse inklusive Flüge bzw. Autokosten, Transport, Unterkunft, Verpflegung und Aktivitäten für 4 Personen. Der dunkle Punkt ist der Planwert, der helle Balken die Spanne.",
   vergleichIntro: "Die wichtigsten Unterschiede nebeneinander.",
@@ -72,6 +72,36 @@ window.START = {
         "Drei Grenzen ausserhalb des Schengen-Raums mit Wartezeiten im Sommer; keine Supercharger in Montenegro und Albanien",
         "Hochsaison: Dubrovnik, Hvar, Ksamil und Apulien voll und teils teuer; im Landesinneren grosse Hitze",
         "Keine Korallenriffe und kein Dschungel; viele Unterkunftswechsel"
+      ]
+    },
+    marokko: {
+      name: "Spanien / Portugal / Marokko",
+      zusatz: "Roadtrip ab Brig-Glis, Marokko mit Fähre",
+      passt: "ihr ohne Flug reisen, Städte in Spanien und Portugal mit einer Woche Marokko (Medina, Atlas, Wüste) verbinden möchtet und grosse Hitze, viele Reisetage und mehrere Wechsel zwischen Auto, Fähre und Zug in Kauf nehmt.",
+      kurz: "Fünf Wochen mit dem eigenen Elektroauto durch Spanien, Portugal und Südfrankreich, dazu rund sechs Tage Marokko mit Fähre, Zug und Mietwagen: Marrakesch, Hoher Atlas, Wüste bei Merzouga und Fès.",
+      route: "Brig-Glis, Sète, Barcelona, Valencia, Cabo de Gata, Tarifa, (Fähre) Tanger, Marrakesch, Dadès-Schlucht, Merzouga, Fès, Cádiz, Sevilla, Algarve (Lagos), Lissabon, Madrid, Bardenas Reales, San Sebastián, Carcassonne, Avignon, Brig-Glis",
+      stationen: "17 Stationen und 1 Zwischenübernachtung",
+      laender: "Frankreich, Spanien, Marokko, Portugal",
+      hinflug: "Kein Flug: mit dem eigenen Auto ab Brig-Glis, Zwischenstopp in Sète (ca. 7–7,5 Std.), dann nach Barcelona (ca. 3–3,5 Std.)",
+      rueckflug: "Mit dem Auto ab Avignon über Lyon und Genf (ca. 5,5–6 Std.), Ankunft Sa, 24.07.2027",
+      dazwischen: "Keine Flüge: eigenes Elektroauto; nach Marokko mit der Fähre ohne Auto (Tarifa–Tanger), dort Zug und Mietwagen (Einwegmiete Marrakesch–Fès)",
+      tempo: "Ca. 72 Std. reine Fahrzeit (ca. 5’300 km eigenes Auto, ca. 1’000 km Mietwagen), dazu Fähren und Züge in Marokko (ca. 11–13 Std.); realistisch ca. 100–105 Std. Tür zu Tür; die längsten Tage: Brig-Glis–Sète (ca. 7–7,5 Std.), Merzouga–Fès (ca. 7 Std.), Fès–Cádiz und Tarifa–Marrakesch (Fähre und Zug, je ca. 7–9 Std.), Lissabon–Madrid (ca. 6–6,5 Std.)",
+      gesamt: "Ca. 100–105 Std. Tür zu Tür, ohne Flughafen und ohne Jetlag: davon realistisch ca. 84–88 Std. im Auto inklusive Ladestopps (ca. 72 Std. reine Fahrzeit) und ca. 16–18 Std. für Fähren und Züge in Marokko mit Passkontrolle und Umsteigen.",
+      wetter: "Sehr heiss: Marrakesch und Fès oft 38–42 °C, die Wüste bei Merzouga 42–45 °C, Andalusien und Madrid 35–40 °C; Lissabon, San Sebastián und die Küsten angenehmer.",
+      einreise: "Schengen bis auf Marokko: dort Reisepass für alle (Identitätskarte genügt nicht), kein Visum. Internationaler Führerausweis für den Mietwagen, Crit’Air-Vignette für Frankreich, Umweltzonen Barcelona und Madrid, elektronische Maut in Portugal.",
+      hoehepunkte: "Sagrada Família, Oceanogràfic, Cabo de Gata, Jemaa el-Fna in Marrakesch, Pass über den Hohen Atlas, Aït Ben Haddou, Kamelritt und Nacht im Wüstencamp, Medina von Fès, Cádiz, Sevilla, Grotten der Algarve, Lissabon, Madrid, San Sebastián, Carcassonne.",
+      teens: "Kamelritt und Sandboarding in der Wüste, Souks und Gaukler in Marrakesch, Game-of-Thrones-Drehorte, Kajak an der Algarve, Surfen in San Sebastián, Bernabéu oder Parque Warner in Madrid, Ritterburg Carcassonne.",
+      pro: [
+        "Kein Flug und kein Jetlag, und trotzdem eine Woche Afrika: Marrakesch, Atlas, Wüste und Fès",
+        "Viele Städte: Barcelona, Valencia, Marrakesch, Fès, Sevilla, Lissabon, Madrid, San Sebastián",
+        "Grosse Abwechslung zwischen Mittelmeer, Wüste, Atlantik, Baskenland und Südfrankreich",
+        "Günstig (ca. {plan:marokko} CHF) und wenig CO₂; Laden an Superchargern gratis"
+      ],
+      contra: [
+        "Grosse Hitze im Juli: in der Wüste bei Merzouga 42–45 °C, einige Camps schliessen im Sommer; auch Marrakesch, Fès und Madrid sehr heiss",
+        "Tür zu Tür ca. 100–105 Std., viele Wechsel zwischen eigenem Auto, Fähre, Zug und Mietwagen; einige lange Tage mit 7–9 Std.",
+        "Für Marokko Reisepass für alle, keine Krankenversicherungskarte, kein Leitungswasser; aufdringliche Händler in den Medinas",
+        "Wenige Badetage im warmen Mittelmeer, kaum Schnorcheln"
       ]
     },
     usa: {
@@ -174,6 +204,10 @@ window.START = {
         4,
         "Bleder See, Plitvicer Seen, Pakleni-Inseln, Bucht von Kotor, Steilküste der albanischen Riviera, Quelle Syri i Kaltër, Felstürme von Meteora, Klippen von Lefkada und des Gargano; keine grossen Nationalparks wie in den USA."
       ],
+      marokko: [
+        4,
+        "Vulkanküste am Cabo de Gata, Hoher Atlas, Dadès- und Todra-Schlucht, Sanddünen des Erg Chebbi, Felsküste der Algarve, Halbwüste Bardenas Reales; keine grossen Nationalparks wie in den USA."
+      ],
       usa: [
         5,
         "Zion, Antelope Canyon, Horseshoe Bend, Grand Canyon, Monument Valley, White Sands und die Niagarafälle: spektakuläre Landschaften."
@@ -191,6 +225,7 @@ window.START = {
       kriterium: "Dschungelfeeling",
       spanien: [0, "Kein Regenwald: Halbwüsten, Küsten, Pinienwälder und im Norden grüne Hügel."],
       balkan: [0, "Kein Regenwald: Buchenwälder bei Plitvice und am Gargano, Macchia, Pinien und Olivenhaine."],
+      marokko: [0, "Kein Regenwald: Wüste, Oasen mit Palmen, Zedernwälder im Mittleren Atlas und grüne Hügel im Baskenland."],
       usa: [0, "Kein Dschungel: Wüsten, Canyons, Seen und im Osten Laubwälder."],
       usa2: [1, "Mangroven und Sümpfe in den Everglades und in Louisiana, aber kein Regenwald."],
       asien: [
@@ -207,6 +242,10 @@ window.START = {
       balkan: [
         4,
         "Strandtage auf Hvar, an der albanischen Riviera, in Ksamil, auf Lefkada und am Gargano, Meer ca. 24–26 °C; im Juli voll, oft Kiesstrände, kein tropisch warmes Wasser."
+      ],
+      marokko: [
+        3,
+        "Strandtage am Cabo de Gata, in Tarifa, Cádiz, an der Algarve und in San Sebastián; weniger Badetage als bei Spanien / Portugal und oft der kühlere Atlantik."
       ],
       usa: [
         1,
@@ -231,6 +270,7 @@ window.START = {
         3,
         "Sehr klares Wasser über Fels und Seegras an den Pakleni-Inseln, bei Himarë und Ksamil, auf Lefkada und am Gargano, an vielen Stationen; aber keine Korallen."
       ],
+      marokko: [2, "Schnorcheln vor allem am Cabo de Gata (klares Wasser, Felsen, Seegras), an der Algarve wenig; keine Inseln und keine Korallen."],
       usa: [0, "Kein Schnorcheln im Meer; höchstens Baden im Lake Powell oder in den Narrows."],
       usa2: [
         3,
@@ -251,6 +291,10 @@ window.START = {
         3,
         "Holzstege über die Plitvicer Seen und durch die Vintgar-Klamm, Kajak um Dubrovnik, Aufstieg zur Festung von Kotor, Pässe und Küstenstrassen in Albanien, Klöster von Meteora, Meeresgrotten am Gargano; eher Entdecken als Wildnis."
       ],
+      marokko: [
+        4,
+        "Kamelritt und Nacht im Wüstencamp, Sandboarding, Pass über den Hohen Atlas, Medinas mit Führer, Kajak durch die Grotten der Algarve, Surfen in San Sebastián."
+      ],
       usa: [4, "Durch die Narrows waten, Antelope Canyon, 2-Tage-Roadtrip und Cedar Point."],
       usa2: [
         4,
@@ -268,6 +312,10 @@ window.START = {
         4,
         "Ljubljana, Split, Dubrovnik, Kotor, Tirana, Berat, Matera und Bologna: Hauptstädte und Altstädte, viele davon Unesco-Welterbe, aber keine Weltstädte wie Barcelona oder Lissabon."
       ],
+      marokko: [
+        5,
+        "Barcelona, Valencia, Marrakesch, Fès, Cádiz, Sevilla, Lissabon, Madrid, San Sebastián und Avignon: europäische und marokkanische Städte im Wechsel."
+      ],
       usa: [5, "Las Vegas, Chicago, Washington, Philadelphia und New York mit Museen und Aussichtsplattformen."],
       usa2: [
         5,
@@ -284,6 +332,10 @@ window.START = {
       balkan: [
         4,
         "In der EU gilt die Krankenversicherungskarte, in Montenegro und Albanien nicht (Reiseversicherung nötig); einfachere Spitäler und kein trinkbares Leitungswasser in Albanien, forscher Fahrstil und Hitze; keine Impfungen nötig."
+      ],
+      marokko: [
+        3,
+        "Spanien, Portugal und Frankreich unkompliziert; in Marokko keine Krankenversicherungskarte, kein Leitungswasser und auf Hygiene beim Essen achten, vor allem aber extreme Hitze in der Wüste (42–45 °C) und in Marrakesch."
       ],
       usa: [
         4,
@@ -308,6 +360,7 @@ window.START = {
         4,
         "ca. {plan:balkan} CHF: kein Flug, Laden an Superchargern gratis, Albanien günstig; dafür teure Unterkünfte in Dubrovnik, auf Hvar und in Apulien im Juli."
       ],
+      marokko: [4, "ca. {plan:marokko} CHF: kein Flug, Supercharging gratis, Marokko günstig; dafür Fähren, Züge und Mietwagen in Marokko sowie Parkplatz in Tarifa."],
       usa: [1, "ca. {plan:usa} CHF: rund {mehrkosten} CHF mehr, vor allem Unterkünfte und Mietwagen."],
       usa2: [1, "ca. {plan:usa2} CHF: Einwegmiete Las Vegas–Washington mit Rückgabegebühr, Unterkünfte in New York, Key West und den Nationalparks."],
       asien: [4, "ca. {plan:asien} CHF: Singapur ist teuer, der Rest günstig."]
@@ -321,6 +374,10 @@ window.START = {
       balkan: [
         3,
         "Ca. 83–89 Stunden Tür zu Tür, kein Flughafen, kein Jetlag, eigenes Auto mit viel Platz fürs Gepäck, die meisten Etappen 1,5–3,5 Stunden; dafür ca. 65–70 Stunden im Auto mit drei Grenzen und langsamen Strassen in Albanien, viele Unterkunftswechsel und eine Nachtfähre."
+      ],
+      marokko: [
+        2,
+        "Ca. 100–105 Stunden Tür zu Tür, kein Jetlag; aber viele Wechsel zwischen eigenem Auto, Fähre, Zug und Mietwagen, Passkontrollen und mehrere lange Tage mit 7–9 Stunden."
       ],
       usa: [
         2,
@@ -344,6 +401,10 @@ window.START = {
       balkan: [
         5,
         "Kein Flug: Elektroauto (ca. 700 kWh, Strom in Albanien fast nur aus Wasserkraft, in Italien und Griechenland mehr fossil) und eine Nachtfähre; grob geschätzt ca. 0,1–0,2 t CO₂ pro Person."
+      ],
+      marokko: [
+        5,
+        "Kein Flug: Elektroauto (ca. 1’100 kWh), zwei kurze Fähren, Züge und ca. 1’000 km Mietwagen mit Benzin in Marokko; grob geschätzt ca. 0,15–0,25 t CO₂ pro Person."
       ],
       usa: [
         1,
