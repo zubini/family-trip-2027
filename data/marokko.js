@@ -77,23 +77,23 @@ REISEN.marokko = {
       naechte: 3,
       info: "Auto (ca. 2,75–3 Std., ca. 270 km), Uhr −1 Std."
     },
-    {datum: "12.–15. Juli", name: "13. Lissabon", naechte: 3, info: "Auto über die A2 (ca. 3–3,5 Std., ca. 300 km)"},
+    {datum: "12.–14. Juli", name: "13. Lissabon", naechte: 2, info: "Auto über die A2 (ca. 3–3,5 Std., ca. 300 km)"},
     {
-      datum: "15.–16. Juli",
+      datum: "14.–15. Juli",
       name: "Zwischenübernachtung Porto",
       naechte: 1,
       info: "Auto auf der A1 (ca. 3 Std., ca. 315 km)"
     },
     {
-      datum: "16.–18. Juli",
+      datum: "15.–17. Juli",
       name: "14. Playa de las Catedrales",
       naechte: 2,
       info: "Auto über Braga und Lugo (ca. 4–4,5 Std., ca. 400 km), Uhr +1 Std."
     },
     {
-      datum: "18.–20. Juli",
+      datum: "17.–20. Juli",
       name: "15. San Sebastián",
-      naechte: 2,
+      naechte: 3,
       info: "Auto entlang der Nordküste über Bilbao (ca. 5 Std., ca. 480 km)"
     },
     {
@@ -500,13 +500,13 @@ REISEN.marokko = {
       ersatzsuche: "Lisbon",
       land: "pt",
       region: "Portugal",
-      datum: "12.–15. Juli",
-      naechte: "3 Nächte",
+      datum: "12.–14. Juli",
+      naechte: "2 Nächte",
       anreise: "Mit dem Auto von Lagos über die A2 nach Lissabon (ca. 3–3,5 Std., ca. 300 km, Maut an Zahlstellen).",
       text: "Hügelige Hauptstadt am Tejo mit Strassenbahnen, Aussichtspunkten, Fliesenfassaden und Pastéis de Nata. Nah am Meer und an Sintra.",
       teens: "Oceanário (eines der grössten Aquarien Europas), Strassenbahn 28, Belém mit Turm und Pastéis de Belém, Tagesausflug nach Sintra (Pena-Palast) und ans Cabo da Roca, Surfen in Carcavelos.",
       fakten: [
-        "<strong>Dauer:</strong> 3 Nächte: ein Tag Altstadt und Belém, ein Tag Oceanário und Parque das Nações, ein Tag Sintra und Cabo da Roca.",
+        "<strong>Dauer:</strong> 2 Nächte: ein Tag Altstadt, Belém und Oceanário; Sintra als Abstecher auf der Weiterfahrt nach Porto (ca. 30–45 Min. Umweg).",
         "<strong>Auto:</strong> In der Stadt stehen lassen; Metro, Tram und Taxi sind günstig. Parkhaus beim Hotel buchen.",
         "<strong>Wetter:</strong> Angenehmer als Andalusien, meist 25–30 °C, abends windig."
       ],
@@ -525,9 +525,9 @@ REISEN.marokko = {
       name: "Playa de las Catedrales",
       land: "es",
       region: "Galicien",
-      datum: "16.–18. Juli",
+      datum: "15.–17. Juli",
       naechte: "2 Nächte",
-      zwischenstopp: {text: "Zwischenübernachtung in Porto", datum: "15.–16. Juli"},
+      zwischenstopp: {text: "Zwischenübernachtung in Porto", datum: "14.–15. Juli"},
       anreise: "Mit dem Auto von Lissabon auf der A1 nach Porto (ca. 3 Std., ca. 315 km), dort übernachten und am Abend durch die Ribeira. Am nächsten Tag über Braga, Valença und Lugo nach Ribadeo (ca. 4–4,5 Std., ca. 400 km). In Spanien ist es wieder eine Stunde später.",
       text: "Bei Ebbe läuft man zwischen meterhohen Felsbögen und Höhlen am Strand. Nach Wüste, Medinas und Andalusien ist die grüne, kühle Küste Galiciens ein starker Kontrast.",
       teens: "Bei Ebbe durch die «Kathedralen» laufen, Höhlen erkunden, Küstenwanderung, Surf-Schnupperstunde, Altstadt von Ribadeo.",
@@ -553,13 +553,13 @@ REISEN.marokko = {
       ersatzsuche: "San Sebastian|Donostia",
       land: "es",
       region: "Baskenland",
-      datum: "18.–20. Juli",
-      naechte: "2 Nächte",
+      datum: "17.–20. Juli",
+      naechte: "3 Nächte",
       anreise: "Mit dem Auto von Ribadeo entlang der Nordküste über Oviedo, Santander und Bilbao nach San Sebastián (ca. 5 Std., ca. 480 km); Halt in Bilbao beim Guggenheim-Museum möglich.",
       text: "Elegante Stadt an einer muschelförmigen Bucht mit Stadtstrand, Altstadt voller Pintxos-Bars und zwei Aussichtsbergen. Nach der Hitze im Süden ist es hier grün und angenehm.",
       teens: "Baden an der Playa de la Concha, Surfstunde an der Zurriola, Standseilbahn auf den Monte Igueldo mit altem Freizeitpark, Aquarium, Pintxos am Abend, Ausflug nach Bilbao ins Guggenheim.",
       fakten: [
-        "<strong>Dauer:</strong> 2 Nächte: ein Tag Strand und Altstadt, ein Tag Surfen, Küstenwanderung oder Ausflug nach Biarritz (ca. 45 Min.).",
+        "<strong>Dauer:</strong> 3 Nächte: ein Tag Strand und Altstadt, ein Tag Surfen oder Küstenwanderung, ein Tag Bilbao (ca. 1,25 Std.) oder Biarritz (ca. 45 Min.).",
         "<strong>Wetter:</strong> Meist 22–26 °C, Atlantik ca. 20–22 °C, Regenschauer möglich.",
         "<strong>Auto:</strong> Parkhaus beim Hotel; in der Stadt zu Fuss, mit Bus oder Velo."
       ],
@@ -690,10 +690,10 @@ REISEN.marokko = {
       ["10. Cádiz (2)", "600–1’000"],
       ["11. Sevilla (2)", "650–1’050"],
       ["12. Algarve (3)", "900–1’500"],
-      ["13. Lissabon (3)", "1’000–1’700"],
+      ["13. Lissabon (2)", "700–1’150"],
       ["Zwischenübernachtung Porto (1)", "250–400"],
       ["14. Playa de las Catedrales (2)", "550–900"],
-      ["15. San Sebastián (2)", "750–1’200"],
+      ["15. San Sebastián (3)", "1’100–1’800"],
       ["16. Carcassonne (2)", "550–900"],
       ["17. Avignon (2)", "550–900"]
     ],
