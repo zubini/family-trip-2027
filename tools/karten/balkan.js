@@ -6,7 +6,7 @@ module.exports = {
   projektion: 'eq', parallel: 42.5, laenge: [7.3, 22.5], breitengrad: [38.3, 47.0], breite: 1000, klein: true,
   laender: ['CHE', 'ITA', 'SVN', 'HRV', 'MNE', 'ALB', 'GRC'],
   orte, wege, stationen,
-  zwischenstopps: [['Brig-Glis', 'BR', 0], ['Venedig', 'VE', 0], ['Shkodër', 'SH', 0]],
+  zwischenstopps: [['Brig-Glis', 'BR', 0], ['Gardasee', 'SIR', 0]],
   umstiege: [['Igoumenitsa', 'IG', 'r'], ['Bari', 'BA', 'l']],
   beschriftungen: [
     ['Schweiz', 46.85, 8.4, 'cn'], ['Italien', 43.4, 11.7, 'cn'], ['Österreich', 46.9, 13.6, 'cn'], ['Slowenien', 46.15, 14.9, 'cn'],

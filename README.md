@@ -5,7 +5,7 @@
 Reiseführer und Variantenvergleich für die Familienreise 2027 (ab 18. Juni, 2 Erwachsene und 2 Kids) mit fünf Varianten:
 
 - **Spanien / Portugal**: mit dem eigenen Auto ab Brig-Glis, zu den Balearen mit der Autofähre, ohne Flug (bis 24. Juli)
-- **Adria-Rundreise**: mit dem eigenen Auto über Kroatien, Montenegro, Albanien und Griechenland, mit der Fähre nach Bari und an der Ostküste Italiens zurück (bis 24. Juli)
+- **Adria-Rundreise**: mit dem eigenen Auto über Slowenien, Kroatien, Montenegro, Albanien und Griechenland, mit der Fähre nach Bari und an der Ostküste Italiens zurück (bis 24. Juli)
 - **USA (Las Vegas – New York)** (bis 22. Juli)
 - **USA (Las Vegas – Miami – New York)**: Nationalparks im Südwesten, Inlandflug nach Miami, Roadtrip bis Washington, mit dem Zug nach New York (bis 22. Juli)
 - **Malaysia / Thailand**: von Singapur nach Bangkok (bis 22. Juli)

@@ -48,22 +48,22 @@ window.START = {
       name: "Adria-Rundreise",
       zusatz: "Roadtrip ab Brig-Glis",
       passt: "ihr ohne Flug reisen, viele Länder mit Altstädten, Strand und Natur verbinden möchtet und Grenzen, Hitze und einfache Strassen in Albanien in Kauf nehmt.",
-      kurz: "Fünf Wochen mit dem eigenen Elektroauto rund um die Adria: Istrien, Plitvicer Seen, Dalmatien, Montenegro, die albanische Riviera, Meteora und Lefkada, mit der Nachtfähre nach Apulien und an der Ostküste Italiens zurück.",
-      route: "Brig-Glis, Venedig, Rovinj, Plitvicer Seen, Split, Hvar, Dubrovnik, Kotor, Shkodër, Berat, Himarë, Ksamil, Meteora, Lefkada, Igoumenitsa, Bari, Polignano a Mare, Vieste, Rimini, Brig-Glis",
-      stationen: "14 Stationen, 2 Zwischenübernachtungen und 1 Nacht auf der Fähre",
+      kurz: "Fünf Wochen mit dem eigenen Elektroauto rund um die Adria: Ljubljana und Bled, Plitvicer Seen, Dalmatien, Montenegro, Tirana, Berat und die albanische Riviera, Meteora und Lefkada, mit der Nachtfähre nach Apulien und über den Gargano nach Bologna.",
+      route: "Brig-Glis, Gardasee, Ljubljana und Bled, Plitvicer Seen, Split, Hvar, Dubrovnik, Kotor, Tirana, Berat, Himarë, Ksamil, Meteora, Lefkada, Igoumenitsa, Bari, Polignano a Mare, Vieste, Bologna, Brig-Glis",
+      stationen: "15 Stationen, 1 Zwischenübernachtung und 1 Nacht auf der Fähre",
       laender: "Italien, Slowenien, Kroatien, Montenegro, Albanien, Griechenland",
-      hinflug: "Kein Flug: mit dem eigenen Auto über den Simplon, Zwischenstopp in Venedig (ca. 4,75–5,25 Std.), dann nach Istrien (ca. 3 Std.)",
-      rueckflug: "Mit dem Auto ab Rimini über den Simplon (ca. 5,25–5,75 Std.), Ankunft Sa, 24.07.2027",
+      hinflug: "Kein Flug: mit dem eigenen Auto über den Simplon, Zwischenstopp am Gardasee (ca. 3,5–4 Std.), dann nach Ljubljana (ca. 3,5–4 Std.)",
+      rueckflug: "Mit dem Auto ab Bologna über den Simplon (ca. 4,25–4,75 Std.), Ankunft Sa, 24.07.2027",
       dazwischen: "Keine Flüge: eigenes Elektroauto, dazu zwei kurze Autofähren in Kroatien und die Nachtfähre Igoumenitsa–Bari",
-      tempo: "Ca. 67 Std. reine Reisezeit (ca. 53 Std. Elektroauto für ca. 3’800 km und ca. 13–14 Std. Fähre), realistisch mit Pausen, Ladestopps, drei Grenzen und Check-in ca. 83–89 Std.; längste Fahrtage Rimini–Brig-Glis (ca. 5,25–5,75 Std.), Brig-Glis–Venedig (ca. 4,75–5,25 Std.), Gargano–Rimini (ca. 4,5–5 Std.), Hvar–Dubrovnik (ca. 4–5 Std. mit Fähre) und Ksamil–Meteora (ca. 4–4,5 Std. plus Grenze); sonst meist 1,5–3,5 Std.",
+      tempo: "Ca. 67 Std. reine Reisezeit (ca. 53 Std. Elektroauto für ca. 3’900 km und ca. 13–14 Std. Fähre), realistisch mit Pausen, Ladestopps, drei Grenzen und Check-in ca. 83–89 Std.; längste Fahrtage Gargano–Bologna (ca. 5,5–6 Std.), Bologna–Brig-Glis (ca. 4,25–4,75 Std.), Hvar–Dubrovnik (ca. 4–5 Std. mit Fähre), Ksamil–Meteora (ca. 4–4,5 Std. plus Grenze) und Kotor–Tirana (ca. 3,75–4,25 Std. plus Grenze); sonst meist 1,5–3,5 Std.",
       gesamt: "Ca. 83–89 Std. Tür zu Tür, ohne Flughafen und ohne Jetlag: davon realistisch ca. 65–70 Std. im Elektroauto inklusive Ladestopps und drei Grenzen ausserhalb des Schengen-Raums (ca. 53 Std. reine Fahrzeit) und ca. 17–19 Std. für die Fähren inklusive Check-in, davon eine Nacht in der Kabine. Uhr +1 Std. in Griechenland.",
-      wetter: "Heiss: an den Küsten 28–33 °C, im Landesinneren (Berat, Meteora, Matera) oft 35–40 °C, bei den Plitvicer Seen angenehmer; Meer ca. 24–26 °C.",
+      wetter: "Heiss: an den Küsten 28–33 °C, im Landesinneren (Tirana, Berat, Meteora, Matera, Bologna) oft 35–40 °C; in Slowenien und bei den Plitvicer Seen angenehmer. Meer ca. 24–26 °C.",
       einreise: "Montenegro und Albanien sind nicht im Schengen-Raum: drei Grenzen mit Passkontrolle und im Sommer Wartezeiten, Identitätskarte oder Pass genügt. Grüne Versicherungskarte für Montenegro und Albanien, E-Vignette Slowenien, elektronische Maut in Kroatien ab März 2027.",
-      hoehepunkte: "Rovinj, Plitvicer Seen, Diokletianpalast in Split, Pakleni-Inseln bei Hvar, Stadtmauer von Dubrovnik, Bucht von Kotor, Berat, Strände der albanischen Riviera und von Ksamil, Meteora, Lefkada, Trulli von Alberobello und Matera, Meeresgrotten am Gargano, San Marino.",
-      teens: "Holzstege über die Plitvicer Seen, Kajak um Dubrovnik, Game-of-Thrones-Drehorte, Schnorcheln an der Riviera und auf Lefkada, Klöster auf Felsen, Bootstouren in Meeresgrotten, Freizeitparks bei Rimini.",
+      hoehepunkte: "Ljubljana und Bleder See, Plitvicer Seen, Diokletianpalast in Split, Pakleni-Inseln bei Hvar, Stadtmauer von Dubrovnik, Bucht von Kotor, Tirana, Berat, Strände der albanischen Riviera und von Ksamil, Meteora, Lefkada, Trulli von Alberobello und Matera, Meeresgrotten am Gargano, Bologna.",
+      teens: "Holzstege über die Plitvicer Seen und durch die Vintgar-Klamm, Kajak um Dubrovnik, Game-of-Thrones-Drehorte, Atombunker in Tirana, Schnorcheln an der Riviera und auf Lefkada, Klöster auf Felsen, Bootstouren in Meeresgrotten.",
       pro: [
         "Kein Flug und kein Jetlag, Tür zu Tür ca. 83–89 Std.; meist kurze Etappen von 1,5–3,5 Std., nur eine Nachtfähre",
-        "Sechs Länder und viel Abwechslung: Altstädte, Nationalparks, Inselbuchten, Albanien abseits der bekannten Ziele, Klöster von Meteora und Apulien",
+        "Sechs Länder und viel Abwechslung: Städte (Ljubljana, Split, Dubrovnik, Tirana, Bologna), Nationalparks, Inselbuchten, Albanien abseits der bekannten Ziele, Klöster von Meteora und Apulien",
         "Sehr klares Wasser zum Schnorcheln an vielen Stationen (Hvar, albanische Riviera, Ksamil, Lefkada, Gargano)",
         "Günstig (ca. {plan:balkan} CHF), weil Albanien deutlich weniger kostet als Kroatien und Italien; wenig CO₂"
       ],
@@ -172,7 +172,7 @@ window.START = {
       ],
       balkan: [
         4,
-        "Plitvicer Seen, Pakleni-Inseln, Bucht von Kotor, Steilküste der albanischen Riviera, Quelle Syri i Kaltër, Felstürme von Meteora, Klippen von Lefkada und des Gargano; keine grossen Nationalparks wie in den USA."
+        "Bleder See, Plitvicer Seen, Pakleni-Inseln, Bucht von Kotor, Steilküste der albanischen Riviera, Quelle Syri i Kaltër, Felstürme von Meteora, Klippen von Lefkada und des Gargano; keine grossen Nationalparks wie in den USA."
       ],
       usa: [
         5,
@@ -249,7 +249,7 @@ window.START = {
       ],
       balkan: [
         3,
-        "Holzstege über die Plitvicer Seen, Kajak um Dubrovnik, Aufstieg zur Festung von Kotor, Pässe und Küstenstrassen in Albanien, Klöster von Meteora, Meeresgrotten am Gargano; eher Entdecken als Wildnis."
+        "Holzstege über die Plitvicer Seen und durch die Vintgar-Klamm, Kajak um Dubrovnik, Aufstieg zur Festung von Kotor, Pässe und Küstenstrassen in Albanien, Klöster von Meteora, Meeresgrotten am Gargano; eher Entdecken als Wildnis."
       ],
       usa: [4, "Durch die Narrows waten, Antelope Canyon, 2-Tage-Roadtrip und Cedar Point."],
       usa2: [
@@ -266,7 +266,7 @@ window.START = {
       ],
       balkan: [
         4,
-        "Venedig, Rovinj, Split, Dubrovnik, Kotor, Berat, Matera und San Marino: viele Altstädte und Unesco-Welterbe, aber kaum Grossstädte."
+        "Ljubljana, Split, Dubrovnik, Kotor, Tirana, Berat, Matera und Bologna: Hauptstädte und Altstädte, viele davon Unesco-Welterbe, aber keine Weltstädte wie Barcelona oder Lissabon."
       ],
       usa: [5, "Las Vegas, Chicago, Washington, Philadelphia und New York mit Museen und Aussichtsplattformen."],
       usa2: [
