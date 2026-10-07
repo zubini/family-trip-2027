@@ -10,7 +10,7 @@ REISEN.usa2 = {
   titelbild: {
     suche: "Seven Mile Bridge Florida Keys|Florida Keys aerial",
     stichwort: "seven mile|florida keys",
-    alt: "Seven Mile Bridge in den Florida Keys"
+    alt: "Overseas Highway in den Florida Keys"
   },
   planIntro: "Abflug ab Zürich am Fr, 18.06.2027 nach Miami, Rückflug ab Las Vegas am Do, 22.07.2027. Ein Klick auf eine Station springt zur Beschreibung.",
   hinflug: {
