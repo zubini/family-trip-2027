@@ -181,7 +181,7 @@ function gruppe(k, alle) {
 function varianten(k, alle) {
   var ks = gruppe(k, alle);
   if (ks.length < 2) return '';
-  return '<p class="var" role="group" aria-label="Variante"><span>Reihenfolge:</span>' + liste(ks, function (x) {
+  return '<p class="var" role="group" aria-label="Variante"><span>Variante:</span>' + liste(ks, function (x) {
     return '<a href="#' + x + '"' + (x === k ? ' class="on" aria-current="true"' : '') + '>' + alle[x].variante + '</a>';
   }) + '</p>';
 }

@@ -70,6 +70,26 @@ window.QUELLEN = {
       ]
     },
     {
+      titel: "USA-Variante Miami–Las Vegas",
+      links: [
+        ["Flightmapper: SWISS LX 64 Zürich–Miami (täglich, ca. 10,5 Std.)", "https://info.flightmapper.net/flight/Swiss_LX_64"],
+        ["Flightmapper: Edelweiss WK 3 Las Vegas–Zürich (nur einzelne Wochentage)", "https://info.flightmapper.net/flight/Edelweiss_Air_WK_3"],
+        ["Enterprise: Roadtrip Miami–Key West (ca. 160 Meilen, ca. 4 Std.)", "https://www.enterprise.com/en/road-trips/destinations/florida/miami-to-key-west-5-days.html"],
+        ["Sixt: Key Largo–Key West (ca. 98 Meilen, ca. 2 Std.)", "https://www.sixt.com/magazine/road-trips/key-largo-to-key-west-road-trip/"],
+        ["Rome2rio: Key Largo–Orlando (ca. 275 Meilen)", "https://www.rome2rio.com/s/Key-Largo/Orlando"],
+        ["Rome2rio: Destin–Orlando (ca. 385 Meilen)", "https://www.rome2rio.com/s/Destin/Epcot-Center"],
+        ["LazyTrips: Roadtrip New Orleans–Destin (über die Interstate 10)", "https://lazytrips.com/trip/road-trip-from-new-orleans-to-destin"],
+        ["Rome2rio: New Orleans–Houston (ca. 348 Meilen)", "https://www.rome2rio.com/s/Tulane-University/Houston"],
+        ["Visit Big Bend: Fahrt ab San Antonio über Fort Stockton", "https://visitbigbend.com/drive-san-antonio/"],
+        ["iRV2: Fort Stockton–Carlsbad Caverns über die US-285", "https://www.irv2.com/forums/f38/carlsbad-caverns-travel-from-fort-stockton-272235.html"],
+        ["CS Ginger: Carlsbad Caverns–White Sands über Cloudcroft", "https://csginger.com/carlsbad-caverns-to-white-sands/"],
+        ["NPS: Carlsbad Caverns, Zeitfenster-Reservation und Eintritt", "https://home.nps.gov/cave/planyourvisit/fees.htm"],
+        ["Dry Tortugas: Fähre Yankee Freedom ab Key West", "https://www.drytortugas.com/web/"],
+        ["Expedia: Schnorcheltour im John Pennekamp Coral Reef State Park", "https://www.expedia.com/things-to-do/a.a50979550.activity-details"],
+        ["Hola Car Rentals: Einwegmieten in den USA, Rückgabegebühren", "https://holacarrentals.com/es/blogs/car-rental-united-states/one-way-rentals-explained-drop-fees-rules-and-how-to-save"]
+      ]
+    },
+    {
       titel: "Bewertung: Reisezeit und CO₂",
       links: [
         ["Trainline: Zürich Flughafen–Brig mit dem Zug (ca. 2,5 Std.)", "https://thetrainline.com/train-times/zurich-to-brig"],

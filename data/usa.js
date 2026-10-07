@@ -5,6 +5,7 @@ window.REISEN = window.REISEN || {};
 REISEN.usa = {
   titel: "Von Las Vegas nach New York",
   menu: "USA",
+  variante: "Las Vegas – New York",
   untertitel: "Fünf Wochen quer durch die USA: Nationalparks im Südwesten, Chicago und die Grossen Seen, Niagarafälle, Washington und New York.",
   zeitraum: "Fr, 18.06.2027 bis Do, 22.07.2027, 2 Erwachsene und 2 Kids",
   titelbild: {

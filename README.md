@@ -20,6 +20,7 @@ data/             die Inhalte, hier wird fast alles geändert
   start.js        Einstiegsseite: Texte, Bewertung, Pro und Contra
   spanien.js      Spanien / Portugal (mit dem eigenen Auto ab Brig-Glis)
   usa.js          USA (Las Vegas–New York)
+  usa2.js         USA-Variante Miami–Las Vegas (Umschalter auf der USA-Seite)
   asien.js        Malaysia / Thailand (Singapur–Bangkok)
   quellen.js      Seite «Quellen» (Belege für Fahrzeiten, Einreise, Bilder)
   bilder-unsplash.js  Unsplash-Fotos (erzeugt von tools/bilder-unsplash.js)

@@ -48,7 +48,7 @@ window.START = {
       name: "USA",
       zusatz: "von Las Vegas nach New York",
       passt: "Nationalparks, Roadtrip und Grossstädte im Vordergrund stehen und das höhere Budget (rund {mehrkosten} CHF mehr) passt.",
-      kurz: "Fünf Wochen quer durch die USA mit Nationalparks, Grossen Seen und Grossstädten.",
+      kurz: "Fünf Wochen quer durch die USA mit Nationalparks, Grossen Seen und Grossstädten. Auf der Reiseseite auch als Variante von Miami über die Florida Keys nach Las Vegas.",
       route: "Las Vegas, Zion, Page, Grand Canyon, Monument Valley, Santa Fe, White Sands, Chicago, Sandusky, Niagara Falls, Washington, Philadelphia, New York",
       stationen: "13 Stationen und 1 Zwischenübernachtung",
       laender: "USA (Nevada bis New York)",
