@@ -80,10 +80,8 @@
 <polyline points="225.7,23.6 264.3,26.8 310.7,39.4 385.7,34.0 457.1,30.4 518.9,48.0 557.1,45.6 587.1,42.9" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Ribadeo – Nordküste – Bilbao – San Sebastián</title></polyline>
 <polyline points="587.1,42.9 623.6,27.7 702.1,44.7 733.6,51.0 831.4,17.9 896.6,52.5" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
 <polyline points="587.1,42.9 623.6,27.7 702.1,44.7 733.6,51.0 831.4,17.9 896.6,52.5" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: San Sebastián – Bayonne – Toulouse – Carcassonne</title></polyline>
-<polyline points="896.6,52.5 943.1,55.1 958.6,41.1 1005.5,16.9 1040.0,-3.6 1072.1,-13.4" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
-<polyline points="896.6,52.5 943.1,55.1 958.6,41.1 1005.5,16.9 1040.0,-3.6 1072.1,-13.4" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Carcassonne – Narbonne – Montpellier – Avignon</title></polyline>
-<polyline points="1072.1,-13.4 1072.1,-30.2 1078.0,-101.3 1074.0,-175.7 1110.7,-192.3 1142.9,-196.8 1167.4,-215.0 1196.4,-237.0 1217.9,-230.8 1233.6,-205.7 1299.1,-225.0" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
-<polyline points="1072.1,-13.4 1072.1,-30.2 1078.0,-101.3 1074.0,-175.7 1110.7,-192.3 1142.9,-196.8 1167.4,-215.0 1196.4,-237.0 1217.9,-230.8 1233.6,-205.7 1299.1,-225.0" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Avignon – Lyon – Genf – Brig-Glis</title></polyline>
+<polyline points="896.6,52.5 943.1,55.1 958.6,41.1 1005.5,16.9 1040.0,-3.6 1072.1,-30.2 1078.0,-101.3 1074.0,-175.7 1110.7,-192.3 1142.9,-196.8 1167.4,-215.0 1196.4,-237.0 1217.9,-230.8 1233.6,-205.7 1299.1,-225.0" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="896.6,52.5 943.1,55.1 958.6,41.1 1005.5,16.9 1040.0,-3.6 1072.1,-30.2 1078.0,-101.3 1074.0,-175.7 1110.7,-192.3 1142.9,-196.8 1167.4,-215.0 1196.4,-237.0 1217.9,-230.8 1233.6,-205.7 1299.1,-225.0" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Carcassonne – Narbonne – Montpellier – Lyon – Genf – Brig-Glis</title></polyline>
 <g><title>Zwischenübernachtung Porto</title><circle cx="113.6" cy="237.0" r="6" fill="#fff" stroke="#718096" stroke-width="2.5"/></g>
 <text class="tl" x="123.6" y="241.0">Porto</text>
 <g><title>Umstieg: Tanger</title><circle cx="313.6" cy="717.3" r="4.5" fill="#fff" stroke="#718096" stroke-width="2"/></g>
@@ -98,31 +96,31 @@
 <text class="sl" x="684.7" y="392.3" text-anchor="end">Valencia</text>
 <g><title>4. Formentera: Fr, 25.06.2027 – Di, 29.06.2027, 4 Nächte</title><circle cx="832.1" cy="455.7" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="832.1" y="459.9" text-anchor="middle">4</text></g>
 <text class="sl" x="849.1" y="460.7" text-anchor="start">Formentera</text>
-<g><title>5. Cabo de Gata: Di, 29.06.2027 – Do, 01.07.2027, 2 Nächte</title><circle cx="578.1" cy="629.2" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="578.1" y="633.4" text-anchor="middle">5</text></g>
+<g><title>5. Cabo de Gata: Di, 29.06.2027 – Fr, 02.07.2027, 3 Nächte</title><circle cx="578.1" cy="629.2" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="578.1" y="633.4" text-anchor="middle">5</text></g>
 <text class="sl" x="595.1" y="634.2" text-anchor="start">Cabo de Gata</text>
-<g><title>6. Caminito del Rey: Do, 01.07.2027 – Fr, 02.07.2027, 1 Nacht</title><circle cx="388.6" cy="616.6" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="388.6" y="620.8" text-anchor="middle">6</text></g>
+<g><title>6. Caminito del Rey: Fr, 02.07.2027 – Sa, 03.07.2027, 1 Nacht</title><circle cx="388.6" cy="616.6" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="388.6" y="620.8" text-anchor="middle">6</text></g>
 <text class="sl" x="388.6" y="598.6" text-anchor="middle">Caminito del Rey</text>
-<g><title>7. Tarifa: Fr, 02.07.2027 – Sa, 03.07.2027, 1 Nacht</title><circle cx="328.1" cy="696.5" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="328.1" y="700.7" text-anchor="middle">7</text></g>
+<g><title>7. Tarifa: Sa, 03.07.2027 – So, 04.07.2027, 1 Nacht</title><circle cx="328.1" cy="696.5" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="328.1" y="700.7" text-anchor="middle">7</text></g>
 <text class="sl" x="311.1" y="701.5" text-anchor="end">Tarifa</text>
-<g><title>8. Marrakesch: Sa, 03.07.2027 – Mo, 05.07.2027, 2 Nächte</title><circle cx="157.1" cy="1088.5" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="157.1" y="1092.7" text-anchor="middle">8</text></g>
+<g><title>8. Marrakesch: So, 04.07.2027 – Di, 06.07.2027, 2 Nächte</title><circle cx="157.1" cy="1088.5" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="157.1" y="1092.7" text-anchor="middle">8</text></g>
 <text class="sl" x="140.1" y="1093.5" text-anchor="end">Marrakesch</text>
-<g><title>9. Dadès: Mo, 05.07.2027 – Di, 06.07.2027, 1 Nacht</title><circle cx="303.6" cy="1106.4" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="303.6" y="1110.6" text-anchor="middle">9</text></g>
+<g><title>9. Dadès: Di, 06.07.2027 – Mi, 07.07.2027, 1 Nacht</title><circle cx="303.6" cy="1106.4" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="303.6" y="1110.6" text-anchor="middle">9</text></g>
 <text class="sl" x="303.6" y="1088.4" text-anchor="middle">Dadès</text>
-<g><title>10. Merzouga: Di, 06.07.2027 – Mi, 07.07.2027, 1 Nacht</title><circle cx="442.1" cy="1135.9" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="442.1" y="1140.1" text-anchor="middle">10</text></g>
+<g><title>10. Merzouga: Mi, 07.07.2027 – Do, 08.07.2027, 1 Nacht</title><circle cx="442.1" cy="1135.9" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="442.1" y="1140.1" text-anchor="middle">10</text></g>
 <text class="sl" x="459.1" y="1140.9" text-anchor="start">Merzouga</text>
-<g><title>11. Fès: Mi, 07.07.2027 – Fr, 09.07.2027, 2 Nächte</title><circle cx="371.4" cy="873.8" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="371.4" y="878.0" text-anchor="middle">11</text></g>
+<g><title>11. Fès: Do, 08.07.2027 – Sa, 10.07.2027, 2 Nächte</title><circle cx="371.4" cy="873.8" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="371.4" y="878.0" text-anchor="middle">11</text></g>
 <text class="sl" x="388.4" y="878.8" text-anchor="start">Fès</text>
-<g><title>12. Cádiz: Fr, 09.07.2027 – Sa, 10.07.2027, 1 Nacht</title><circle cx="279.3" cy="650.2" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="279.3" y="654.4" text-anchor="middle">12</text></g>
+<g><title>12. Cádiz: Sa, 10.07.2027 – So, 11.07.2027, 1 Nacht</title><circle cx="279.3" cy="650.2" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="279.3" y="654.4" text-anchor="middle">12</text></g>
 <text class="sl" x="262.3" y="655.2" text-anchor="end">Cádiz</text>
-<g><title>13. Sevilla: Sa, 10.07.2027 – Mo, 12.07.2027, 2 Nächte</title><circle cx="301.1" cy="573.4" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="301.1" y="577.6" text-anchor="middle">13</text></g>
+<g><title>13. Sevilla: So, 11.07.2027 – Di, 13.07.2027, 2 Nächte</title><circle cx="301.1" cy="573.4" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="301.1" y="577.6" text-anchor="middle">13</text></g>
 <text class="sl" x="301.1" y="555.4" text-anchor="middle">Sevilla</text>
-<g><title>14. Algarve: Mo, 12.07.2027 – Do, 15.07.2027, 3 Nächte</title><circle cx="109.3" cy="599.2" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="109.3" y="603.4" text-anchor="middle">14</text></g>
+<g><title>14. Algarve: Di, 13.07.2027 – Fr, 16.07.2027, 3 Nächte</title><circle cx="109.3" cy="599.2" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="109.3" y="603.4" text-anchor="middle">14</text></g>
 <text class="sl" x="109.3" y="626.2" text-anchor="middle">Algarve</text>
-<g><title>15. Lissabon: Do, 15.07.2027 – Sa, 17.07.2027, 2 Nächte</title><circle cx="75.8" cy="454.2" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="75.8" y="458.4" text-anchor="middle">15</text></g>
+<g><title>15. Lissabon: Fr, 16.07.2027 – So, 18.07.2027, 2 Nächte</title><circle cx="75.8" cy="454.2" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="75.8" y="458.4" text-anchor="middle">15</text></g>
 <text class="sl" x="58.8" y="459.2" text-anchor="end">Lissabon</text>
-<g><title>16. Catedrales: So, 18.07.2027 – Di, 20.07.2027, 2 Nächte</title><circle cx="225.7" cy="23.6" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="225.7" y="27.8" text-anchor="middle">16</text></g>
+<g><title>16. Catedrales: Mo, 19.07.2027 – Mi, 21.07.2027, 2 Nächte</title><circle cx="225.7" cy="23.6" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="225.7" y="27.8" text-anchor="middle">16</text></g>
 <text class="sl" x="225.7" y="5.6" text-anchor="middle">Catedrales</text>
-<g><title>17. San Sebastián: Di, 20.07.2027 – Do, 22.07.2027, 2 Nächte</title><circle cx="587.1" cy="42.9" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="587.1" y="47.1" text-anchor="middle">17</text></g>
+<g><title>17. San Sebastián: Mi, 21.07.2027 – Fr, 23.07.2027, 2 Nächte</title><circle cx="587.1" cy="42.9" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="587.1" y="47.1" text-anchor="middle">17</text></g>
 <text class="sl" x="587.1" y="24.9" text-anchor="middle">San Sebastián</text>
 <text class="fl" x="971.4" y="35.8" text-anchor="end">Hin- und Rückfahrt Brig-Glis ↗</text>
 </svg>

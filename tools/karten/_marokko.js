@@ -35,12 +35,11 @@ const wege = [
   ['car', 'Porto – Braga – Lugo – Ribadeo', weg('Porto – Braga – Lugo – Ribadeo')],
   ['car', 'Ribadeo – Nordküste – Bilbao – San Sebastián', weg('Ribadeo – Nordküste – Bilbao').concat([[43.29, -2.4], 'SS'])],
   ['car', 'San Sebastián – Bayonne – Toulouse – Carcassonne', ['SS', 'BAY', 'PAU', [43.23, 0.07], 'TOU', 'CA']],
-  ['car', 'Carcassonne – Narbonne – Montpellier – Avignon', ['CA', 'NB', [43.34, 3.22], 'MP', 'NIM', 'AVI']],
-  ['car', 'Avignon – Lyon – Genf – Brig-Glis', ['AVI', 'OR', 'VA', 'LY', [45.95, 5.35], [46.0, 5.8], 'GE', [46.45, 6.55], [46.38, 6.85], 'MA', 'BR']]
+  ['car', 'Carcassonne – Narbonne – Montpellier – Lyon – Genf – Brig-Glis', ['CA', 'NB', [43.34, 3.22], 'MP', 'NIM', 'OR', 'VA', 'LY', [45.95, 5.35], [46.0, 5.8], 'GE', [46.45, 6.55], [46.38, 6.85], 'MA', 'BR']]
 ];
 const stationen = [
   [1, 'ES', 'l', 'Costa Brava'], [2, 'BC', 'l'], [3, 'VAL', 'l'], [4, 'FO', 'r'], [5, 'SJ', 'r'], [6, 'EC', 'u', 'Caminito del Rey'], [7, 'TAR', 'l'],
   [8, 'RAK', 'l'], [9, 'DAD', 'u', 'Dadès'], [10, 'MRZ', 'r'], [11, 'FES', 'r'], [12, 'CAD', 'l'], [13, 'SV', 'u'], [14, 'LAG', 'd', 'Algarve'],
-  [15, 'LI', 'l'], [16, 'RI', 'u', 'Catedrales'], [17, 'SS', 'u'], [18, 'CA', 'u'], [19, 'AVI', 'u']
+  [15, 'LI', 'l'], [16, 'RI', 'u', 'Catedrales'], [17, 'SS', 'u'], [18, 'CA', 'u']
 ];
 module.exports = { orte, wege, stationen };
