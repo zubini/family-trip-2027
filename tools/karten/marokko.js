@@ -2,7 +2,7 @@
 const { orte, wege, stationen } = require('./_marokko.js');
 module.exports = {
   reise: 'marokko',
-  titel: 'Übersichtskarte der Reiseroute mit dem eigenen Auto von Brig-Glis nach Spanien, Marokko und Portugal',
+  titel: 'Übersichtskarte der Reiseroute mit dem eigenen Auto von Brig-Glis nach Spanien, Marokko und Portugal, in Marokko mit dem Zug',
   projektion: 'eq', parallel: 38, laenge: [-10.5, 9.5], breitengrad: [30.4, 47.0], breite: 1000, klein: true,
   laender: ['ESP', 'PRT', 'FRA', 'CHE', 'MAR'],
   orte, wege, stationen,

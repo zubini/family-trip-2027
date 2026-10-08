@@ -4,7 +4,7 @@
 
 Reiseführer und Variantenvergleich für die Familienreise 2027 (Sa, 19. Juni bis Sa, 24. Juli, 2 Erwachsene und 2 Kids) mit drei Varianten:
 
-- **Spanien / Portugal / Marokko**: mit dem eigenen Auto ab Brig-Glis, rund sechs Tage Marokko mit Fähre, Zug und Mietwagen; als Variante in Marokko nur mit dem Zug bis Marrakesch
+- **Spanien / Portugal / Marokko**: mit dem eigenen Auto ab Brig-Glis, sechs Nächte Marokko nur mit Fähre und Zug (Casablanca, Marrakesch, Agafay-Wüste, Fès)
 - **USA (Las Vegas – New York)**: Nationalparks, Roadtrip nach Chicago und an die Ostküste
 - **Malaysia / Thailand**: von Singapur nach Bangkok
 
@@ -18,8 +18,7 @@ Reines HTML, CSS und JavaScript, ohne Build-Schritt. Was im Repo liegt, ist die 
 index.html        Seitengerüst
 data/             die Inhalte, hier wird fast alles geändert
   start.js        Einstiegsseite: Texte, Bewertung, Pro und Contra
-  marokko.js      Spanien / Portugal / Marokko (eigenes Auto, Marokko mit Fähre und Mietwagen)
-  marokko2.js     Variante: in Marokko nur mit dem Zug bis Marrakesch
+  marokko.js      Spanien / Portugal / Marokko (eigenes Auto, Marokko mit Fähre und Zug)
   usa.js          USA (Las Vegas–New York)
   asien.js        Malaysia / Thailand (Singapur–Bangkok)
   quellen.js      Seite «Quellen» (Belege für Fahrzeiten, Einreise, Bilder)

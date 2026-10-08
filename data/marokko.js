@@ -1,19 +1,18 @@
-// Reise: Spanien, Portugal und Marokko mit dem eigenen Auto ab Brig-Glis; in Marokko mit Fähre, Zug und Mietwagen (eigenes Auto bleibt in Tarifa)
+// Reise: Spanien, Portugal und Marokko mit dem eigenen Auto ab Brig-Glis; in Marokko ohne Auto mit Fähre und Zug (eigenes Auto bleibt in Tarifa)
 // Daten in "datum" ohne Wochentag schreiben (z.B. "19.–22. Juni"), die Wochentage rechnet js/app.js aus.
 // Texte dürfen einfaches HTML enthalten (<b>, <strong>, <i>).
 window.REISEN = window.REISEN || {};
 REISEN.marokko = {
   titel: "Mit dem Auto nach Spanien, Portugal und Marokko",
   menu: "Spanien / Marokko",
-  variante: "Mit Mietwagen bis in die Sahara",
-  untertitel: "Fünf Wochen ab Brig-Glis: Schnorcheln bei den Medes-Inseln, Barcelona, Valencia, vier Nächte auf Formentera, Benidorm, Cabo de Gata und der Caminito del Rey, mit der Fähre nach Marokko zu Marrakesch, Atlas, Wüste und Fès, dann Sevilla, Algarve, Lissabon, die Playa de las Catedrales und über San Sebastián und Carcassonne zurück.",
+  untertitel: "Fünf Wochen ab Brig-Glis: Schnorcheln bei den Medes-Inseln, Barcelona, Valencia, vier Nächte auf Formentera, Benidorm, Cabo de Gata und der Caminito del Rey, mit Fähre und Zug nach Casablanca, Marrakesch, in die Agafay-Wüste und nach Fès, dann Sevilla, Algarve, Lissabon, die Playa de las Catedrales und über San Sebastián und Carcassonne zurück.",
   zeitraum: "Sa, 19.06.2027 bis Sa, 24.07.2027, 2 Erwachsene und 2 Kids",
   titelbild: {
-    suche: "Erg Chebbi dunes camel caravan|Sahara Merzouga dunes",
-    stichwort: "chebbi|merzouga|sahara|camel",
-    alt: "Sanddünen des Erg Chebbi bei Merzouga"
+    suche: "Jemaa el-Fnaa Marrakech evening|Koutoubia Mosque Marrakech sunset",
+    stichwort: "jemaa|fna|koutoubia|marrakech",
+    alt: "Platz Jemaa el-Fna in Marrakesch am Abend"
   },
-  planIntro: "Abfahrt in Brig-Glis am Sa, 19.06.2027, Rückkehr am Sa, 24.07.2027. Mit dem eigenen Elektroauto durch Spanien, Portugal und Frankreich, nach Formentera mit der Autofähre; nach Marokko mit der Fähre ohne Auto, dort mit dem Zug und einem Mietwagen. Ein Klick auf eine Station springt zur Beschreibung.",
+  planIntro: "Abfahrt in Brig-Glis am Sa, 19.06.2027, Rückkehr am Sa, 24.07.2027. Mit dem eigenen Elektroauto durch Spanien, Portugal und Frankreich, nach Formentera mit der Autofähre; nach Marokko mit der Fähre ohne Auto, dort nur mit dem Zug: hin über Casablanca, zurück über Fès, ohne Mietwagen. Ein Klick auf eine Station springt zur Beschreibung.",
   hinflug: {
     datum: "19. Juni",
     name: "Abfahrt in Brig-Glis",
@@ -60,28 +59,18 @@ REISEN.marokko = {
     },
     {datum: "4.–5. Juli", name: "8. Tarifa", naechte: 1, info: "Auto über Málaga (ca. 2,25–2,5 Std., ca. 210 km)"},
     {
-      datum: "5.–7. Juli",
-      name: "9. Marrakesch",
-      naechte: 2,
-      info: "Fähre nach Tanger (ca. 1 Std., Uhr −1 Std.), Zug über Casablanca (ca. 5,5–6,5 Std.)"
-    },
-    {
-      datum: "7.–8. Juli",
-      name: "10. Dadès-Schlucht",
+      datum: "5.–6. Juli",
+      name: "9. Casablanca",
       naechte: 1,
-      info: "Mietwagen über den Tizi n’Tichka und Aït Ben Haddou (ca. 5–6 Std., ca. 310 km)"
+      info: "Fähre nach Tanger (ca. 1 Std., Uhr −1 Std.), Al Boraq nach Casablanca (ca. 2,25 Std.)"
     },
+    {name: "10. Marrakesch", naechte: 2, info: "Zug (ca. 2,5–3 Std.)", datum: "6.–8. Juli"},
+    {name: "11. Agafay-Wüste", naechte: 1, info: "Transfer (ca. 40–60 Min.)", datum: "8.–9. Juli"},
     {
-      datum: "8.–9. Juli",
-      name: "11. Merzouga (Wüste)",
-      naechte: 1,
-      info: "Mietwagen über Tinghir (ca. 4 Std., ca. 250 km)"
-    },
-    {
-      datum: "9.–11. Juli",
       name: "12. Fès",
       naechte: 2,
-      info: "Mietwagen über Midelt und Ifrane (ca. 7 Std., ca. 460 km)"
+      info: "Transfer und Zug über Casablanca und Rabat (ca. 6,5–7,5 Std.; wenige durchgehende Züge)",
+      datum: "9.–11. Juli"
     },
     {
       datum: "11.–12. Juli",
@@ -130,23 +119,23 @@ REISEN.marokko = {
   planHinweise: [
     [
       "Gesamt",
-      "35 Nächte, 19 Stationen und 2 Zwischenübernachtungen (Sète, Porto). Keine Flüge: mit dem eigenen Elektroauto ca. 5’600 km (ca. 59 Std. reine Fahrzeit), in Marokko mit dem Mietwagen ca. 1’000 km (ca. 16–17 Std.), dazu die Autofähre nach Formentera und zurück (zusammen ca. 4–6 Std.), zweimal die Fähre über die Meerenge (je ca. 1 Std.) und Züge zwischen Tanger, Marrakesch und Fès (zusammen ca. 9–11 Std.). Mit Pausen, Ladestopps, Check-in an den Häfen, Grenz- und Passkontrollen, Umsteigen und Stau realistisch ca. 108–114 Std. von Tür zu Tür (ca. 86–90 Std. im Auto, ca. 22–24 Std. für Fähren und Züge mit Wartezeiten). Die längsten Reisetage: Brig-Glis–Sète (ca. 7–7,5 Std.), Merzouga–Fès (ca. 7 Std. im Mietwagen), Fès–Cádiz und Tarifa–Marrakesch (Fähre und Zug, je ca. 7–9 Std.), Carcassonne–Brig-Glis (ca. 7,5–8 Std., mit Pausen und Ladestopps ca. 9 Std.)."
+      "35 Nächte, 19 Stationen und 2 Zwischenübernachtungen (Sète, Porto). Keine Flüge: mit dem eigenen Elektroauto ca. 5’600 km (ca. 59 Std. reine Fahrzeit), dazu die Autofähre nach Formentera und zurück (zusammen ca. 4–6 Std.), zweimal die Fähre über die Meerenge (je ca. 1 Std.) und in Marokko nur Züge: Tanger–Casablanca, Casablanca–Marrakesch, Marrakesch–Fès und Fès–Tanger (zusammen ca. 15–17 Std.), dazu Transfers in die Agafay-Wüste (zusammen ca. 1,5–2 Std.). Mit Pausen, Ladestopps, Check-in an den Häfen, Grenz- und Passkontrollen, Umsteigen und Stau realistisch ca. 96–103 Std. von Tür zu Tür (ca. 68–71 Std. im Auto, ca. 28–32 Std. für Fähren, Züge und Transfers mit Wartezeiten). Die längsten Reisetage: Brig-Glis–Sète (ca. 7–7,5 Std.), Agafay–Fès (Transfer und Zug, ca. 7,5–8,5 Std.), Fès–Cádiz (Zug und Fähre, ca. 7–9 Std.), Carcassonne–Brig-Glis (ca. 7,5–8 Std., mit Pausen und Ladestopps ca. 9 Std.)."
     ],
     [
       "Vorab buchen",
-      "Autofähre Dénia–Formentera hin und zurück (Direktfähren mit wenigen Abfahrten), Zufahrtsbewilligung fürs Auto auf Formentera, Unterkunft auf Formentera, Schnorcheltour zu den Medes-Inseln, Parkplatz für das eigene Auto in Tarifa (ca. eine Woche), Fähre Tarifa–Tanger hin und zurück, Zugtickets in Marokko (ONCF), Mietwagen als Einwegmiete Marrakesch–Fès, Riads in Marrakesch und Fès, Wüstencamp in Merzouga (im Sommer geöffnet und mit Klimaanlage?), Caminito del Rey (Zeitfenster), Sagrada Família, Oceanogràfic, Alcázar in Sevilla, Kajak an der Algarve, Unterkünfte in San Sebastián, Reservation für die Playa de las Catedrales (gratis, frühestens 30 Tage vorher)"
+      "Autofähre Dénia–Formentera hin und zurück (Direktfähren mit wenigen Abfahrten), Zufahrtsbewilligung fürs Auto auf Formentera, Unterkunft auf Formentera, Schnorcheltour zu den Medes-Inseln, Parkplatz für das eigene Auto in Tarifa (ca. eine Woche), Fähre Tarifa–Tanger hin und zurück, Zugtickets in Marokko (ONCF, 1. Klasse), Riads in Marrakesch und Fès, Camp in der Agafay-Wüste (mit Pool und Klimaanlage) samt Transfer, Caminito del Rey (Zeitfenster), Sagrada Família, Oceanogràfic, Alcázar in Sevilla, Kajak an der Algarve, Unterkünfte in San Sebastián, Reservation für die Playa de las Catedrales (gratis, frühestens 30 Tage vorher)"
     ],
     [
       "Auto und Laden",
-      "Tesla mit Gratis-Supercharging in Frankreich, Spanien und Portugal; die Tesla-Navigation plant die Ladestopps. Das eigene Auto fährt nicht nach Marokko: Es bleibt in Tarifa auf einem bewachten Parkplatz. Für den Mietwagen in Marokko Schweizer Führerausweis und internationalen Führerausweis mitnehmen. Crit’Air-Vignette für Frankreich, Umweltzone in Barcelona registrieren, elektronische Maut in Portugal. Auf Formentera gibt es keinen Supercharger: vor der Fähre voll laden, Unterkunft mit Lademöglichkeit buchen."
+      "Tesla mit Gratis-Supercharging in Frankreich, Spanien und Portugal; die Tesla-Navigation plant die Ladestopps. Das eigene Auto fährt nicht nach Marokko: Es bleibt in Tarifa auf einem bewachten Parkplatz. Crit’Air-Vignette für Frankreich, Umweltzone in Barcelona registrieren, elektronische Maut in Portugal. Auf Formentera gibt es keinen Supercharger: vor der Fähre voll laden, Unterkunft mit Lademöglichkeit buchen."
     ],
     [
       "Optional",
-      "Chefchaouen (blaue Stadt, eine Nacht mehr in Marokko), Volubilis und Meknès (ab Fès), Agafay-Wüste (ab Marrakesch, als Ausweichziel bei grosser Hitze), Córdoba (ab Sevilla), Sintra (ab Lissabon), Porto (am Zwischenhalt), Bilbao mit dem Guggenheim (zwischen Ribadeo und San Sebastián), Bilbao (ab San Sebastián), Pont du Gard und Avignon (mit einer Nacht mehr), Cabo de Palos mit den Islas Hormigas (Schnorcheln, Umweg zwischen Dénia und Cabo de Gata), Tagesausflug nach Ibiza ohne Auto (ab Formentera)"
+      "Rabat (Halt zwischen Tanger und Casablanca), Volubilis und Meknès (ab Fès), Chefchaouen (blaue Stadt, eine Nacht mehr in Marokko), Ourika-Tal im Atlas (ab Marrakesch), Córdoba (ab Sevilla), Sintra (ab Lissabon), Porto (am Zwischenhalt), Bilbao mit dem Guggenheim (zwischen Ribadeo und San Sebastián), Pont du Gard und Avignon (mit einer Nacht mehr), Cabo de Palos mit den Islas Hormigas (Schnorcheln, Umweg zwischen Dénia und Cabo de Gata), Tagesausflug nach Ibiza ohne Auto (ab Formentera)"
     ]
   ],
   karte: {
-    intro: "Ungefährer Verlauf der Fahrtwege: mit dem eigenen Auto ab Brig-Glis, nach Marokko mit der Fähre, dort mit Zug und Mietwagen. Darunter die Detailkarte.",
+    intro: "Ungefährer Verlauf der Fahrtwege: mit dem eigenen Auto ab Brig-Glis, nach Marokko mit der Fähre, dort nur mit dem Zug. Darunter die Detailkarte.",
     breit: true,
     legende: ["car", "ferry", "train"],
     karten: [
@@ -154,15 +143,15 @@ REISEN.marokko = {
       {titel: "Spanien, Portugal und Marokko im Detail (Stationen 1 bis 18)", datei: "karten/marokko-detail.svg"}
     ]
   },
-  abwechslungIntro: "Städte, Meer, Wüste und Berge wechseln sich ab: Schnorcheln bei den Medes-Inseln, Barcelona und Valencia, vier Nächte auf Formentera, das Cabo de Gata und der Caminito del Rey, eine Woche Marokko mit Medina, Atlas und Sahara, danach Sevilla, die Algarve, Lissabon, die Felsbögen der Playa de las Catedrales und zum Schluss das Baskenland und Carcassonne.",
+  abwechslungIntro: "Städte, Meer, Wüste und Berge wechseln sich ab: Schnorcheln bei den Medes-Inseln, Barcelona und Valencia, vier Nächte auf Formentera, das Cabo de Gata und der Caminito del Rey, sechs Nächte Marokko mit Casablanca, Marrakesch, der Agafay-Wüste und Fès, danach Sevilla, die Algarve, Lissabon, die Felsbögen der Playa de las Catedrales und zum Schluss das Baskenland und Carcassonne.",
   abwechslung: [
     [
       "Städte",
-      "Barcelona, Valencia, Benidorm, Marrakesch, Fès, Cádiz, Sevilla, Lissabon, Porto, San Sebastián und Carcassonne."
+      "Barcelona, Valencia, Benidorm, Casablanca, Marrakesch, Fès, Cádiz, Sevilla, Lissabon, Porto, San Sebastián und Carcassonne."
     ],
     [
       "Marokko",
-      "Gaukler auf dem Jemaa el-Fna, Souks, Pass über den Hohen Atlas, Lehmdorf Aït Ben Haddou, Dadès- und Todra-Schlucht, Kamelritt und Nacht im Wüstencamp, die Medina von Fès."
+      "Hassan-II.-Moschee am Atlantik, Gaukler auf dem Jemaa el-Fna, Souks, Kamelritt und Nacht im Zeltcamp in der Agafay-Wüste mit Blick auf den Atlas, die Medina von Fès; dazwischen lange Zugfahrten durchs Land."
     ],
     [
       "Strand und Meer",
@@ -170,11 +159,11 @@ REISEN.marokko = {
     ],
     [
       "Action",
-      "Oceanogràfic, Caminito del Rey, Kajak durch die Grotten der Algarve, Sandboarding in der Wüste, Surfen in San Sebastián, Ritterspiele in Carcassonne."
+      "Oceanogràfic, Caminito del Rey, Kajak durch die Grotten der Algarve, Kamel und Quad in der Agafay-Wüste, Surfen in San Sebastián, Ritterspiele in Carcassonne."
     ],
     [
       "Natur und Landschaft",
-      "Vulkanküste am Cabo de Gata, Wüste von Tabernas, Schlucht des Caminito del Rey, Hoher Atlas, Sahara-Dünen, Felsküste der Algarve, Felsbögen der Playa de las Catedrales, Baskenküste."
+      "Vulkanküste am Cabo de Gata, Wüste von Tabernas, Schlucht des Caminito del Rey, Agafay-Steinwüste vor dem Hohen Atlas, Felsküste der Algarve, Felsbögen der Playa de las Catedrales, Baskenküste."
     ]
   ],
   stationenIntro: "Neunzehn Stationen in Spanien, Marokko, Portugal und Frankreich, dazu Zwischenhalte in Sète und Porto. Über jeder Station steht, wie ihr dorthin kommt.",
@@ -398,7 +387,7 @@ REISEN.marokko = {
       teens: "Baden und Kitesurfer beobachten an der Playa de los Lances, Sonnenuntergang mit Blick auf Marokko, Bootstour zu den Delfinen und Walen in der Meerenge, römische Ruinen von Baelo Claudia an der Düne von Bolonia.",
       fakten: [
         "<strong>Dauer:</strong> 1 Nacht vor der Fähre nach Tanger am nächsten Morgen.",
-        "<strong>Auto:</strong> Das eigene Auto bleibt rund eine Woche in Tarifa: Parkplatz am Hafen (rund um die Uhr überwacht, 2026 ca. 18 € pro Tag) oder ein bewachter Parkplatz beim Hotel; vorab reservieren und bestätigen lassen.",
+        "<strong>Auto:</strong> Das eigene Auto bleibt rund eine Woche (6 Nächte) in Tarifa: Parkplatz am Hafen (rund um die Uhr überwacht, 2026 ca. 18 € pro Tag) oder ein bewachter Parkplatz beim Hotel; vorab reservieren und bestätigen lassen.",
         "<strong>Wind:</strong> Bei starkem Ostwind (Levante) ist das Meer unruhig, Fähren können verspätet sein oder ausfallen."
       ],
       ausserdem: "Bolonia mit Baelo Claudia, Vejer de la Frontera (weisses Dorf), Gibraltar (ca. 45 Min.).",
@@ -417,21 +406,46 @@ REISEN.marokko = {
     },
     {
       nr: 9,
+      name: "Casablanca",
+      land: "ma",
+      region: "Marokko",
+      datum: "5.–6. Juli",
+      naechte: "1 Nacht",
+      anreise: "Fähre Tarifa–Tanger Ville ohne Auto (ca. 1 Std., Baleària oder Africa Morocco Link, mehrmals täglich; Passkontrolle an Bord oder im Hafen). In Marokko ist es eine Stunde früher. Vom Hafen mit dem Taxi zum Bahnhof Tanger Ville und mit dem Hochgeschwindigkeitszug Al Boraq über Kénitra und Rabat nach Casablanca (ca. 2,25 Std.); insgesamt ca. 4–5 Std. mit Umsteigen.",
+      text: "Die grösste Stadt Marokkos liegt am Atlantik: die Hassan-II.-Moschee direkt über dem Meer, Häuser im Art-déco-Stil im Zentrum und eine lange Strandpromenade. Am Meer ist es kühler als im Landesinnern.",
+      teens: "Führung durch die Hassan-II.-Moschee (das Minarett ist über 200 m hoch), Sonnenuntergang auf der Corniche von Aïn Diab, Abendessen am Hafen, Spaziergang durch die alte Medina.",
+      fakten: [
+        "<strong>Dauer:</strong> 1 Nacht: am Nachmittag die Moschee, am Abend die Corniche; am nächsten Vormittag mit dem Zug weiter nach Marrakesch.",
+        "<strong>Hassan-II.-Moschee:</strong> Eine der wenigen Moscheen in Marokko, die Nicht-Muslime besuchen dürfen, nur mit Führung ausserhalb der Gebetszeiten (mehrmals täglich, auch auf Deutsch). Tickets vor Ort, ca. 130 Dirham pro Erwachsenen (ca. 12 €), Kinder günstiger; letzte Führung am Nachmittag, Zeiten vorab prüfen. Schultern und Knie bedeckt.",
+        "<strong>Unterkunft:</strong> Hotel in der Nähe des Bahnhofs Casa Voyageurs oder an der Corniche."
+      ],
+      ausserdem: "Rabat mit der Kasbah des Oudaïas und dem Hassan-Turm (Halt auf der Hinfahrt möglich, Gepäckaufbewahrung prüfen), Morocco Mall an der Corniche, Quartier Habous.",
+      bilder: [
+        {titel: "Hassan-II.-Moschee", suche: "Hassan II Mosque Casablanca", stichwort: "hassan|casablanca|mosque"},
+        {titel: "Moschee am Meer", suche: "Hassan II Mosque ocean sunset", stichwort: "hassan|mosque"},
+        {titel: "Corniche", suche: "Casablanca Corniche Ain Diab", stichwort: "corniche|casablanca|diab"},
+        {titel: "Art déco", suche: "Casablanca art deco building", stichwort: "casablanca|deco"},
+        {titel: "Alte Medina", suche: "Casablanca old medina", stichwort: "casablanca|medina"},
+        {titel: "Innenhof der Moschee", suche: "Hassan II Mosque interior", stichwort: "hassan|mosque"}
+      ]
+    },
+    {
+      nr: 10,
       name: "Marrakesch",
       ersatzsuche: "Marrakech",
       land: "ma",
       region: "Marokko",
-      datum: "5.–7. Juli",
+      datum: "6.–8. Juli",
       naechte: "2 Nächte",
-      anreise: "Fähre Tarifa–Tanger Ville ohne Auto (ca. 1 Std., Baleària oder Africa Morocco Link, mehrmals täglich; Passkontrolle an Bord oder im Hafen). In Marokko ist es eine Stunde früher. Vom Hafen mit dem Taxi zum Bahnhof Tanger Ville, mit dem Hochgeschwindigkeitszug Al Boraq nach Casablanca (ca. 2,25 Std.) und weiter mit dem Zug nach Marrakesch (ca. 2,5–3 Std.); insgesamt ca. 5,5–6,5 Std. mit Umsteigen.",
+      anreise: "Mit dem Zug von Casablanca nach Marrakesch (ca. 2,5–3 Std., mehrmals täglich). Vom Bahnhof mit dem Taxi zum Riad; in die Medina zu Fuss oder mit einem Träger des Riads.",
       text: "Die rote Stadt am Fuss des Atlas: Gaukler, Musik und Garküchen auf dem Platz Jemaa el-Fna, enge Gassen in der Medina mit den Souks und ruhige Gärten wie der Jardin Majorelle.",
       teens: "Abend auf dem Jemaa el-Fna mit Schlangenbeschwörern und Garküchen, Handeln in den Souks, Jardin Majorelle, Dachterrasse mit Blick auf die Koutoubia-Moschee, Kochkurs (Tajine), Riad mit Innenhof-Pool.",
       fakten: [
         "<strong>Dauer:</strong> 2 Nächte in einem Riad in der Medina: ein Tag Souks, Paläste und Gärten am Morgen und Abend, mittags Pause im Riad.",
         "<strong>Hitze:</strong> Im Juli oft 38–42 °C; Programm vor 11 und nach 17 Uhr.",
-        "<strong>Mietwagen:</strong> Am Ende des zweiten Tags oder am Morgen der Weiterfahrt abholen, als Einwegmiete Marrakesch–Fès (Rückgabegebühr). Internationaler Führerausweis empfohlen."
+        "<strong>Bauarbeiten:</strong> Wegen der neuen Schnellfahrstrecke Kénitra–Marrakesch fallen Züge nach Marrakesch zeitweise aus und werden durch Busse ersetzt (z.B. im April 2026), die Fahrpläne ändern sich (ab September 2026). Kurz vor der Reise den Fahrplan der ONCF prüfen."
       ],
-      ausserdem: "Bahia-Palast, Saadier-Gräber, Medersa Ben Youssef, Agafay-Steinwüste (ca. 45 Min.), Ourika-Tal im Atlas (kühler).",
+      ausserdem: "Bahia-Palast, Saadier-Gräber, Medersa Ben Youssef, Ourika-Tal im Atlas (kühler, Tagesausflug mit Fahrer), Kochkurs.",
       bilder: [
         {titel: "Jemaa el-Fna", suche: "Jemaa el-Fnaa Marrakech", stichwort: "jemaa|fna|marrakech"},
         {titel: "Koutoubia", suche: "Koutoubia Mosque Marrakech", stichwort: "koutoubia"},
@@ -442,55 +456,29 @@ REISEN.marokko = {
       ]
     },
     {
-      nr: 10,
-      name: "Dadès-Schlucht",
-      ersatzsuche: "Dades Gorge|Boumalne Dades",
-      land: "ma",
-      region: "Marokko",
-      datum: "7.–8. Juli",
-      naechte: "1 Nacht",
-      anreise: "Mit dem Mietwagen über den Hohen Atlas und den Pass Tizi n’Tichka (2’260 m), mit Halt im Lehmdorf Aït Ben Haddou, über Ouarzazate in die Dadès-Schlucht (ca. 5–6 Std., ca. 310 km; kurvige Passstrasse).",
-      text: "Von Marrakesch über den Atlas in die «Strasse der Kasbahs»: Lehmburgen, Oasen mit Palmen und die rote Felsschlucht des Dadès mit ihren Serpentinen.",
-      teens: "Aït Ben Haddou (Lehmdorf, Drehort von «Gladiator» und «Game of Thrones»), Serpentinen der Dadès-Schlucht, Wanderung durch die Felsen der «Affenfinger».",
-      fakten: [
-        "<strong>Dauer:</strong> 1 Nacht in einer Kasbah-Unterkunft in der Schlucht.",
-        "<strong>Fahren:</strong> Gute, aber kurvige Strassen; Polizeikontrollen und Tempolimits beachten, nachts nicht fahren.",
-        "<strong>Ouarzazate:</strong> Filmstudios (Atlas Studios) als Halt möglich."
-      ],
-      ausserdem: "Kasbah Taourirt in Ouarzazate, Atlas Studios, Tal der Rosen, Kasbah Amridil in Skoura.",
-      bilder: [
-        {titel: "Aït Ben Haddou", suche: "Ait Ben Haddou", stichwort: "ben haddou|benhaddou"},
-        {titel: "Dadès-Schlucht", suche: "Dades Gorge", stichwort: "dades"},
-        {titel: "Tizi n’Tichka", suche: "Tizi n Tichka pass", stichwort: "tichka"},
-        {titel: "Serpentinen", suche: "Dades Gorge winding road", stichwort: "dades"},
-        {titel: "Kasbah Taourirt", suche: "Kasbah Taourirt Ouarzazate", stichwort: "taourirt|ouarzazate"},
-        {titel: "Oase", suche: "Skoura palm grove kasbah", stichwort: "skoura|kasbah"}
-      ]
-    },
-    {
       nr: 11,
-      name: "Merzouga (Wüste)",
-      ersatzsuche: "Merzouga|Erg Chebbi",
+      name: "Agafay-Wüste",
+      ersatzsuche: "Agafay",
       land: "ma",
       region: "Marokko",
       datum: "8.–9. Juli",
       naechte: "1 Nacht",
-      anreise: "Mit dem Mietwagen über Tinghir mit der Todra-Schlucht und Erfoud nach Merzouga (ca. 4 Std., ca. 250 km), am späten Nachmittag mit dem Kamel oder dem Geländewagen ins Wüstencamp.",
-      text: "Die Sanddünen des Erg Chebbi sind bis 150 m hoch. Mit dem Kamel in den Sonnenuntergang, eine Nacht im Zeltcamp unter dem Sternenhimmel und am Morgen der Sonnenaufgang über den Dünen.",
-      teens: "Kamelritt in den Sonnenuntergang, Sandboarding auf den Dünen, Nacht im Wüstencamp mit Trommeln und Sternenhimmel, Todra-Schlucht auf der Anreise.",
+      anreise: "Transfer vom Riad in die Agafay-Steinwüste (ca. 40–60 Min., ca. 40 km), über das Camp oder den Riad buchen; kein Mietwagen nötig.",
+      text: "Eine Steinwüste mit kahlen Hügeln vor den Bergen des Hohen Atlas, nur eine knappe Stunde von Marrakesch. Keine hohen Sanddünen wie in der Sahara, dafür kurze Wege, Zeltcamps mit Pool und ein grosser Sternenhimmel.",
+      teens: "Kamelritt in den Sonnenuntergang, Quad- oder Buggyfahrt, Pool mit Blick auf den Atlas, Abendessen im Zelt mit Musik, Sterne beobachten.",
       fakten: [
-        "<strong>Dauer:</strong> 1 Nacht im Wüstencamp.",
-        "<strong>Hitze:</strong> Im Juli tagsüber oft 42–45 °C; einige Camps schliessen im Sommer. Camp mit Klimaanlage oder Schatten und Pool wählen, Kamelritt nur am Abend und frühen Morgen, mittags im Schatten, sehr viel trinken. Das ist der heikelste Teil der Reise.",
-        "<strong>Ausweichen:</strong> Wenn die Hitze zu gross ist, die kleine Agafay-Steinwüste bei Marrakesch (ohne Sanddünen) oder eine Nacht in der Wüste von Zagora; Wetter kurz vorher prüfen."
+        "<strong>Dauer:</strong> 1 Nacht in einem Zeltcamp mit Pool (viele Camps bieten Kamelritt, Quad und Abendessen an).",
+        "<strong>Hitze:</strong> Am Tag so heiss wie Marrakesch; Kamelritt und Ausflüge nur am späten Nachmittag und am Morgen, Zelt mit Klimaanlage wählen.",
+        "<strong>Wüstenfeeling:</strong> Steinwüste statt Sanddünen; die Sanddünen des Erg Chebbi bei Merzouga sind ohne Auto zu weit weg (mit Mietwagen zwei Tage Fahrt mehr)."
       ],
-      ausserdem: "Todra-Schlucht, Fossilien-Werkstätten in Erfoud, Dorf Khamlia mit Gnawa-Musik.",
+      ausserdem: "Lalla-Takerkoust-Stausee (Baden, ca. 20 Min.), Atlasdörfer bei Imlil (ca. 1,5 Std.).",
       bilder: [
-        {titel: "Erg Chebbi", suche: "Erg Chebbi dunes Merzouga", stichwort: "chebbi|merzouga"},
-        {titel: "Kamelritt", suche: "Merzouga camel trek sunset", stichwort: "camel|merzouga"},
-        {titel: "Wüstencamp", suche: "Merzouga desert camp", stichwort: "camp|merzouga"},
-        {titel: "Todra-Schlucht", suche: "Todra Gorge", stichwort: "todra|todgha"},
-        {titel: "Sonnenaufgang", suche: "Sahara dunes sunrise Morocco", stichwort: "sahara|dune"},
-        {titel: "Sternenhimmel", suche: "Sahara night sky stars Morocco", stichwort: "star|night"}
+        {titel: "Agafay-Wüste", suche: "Agafay desert Morocco", stichwort: "agafay"},
+        {titel: "Zeltcamp", suche: "Agafay desert camp tents", stichwort: "agafay|camp|tent"},
+        {titel: "Kamelritt", suche: "Agafay camel ride sunset", stichwort: "camel|agafay"},
+        {titel: "Atlas am Horizont", suche: "Agafay Atlas mountains view", stichwort: "agafay|atlas"},
+        {titel: "Pool in der Wüste", suche: "Agafay desert pool", stichwort: "pool|agafay"},
+        {titel: "Sternenhimmel", suche: "Morocco desert night sky stars", stichwort: "star|night"}
       ]
     },
     {
@@ -501,26 +489,22 @@ REISEN.marokko = {
       region: "Marokko",
       datum: "9.–11. Juli",
       naechte: "2 Nächte",
-      anreise: "Mit dem Mietwagen von Merzouga über Erfoud, Midelt und den Mittleren Atlas mit den Zedernwäldern von Ifrane nach Fès (ca. 7 Std., ca. 460 km; der längste Fahrtag in Marokko, früh starten). Mietwagen in Fès zurückgeben.",
+      anreise: "Am Morgen Transfer zurück zum Bahnhof Marrakesch (ca. 45–60 Min.), mit dem Zug über Casablanca und Rabat nach Fès (ca. 6,5–7,5 Std.; nur wenige durchgehende Züge pro Tag, sonst Umsteigen in Casablanca oder Rabat; der längste Reisetag in Marokko, Fahrplan prüfen). 1. Klasse mit Klimaanlage und Platzreservation.",
       text: "Die Altstadt Fès el-Bali ist eine der grössten autofreien Städte der Welt: über 9’000 Gassen, Handwerker, Koranschulen und die Färberei Chouara mit ihren bunten Becken. Unesco-Welterbe.",
       teens: "Blick über die Färberei Chouara von einer Dachterrasse, Labyrinth der Medina mit einem lokalen Führer, Bab Bou Jeloud (Blaues Tor), Medersa Bou Inania, Aussicht von den Merinidengräbern bei Sonnenuntergang.",
       fakten: [
-        "<strong>Dauer:</strong> 2 Nächte in einem Riad: ein Tag Medina mit Führer (offizielle Führer über das Tourismusbüro oder den Riad), ein ruhiger Tag.",
+        "<strong>Dauer:</strong> 2 Nächte in einem Riad: ein Tag Medina mit Führer (offizielle Führer über das Tourismusbüro oder den Riad), ein ruhiger Tag nach der langen Zugfahrt.",
         "<strong>Weiterreise:</strong> Am 11. Juli mit dem Zug nach Tanger (über Kénitra mit dem Al Boraq ca. 3,5–4 Std., direkt ca. 4,5 Std.) und mit der Fähre nach Tarifa.",
         "<strong>Hinweis:</strong> In der Medina bieten sich viele «Führer» an; höflich ablehnen und nur offizielle Führer nehmen."
       ],
-      ausserdem: "Meknès und die römischen Ruinen von Volubilis (ca. 1 Std.), Ifrane mit Berberaffen in den Zedernwäldern (auf der Anreise), Chefchaouen (blaue Stadt, ca. 3,5 Std., mit einer Nacht mehr).",
+      ausserdem: "Meknès und die römischen Ruinen von Volubilis (ca. 1 Std.), Ifrane mit Berberaffen in den Zedernwäldern (ca. 1 Std.), Chefchaouen (blaue Stadt, ca. 3,5 Std., mit einer Nacht mehr).",
       bilder: [
         {titel: "Färberei Chouara", suche: "Chouara Tannery Fes", stichwort: "chouara|tanner"},
         {titel: "Bab Bou Jeloud", suche: "Bab Bou Jeloud Fes blue gate", stichwort: "bou jeloud|blue gate"},
         {titel: "Medina", suche: "Fes el Bali medina", stichwort: "fes|fez|medina"},
         {titel: "Medersa Bou Inania", suche: "Bou Inania Madrasa Fes", stichwort: "bou inania|madrasa"},
-        {
-          titel: "Zedernwald von Ifrane",
-          suche: "Ifrane cedar forest Barbary macaque",
-          stichwort: "macaque|cedar|ifrane"
-        },
-        {titel: "Volubilis", suche: "Volubilis", stichwort: "volubilis"}
+        {titel: "Volubilis", suche: "Volubilis", stichwort: "volubilis"},
+        {titel: "Merinidengräber", suche: "Merenid Tombs Fes view", stichwort: "merenid|marinid|fes"}
       ]
     },
     {
@@ -705,12 +689,12 @@ REISEN.marokko = {
     }
   ],
   abschluss: "Nach einer Nacht in Carcassonne Rückfahrt über Montpellier, Lyon und Genf nach Brig-Glis am Sa, 24.07.2027 (ca. 7,5–8 Std. reine Fahrzeit, mit Pausen ca. 9 Std.).",
-  budgetIntro: "Mittelklasse inklusive Maut, Fähren, Züge und Mietwagen in Marokko, Unterkunft, Verpflegung und Aktivitäten; Laden an Tesla-Superchargern ist gratis. Alle Beträge sind Schätzungen in CHF.",
+  budgetIntro: "Mittelklasse inklusive Maut, Fähren, Züge und Transfers in Marokko, Unterkunft, Verpflegung und Aktivitäten; Laden an Tesla-Superchargern ist gratis. Alle Beträge sind Schätzungen in CHF.",
   budget: {
     naechte: 35,
-    total: "20’550",
-    spanne: "15’500–27’000",
-    proTag: "ca. 590 CHF pro Tag, ca. 5’100 pro Person",
+    total: "20’100",
+    spanne: "15’200–26’400",
+    proTag: "ca. 570 CHF pro Tag, ca. 5’000 pro Person",
     posten: [
       [
         "Auto: Maut, Vignetten, Laden unterwegs (ca. 5’300 km)",
@@ -731,16 +715,16 @@ REISEN.marokko = {
         "Auto und 4 Personen mit Sitzplätzen; im Juli früh buchen"
       ],
       [
-        "Marokko: Fähren, Züge, Mietwagen",
-        "900–1’600",
-        "1’200",
-        "Fähre Tarifa–Tanger hin und zurück, Züge Tanger–Marrakesch und Fès–Tanger, Einwegmiete Marrakesch–Fès mit Benzin und Rückgabegebühr"
+        "Marokko: Fähren, Züge, Transfers",
+        "600–1’100",
+        "800",
+        "Fähre Tarifa–Tanger hin und zurück, Züge Tanger–Casablanca, Casablanca–Marrakesch, Marrakesch–Fès und Fès–Tanger (1. Klasse), Transfers in die Agafay-Wüste, Taxis"
       ],
       [
         "Unterkunft (Familienzimmer, Apartment, Riad oder 2 Zimmer)",
         "6’000–10’350",
         "8’000",
-        "ca. 120–300 CHF pro Nacht; Riads in Marokko günstiger, Formentera im Juli, das Wüstencamp, Lissabon und San Sebastián teurer"
+        "ca. 120–300 CHF pro Nacht; Riads in Marokko günstiger, Formentera im Juli, das Camp in der Agafay-Wüste, Lissabon und San Sebastián teurer"
       ],
       [
         "Verpflegung (Restaurants, Einkauf)",
@@ -752,7 +736,7 @@ REISEN.marokko = {
         "Aktivitäten und Eintritte",
         "2’100–3’600",
         "2’750",
-        "Schnorcheltour Medes-Inseln, Kajak und Schnorcheln auf Formentera, Aqualandia oder Terra Mítica, Sagrada Família, Oceanogràfic, Caminito del Rey, Kamelritt und Wüstencamp, Führer in Fès, Alcázar, Kajak an der Algarve, Oceanário, Cité von Carcassonne"
+        "Schnorcheltour Medes-Inseln, Kajak und Schnorcheln auf Formentera, Aqualandia oder Terra Mítica, Sagrada Família, Oceanogràfic, Caminito del Rey, Hassan-II.-Moschee, Kamelritt und Quad in der Agafay-Wüste, Führer in Fès, Alcázar, Kajak an der Algarve, Oceanário, Cité von Carcassonne"
       ],
       [
         "Versicherung, Pannenhilfe, Reiseapotheke",
@@ -760,7 +744,7 @@ REISEN.marokko = {
         "500",
         "Pannenhilfe-Versicherung fürs Auto, Reiseversicherung für Marokko, Annullationsschutz"
       ],
-      ["Reserve (ca. 10 %)", "1’450–2’500", "1’850", "Souvenirs, Wäsche, Unvorhergesehenes"]
+      ["Reserve (ca. 10 %)", "1’400–2’450", "1’800", "Souvenirs, Wäsche, Unvorhergesehenes"]
     ],
     stationen: [
       ["Zwischenübernachtung Sète (1)", "250–400"],
@@ -772,9 +756,9 @@ REISEN.marokko = {
       ["6. Cabo de Gata (2)", "600–1’000"],
       ["7. Caminito del Rey (1)", "300–500"],
       ["8. Tarifa (1)", "300–500"],
-      ["9. Marrakesch (2)", "600–1’000"],
-      ["10. Dadès-Schlucht (1)", "200–350"],
-      ["11. Merzouga (1)", "300–550"],
+      ["9. Casablanca (1)", "250–400"],
+      ["10. Marrakesch (2)", "600–1’000"],
+      ["11. Agafay-Wüste (1)", "300–550"],
       ["12. Fès (2)", "500–850"],
       ["13. Cádiz (1)", "300–500"],
       ["14. Sevilla (2)", "650–1’050"],
@@ -799,15 +783,15 @@ REISEN.marokko = {
     ],
     [
       "Auto und Papiere",
-      "Führerausweis, Fahrzeugausweis, CH-Kleber, Warnwesten für alle, Pannendreieck. Für den Mietwagen in Marokko zusätzlich den internationalen Führerausweis. Crit’Air-Vignette für Frankreich vorab online bestellen."
+      "Führerausweis, Fahrzeugausweis, CH-Kleber, Warnwesten für alle, Pannendreieck. Crit’Air-Vignette für Frankreich vorab online bestellen."
     ],
     [
       "Maut",
-      "Frankreich: Mautstellen. Spanien: viele Autobahnen mautfrei. Portugal: elektronische Maut mit EasyToll an der Grenze oder Via Verde. Marokko: Mautautobahnen zwischen den grossen Städten, Bargeld oder Karte."
+      "Frankreich: Mautstellen. Spanien: viele Autobahnen mautfrei. Portugal: elektronische Maut mit EasyToll an der Grenze oder Via Verde."
     ],
     [
       "Fähren",
-      "Autofähre nach Formentera: Check-in 60–90 Min. vor Abfahrt, Auto während der Fahrt nicht zugänglich (Badesachen, Snacks, Medikamente ins Handgepäck); Zufahrtsbewilligung auf Formentera, Elektroautos gebührenfrei. Nach Marokko: Fähre Tarifa–Tanger Ville ohne Auto (Baleària, Africa Morocco Link), mehrmals täglich; bei starkem Ostwind Ausfälle möglich. Züge der ONCF: Al Boraq Tanger–Casablanca, weiter mit dem Zug nach Marrakesch; Tickets online, 1. Klasse mit Platzreservation empfohlen."
+      "Autofähre nach Formentera: Check-in 60–90 Min. vor Abfahrt, Auto während der Fahrt nicht zugänglich (Badesachen, Snacks, Medikamente ins Handgepäck); Zufahrtsbewilligung auf Formentera, Elektroautos gebührenfrei. Nach Marokko: Fähre Tarifa–Tanger Ville ohne Auto (Baleària, Africa Morocco Link), mehrmals täglich; bei starkem Ostwind Ausfälle möglich. Züge der ONCF: Al Boraq Tanger–Casablanca, weiter mit dem Zug nach Marrakesch; zurück Marrakesch–Fès (wenige durchgehende Züge) und Fès–Tanger. Tickets online, 1. Klasse mit Platzreservation empfohlen; wegen der Bauarbeiten an der Strecke nach Marrakesch Fahrplan kurz vorher prüfen."
     ],
     [
       "Währung und Zahlung",
@@ -815,7 +799,7 @@ REISEN.marokko = {
     ],
     [
       "Wetter im Juni und Juli",
-      "Marrakesch und Fès oft 38–42 °C, die Wüste bei Merzouga 42–45 °C. Andalusien 35–40 °C, an der Küste 28–32 °C, Lissabon und San Sebastián angenehmer. Mittelmeer ca. 23–26 °C, Atlantik ca. 18–22 °C."
+      "Marrakesch, die Agafay-Wüste und Fès oft 38–42 °C, Casablanca am Atlantik deutlich kühler. Andalusien 35–40 °C, an der Küste 28–32 °C, Lissabon und San Sebastián angenehmer. Mittelmeer ca. 23–26 °C, Atlantik ca. 18–22 °C."
     ],
     ["Zeitzonen", "Frankreich und Spanien wie die Schweiz, Portugal und Marokko eine Stunde früher."],
     [
@@ -828,7 +812,7 @@ REISEN.marokko = {
     ],
     [
       "Kultur und Verhalten",
-      "In Marokko schultern- und knielange Kleidung in den Städten, Fotos von Menschen nur mit Erlaubnis, Moscheen sind für Nicht-Muslime meist nicht zugänglich. In Spanien wird spät gegessen."
+      "In Marokko schultern- und knielange Kleidung in den Städten, Fotos von Menschen nur mit Erlaubnis, Moscheen sind für Nicht-Muslime meist nicht zugänglich (Ausnahme: Hassan-II.-Moschee in Casablanca mit Führung). In Spanien wird spät gegessen."
     ],
     [
       "Notfall",

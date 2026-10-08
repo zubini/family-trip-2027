@@ -15,32 +15,32 @@ window.START = {
   reisen: {
     marokko: {
       name: "Spanien / Portugal / Marokko",
-      zusatz: "Roadtrip ab Brig-Glis, Marokko mit Fähre",
-      passt: "ihr ohne Flug reisen, Städte in Spanien und Portugal mit einer Woche Marokko (Medina, Atlas, Wüste) verbinden möchtet und grosse Hitze, viele Reisetage und mehrere Wechsel zwischen Auto, Fähre und Zug in Kauf nehmt.",
-      kurz: "Fünf Wochen mit dem eigenen Elektroauto durch Spanien, Portugal und Südfrankreich mit Schnorcheln bei den Medes-Inseln, vier Nächten auf Formentera, Benidorm und dem Cabo de Gata, dazu rund sechs Tage Marokko mit Fähre, Zug und Mietwagen: Marrakesch, Hoher Atlas, Wüste bei Merzouga und Fès.",
-      route: "Brig-Glis, Sète, Costa Brava (L’Estartit), Barcelona, Valencia, Formentera, Benidorm, Cabo de Gata, Caminito del Rey, Tarifa, (Fähre) Tanger, Marrakesch, Dadès-Schlucht, Merzouga, Fès, Cádiz, Sevilla, Algarve (Lagos), Lissabon, Porto, Playa de las Catedrales, San Sebastián, Carcassonne, Brig-Glis",
+      zusatz: "Roadtrip ab Brig-Glis, Marokko mit Fähre und Zug",
+      passt: "ihr ohne Flug reisen, Städte in Spanien und Portugal mit sechs Nächten Marokko (Casablanca, Marrakesch, Agafay-Wüste, Fès) verbinden möchtet und grosse Hitze, viele Reisetage und Wechsel zwischen Auto, Fähre und Zug in Kauf nehmt.",
+      kurz: "Fünf Wochen mit dem eigenen Elektroauto durch Spanien, Portugal und Südfrankreich mit Schnorcheln bei den Medes-Inseln, vier Nächten auf Formentera, Benidorm und dem Cabo de Gata, dazu sechs Nächte Marokko nur mit Fähre und Zug: Casablanca, Marrakesch, eine Nacht im Zeltcamp in der Agafay-Wüste und Fès.",
+      route: "Brig-Glis, Sète, Costa Brava (L’Estartit), Barcelona, Valencia, Formentera, Benidorm, Cabo de Gata, Caminito del Rey, Tarifa, (Fähre) Tanger, Casablanca, Marrakesch, Agafay-Wüste, Fès, Cádiz, Sevilla, Algarve (Lagos), Lissabon, Porto, Playa de las Catedrales, San Sebastián, Carcassonne, Brig-Glis",
       stationen: "19 Stationen und 2 Zwischenübernachtungen",
       laender: "Frankreich, Spanien, Marokko, Portugal",
       hinflug: "Kein Flug: mit dem eigenen Auto ab Brig-Glis, Zwischenstopp in Sète (ca. 7–7,5 Std.), dann an die Costa Brava (ca. 2,5–3 Std.)",
       rueckflug: "Mit dem Auto ab Carcassonne über Montpellier, Lyon und Genf (ca. 7,5–8 Std., mit Pausen und Ladestopps ca. 9 Std.), Ankunft Sa, 24.07.2027",
-      dazwischen: "Keine Flüge: eigenes Elektroauto, Autofähre Dénia–Formentera; nach Marokko mit der Fähre ohne Auto (Tarifa–Tanger), dort Zug und Mietwagen (Einwegmiete Marrakesch–Fès)",
-      tempo: "Ca. 75 Std. reine Fahrzeit (ca. 5’600 km eigenes Auto, ca. 1’000 km Mietwagen), dazu Fähren nach Formentera und in Marokko sowie Züge (ca. 15–19 Std.); realistisch ca. 108–114 Std. Tür zu Tür; die längsten Tage: Brig-Glis–Sète (ca. 7–7,5 Std.), Carcassonne–Brig-Glis (ca. 7,5–8 Std.), Merzouga–Fès (ca. 7 Std.), Fès–Cádiz und Tarifa–Marrakesch (Fähre und Zug, je ca. 7–9 Std.), Ribadeo–San Sebastián (ca. 5 Std.)",
-      gesamt: "Ca. 108–114 Std. Tür zu Tür, ohne Flughafen und ohne Jetlag: davon realistisch ca. 86–90 Std. im Auto inklusive Ladestopps (ca. 75 Std. reine Fahrzeit) und ca. 22–24 Std. für Fähren und Züge mit Passkontrolle und Umsteigen.",
-      wetter: "Sehr heiss: Marrakesch und Fès oft 38–42 °C, die Wüste bei Merzouga 42–45 °C, Andalusien 35–40 °C; Lissabon, San Sebastián und die Küsten angenehmer.",
-      einreise: "Schengen bis auf Marokko: dort Reisepass für alle (Identitätskarte genügt nicht), kein Visum. Internationaler Führerausweis für den Mietwagen, Crit’Air-Vignette für Frankreich, Umweltzone Barcelona, elektronische Maut in Portugal.",
-      hoehepunkte: "Schnorcheln bei den Medes-Inseln, auf Formentera und am Cabo de Gata, Sagrada Família, Oceanogràfic, Terra Mítica und Aqualandia in Benidorm, Caminito del Rey, Jemaa el-Fna in Marrakesch, Pass über den Hohen Atlas, Aït Ben Haddou, Kamelritt und Nacht im Wüstencamp, Medina von Fès, Cádiz, Sevilla, Grotten der Algarve, Lissabon, Felsbögen der Playa de las Catedrales, San Sebastián, Carcassonne.",
-      teens: "Wasserpark Aqualandia oder Terra Mítica in Benidorm, Kamelritt und Sandboarding in der Wüste, Souks und Gaukler in Marrakesch, Game-of-Thrones-Drehorte, Kajak an der Algarve, Surfen in San Sebastián, Ritterburg Carcassonne.",
+      dazwischen: "Keine Flüge: eigenes Elektroauto, Autofähre Dénia–Formentera; nach Marokko mit der Fähre ohne Auto (Tarifa–Tanger), dort nur Züge (Tanger–Casablanca–Marrakesch, zurück über Fès) und ein Transfer in die Agafay-Wüste",
+      tempo: "Ca. 59 Std. reine Fahrzeit im eigenen Auto (ca. 5’600 km), dazu Fähren nach Formentera und über die Meerenge (zusammen ca. 6–8 Std.), Züge in Marokko (ca. 15–17 Std.) und Transfers; realistisch ca. 96–103 Std. Tür zu Tür; die längsten Tage: Brig-Glis–Sète (ca. 7–7,5 Std.), Carcassonne–Brig-Glis (ca. 7,5–8 Std.), Agafay–Fès (Transfer und Zug, ca. 7,5–8,5 Std.), Fès–Cádiz (Zug und Fähre, ca. 7–9 Std.), Ribadeo–San Sebastián (ca. 5 Std.)",
+      gesamt: "Ca. 96–103 Std. Tür zu Tür, ohne Flughafen und ohne Jetlag: davon realistisch ca. 68–71 Std. im Auto inklusive Ladestopps (ca. 59 Std. reine Fahrzeit) und ca. 28–32 Std. für Fähren, Züge und Transfers mit Passkontrolle und Umsteigen.",
+      wetter: "Sehr heiss: Marrakesch, die Agafay-Wüste und Fès oft 38–42 °C, Andalusien 35–40 °C; Casablanca, Lissabon, San Sebastián und die Küsten angenehmer.",
+      einreise: "Schengen bis auf Marokko: dort Reisepass für alle (Identitätskarte genügt nicht), kein Visum. Crit’Air-Vignette für Frankreich, Umweltzone Barcelona, elektronische Maut in Portugal.",
+      hoehepunkte: "Schnorcheln bei den Medes-Inseln, auf Formentera und am Cabo de Gata, Sagrada Família, Oceanogràfic, Terra Mítica und Aqualandia in Benidorm, Caminito del Rey, Hassan-II.-Moschee in Casablanca, Jemaa el-Fna in Marrakesch, Kamelritt und Nacht im Zeltcamp in der Agafay-Wüste, Medina von Fès, Cádiz, Sevilla, Grotten der Algarve, Lissabon, Felsbögen der Playa de las Catedrales, San Sebastián, Carcassonne.",
+      teens: "Wasserpark Aqualandia oder Terra Mítica in Benidorm, Kamelritt und Quad in der Agafay-Wüste, Souks und Gaukler in Marrakesch, Game-of-Thrones-Drehorte, Kajak an der Algarve, Surfen in San Sebastián, Ritterburg Carcassonne.",
       pro: [
-        "Kein Flug und kein Jetlag, und trotzdem eine Woche Afrika: Marrakesch, Atlas, Wüste und Fès",
-        "Viele Städte: Barcelona, Valencia, Marrakesch, Fès, Sevilla, Lissabon, Porto, San Sebastián",
+        "Kein Flug und kein Jetlag, und trotzdem sechs Nächte Afrika: Casablanca, Marrakesch, Agafay-Wüste und Fès, ohne selber in Marokko zu fahren",
+        "Viele Städte: Barcelona, Valencia, Casablanca, Marrakesch, Fès, Sevilla, Lissabon, Porto, San Sebastián",
         "Grosse Abwechslung zwischen Mittelmeer, Wüste, Atlantik, Baskenland und Südfrankreich",
         "Günstig (ca. {plan:marokko} CHF) und wenig CO₂; Laden an Superchargern gratis"
       ],
       contra: [
-        "Grosse Hitze im Juli: in der Wüste bei Merzouga 42–45 °C, einige Camps schliessen im Sommer; auch Marrakesch und Fès sehr heiss",
-        "Tür zu Tür ca. 108–114 Std., viele Wechsel zwischen eigenem Auto, Fähre, Zug und Mietwagen; einige lange Tage mit 7–9 Std.",
+        "Grosse Hitze im Juli: Marrakesch, die Agafay-Wüste und Fès oft 38–42 °C; die Agafay ist eine Steinwüste ohne Sanddünen",
+        "Tür zu Tür ca. 96–103 Std., Wechsel zwischen eigenem Auto, Fähre und Zug; einige lange Tage mit 7–9 Std.; Bauarbeiten an der Bahnstrecke nach Marrakesch (Fahrplan kurz vorher prüfen)",
         "Für Marokko Reisepass für alle, keine Krankenversicherungskarte, kein Leitungswasser; aufdringliche Händler in den Medinas",
-        "Lange Reisetage wie Tarifa–Marrakesch und Fès–Cádiz (Fähre und Zug, je ca. 7–9 Std.); auf Formentera keine Supercharger"
+        "Lange Reisetage wie Agafay–Fès (ca. 7,5–8,5 Std.) und Fès–Cádiz (Zug und Fähre, ca. 7–9 Std.); auf Formentera keine Supercharger"
       ]
     },
     usa: {
@@ -107,7 +107,7 @@ window.START = {
       kriterium: "Natur und Landschaft",
       marokko: [
         4,
-        "Vulkanküste am Cabo de Gata, Hoher Atlas, Dadès- und Todra-Schlucht, Sanddünen des Erg Chebbi, Felsküste der Algarve, Felsbögen der Playa de las Catedrales, Baskenküste; keine grossen Nationalparks wie in den USA."
+        "Vulkanküste am Cabo de Gata, Schlucht des Caminito del Rey, Agafay-Steinwüste vor dem Hohen Atlas, Felsküste der Algarve, Felsbögen der Playa de las Catedrales, Baskenküste; keine grossen Nationalparks wie in den USA."
       ],
       usa: [
         5,
@@ -120,7 +120,7 @@ window.START = {
     },
     {
       kriterium: "Dschungelfeeling",
-      marokko: [0, "Kein Regenwald: Wüste, Oasen mit Palmen, Zedernwälder im Mittleren Atlas und grüne Hügel im Baskenland."],
+      marokko: [0, "Kein Regenwald: Steinwüste, Palmengärten in Marrakesch und grüne Hügel im Baskenland."],
       usa: [0, "Kein Dschungel: Wüsten, Canyons, Seen und im Osten Laubwälder."],
       asien: [
         3,
@@ -130,8 +130,8 @@ window.START = {
     {
       kriterium: "Wüstenfeeling",
       marokko: [
-        5,
-        "Das stärkste Wüstenerlebnis im Vergleich: Kamelritt und Nacht im Zeltcamp in den Sanddünen des Erg Chebbi am Rand der Sahara, dazu Steinwüsten, Oasen und Kasbahs; nur eine Nacht und im Juli sehr heiss."
+        3,
+        "Eine Nacht im Zeltcamp in der Agafay-Steinwüste bei Marrakesch mit Kamelritt und Blick auf den Atlas, dazu die Wüste von Tabernas am Cabo de Gata als Abstecher; keine Sanddünen wie in der Sahara und im Juli sehr heiss."
       ],
       usa: [
         4,
@@ -170,7 +170,7 @@ window.START = {
       kriterium: "Abenteuer",
       marokko: [
         4,
-        "Caminito del Rey, Kamelritt und Nacht im Wüstencamp, Sandboarding, Pass über den Hohen Atlas, Medinas mit Führer, Kajak durch die Grotten der Algarve, Surfen in San Sebastián."
+        "Caminito del Rey, Kamelritt, Quad und Nacht im Zeltcamp in der Agafay-Wüste, Medinas mit Führer, Zugfahrten quer durch Marokko, Kajak durch die Grotten der Algarve, Surfen in San Sebastián."
       ],
       usa: [4, "Durch die Narrows waten, Antelope Canyon, 2-Tage-Roadtrip und Cedar Point."],
       asien: [3, "Kajak, Seilrutschen, Inselhopping und Fähren; eher abenteuerlich beim Reisen als in der Natur."]
@@ -179,7 +179,7 @@ window.START = {
       kriterium: "Städte",
       marokko: [
         5,
-        "Barcelona, Valencia, Marrakesch, Fès, Cádiz, Sevilla, Lissabon, Porto, San Sebastián und Carcassonne: europäische und marokkanische Städte im Wechsel."
+        "Barcelona, Valencia, Casablanca, Marrakesch, Fès, Cádiz, Sevilla, Lissabon, Porto, San Sebastián und Carcassonne: europäische und marokkanische Städte im Wechsel."
       ],
       usa: [5, "Las Vegas, Chicago, Washington, Philadelphia und New York mit Museen und Aussichtsplattformen."],
       asien: [4, "Singapur, Kuala Lumpur, Penang und Bangkok mit Street-Food und Tempeln."]
@@ -188,7 +188,7 @@ window.START = {
       kriterium: "Gesundheit und Sicherheit",
       marokko: [
         4,
-        "Rund vier von fünf Wochen in Spanien, Portugal und Frankreich, dort unkompliziert. In Marokko (6 Nächte) keine Krankenversicherungskarte, kein Leitungswasser und auf Hygiene beim Essen achten; das grösste Risiko ist die extreme Hitze in der Wüste (42–45 °C) und in Marrakesch."
+        "Rund vier von fünf Wochen in Spanien, Portugal und Frankreich, dort unkompliziert. In Marokko (6 Nächte) keine Krankenversicherungskarte, kein Leitungswasser und auf Hygiene beim Essen achten; das grösste Risiko ist die Hitze in Marrakesch, in der Agafay-Wüste und in Fès (38–42 °C)."
       ],
       usa: [
         4,
@@ -201,15 +201,15 @@ window.START = {
     },
     {
       kriterium: "Budget (mehr Punkte = günstiger)",
-      marokko: [4, "ca. {plan:marokko} CHF: kein Flug, Supercharging gratis, Marokko günstig; dafür Fähren, Züge und Mietwagen in Marokko sowie Parkplatz in Tarifa."],
+      marokko: [4, "ca. {plan:marokko} CHF: kein Flug, Supercharging gratis, Marokko günstig; dafür Fähren und Züge in Marokko sowie Parkplatz in Tarifa."],
       usa: [1, "ca. {plan:usa} CHF: rund {mehrkosten} CHF mehr, vor allem Unterkünfte und Mietwagen."],
       asien: [4, "ca. {plan:asien} CHF: Singapur ist teuer, der Rest günstig."]
     },
     {
       kriterium: "Reisekomfort",
       marokko: [
-        2,
-        "Ca. 108–114 Stunden Tür zu Tür, kein Jetlag; aber viele Wechsel zwischen eigenem Auto, Fähre, Zug und Mietwagen, Passkontrollen und mehrere lange Tage mit 7–9 Stunden."
+        3,
+        "Ca. 96–103 Stunden Tür zu Tür, kein Jetlag, in Marokko kein Fahren; aber Wechsel zwischen eigenem Auto, Fähre und Zug, Passkontrollen, ein langer Zugtag Marrakesch–Fès und mehrere Tage mit 7–9 Stunden."
       ],
       usa: [
         2,
@@ -224,7 +224,7 @@ window.START = {
       kriterium: "CO₂ und Umwelt (mehr Punkte = weniger CO₂)",
       marokko: [
         5,
-        "Kein Flug: Elektroauto (ca. 1’100 kWh), zwei kurze Fähren, Züge und ca. 1’000 km Mietwagen mit Benzin in Marokko; grob geschätzt ca. 0,15–0,25 t CO₂ pro Person."
+        "Kein Flug: Elektroauto (ca. 1’100 kWh), zwei kurze Fähren, Züge in Marokko (ohne Mietwagen); grob geschätzt ca. 0,1–0,2 t CO₂ pro Person."
       ],
       usa: [
         1,

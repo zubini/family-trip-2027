@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg viewBox="0 0 1000 1053" overflow="hidden" role="img" aria-labelledby="mt" xmlns="http://www.w3.org/2000/svg"><title id="mt">Übersichtskarte der Reiseroute mit dem eigenen Auto von Brig-Glis nach Spanien, Marokko und Portugal</title>
+<svg viewBox="0 0 1000 1053" overflow="hidden" role="img" aria-labelledby="mt" xmlns="http://www.w3.org/2000/svg"><title id="mt">Übersichtskarte der Reiseroute mit dem eigenen Auto von Brig-Glis nach Spanien, Marokko und Portugal, in Marokko mit dem Zug</title>
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400;0,600;0,700;0,800;1,400&amp;display=swap");
 .lr{fill:#F4F1E4;stroke:#B9B39A;stroke-width:.8}
@@ -67,14 +67,16 @@
 <polyline points="287.1,640.5 297.5,647.2 304.0,652.3 280.0,666.2 257.5,685.3 244.7,697.1" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: El Chorro – Málaga – Tarifa</title></polyline>
 <polyline points="244.7,697.1 234.5,711.9" fill="none" stroke="#fff" stroke-width="6.0" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
 <polyline points="244.7,697.1 234.5,711.9" fill="none" stroke="#E08A12" stroke-width="3.0" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 6"><title>Fähre oder Boot: Tarifa – Tanger Ville (Fähre)</title></polyline>
-<polyline points="234.5,711.9 217.5,748.7 196.0,808.4 183.0,823.6 144.0,850.9 132.5,913.7 125.0,975.2" fill="none" stroke="#fff" stroke-width="6.6" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
-<polyline points="234.5,711.9 217.5,748.7 196.0,808.4 183.0,823.6 144.0,850.9 132.5,913.7 125.0,975.2" fill="none" stroke="#0F4C55" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"><title>Zug: Tanger – Kénitra – Rabat – Casablanca – Marrakesch</title></polyline>
-<polyline points="125.0,975.2 145.0,986.7 156.0,996.8 168.5,1012.2 179.5,1020.3 197.5,1012.0 215.0,996.2 227.5,987.9" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
-<polyline points="125.0,975.2 145.0,986.7 156.0,996.8 168.5,1012.2 179.5,1020.3 197.5,1012.0 215.0,996.2 227.5,987.9" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Marrakesch – Tizi n’Tichka – Aït Ben Haddou – Ouarzazate – Dadès</title></polyline>
-<polyline points="227.5,987.9 248.5,982.9 280.0,989.8 313.5,987.9 324.5,1008.9" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
-<polyline points="227.5,987.9 248.5,982.9 280.0,989.8 313.5,987.9 324.5,1008.9" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Dadès – Tinghir – Erfoud – Merzouga</title></polyline>
-<polyline points="324.5,1008.9 313.5,987.9 303.5,956.2 295.0,932.7 288.0,908.6 275.0,882.0 269.5,854.7 275.0,823.0" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
-<polyline points="324.5,1008.9 313.5,987.9 303.5,956.2 295.0,932.7 288.0,908.6 275.0,882.0 269.5,854.7 275.0,823.0" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Merzouga – Erfoud – Midelt – Ifrane – Fès</title></polyline>
+<polyline points="234.5,711.9 217.5,748.7 196.0,808.4 183.0,823.6 144.0,850.9" fill="none" stroke="#fff" stroke-width="6.6" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="234.5,711.9 217.5,748.7 196.0,808.4 183.0,823.6 144.0,850.9" fill="none" stroke="#0F4C55" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"><title>Zug: Tanger – Kénitra – Rabat – Casablanca (Al Boraq)</title></polyline>
+<polyline points="144.0,850.9 132.5,913.7 125.0,975.2" fill="none" stroke="#fff" stroke-width="6.6" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="144.0,850.9 132.5,913.7 125.0,975.2" fill="none" stroke="#0F4C55" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"><title>Zug: Casablanca – Marrakesch</title></polyline>
+<polyline points="125.0,975.2 114.0,986.7" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="125.0,975.2 114.0,986.7" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Marrakesch – Agafay-Wüste (Transfer)</title></polyline>
+<polyline points="114.0,986.7 125.0,975.2" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="114.0,986.7 125.0,975.2" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Agafay-Wüste – Marrakesch (Transfer)</title></polyline>
+<polyline points="125.0,975.2 132.5,913.7 144.0,850.9 183.0,823.6 196.0,808.4 247.5,831.2 275.0,823.0" fill="none" stroke="#fff" stroke-width="6.6" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="125.0,975.2 132.5,913.7 144.0,850.9 183.0,823.6 196.0,808.4 247.5,831.2 275.0,823.0" fill="none" stroke="#0F4C55" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"><title>Zug: Marrakesch – Casablanca – Rabat – Meknès – Fès</title></polyline>
 <polyline points="275.0,823.0 247.5,831.2 196.0,808.4 217.5,748.7 234.5,711.9" fill="none" stroke="#fff" stroke-width="6.6" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
 <polyline points="275.0,823.0 247.5,831.2 196.0,808.4 217.5,748.7 234.5,711.9" fill="none" stroke="#0F4C55" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"><title>Zug: Fès – Kénitra – Tanger</title></polyline>
 <polyline points="234.5,711.9 241.0,704.3 244.7,697.1" fill="none" stroke="#fff" stroke-width="6.0" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
@@ -115,9 +117,9 @@
 <g><title>6. Cabo de Gata: Do, 01.07.2027 – Sa, 03.07.2027, 2 Nächte</title><circle cx="419.7" cy="649.4" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
 <g><title>7. Caminito del Rey: Sa, 03.07.2027 – So, 04.07.2027, 1 Nacht</title><circle cx="287.1" cy="640.5" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
 <g><title>8. Tarifa: So, 04.07.2027 – Mo, 05.07.2027, 1 Nacht</title><circle cx="244.7" cy="697.1" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
-<g><title>9. Marrakesch: Mo, 05.07.2027 – Mi, 07.07.2027, 2 Nächte</title><circle cx="125.0" cy="975.2" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
-<g><title>10. Dadès: Mi, 07.07.2027 – Do, 08.07.2027, 1 Nacht</title><circle cx="227.5" cy="987.9" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
-<g><title>11. Merzouga: Do, 08.07.2027 – Fr, 09.07.2027, 1 Nacht</title><circle cx="324.5" cy="1008.9" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
+<g><title>9. Casablanca: Mo, 05.07.2027 – Di, 06.07.2027, 1 Nacht</title><circle cx="144.0" cy="850.9" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
+<g><title>10. Marrakesch: Di, 06.07.2027 – Do, 08.07.2027, 2 Nächte</title><circle cx="125.0" cy="975.2" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
+<g><title>11. Agafay: Do, 08.07.2027 – Fr, 09.07.2027, 1 Nacht</title><circle cx="114.0" cy="986.7" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
 <g><title>12. Fès: Fr, 09.07.2027 – So, 11.07.2027, 2 Nächte</title><circle cx="275.0" cy="823.0" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
 <g><title>13. Cádiz: So, 11.07.2027 – Mo, 12.07.2027, 1 Nacht</title><circle cx="210.5" cy="664.3" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
 <g><title>14. Sevilla: Mo, 12.07.2027 – Mi, 14.07.2027, 2 Nächte</title><circle cx="225.8" cy="609.8" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
