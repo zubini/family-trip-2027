@@ -6,47 +6,52 @@ REISEN.usa = {
   titel: "Von Las Vegas nach New York",
   menu: "USA (Las Vegas – New York)",
   untertitel: "Fünf Wochen quer durch die USA: Nationalparks im Südwesten, Chicago und die Grossen Seen, Niagarafälle, Washington und New York.",
-  zeitraum: "Fr, 18.06.2027 bis Do, 22.07.2027, 2 Erwachsene und 2 Kids",
+  zeitraum: "Sa, 19.06.2027 bis Fr, 23.07.2027, 2 Erwachsene und 2 Kids",
   titelbild: {
     datei: "USA 10187 Horseshoe Bend Luca Galuzzi 2007.jpg",
     suche: "Horseshoe Bend Arizona|Monument Valley sunset",
     stichwort: "horseshoe bend|monument valley",
     alt: "Horseshoe Bend, Arizona"
   },
-  planIntro: "Abflug ab Zürich am Fr, 18.06.2027, Rückflug ab New York am Do, 22.07.2027. Ein Klick auf eine Station springt zur Beschreibung.",
+  planIntro: "Abflug ab Zürich am Sa, 19.06.2027, Rückflug ab New York am Fr, 23.07.2027. Ein Klick auf eine Station springt zur Beschreibung.",
   hinflug: {
-    datum: "18. Juni",
+    datum: "19. Juni",
     name: "Flug Zürich–Las Vegas",
-    info: "Abflug am Fr, 18.06.2027, Direktflug ca. 12 Std. (mit Umstieg ca. 14–17 Std.), Ankunft am selben Tag"
+    info: "Abflug am Sa, 19.06.2027, Direktflug ca. 12 Std. nur an einzelnen Wochentagen (mit Umstieg ca. 14–17 Std.), Ankunft am selben Tag"
   },
   plan: [
-    {datum: "18.–21. Juni", name: "1. Las Vegas", naechte: 3, info: "Mietwagen am Flughafen abholen"},
-    {datum: "21.–23. Juni", name: "2. Zion National Park", naechte: 2, info: "Mietwagen ab Las Vegas (ca. 2,5–3 Std.)"},
-    {datum: "23.–25. Juni", name: "3. Page und Lake Powell", naechte: 2, info: "Mietwagen (ca. 2,5 Std.)"},
-    {datum: "25.–27. Juni", name: "4. Grand Canyon (South Rim)", naechte: 2, info: "Mietwagen (ca. 2,5 Std.)"},
-    {datum: "27.–28. Juni", name: "5. Monument Valley", naechte: 1, info: "Mietwagen (ca. 3,5 Std.)"},
-    {datum: "28.–30. Juni", name: "6. Santa Fe", naechte: 2, info: "Mietwagen (ca. 6,5–7 Std.)"},
-    {datum: "30. Juni–1. Juli", name: "7. White Sands (Alamogordo)", naechte: 1, info: "Mietwagen (ca. 4–4,5 Std.)"},
+    {datum: "19.–22. Juni", name: "1. Las Vegas", naechte: 3, info: "Mietwagen am Flughafen abholen"},
+    {datum: "22.–24. Juni", name: "2. Zion National Park", naechte: 2, info: "Mietwagen ab Las Vegas (ca. 2,5–3 Std.)"},
+    {datum: "24.–26. Juni", name: "3. Page und Lake Powell", naechte: 2, info: "Mietwagen (ca. 2,5 Std.)"},
+    {datum: "26.–28. Juni", name: "4. Grand Canyon (South Rim)", naechte: 2, info: "Mietwagen (ca. 2,5 Std.)"},
+    {datum: "28.–29. Juni", name: "5. Monument Valley", naechte: 1, info: "Mietwagen (ca. 3,5 Std.)"},
+    {datum: "29. Juni–1. Juli", name: "6. Santa Fe", naechte: 2, info: "Mietwagen (ca. 6,5–7 Std.)"},
+    {datum: "1.–2. Juli", name: "7. White Sands (Alamogordo)", naechte: 1, info: "Mietwagen (ca. 4–4,5 Std.)"},
     {
-      datum: "1.–2. Juli",
+      datum: "2.–3. Juli",
       name: "Zwischenübernachtung Oklahoma City",
       naechte: 1,
       info: "Roadtrip Tag 1: White Sands–Oklahoma City (ca. 10 Std.)"
     },
-    {datum: "2.–5. Juli", name: "8. Chicago", naechte: 3, info: "Roadtrip Tag 2: Oklahoma City–Chicago (ca. 12 Std.)"},
-    {datum: "5.–7. Juli", name: "9. Sandusky und Cedar Point", naechte: 2, info: "Mietwagen ab Chicago (ca. 4,5–5 Std., Uhr +1 Std.)"},
-    {datum: "7.–9. Juli", name: "10. Niagara Falls", naechte: 2, info: "Mietwagen (ca. 4,5 Std.)"},
+    {datum: "3.–6. Juli", name: "8. Chicago", naechte: 3, info: "Roadtrip Tag 2: Oklahoma City–Chicago (ca. 12 Std.)"},
     {
-      datum: "9.–13. Juli",
+      datum: "6.–8. Juli",
+      name: "9. Sandusky und Cedar Point",
+      naechte: 2,
+      info: "Mietwagen ab Chicago (ca. 4,5–5 Std., Uhr +1 Std.)"
+    },
+    {datum: "8.–10. Juli", name: "10. Niagara Falls", naechte: 2, info: "Mietwagen (ca. 4,5 Std.)"},
+    {
+      datum: "10.–14. Juli",
       name: "11. Washington, D.C.",
       naechte: 4,
       info: "Mietwagen (ca. 7 Std.), Rückgabe in Washington"
     },
-    {datum: "13.–15. Juli", name: "12. Philadelphia", naechte: 2, info: "Amtrak-Zug (ca. 2 Std.)"},
-    {datum: "15.–22. Juli", name: "13. New York", naechte: 7, info: "Amtrak-Zug (ca. 1,5 Std.); Rückflug 22. Juli"}
+    {datum: "14.–16. Juli", name: "12. Philadelphia", naechte: 2, info: "Amtrak-Zug (ca. 2 Std.)"},
+    {datum: "16.–23. Juli", name: "13. New York", naechte: 7, info: "Amtrak-Zug (ca. 1,5 Std.); Rückflug 23. Juli"}
   ],
   rueckflug: {
-    datum: "22. Juli",
+    datum: "23. Juli",
     name: "Flug New York–Zürich",
     info: "Rückflug ab Newark oder John F. Kennedy, ca. 7,5–8 Std."
   },
@@ -65,7 +70,7 @@ REISEN.usa = {
     ],
     [
       "Flug ab und nach Zürich",
-      "Hinflug: Zürich–Las Vegas ca. 12 Std. als Direktflug (nicht ganzjährig; mit Umstieg ca. 14–17 Std.). Abflug am Fr, 18.06.2027, Ankunft am selben Tag (Zeitverschiebung −9 Std.). Rückflug: New York–Zürich ca. 7,5–8 Std. als Nachtflug am Do, 22.07.2027 (Zeitverschiebung +6 Std.), Ankunft am nächsten Morgen. Direktflüge und Flugzeiten bei der Buchung prüfen."
+      "Hinflug: Zürich–Las Vegas ca. 12 Std. als Direktflug (nur im Sommer und nur an einzelnen Wochentagen; ob samstags, zeigt erst der Flugplan für Sommer 2027; mit Umstieg ca. 14–17 Std.). Abflug am Sa, 19.06.2027, Ankunft am selben Tag (Zeitverschiebung −9 Std.). Rückflug: New York–Zürich ca. 7,5–8 Std. als Nachtflug am Fr, 23.07.2027 (Zeitverschiebung +6 Std.), Ankunft in Zürich am Sa, 24.07.2027 am Morgen. Direktflüge und Flugzeiten bei der Buchung prüfen."
     ]
   ],
   karte: {
@@ -108,9 +113,9 @@ REISEN.usa = {
       name: "Las Vegas",
       land: "us",
       region: "Nevada",
-      datum: "18.–21. Juni",
+      datum: "19.–22. Juni",
       naechte: "3 Nächte",
-      anreise: "Flug Zürich–Las Vegas am Fr, 18.06.2027 (Direktflug ca. 12 Std., mit Umstieg ca. 14–17 Std.), Ankunft am selben Tag (Zeitverschiebung −9 Std.). Mietwagen am Flughafen abholen.",
+      anreise: "Flug Zürich–Las Vegas am Sa, 19.06.2027 (Direktflug ca. 12 Std., mit Umstieg ca. 14–17 Std.), Ankunft am selben Tag (Zeitverschiebung −9 Std.). Mietwagen am Flughafen abholen.",
       text: "Der Einstieg in die USA: Neonlichter, Hotels wie Freizeitparks und Wüste direkt vor der Stadt. Drei Nächte reichen, um den Jetlag zu überwinden und die Highlights zu sehen, bevor es in die Nationalparks geht.",
       teens: "High Roller (Riesenrad) bei Sonnenuntergang, Wasserspiele des Bellagio, Red Rock Canyon (Felsen und Aussicht) früh am Morgen, Hoover-Staudamm als Halbtagesausflug, Shows und Hotels als Kulisse.",
       fakten: [
@@ -133,7 +138,7 @@ REISEN.usa = {
       name: "Zion National Park (Springdale)",
       land: "us",
       region: "Utah",
-      datum: "21.–23. Juni",
+      datum: "22.–24. Juni",
       naechte: "2 Nächte",
       anreise: "Mietwagen ab Las Vegas über die Interstate 15 nach St. George und Springdale (ca. 2,5–3 Std.).",
       text: "Rote Felsklippen, grüne Schluchten und der Virgin River: Zion ist einer der schönsten Nationalparks der USA. Das Dorf Springdale liegt direkt am Parkeingang.",
@@ -158,7 +163,7 @@ REISEN.usa = {
       name: "Page und Lake Powell",
       land: "us",
       region: "Arizona",
-      datum: "23.–25. Juni",
+      datum: "24.–26. Juni",
       naechte: "2 Nächte",
       anreise: "Mietwagen von Springdale über Kanab und den Highway 89 (ca. 2,5 Std.).",
       text: "Kleinstadt am Lake Powell mit zwei weltberühmten Fotomotiven: dem Horseshoe Bend und dem Antelope Canyon. Beides liegt auf oder neben Navajo-Land.",
@@ -174,7 +179,11 @@ REISEN.usa = {
         {titel: "Antelope Canyon", suche: "Antelope Canyon|Lower Antelope Canyon", stichwort: "antelope canyon"},
         {titel: "Lake Powell", suche: "Lake Powell Arizona|Lake Powell", stichwort: "lake powell"},
         {titel: "Glen Canyon Dam", suche: "Glen Canyon Dam", stichwort: "glen canyon dam"},
-        {titel: "Rainbow Bridge", suche: "Rainbow Bridge National Monument|Rainbow Bridge Lake Powell", stichwort: "rainbow bridge national|lake powell"},
+        {
+          titel: "Rainbow Bridge",
+          suche: "Rainbow Bridge National Monument|Rainbow Bridge Lake Powell",
+          stichwort: "rainbow bridge national|lake powell"
+        },
         {titel: "Page", suche: "Page Arizona|Wahweap Bay", stichwort: "page|wahweap"}
       ]
     },
@@ -183,7 +192,7 @@ REISEN.usa = {
       name: "Grand Canyon (South Rim)",
       land: "us",
       region: "Arizona",
-      datum: "25.–27. Juni",
+      datum: "26.–28. Juni",
       naechte: "2 Nächte",
       anreise: "Mietwagen von Page über Cameron zum Südrand (ca. 2,5 Std.).",
       text: "Der Südrand des Grand Canyon ist der klassische Zugang: Aussichtspunkte direkt am Rand, Wanderwege und ein kostenloser Parkshuttle. Zwei Nächte am Rand, am besten im Park oder im nahen Tusayan.",
@@ -208,7 +217,7 @@ REISEN.usa = {
       name: "Monument Valley (Navajo Nation)",
       land: "us",
       region: "Utah und Arizona",
-      datum: "27.–28. Juni",
+      datum: "28.–29. Juni",
       naechte: "1 Nacht",
       anreise: "Mietwagen vom Grand Canyon über Cameron, Tuba City und Kayenta (ca. 3,5 Std., ca. 290 km).",
       text: "Die roten Sandsteintürme aus unzähligen Westernfilmen liegen im Navajo Tribal Park an der Grenze von Utah und Arizona. Eine Nacht reicht, wenn ihr Sonnenuntergang und Sonnenaufgang erlebt.",
@@ -237,7 +246,7 @@ REISEN.usa = {
       name: "Santa Fe",
       land: "us",
       region: "New Mexico",
-      datum: "28.–30. Juni",
+      datum: "29. Juni–1. Juli",
       naechte: "2 Nächte",
       anreise: "Mietwagen von Monument Valley über Shiprock und Farmington (ca. 6,5–7 Std., ca. 620 km). Einer der längeren Fahrtage: früh starten.",
       text: "Die Hauptstadt von New Mexico auf rund 2’100 Metern Höhe: Lehmziegel-Architektur, Kunstgalerien und die Landschaft des Südwestens. Nach der Wildnis kommt hier wieder Stadtleben.",
@@ -266,7 +275,7 @@ REISEN.usa = {
       name: "White Sands (Alamogordo)",
       land: "us",
       region: "New Mexico",
-      datum: "30. Juni–1. Juli",
+      datum: "1.–2. Juli",
       naechte: "1 Nacht",
       anreise: "Mietwagen von Santa Fe über Albuquerque und die US-54 (ca. 4–4,5 Std.).",
       text: "Weisse Gipsdünen in der Wüste von New Mexico: ein einzigartiger Landschaftstyp, durch den man barfuss wandert und auf Plastikschlitten die Dünen hinunterrutscht. White Sands ist ein Nationalpark.",
@@ -281,7 +290,11 @@ REISEN.usa = {
         {titel: "Gipsdünen", suche: "White Sands National Park dunes|White Sands dunes", stichwort: "white sands"},
         {titel: "Sonnenuntergang", suche: "White Sands sunset", stichwort: "white sands"},
         {titel: "Besucherzentrum", suche: "White Sands National Monument Visitor Center", stichwort: "visitor center"},
-        {titel: "Weisse Eidechse", suche: "Holbrookia maculata White Sands|bleached earless lizard", stichwort: "holbrookia|lizard"},
+        {
+          titel: "Weisse Eidechse",
+          suche: "Holbrookia maculata White Sands|bleached earless lizard",
+          stichwort: "holbrookia|lizard"
+        },
         {titel: "Yucca", suche: "White Sands yucca|White Sands plants", stichwort: "white sands"},
         {titel: "Raumfahrtmuseum", suche: "New Mexico Museum of Space History", stichwort: "space history"}
       ]
@@ -291,15 +304,15 @@ REISEN.usa = {
       name: "Chicago",
       land: "us",
       region: "Illinois",
-      datum: "2.–5. Juli",
+      datum: "3.–6. Juli",
       naechte: "3 Nächte",
-      zwischenstopp: {text: "Zwischenübernachtung in Oklahoma City", datum: "1.–2. Juli"},
+      zwischenstopp: {text: "Zwischenübernachtung in Oklahoma City", datum: "2.–3. Juli"},
       anreise: "Mietwagen-Roadtrip in 2 Tagen ab White Sands: Tag 1 nach Oklahoma City (ca. 1’010 km, ca. 10 Std.), Tag 2 nach Chicago (ca. 1’270 km, ca. 12 Std.). Zusammen ca. 2’290 km und 22 Std. reine Fahrzeit, mit Pausen eher 25 Std. Zeitverschiebung +1 Std.",
       text: "Die grosse Stadt am Michigansee mit Wolkenkratzern, Parks und Stadtstrand. Hier beginnt der Osten: Chicago ist das Tor zu den Grossen Seen. Ihr kommt nach zwei langen Fahrtagen an.",
       teens: "Skydeck im Willis Tower (Glasbalkon «Ledge»), Architektur-Bootsfahrt auf dem Chicago River, Millennium Park mit «Cloud Gate» (The Bean), Navy Pier mit Riesenrad, Field Museum und Shedd Aquarium.",
       fakten: [
         "<strong>Dauer:</strong> 3 Nächte. Rund um den Unabhängigkeitstag (Sonntag, 4. Juli; Feiertag Montag, 5. Juli) sind Feuerwerke, Menschenmassen und höhere Preise zu erwarten.",
-        "<strong>Roadtrip (2 Tage):</strong> Tag 1 (Do, 01.07.2027) White Sands – Roswell – Clovis – Amarillo – Oklahoma City, ca. 630 Meilen (ca. 10 Std. Fahrt); Halt am UFO-Museum in Roswell und am Cadillac Ranch bei Amarillo, Abend in Oklahoma City (Bricktown, Oklahoma City National Memorial). Tag 2 (Fr, 02.07.2027) Oklahoma City – Tulsa – St. Louis (Gateway Arch) – Chicago, ca. 790 Meilen (ca. 12 Std. Fahrt).",
+        "<strong>Roadtrip (2 Tage):</strong> Tag 1 (Fr, 02.07.2027) White Sands – Roswell – Clovis – Amarillo – Oklahoma City, ca. 630 Meilen (ca. 10 Std. Fahrt); Halt am UFO-Museum in Roswell und am Cadillac Ranch bei Amarillo, Abend in Oklahoma City (Bricktown, Oklahoma City National Memorial). Tag 2 (Sa, 03.07.2027) Oklahoma City – Tulsa – St. Louis (Gateway Arch) – Chicago, ca. 790 Meilen (ca. 12 Std. Fahrt).",
         "<strong>Essen:</strong> Deep-Dish-Pizza und Chicago-Style-Hot-Dog.",
         "<strong>Fortbewegung:</strong> Hochbahn «L», Bus und Wassertaxi; in der Stadt braucht ihr kein Auto. Der Mietwagen bleibt im Parkhaus des Hotels (ca. 60–80 USD pro Nacht, vorab erfragen)."
       ],
@@ -323,14 +336,14 @@ REISEN.usa = {
       name: "Sandusky und Cedar Point (Eriesee)",
       land: "us",
       region: "Ohio",
-      datum: "5.–7. Juli",
+      datum: "6.–8. Juli",
       naechte: "2 Nächte",
       anreise: "Mietwagen ab Chicago über die Interstate 90 (ca. 4,5–5 Std., ca. 470 km; Ohio liegt eine Zeitzone weiter, die Uhr springt +1 Std.).",
       text: "Am Südufer des Eriesees liegt Cedar Point, einer der berühmtesten Achterbahn-Parks der Welt. Die Region eignet sich für zwei Tage Action und ein Stück Strand an den Grossen Seen.",
       teens: "Cedar Point (Achterbahnen wie Steel Vengeance und Millennium Force; Tickets online, Grössenbeschränkung beachten), Strand am Eriesee, Fähre zur Insel Put-in-Bay.",
       fakten: [
         "<strong>Dauer:</strong> 2 Nächte: ein Tag im Park, ein Tag Strand und Inseln.",
-        "<strong>Hinweis:</strong> Rund um den Feiertag am 5. Juli ist der Park voll und teuer; früh am Morgen im Park sein.",
+        "<strong>Hinweis:</strong> Nach dem Feiertag (Mo, 5. Juli) unter der Woche etwas ruhiger, im Juli aber trotzdem voll; früh am Morgen im Park sein.",
         "<strong>Mietwagen:</strong> Ihr fahrt mit demselben Wagen weiter, den ihr in Las Vegas übernommen habt."
       ],
       ausserdem: "Cleveland (Rock and Roll Hall of Fame, ca. 1 Std.), Kelleys Island (Gletscherrillen), Lake Erie Islands.",
@@ -352,7 +365,7 @@ REISEN.usa = {
       name: "Niagara Falls",
       land: "us",
       region: "New York",
-      datum: "7.–9. Juli",
+      datum: "8.–10. Juli",
       naechte: "2 Nächte",
       anreise: "Mietwagen ab Sandusky entlang des Eriesees über Cleveland und Buffalo (ca. 4,5 Std.).",
       text: "Die grössten Wasserfälle Nordamerikas an der Grenze zu Kanada: Tosende Wassermassen, Gischt und Regenbogen. Ihr übernachtet auf der US-Seite im Bundesstaat New York.",
@@ -377,7 +390,7 @@ REISEN.usa = {
       name: "Washington, D.C.",
       land: "us",
       region: "Washington, D.C.",
-      datum: "9.–13. Juli",
+      datum: "10.–14. Juli",
       naechte: "4 Nächte",
       anreise: "Mietwagen ab Niagara Falls (ca. 7 Std., Halt in Gettysburg möglich), Rückgabe der Einwegmiete am Flughafen oder beim Hotel in Washington.",
       text: "Die Hauptstadt der USA: Denkmäler, Regierungsgebäude und eine Vielzahl kostenloser Museen rund um die National Mall. Alles ist gut zu Fuss und mit der Metro erreichbar.",
@@ -402,7 +415,7 @@ REISEN.usa = {
       name: "Philadelphia",
       land: "us",
       region: "Pennsylvania",
-      datum: "13.–15. Juli",
+      datum: "14.–16. Juli",
       naechte: "2 Nächte",
       anreise: "Amtrak-Zug ab Washington Union Station nach Philadelphia 30th Street Station (ca. 2 Std.).",
       text: "Die Wiege der USA: Hier wurden die Unabhängigkeitserklärung und die Verfassung unterzeichnet. Ein kompakter Zwischenstopp zwischen Washington und New York.",
@@ -426,9 +439,9 @@ REISEN.usa = {
       name: "New York",
       land: "us",
       region: "New York",
-      datum: "15.–22. Juli",
-      naechte: "7 Nächte, Rückflug 22. Juli",
-      anreise: "Amtrak-Zug ab Philadelphia 30th Street nach New York Penn Station (ca. 1,5 Std.). Rückflug ab Newark oder John F. Kennedy am Do, 22.07.2027 (Flug ca. 7,5–8 Std., Ankunft in Zürich am nächsten Morgen).",
+      datum: "16.–23. Juli",
+      naechte: "7 Nächte, Rückflug 23. Juli",
+      anreise: "Amtrak-Zug ab Philadelphia 30th Street nach New York Penn Station (ca. 1,5 Std.). Rückflug ab Newark oder John F. Kennedy am Fr, 23.07.2027 (Flug ca. 7,5–8 Std., Ankunft in Zürich am Sa, 24.07.2027 am Morgen).",
       text: "Das grosse Finale: Wolkenkratzer, Parks, Museen und Hafenpanorama. Sieben Nächte erlauben Highlights und Ruhetage.",
       teens: "Fähre zur Freiheitsstatue und nach Ellis Island, Aussicht vom Empire State Building oder Top of the Rock, Broadway-Musical, Brooklyn Bridge, Coney Island (Achterbahn und Strand), Intrepid Museum (Flugzeugträger).",
       fakten: [
@@ -451,7 +464,7 @@ REISEN.usa = {
       ]
     }
   ],
-  abschluss: "Rückflug ab New York nach Zürich am Do, 22.07.2027 (ca. 7,5–8 Std.).",
+  abschluss: "Rückflug ab New York nach Zürich am Abend des Fr, 23.07.2027 (ca. 7,5–8 Std.), Ankunft am Sa, 24.07.2027 am Morgen.",
   budgetIntro: "Mittelklasse inklusive Flüge, Transport, Unterkunft, Verpflegung und Aktivitäten. Alle Beträge sind Schätzungen in CHF.",
   budget: {
     naechte: 34,

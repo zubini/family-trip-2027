@@ -9,33 +9,33 @@ REISEN.marokko2 = {
   alternativeZu: "marokko",
   variante: "Nur mit dem Zug bis Marrakesch",
   untertitel: "Fünf Wochen ab Brig-Glis: Schnorcheln bei den Medes-Inseln, Barcelona, Valencia, vier Nächte auf Formentera, Benidorm, Cabo de Gata und der Caminito del Rey, mit Fähre und Zug nach Casablanca, Marrakesch, in die Agafay-Wüste und nach Fès, dann Sevilla, Algarve, Lissabon, die Playa de las Catedrales und über San Sebastián und Carcassonne zurück.",
-  zeitraum: "Fr, 18.06.2027 bis So, 25.07.2027, 2 Erwachsene und 2 Kids",
+  zeitraum: "Sa, 19.06.2027 bis Sa, 24.07.2027, 2 Erwachsene und 2 Kids",
   titelbild: {
     suche: "Jemaa el-Fnaa Marrakech evening|Koutoubia Mosque Marrakech sunset",
     stichwort: "jemaa|fna|koutoubia|marrakech",
     alt: "Platz Jemaa el-Fna in Marrakesch am Abend"
   },
-  planIntro: "Abfahrt in Brig-Glis am Fr, 18.06.2027, Rückkehr am So, 25.07.2027. Mit dem eigenen Elektroauto durch Spanien, Portugal und Frankreich, nach Formentera mit der Autofähre; nach Marokko mit der Fähre ohne Auto, dort nur mit dem Zug: hin über Casablanca, zurück über Fès, ohne Mietwagen. Ein Klick auf eine Station springt zur Beschreibung.",
+  planIntro: "Abfahrt in Brig-Glis am Sa, 19.06.2027, Rückkehr am Sa, 24.07.2027. Mit dem eigenen Elektroauto durch Spanien, Portugal und Frankreich, nach Formentera mit der Autofähre; nach Marokko mit der Fähre ohne Auto, dort nur mit dem Zug: hin über Casablanca, zurück über Fès, ohne Mietwagen. Ein Klick auf eine Station springt zur Beschreibung.",
   hinflug: {
-    datum: "18. Juni",
+    datum: "19. Juni",
     name: "Abfahrt in Brig-Glis",
     info: "Mit dem eigenen Auto über Genf und Lyon ans Mittelmeer"
   },
   plan: [
     {
-      datum: "18.–19. Juni",
+      datum: "19.–20. Juni",
       name: "Zwischenübernachtung Sète",
       naechte: 1,
       info: "Brig-Glis – Genf – Lyon – Montpellier – Sète (ca. 7–7,5 Std., ca. 630 km)"
     },
     {
-      datum: "19.–21. Juni",
+      datum: "20.–22. Juni",
       name: "1. Costa Brava (L’Estartit)",
       naechte: 2,
       info: "Auto über Perpignan und Figueres (ca. 2,5–3 Std., ca. 260 km)"
     },
-    {datum: "21.–23. Juni", name: "2. Barcelona", naechte: 2, info: "Auto über Girona (ca. 1,75–2 Std., ca. 140 km)"},
-    {datum: "23.–25. Juni", name: "3. Valencia", naechte: 2, info: "Auto auf der AP-7 (ca. 3,5 Std., ca. 350 km)"},
+    {datum: "22.–24. Juni", name: "2. Barcelona", naechte: 2, info: "Auto über Girona (ca. 1,75–2 Std., ca. 140 km)"},
+    {datum: "24.–25. Juni", name: "3. Valencia", naechte: 1, info: "Auto auf der AP-7 (ca. 3,5 Std., ca. 350 km)"},
     {
       datum: "25.–29. Juni",
       name: "4. Formentera",
@@ -102,27 +102,27 @@ REISEN.marokko2 = {
       info: "Auto über Braga und Lugo (ca. 4–4,5 Std., ca. 400 km), Uhr +1 Std."
     },
     {
-      datum: "22.–24. Juli",
+      datum: "22.–23. Juli",
       name: "18. San Sebastián",
-      naechte: 2,
+      naechte: 1,
       info: "Auto entlang der Nordküste über Bilbao (ca. 5 Std., ca. 480 km)"
     },
     {
-      datum: "24.–25. Juli",
+      datum: "23.–24. Juli",
       name: "19. Carcassonne",
       naechte: 1,
       info: "Auto über Bayonne und Toulouse (ca. 4–4,5 Std., ca. 435 km)"
     }
   ],
   rueckflug: {
-    datum: "25. Juli",
+    datum: "24. Juli",
     name: "Ankunft in Brig-Glis",
     info: "Carcassonne – Montpellier – Lyon – Genf – Brig-Glis (ca. 7,5–8 Std., ca. 750 km; mit Pausen und Ladestopps ca. 9 Std.)"
   },
   planHinweise: [
     [
       "Gesamt",
-      "37 Nächte, 19 Stationen und 2 Zwischenübernachtungen (Sète, Porto). Keine Flüge: mit dem eigenen Elektroauto ca. 5’600 km (ca. 59 Std. reine Fahrzeit), dazu die Autofähre nach Formentera und zurück (zusammen ca. 4–6 Std.), zweimal die Fähre über die Meerenge (je ca. 1 Std.) und in Marokko nur Züge: Tanger–Casablanca, Casablanca–Marrakesch, Marrakesch–Fès und Fès–Tanger (zusammen ca. 15–17 Std.), dazu Transfers in die Agafay-Wüste (zusammen ca. 1,5–2 Std.). Mit Pausen, Ladestopps, Check-in an den Häfen, Grenz- und Passkontrollen, Umsteigen und Stau realistisch ca. 96–103 Std. von Tür zu Tür (ca. 68–71 Std. im Auto, ca. 28–32 Std. für Fähren, Züge und Transfers mit Wartezeiten). Die längsten Reisetage: Brig-Glis–Sète (ca. 7–7,5 Std.), Agafay–Fès (Transfer und Zug, ca. 7,5–8,5 Std.), Fès–Cádiz (Zug und Fähre, ca. 7–9 Std.), Carcassonne–Brig-Glis (ca. 7,5–8 Std., mit Pausen und Ladestopps ca. 9 Std.)."
+      "35 Nächte, 19 Stationen und 2 Zwischenübernachtungen (Sète, Porto). Keine Flüge: mit dem eigenen Elektroauto ca. 5’600 km (ca. 59 Std. reine Fahrzeit), dazu die Autofähre nach Formentera und zurück (zusammen ca. 4–6 Std.), zweimal die Fähre über die Meerenge (je ca. 1 Std.) und in Marokko nur Züge: Tanger–Casablanca, Casablanca–Marrakesch, Marrakesch–Fès und Fès–Tanger (zusammen ca. 15–17 Std.), dazu Transfers in die Agafay-Wüste (zusammen ca. 1,5–2 Std.). Mit Pausen, Ladestopps, Check-in an den Häfen, Grenz- und Passkontrollen, Umsteigen und Stau realistisch ca. 96–103 Std. von Tür zu Tür (ca. 68–71 Std. im Auto, ca. 28–32 Std. für Fähren, Züge und Transfers mit Wartezeiten). Die längsten Reisetage: Brig-Glis–Sète (ca. 7–7,5 Std.), Agafay–Fès (Transfer und Zug, ca. 7,5–8,5 Std.), Fès–Cádiz (Zug und Fähre, ca. 7–9 Std.), Carcassonne–Brig-Glis (ca. 7,5–8 Std., mit Pausen und Ladestopps ca. 9 Std.)."
     ],
     [
       "Vorab buchen",
@@ -181,9 +181,9 @@ REISEN.marokko2 = {
       ersatzsuche: "Estartit|Medes|Costa Brava",
       land: "es",
       region: "Katalonien",
-      datum: "19.–21. Juni",
+      datum: "20.–22. Juni",
       naechte: "2 Nächte",
-      zwischenstopp: {text: "Zwischenübernachtung in Sète", datum: "18.–19. Juni"},
+      zwischenstopp: {text: "Zwischenübernachtung in Sète", datum: "19.–20. Juni"},
       anreise: "Mit dem Auto ab Brig-Glis über Genf, Lyon und Montpellier nach Sète (ca. 7–7,5 Std., ca. 630 km), dort am Mittelmeer übernachten. Am nächsten Tag über Perpignan und Figueres nach L’Estartit (ca. 2,5–3 Std., ca. 260 km), Uhr ohne Zeitverschiebung.",
       text: "Vor dem Badeort L’Estartit liegen die Medes-Inseln, eines der ältesten und bekanntesten Meeresschutzgebiete im Mittelmeer. Weil hier seit den 1980er-Jahren nicht mehr gefischt wird, sind die Fische gross und zahlreich; an Land kommen die Felsbuchten des Naturparks Montgrí dazu.",
       teens: "Bootsfahrt mit Glasboden und geführtem Schnorchelhalt bei den Medes-Inseln, Schnorcheln in den Buchten des Montgrí (Cala Montgó, Cala Ferriol), Kajak oder Stand-up-Paddle entlang der Küste, Dalí-Museum in Figueres.",
@@ -211,13 +211,13 @@ REISEN.marokko2 = {
       name: "Barcelona",
       land: "es",
       region: "Katalonien",
-      datum: "21.–23. Juni",
+      datum: "22.–24. Juni",
       naechte: "2 Nächte",
       anreise: "Mit dem Auto von L’Estartit über Girona nach Barcelona (ca. 1,75–2 Std., ca. 140 km). Das Auto vorab für die Umweltzone registrieren und im Hotel-Parkhaus abstellen; in der Stadt Metro und zu Fuss.",
-      text: "Gaudís Bauten, Altstadtgassen, Strand und eine lebendige Grossstadt. In der Nacht vom 23. auf den 24. Juni feiert die Stadt Sant Joan mit Feuerwerk und Feuern am Strand.",
+      text: "Gaudís Bauten, Altstadtgassen, Strand und eine lebendige Grossstadt. In der Nacht vom 23. auf den 24. Juni, während eures Aufenthalts, feiert die Stadt Sant Joan mit Feuerwerk und Feuern am Strand.",
       teens: "Sagrada Família (Turm), Park Güell, Camp Nou bzw. Barça-Museum, Seilbahn auf den Montjuïc, Strand Barceloneta, Markt La Boqueria.",
       fakten: [
-        "<strong>Dauer:</strong> 2 Nächte: ein Tag Sagrada Família und Park Güell, ein Tag Altstadt, Hafen und Strand. Am 21. Juni weiter nach Valencia.",
+        "<strong>Dauer:</strong> 2 Nächte: ein Tag Sagrada Família und Park Güell, ein Tag Altstadt, Hafen und Strand. Am 24. Juni weiter nach Valencia.",
         "<strong>Tickets:</strong> Sagrada Família und Park Güell nur online mit Zeitfenster; Kinder unter 11 gratis, brauchen aber ein Ticket.",
         "<strong>Taschendiebe:</strong> Auf den Ramblas, in der Metro und am Strand Wertsachen gut verstauen."
       ],
@@ -236,13 +236,13 @@ REISEN.marokko2 = {
       name: "Valencia",
       land: "es",
       region: "Valencia",
-      datum: "23.–25. Juni",
-      naechte: "2 Nächte",
+      datum: "24.–25. Juni",
+      naechte: "1 Nacht",
       anreise: "Mit dem Auto von Barcelona auf der AP-7 nach Valencia (ca. 3,5 Std., ca. 350 km). Hotel mit Parkhaus oder Ladestation wählen.",
       text: "Drittgrösste Stadt Spaniens mit der futuristischen Stadt der Künste und Wissenschaften, einem langen Stadtstrand und dem grünen Turia-Park im alten Flussbett. Hier kommt die Paella her.",
       teens: "Oceanogràfic (das grösste Aquarium Europas, mit Haien und Belugas), Wissenschaftsmuseum, Velotour durch den Turia-Park, Baden an der Malvarrosa, Paella in der Albufera.",
       fakten: [
-        "<strong>Dauer:</strong> 2 Nächte: ein Tag Oceanogràfic und Stadt der Künste, ein halber Tag Altstadt oder Strand; danach nach Dénia und mit der Fähre nach Formentera.",
+        "<strong>Dauer:</strong> 1 Nacht: am Nachmittag und Abend Oceanogràfic und Stadt der Künste, am nächsten Morgen nach Dénia und mit der Fähre nach Formentera.",
         "<strong>Tickets:</strong> Oceanogràfic online buchen, Kombiticket mit Museum und Hemisfèric möglich.",
         "<strong>Auto:</strong> Hotel mit Parkhaus wählen und in der Stadt Metro, Bus oder Velo nutzen; Regeln der Umweltzone vorab prüfen."
       ],
@@ -649,13 +649,13 @@ REISEN.marokko2 = {
       ersatzsuche: "San Sebastian|Donostia",
       land: "es",
       region: "Baskenland",
-      datum: "22.–24. Juli",
-      naechte: "2 Nächte",
+      datum: "22.–23. Juli",
+      naechte: "1 Nacht",
       anreise: "Mit dem Auto von Ribadeo entlang der Nordküste über Oviedo, Santander und Bilbao nach San Sebastián (ca. 5 Std., ca. 480 km); Halt in Bilbao beim Guggenheim-Museum möglich.",
       text: "Elegante Stadt an einer muschelförmigen Bucht mit Stadtstrand, Altstadt voller Pintxos-Bars und zwei Aussichtsbergen. Nach der Hitze im Süden ist es hier grün und angenehm.",
       teens: "Baden an der Playa de la Concha, Surfstunde an der Zurriola, Standseilbahn auf den Monte Igueldo mit altem Freizeitpark, Aquarium, Pintxos am Abend, Ausflug nach Bilbao ins Guggenheim.",
       fakten: [
-        "<strong>Dauer:</strong> 2 Nächte: ein Tag Strand und Altstadt, ein Tag Surfen, Küstenwanderung oder Ausflug nach Biarritz (ca. 45 Min.).",
+        "<strong>Dauer:</strong> 1 Nacht: am Abend Altstadt mit Pintxos, am Morgen Strand La Concha oder Surfen, dann weiter nach Carcassonne.",
         "<strong>Wetter:</strong> Meist 22–26 °C, Atlantik ca. 20–22 °C, Regenschauer möglich.",
         "<strong>Auto:</strong> Parkhaus beim Hotel; in der Stadt zu Fuss, mit Bus oder Velo."
       ],
@@ -674,15 +674,15 @@ REISEN.marokko2 = {
       name: "Carcassonne (Finale)",
       land: "fr",
       region: "Okzitanien",
-      datum: "24.–25. Juli",
-      naechte: "1 Nacht, Rückfahrt am 25. Juli",
+      datum: "23.–24. Juli",
+      naechte: "1 Nacht, Rückfahrt am 24. Juli",
       anreise: "Mit dem Auto über Bayonne und Toulouse nach Carcassonne (ca. 4–4,5 Std., ca. 435 km, Maut in Frankreich).",
       text: "Die Cité von Carcassonne ist eine mittelalterliche Festungsstadt mit doppelter Mauer und über 50 Türmen, wie aus einem Ritterfilm. Unten fliesst der Canal du Midi.",
       teens: "Rundgang auf den Mauern der Cité und durch das Schloss, Ritterspiele und Greifvogelschau im Sommer, Bootsfahrt auf dem Canal du Midi, Baden im Lac de la Cavayère.",
       fakten: [
         "<strong>Dauer:</strong> 1 Nacht: am Abend und am frühen Morgen durch die Cité (tagsüber voll).",
         "<strong>Auto:</strong> Crit’Air-Vignette für Frankreich nötig; Parkplätze unterhalb der Cité.",
-        "<strong>Rückfahrt:</strong> Am So, 25.07.2027 über Narbonne, Montpellier, Lyon und Genf nach Brig-Glis (ca. 7,5–8 Std., ca. 750 km; mit Pausen und 1–2 Ladestopps ca. 9 Std.). Früh starten; am Sonntag fahren in Frankreich keine Lastwagen, in den Ferien ist trotzdem viel Verkehr."
+        "<strong>Rückfahrt:</strong> Am Sa, 24.07.2027 über Narbonne, Montpellier, Lyon und Genf nach Brig-Glis (ca. 7,5–8 Std., ca. 750 km; mit Pausen und 1–2 Ladestopps ca. 9 Std.). Früh starten; im Juli sind die Autobahnen am Samstag Richtung Süden voll, Richtung Norden weniger."
       ],
       ausserdem: "Toulouse mit der Cité de l’espace (Raumfahrt-Park, auf der Anreise), Katharerburgen wie Peyrepertuse, Lac de la Cavayère. Pont du Gard und Avignon (Umweg auf der Rückfahrt, mit einer Nacht mehr).",
       bilder: [
@@ -695,13 +695,13 @@ REISEN.marokko2 = {
       ]
     }
   ],
-  abschluss: "Nach einer Nacht in Carcassonne Rückfahrt über Montpellier, Lyon und Genf nach Brig-Glis am So, 25.07.2027 (ca. 7,5–8 Std. reine Fahrzeit, mit Pausen ca. 9 Std.).",
+  abschluss: "Nach einer Nacht in Carcassonne Rückfahrt über Montpellier, Lyon und Genf nach Brig-Glis am Sa, 24.07.2027 (ca. 7,5–8 Std. reine Fahrzeit, mit Pausen ca. 9 Std.).",
   budgetIntro: "Mittelklasse inklusive Maut, Fähren, Züge und Transfers in Marokko, Unterkunft, Verpflegung und Aktivitäten; Laden an Tesla-Superchargern ist gratis. Alle Beträge sind Schätzungen in CHF.",
   budget: {
-    naechte: 37,
-    total: "21’050",
-    spanne: "15’900–27’600",
-    proTag: "ca. 570 CHF pro Tag, ca. 5’300 pro Person",
+    naechte: 35,
+    total: "20’100",
+    spanne: "15’200–26’400",
+    proTag: "ca. 570 CHF pro Tag, ca. 5’000 pro Person",
     posten: [
       [
         "Auto: Maut, Vignetten, Laden unterwegs (ca. 5’300 km)",
@@ -729,14 +729,14 @@ REISEN.marokko2 = {
       ],
       [
         "Unterkunft (Familienzimmer, Apartment, Riad oder 2 Zimmer)",
-        "6’450–11’050",
-        "8’550",
+        "6’000–10’350",
+        "8’000",
         "ca. 120–300 CHF pro Nacht; Riads in Marokko günstiger, Formentera im Juli, das Camp in der Agafay-Wüste, Lissabon und San Sebastián teurer"
       ],
       [
         "Verpflegung (Restaurants, Einkauf)",
-        "3’700–6’300",
-        "4’850",
+        "3’500–5’960",
+        "4’550",
         "ca. 100–170 CHF pro Tag für 4 Personen; Marokko günstig"
       ],
       [
@@ -751,13 +751,13 @@ REISEN.marokko2 = {
         "500",
         "Pannenhilfe-Versicherung fürs Auto, Reiseversicherung für Marokko, Annullationsschutz"
       ],
-      ["Reserve (ca. 10 %)", "1’450–2’550", "1’900", "Souvenirs, Wäsche, Unvorhergesehenes"]
+      ["Reserve (ca. 10 %)", "1’400–2’450", "1’800", "Souvenirs, Wäsche, Unvorhergesehenes"]
     ],
     stationen: [
       ["Zwischenübernachtung Sète (1)", "250–400"],
       ["1. Costa Brava (2)", "650–1’100"],
       ["2. Barcelona (2)", "750–1’250"],
-      ["3. Valencia (2)", "650–1’050"],
+      ["3. Valencia (1)", "350–550"],
       ["4. Formentera (4)", "1’700–2’900"],
       ["5. Benidorm (2)", "600–1’000"],
       ["6. Cabo de Gata (2)", "600–1’000"],
@@ -773,7 +773,7 @@ REISEN.marokko2 = {
       ["16. Lissabon (2)", "700–1’150"],
       ["Zwischenübernachtung Porto (1)", "250–400"],
       ["17. Playa de las Catedrales (2)", "550–900"],
-      ["18. San Sebastián (2)", "750–1’200"],
+      ["18. San Sebastián (1)", "400–650"],
       ["19. Carcassonne (1)", "300–450"]
     ],
     hinweise: [

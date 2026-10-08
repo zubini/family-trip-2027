@@ -2,12 +2,12 @@
 
 **Zur Seite: https://zubini.github.io/family-trip-2027/**
 
-Reiseführer und Variantenvergleich für die Familienreise 2027 (ab 18. Juni, 2 Erwachsene und 2 Kids) mit vier Varianten:
+Reiseführer und Variantenvergleich für die Familienreise 2027 (Sa, 19. Juni bis Sa, 24. Juli, 2 Erwachsene und 2 Kids) mit vier Varianten:
 
-- **Spanien / Portugal**: mit dem eigenen Auto ab Brig-Glis, zu den Balearen mit der Autofähre, ohne Flug (bis 24. Juli)
-- **Spanien / Portugal / Marokko**: mit dem eigenen Auto ab Brig-Glis, rund sechs Tage Marokko mit Fähre, Zug und Mietwagen (bis 25. Juli); als Variante in Marokko nur mit dem Zug bis Marrakesch
-- **USA (Las Vegas – New York)** (bis 22. Juli)
-- **Malaysia / Thailand**: von Singapur nach Bangkok (bis 22. Juli)
+- **Spanien / Portugal**: mit dem eigenen Auto ab Brig-Glis, zu den Balearen mit der Autofähre, ohne Flug
+- **Spanien / Portugal / Marokko**: mit dem eigenen Auto ab Brig-Glis, rund sechs Tage Marokko mit Fähre, Zug und Mietwagen; als Variante in Marokko nur mit dem Zug bis Marrakesch
+- **USA (Las Vegas – New York)**: Nationalparks, Roadtrip nach Chicago und an die Ostküste
+- **Malaysia / Thailand**: von Singapur nach Bangkok
 
 Dazu eine Einstiegsseite mit Vergleich, Bewertung, Budget sowie Pro und Contra und eine Seite mit den Quellen.
 

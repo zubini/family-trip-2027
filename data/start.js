@@ -5,9 +5,9 @@
 // Bewertung: [Punkte 0–5, Text]. Die Punkte und Pro/Contra sind eine Einschätzung und bei Änderungen an den Reisen von Hand anzupassen.
 window.START = {
   titel: "Familienreise 2027",
-  zeitraum: "Ab Fr, 18.06.2027 für fünf Wochen, 2 Erwachsene und 2 Kids",
+  zeitraum: "Sa, 19.06.2027 bis Sa, 24.07.2027, 2 Erwachsene und 2 Kids",
   untertitel: "Verschiedene Reisevarianten als Fahrplan für eine Entscheidung.",
-  reisenIntro: "Alle Reisen dauern 33 bis 37 Nächte und sind für die Familie mit Sohn (12) und Tochter (14) geplant. Die beiden Reisen mit dem eigenen Auto ohne Flug und Jetlag dauern bis Sa, 24.07.2027 (Spanien / Portugal) bzw. So, 25.07.2027 (mit Marokko), die anderen enden am Do, 22.07.2027. Ein Klick führt zum vollständigen Fahrplan mit Stationen, Karte und Budget.",
+  reisenIntro: "Alle Reisen dauern vom Sa, 19.06.2027 bis zum Sa, 24.07.2027 und sind für die Familie mit Sohn (12) und Tochter (14) geplant: die beiden Reisen mit dem eigenen Auto 35 Nächte, die Flugreisen 34 Nächte vor Ort (Hinflug am Abend bzw. Nachtflug zurück). Ein Klick führt zum vollständigen Fahrplan mit Stationen, Karte und Budget.",
   bewertungIntro: "Bewertet werden Natur, Dschungelfeeling, Wüstenfeeling, Strand und Baden, Schnorcheln, Abenteuer, Städte, Gesundheit und Sicherheit, Budget, Reisekomfort sowie CO₂ und Umwelt. Fünf Punkte sind die beste Bewertung (beim Budget heisst das: günstig, beim CO₂: wenig Ausstoss). Die Skala ist fest und nicht nur ein Vergleich der Reisen: 5 heisst Weltklasse (z.B. tropische Riffe beim Schnorcheln, kurze Etappen beim Reisekomfort), 0 heisst, dass es das auf der Reise nicht gibt. Die Punkte sind eine Einschätzung auf Basis der Reisepläne, keine Messung.",
   budgetIntro: "Mittelklasse inklusive Flüge bzw. Autokosten, Transport, Unterkunft, Verpflegung und Aktivitäten für 4 Personen. Der dunkle Punkt ist der Planwert, der helle Balken die Spanne.",
   vergleichIntro: "Die wichtigsten Unterschiede nebeneinander.",
@@ -31,7 +31,7 @@ window.START = {
       hoehepunkte: "Schnorcheln bei den Medes-Inseln, Sagrada Família, Oceanogràfic in Valencia, Schnorcheln an den Buchten von Ibiza und Formentera, Terra Mítica und Aqualandia in Benidorm, Alhambra und Gorafe, Cabo de Gata, Caminito del Rey, Sevilla, Kajak durch die Grotten der Algarve, Lissabon, Porto, Playa de las Catedrales, Bardenas Reales.",
       teens: "Freizeit- und Wasserparks (Terra Mítica, Aqualandia), Schnorcheln und Kajak, Grotten der Algarve, Caminito del Rey, Game-of-Thrones-Drehorte, Höhlen und Felsbögen bei Ebbe, Surfen in Galicien.",
       pro: [
-        "Kein Flug und kein Jetlag, Tür zu Tür wenig Reisezeit (ca. 83–86 Std.); zwei Tage länger möglich",
+        "Kein Flug und kein Jetlag, Tür zu Tür wenig Reisezeit (ca. 83–86 Std.)",
         "Schnorcheln bewusst eingeplant: Meeresschutzgebiet der Medes-Inseln, sechs Nächte auf Ibiza und Formentera, Cabo de Gata und Tabarca; dazwischen Städte, Strand und Natur im Wechsel",
         "Städte und Kultur: Barcelona, Valencia, Granada mit der Alhambra, Sevilla, Lissabon und Porto",
         "Unkompliziert und sicher: Europa, keine Impfungen, eigenes Auto mit viel Platz fürs Gepäck",
@@ -53,7 +53,7 @@ window.START = {
       stationen: "19 Stationen und 2 Zwischenübernachtungen",
       laender: "Frankreich, Spanien, Marokko, Portugal",
       hinflug: "Kein Flug: mit dem eigenen Auto ab Brig-Glis, Zwischenstopp in Sète (ca. 7–7,5 Std.), dann an die Costa Brava (ca. 2,5–3 Std.)",
-      rueckflug: "Mit dem Auto ab Carcassonne über Montpellier, Lyon und Genf (ca. 7,5–8 Std., mit Pausen und Ladestopps ca. 9 Std.), Ankunft So, 25.07.2027",
+      rueckflug: "Mit dem Auto ab Carcassonne über Montpellier, Lyon und Genf (ca. 7,5–8 Std., mit Pausen und Ladestopps ca. 9 Std.), Ankunft Sa, 24.07.2027",
       dazwischen: "Keine Flüge: eigenes Elektroauto, Autofähre Dénia–Formentera; nach Marokko mit der Fähre ohne Auto (Tarifa–Tanger), dort Zug und Mietwagen (Einwegmiete Marrakesch–Fès)",
       tempo: "Ca. 75 Std. reine Fahrzeit (ca. 5’600 km eigenes Auto, ca. 1’000 km Mietwagen), dazu Fähren nach Formentera und in Marokko sowie Züge (ca. 15–19 Std.); realistisch ca. 108–114 Std. Tür zu Tür; die längsten Tage: Brig-Glis–Sète (ca. 7–7,5 Std.), Carcassonne–Brig-Glis (ca. 7,5–8 Std.), Merzouga–Fès (ca. 7 Std.), Fès–Cádiz und Tarifa–Marrakesch (Fähre und Zug, je ca. 7–9 Std.), Ribadeo–San Sebastián (ca. 5 Std.)",
       gesamt: "Ca. 108–114 Std. Tür zu Tür, ohne Flughafen und ohne Jetlag: davon realistisch ca. 86–90 Std. im Auto inklusive Ladestopps (ca. 75 Std. reine Fahrzeit) und ca. 22–24 Std. für Fähren und Züge mit Passkontrolle und Umsteigen.",
@@ -82,8 +82,8 @@ window.START = {
       route: "Las Vegas, Zion, Page, Grand Canyon, Monument Valley, Santa Fe, White Sands, Chicago, Sandusky, Niagara Falls, Washington, Philadelphia, New York",
       stationen: "13 Stationen und 1 Zwischenübernachtung",
       laender: "USA (Nevada bis New York)",
-      hinflug: "Zürich–Las Vegas ca. 12 Std. direkt (nicht ganzjährig), sonst 14–17 Std.",
-      rueckflug: "New York–Zürich ca. 7,5–8 Std.",
+      hinflug: "Zürich–Las Vegas ca. 12 Std. direkt (nur an einzelnen Wochentagen, Sommerflugplan 2027 noch offen), sonst 14–17 Std.",
+      rueckflug: "New York–Zürich ca. 7,5–8 Std. als Nachtflug am Fr, 23.07.2027, Ankunft Sa, 24.07.2027",
       dazwischen: "Keine Flüge dazwischen: Mietwagen und 2-Tage-Roadtrip, im Osten Amtrak",
       tempo: "Ca. 60 Std. reine Fahrzeit (ca. 5’800 km), realistisch mit Pausen und Stau ca. 70–75 Std. im Auto, an 11 Fahrtagen: Roadtrip mit 10 und 12 Std., 5 Tage mit 4–7 Std., 4 Tage mit 2,5–3,5 Std.",
       gesamt: "Ca. 102–109 Std. Tür zu Tür: Bahn Brig-Glis–Zürich Flughafen (ca. 2,5 Std.), ca. 2 Std. Wartezeit am Flughafen, Flüge, Einreise und Mietwagen zusammen ca. 32–34 Std. (mit Direktflug, mit Umsteigen mehr), dazu ca. 70–75 Std. im Auto. Uhr −9 Std., Jetlag vor allem nach der Rückkehr.",
@@ -112,7 +112,7 @@ window.START = {
       stationen: "10 Stationen und 2 Zwischenübernachtungen",
       laender: "Singapur, Malaysia, Thailand",
       hinflug: "Direktflug Zürich–Singapur ca. 12–13 Std.",
-      rueckflug: "Direktflug Bangkok–Zürich ca. 11,5–12 Std.",
+      rueckflug: "Direktflug Bangkok–Zürich ca. 11,5–12 Std. am Sa, 24.07.2027 um die Mittagszeit, Ankunft am Abend",
       dazwischen: "Keine Flüge dazwischen, alles per Bus, Zug und Fähre",
       tempo: "Ca. 55–60 Std. reine Reisezeit mit Bus, Zug und Fähre, realistisch mit Wartezeiten ca. 65–70 Std.; 6 lange Reisetage mit 5–9 Std. (Tioman–Kuala Lumpur, Kuala Lumpur–Kuala Besut, Perhentian–Penang, Penang–Hat Yai, Hat Yai–Khanom, Koh Tao–Hua Hin)",
       gesamt: "Ca. 101–108 Std. Tür zu Tür: Bahn Brig-Glis–Zürich Flughafen (ca. 2,5 Std.), ca. 2 Std. Wartezeit am Flughafen, Flüge und Transfers zusammen ca. 36–38 Std., dazu ca. 65–70 Std. mit Bus, Zug und Fähre; niemand muss selber fahren. Uhr +6 Std. (Thailand +5 Std.), Jetlag vor allem nach der Ankunft.",
@@ -248,7 +248,7 @@ window.START = {
       ],
       marokko: [
         4,
-        "Fünf von sechs Wochen in Spanien, Portugal und Frankreich, dort unkompliziert. In Marokko (6 Nächte) keine Krankenversicherungskarte, kein Leitungswasser und auf Hygiene beim Essen achten; das grösste Risiko ist die extreme Hitze in der Wüste (42–45 °C) und in Marrakesch."
+        "Rund vier von fünf Wochen in Spanien, Portugal und Frankreich, dort unkompliziert. In Marokko (6 Nächte) keine Krankenversicherungskarte, kein Leitungswasser und auf Hygiene beim Essen achten; das grösste Risiko ist die extreme Hitze in der Wüste (42–45 °C) und in Marrakesch."
       ],
       usa: [
         4,

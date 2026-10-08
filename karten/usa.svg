@@ -134,19 +134,19 @@
 <polyline points="868.5,225.9 873.6,218.9 877.1,212.1 880.3,206.4 882.8,206.2" fill="none" stroke="#0F4C55" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"><title>Zug: Philadelphia – New York</title></polyline>
 <g><title>Zwischenübernachtung Oklahoma City</title><circle cx="515.2" cy="356.2" r="6" fill="#fff" stroke="#718096" stroke-width="2.5"/></g>
 <text class="tl" x="525.2" y="360.2">Oklahoma City</text>
-<g><title>1. Las Vegas: Fr, 18.06.2027 – Mo, 21.06.2027, 3 Nächte</title><circle cx="223.4" cy="309.6" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
-<g><title>2. Zion: Mo, 21.06.2027 – Mi, 23.06.2027, 2 Nächte</title><circle cx="262.2" cy="292.8" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
-<g><title>3. Page: Mi, 23.06.2027 – Fr, 25.06.2027, 2 Nächte</title><circle cx="286.3" cy="305.3" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
-<g><title>4. Grand Canyon: Fr, 25.06.2027 – So, 27.06.2027, 2 Nächte</title><circle cx="272.2" cy="321.1" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
-<g><title>5. Monument Valley: So, 27.06.2027 – Mo, 28.06.2027, 1 Nacht</title><circle cx="308.6" cy="307.3" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
-<g><title>6. Santa Fe: Mo, 28.06.2027 – Mi, 30.06.2027, 2 Nächte</title><circle cx="374.1" cy="343.0" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
-<g><title>7. White Sands: Mi, 30.06.2027 – Do, 01.07.2027, 1 Nacht</title><circle cx="365.0" cy="402.8" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
-<g><title>8. Chicago: Fr, 02.07.2027 – Mo, 05.07.2027, 3 Nächte</title><circle cx="669.8" cy="215.7" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
-<g><title>9. Sandusky: Mo, 05.07.2027 – Mi, 07.07.2027, 2 Nächte</title><circle cx="746.5" cy="216.0" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
-<g><title>10. Niagara Falls: Mi, 07.07.2027 – Fr, 09.07.2027, 2 Nächte</title><circle cx="796.4" cy="173.1" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
-<g><title>11. Washington, D.C.: Fr, 09.07.2027 – Di, 13.07.2027, 4 Nächte</title><circle cx="843.9" cy="253.6" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
-<g><title>12. Philadelphia: Di, 13.07.2027 – Do, 15.07.2027, 2 Nächte</title><circle cx="868.5" cy="225.9" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
-<g><title>13. New York: Do, 15.07.2027 – Do, 22.07.2027, 7 Nächte</title><circle cx="882.8" cy="206.2" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
+<g><title>1. Las Vegas: Sa, 19.06.2027 – Di, 22.06.2027, 3 Nächte</title><circle cx="223.4" cy="309.6" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
+<g><title>2. Zion: Di, 22.06.2027 – Do, 24.06.2027, 2 Nächte</title><circle cx="262.2" cy="292.8" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
+<g><title>3. Page: Do, 24.06.2027 – Sa, 26.06.2027, 2 Nächte</title><circle cx="286.3" cy="305.3" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
+<g><title>4. Grand Canyon: Sa, 26.06.2027 – Mo, 28.06.2027, 2 Nächte</title><circle cx="272.2" cy="321.1" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
+<g><title>5. Monument Valley: Mo, 28.06.2027 – Di, 29.06.2027, 1 Nacht</title><circle cx="308.6" cy="307.3" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
+<g><title>6. Santa Fe: Di, 29.06.2027 – Do, 01.07.2027, 2 Nächte</title><circle cx="374.1" cy="343.0" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
+<g><title>7. White Sands: Do, 01.07.2027 – Fr, 02.07.2027, 1 Nacht</title><circle cx="365.0" cy="402.8" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
+<g><title>8. Chicago: Sa, 03.07.2027 – Di, 06.07.2027, 3 Nächte</title><circle cx="669.8" cy="215.7" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
+<g><title>9. Sandusky: Di, 06.07.2027 – Do, 08.07.2027, 2 Nächte</title><circle cx="746.5" cy="216.0" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
+<g><title>10. Niagara Falls: Do, 08.07.2027 – Sa, 10.07.2027, 2 Nächte</title><circle cx="796.4" cy="173.1" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
+<g><title>11. Washington, D.C.: Sa, 10.07.2027 – Mi, 14.07.2027, 4 Nächte</title><circle cx="843.9" cy="253.6" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
+<g><title>12. Philadelphia: Mi, 14.07.2027 – Fr, 16.07.2027, 2 Nächte</title><circle cx="868.5" cy="225.9" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
+<g><title>13. New York: Fr, 16.07.2027 – Fr, 23.07.2027, 7 Nächte</title><circle cx="882.8" cy="206.2" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
 <text class="fl" x="150.9" y="348.8" text-anchor="middle">Ankunft aus Zürich ✈</text>
 <text class="fl" x="969.3" y="233.8" text-anchor="middle">Rückflug nach Zürich ✈</text>
 </svg>

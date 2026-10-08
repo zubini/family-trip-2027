@@ -6,48 +6,48 @@ REISEN.spanien = {
   titel: "Mit dem Auto durch Spanien und Portugal",
   menu: "Spanien / Portugal",
   untertitel: "Fünf Wochen Roadtrip ab Brig-Glis: Schnorcheln bei den Medes-Inseln, Barcelona, Valencia, Ibiza und Formentera, Benidorm, Andalusien, Lissabon, Porto und der wilde Norden.",
-  zeitraum: "Fr, 18.06.2027 bis Sa, 24.07.2027, 2 Erwachsene und 2 Kids",
+  zeitraum: "Sa, 19.06.2027 bis Sa, 24.07.2027, 2 Erwachsene und 2 Kids",
   titelbild: {
     suche: "Formentera turquoise beach",
     stichwort: "formentera",
     alt: "Sandstrand mit türkisfarbenem Wasser auf Formentera"
   },
-  planIntro: "Abfahrt in Brig-Glis am Fr, 18.06.2027, Rückkehr am Sa, 24.07.2027. Alle Strecken mit dem eigenen Elektroauto, zu den Inseln mit der Autofähre. Ein Klick auf eine Station springt zur Beschreibung.",
+  planIntro: "Abfahrt in Brig-Glis am Sa, 19.06.2027, Rückkehr am Sa, 24.07.2027. Alle Strecken mit dem eigenen Elektroauto, zu den Inseln mit der Autofähre. Ein Klick auf eine Station springt zur Beschreibung.",
   hinflug: {
-    datum: "18. Juni",
+    datum: "19. Juni",
     name: "Abfahrt in Brig-Glis",
     info: "Mit dem eigenen Auto über Genf und Lyon ans Mittelmeer"
   },
   plan: [
     {
-      datum: "18.–19. Juni",
+      datum: "19.–20. Juni",
       name: "Zwischenübernachtung Sète",
       naechte: 1,
       info: "Brig-Glis – Genf – Lyon – Montpellier – Sète (ca. 7–7,5 Std., ca. 630 km)"
     },
     {
-      datum: "19.–21. Juni",
+      datum: "20.–22. Juni",
       name: "1. Costa Brava (L’Estartit)",
       naechte: 2,
       info: "Auto über Perpignan und Figueres (ca. 2,5–3 Std., ca. 260 km)"
     },
-    {datum: "21.–23. Juni", name: "2. Barcelona", naechte: 2, info: "Auto über Girona (ca. 1,75–2 Std., ca. 140 km)"},
-    {datum: "23.–25. Juni", name: "3. Valencia", naechte: 2, info: "Auto auf der AP-7 (ca. 3,5 Std., ca. 350 km)"},
+    {datum: "22.–24. Juni", name: "2. Barcelona", naechte: 2, info: "Auto über Girona (ca. 1,75–2 Std., ca. 140 km)"},
+    {datum: "24.–26. Juni", name: "3. Valencia", naechte: 2, info: "Auto auf der AP-7 (ca. 3,5 Std., ca. 350 km)"},
     {
-      datum: "25.–28. Juni",
+      datum: "26.–29. Juni",
       name: "4. Ibiza",
       naechte: 3,
       info: "Auto nach Dénia (ca. 1–1,25 Std.), Autofähre Dénia–Ibiza (ca. 2,5 Std.)"
     },
-    {datum: "28. Juni–1. Juli", name: "5. Formentera", naechte: 3, info: "Autofähre Ibiza–Formentera (ca. 30–60 Min.)"},
+    {datum: "29. Juni–2. Juli", name: "5. Formentera", naechte: 3, info: "Autofähre Ibiza–Formentera (ca. 30–60 Min.)"},
     {
-      datum: "1.–3. Juli",
+      datum: "2.–4. Juli",
       name: "6. Benidorm",
       naechte: 2,
       info: "Autofähre Formentera–Dénia (ca. 2–4,5 Std.), Auto (ca. 40–45 Min.)"
     },
-    {datum: "3.–6. Juli", name: "7. Granada", naechte: 3, info: "Auto über Murcia und Baza (ca. 4–4,5 Std.)"},
-    {datum: "6.–9. Juli", name: "8. Cabo de Gata", naechte: 3, info: "Auto über Guadix und Almería (ca. 2–2,5 Std.)"},
+    {datum: "4.–7. Juli", name: "7. Granada", naechte: 3, info: "Auto über Murcia und Baza (ca. 4–4,5 Std.)"},
+    {datum: "7.–9. Juli", name: "8. Cabo de Gata", naechte: 2, info: "Auto über Guadix und Almería (ca. 2–2,5 Std.)"},
     {
       datum: "9.–10. Juli",
       name: "9. Caminito del Rey (El Chorro)",
@@ -81,7 +81,7 @@ REISEN.spanien = {
   planHinweise: [
     [
       "Gesamt",
-      "36 Nächte, 15 Stationen und 3 Zwischenübernachtungen (Sète, Bilbao, Montpellier). Keine Flüge: alles mit dem eigenen Elektroauto, zu den Inseln mit drei Autofähren. Insgesamt ca. 6’000 km Autofahrt und ca. 6–7 Std. auf Fähren, zusammen ca. 69 Std. reine Reisezeit (ca. 62 Std. Auto); mit Pausen, Ladestopps, Check-in an den Häfen und Sommerstau realistisch ca. 83–86 Std. von Tür zu Tür (ca. 74–76 Std. im Auto inklusive ca. 11–13 Ladestopps à ca. 15–25 Min. an Tesla-Superchargern, ca. 9–10 Std. für die Fähren mit Check-in). Die längsten Reisetage: Brig-Glis–Sète (ca. 7–7,5 Std. plus 1–2 Ladestopps), Bardenas–Montpellier (ca. 7–7,5 Std. plus 2 Ladestopps), Montpellier–Brig-Glis (ca. 6,5–7 Std. plus 1–2 Ladestopps), Formentera–Benidorm (Fähre ca. 2–4,5 Std. und Auto ca. 45 Min.), Benidorm–Granada (ca. 4–4,5 Std.), Porto–Ribadeo (ca. 4–4,5 Std.), Valencia–Ibiza (Auto ca. 1–1,25 Std. und Fähre ca. 2,5 Std.) und Barcelona–Valencia (ca. 3,5 Std.)."
+      "35 Nächte, 15 Stationen und 3 Zwischenübernachtungen (Sète, Bilbao, Montpellier). Keine Flüge: alles mit dem eigenen Elektroauto, zu den Inseln mit drei Autofähren. Insgesamt ca. 6’000 km Autofahrt und ca. 6–7 Std. auf Fähren, zusammen ca. 69 Std. reine Reisezeit (ca. 62 Std. Auto); mit Pausen, Ladestopps, Check-in an den Häfen und Sommerstau realistisch ca. 83–86 Std. von Tür zu Tür (ca. 74–76 Std. im Auto inklusive ca. 11–13 Ladestopps à ca. 15–25 Min. an Tesla-Superchargern, ca. 9–10 Std. für die Fähren mit Check-in). Die längsten Reisetage: Brig-Glis–Sète (ca. 7–7,5 Std. plus 1–2 Ladestopps), Bardenas–Montpellier (ca. 7–7,5 Std. plus 2 Ladestopps), Montpellier–Brig-Glis (ca. 6,5–7 Std. plus 1–2 Ladestopps), Formentera–Benidorm (Fähre ca. 2–4,5 Std. und Auto ca. 45 Min.), Benidorm–Granada (ca. 4–4,5 Std.), Porto–Ribadeo (ca. 4–4,5 Std.), Valencia–Ibiza (Auto ca. 1–1,25 Std. und Fähre ca. 2,5 Std.) und Barcelona–Valencia (ca. 3,5 Std.)."
     ],
     [
       "Vorab buchen",
@@ -136,9 +136,9 @@ REISEN.spanien = {
       ersatzsuche: "Estartit|Medes|Costa Brava",
       land: "es",
       region: "Katalonien",
-      datum: "19.–21. Juni",
+      datum: "20.–22. Juni",
       naechte: "2 Nächte",
-      zwischenstopp: {text: "Zwischenübernachtung in Sète", datum: "18.–19. Juni"},
+      zwischenstopp: {text: "Zwischenübernachtung in Sète", datum: "19.–20. Juni"},
       anreise: "Mit dem Auto ab Brig-Glis über Genf, Lyon und Montpellier nach Sète (ca. 7–7,5 Std., ca. 630 km), dort am Mittelmeer übernachten. Am nächsten Tag über Perpignan und Figueres nach L’Estartit (ca. 2,5–3 Std., ca. 260 km), Uhr ohne Zeitverschiebung.",
       text: "Vor dem Badeort L’Estartit liegen die Medes-Inseln, eines der ältesten und bekanntesten Meeresschutzgebiete im Mittelmeer. Weil hier seit den 1980er-Jahren nicht mehr gefischt wird, sind die Fische gross und zahlreich; an Land kommen die Felsbuchten des Naturparks Montgrí dazu.",
       teens: "Bootsfahrt mit Glasboden und geführtem Schnorchelhalt bei den Medes-Inseln, Schnorcheln in den Buchten des Montgrí (Cala Montgó, Cala Ferriol), Kajak oder Stand-up-Paddle entlang der Küste, Dalí-Museum in Figueres.",
@@ -166,13 +166,13 @@ REISEN.spanien = {
       name: "Barcelona",
       land: "es",
       region: "Katalonien",
-      datum: "21.–23. Juni",
+      datum: "22.–24. Juni",
       naechte: "2 Nächte",
       anreise: "Mit dem Auto von L’Estartit über Girona nach Barcelona (ca. 1,75–2 Std., ca. 140 km). Das Auto vorab für die Umweltzone registrieren und im Hotel-Parkhaus abstellen; in der Stadt Metro und zu Fuss.",
-      text: "Gaudís Bauten, Altstadtgassen, Strand und eine lebendige Grossstadt. In der Nacht vom 23. auf den 24. Juni feiert die Stadt Sant Joan mit Feuerwerk und Feuern am Strand.",
+      text: "Gaudís Bauten, Altstadtgassen, Strand und eine lebendige Grossstadt. In der Nacht vom 23. auf den 24. Juni, während eures Aufenthalts, feiert die Stadt Sant Joan mit Feuerwerk und Feuern am Strand.",
       teens: "Sagrada Família (Turm), Park Güell, Camp Nou bzw. Barça-Museum, Seilbahn auf den Montjuïc, Strand Barceloneta, Markt La Boqueria.",
       fakten: [
-        "<strong>Dauer:</strong> 2 Nächte: ein Tag Sagrada Família und Park Güell, ein Tag Altstadt, Hafen und Strand. Am 21. Juni weiter nach Valencia.",
+        "<strong>Dauer:</strong> 2 Nächte: ein Tag Sagrada Família und Park Güell, ein Tag Altstadt, Hafen und Strand. Am 24. Juni weiter nach Valencia.",
         "<strong>Tickets:</strong> Sagrada Família und Park Güell nur online mit Zeitfenster; Kinder unter 11 gratis, brauchen aber ein Ticket.",
         "<strong>Taschendiebe:</strong> Auf den Ramblas, in der Metro und am Strand Wertsachen gut verstauen."
       ],
@@ -191,7 +191,7 @@ REISEN.spanien = {
       name: "Valencia",
       land: "es",
       region: "Valencia",
-      datum: "23.–25. Juni",
+      datum: "24.–26. Juni",
       naechte: "2 Nächte",
       anreise: "Mit dem Auto von Barcelona auf der AP-7 nach Valencia (ca. 3,5 Std., ca. 350 km). Hotel mit Parkhaus oder Ladestation wählen.",
       text: "Drittgrösste Stadt Spaniens mit der futuristischen Stadt der Künste und Wissenschaften, einem langen Stadtstrand und dem grünen Turia-Park im alten Flussbett. Hier kommt die Paella her.",
@@ -224,7 +224,7 @@ REISEN.spanien = {
       name: "Ibiza",
       land: "es",
       region: "Balearen",
-      datum: "25.–28. Juni",
+      datum: "26.–29. Juni",
       naechte: "3 Nächte",
       anreise: "Mit dem Auto von Valencia nach Dénia (ca. 1–1,25 Std., ca. 105 km), dann Autofähre Dénia–Ibiza (ca. 2,5 Std.); Check-in mit dem Auto ca. 60–90 Min. vor Abfahrt.",
       text: "Ibiza abseits der Partys: Im Norden und Westen liegen felsige Buchten mit sehr klarem Wasser, Seegraswiesen und Fischschwärmen, dazu die Altstadt Dalt Vila und der Felsen Es Vedrà.",
@@ -274,7 +274,7 @@ REISEN.spanien = {
       name: "Formentera",
       land: "es",
       region: "Balearen",
-      datum: "28. Juni–1. Juli",
+      datum: "29. Juni–2. Juli",
       naechte: "3 Nächte",
       anreise: "Autofähre Ibiza–La Savina (ca. 30–60 Min., mehrmals täglich).",
       text: "Die kleine Nachbarinsel ist flach, ruhig und für ihr türkisfarbenes Wasser bekannt: Die grossen Seegraswiesen (Posidonia, Unesco-Welterbe) machen das Wasser so klar wie kaum anderswo im Mittelmeer.",
@@ -315,7 +315,7 @@ REISEN.spanien = {
       name: "Benidorm",
       land: "es",
       region: "Costa Blanca",
-      datum: "1.–3. Juli",
+      datum: "2.–4. Juli",
       naechte: "2 Nächte",
       anreise: "Autofähre Formentera–Dénia (direkt ca. 2 Std., über Ibiza bis ca. 4,5 Std.; nur wenige Verbindungen pro Tag, Fahrplan prüfen); Check-in mit dem Auto ca. 60–90 Min. vor Abfahrt. Von Dénia mit dem Auto nach Benidorm (ca. 40–45 Min., ca. 50 km).",
       text: "Hochhausstadt an der Costa Blanca mit zwei langen Sandstränden, Freizeit- und Wasserparks. Nach den Inseln Action und Strand; im Hinterland liegen das Bergdorf Guadalest und die Wasserfälle von Algar.",
@@ -341,7 +341,7 @@ REISEN.spanien = {
       name: "Granada",
       land: "es",
       region: "Andalusien",
-      datum: "3.–6. Juli",
+      datum: "4.–7. Juli",
       naechte: "3 Nächte",
       anreise: "Mit dem Auto von Benidorm über Alicante, Murcia und Baza nach Granada (ca. 4–4,5 Std., ca. 390 km); die Wüste von Gorafe liegt nahe der Strecke bei Guadix. Das Auto im Hotel-Parkhaus lassen; die Altstadt ist zum Teil gesperrt.",
       text: "Die Alhambra, die Burg der maurischen Könige, über einer Stadt voller Gassen und Teestuben. Eine Stunde entfernt liegt die Wüste von Gorafe mit Badlands und über 240 Dolmen.",
@@ -366,13 +366,13 @@ REISEN.spanien = {
       name: "Cabo de Gata",
       land: "es",
       region: "Andalusien",
-      datum: "6.–9. Juli",
-      naechte: "3 Nächte",
+      datum: "7.–9. Juli",
+      naechte: "2 Nächte",
       anreise: "Mit dem Auto von Granada über Guadix und Almería nach San José (ca. 2–2,5 Std., ca. 200 km).",
       text: "Naturpark mit Vulkanküste, Halbwüste und den letzten wilden Stränden Andalusiens. Das klare Wasser über Felsen und Seegras ist ideal zum Schnorcheln.",
       teens: "Schnorcheln bei Los Escullos, La Isleta del Moro und an der Cala de San Pedro, Kajak entlang der Vulkanküste, Strände Mónsul und Los Genoveses, Western-Filmkulisse Fort Bravo bei Tabernas.",
       fakten: [
-        "<strong>Dauer:</strong> 3 Nächte in San José oder Las Negras: nach Granada wieder Strand, Schnorcheln und ein ruhiger Tag.",
+        "<strong>Dauer:</strong> 2 Nächte in San José oder Las Negras: nach Granada ein Tag Strand und Schnorcheln, am Ankunftsabend baden.",
         "<strong>Schnorchelplätze:</strong> Los Escullos, La Isleta del Moro, Playa de los Muertos und Cala de San Pedro (nur zu Fuss ab Las Negras oder per Boot): Felsriffe und Seegraswiesen mit vielen Fischen direkt vom Strand aus. Am Morgen ist das Wasser am ruhigsten.",
         "<strong>Strände:</strong> Von ca. 21. Juni bis 22. September ist die Zufahrt zu Mónsul und Los Genoveses beschränkt; Shuttlebus ab San José, oder vor 10 Uhr mit dem Auto (Parkgebühr).",
         "<strong>Hitze:</strong> Wenig Schatten an den Stränden: Sonnenschirm, Wasser und Sonnenschutz mitnehmen."
@@ -570,10 +570,10 @@ REISEN.spanien = {
   abschluss: "Nach einer Zwischenübernachtung in Montpellier Rückfahrt über Lyon und Genf nach Brig-Glis am Sa, 24.07.2027 (ca. 6,5–7 Std.).",
   budgetIntro: "Mittelklasse inklusive Maut, Fähren, Unterkunft, Verpflegung und Aktivitäten; Laden an Tesla-Superchargern ist gratis, ohne Abnutzung des eigenen Autos. Alle Beträge sind Schätzungen in CHF.",
   budget: {
-    naechte: 36,
-    total: "19’050",
-    spanne: "14’150–24’750",
-    proTag: "ca. 530 CHF pro Tag, ca. 4’750 pro Person",
+    naechte: 35,
+    total: "18’500",
+    spanne: "13’800–24’100",
+    proTag: "ca. 530 CHF pro Tag, ca. 4’600 pro Person",
     posten: [
       [
         "Auto: Maut, Vignetten, Laden unterwegs (ca. 5’950 km)",
@@ -595,15 +595,15 @@ REISEN.spanien = {
       ],
       [
         "Unterkunft (Familienzimmer, Apartment oder 2 Zimmer)",
-        "5’900–10’350",
-        "7’950",
+        "5’650–9’900",
+        "7’650",
         "ca. 160–280 CHF pro Nacht; die Inseln im Juli am teuersten"
       ],
-      ["Verpflegung (Tapas, Restaurants, Einkauf)", "3’600–6’150", "4’750", "ca. 100–170 CHF pro Tag für 4 Personen"],
+      ["Verpflegung (Tapas, Restaurants, Einkauf)", "3’500–5’980", "4’600", "ca. 100–170 CHF pro Tag für 4 Personen"],
       [
         "Aktivitäten und Eintritte",
         "1’850–3’200",
-        "2’500",
+        "2’450",
         "Schnorcheltour Medes-Inseln, Oceanogràfic, Terra Mítica oder Aqualandia, Alhambra, Sagrada Família, Caminito del Rey, Kajak an der Algarve, Bootstouren, Schnorcheln, Oceanário, Museen"
       ],
       [
@@ -612,7 +612,7 @@ REISEN.spanien = {
         "500",
         "Pannenhilfe-Versicherung fürs Auto, Annullationsschutz, Reiseapotheke"
       ],
-      ["Reserve (ca. 10 %)", "1’400–2’350", "1’800", "Souvenirs, Wäsche, Unvorhergesehenes"]
+      ["Reserve (ca. 10 %)", "1’350–2’300", "1’750", "Souvenirs, Wäsche, Unvorhergesehenes"]
     ],
     stationen: [
       ["Zwischenübernachtung Sète (1)", "250–400"],
@@ -623,7 +623,7 @@ REISEN.spanien = {
       ["5. Formentera (3)", "1’300–2’200"],
       ["6. Benidorm (2)", "600–1’000"],
       ["7. Granada (3)", "1’050–1’700"],
-      ["8. Cabo de Gata (3)", "850–1’450"],
+      ["8. Cabo de Gata (2)", "600–1’000"],
       ["9. Caminito del Rey (1)", "300–500"],
       ["10. Sevilla (2)", "650–1’050"],
       ["11. Algarve (3)", "900–1’500"],
@@ -666,7 +666,7 @@ REISEN.spanien = {
     ["Zeitzonen", "Frankreich und Spanien wie die Schweiz, Portugal eine Stunde früher."],
     [
       "Verkehr",
-      "Im Juli sind die französischen Autobahnen an Samstagen sehr voll, vor allem Richtung Süden. Die Rückfahrt am Sa, 24.07.2027 geht Richtung Norden; trotzdem früh starten und die Verkehrsprognose von Bison Futé prüfen. Klimaanlage prüfen lassen, Wasser im Auto, nie Kinder oder Tiere im parkierten Auto lassen."
+      "Im Juli sind die französischen Autobahnen an Samstagen sehr voll, vor allem Richtung Süden. Die Hinfahrt am Sa, 19.06.2027 ist noch vor den französischen Sommerferien, die Rückfahrt am Sa, 24.07.2027 geht Richtung Norden; trotzdem früh starten und die Verkehrsprognose von Bison Futé prüfen. Klimaanlage prüfen lassen, Wasser im Auto, nie Kinder oder Tiere im parkierten Auto lassen."
     ],
     [
       "Gesundheit",
