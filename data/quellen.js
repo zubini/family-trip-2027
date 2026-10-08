@@ -81,6 +81,8 @@ window.QUELLEN = {
     {
       titel: "Fahrzeiten Malaysia / Thailand",
       links: [
+        ["Flightmapper: SWISS LX181 Bangkok–Zürich täglich, Abflug um die Mittagszeit (ca. 11,75–12 Std.)", "https://info.flightmapper.net/flight/Swiss_LX_181"],
+        ["Kvikr: SWISS LX176 Zürich–Singapur täglich, Abflug ca. 22.40 Uhr", "https://kvikr.com/flight/lx176_swiss_international_air_lines"],
         ["KTM: Fahrplan Padang Besar–Hat Yai 2025 (PDF)", "https://www.ktmb.com.my/assets/pdf/2025/Jadual-Sawasdee-A4.pdf"],
         ["Thai Train Guide: Pendelzug Hat Yai–Padang Besar", "https://www.thaitrainguide.com/international/hat-yai-to-padang-besar/"],
         ["train36.com: ETS Butterworth–Padang Besar", "https://www.train36.com/ets-butterworth-to-padang-besar.html"],
@@ -94,6 +96,7 @@ window.QUELLEN = {
     {
       titel: "Fahrzeiten USA",
       links: [
+        ["Edelweiss: Las Vegas nur im Sommerflugplan, zuletzt bis 3-mal pro Woche (Flugplan Sommer 2027 noch nicht veröffentlicht)", "https://newsroom.flyedelweiss.com/en/edelweiss-flies-to-las-vegas-again/"],
         ["Wanderlog: Springdale (Zion)–Page", "https://Wanderlog.com/drive/between/59086/58476/springdale-to-page-drive"],
         ["guias-viajar.com: Grand Canyon–Monument Valley", "https://guias-viajar.com/en/America/tourism-in-the-united-states/monument-valley-road-trip-from-grand-canon/"],
         ["LazyTrips: Roadtrip Las Vegas–Santa Fe (Monument Valley–Santa Fe)", "https://lazytrips.com/trip/road-trip-from-las-vegas-to-santa-fe"],
