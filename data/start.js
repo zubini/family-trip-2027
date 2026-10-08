@@ -106,8 +106,8 @@ window.START = {
     {
       kriterium: "Natur und Landschaft",
       marokko: [
-        4,
-        "Vulkanküste am Cabo de Gata, Schlucht des Caminito del Rey, Agafay-Steinwüste vor dem Hohen Atlas, Felsküste der Algarve, Felsbögen der Playa de las Catedrales, Baskenküste; keine grossen Nationalparks wie in den USA."
+        3,
+        "Schöne Küsten und einzelne Naturhöhepunkte: Vulkanküste am Cabo de Gata, Schlucht des Caminito del Rey, Agafay-Steinwüste vor dem Hohen Atlas, Felsküste der Algarve, Felsbögen der Playa de las Catedrales; viele Tage in Städten und keine grossen Nationalparks wie in den USA."
       ],
       usa: [
         5,
@@ -143,7 +143,7 @@ window.START = {
       kriterium: "Strand und Baden",
       marokko: [
         4,
-        "Vier Nächte auf Formentera, dazu Costa Brava, Cabo de Gata, Tarifa, Cádiz, Algarve und San Sebastián; im Juli voll."
+        "Vier Nächte auf Formentera, dazu Costa Brava, Benidorm, Cabo de Gata, Tarifa, Cádiz, Algarve und San Sebastián; im Juli voll."
       ],
       usa: [
         1,
@@ -157,8 +157,8 @@ window.START = {
     {
       kriterium: "Schnorcheln",
       marokko: [
-        4,
-        "Schnorcheln im Meeresschutzgebiet der Medes-Inseln, vier Nächte auf Formentera (Cala Saona, Es Caló, Seegraswiesen mit sehr klarem Wasser) und am Cabo de Gata (Los Escullos, Cala de San Pedro); wenige Korallen und keine Riffe."
+        3,
+        "Gutes Mittelmeer-Schnorcheln: Meeresschutzgebiet der Medes-Inseln mit grossen Fischen, vier Nächte auf Formentera (Cala Saona, Es Caló, Seegraswiesen mit sehr klarem Wasser) und das Cabo de Gata (Los Escullos, Cala de San Pedro); wenige Korallen, keine Riffe und kühleres Wasser als in den Tropen."
       ],
       usa: [0, "Kein Schnorcheln im Meer; höchstens Baden im Lake Powell oder in den Narrows."],
       asien: [
@@ -169,7 +169,7 @@ window.START = {
     {
       kriterium: "Abenteuer",
       marokko: [
-        4,
+        3,
         "Caminito del Rey, Kamelritt, Quad und Nacht im Zeltcamp in der Agafay-Wüste, Medinas mit Führer, Zugfahrten quer durch Marokko, Kajak durch die Grotten der Algarve, Surfen in San Sebastián."
       ],
       usa: [4, "Durch die Narrows waten, Antelope Canyon, 2-Tage-Roadtrip und Cedar Point."],
