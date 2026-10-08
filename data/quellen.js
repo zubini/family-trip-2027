@@ -102,33 +102,6 @@ window.QUELLEN = {
       ]
     },
     {
-      titel: "USA (Las Vegas – Florida – New York)",
-      links: [
-        ["Flightmapper: Edelweiss WK 3 Las Vegas–Zürich (nur einzelne Wochentage)", "https://info.flightmapper.net/flight/Edelweiss_Air_WK_3"],
-        ["Travelprofy: Albuquerque–Monument Valley (ca. 513–531 km)", "https://www.travelprofy.com/albuquerque/monument-valley-navajo-tribal-park"],
-        ["National Parks Traveler: Albuquerque–White Sands (ca. 225 Meilen)", "https://www.nationalparkstraveler.org/node/26576"],
-        ["Visit Big Bend: Fahrt ab San Antonio über Fort Stockton", "https://visitbigbend.com/drive-san-antonio/"],
-        ["iRV2: Fort Stockton–Carlsbad Caverns über die US-285", "https://www.irv2.com/forums/f38/carlsbad-caverns-travel-from-fort-stockton-272235.html"],
-        ["CS Ginger: Carlsbad Caverns–White Sands über Cloudcroft", "https://csginger.com/carlsbad-caverns-to-white-sands/"],
-        ["NPS: Carlsbad Caverns, Zeitfenster-Reservation und Eintritt", "https://home.nps.gov/cave/planyourvisit/fees.htm"],
-        ["Rome2rio: New Orleans–Houston (ca. 348 Meilen)", "https://www.rome2rio.com/s/Tulane-University/Houston"],
-        ["LazyTrips: Roadtrip New Orleans–Destin (über die Interstate 10)", "https://lazytrips.com/trip/road-trip-from-new-orleans-to-destin"],
-        ["Rome2rio: Destin–Orlando (ca. 385 Meilen)", "https://www.rome2rio.com/s/Destin/Epcot-Center"],
-        ["Wanderlog: Miami–St. Augustine (ca. 311 Meilen)", "https://wanderlog.com/drive/between/58157/58186/miami-to-st-augustine-drive"],
-        ["Check Distance: St. Augustine–Charleston (ca. 272 Meilen)", "https://check-distance.com/route/st-augustine-fl/charleston-sc"],
-        ["Wanderlog: Williamsburg–Washington (ca. 154 Meilen, ca. 2,5 Std.)", "https://wanderlog.com/list/distance/12335661/distance-from-williamsburg-to-washington"],
-        ["Enterprise: Roadtrip Miami–Key West (ca. 160 Meilen, ca. 4 Std.)", "https://www.enterprise.com/en/road-trips/destinations/florida/miami-to-key-west-5-days.html"],
-        ["Sixt: Key Largo–Key West (ca. 98 Meilen, ca. 2 Std.)", "https://www.sixt.com/magazine/road-trips/key-largo-to-key-west-road-trip/"],
-        ["Rome2rio: Key Largo–Orlando (ca. 275 Meilen)", "https://www.rome2rio.com/s/Key-Largo/Orlando"],
-        ["Savannah–Charleston mit dem Auto (ca. 105–120 Meilen, ca. 1,75–2 Std.)", "https://www.rally.roadtrek.com/?p=39342"],
-        ["Washingtonian: Amtrak Washington–New York (Northeast Regional und Acela)", "https://views.washingtonian.com/vie/from-penn-station-to-union-station-the-complete-guide-to-train-travel-from-nyc-to-washington-dc"],
-        ["Explorersweb: 100 USD Zusatzgebühr in 11 Nationalparks (u.a. Everglades)", "https://explorersweb.com/u-s-to-charge-foreign-visitors-100-extra-at-top-national-parks/"],
-        ["Dry Tortugas: Fähre Yankee Freedom ab Key West", "https://www.drytortugas.com/web/"],
-        ["Expedia: Schnorcheltour im John Pennekamp Coral Reef State Park", "https://www.expedia.com/things-to-do/a.a50979550.activity-details"],
-        ["Hola Car Rentals: Einwegmieten in den USA, Rückgabegebühren", "https://holacarrentals.com/es/blogs/car-rental-united-states/one-way-rentals-explained-drop-fees-rules-and-how-to-save"]
-      ]
-    },
-    {
       titel: "Bewertung: Reisezeit und CO₂",
       links: [
         ["Trainline: Zürich Flughafen–Brig mit dem Zug (ca. 2,5 Std.)", "https://thetrainline.com/train-times/zurich-to-brig"],

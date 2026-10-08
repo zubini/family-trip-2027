@@ -2,12 +2,11 @@
 
 **Zur Seite: https://zubini.github.io/family-trip-2027/**
 
-Reiseführer und Variantenvergleich für die Familienreise 2027 (ab 18. Juni, 2 Erwachsene und 2 Kids) mit fünf Varianten:
+Reiseführer und Variantenvergleich für die Familienreise 2027 (ab 18. Juni, 2 Erwachsene und 2 Kids) mit vier Varianten:
 
 - **Spanien / Portugal**: mit dem eigenen Auto ab Brig-Glis, zu den Balearen mit der Autofähre, ohne Flug (bis 24. Juli)
 - **Spanien / Portugal / Marokko**: mit dem eigenen Auto ab Brig-Glis, rund sechs Tage Marokko mit Fähre, Zug und Mietwagen (bis 25. Juli); als Variante in Marokko nur mit dem Zug bis Marrakesch
 - **USA (Las Vegas – New York)** (bis 22. Juli)
-- **USA (Las Vegas – Florida – New York)**: Roadtrip vom Südwesten über Texas, New Orleans und Florida bis Washington, mit dem Zug nach New York (bis 22. Juli)
 - **Malaysia / Thailand**: von Singapur nach Bangkok (bis 22. Juli)
 
 Dazu eine Einstiegsseite mit Vergleich, Bewertung, Budget sowie Pro und Contra und eine Seite mit den Quellen.
@@ -23,7 +22,6 @@ data/             die Inhalte, hier wird fast alles geändert
   spanien.js      Spanien / Portugal (mit dem eigenen Auto ab Brig-Glis)
   marokko.js      Spanien / Portugal / Marokko (eigenes Auto, Marokko mit Fähre und Mietwagen)
   usa.js          USA (Las Vegas–New York)
-  usa2.js         USA (Las Vegas–Florida–New York)
   asien.js        Malaysia / Thailand (Singapur–Bangkok)
   quellen.js      Seite «Quellen» (Belege für Fahrzeiten, Einreise, Bilder)
   bilder-unsplash.js  Unsplash-Fotos (erzeugt von tools/bilder-unsplash.js)
