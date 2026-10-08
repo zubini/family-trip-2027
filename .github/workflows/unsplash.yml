@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     inputs:
       reisen:
-        description: 'Reisen, leer = alle (z.B. "spanien spanien2")'
+        description: 'Reisen, leer = alle (z.B. "marokko asien")'
         required: false
         default: ''
       neu:

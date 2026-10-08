@@ -1,49 +1,18 @@
 // Einstiegsseite: Vergleich der Reisen
-// Budgetzahlen kommen automatisch aus den Reisen (data/spanien.js usw.).
-// Platzhalter in Texten: {plan:spanien}, {plan:marokko}, {plan:usa}, {plan:asien} = Planwert, {mehrkosten} = USA minus Malaysia / Thailand.
+// Budgetzahlen kommen automatisch aus den Reisen (data/marokko.js usw.).
+// Platzhalter in Texten: {plan:marokko}, {plan:usa}, {plan:asien} = Planwert, {mehrkosten} = USA minus Malaysia / Thailand.
 // Reihenfolge der Reisen hier = Reihenfolge der Spalten; die Navigation folgt der Reihenfolge in index.html.
 // Bewertung: [Punkte 0–5, Text]. Die Punkte und Pro/Contra sind eine Einschätzung und bei Änderungen an den Reisen von Hand anzupassen.
 window.START = {
   titel: "Familienreise 2027",
   zeitraum: "Sa, 19.06.2027 bis Sa, 24.07.2027, 2 Erwachsene und 2 Kids",
   untertitel: "Verschiedene Reisevarianten als Fahrplan für eine Entscheidung.",
-  reisenIntro: "Alle Reisen dauern vom Sa, 19.06.2027 bis zum Sa, 24.07.2027 und sind für die Familie mit Sohn (12) und Tochter (14) geplant: die beiden Reisen mit dem eigenen Auto 35 Nächte, die Flugreisen 34 Nächte vor Ort (Hinflug am Abend bzw. Nachtflug zurück). Ein Klick führt zum vollständigen Fahrplan mit Stationen, Karte und Budget.",
+  reisenIntro: "Alle Reisen dauern vom Sa, 19.06.2027 bis zum Sa, 24.07.2027 und sind für die Familie mit Sohn (12) und Tochter (14) geplant: die Reise mit dem eigenen Auto 35 Nächte, die Flugreisen 34 Nächte vor Ort (Hinflug am Abend bzw. Nachtflug zurück). Ein Klick führt zum vollständigen Fahrplan mit Stationen, Karte und Budget.",
   bewertungIntro: "Bewertet werden Natur, Dschungelfeeling, Wüstenfeeling, Strand und Baden, Schnorcheln, Abenteuer, Städte, Gesundheit und Sicherheit, Budget, Reisekomfort sowie CO₂ und Umwelt. Fünf Punkte sind die beste Bewertung (beim Budget heisst das: günstig, beim CO₂: wenig Ausstoss). Die Skala ist fest und nicht nur ein Vergleich der Reisen: 5 heisst Weltklasse (z.B. tropische Riffe beim Schnorcheln, kurze Etappen beim Reisekomfort), 0 heisst, dass es das auf der Reise nicht gibt. Die Punkte sind eine Einschätzung auf Basis der Reisepläne, keine Messung.",
   budgetIntro: "Mittelklasse inklusive Flüge bzw. Autokosten, Transport, Unterkunft, Verpflegung und Aktivitäten für 4 Personen. Der dunkle Punkt ist der Planwert, der helle Balken die Spanne.",
   vergleichIntro: "Die wichtigsten Unterschiede nebeneinander.",
   entscheidIntro: "Welche Reise passt, hängt davon ab, ob Strand und Schnorcheln, Städte und Kultur ohne Flug oder Nationalparks und Roadtrip im Vordergrund stehen.",
   reisen: {
-    spanien: {
-      name: "Spanien / Portugal",
-      zusatz: "Roadtrip ab Brig-Glis",
-      passt: "ihr ohne Flug und Jetlag reisen, Städte, Kultur und Schnorcheln im Mittelmeer verbinden möchtet und viele Stunden am Steuer in Kauf nehmt.",
-      kurz: "Fünf Wochen mit dem eigenen Elektroauto im Wechsel von Städten, Strand und Natur: Schnorcheln bei den Medes-Inseln, Barcelona, Valencia, Ibiza und Formentera, Andalusien, die Algarve, Lissabon, Porto und der Norden Spaniens.",
-      route: "Brig-Glis, Sète, Costa Brava (L’Estartit), Barcelona, Valencia, Ibiza, Formentera, Benidorm, Granada, Cabo de Gata, Caminito del Rey, Sevilla, Algarve (Lagos), Lissabon, Porto, Playa de las Catedrales, Bilbao, Bardenas Reales, Montpellier, Brig-Glis",
-      stationen: "15 Stationen und 3 Zwischenübernachtungen",
-      laender: "Frankreich, Spanien, Portugal",
-      hinflug: "Kein Flug: mit dem eigenen Auto ab Brig-Glis, Zwischenstopp am Meer in Sète (ca. 7–7,5 Std.), dann an die Costa Brava (ca. 2,5–3 Std.)",
-      rueckflug: "Mit dem Auto in zwei Tagen über Montpellier (ca. 7–7,5 und 6,5–7 Std.), Ankunft Sa, 24.07.2027",
-      dazwischen: "Keine Flüge: eigenes Elektroauto, dazu drei Autofähren (Dénia–Ibiza, Ibiza–Formentera, Formentera–Dénia)",
-      tempo: "Ca. 69 Std. reine Reisezeit (ca. 62 Std. Elektroauto für ca. 6’000 km und ca. 6–7 Std. Fähre), realistisch mit Pausen, Ladestopps, Check-in und Stau ca. 83–86 Std.; 3 lange Fahrtage mit 6,5–8 Std. plus Ladestopps (Brig-Glis–Sète, Bardenas–Montpellier, Montpellier–Brig-Glis), dazu Benidorm–Granada (ca. 4–4,5 Std.) und Formentera–Benidorm (Fähre und Auto); sonst meist 2–3,5 Std.",
-      gesamt: "Ca. 83–86 Std. Tür zu Tür, ohne Flughafen und ohne Jetlag: davon realistisch ca. 74–76 Std. im Elektroauto inklusive ca. 11–13 Ladestopps an Superchargern (ca. 62 Std. reine Fahrzeit) und ca. 9–10 Std. für die Fähren inklusive Check-in.",
-      wetter: "Heiss und trocken: in Andalusien und den Bardenas oft 35–42 °C, an den Küsten 28–32 °C; Portugal und der Norden angenehmer, Mittelmeer ca. 23–26 °C.",
-      einreise: "Schengen: Identitätskarte genügt, keine Formulare. Crit’Air-Vignette für Frankreich, Registrierung für die Umweltzone Barcelona, elektronische Maut in Portugal.",
-      hoehepunkte: "Schnorcheln bei den Medes-Inseln, Sagrada Família, Oceanogràfic in Valencia, Schnorcheln an den Buchten von Ibiza und Formentera, Terra Mítica und Aqualandia in Benidorm, Alhambra und Gorafe, Cabo de Gata, Caminito del Rey, Sevilla, Kajak durch die Grotten der Algarve, Lissabon, Porto, Playa de las Catedrales, Bardenas Reales.",
-      teens: "Freizeit- und Wasserparks (Terra Mítica, Aqualandia), Schnorcheln und Kajak, Grotten der Algarve, Caminito del Rey, Game-of-Thrones-Drehorte, Höhlen und Felsbögen bei Ebbe, Surfen in Galicien.",
-      pro: [
-        "Kein Flug und kein Jetlag, Tür zu Tür wenig Reisezeit (ca. 83–86 Std.)",
-        "Schnorcheln bewusst eingeplant: Meeresschutzgebiet der Medes-Inseln, sechs Nächte auf Ibiza und Formentera, Cabo de Gata und Tabarca; dazwischen Städte, Strand und Natur im Wechsel",
-        "Städte und Kultur: Barcelona, Valencia, Granada mit der Alhambra, Sevilla, Lissabon und Porto",
-        "Unkompliziert und sicher: Europa, keine Impfungen, eigenes Auto mit viel Platz fürs Gepäck",
-        "Wenig CO₂ und günstig (Laden an Superchargern gratis)"
-      ],
-      contra: [
-        "Ca. 74–76 Std. im Auto inklusive Ladestopps, am ersten und letzten Tag je ca. 8–9 Std.",
-        "Grosse Hitze in Andalusien und den Bardenas (oft 35–42 °C)",
-        "Hochsaison: Strände voll; Fähren, Zufahrt fürs Auto auf Ibiza und Formentera, Unterkünfte und Alhambra früh buchen",
-        "Keine Korallenriffe und kein Dschungel; der Atlantik in Galicien ist kühl"
-      ]
-    },
     marokko: {
       name: "Spanien / Portugal / Marokko",
       zusatz: "Roadtrip ab Brig-Glis, Marokko mit Fähre",
@@ -136,10 +105,6 @@ window.START = {
   bewertung: [
     {
       kriterium: "Natur und Landschaft",
-      spanien: [
-        4,
-        "Abwechslungsreich: Felsküste und Grotten der Algarve, Buchten von Ibiza und Formentera, Vulkanküste am Cabo de Gata, Schlucht des Caminito del Rey, Halbwüsten Bardenas Reales und Gorafe, Felsbögen der Playa de las Catedrales; keine grossen Nationalparks wie in den USA."
-      ],
       marokko: [
         4,
         "Vulkanküste am Cabo de Gata, Hoher Atlas, Dadès- und Todra-Schlucht, Sanddünen des Erg Chebbi, Felsküste der Algarve, Felsbögen der Playa de las Catedrales, Baskenküste; keine grossen Nationalparks wie in den USA."
@@ -155,7 +120,6 @@ window.START = {
     },
     {
       kriterium: "Dschungelfeeling",
-      spanien: [0, "Kein Regenwald: Halbwüsten, Küsten, Pinienwälder und im Norden grüne Hügel."],
       marokko: [0, "Kein Regenwald: Wüste, Oasen mit Palmen, Zedernwälder im Mittleren Atlas und grüne Hügel im Baskenland."],
       usa: [0, "Kein Dschungel: Wüsten, Canyons, Seen und im Osten Laubwälder."],
       asien: [
@@ -165,10 +129,6 @@ window.START = {
     },
     {
       kriterium: "Wüstenfeeling",
-      spanien: [
-        2,
-        "Halbwüsten statt Sanddünen: Bardenas Reales, die Badlands von Gorafe und die Wüste von Tabernas beim Cabo de Gata."
-      ],
       marokko: [
         5,
         "Das stärkste Wüstenerlebnis im Vergleich: Kamelritt und Nacht im Zeltcamp in den Sanddünen des Erg Chebbi am Rand der Sahara, dazu Steinwüsten, Oasen und Kasbahs; nur eine Nacht und im Juli sehr heiss."
@@ -181,13 +141,9 @@ window.START = {
     },
     {
       kriterium: "Strand und Baden",
-      spanien: [
-        4,
-        "Viele Strandtage auf Ibiza, Formentera, in Benidorm, am Cabo de Gata und an der Algarve, Mittelmeer ca. 23–26 °C; im Juli aber voll, und kein tropisch warmes Wasser."
-      ],
       marokko: [
         4,
-        "Vier Nächte auf Formentera, dazu Costa Brava, Cabo de Gata, Tarifa, Cádiz, Algarve und San Sebastián; etwas weniger Badetage als bei Spanien / Portugal, im Juli voll."
+        "Vier Nächte auf Formentera, dazu Costa Brava, Cabo de Gata, Tarifa, Cádiz, Algarve und San Sebastián; im Juli voll."
       ],
       usa: [
         1,
@@ -200,10 +156,6 @@ window.START = {
     },
     {
       kriterium: "Schnorcheln",
-      spanien: [
-        4,
-        "Schnorcheln an vier Orten mit besonders klarem Wasser: im Meeresschutzgebiet der Medes-Inseln (grosse Fische, geführte Bootstour), sechs Nächte auf Ibiza und Formentera (Cala Xarraca, Punta de sa Galera, Cala Saona, Es Caló) und am Cabo de Gata (Los Escullos, Cala de San Pedro), dazu Tabarca; wenige Korallen (z.B. Gorgonien bei den Medes-Inseln), keine Riffe und kühleres Wasser als in den Tropen."
-      ],
       marokko: [
         4,
         "Schnorcheln im Meeresschutzgebiet der Medes-Inseln, vier Nächte auf Formentera (Cala Saona, Es Caló, Seegraswiesen mit sehr klarem Wasser) und am Cabo de Gata (Los Escullos, Cala de San Pedro); wenige Korallen und keine Riffe."
@@ -216,10 +168,6 @@ window.START = {
     },
     {
       kriterium: "Abenteuer",
-      spanien: [
-        3,
-        "Caminito del Rey, Kajak durch die Grotten der Algarve, Achterbahnen in Terra Mítica, Schnorcheln, Pisten durch die Bardenas und Gorafe; eher Entdecken als Wildnis."
-      ],
       marokko: [
         4,
         "Caminito del Rey, Kamelritt und Nacht im Wüstencamp, Sandboarding, Pass über den Hohen Atlas, Medinas mit Führer, Kajak durch die Grotten der Algarve, Surfen in San Sebastián."
@@ -229,10 +177,6 @@ window.START = {
     },
     {
       kriterium: "Städte",
-      spanien: [
-        5,
-        "Barcelona, Valencia, Granada, Sevilla, Lissabon und Porto mit Alhambra, Sagrada Família und viel Kultur."
-      ],
       marokko: [
         5,
         "Barcelona, Valencia, Marrakesch, Fès, Cádiz, Sevilla, Lissabon, Porto, San Sebastián und Carcassonne: europäische und marokkanische Städte im Wechsel."
@@ -242,10 +186,6 @@ window.START = {
     },
     {
       kriterium: "Gesundheit und Sicherheit",
-      spanien: [
-        5,
-        "Europa: Krankenversicherungskarte gilt, Leitungswasser trinkbar, gute Spitäler, keine Impfungen nötig; Vorsicht bei Hitze, Taschendieben und auf langen Autofahrten."
-      ],
       marokko: [
         4,
         "Rund vier von fünf Wochen in Spanien, Portugal und Frankreich, dort unkompliziert. In Marokko (6 Nächte) keine Krankenversicherungskarte, kein Leitungswasser und auf Hygiene beim Essen achten; das grösste Risiko ist die extreme Hitze in der Wüste (42–45 °C) und in Marrakesch."
@@ -261,20 +201,12 @@ window.START = {
     },
     {
       kriterium: "Budget (mehr Punkte = günstiger)",
-      spanien: [
-        4,
-        "ca. {plan:spanien} CHF: kein Flug, Laden an Tesla-Superchargern gratis; dafür Maut, Fähren und teure Unterkünfte in der Hochsaison."
-      ],
       marokko: [4, "ca. {plan:marokko} CHF: kein Flug, Supercharging gratis, Marokko günstig; dafür Fähren, Züge und Mietwagen in Marokko sowie Parkplatz in Tarifa."],
       usa: [1, "ca. {plan:usa} CHF: rund {mehrkosten} CHF mehr, vor allem Unterkünfte und Mietwagen."],
       asien: [4, "ca. {plan:asien} CHF: Singapur ist teuer, der Rest günstig."]
     },
     {
       kriterium: "Reisekomfort",
-      spanien: [
-        3,
-        "Tür zu Tür wenig Reisezeit (ca. 83–86 Stunden), kein Flughafen, kein Jetlag, eigenes Auto mit viel Platz fürs Gepäck, die meisten Etappen 2–3,5 Stunden; dafür ca. 74–76 Stunden im Auto inklusive Ladestopps, am ersten und letzten Tag je ca. 8–9 Stunden. Die Fähren sind kurz (zusammen ca. 6–7 Stunden)."
-      ],
       marokko: [
         2,
         "Ca. 108–114 Stunden Tür zu Tür, kein Jetlag; aber viele Wechsel zwischen eigenem Auto, Fähre, Zug und Mietwagen, Passkontrollen und mehrere lange Tage mit 7–9 Stunden."
@@ -290,10 +222,6 @@ window.START = {
     },
     {
       kriterium: "CO₂ und Umwelt (mehr Punkte = weniger CO₂)",
-      spanien: [
-        5,
-        "Kein Flug: Elektroauto (ca. 1’200 kWh, Strom in Frankreich ca. 30 g, in Spanien und Portugal ca. 120–130 g CO₂ pro kWh) und drei kurze Fähren; grob geschätzt ca. 0,1–0,2 t CO₂ pro Person."
-      ],
       marokko: [
         5,
         "Kein Flug: Elektroauto (ca. 1’100 kWh), zwei kurze Fähren, Züge und ca. 1’000 km Mietwagen mit Benzin in Marokko; grob geschätzt ca. 0,15–0,25 t CO₂ pro Person."

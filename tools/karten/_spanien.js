@@ -1,4 +1,4 @@
-// Gemeinsame Orte und Wege für die Spanien-Karten. Koordinaten als [Breite, Länge].
+// Gemeinsame Orte und Wege für Spanien und Portugal (genutzt von _marokko.js). Koordinaten als [Breite, Länge].
 const orte = {
   BR: [46.316, 7.988], MA: [46.10, 7.07], GE: [46.204, 6.143], LY: [45.764, 4.836], VA: [44.933, 4.892],
   OR: [44.138, 4.81], NI: [43.837, 4.360], MP: [43.611, 3.877], SE: [43.403, 3.697], NB: [43.184, 3.004],
