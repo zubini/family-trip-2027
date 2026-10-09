@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 1000 471" overflow="hidden" role="img" aria-labelledby="mt" xmlns="http://www.w3.org/2000/svg"><title id="mt">Karte der Rundreise über Fuerteventura, Lanzarote, Gran Canaria, Teneriffa und La Gomera mit Mietwagen und Fähren</title>
+<style>
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400;0,600;0,700;0,800;1,400&amp;display=swap");
+.lr{fill:#F4F1E4;stroke:#B9B39A;stroke-width:.8}
+.lo{fill:#ECECE6;stroke:#C9C9BF;stroke-width:.8}
+.cn{font:600 15px "Figtree",system-ui,sans-serif;fill:#9A9580;letter-spacing:.05em}
+.sea{font:italic 14px "Figtree",system-ui,sans-serif;fill:#6E98A6}
+.sl{font:700 13px "Figtree",system-ui,sans-serif;fill:#1C2B2D;paint-order:stroke;stroke:#fff;stroke-width:3.5px;stroke-linejoin:round}
+.tl{font:600 11.5px "Figtree",system-ui,sans-serif;fill:#5B6B6E;paint-order:stroke;stroke:#fff;stroke-width:3px}
+.nm{font:800 12px "Figtree",system-ui,sans-serif;fill:#fff}
+.nm2{font:800 10px "Figtree",system-ui,sans-serif;fill:#fff}
+.fl{font:600 12px "Figtree",system-ui,sans-serif;fill:#5B6B6E;paint-order:stroke;stroke:#fff;stroke-width:3px}
+</style>
+<rect width="1000" height="471" fill="#D7E9EE"/>
+<path class="lo" fill-rule="evenodd" d="M2932,-1833 L2941,-1822 L3010,-1694 L3195,-1628 L3339,-1661 L3429,-1633 L3517,-1702 L3524,-1669 L3529,-1655 L3559,-1608 L3705,-1605 L3820,-1508 L3793,-1475 L3832,-1439 L3827,-1367 L3868,-1015 L4000,-893 L3939,-840 L3927,-796 L3963,-779 L3544,-779 L3556,-690 L3351,-646 L3322,-499 L3356,-518 L3380,-474 L3349,-377 L3190,-341 L2954,-166 L2888,-50 L2829,-86 L2500,-61 L2129,164 L2129,452 L2095,455 L2105,640 L1934,649 L1827,713 L1663,665 L1480,679 L1498,715 L1398,915 L1317,915 L1317,984 L1305,1112 L1090,1353 L1063,1472 L885,1536 L790,1908 L710,2013 L702,2129 L576,2207 L544,2207 L520,2207 L410,2207 L388,2207 L361,2207 L346,2207 L344,2207 L90,2207 L144,1980 L222,1933 L293,1716 L412,1517 L398,1492 L341,1572 L366,1519 L615,1275 L627,1109 L712,865 L934,710 L1027,463 L1093,374 L1437,274 L1751,-3 L1885,-208 L1900,-308 L1832,-369 L1844,-579 L1985,-799 L1980,-898 L2163,-1098 L2580,-1311 L2717,-1533 L2798,-1799 L2932,-1833ZM2383,-890 L2390,-857 L2439,-879 L2383,-890Z"/>
+<path class="lr" fill-rule="evenodd" d="M490,352 L492,354 L496,356 L497,358 L496,362 L494,367 L493,372 L497,377 L497,378 L494,380 L492,382 L490,388 L492,392 L494,397 L493,401 L489,403 L486,405 L478,415 L475,418 L458,424 L455,425 L454,425 L447,433 L444,434 L442,433 L440,431 L437,430 L427,429 L422,428 L418,426 L405,415 L403,412 L402,410 L397,407 L395,405 L394,404 L387,388 L385,382 L386,377 L385,373 L385,369 L385,365 L386,362 L389,359 L398,354 L402,350 L409,345 L413,338 L411,331 L414,329 L415,324 L415,318 L413,314 L416,314 L419,314 L421,315 L423,316 L427,315 L440,319 L458,319 L473,323 L479,321 L478,312 L486,311 L487,311 L488,315 L488,317 L486,318 L484,321 L484,329 L486,340 L486,342 L487,345 L488,349 L490,352Z"/>
+<path class="lr" fill-rule="evenodd" d="M22,303 L34,300 L46,304 L56,310 L69,320 L72,326 L74,332 L70,338 L65,341 L58,348 L52,352 L47,353 L41,355 L35,354 L22,346 L14,333 L14,324 L15,313 L22,303Z"/>
+<path class="lr" fill-rule="evenodd" d="M237,319 L234,324 L230,329 L214,344 L211,350 L208,354 L200,352 L187,357 L181,359 L177,361 L172,360 L170,357 L169,354 L170,351 L168,350 L166,348 L165,346 L164,341 L164,339 L160,334 L151,325 L149,321 L148,315 L144,310 L140,306 L137,303 L136,290 L135,288 L131,282 L129,276 L120,268 L118,262 L124,258 L137,252 L142,254 L148,258 L150,259 L154,259 L160,257 L166,254 L174,251 L180,249 L184,251 L194,250 L199,249 L204,245 L210,245 L213,243 L218,243 L223,239 L234,229 L239,224 L240,222 L241,218 L242,216 L247,214 L249,212 L253,210 L258,209 L263,207 L264,202 L268,203 L292,204 L307,199 L313,202 L310,210 L303,215 L285,225 L281,233 L276,238 L269,245 L262,250 L258,252 L255,255 L252,260 L252,266 L253,270 L254,273 L253,276 L251,278 L249,281 L247,287 L239,302 L237,314 L237,319Z"/>
+<path class="lr" fill-rule="evenodd" d="M836,156 L845,153 L854,151 L862,154 L869,162 L872,171 L873,184 L871,207 L870,213 L865,224 L864,228 L864,237 L864,240 L865,242 L867,246 L868,248 L866,250 L862,254 L861,256 L861,258 L860,261 L860,264 L856,270 L854,274 L851,284 L845,293 L837,297 L811,301 L800,305 L792,311 L782,313 L778,316 L770,325 L763,334 L756,342 L746,346 L739,346 L730,342 L725,341 L709,342 L706,341 L707,340 L708,336 L708,333 L708,332 L710,332 L718,333 L723,332 L732,330 L746,323 L763,312 L771,304 L775,300 L777,295 L779,290 L780,276 L782,271 L788,263 L794,243 L795,240 L798,237 L805,225 L811,212 L820,198 L823,184 L827,176 L828,165 L829,162 L832,159 L836,156Z"/>
+<path class="lr" fill-rule="evenodd" d="M955,17 L960,16 L964,19 L971,25 L969,31 L968,35 L966,39 L961,42 L960,47 L961,50 L962,54 L963,59 L962,61 L960,65 L960,67 L960,69 L960,74 L960,77 L956,83 L949,90 L941,94 L929,97 L927,99 L925,102 L922,103 L918,103 L913,105 L909,105 L900,107 L894,112 L889,119 L884,128 L883,128 L880,124 L875,122 L863,122 L862,121 L860,117 L860,114 L860,113 L863,112 L865,110 L868,105 L869,100 L870,87 L870,83 L879,70 L883,65 L886,63 L890,61 L895,60 L900,59 L905,58 L913,51 L918,48 L922,47 L926,46 L939,46 L942,45 L945,42 L948,35 L950,26 L952,21 L955,17Z"/>
+<path class="lr" fill-rule="evenodd" d="M954,4 L957,9 L953,16 L947,21 L941,20 L941,17 L945,14 L947,7 L949,3 L954,4Z"/>
+<path class="lo" fill-rule="evenodd" d="M1027,463 L2095,455 L2129,452 L2129,552 L2129,915 L1398,915 L1317,915 L1317,984 L1317,1622 L1178,1666 L1046,1777 L1073,2199 L1073,2207 L941,2207 L576,2207 L544,2207 L520,2207 L410,2207 L388,2207 L361,2207 L346,2207 L344,2207 L202,2207 L107,2218 L85,2365 L90,2207 L144,1980 L222,1933 L293,1716 L412,1517 L398,1492 L341,1572 L366,1519 L615,1275 L627,1109 L712,865 L934,710 L1027,463Z"/>
+<text class="cn" x="792.7" y="263.4" text-anchor="middle" transform="rotate(-55 792.7 263.4)">Fuerteventura</text>
+<text class="cn" x="922.0" y="49.9" text-anchor="middle">Lanzarote</text>
+<text class="cn" x="419.5" y="371.5" text-anchor="middle">Gran Canaria</text>
+<text class="cn" x="190.2" y="282.8" text-anchor="middle">Teneriffa</text>
+<text class="sea" x="439.0" y="124.8" text-anchor="middle">Atlantik</text>
+<polyline points="862.2,235.7 862.2,156.7" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="862.2,235.7 862.2,156.7" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Flughafen Fuerteventura – Corralejo</title></polyline>
+<polyline points="862.2,156.7 870.7,122.0" fill="none" stroke="#fff" stroke-width="6.0" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="862.2,156.7 870.7,122.0" fill="none" stroke="#E08A12" stroke-width="3.0" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 6"><title>Fähre oder Boot: Corralejo – Playa Blanca (Fähre)</title></polyline>
+<polyline points="870.7,122.0 873.2,138.6 862.2,156.7" fill="none" stroke="#fff" stroke-width="6.0" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="870.7,122.0 873.2,138.6 862.2,156.7" fill="none" stroke="#E08A12" stroke-width="3.0" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 6"><title>Fähre oder Boot: Playa Blanca – Corralejo (Fähre)</title></polyline>
+<polyline points="862.2,156.7 863.4,221.8 829.3,291.1 780.5,313.3 743.9,346.6" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="862.2,156.7 863.4,221.8 829.3,291.1 780.5,313.3 743.9,346.6" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Corralejo – Puerto del Rosario – Morro Jable</title></polyline>
+<polyline points="743.9,346.6 609.8,374.3 482.9,321.6" fill="none" stroke="#fff" stroke-width="6.0" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="743.9,346.6 609.8,374.3 482.9,321.6" fill="none" stroke="#E08A12" stroke-width="3.0" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 6"><title>Fähre oder Boot: Morro Jable – Las Palmas (Fähre)</title></polyline>
+<polyline points="482.9,321.6 487.8,374.3 443.9,427.0" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="482.9,321.6 487.8,374.3 443.9,427.0" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Las Palmas – Maspalomas</title></polyline>
+<polyline points="443.9,427.0 487.8,374.3 482.9,321.6 412.2,332.7" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="443.9,427.0 487.8,374.3 482.9,321.6 412.2,332.7" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Maspalomas – Agaete</title></polyline>
+<polyline points="412.2,332.7 280.5,230.1" fill="none" stroke="#fff" stroke-width="6.0" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="412.2,332.7 280.5,230.1" fill="none" stroke="#E08A12" stroke-width="3.0" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 6"><title>Fähre oder Boot: Agaete – Santa Cruz de Tenerife (Fähre)</title></polyline>
+<polyline points="280.5,230.1 256.1,227.4 207.3,245.4" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="280.5,230.1 256.1,227.4 207.3,245.4" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Santa Cruz – Puerto de la Cruz</title></polyline>
+<polyline points="207.3,245.4 243.9,235.7 243.9,277.3 219.5,327.2 165.9,346.6" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="207.3,245.4 243.9,235.7 243.9,277.3 219.5,327.2 165.9,346.6" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Puerto de la Cruz – Los Cristianos</title></polyline>
+<polyline points="165.9,346.6 70.7,335.5" fill="none" stroke="#fff" stroke-width="6.0" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="165.9,346.6 70.7,335.5" fill="none" stroke="#E08A12" stroke-width="3.0" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 6"><title>Fähre oder Boot: Los Cristianos – San Sebastián de La Gomera (Fähre)</title></polyline>
+<polyline points="70.7,335.5 122.0,343.8 165.9,346.6" fill="none" stroke="#fff" stroke-width="6.0" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="70.7,335.5 122.0,343.8 165.9,346.6" fill="none" stroke="#E08A12" stroke-width="3.0" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 6"><title>Fähre oder Boot: San Sebastián de La Gomera – Los Cristianos (Fähre)</title></polyline>
+<polyline points="165.9,346.6 163.4,335.5" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="165.9,346.6 163.4,335.5" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Los Cristianos – Costa Adeje</title></polyline>
+<polyline points="163.4,335.5 201.2,348.0" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="163.4,335.5 201.2,348.0" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Costa Adeje – Flughafen Teneriffa Süd</title></polyline>
+<g><title>Umstieg: Las Palmas</title><circle cx="482.9" cy="321.6" r="4.5" fill="#fff" stroke="#718096" stroke-width="2"/></g>
+<text class="tl" x="491.9" y="325.6" text-anchor="start">Las Palmas</text>
+<g><title>Umstieg: Agaete</title><circle cx="412.2" cy="332.7" r="4.5" fill="#fff" stroke="#718096" stroke-width="2"/></g>
+<text class="tl" x="403.2" y="336.7" text-anchor="end">Agaete</text>
+<g><title>Umstieg: Los Cristianos</title><circle cx="165.9" cy="346.6" r="4.5" fill="#fff" stroke="#718096" stroke-width="2"/></g>
+<text class="tl" x="174.9" y="350.6" text-anchor="start">Los Cristianos</text>
+<g><title>1. Corralejo: Sa, 19.06.2027 – Do, 24.06.2027, 5 Nächte</title><circle cx="862.2" cy="156.7" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="862.2" y="160.9" text-anchor="middle">1</text></g>
+<text class="sl" x="845.2" y="161.7" text-anchor="end">Corralejo</text>
+<g><title>2. Playa Blanca: Do, 24.06.2027 – Mo, 28.06.2027, 4 Nächte</title><circle cx="870.7" cy="122.0" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="870.7" y="126.2" text-anchor="middle">2</text></g>
+<text class="sl" x="853.7" y="127.0" text-anchor="end">Playa Blanca</text>
+<g><title>3. Morro Jable: Mo, 28.06.2027 – Sa, 03.07.2027, 5 Nächte</title><circle cx="743.9" cy="346.6" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="743.9" y="350.8" text-anchor="middle">3</text></g>
+<text class="sl" x="726.9" y="351.6" text-anchor="end">Morro Jable</text>
+<g><title>4. Maspalomas: Sa, 03.07.2027 – Do, 08.07.2027, 5 Nächte</title><circle cx="443.9" cy="427.0" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="443.9" y="431.2" text-anchor="middle">4</text></g>
+<text class="sl" x="443.9" y="454.0" text-anchor="middle">Maspalomas</text>
+<g><title>5. Puerto de la Cruz: Do, 08.07.2027 – Di, 13.07.2027, 5 Nächte</title><circle cx="207.3" cy="245.4" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="207.3" y="249.6" text-anchor="middle">5</text></g>
+<text class="sl" x="207.3" y="227.4" text-anchor="middle">Puerto de la Cruz</text>
+<g><title>6. La Gomera: Di, 13.07.2027 – Fr, 16.07.2027, 3 Nächte</title><circle cx="70.7" cy="335.5" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="70.7" y="339.7" text-anchor="middle">6</text></g>
+<text class="sl" x="70.7" y="317.5" text-anchor="middle">La Gomera</text>
+<g><title>7. Costa Adeje: Fr, 16.07.2027 – Sa, 24.07.2027, 8 Nächte</title><circle cx="163.4" cy="335.5" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="163.4" y="339.7" text-anchor="middle">7</text></g>
+<text class="sl" x="163.4" y="362.5" text-anchor="middle">Costa Adeje</text>
+</svg>
