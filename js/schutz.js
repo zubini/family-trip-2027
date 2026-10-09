@@ -4,7 +4,7 @@
 //   node -e "console.log(require('crypto').createHash('sha256').update('familienreise-2027:NEUES_PASSWORT').digest('hex'))"
 (function () {
   var SALZ = 'familienreise-2027:';
-  var WERT = 'ef41cae5c38d45a89c14c4bcabaf9e634b9de190f041a8c26f31eddc7eae763e';
+  var WERT = '0fc342cd1a2bc486c3bbed1a9eed04766a6c29e61fce9780fa4693eaac90ed7b';
   var SCHLUESSEL = 'zugang2027';
   var html = document.documentElement;
 
