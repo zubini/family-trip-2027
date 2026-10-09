@@ -1,17 +1,17 @@
 // Einstiegsseite: Vergleich der Reisen
 // Budgetzahlen kommen automatisch aus den Reisen (data/marokko.js usw.).
-// Platzhalter in Texten: {plan:marokko}, {plan:kanaren}, {plan:usa}, {plan:asien} = Planwert, {mehrkosten} = USA minus Malaysia / Thailand.
+// Platzhalter in Texten: {plan:marokko}, {plan:usa}, {plan:asien} = Planwert, {mehrkosten} = USA minus Malaysia / Thailand.
 // Reihenfolge der Reisen hier = Reihenfolge der Spalten; die Navigation folgt der Reihenfolge in index.html.
 // Bewertung: [Punkte 0–5, Text]. Die Punkte und Pro/Contra sind eine Einschätzung und bei Änderungen an den Reisen von Hand anzupassen.
 window.START = {
   titel: "Familienreise 2027",
   zeitraum: "Sa, 19.06.2027 bis Sa, 24.07.2027, 2 Erwachsene und 2 Kids",
   untertitel: "Verschiedene Reisevarianten als Fahrplan für eine Entscheidung.",
-  reisenIntro: "Alle Reisen dauern vom Sa, 19.06.2027 bis zum Sa, 24.07.2027 und sind für die Familie mit Sohn (12) und Tochter (14) geplant: die Reise mit dem eigenen Auto und die Kanaren (Tagesflüge) 35 Nächte, die Fernreisen 34 Nächte vor Ort (Hinflug am Abend bzw. Nachtflug zurück). Ein Klick führt zum vollständigen Fahrplan mit Stationen, Karte und Budget.",
+  reisenIntro: "Alle Reisen dauern vom Sa, 19.06.2027 bis zum Sa, 24.07.2027 und sind für die Familie mit Sohn (12) und Tochter (14) geplant: die Reise mit dem eigenen Auto 35 Nächte, die Flugreisen 34 Nächte vor Ort (Hinflug am Abend bzw. Nachtflug zurück). Ein Klick führt zum vollständigen Fahrplan mit Stationen, Karte und Budget.",
   bewertungIntro: "Bewertet werden Natur, Dschungelfeeling, Wüstenfeeling, Strand und Baden, Schnorcheln, Abenteuer, Städte, Gesundheit und Sicherheit, Budget, Reisekomfort sowie CO₂ und Umwelt. Fünf Punkte sind die beste Bewertung (beim Budget heisst das: günstig, beim CO₂: wenig Ausstoss). Die Skala ist fest und nicht nur ein Vergleich der Reisen: 5 heisst Weltklasse (z.B. tropische Riffe beim Schnorcheln, kurze Etappen beim Reisekomfort), 0 heisst, dass es das auf der Reise nicht gibt. Die Punkte sind eine Einschätzung auf Basis der Reisepläne, keine Messung.",
   budgetIntro: "Mittelklasse inklusive Flüge bzw. Autokosten, Transport, Unterkunft, Verpflegung und Aktivitäten für 4 Personen. Der dunkle Punkt ist der Planwert, der helle Balken die Spanne.",
   vergleichIntro: "Die wichtigsten Unterschiede nebeneinander.",
-  entscheidIntro: "Welche Reise passt, hängt davon ab, ob Strand und Schnorcheln in den Tropen, Ferien mit kurzen Wegen, Städte und Kultur ohne Flug oder Nationalparks und Roadtrip im Vordergrund stehen.",
+  entscheidIntro: "Welche Reise passt, hängt davon ab, ob Strand und Schnorcheln, Städte und Kultur ohne Flug oder Nationalparks und Roadtrip im Vordergrund stehen.",
   reisen: {
     marokko: {
       name: "Spanien / Portugal / Marokko",
@@ -41,36 +41,6 @@ window.START = {
         "Tür zu Tür ca. 96–103 Std., Wechsel zwischen eigenem Auto, Fähre und Zug; einige lange Tage mit 7–9 Std.; Bauarbeiten an der Bahnstrecke nach Marrakesch (Fahrplan kurz vorher prüfen)",
         "Für Marokko Reisepass für alle, keine Krankenversicherungskarte, kein Leitungswasser; aufdringliche Händler in den Medinas",
         "Lange Reisetage wie Agafay–Fès (ca. 7,5–8,5 Std.) und Fès–Cádiz (Zug und Fähre, ca. 7–9 Std.); auf Formentera keine Supercharger"
-      ]
-    },
-    kanaren: {
-      name: "Kanarische Inseln",
-      zusatz: "Ferien auf Fuerteventura und Teneriffa",
-      passt: "ihr vor allem Ferien mit Strand, Pool und kurzen Wegen möchtet, dazu Teide, Wale und Wasserpark, ohne lange Flüge und ohne Jetlag; Städte und Kultur stehen nicht im Vordergrund.",
-      kurz: "Fünf Wochen Kanaren mit Direktflügen ab Zürich: zwei Wochen Strand, Dünen und Surfen auf Fuerteventura, drei Wochen Teneriffa mit Teide, Lorbeerwald, Siam Park und Walen. Als Variante eine Rundreise über fünf Inseln.",
-      route: "Fuerteventura (Corralejo, Morro Jable), (Fähre) Teneriffa (Puerto de la Cruz, Costa Adeje)",
-      stationen: "4 Stationen auf zwei Inseln",
-      laender: "Spanien (Kanarische Inseln)",
-      hinflug: "Direktflug Zürich–Fuerteventura ca. 3,75–4 Std. (Edelweiss, im Sommer 2026 samstags um ca. 6.20 Uhr; Sommerflugplan 2027 noch offen)",
-      rueckflug: "Direktflug Teneriffa Süd–Zürich ca. 4–4,25 Std. am Sa, 24.07.2027, Ankunft am Nachmittag",
-      dazwischen: "Mietwagen auf beiden Inseln, eine Fähre Morro Jable–Santa Cruz de Tenerife (ca. 4–4,5 Std.)",
-      tempo: "Ca. 5 Std. im Mietwagen an 4 Fahrtagen (längste Fahrt Corralejo–Morro Jable ca. 1,75–2 Std.) und eine Fähre (ca. 4–4,5 Std.); zusammen mit Flügen und Bahn ca. 22 Std. reine Reisezeit, realistisch ca. 28–31 Std. Tür zu Tür.",
-      gesamt: "Ca. 28–31 Std. Tür zu Tür: Bahn Brig-Glis–Zürich Flughafen (ca. 2,5 Std., wegen des frühen Abflugs am Vorabend), ca. 2 Std. am Flughafen, zwei Direktflüge je ca. 4 Std., ca. 5 Std. im Mietwagen und eine Fähre (ca. 4–4,5 Std.) mit Check-in. Uhr −1 Std., kein Jetlag.",
-      wetter: "Meist 25–29 °C, nachts ca. 20 °C; im Juli viel Wind auf Fuerteventura, im Norden Teneriffas oft Wolken. Bei Calima (Saharastaub) heiss und dunstig. Atlantik ca. 21–22 °C.",
-      einreise: "Spanien und Schengen: Identitätskarte genügt, kein Visum. Europäische Krankenversicherungskarte gilt. Bewilligungen für Isla de Lobos, Teide-Gipfel und Masca vorab reservieren.",
-      hoehepunkte: "Dünen von Corralejo, Isla de Lobos, Surfkurs, Cofete und Sotavento, Teide mit der Seilbahn, Lorbeerwald von Anaga, La Laguna, Loro Parque, Siam Park, Wale und Delfine, Meeresschildkröten in El Puertito, Masca-Schlucht.",
-      teens: "Surfkurs, Siam Park, Bootstour zu den Walen, Schnorcheln mit Schildkröten, Sandrutschen in den Dünen, Teide, Masca-Schlucht.",
-      pro: [
-        "Sehr wenig Reisezeit (ca. 28–31 Std. Tür zu Tür), Direktflüge von ca. 4 Std., kein Jetlag (Uhr −1 Std.)",
-        "Echte Ferien mit langen Aufenthalten, Pool und Strand, dazu Teide, Wale, Siam Park und Surfen",
-        "Angenehmes Klima um 25–29 °C statt 38–45 °C; europäischer Standard, Identitätskarte genügt",
-        "Günstig (ca. {plan:kanaren} CHF); als Variante eine Rundreise über fünf Inseln mit mehr Abwechslung"
-      ],
-      contra: [
-        "Wenig Städte und Kultur, eher Feriengebiete; weniger Abwechslung als die Rundreisen",
-        "Atlantik kühl (ca. 21–22 °C), keine Riffe, im Juli sehr windig auf Fuerteventura",
-        "Hochsaison in den Sommerferien: Flüge und Apartments früh ausgebucht; Sommerflugplan 2027 noch offen, Abflug sehr früh am Morgen",
-        "Zwei Flüge mit CO₂ (ca. 1,3–1,5 t pro Person), auch wenn deutlich weniger als bei den Fernreisen"
       ]
     },
     usa: {
@@ -139,7 +109,6 @@ window.START = {
         3,
         "Schöne Küsten und einzelne Naturhöhepunkte: Vulkanküste am Cabo de Gata, Schlucht des Caminito del Rey, Agafay-Steinwüste vor dem Hohen Atlas, Felsküste der Algarve, Felsbögen der Playa de las Catedrales; viele Tage in Städten und keine grossen Nationalparks wie in den USA."
       ],
-      kanaren: [4, "Teide-Nationalpark (Unesco) mit Vulkanlandschaft, Dünen von Corralejo, Vulkaninsel Lobos, Cofete, Lorbeerwald von Anaga und die Klippen von Los Gigantes; kleiner und weniger spektakulär als die Nationalparks der USA."],
       usa: [
         5,
         "Zion, Antelope Canyon, Horseshoe Bend, Grand Canyon, Monument Valley, White Sands und die Niagarafälle: spektakuläre Landschaften."
@@ -152,7 +121,6 @@ window.START = {
     {
       kriterium: "Dschungelfeeling",
       marokko: [0, "Kein Regenwald: Steinwüste, Palmengärten in Marrakesch und grüne Hügel im Baskenland."],
-      kanaren: [2, "Kein Regenwald, aber Lorbeerwald (Nebelwald) im Anaga-Gebirge auf Teneriffa; in der Rundreise dazu Garajonay auf La Gomera."],
       usa: [0, "Kein Dschungel: Wüsten, Canyons, Seen und im Osten Laubwälder."],
       asien: [
         3,
@@ -165,7 +133,6 @@ window.START = {
         3,
         "Eine Nacht im Zeltcamp in der Agafay-Steinwüste bei Marrakesch mit Kamelritt und Blick auf den Atlas, dazu die Wüste von Tabernas am Cabo de Gata als Abstecher; keine Sanddünen wie in der Sahara und im Juli sehr heiss."
       ],
-      kanaren: [3, "Sanddünen von Corralejo, die kahle Halbwüste Fuerteventuras und die Vulkanlandschaft am Teide; keine Wüstennacht wie in Marokko."],
       usa: [
         4,
         "Mojave-Wüste um Las Vegas, rote Felswüsten in Utah und Arizona, Monument Valley und die weissen Gipsdünen von White Sands."
@@ -178,7 +145,6 @@ window.START = {
         4,
         "Vier Nächte auf Formentera, dazu Costa Brava, Benidorm, Cabo de Gata, Tarifa, Cádiz, Algarve und San Sebastián; im Juli voll."
       ],
-      kanaren: [4, "Lange helle Strände auf Fuerteventura, Lobos, Sotavento, Pools und Badebuchten auf Teneriffa; Atlantik ca. 21–22 °C, im Juli windig, auf Strömungen achten."],
       usa: [
         1,
         "Kaum Meer auf der Route; Baden höchstens im Lake Powell, in Hotelpools oder am Lake Michigan in Chicago."
@@ -194,7 +160,6 @@ window.START = {
         3,
         "Gutes Mittelmeer-Schnorcheln: Meeresschutzgebiet der Medes-Inseln mit grossen Fischen, vier Nächte auf Formentera (Cala Saona, Es Caló, Seegraswiesen mit sehr klarem Wasser) und das Cabo de Gata (Los Escullos, Cala de San Pedro); wenige Korallen, keine Riffe und kühleres Wasser als in den Tropen."
       ],
-      kanaren: [3, "Atlantik-Schnorcheln mit Meeresschildkröten in El Puertito, Felsbecken in Abades, Isla de Lobos; Wasser ca. 21–22 °C, keine Korallenriffe."],
       usa: [0, "Kein Schnorcheln im Meer; höchstens Baden im Lake Powell oder in den Narrows."],
       asien: [
         5,
@@ -207,7 +172,6 @@ window.START = {
         3,
         "Caminito del Rey, Kamelritt, Quad und Nacht im Zeltcamp in der Agafay-Wüste, Medinas mit Führer, Zugfahrten quer durch Marokko, Kajak durch die Grotten der Algarve, Surfen in San Sebastián."
       ],
-      kanaren: [3, "Surfkurs, Wind- und Kitesurfen, Teide mit Seilbahn oder zu Fuss, Masca-Schlucht, Bootstour zu den Walen, Siam Park; eher Ferien als Abenteuer."],
       usa: [4, "Durch die Narrows waten, Antelope Canyon, 2-Tage-Roadtrip und Cedar Point."],
       asien: [3, "Kajak, Seilrutschen, Inselhopping und Fähren; eher abenteuerlich beim Reisen als in der Natur."]
     },
@@ -217,7 +181,6 @@ window.START = {
         5,
         "Barcelona, Valencia, Casablanca, Marrakesch, Fès, Cádiz, Sevilla, Lissabon, Porto, San Sebastián und Carcassonne: europäische und marokkanische Städte im Wechsel."
       ],
-      kanaren: [2, "La Laguna (Unesco), La Orotava, Santa Cruz und Puerto de la Cruz; keine Grossstadt auf der Route (in der Rundreise dazu Las Palmas)."],
       usa: [5, "Las Vegas, Chicago, Washington, Philadelphia und New York mit Museen und Aussichtsplattformen."],
       asien: [4, "Singapur, Kuala Lumpur, Penang und Bangkok mit Street-Food und Tempeln."]
     },
@@ -227,7 +190,6 @@ window.START = {
         4,
         "Rund vier von fünf Wochen in Spanien, Portugal und Frankreich, dort unkompliziert. In Marokko (6 Nächte) keine Krankenversicherungskarte, kein Leitungswasser und auf Hygiene beim Essen achten; das grösste Risiko ist die Hitze in Marrakesch, in der Agafay-Wüste und in Fès (38–42 °C)."
       ],
-      kanaren: [5, "Spanien mit europäischem Standard, Krankenversicherungskarte gilt, kurze Wege, angenehmes Klima; auf Strömungen achten (nur an bewachten Stränden baden) und auf die starke Sonne."],
       usa: [
         4,
         "Sehr gute Spitäler, aber sehr teuer (Reiseversicherung mit hoher Deckung nötig); Hitze in der Wüste, sonst unkompliziert."
@@ -240,7 +202,6 @@ window.START = {
     {
       kriterium: "Budget (mehr Punkte = günstiger)",
       marokko: [4, "ca. {plan:marokko} CHF: kein Flug, Supercharging gratis, Marokko günstig; dafür Fähren und Züge in Marokko sowie Parkplatz in Tarifa."],
-      kanaren: [4, "ca. {plan:kanaren} CHF: kurze Flüge, Apartments mit Küche; dafür Hochsaison in den Sommerferien und zwei Mietwagen."],
       usa: [1, "ca. {plan:usa} CHF: rund {mehrkosten} CHF mehr, vor allem Unterkünfte und Mietwagen."],
       asien: [4, "ca. {plan:asien} CHF: Singapur ist teuer, der Rest günstig."]
     },
@@ -250,7 +211,6 @@ window.START = {
         3,
         "Ca. 96–103 Stunden Tür zu Tür, kein Jetlag, in Marokko kein Fahren; aber Wechsel zwischen eigenem Auto, Fähre und Zug, Passkontrollen, ein langer Zugtag Marrakesch–Fès und mehrere Tage mit 7–9 Stunden."
       ],
-      kanaren: [5, "Ca. 28–31 Stunden Tür zu Tür, Direktflüge von ca. 4 Stunden, kein Jetlag, nur vier Unterkünfte und kurze Fahrten; einziger langer Tag ist die Fähre nach Teneriffa."],
       usa: [
         2,
         "Ca. 102–109 Stunden Tür zu Tür: zwei Langstreckenflüge mit Einreise und Jetlag, dazu am meisten Zeit im Auto (ca. 70–75 Stunden), mit 10 und 12 Stunden reiner Fahrzeit an den zwei Roadtrip-Tagen."
@@ -266,7 +226,6 @@ window.START = {
         5,
         "Kein Flug: Elektroauto (ca. 1’100 kWh), zwei kurze Fähren, Züge in Marokko (ohne Mietwagen); grob geschätzt ca. 0,1–0,2 t CO₂ pro Person."
       ],
-      kanaren: [3, "Zwei Mittelstreckenflüge (zusammen ca. 6’500 km pro Person), Mietwagen und eine Fähre; grob geschätzt ca. 1,3–1,5 t CO₂ pro Person."],
       usa: [
         1,
         "Zwei Langstreckenflüge (ca. 15’000 km) und ca. 6’000 km Mietwagen, grob geschätzt ca. 3–3,5 t CO₂ pro Person."

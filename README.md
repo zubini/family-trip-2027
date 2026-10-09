@@ -2,10 +2,9 @@
 
 **Zur Seite: https://zubini.github.io/family-trip-2027/**
 
-Reiseführer und Variantenvergleich für die Familienreise 2027 (Sa, 19. Juni bis Sa, 24. Juli, 2 Erwachsene und 2 Kids) mit vier Varianten:
+Reiseführer und Variantenvergleich für die Familienreise 2027 (Sa, 19. Juni bis Sa, 24. Juli, 2 Erwachsene und 2 Kids) mit drei Varianten:
 
 - **Spanien / Portugal / Marokko**: mit dem eigenen Auto ab Brig-Glis, sechs Nächte Marokko nur mit Fähre und Zug (Casablanca, Marrakesch, Agafay-Wüste, Fès)
-- **Kanarische Inseln**: Ferien auf Fuerteventura und Teneriffa mit Direktflügen ab Zürich; als Variante eine Rundreise über fünf Inseln
 - **USA (Las Vegas – New York)**: Nationalparks, Roadtrip nach Chicago und an die Ostküste
 - **Malaysia / Thailand**: von Singapur nach Bangkok
 
@@ -20,8 +19,6 @@ index.html        Seitengerüst
 data/             die Inhalte, hier wird fast alles geändert
   start.js        Einstiegsseite: Texte, Bewertung, Pro und Contra
   marokko.js      Spanien / Portugal / Marokko (eigenes Auto, Marokko mit Fähre und Zug)
-  kanaren.js      Kanarische Inseln (Ferien auf Fuerteventura und Teneriffa)
-  kanaren2.js     Variante: Rundreise über fünf Inseln
   usa.js          USA (Las Vegas–New York)
   asien.js        Malaysia / Thailand (Singapur–Bangkok)
   quellen.js      Seite «Quellen» (Belege für Fahrzeiten, Einreise, Bilder)
