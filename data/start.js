@@ -44,32 +44,33 @@ window.START = {
       ]
     },
     usa: {
-      name: "USA (Las Vegas – New York)",
-      zusatz: "Nationalparks und Grossstädte",
-      passt: "Nationalparks, Roadtrip und Grossstädte im Vordergrund stehen und das höhere Budget (rund {mehrkosten} CHF mehr) passt.",
-      kurz: "Fünf Wochen quer durch die USA mit Nationalparks, Grossen Seen und Grossstädten.",
-      route: "Las Vegas, Zion, Page, Grand Canyon, Monument Valley, Santa Fe, White Sands, Chicago, Sandusky, Niagara Falls, Washington, Philadelphia, New York",
-      stationen: "13 Stationen und 1 Zwischenübernachtung",
-      laender: "USA (Nevada bis New York)",
-      hinflug: "Zürich–Las Vegas ca. 12 Std. direkt (nur an einzelnen Wochentagen, Sommerflugplan 2027 noch offen), sonst 14–17 Std.",
+      name: "USA (Miami – Las Vegas – New York)",
+      zusatz: "Roadtrip von Florida in den Westen, dann Washington und New York",
+      passt: "Nationalparks, Roadtrip, Florida und Grossstädte im Vordergrund stehen, ihr sehr viele Fahrtage in Kauf nehmt und das höhere Budget (rund {mehrkosten} CHF mehr) passt.",
+      kurz: "Fünf Wochen USA: mit dem Mietwagen von Miami über die Florida Keys, Orlando, die Golfküste, New Orleans und Texas zu Carlsbad Caverns, White Sands und den Nationalparks im Südwesten bis Las Vegas, dann Inlandflug nach Washington und Zug nach New York.",
+      route: "Miami, Key West, Key Largo, Orlando, Destin, New Orleans, Houston, San Antonio, Fort Stockton, Carlsbad Caverns, White Sands, Santa Fe, Monument Valley, Grand Canyon, Page, Zion, Las Vegas, (Flug) Washington, (Zug) New York",
+      stationen: "18 Stationen und 1 Zwischenübernachtung",
+      laender: "USA (Florida bis Nevada, Washington, New York)",
+      hinflug: "Direktflug Zürich–Miami ca. 10,5 Std. (täglich)",
       rueckflug: "New York–Zürich ca. 7,5–8 Std. als Nachtflug am Fr, 23.07.2027, Ankunft Sa, 24.07.2027",
-      dazwischen: "Keine Flüge dazwischen: Mietwagen und 2-Tage-Roadtrip, im Osten Amtrak",
-      tempo: "Ca. 60 Std. reine Fahrzeit (ca. 5’800 km), realistisch mit Pausen und Stau ca. 70–75 Std. im Auto, an 11 Fahrtagen: Roadtrip mit 10 und 12 Std., 5 Tage mit 4–7 Std., 4 Tage mit 2,5–3,5 Std.",
-      gesamt: "Ca. 102–109 Std. Tür zu Tür: Bahn Brig-Glis–Zürich Flughafen (ca. 2,5 Std.), ca. 2 Std. Wartezeit am Flughafen, Flüge, Einreise und Mietwagen zusammen ca. 32–34 Std. (mit Direktflug, mit Umsteigen mehr), dazu ca. 70–75 Std. im Auto. Uhr −9 Std., Jetlag vor allem nach der Rückkehr.",
-      wetter: "Las Vegas, Zion und White Sands 38–45 °C; ab Juli Monsungewitter und Sturzfluten im Südwesten; im Osten heiss und schwül mit Gewittern.",
+      dazwischen: "Einwegmiete Miami–Las Vegas (ca. 27 Tage), Inlandflug Las Vegas–Washington (ca. 4,5–5 Std.), Amtrak Washington–New York (ca. 3–3,5 Std.)",
+      tempo: "Ca. 64 Std. reine Fahrzeit (ca. 6’000 km), realistisch mit Pausen und Stau ca. 74–78 Std. im Auto, an 16 Fahrtagen: 6 Tage mit 4,5–7 Std., die übrigen 2–4 Std.; dazu ein Inlandflug und ein Zug im Osten.",
+      gesamt: "Ca. 116–123 Std. Tür zu Tür: Bahn Brig-Glis–Zürich Flughafen (ca. 2,5 Std.), Flüge mit Wartezeiten, Einreise und Mietwagen zusammen ca. 30 Std., der Inlandflug nach Washington mit Transfers ca. 8–9 Std., der Zug nach New York ca. 4 Std. und ca. 74–78 Std. im Auto. Uhr −6 bis −9 Std., Jetlag vor allem nach der Rückkehr.",
+      wetter: "Florida, die Golfküste und Texas heiss und feucht mit Gewittern am Nachmittag, Hurrikansaison; im Südwesten 38–45 °C und Monsungewitter; Washington und New York heiss und schwül.",
       einreise: "ESTA für alle vier (ca. 40 USD pro Person), Regeln im Wandel. Nationalpark-Jahrespass für Nicht-Residenten 250 USD, 100 USD Zusatzgebühr pro Person ab 16 Jahren in 11 Parks.",
-      hoehepunkte: "Zion, Antelope Canyon, Horseshoe Bend, Grand Canyon, Monument Valley, White Sands, Chicago, Niagarafälle, Washington, New York.",
-      teens: "Cedar Point (Achterbahnen), Meow Wolf, Sandboarding auf White Sands, Smithsonian, New York.",
+      hoehepunkte: "Everglades, Florida Keys mit Korallenriff, Kennedy Space Center und Universal, weisse Strände bei Destin, New Orleans, Space Center Houston, Alamo, Carlsbad Caverns, White Sands, Monument Valley, Grand Canyon, Antelope Canyon, Zion, Las Vegas, Smithsonian-Museen in Washington, New York.",
+      teens: "Airboat in den Everglades, Schnorcheln am Riff, Universal, Raketen im Kennedy Space Center, Sandboarding auf White Sands, Narrows in Zion, Las Vegas, Air and Space Museum, New York.",
       pro: [
-        "Die spektakulärsten Landschaften: Zion, Grand Canyon, Antelope Canyon, Monument Valley, White Sands und die Niagarafälle",
-        "Grossstädte wie Las Vegas, Chicago, Washington und New York mit vielen Teenager-Highlights, dazu Cedar Point",
-        "Eigenes Tempo mit dem Mietwagen, sehr gute medizinische Versorgung"
+        "Am meisten von den USA: Florida mit Riff und Stränden, Golfküste, New Orleans, Texas, die grossen Nationalparks und zum Schluss Washington und New York",
+        "Spektakuläre Landschaften: Everglades, Carlsbad Caverns, White Sands, Monument Valley, Grand Canyon, Antelope Canyon und Zion",
+        "Viele Teenager-Highlights (Universal, Space Center, Las Vegas, New York); im Osten kein Auto mehr",
+        "Sehr gute medizinische Versorgung, eigenes Tempo mit dem Mietwagen"
       ],
       contra: [
-        "Teuer (ca. {plan:usa} CHF), Einwegmiete und Unterkünfte in New York, Arztkosten sehr hoch",
-        "Am meisten Zeit im Auto (ca. 70–75 Std.), zwei Tage mit 10 und 12 Std. reiner Fahrzeit; Tür zu Tür ca. 102–109 Std. und Jetlag",
-        "Hitze im Südwesten (Las Vegas oft über 40 °C) und Gewitter im Monsun",
-        "Kaum Strand und kein Schnorcheln, zwei Langstreckenflüge mit viel CO₂, ESTA-Regeln vorab prüfen"
+        "Am teuersten (ca. {plan:usa} CHF): Einwegmiete quer durchs Land mit hoher Rückgabegebühr, Inlandflug, Unterkünfte in Key West und New York; Arztkosten sehr hoch",
+        "Am meisten Reisezeit: ca. 74–78 Std. im Auto an 16 Fahrtagen, Tür zu Tür ca. 116–123 Std. und Jetlag",
+        "Hitze im Südwesten (oft über 40 °C), Gewitter und Hurrikansaison in Florida und an der Golfküste",
+        "Drei Flüge mit viel CO₂, ESTA-Regeln vorab prüfen"
       ]
     },
     asien: {
@@ -109,10 +110,7 @@ window.START = {
         3,
         "Schöne Küsten und einzelne Naturhöhepunkte: Vulkanküste am Cabo de Gata, Schlucht des Caminito del Rey, Agafay-Steinwüste vor dem Hohen Atlas, Felsküste der Algarve, Felsbögen der Playa de las Catedrales; viele Tage in Städten und keine grossen Nationalparks wie in den USA."
       ],
-      usa: [
-        5,
-        "Zion, Antelope Canyon, Horseshoe Bend, Grand Canyon, Monument Valley, White Sands und die Niagarafälle: spektakuläre Landschaften."
-      ],
+      usa: [5, "Everglades, Florida Keys, Carlsbad Caverns, White Sands, Monument Valley, Grand Canyon, Antelope Canyon, Horseshoe Bend und Zion: spektakuläre Landschaften."],
       asien: [
         4,
         "Inseln, Strände und Riffe von Tioman bis Koh Tao, dazu Delfine bei Khanom und Wasserfälle; eher sanfte als dramatische Landschaften."
@@ -121,7 +119,7 @@ window.START = {
     {
       kriterium: "Dschungelfeeling",
       marokko: [0, "Kein Regenwald: Steinwüste, Palmengärten in Marrakesch und grüne Hügel im Baskenland."],
-      usa: [0, "Kein Dschungel: Wüsten, Canyons, Seen und im Osten Laubwälder."],
+      usa: [1, "Mangroven und Sümpfe in den Everglades und in Louisiana, aber kein Regenwald."],
       asien: [
         3,
         "Dschungelwanderung auf Tioman, Wasserfälle und Inselwälder; kein grosser zusammenhängender Regenwald auf der Route."
@@ -133,10 +131,7 @@ window.START = {
         3,
         "Eine Nacht im Zeltcamp in der Agafay-Steinwüste bei Marrakesch mit Kamelritt und Blick auf den Atlas, dazu die Wüste von Tabernas am Cabo de Gata als Abstecher; keine Sanddünen wie in der Sahara und im Juli sehr heiss."
       ],
-      usa: [
-        4,
-        "Mojave-Wüste um Las Vegas, rote Felswüsten in Utah und Arizona, Monument Valley und die weissen Gipsdünen von White Sands."
-      ],
+      usa: [4, "Chihuahua-Wüste in Westtexas, die weissen Gipsdünen von White Sands, rote Felswüsten in Arizona und Utah, Monument Valley und die Mojave um Las Vegas."],
       asien: [0, "Keine Wüste: tropische Inseln, Regenwald und Städte."]
     },
     {
@@ -145,10 +140,7 @@ window.START = {
         4,
         "Vier Nächte auf Formentera, dazu Costa Brava, Benidorm, Cabo de Gata, Tarifa, Cádiz, Algarve und San Sebastián; im Juli voll."
       ],
-      usa: [
-        1,
-        "Kaum Meer auf der Route; Baden höchstens im Lake Powell, in Hotelpools oder am Lake Michigan in Chicago."
-      ],
+      usa: [3, "Miami Beach, die Florida Keys und die weissen Strände bei Destin mit ca. 28–30 °C warmem Wasser; aber nur rund 8 von 34 Nächten am Meer, Gewitter und rote Flaggen."],
       asien: [
         5,
         "Tioman, Perhentian Islands, Khanom, Koh Samui, Koh Tao und Hua Hin: tropische Strände mit ca. 29 °C warmem Wasser an fast jeder zweiten Station."
@@ -160,7 +152,7 @@ window.START = {
         3,
         "Gutes Mittelmeer-Schnorcheln: Meeresschutzgebiet der Medes-Inseln mit grossen Fischen, vier Nächte auf Formentera (Cala Saona, Es Caló, Seegraswiesen mit sehr klarem Wasser) und das Cabo de Gata (Los Escullos, Cala de San Pedro); wenige Korallen, keine Riffe und kühleres Wasser als in den Tropen."
       ],
-      usa: [0, "Kein Schnorcheln im Meer; höchstens Baden im Lake Powell oder in den Narrows."],
+      usa: [3, "Das einzige Korallenriff der USA-Festlandküste im Pennekamp-Park bei Key Largo, optional die Dry Tortugas; eine Bootstour, das Riff ist weniger farbig als in Südostasien."],
       asien: [
         5,
         "Tioman, Perhentian Islands, Koh Samui und Koh Tao: fast jede Inselstation hat Riffe, Schildkröten und Schnorchelboote."
@@ -172,7 +164,7 @@ window.START = {
         3,
         "Caminito del Rey, Kamelritt, Quad und Nacht im Zeltcamp in der Agafay-Wüste, Medinas mit Führer, Zugfahrten quer durch Marokko, Kajak durch die Grotten der Algarve, Surfen in San Sebastián."
       ],
-      usa: [4, "Durch die Narrows waten, Antelope Canyon, 2-Tage-Roadtrip und Cedar Point."],
+      usa: [4, "Airboat in den Everglades, Schnorcheltour, Kennedy Space Center, Carlsbad Caverns, durch die Narrows waten, Antelope Canyon, lange Fahrt quer durchs Land."],
       asien: [3, "Kajak, Seilrutschen, Inselhopping und Fähren; eher abenteuerlich beim Reisen als in der Natur."]
     },
     {
@@ -181,7 +173,7 @@ window.START = {
         5,
         "Barcelona, Valencia, Casablanca, Marrakesch, Fès, Cádiz, Sevilla, Lissabon, Porto, San Sebastián und Carcassonne: europäische und marokkanische Städte im Wechsel."
       ],
-      usa: [5, "Las Vegas, Chicago, Washington, Philadelphia und New York mit Museen und Aussichtsplattformen."],
+      usa: [5, "Miami, New Orleans, San Antonio, Santa Fe, Las Vegas, Washington und New York mit Museen und Aussichtsplattformen."],
       asien: [4, "Singapur, Kuala Lumpur, Penang und Bangkok mit Street-Food und Tempeln."]
     },
     {
@@ -190,10 +182,7 @@ window.START = {
         4,
         "Rund vier von fünf Wochen in Spanien, Portugal und Frankreich, dort unkompliziert. In Marokko (6 Nächte) keine Krankenversicherungskarte, kein Leitungswasser und auf Hygiene beim Essen achten; das grösste Risiko ist die Hitze in Marrakesch, in der Agafay-Wüste und in Fès (38–42 °C)."
       ],
-      usa: [
-        4,
-        "Sehr gute Spitäler, aber sehr teuer (Reiseversicherung mit hoher Deckung nötig); Hitze in der Wüste, sonst unkompliziert."
-      ],
+      usa: [4, "Sehr gute Spitäler, aber sehr teuer (Reiseversicherung mit hoher Deckung nötig); Hitze im Südwesten, Hurrikansaison in Florida."],
       asien: [
         3,
         "Singapur sehr sicher; in Malaysia und Thailand Dengue-Mückenschutz, kein Leitungswasser, Impfstatus vorab klären; auf den Inseln (Tioman, Perhentian) ist ein Spital weit weg, Bootsfahrten bei Wellengang."
@@ -202,7 +191,7 @@ window.START = {
     {
       kriterium: "Budget (mehr Punkte = günstiger)",
       marokko: [4, "ca. {plan:marokko} CHF: kein Flug, Supercharging gratis, Marokko günstig; dafür Fähren und Züge in Marokko sowie Parkplatz in Tarifa."],
-      usa: [1, "ca. {plan:usa} CHF: rund {mehrkosten} CHF mehr, vor allem Unterkünfte und Mietwagen."],
+      usa: [1, "ca. {plan:usa} CHF: rund {mehrkosten} CHF mehr, vor allem Einwegmiete mit Rückgabegebühr, Inlandflug und Unterkünfte in Key West und New York."],
       asien: [4, "ca. {plan:asien} CHF: Singapur ist teuer, der Rest günstig."]
     },
     {
@@ -211,10 +200,7 @@ window.START = {
         3,
         "Ca. 96–103 Stunden Tür zu Tür, kein Jetlag, in Marokko kein Fahren; aber Wechsel zwischen eigenem Auto, Fähre und Zug, Passkontrollen, ein langer Zugtag Marrakesch–Fès und mehrere Tage mit 7–9 Stunden."
       ],
-      usa: [
-        2,
-        "Ca. 102–109 Stunden Tür zu Tür: zwei Langstreckenflüge mit Einreise und Jetlag, dazu am meisten Zeit im Auto (ca. 70–75 Stunden), mit 10 und 12 Stunden reiner Fahrzeit an den zwei Roadtrip-Tagen."
-      ],
+      usa: [1, "Ca. 116–123 Stunden Tür zu Tür: zwei Langstreckenflüge mit Einreise und Jetlag, ein Inlandflug, dazu am meisten Zeit im Auto (ca. 74–78 Stunden an 16 Fahrtagen, sechs Tage mit 4,5–7 Stunden)."],
       asien: [
         2,
         "Ca. 101–108 Stunden Tür zu Tür: zwei Direktflüge mit Jetlag, dazu ca. 65–70 Stunden mit Bus, Zug und Fähre und viele Umstiege mit Gepäck; niemand muss selber fahren."
@@ -226,10 +212,7 @@ window.START = {
         5,
         "Kein Flug: Elektroauto (ca. 1’100 kWh), zwei kurze Fähren, Züge in Marokko (ohne Mietwagen); grob geschätzt ca. 0,1–0,2 t CO₂ pro Person."
       ],
-      usa: [
-        1,
-        "Zwei Langstreckenflüge (ca. 15’000 km) und ca. 6’000 km Mietwagen, grob geschätzt ca. 3–3,5 t CO₂ pro Person."
-      ],
+      usa: [1, "Zwei Langstreckenflüge und ein Inlandflug (zusammen ca. 17’500 km) und ca. 6’000 km Mietwagen, grob geschätzt ca. 3,5–4 t CO₂ pro Person."],
       asien: [
         1,
         "Zwei Langstreckenflüge (ca. 19’000 km), unterwegs Bus, Zug und Fähre, grob geschätzt ca. 4 t CO₂ pro Person."

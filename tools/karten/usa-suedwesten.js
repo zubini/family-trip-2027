@@ -1,9 +1,10 @@
-// Detailkarte Südwesten (Stationen 1 bis 7).
-const { basis, wege } = require('./_usa.js');
+// Detailkarte Südwesten (Stationen 9 bis 16).
+const { basis, wege, stationen } = require('./_usa.js');
 module.exports = Object.assign({}, basis, {
-  titel: 'Detailkarte Südwesten: Las Vegas bis White Sands',
-  laenge: [-117.5, -103.8], breitengrad: [31.0, 38.4], breite: 1000,
-  wege: wege.slice(0, 7),
-  stationen: require('./_usa.js').stationen({ 1: 'l', 2: 'u', 3: 'r', 4: 'l', 5: 'r', 6: 'r', 7: 'r' }),
-  hinweise: [['Roadtrip nach Chicago →', [32.3, -104.9], 'start']]
+  titel: 'Detailkarte Südwesten: Carlsbad Caverns bis Las Vegas',
+  laenge: [-117.5, -101.2], breitengrad: [30.4, 38.4], breite: 1000,
+  wege: wege.slice(7, 16),
+  stationen: stationen({ 9: 'r', 10: 'l', 11: 'r', 12: 'r', 13: 'l', 14: 'r', 15: 'u', 16: 'l' }),
+  zwischenstopps: [['Fort Stockton', 'FST', 0]],
+  hinweise: [['Flug nach Washington ✈', [35.7, -115.2], 'middle']]
 });

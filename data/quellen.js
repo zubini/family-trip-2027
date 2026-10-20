@@ -75,12 +75,25 @@ window.QUELLEN = {
     {
       titel: "Fahrzeiten USA",
       links: [
-        ["Edelweiss: Las Vegas nur im Sommerflugplan, zuletzt bis 3-mal pro Woche (Flugplan Sommer 2027 noch nicht veröffentlicht)", "https://newsroom.flyedelweiss.com/en/edelweiss-flies-to-las-vegas-again/"],
-        ["Wanderlog: Springdale (Zion)–Page", "https://Wanderlog.com/drive/between/59086/58476/springdale-to-page-drive"],
+        ["Flightmapper: SWISS LX 64 Zürich–Miami (täglich, Sommer 2026 ca. 13.05–17.30 Uhr)", "https://info.flightmapper.net/flight/Swiss_LX_64"],
+        ["Southwest: Flüge Las Vegas–Washington Reagan National", "https://www.southwest.com/en/flights/flights-from-las-vegas-to-washington-dc-reagan-national"],
+        ["FlightsFrom: Nonstop Las Vegas–Washington Dulles (Frontier, United; ca. 4 Std. 45 Min.)", "https://www.flightsfrom.com/LAS-IAD"],
+        ["Wanderu: Zug Washington–New York (ca. 3,5 Std., Acela ca. 3 Std., viele Züge pro Tag)", "https://www.wanderu.com/en-us/train/us-dc/washington/us-ny/new-york/?cur=sek"],
+        ["Enterprise: Roadtrip Miami–Key West (ca. 160 Meilen, ca. 4 Std.)", "https://www.enterprise.com/en/road-trips/destinations/florida/miami-to-key-west-5-days.html"],
+        ["Sixt: Key Largo–Key West (ca. 98 Meilen, ca. 2 Std.)", "https://www.sixt.com/magazine/road-trips/key-largo-to-key-west-road-trip/"],
+        ["Rome2rio: Key Largo–Orlando (ca. 275 Meilen)", "https://www.rome2rio.com/s/Key-Largo/Orlando"],
+        ["Rome2rio: Destin–Orlando (ca. 385 Meilen)", "https://www.rome2rio.com/s/Destin/Epcot-Center"],
+        ["LazyTrips: Roadtrip New Orleans–Destin (über die Interstate 10)", "https://lazytrips.com/trip/road-trip-from-new-orleans-to-destin"],
+        ["Rome2rio: New Orleans–Houston (ca. 348 Meilen)", "https://www.rome2rio.com/s/Tulane-University/Houston"],
+        ["Visit Big Bend: Fahrt ab San Antonio über Fort Stockton", "https://visitbigbend.com/drive-san-antonio/"],
+        ["iRV2: Fort Stockton–Carlsbad Caverns über die US-285", "https://www.irv2.com/forums/f38/carlsbad-caverns-travel-from-fort-stockton-272235.html"],
+        ["CS Ginger: Carlsbad Caverns–White Sands über Cloudcroft", "https://csginger.com/carlsbad-caverns-to-white-sands/"],
+        ["NPS: Carlsbad Caverns, Zeitfenster-Reservation und Eintritt", "https://home.nps.gov/cave/planyourvisit/fees.htm"],
+        ["Dry Tortugas: Fähre Yankee Freedom ab Key West", "https://www.drytortugas.com/web/"],
+        ["Expedia: Schnorcheltour im John Pennekamp Coral Reef State Park", "https://www.expedia.com/things-to-do/a.a50979550.activity-details"],
+        ["LazyTrips: Roadtrip Las Vegas–Santa Fe (Santa Fe–Monument Valley)", "https://lazytrips.com/trip/road-trip-from-las-vegas-to-santa-fe"],
         ["guias-viajar.com: Grand Canyon–Monument Valley", "https://guias-viajar.com/en/America/tourism-in-the-united-states/monument-valley-road-trip-from-grand-canon/"],
-        ["LazyTrips: Roadtrip Las Vegas–Santa Fe (Monument Valley–Santa Fe)", "https://lazytrips.com/trip/road-trip-from-las-vegas-to-santa-fe"],
-        ["Wanderlog: Strecken ab Alamogordo (Oklahoma City ca. 10 Std.)", "https://wanderlog.com/drive/between/58219/59899/kansas-city-to-alamogordo-drive"],
-        ["Meetways: Oklahoma City–Chicago", "https://www.meetways.com/info/driving-time/Chicago,%20Illinois/Oklahoma%20City,%20Oklahoma"]
+        ["Wanderlog: Springdale (Zion)–Page", "https://Wanderlog.com/drive/between/59086/58476/springdale-to-page-drive"]
       ]
     },
     {
