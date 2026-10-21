@@ -35,12 +35,12 @@ REISEN.usa = {
     },
     {datum: "24.–26. Juni", name: "4. Santa Fe", naechte: 2, info: "Mietwagen (ca. 6,5–7 Std.)"},
     {datum: "26.–27. Juni", name: "5. White Sands (Alamogordo)", naechte: 1, info: "Mietwagen (ca. 4–4,5 Std.)"},
-    {datum: "27.–28. Juni", name: "6. Carlsbad Caverns", naechte: 1, info: "Mietwagen über Roswell (ca. 3,25–3,75 Std.)"},
+    {datum: "27.–28. Juni", name: "6. Roswell", naechte: 1, info: "Mietwagen über Ruidoso (ca. 2 Std.)"},
     {
       datum: "28.–29. Juni",
       name: "Zwischenübernachtung Fort Stockton",
       naechte: 1,
-      info: "Mietwagen (ca. 2,5–3,5 Std.), Uhr +1 Std."
+      info: "Mietwagen über die US-285 (ca. 3,5–4 Std.), Uhr +1 Std."
     },
     {datum: "29. Juni–1. Juli", name: "7. San Antonio", naechte: 2, info: "Mietwagen (ca. 5–5,5 Std.)"},
     {datum: "1.–2. Juli", name: "8. Houston", naechte: 1, info: "Mietwagen (ca. 3–3,5 Std.)"},
@@ -73,7 +73,7 @@ REISEN.usa = {
     ],
     [
       "Vorab buchen",
-      "Einwegmiete Las Vegas–Washington, Unterkunft in Monument Valley (oft Monate im Voraus), Meow Wolf, Zeitfenster für Carlsbad Caverns, Space Center Houston, Unterkunft in Destin, Parkticket für die Great Smoky Mountains, Dollywood, Air and Space Museum, Amtrak Washington–New York, Aussichtsplattform und Broadway in New York."
+      "Einwegmiete Las Vegas–Washington, Unterkunft in Monument Valley (oft Monate im Voraus), Meow Wolf, Space Center Houston, Unterkunft in Destin, Parkticket für die Great Smoky Mountains, Dollywood, Air and Space Museum, Amtrak Washington–New York, Aussichtsplattform und Broadway in New York."
     ],
     [
       "Optional",
@@ -94,7 +94,7 @@ REISEN.usa = {
   abwechslung: [
     [
       "Naturwunder",
-      "Zion, Horseshoe Bend (Halt unterwegs), Monument Valley, White Sands, Carlsbad Caverns, Great Smoky Mountains, Shenandoah mit den Luray Caverns."
+      "Zion, Horseshoe Bend (Halt unterwegs), Monument Valley, White Sands, Great Smoky Mountains, Shenandoah mit den Luray Caverns."
     ],
     ["Strand", "Vier Nächte an den weissen Stränden der Golfküste bei Destin (Wasser ca. 28–30 °C)."],
     [
@@ -252,36 +252,27 @@ REISEN.usa = {
     },
     {
       nr: 6,
-      name: "Carlsbad Caverns",
+      name: "Roswell",
       land: "us",
       region: "New Mexico",
       datum: "27.–28. Juni",
       naechte: "1 Nacht",
-      anreise: "Mietwagen von Alamogordo über die US-70 durch Ruidoso nach Roswell (ca. 2 Std., ca. 190 km) und weiter über die US-285 nach Carlsbad (ca. 1,25 Std., ca. 120 km); zusammen ca. 3,25–3,75 Std., nur ca. 15–30 Min. mehr als über Cloudcroft. Mittagshalt in Roswell mit dem International UFO Museum (ca. 1–1,5 Std.).",
-      text: "Riesige Tropfsteinhöhlen unter der Wüste: Ein Rundweg führt durch den «Big Room», einen der grössten Höhlensäle Nordamerikas. Am Abend fliegen im Sommer Hunderttausende Fledermäuse aus.",
-      teens: "UFO-Museum und Alien-Strassenlampen in Roswell auf der Anreise, Abstieg zu Fuss durch den natürlichen Eingang oder per Lift, Rundgang durch den Big Room, Fledermausflug in der Abenddämmerung.",
+      anreise: "Mietwagen von Alamogordo über die US-70 durch Tularosa und Ruidoso nach Roswell (ca. 2 Std., ca. 190 km).",
+      text: "Kleinstadt in der Ebene des Pecos-Flusses: 1947 soll hier ein UFO abgestürzt sein. Heute dreht sich vieles um Ausserirdische, mit Museum, Alien-Strassenlampen und grünen Figuren vor den Läden.",
+      teens: "International UFO Museum, Fotos mit Aliens auf der Main Street, Baden im Lea Lake im Bottomless Lakes State Park (Seen in alten Dolinen, ca. 20 Min.).",
       fakten: [
-        "<strong>Dauer:</strong> 1 Nacht in Carlsbad oder White’s City: am Abend der Fledermausflug am Höhleneingang, am nächsten Morgen die Höhle (Zeitfenster), dann weiter nach Fort Stockton.",
-        "<strong>Roswell:</strong> Das International UFO Museum erzählt vom angeblichen Absturz eines UFOs 1947; täglich ca. 9–17 Uhr, Eintritt günstig (Angaben 2023: ca. 5–7 USD Erwachsene, ca. 2 USD Kinder von 5 bis 15). Preise und Zeiten vorab prüfen.",
-        "<strong>Tickets:</strong> Zeitfenster-Reservation auf recreation.gov (1 USD) dringend empfohlen, dazu Eintritt 15 USD pro Person ab 16 Jahren; Kids bis 15 gratis.",
-        "<strong>Hinweis:</strong> In der Höhle sind es ganzjährig ca. 13 °C: eine Jacke mitnehmen."
+        "<strong>Dauer:</strong> 1 Nacht: am Nachmittag UFO-Museum und Main Street, am Abend Baden in den Bottomless Lakes oder im Hotelpool; am Morgen weiter nach Fort Stockton.",
+        "<strong>UFO-Museum:</strong> Das International UFO Museum erzählt vom angeblichen Absturz eines UFOs 1947; täglich ca. 9–17 Uhr, Eintritt günstig (Angaben 2023: ca. 5–7 USD Erwachsene, ca. 2 USD Kinder von 5 bis 15). Preise und Zeiten vorab prüfen.",
+        "<strong>Hitze:</strong> Im Sommer oft über 35 °C; Programm am Nachmittag in klimatisierten Räumen, Baden am Abend."
       ],
-      ausserdem: "Living Desert Zoo and Gardens, Guadalupe Mountains National Park (Texas).",
+      ausserdem: "Bottomless Lakes State Park, Walker Aviation Museum, Spring River Park and Zoo.",
       bilder: [
-        {titel: "Big Room", suche: "Carlsbad Caverns Big Room", stichwort: "big room|carlsbad"},
-        {titel: "Tropfsteine", suche: "Carlsbad Caverns formations", stichwort: "carlsbad"},
-        {
-          titel: "Natürlicher Eingang",
-          suche: "Carlsbad Caverns natural entrance",
-          stichwort: "natural entrance|carlsbad"
-        },
-        {titel: "Fledermäuse", suche: "Carlsbad Caverns bat flight", stichwort: "bat"},
-        {
-          titel: "Guadalupe Mountains",
-          suche: "Guadalupe Peak|Guadalupe Mountains National Park",
-          stichwort: "guadalupe"
-        },
-        {titel: "Chihuahua-Wüste", suche: "Chihuahuan Desert New Mexico", stichwort: "chihuahuan"}
+        {titel: "UFO-Museum", suche: "International UFO Museum Roswell", stichwort: "ufo|roswell"},
+        {titel: "Main Street", suche: "Roswell New Mexico alien street", stichwort: "roswell|alien"},
+        {titel: "Bottomless Lakes", suche: "Bottomless Lakes State Park", stichwort: "bottomless"},
+        {titel: "Aliens", suche: "Roswell alien statue", stichwort: "alien|roswell"},
+        {titel: "Roswell", suche: "Roswell New Mexico", stichwort: "roswell"},
+        {titel: "Pecos-Ebene", suche: "New Mexico desert highway", stichwort: "new mexico|desert|highway"}
       ]
     },
     {
@@ -292,7 +283,7 @@ REISEN.usa = {
       datum: "29. Juni–1. Juli",
       naechte: "2 Nächte",
       zwischenstopp: {text: "Zwischenübernachtung in Fort Stockton", datum: "28.–29. Juni"},
-      anreise: "Mietwagen von Carlsbad über die US-285 nach Fort Stockton (ca. 2,5–3,5 Std., ca. 250 km; schmale Strasse mit viel Lastwagenverkehr, wenig Tankstellen), dort übernachten. In Texas springt die Uhr +1 Std. Am nächsten Tag über die Interstate 10 nach San Antonio (ca. 5–5,5 Std., ca. 520 km).",
+      anreise: "Mietwagen von Roswell über Artesia, Carlsbad und Pecos auf der US-285 nach Fort Stockton (ca. 3,5–4 Std., ca. 350 km; schmale Strasse mit viel Lastwagenverkehr aus den Ölfeldern, wenig Tankstellen), dort übernachten. In Texas springt die Uhr +1 Std. Am nächsten Tag über die Interstate 10 nach San Antonio (ca. 5–5,5 Std., ca. 520 km).",
       text: "Texanische Geschichte und Flusspromenade: die Missionsstation Alamo, der River Walk mit Booten und Restaurants am Wasser und Tex-Mex-Küche.",
       teens: "Bootsfahrt auf dem River Walk, The Alamo, Missions-Weltkulturerbe per Velo, Freizeitpark Six Flags Fiesta Texas oder Wasserpark.",
       fakten: [
@@ -554,8 +545,8 @@ REISEN.usa = {
       ["Verpflegung (Restaurants, Imbiss, Getränke)", "4’470–7’670", "5’820", "ca. 140–250 CHF pro Tag für 4 Personen"],
       [
         "Aktivitäten und Eintritte (inkl. Nationalpark-Jahrespass)",
-        "4’300–7’750",
-        "5’700",
+        "4’250–7’700",
+        "5’650",
         "Pass 250 USD, Meow Wolf, Space Center Houston, Georgia Aquarium, Dollywood, Luray Caverns, Aussichtsplattform und Broadway in New York usw."
       ],
       [
@@ -572,7 +563,7 @@ REISEN.usa = {
       ["3. Monument Valley (1)", "540–1’040"],
       ["4. Santa Fe (2)", "780–1’330"],
       ["5. White Sands (1)", "300–520"],
-      ["6. Carlsbad Caverns (1)", "250–400"],
+      ["6. Roswell (1)", "220–380"],
       ["Zwischenübernachtung Fort Stockton (1)", "150–250"],
       ["7. San Antonio (2)", "500–850"],
       ["8. Houston (1)", "300–500"],
@@ -590,8 +581,8 @@ REISEN.usa = {
       "Alle Beträge sind Richtwerte in CHF (Schätzungen, nicht verbindlich). Flug-, Hotel- und Mietwagenpreise im Juli schwanken stark; aktuelle Preise vor der Buchung vergleichen."
     ],
     naechte: 32,
-    total: "36’460",
-    spanne: "28’300–47’400",
+    total: "36’410",
+    spanne: "28’200–47’300",
     proTag: "ca. 1’140 CHF pro Tag, ca. 9’100 pro Person"
   },
   tippsIntro: "Einreise, Gesundheit, Sicherheit und Praktisches für die Reise mit 2 Erwachsenen und 2 Kids.",
@@ -603,7 +594,7 @@ REISEN.usa = {
     ["Reisepass", "Biometrischer Reisepass für alle vier, mind. 6 Monate gültig. Zusätzlich Kopien aufbewahren."],
     [
       "Nationalparks und Gebühren",
-      "Seit Januar 2026 zahlen Nicht-US-Bewohner ab 16 Jahren in 11 Parks zusätzlich 100 USD pro Person (u.a. Zion; auf dieser Route der einzige). Der Jahrespass für Nicht-Residenten kostet 250 USD und deckt das Fahrzeug bzw. die Insassen. Für euch (zwei Erwachsene über 16) lohnt sich der Pass trotzdem: Er deckt die Zusatzgebühr in Zion (zusammen 200 USD) und die Eintritte in Zion, White Sands, Carlsbad Caverns und Shenandoah. Für Monument Valley gilt er nicht (Navajo-Nation-Eintritt)."
+      "Seit Januar 2026 zahlen Nicht-US-Bewohner ab 16 Jahren in 11 Parks zusätzlich 100 USD pro Person (u.a. Zion; auf dieser Route der einzige). Der Jahrespass für Nicht-Residenten kostet 250 USD und deckt das Fahrzeug bzw. die Insassen. Für euch (zwei Erwachsene über 16) lohnt sich der Pass trotzdem: Er deckt die Zusatzgebühr in Zion (zusammen 200 USD) und die Eintritte in Zion, White Sands und Shenandoah. Für Monument Valley gilt er nicht (Navajo-Nation-Eintritt)."
     ],
     [
       "Mietwagen",

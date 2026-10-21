@@ -72,10 +72,10 @@
 <polyline points="263.2,191.6 279.5,203.6 290.1,200.2 299.1,202.9 317.8,216.1 327.8,242.2 341.0,234.1" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Monument Valley – Santa Fe</title></polyline>
 <polyline points="341.0,234.1 325.2,247.7 317.4,271.5 336.9,285.2 332.5,299.1 332.5,303.4 330.2,305.1" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
 <polyline points="341.0,234.1 325.2,247.7 317.4,271.5 336.9,285.2 332.5,299.1 332.5,303.4 330.2,305.1" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Santa Fe – White Sands</title></polyline>
-<polyline points="330.2,305.1 332.5,299.1 340.4,293.4 348.7,292.7 364.1,294.1 365.4,308.0 368.0,318.8" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
-<polyline points="330.2,305.1 332.5,299.1 340.4,293.4 348.7,292.7 364.1,294.1 365.4,308.0 368.0,318.8" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: White Sands – Ruidoso – Roswell – Carlsbad</title></polyline>
-<polyline points="368.0,318.8 381.4,344.9 393.2,359.1" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
-<polyline points="368.0,318.8 381.4,344.9 393.2,359.1" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Carlsbad – Fort Stockton</title></polyline>
+<polyline points="330.2,305.1 332.5,299.1 340.4,293.4 348.7,292.7 364.1,294.1" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="330.2,305.1 332.5,299.1 340.4,293.4 348.7,292.7 364.1,294.1" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: White Sands – Ruidoso – Roswell</title></polyline>
+<polyline points="364.1,294.1 365.4,308.0 368.0,318.8 381.4,344.9 393.2,359.1" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="364.1,294.1 365.4,308.0 368.0,318.8 381.4,344.9 393.2,359.1" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Roswell – Carlsbad – Pecos – Fort Stockton</title></polyline>
 <polyline points="393.2,359.1 428.6,365.8 440.3,369.9 470.6,384.1 485.4,400.2" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
 <polyline points="393.2,359.1 428.6,365.8 440.3,369.9 470.6,384.1 485.4,400.2" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Fort Stockton – San Antonio</title></polyline>
 <polyline points="485.4,400.2 528.5,393.9 552.8,392.4" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
@@ -101,7 +101,7 @@
 <g><title>3. Monument Valley: Mi, 23.06.2027 – Do, 24.06.2027, 1 Nacht</title><circle cx="263.2" cy="191.6" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
 <g><title>4. Santa Fe: Do, 24.06.2027 – Sa, 26.06.2027, 2 Nächte</title><circle cx="341.0" cy="234.1" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
 <g><title>5. White Sands: Sa, 26.06.2027 – So, 27.06.2027, 1 Nacht</title><circle cx="330.2" cy="305.1" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
-<g><title>6. Carlsbad: So, 27.06.2027 – Mo, 28.06.2027, 1 Nacht</title><circle cx="368.0" cy="318.8" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
+<g><title>6. Roswell: So, 27.06.2027 – Mo, 28.06.2027, 1 Nacht</title><circle cx="364.1" cy="294.1" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
 <g><title>7. San Antonio: Di, 29.06.2027 – Do, 01.07.2027, 2 Nächte</title><circle cx="485.4" cy="400.2" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
 <g><title>8. Houston: Do, 01.07.2027 – Fr, 02.07.2027, 1 Nacht</title><circle cx="552.8" cy="392.4" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
 <g><title>9. New Orleans: Fr, 02.07.2027 – So, 04.07.2027, 2 Nächte</title><circle cx="666.6" cy="383.8" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>

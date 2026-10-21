@@ -28,10 +28,10 @@
 <polyline points="504.9,173.6 550.9,207.4 580.8,197.9 606.1,205.5 658.6,242.6 686.9,316.1 724.0,293.2" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Monument Valley – Santa Fe</title></polyline>
 <polyline points="724.0,293.2 679.5,331.6 657.5,398.5 712.3,437.1 700.1,476.1 700.0,488.1 693.6,493.1" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
 <polyline points="724.0,293.2 679.5,331.6 657.5,398.5 712.3,437.1 700.1,476.1 700.0,488.1 693.6,493.1" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Santa Fe – White Sands</title></polyline>
-<polyline points="693.6,493.1 700.1,476.1 722.2,460.0 745.7,458.1 788.9,462.2 792.4,501.3 799.7,531.6" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
-<polyline points="693.6,493.1 700.1,476.1 722.2,460.0 745.7,458.1 788.9,462.2 792.4,501.3 799.7,531.6" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: White Sands – Ruidoso – Roswell – Carlsbad</title></polyline>
-<polyline points="799.7,531.6 837.5,605.1 870.9,644.9" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
-<polyline points="799.7,531.6 837.5,605.1 870.9,644.9" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Carlsbad – Fort Stockton</title></polyline>
+<polyline points="693.6,493.1 700.1,476.1 722.2,460.0 745.7,458.1 788.9,462.2" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="693.6,493.1 700.1,476.1 722.2,460.0 745.7,458.1 788.9,462.2" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: White Sands – Ruidoso – Roswell</title></polyline>
+<polyline points="788.9,462.2 792.4,501.3 799.7,531.6 837.5,605.1 870.9,644.9" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="788.9,462.2 792.4,501.3 799.7,531.6 837.5,605.1 870.9,644.9" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Roswell – Carlsbad – Pecos – Fort Stockton</title></polyline>
 <polyline points="870.9,644.9 970.4,663.9 1003.4,675.4 1088.5,715.3 1130.2,760.6" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
 <polyline points="870.9,644.9 970.4,663.9 1003.4,675.4 1088.5,715.3 1130.2,760.6" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Fort Stockton – San Antonio</title></polyline>
 <g><title>Zwischenübernachtung Fort Stockton</title><circle cx="870.9" cy="644.9" r="6" fill="#fff" stroke="#718096" stroke-width="2.5"/></g>
@@ -46,8 +46,8 @@
 <text class="sl" x="741.0" y="298.2" text-anchor="start">Santa Fe</text>
 <g><title>5. White Sands: Sa, 26.06.2027 – So, 27.06.2027, 1 Nacht</title><circle cx="693.6" cy="493.1" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="693.6" y="497.3" text-anchor="middle">5</text></g>
 <text class="sl" x="676.6" y="498.1" text-anchor="end">White Sands</text>
-<g><title>6. Carlsbad: So, 27.06.2027 – Mo, 28.06.2027, 1 Nacht</title><circle cx="799.7" cy="531.6" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="799.7" y="535.8" text-anchor="middle">6</text></g>
-<text class="sl" x="816.7" y="536.6" text-anchor="start">Carlsbad</text>
+<g><title>6. Roswell: So, 27.06.2027 – Mo, 28.06.2027, 1 Nacht</title><circle cx="788.9" cy="462.2" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="788.9" y="466.4" text-anchor="middle">6</text></g>
+<text class="sl" x="805.9" y="467.2" text-anchor="start">Roswell</text>
 <text class="fl" x="208.4" y="219.9" text-anchor="middle">Ankunft aus Zürich ✈</text>
 <text class="fl" x="946.0" y="670.2" text-anchor="end">nach San Antonio →</text>
 </svg>

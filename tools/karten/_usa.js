@@ -10,8 +10,8 @@ const wege = [
   ['car', 'Zion – Kanab – Page – Monument Valley', ['ZI', [37.23, -112.68], [37.05, -112.53], 'PG', [36.70, -111.20], [36.60, -110.70], [36.71, -110.26], 'MV']],
   ['car', 'Monument Valley – Santa Fe', ['MV', [36.60, -109.20], [36.79, -108.69], [36.73, -108.22], [36.30, -107.20], [35.31, -106.55], 'SF']],
   ['car', 'Santa Fe – White Sands', ['SF', [35.08, -106.65], [34.10, -106.90], [33.64, -105.88], [33.07, -106.02], [32.90, -106.00], 'WS']],
-  ['car', 'White Sands – Ruidoso – Roswell – Carlsbad', ['WS', [33.07, -106.02], [33.33, -105.67], [33.39, -105.27], 'ROS', [32.84, -104.40], 'CAR']],
-  ['car', 'Carlsbad – Fort Stockton', ['CAR', [31.42, -103.49], 'FST']],
+  ['car', 'White Sands – Ruidoso – Roswell', ['WS', [33.07, -106.02], [33.33, -105.67], [33.39, -105.27], 'ROS']],
+  ['car', 'Roswell – Carlsbad – Pecos – Fort Stockton', ['ROS', [32.84, -104.40], 'CAR', [31.42, -103.49], 'FST']],
   ['car', 'Fort Stockton – San Antonio', ['FST', [30.71, -101.20], [30.57, -100.64], [30.05, -99.20], 'SAT']],
   ['car', 'San Antonio – Houston', ['SAT', [29.70, -96.50], 'HOU']],
   ['car', 'Houston – New Orleans', ['HOU', [30.08, -94.13], [30.23, -93.22], [30.22, -92.02], [30.45, -91.15], 'NOL']],
@@ -23,7 +23,7 @@ const wege = [
   ['train', 'Washington – New York (Amtrak)', ['DC', [39.29, -76.61], [39.74, -75.55], [40.22, -74.76], [40.50, -74.45], [40.73, -74.17], 'NY']]
 ];
 const STATIONEN = [[1, 'LV', 'Las Vegas'], [2, 'ZI', 'Zion'], [3, 'MV', 'Monument Valley'],
-  [4, 'SF', 'Santa Fe'], [5, 'WS', 'White Sands'], [6, 'CAR', 'Carlsbad'], [7, 'SAT', 'San Antonio'], [8, 'HOU', 'Houston'],
+  [4, 'SF', 'Santa Fe'], [5, 'WS', 'White Sands'], [6, 'ROS', 'Roswell'], [7, 'SAT', 'San Antonio'], [8, 'HOU', 'Houston'],
   [9, 'NOL', 'New Orleans'], [10, 'DES', 'Destin'], [11, 'ATL', 'Atlanta'], [12, 'GAT', 'Smoky Mountains'], [13, 'LUR', 'Shenandoah'],
   [14, 'DC', 'Washington, D.C.'], [15, 'NY', 'New York']];
 const stationen = seiten => STATIONEN.filter(s => seiten[s[0]]).map(([nr, o, name]) => [nr, o, seiten[nr], name]);

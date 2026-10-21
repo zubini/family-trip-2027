@@ -84,7 +84,7 @@ window.QUELLEN = {
         ["Mapsof: Alamogordo–Roswell (ca. 117 Meilen, ca. 2 Std.)", "https://www.mapsof.net/distance/alamogordo-to-roswell-nm"],
         ["New Mexico True: International UFO Museum in Roswell", "https://www.newmexico.org/regions/southeast/roswell-ufo-museum-attractions/"],
         ["Roadside America: International UFO Museum (Eintritt, Öffnungszeiten)", "https://www.roadsideamerica.com/tip/914"],
-        ["NPS: Carlsbad Caverns, Zeitfenster-Reservation und Eintritt", "https://home.nps.gov/cave/planyourvisit/fees.htm"],
+        ["Wayro: Roswell–Fort Stockton (ca. 195 Meilen, ca. 3 Std.; andere Angaben bis ca. 235 Meilen)", "https://blog.wayro.ai/roswell-corpus-christi-desert-coast-road-trip-guide"],
         ["iRV2: Carlsbad Caverns–Fort Stockton über die US-285", "https://www.irv2.com/forums/f38/carlsbad-caverns-travel-from-fort-stockton-272235.html"],
         ["Visit Big Bend: Fahrt San Antonio–Fort Stockton", "https://visitbigbend.com/drive-san-antonio/"],
         ["Rome2rio: Houston–New Orleans (ca. 348 Meilen)", "https://www.rome2rio.com/s/Tulane-University/Houston"],
