@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg viewBox="0 0 1000 686" overflow="hidden" role="img" aria-labelledby="mt" xmlns="http://www.w3.org/2000/svg"><title id="mt">Detailkarte Südwesten: Carlsbad Caverns bis Las Vegas</title>
+<svg viewBox="0 0 1000 686" overflow="hidden" role="img" aria-labelledby="mt" xmlns="http://www.w3.org/2000/svg"><title id="mt">Detailkarte Südwesten: Las Vegas bis Carlsbad Caverns</title>
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400;0,600;0,700;0,800;1,400&amp;display=swap");
 .lr{fill:#F4F1E4;stroke:#B9B39A;stroke-width:.8}
@@ -20,41 +20,42 @@
 <path class="lo" fill-rule="evenodd" d="M296,707 L286,724 L271,712 L283,691 L293,691 L296,707Z"/>
 <path class="lo" fill-rule="evenodd" d="M236,693 L221,656 L241,678 L240,699 L236,693Z"/>
 <path class="lo" fill-rule="evenodd" d="M106,733 L103,740 L93,735 L104,715 L106,733Z"/>
-<polyline points="1130.2,760.6 1088.5,715.3 1003.4,675.4 970.4,663.9 870.9,644.9" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
-<polyline points="1130.2,760.6 1088.5,715.3 1003.4,675.4 970.4,663.9 870.9,644.9" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: San Antonio – Fort Stockton</title></polyline>
-<polyline points="870.9,644.9 837.5,605.1 799.7,531.6" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
-<polyline points="870.9,644.9 837.5,605.1 799.7,531.6" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Fort Stockton – Carlsbad</title></polyline>
-<polyline points="799.7,531.6 792.4,501.3 715.5,485.5 702.3,488.3 693.6,493.1" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
-<polyline points="799.7,531.6 792.4,501.3 715.5,485.5 702.3,488.3 693.6,493.1" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Carlsbad – White Sands (über Cloudcroft)</title></polyline>
-<polyline points="693.6,493.1 700.0,488.1 700.1,476.1 712.3,437.1 657.5,398.5 679.5,331.6 724.0,293.2" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
-<polyline points="693.6,493.1 700.0,488.1 700.1,476.1 712.3,437.1 657.5,398.5 679.5,331.6 724.0,293.2" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: White Sands – Santa Fe</title></polyline>
-<polyline points="724.0,293.2 686.9,316.1 658.6,242.6 606.1,205.5 580.8,197.9 550.9,207.4 504.9,173.6" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
-<polyline points="724.0,293.2 686.9,316.1 658.6,242.6 606.1,205.5 580.8,197.9 550.9,207.4 504.9,173.6" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Santa Fe – Monument Valley</title></polyline>
-<polyline points="504.9,173.6 493.8,191.2 433.6,223.2 421.4,239.1 400.0,224.1 383.2,219.8" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
-<polyline points="504.9,173.6 493.8,191.2 433.6,223.2 421.4,239.1 400.0,224.1 383.2,219.8" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Monument Valley – Grand Canyon</title></polyline>
-<polyline points="383.2,219.8 400.0,224.1 421.4,239.1 422.3,174.9 430.4,166.9" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
-<polyline points="383.2,219.8 400.0,224.1 421.4,239.1 422.3,174.9 430.4,166.9" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Grand Canyon – Page</title></polyline>
-<polyline points="430.4,166.9 373.8,147.3 367.8,133.4 349.7,125.1" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
-<polyline points="430.4,166.9 373.8,147.3 367.8,133.4 349.7,125.1" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Page – Zion</title></polyline>
-<polyline points="349.7,125.1 334.1,130.9 317.4,133.5 286.8,149.2 219.8,181.2" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
-<polyline points="349.7,125.1 334.1,130.9 317.4,133.5 286.8,149.2 219.8,181.2" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Zion – Las Vegas</title></polyline>
+<polyline points="219.8,181.2 286.8,149.2 317.4,133.5 334.1,130.9 349.7,125.1" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="219.8,181.2 286.8,149.2 317.4,133.5 334.1,130.9 349.7,125.1" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Las Vegas – Zion</title></polyline>
+<polyline points="349.7,125.1 367.8,133.4 373.8,147.3 430.4,166.9" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="349.7,125.1 367.8,133.4 373.8,147.3 430.4,166.9" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Zion – Page</title></polyline>
+<polyline points="430.4,166.9 422.3,174.9 421.4,239.1 400.0,224.1 383.2,219.8" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="430.4,166.9 422.3,174.9 421.4,239.1 400.0,224.1 383.2,219.8" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Page – Grand Canyon</title></polyline>
+<polyline points="383.2,219.8 400.0,224.1 421.4,239.1 433.6,223.2 493.8,191.2 504.9,173.6" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="383.2,219.8 400.0,224.1 421.4,239.1 433.6,223.2 493.8,191.2 504.9,173.6" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Grand Canyon – Monument Valley</title></polyline>
+<polyline points="504.9,173.6 550.9,207.4 580.8,197.9 606.1,205.5 658.6,242.6 686.9,316.1 724.0,293.2" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="504.9,173.6 550.9,207.4 580.8,197.9 606.1,205.5 658.6,242.6 686.9,316.1 724.0,293.2" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Monument Valley – Santa Fe</title></polyline>
+<polyline points="724.0,293.2 679.5,331.6 657.5,398.5 712.3,437.1 700.1,476.1 700.0,488.1 693.6,493.1" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="724.0,293.2 679.5,331.6 657.5,398.5 712.3,437.1 700.1,476.1 700.0,488.1 693.6,493.1" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Santa Fe – White Sands</title></polyline>
+<polyline points="693.6,493.1 702.3,488.3 715.5,485.5 792.4,501.3 799.7,531.6" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="693.6,493.1 702.3,488.3 715.5,485.5 792.4,501.3 799.7,531.6" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: White Sands – Carlsbad (über Cloudcroft)</title></polyline>
+<polyline points="799.7,531.6 837.5,605.1 870.9,644.9" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="799.7,531.6 837.5,605.1 870.9,644.9" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Carlsbad – Fort Stockton</title></polyline>
+<polyline points="870.9,644.9 970.4,663.9 1003.4,675.4 1088.5,715.3 1130.2,760.6" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="870.9,644.9 970.4,663.9 1003.4,675.4 1088.5,715.3 1130.2,760.6" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Fort Stockton – San Antonio</title></polyline>
 <g><title>Zwischenübernachtung Fort Stockton</title><circle cx="870.9" cy="644.9" r="6" fill="#fff" stroke="#718096" stroke-width="2.5"/></g>
 <text class="tl" x="880.9" y="648.9">Fort Stockton</text>
-<g><title>8. Carlsbad: Di, 06.07.2027 – Mi, 07.07.2027, 1 Nacht</title><circle cx="799.7" cy="531.6" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="799.7" y="535.8" text-anchor="middle">8</text></g>
-<text class="sl" x="816.7" y="536.6" text-anchor="start">Carlsbad</text>
-<g><title>9. White Sands: Mi, 07.07.2027 – Do, 08.07.2027, 1 Nacht</title><circle cx="693.6" cy="493.1" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="693.6" y="497.3" text-anchor="middle">9</text></g>
-<text class="sl" x="676.6" y="498.1" text-anchor="end">White Sands</text>
-<g><title>10. Santa Fe: Do, 08.07.2027 – Fr, 09.07.2027, 1 Nacht</title><circle cx="724.0" cy="293.2" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="724.0" y="297.4" text-anchor="middle">10</text></g>
-<text class="sl" x="741.0" y="298.2" text-anchor="start">Santa Fe</text>
-<g><title>11. Monument Valley: Fr, 09.07.2027 – Sa, 10.07.2027, 1 Nacht</title><circle cx="504.9" cy="173.6" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="504.9" y="177.8" text-anchor="middle">11</text></g>
-<text class="sl" x="521.9" y="178.6" text-anchor="start">Monument Valley</text>
-<g><title>12. Grand Canyon: Sa, 10.07.2027 – Mo, 12.07.2027, 2 Nächte</title><circle cx="383.2" cy="219.8" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="383.2" y="224.0" text-anchor="middle">12</text></g>
-<text class="sl" x="366.2" y="224.8" text-anchor="end">Grand Canyon</text>
-<g><title>13. Page: Mo, 12.07.2027 – Di, 13.07.2027, 1 Nacht</title><circle cx="430.4" cy="166.9" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="430.4" y="171.1" text-anchor="middle">13</text></g>
-<text class="sl" x="447.4" y="171.9" text-anchor="start">Page</text>
-<g><title>14. Zion: Di, 13.07.2027 – Do, 15.07.2027, 2 Nächte</title><circle cx="349.7" cy="125.1" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="349.7" y="129.3" text-anchor="middle">14</text></g>
-<text class="sl" x="349.7" y="107.1" text-anchor="middle">Zion</text>
-<g><title>15. Las Vegas: Do, 15.07.2027 – Sa, 17.07.2027, 2 Nächte</title><circle cx="219.8" cy="181.2" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="219.8" y="185.4" text-anchor="middle">15</text></g>
+<g><title>1. Las Vegas: Sa, 19.06.2027 – Mo, 21.06.2027, 2 Nächte</title><circle cx="219.8" cy="181.2" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="219.8" y="185.4" text-anchor="middle">1</text></g>
 <text class="sl" x="202.8" y="186.2" text-anchor="end">Las Vegas</text>
-<text class="fl" x="209.9" y="213.0" text-anchor="middle">Flug nach Washington ✈</text>
+<g><title>2. Zion: Mo, 21.06.2027 – Mi, 23.06.2027, 2 Nächte</title><circle cx="349.7" cy="125.1" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="349.7" y="129.3" text-anchor="middle">2</text></g>
+<text class="sl" x="349.7" y="107.1" text-anchor="middle">Zion</text>
+<g><title>3. Page: Mi, 23.06.2027 – Do, 24.06.2027, 1 Nacht</title><circle cx="430.4" cy="166.9" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="430.4" y="171.1" text-anchor="middle">3</text></g>
+<text class="sl" x="447.4" y="171.9" text-anchor="start">Page</text>
+<g><title>4. Grand Canyon: Do, 24.06.2027 – Sa, 26.06.2027, 2 Nächte</title><circle cx="383.2" cy="219.8" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="383.2" y="224.0" text-anchor="middle">4</text></g>
+<text class="sl" x="366.2" y="224.8" text-anchor="end">Grand Canyon</text>
+<g><title>5. Monument Valley: Sa, 26.06.2027 – So, 27.06.2027, 1 Nacht</title><circle cx="504.9" cy="173.6" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="504.9" y="177.8" text-anchor="middle">5</text></g>
+<text class="sl" x="521.9" y="178.6" text-anchor="start">Monument Valley</text>
+<g><title>6. Santa Fe: So, 27.06.2027 – Di, 29.06.2027, 2 Nächte</title><circle cx="724.0" cy="293.2" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="724.0" y="297.4" text-anchor="middle">6</text></g>
+<text class="sl" x="741.0" y="298.2" text-anchor="start">Santa Fe</text>
+<g><title>7. White Sands: Di, 29.06.2027 – Mi, 30.06.2027, 1 Nacht</title><circle cx="693.6" cy="493.1" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="693.6" y="497.3" text-anchor="middle">7</text></g>
+<text class="sl" x="676.6" y="498.1" text-anchor="end">White Sands</text>
+<g><title>8. Carlsbad: Mi, 30.06.2027 – Do, 01.07.2027, 1 Nacht</title><circle cx="799.7" cy="531.6" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="799.7" y="535.8" text-anchor="middle">8</text></g>
+<text class="sl" x="816.7" y="536.6" text-anchor="start">Carlsbad</text>
+<text class="fl" x="208.4" y="219.9" text-anchor="middle">Ankunft aus Zürich ✈</text>
+<text class="fl" x="946.0" y="670.2" text-anchor="end">nach San Antonio →</text>
 </svg>
