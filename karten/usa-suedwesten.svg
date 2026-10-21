@@ -22,10 +22,8 @@
 <path class="lo" fill-rule="evenodd" d="M106,733 L103,740 L93,735 L104,715 L106,733Z"/>
 <polyline points="219.8,181.2 286.8,149.2 317.4,133.5 334.1,130.9 349.7,125.1" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
 <polyline points="219.8,181.2 286.8,149.2 317.4,133.5 334.1,130.9 349.7,125.1" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Las Vegas – Zion</title></polyline>
-<polyline points="349.7,125.1 367.8,133.4 373.8,147.3 430.4,166.9" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
-<polyline points="349.7,125.1 367.8,133.4 373.8,147.3 430.4,166.9" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Zion – Page</title></polyline>
-<polyline points="430.4,166.9 442.2,183.9 468.5,195.2 493.8,191.2 504.9,173.6" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
-<polyline points="430.4,166.9 442.2,183.9 468.5,195.2 493.8,191.2 504.9,173.6" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Page – Kayenta – Monument Valley</title></polyline>
+<polyline points="349.7,125.1 367.8,133.4 373.8,147.3 430.4,166.9 442.2,183.9 468.5,195.2 493.8,191.2 504.9,173.6" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="349.7,125.1 367.8,133.4 373.8,147.3 430.4,166.9 442.2,183.9 468.5,195.2 493.8,191.2 504.9,173.6" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Zion – Kanab – Page – Monument Valley</title></polyline>
 <polyline points="504.9,173.6 550.9,207.4 580.8,197.9 606.1,205.5 658.6,242.6 686.9,316.1 724.0,293.2" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
 <polyline points="504.9,173.6 550.9,207.4 580.8,197.9 606.1,205.5 658.6,242.6 686.9,316.1 724.0,293.2" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Monument Valley – Santa Fe</title></polyline>
 <polyline points="724.0,293.2 679.5,331.6 657.5,398.5 712.3,437.1 700.1,476.1 700.0,488.1 693.6,493.1" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
@@ -42,15 +40,13 @@
 <text class="sl" x="202.8" y="186.2" text-anchor="end">Las Vegas</text>
 <g><title>2. Zion: Mo, 21.06.2027 – Mi, 23.06.2027, 2 Nächte</title><circle cx="349.7" cy="125.1" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="349.7" y="129.3" text-anchor="middle">2</text></g>
 <text class="sl" x="349.7" y="107.1" text-anchor="middle">Zion</text>
-<g><title>3. Page: Mi, 23.06.2027 – Do, 24.06.2027, 1 Nacht</title><circle cx="430.4" cy="166.9" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="430.4" y="171.1" text-anchor="middle">3</text></g>
-<text class="sl" x="447.4" y="171.9" text-anchor="start">Page</text>
-<g><title>4. Monument Valley: Do, 24.06.2027 – Fr, 25.06.2027, 1 Nacht</title><circle cx="504.9" cy="173.6" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="504.9" y="177.8" text-anchor="middle">4</text></g>
+<g><title>3. Monument Valley: Mi, 23.06.2027 – Do, 24.06.2027, 1 Nacht</title><circle cx="504.9" cy="173.6" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="504.9" y="177.8" text-anchor="middle">3</text></g>
 <text class="sl" x="521.9" y="178.6" text-anchor="start">Monument Valley</text>
-<g><title>5. Santa Fe: Fr, 25.06.2027 – So, 27.06.2027, 2 Nächte</title><circle cx="724.0" cy="293.2" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="724.0" y="297.4" text-anchor="middle">5</text></g>
+<g><title>4. Santa Fe: Do, 24.06.2027 – Sa, 26.06.2027, 2 Nächte</title><circle cx="724.0" cy="293.2" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="724.0" y="297.4" text-anchor="middle">4</text></g>
 <text class="sl" x="741.0" y="298.2" text-anchor="start">Santa Fe</text>
-<g><title>6. White Sands: So, 27.06.2027 – Mo, 28.06.2027, 1 Nacht</title><circle cx="693.6" cy="493.1" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="693.6" y="497.3" text-anchor="middle">6</text></g>
+<g><title>5. White Sands: Sa, 26.06.2027 – So, 27.06.2027, 1 Nacht</title><circle cx="693.6" cy="493.1" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="693.6" y="497.3" text-anchor="middle">5</text></g>
 <text class="sl" x="676.6" y="498.1" text-anchor="end">White Sands</text>
-<g><title>7. Carlsbad: Mo, 28.06.2027 – Di, 29.06.2027, 1 Nacht</title><circle cx="799.7" cy="531.6" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="799.7" y="535.8" text-anchor="middle">7</text></g>
+<g><title>6. Carlsbad: So, 27.06.2027 – Mo, 28.06.2027, 1 Nacht</title><circle cx="799.7" cy="531.6" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="799.7" y="535.8" text-anchor="middle">6</text></g>
 <text class="sl" x="816.7" y="536.6" text-anchor="start">Carlsbad</text>
 <text class="fl" x="208.4" y="219.9" text-anchor="middle">Ankunft aus Zürich ✈</text>
 <text class="fl" x="946.0" y="670.2" text-anchor="end">nach San Antonio →</text>

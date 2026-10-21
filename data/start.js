@@ -47,28 +47,28 @@ window.START = {
       name: "USA (Las Vegas – New Orleans – New York)",
       zusatz: "Roadtrip vom Südwesten über den Süden an die Ostküste",
       passt: "Nationalparks, ein grosser Roadtrip, Städte des Südens, etwas Strand und zum Schluss Washington und New York im Vordergrund stehen, ihr sehr viele Fahrtage in Kauf nehmt und das höhere Budget (rund {mehrkosten} CHF mehr) passt.",
-      kurz: "Fünf Wochen USA ohne Inlandflug: mit dem Mietwagen von Las Vegas durch Zion, Antelope Canyon, Monument Valley und White Sands, über Texas und New Orleans an den Strand von Destin, durch die Great Smoky Mountains und Shenandoah nach Washington, dann mit dem Zug nach New York.",
-      route: "Las Vegas, Zion, Page, Monument Valley, Santa Fe, White Sands, Carlsbad Caverns, Fort Stockton, San Antonio, Houston, New Orleans, Destin, Atlanta, Great Smoky Mountains, Shenandoah, Washington, (Zug) New York",
-      stationen: "16 Stationen und 1 Zwischenübernachtung",
+      kurz: "Fünf Wochen USA ohne Inlandflug: mit dem Mietwagen von Las Vegas durch Zion, Monument Valley und White Sands, über Texas und New Orleans an den Strand von Destin, durch die Great Smoky Mountains und Shenandoah nach Washington, dann mit dem Zug nach New York.",
+      route: "Las Vegas, Zion, Monument Valley, Santa Fe, White Sands, Carlsbad Caverns, Fort Stockton, San Antonio, Houston, New Orleans, Destin, Atlanta, Great Smoky Mountains, Shenandoah, Washington, (Zug) New York",
+      stationen: "15 Stationen und 1 Zwischenübernachtung",
       laender: "USA (Nevada bis New York)",
       hinflug: "Zürich–Las Vegas ca. 11,5 Std. direkt (nur an einzelnen Wochentagen, im Sommer 2026 auch samstags), sonst 14–17 Std.",
       rueckflug: "Direktflug New York (JFK)–Zürich ca. 7,75–8 Std. (SWISS, täglich) am Mi, 21.07.2027, Ankunft Do, 22.07.2027 am Morgen; zwei Tage Puffer gegen den Jetlag",
       dazwischen: "Keine Flüge dazwischen: Einwegmiete Las Vegas–Washington (ca. 25 Tage), Amtrak Washington–New York (ca. 3–3,5 Std.)",
-      tempo: "Ca. 59–62 Std. reine Fahrzeit (ca. 5’600 km), realistisch mit Pausen und Stau ca. 70–74 Std. im Auto, an 15 Fahrtagen: 6 Tage mit 5–7,5 Std., die übrigen 2–4,5 Std.; dazu der Zug nach New York.",
+      tempo: "Ca. 59–62 Std. reine Fahrzeit (ca. 5’600 km), realistisch mit Pausen und Stau ca. 70–74 Std. im Auto, an 14 Fahrtagen: 6 Tage mit 5–7,5 Std., die übrigen 2–4,5 Std.; dazu der Zug nach New York.",
       gesamt: "Ca. 106–111 Std. Tür zu Tür: Bahn Brig-Glis–Zürich Flughafen (ca. 2,5 Std.), Flüge mit Wartezeiten, Einreise und Mietwagen zusammen ca. 30 Std., der Zug nach New York ca. 4 Std. und ca. 70–74 Std. im Auto. Uhr −6 bis −9 Std., Jetlag vor allem nach der Rückkehr.",
       wetter: "Im Südwesten Ende Juni 38–45 °C, ab Juli Monsungewitter; Texas, New Orleans und die Golfküste heiss und feucht, Hurrikansaison; in den Smokies und in Shenandoah kühler mit Gewittern; Washington und New York heiss und schwül.",
       einreise: "ESTA für alle vier (ca. 40 USD pro Person), Regeln im Wandel. Nationalpark-Jahrespass für Nicht-Residenten 250 USD, 100 USD Zusatzgebühr pro Person ab 16 Jahren in 11 Parks; in den Smokies Parkticket statt Eintritt.",
-      hoehepunkte: "Zion, Antelope Canyon, Horseshoe Bend, Monument Valley, Meow Wolf, White Sands, Carlsbad Caverns, Alamo, Space Center Houston, New Orleans, weisse Strände bei Destin, Georgia Aquarium, Great Smoky Mountains, Skyline Drive und Luray Caverns, Smithsonian-Museen in Washington, New York.",
-      teens: "Narrows in Zion, Antelope Canyon, Sandboarding auf White Sands, Space Center Houston, Strand und Delfine in Destin, Schwarzbären in den Smokies, Dollywood, Air and Space Museum, New York.",
+      hoehepunkte: "Zion, Horseshoe Bend, Monument Valley, Meow Wolf, White Sands, Carlsbad Caverns, Alamo, Space Center Houston, New Orleans, weisse Strände bei Destin, Georgia Aquarium, Great Smoky Mountains, Skyline Drive und Luray Caverns, Smithsonian-Museen in Washington, New York.",
+      teens: "Narrows in Zion, Sandboarding auf White Sands, Space Center Houston, Strand und Delfine in Destin, Schwarzbären in den Smokies, Dollywood, Air and Space Museum, New York.",
       pro: [
         "Kein Inlandflug: ein Roadtrip am Stück von der Wüste bis an die Ostküste, Wagen in Washington zurück, dann Zug",
-        "Spektakuläre Landschaften: Zion, Antelope Canyon, Monument Valley, White Sands, Carlsbad Caverns, Great Smoky Mountains und Shenandoah",
-        "Abwechslung: Nationalparks, Städte des Südens (San Antonio, New Orleans, Atlanta), drei Strandtage in Destin und zum Schluss Washington und New York",
+        "Spektakuläre Landschaften: Zion, Horseshoe Bend, Monument Valley, White Sands, Carlsbad Caverns, Great Smoky Mountains und Shenandoah",
+        "Abwechslung: Nationalparks, Städte des Südens (San Antonio, New Orleans, Atlanta), vier Strandtage in Destin und zum Schluss Washington und New York",
         "Sehr gute medizinische Versorgung, viele Teenager-Highlights; Rückkehr zwei Tage vor Ferienende gegen den Jetlag"
       ],
       contra: [
         "Am teuersten (ca. {plan:usa} CHF): Einwegmiete quer durchs Land mit hoher Rückgabegebühr, Unterkünfte in Monument Valley, Destin und New York; Arztkosten sehr hoch",
-        "Am meisten Reisezeit: ca. 70–74 Std. im Auto an 15 Fahrtagen, sechs lange Tage mit 5–7,5 Std.; Tür zu Tür ca. 106–111 Std. und Jetlag",
+        "Am meisten Reisezeit: ca. 70–74 Std. im Auto an 14 Fahrtagen, sechs lange Tage mit 5–7,5 Std.; Tür zu Tür ca. 106–111 Std. und Jetlag",
         "Hitze im Südwesten (oft über 40 °C) und Hurrikansaison an der Golfküste; wenig Strand, kein Schnorcheln am Riff",
         "Zwei Langstreckenflüge mit viel CO₂; Direktflug nach Las Vegas nur an einzelnen Wochentagen, ESTA-Regeln vorab prüfen"
       ]
@@ -110,7 +110,7 @@ window.START = {
         3,
         "Schöne Küsten und einzelne Naturhöhepunkte: Vulkanküste am Cabo de Gata, Schlucht des Caminito del Rey, Agafay-Steinwüste vor dem Hohen Atlas, Felsküste der Algarve, Felsbögen der Playa de las Catedrales; viele Tage in Städten und keine grossen Nationalparks wie in den USA."
       ],
-      usa: [5, "Zion, Antelope Canyon, Horseshoe Bend, Monument Valley, White Sands, Carlsbad Caverns, die Great Smoky Mountains und Shenandoah: spektakuläre und abwechslungsreiche Landschaften (Grand Canyon nur als Option)."],
+      usa: [5, "Zion, Horseshoe Bend, Monument Valley, White Sands, Carlsbad Caverns, die Great Smoky Mountains und Shenandoah: spektakuläre und abwechslungsreiche Landschaften (Grand Canyon und Lake Powell nur als Option)."],
       asien: [
         4,
         "Inseln, Strände und Riffe von Tioman bis Koh Tao, dazu Delfine bei Khanom und Wasserfälle; eher sanfte als dramatische Landschaften."
@@ -140,7 +140,7 @@ window.START = {
         4,
         "Vier Nächte auf Formentera, dazu Costa Brava, Benidorm, Cabo de Gata, Tarifa, Cádiz, Algarve und San Sebastián; im Juli voll."
       ],
-      usa: [2, "Drei Nächte an den weissen Stränden bei Destin mit ca. 28–30 °C warmem Wasser, dazu Lake Powell; sonst kaum Meer."],
+      usa: [2, "Vier Nächte an den weissen Stränden bei Destin mit ca. 28–30 °C warmem Wasser; sonst kaum Meer."],
       asien: [
         5,
         "Tioman, Perhentian Islands, Khanom, Koh Samui, Koh Tao und Hua Hin: tropische Strände mit ca. 29 °C warmem Wasser an fast jeder zweiten Station."
@@ -164,7 +164,7 @@ window.START = {
         3,
         "Caminito del Rey, Kamelritt, Quad und Nacht im Zeltcamp in der Agafay-Wüste, Medinas mit Führer, Zugfahrten quer durch Marokko, Kajak durch die Grotten der Algarve, Surfen in San Sebastián."
       ],
-      usa: [4, "Durch die Narrows waten, Antelope Canyon, Sandboarding auf White Sands, Carlsbad Caverns, Wanderungen in den Smokies, ein Roadtrip quer durchs Land."],
+      usa: [4, "Durch die Narrows waten, Sandboarding auf White Sands, Carlsbad Caverns, Wanderungen in den Smokies, ein Roadtrip quer durchs Land."],
       asien: [3, "Kajak, Seilrutschen, Inselhopping und Fähren; eher abenteuerlich beim Reisen als in der Natur."]
     },
     {
@@ -200,7 +200,7 @@ window.START = {
         3,
         "Ca. 96–103 Stunden Tür zu Tür, kein Jetlag, in Marokko kein Fahren; aber Wechsel zwischen eigenem Auto, Fähre und Zug, Passkontrollen, ein langer Zugtag Marrakesch–Fès und mehrere Tage mit 7–9 Stunden."
       ],
-      usa: [1, "Ca. 106–111 Stunden Tür zu Tür: zwei Langstreckenflüge mit Einreise und Jetlag, dazu am meisten Zeit im Auto (ca. 70–74 Stunden an 15 Fahrtagen, sechs Tage mit 5–7,5 Stunden)."],
+      usa: [1, "Ca. 106–111 Stunden Tür zu Tür: zwei Langstreckenflüge mit Einreise und Jetlag, dazu am meisten Zeit im Auto (ca. 70–74 Stunden an 14 Fahrtagen, sechs Tage mit 5–7,5 Stunden)."],
       asien: [
         2,
         "Ca. 101–108 Stunden Tür zu Tür: zwei Direktflüge mit Jetlag, dazu ca. 65–70 Stunden mit Bus, Zug und Fähre und viele Umstiege mit Gepäck; niemand muss selber fahren."

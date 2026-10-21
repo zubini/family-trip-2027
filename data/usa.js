@@ -27,31 +27,35 @@ REISEN.usa = {
       info: "Flug ab Zürich (ca. 11,5 Std.), Mietwagen am Flughafen abholen (Einwegmiete bis Washington)"
     },
     {datum: "21.–23. Juni", name: "2. Zion National Park", naechte: 2, info: "Mietwagen (ca. 2,5–3 Std.), Uhr +1 Std."},
-    {datum: "23.–24. Juni", name: "3. Page und Lake Powell", naechte: 1, info: "Mietwagen (ca. 2,5 Std.), Uhr −1 Std."},
-    {datum: "24.–25. Juni", name: "4. Monument Valley", naechte: 1, info: "Mietwagen (ca. 2–2,5 Std.), Uhr +1 Std."},
-    {datum: "25.–27. Juni", name: "5. Santa Fe", naechte: 2, info: "Mietwagen (ca. 6,5–7 Std.)"},
-    {datum: "27.–28. Juni", name: "6. White Sands (Alamogordo)", naechte: 1, info: "Mietwagen (ca. 4–4,5 Std.)"},
-    {datum: "28.–29. Juni", name: "7. Carlsbad Caverns", naechte: 1, info: "Mietwagen (ca. 3–3,5 Std.)"},
     {
-      datum: "29.–30. Juni",
+      datum: "23.–24. Juni",
+      name: "3. Monument Valley",
+      naechte: 1,
+      info: "Mietwagen über Page (ca. 4,5–5 Std.), Halt am Horseshoe Bend"
+    },
+    {datum: "24.–26. Juni", name: "4. Santa Fe", naechte: 2, info: "Mietwagen (ca. 6,5–7 Std.)"},
+    {datum: "26.–27. Juni", name: "5. White Sands (Alamogordo)", naechte: 1, info: "Mietwagen (ca. 4–4,5 Std.)"},
+    {datum: "27.–28. Juni", name: "6. Carlsbad Caverns", naechte: 1, info: "Mietwagen (ca. 3–3,5 Std.)"},
+    {
+      datum: "28.–29. Juni",
       name: "Zwischenübernachtung Fort Stockton",
       naechte: 1,
       info: "Mietwagen (ca. 2,5–3,5 Std.), Uhr +1 Std."
     },
-    {datum: "30. Juni–2. Juli", name: "8. San Antonio", naechte: 2, info: "Mietwagen (ca. 5–5,5 Std.)"},
-    {datum: "2.–3. Juli", name: "9. Houston", naechte: 1, info: "Mietwagen (ca. 3–3,5 Std.)"},
-    {datum: "3.–5. Juli", name: "10. New Orleans", naechte: 2, info: "Mietwagen (ca. 5–6 Std.)"},
-    {datum: "5.–8. Juli", name: "11. Destin (Golfküste)", naechte: 3, info: "Mietwagen (ca. 4–4,5 Std.)"},
-    {datum: "8.–9. Juli", name: "12. Atlanta", naechte: 1, info: "Mietwagen (ca. 5–5,5 Std.), Uhr +1 Std."},
-    {datum: "9.–12. Juli", name: "13. Great Smoky Mountains", naechte: 3, info: "Mietwagen (ca. 3,75–4,5 Std.)"},
-    {datum: "12.–14. Juli", name: "14. Shenandoah (Luray)", naechte: 2, info: "Mietwagen (ca. 6–7,5 Std.)"},
+    {datum: "29. Juni–1. Juli", name: "7. San Antonio", naechte: 2, info: "Mietwagen (ca. 5–5,5 Std.)"},
+    {datum: "1.–2. Juli", name: "8. Houston", naechte: 1, info: "Mietwagen (ca. 3–3,5 Std.)"},
+    {datum: "2.–4. Juli", name: "9. New Orleans", naechte: 2, info: "Mietwagen (ca. 5–6 Std.)"},
+    {datum: "4.–8. Juli", name: "10. Destin (Golfküste)", naechte: 4, info: "Mietwagen (ca. 4–4,5 Std.)"},
+    {datum: "8.–9. Juli", name: "11. Atlanta", naechte: 1, info: "Mietwagen (ca. 5–5,5 Std.), Uhr +1 Std."},
+    {datum: "9.–12. Juli", name: "12. Great Smoky Mountains", naechte: 3, info: "Mietwagen (ca. 3,75–4,5 Std.)"},
+    {datum: "12.–14. Juli", name: "13. Shenandoah (Luray)", naechte: 2, info: "Mietwagen (ca. 6–7,5 Std.)"},
     {
       datum: "14.–17. Juli",
-      name: "15. Washington, D.C.",
+      name: "14. Washington, D.C.",
       naechte: 3,
       info: "Mietwagen (ca. 1,75–2 Std.), Rückgabe in Washington"
     },
-    {datum: "17.–21. Juli", name: "16. New York", naechte: 4, info: "Amtrak-Zug (ca. 3–3,5 Std.); Rückflug 21. Juli"}
+    {datum: "17.–21. Juli", name: "15. New York", naechte: 4, info: "Amtrak-Zug (ca. 3–3,5 Std.); Rückflug 21. Juli"}
   ],
   rueckflug: {
     datum: "21. Juli",
@@ -61,7 +65,7 @@ REISEN.usa = {
   planHinweise: [
     [
       "Gesamt",
-      "32 Nächte, 16 Stationen und eine Zwischenübernachtung (Fort Stockton). Eine Einwegmiete Las Vegas–Washington (ca. 25 Tage) mit ca. 5’600 km und ca. 59–62 Std. reiner Fahrzeit an 15 Fahrtagen, realistisch mit Pausen, Tanken, Stau und Fahrten vor Ort ca. 70–74 Std. im Auto. Dazu der Zug nach New York (ca. 3–3,5 Std.). Die längsten Fahrtage: Monument Valley–Santa Fe (ca. 6,5–7 Std.), Great Smoky Mountains–Luray (ca. 6–7,5 Std.), Houston–New Orleans (ca. 5–6 Std.), Destin–Atlanta (ca. 5–5,5 Std.), Fort Stockton–San Antonio (ca. 5–5,5 Std.)."
+      "32 Nächte, 15 Stationen und eine Zwischenübernachtung (Fort Stockton). Eine Einwegmiete Las Vegas–Washington (ca. 25 Tage) mit ca. 5’600 km und ca. 59–62 Std. reiner Fahrzeit an 14 Fahrtagen, realistisch mit Pausen, Tanken, Stau und Fahrten vor Ort ca. 70–74 Std. im Auto. Dazu der Zug nach New York (ca. 3–3,5 Std.). Die längsten Fahrtage: Monument Valley–Santa Fe (ca. 6,5–7 Std.), Great Smoky Mountains–Luray (ca. 6–7,5 Std.), Houston–New Orleans (ca. 5–6 Std.), Destin–Atlanta (ca. 5–5,5 Std.), Fort Stockton–San Antonio (ca. 5–5,5 Std.)."
     ],
     [
       "Flug ab und nach Zürich",
@@ -69,11 +73,11 @@ REISEN.usa = {
     ],
     [
       "Vorab buchen",
-      "Einwegmiete Las Vegas–Washington, Unterkunft in Monument Valley (oft Monate im Voraus), Antelope-Canyon-Tour, Meow Wolf, Zeitfenster für Carlsbad Caverns, Space Center Houston, Unterkunft in Destin, Parkticket für die Great Smoky Mountains, Dollywood, Air and Space Museum, Amtrak Washington–New York, Aussichtsplattform und Broadway in New York."
+      "Einwegmiete Las Vegas–Washington, Unterkunft in Monument Valley (oft Monate im Voraus), Meow Wolf, Zeitfenster für Carlsbad Caverns, Space Center Houston, Unterkunft in Destin, Parkticket für die Great Smoky Mountains, Dollywood, Air and Space Museum, Amtrak Washington–New York, Aussichtsplattform und Broadway in New York."
     ],
     [
       "Optional",
-      "Grand Canyon (Südrand ca. 2,5 Std. ab Page, mit einer Nacht mehr), Bryce Canyon (ab Zion, ca. 2 Std.), Big Bend National Park (ab Fort Stockton, Umweg), Galveston (Strand, ab Houston), Memphis und Nashville statt Atlanta (Musikroute), Blue Ridge Parkway (zwischen den Smokies und Shenandoah), Mount Vernon (ab Washington), Philadelphia (Halt mit dem Zug)."
+      "Page mit Lake Powell und Antelope Canyon (eine Nacht mehr zwischen Zion und Monument Valley), Grand Canyon (ebenfalls mit einer Nacht mehr), Bryce Canyon (ab Zion, ca. 2 Std.), Big Bend National Park (ab Fort Stockton, Umweg), Galveston (Strand, ab Houston), Memphis und Nashville statt Atlanta (Musikroute), Blue Ridge Parkway (zwischen den Smokies und Shenandoah), Mount Vernon (ab Washington), Philadelphia (Halt mit dem Zug)."
     ]
   ],
   karte: {
@@ -82,17 +86,17 @@ REISEN.usa = {
     legende: ["car", "train"],
     karten: [
       {datei: "karten/usa.svg"},
-      {titel: "Südwesten im Detail (Stationen 1 bis 7)", datei: "karten/usa-suedwesten.svg"},
-      {titel: "Von Texas bis New York im Detail (Stationen 8 bis 16)", datei: "karten/usa-osten.svg"}
+      {titel: "Südwesten im Detail (Stationen 1 bis 6)", datei: "karten/usa-suedwesten.svg"},
+      {titel: "Von Texas bis New York im Detail (Stationen 7 bis 15)", datei: "karten/usa-osten.svg"}
     ]
   },
   abwechslungIntro: "Nach langen Fahrtagen jeweils einen ruhigen Tag einplanen. Wüste und Nationalparks, Städte des Südens, Strand und grüne Berge wechseln sich ab, zum Schluss Washington und New York ohne Auto.",
   abwechslung: [
     [
       "Naturwunder",
-      "Zion, Antelope Canyon und Horseshoe Bend, Monument Valley, White Sands, Carlsbad Caverns, Great Smoky Mountains, Shenandoah mit den Luray Caverns."
+      "Zion, Horseshoe Bend (Halt unterwegs), Monument Valley, White Sands, Carlsbad Caverns, Great Smoky Mountains, Shenandoah mit den Luray Caverns."
     ],
-    ["Strand", "Drei Nächte an den weissen Stränden der Golfküste bei Destin (Wasser ca. 28–30 °C), dazu Lake Powell."],
+    ["Strand", "Vier Nächte an den weissen Stränden der Golfküste bei Destin (Wasser ca. 28–30 °C)."],
     [
       "Action und Freizeitparks",
       "Las Vegas, Meow Wolf in Santa Fe, Space Center Houston, Georgia Aquarium, Dollywood, Narrows in Zion."
@@ -106,7 +110,7 @@ REISEN.usa = {
       "Santa Fe, Destin und die Smokies sorgen für Erholung zwischen den Fahrtagen; im Osten kein Auto mehr."
     ]
   ],
-  stationenIntro: "Sechzehn Stationen von Las Vegas bis New York. Über jeder Station steht, wie ihr dorthin kommt.",
+  stationenIntro: "Fünfzehn Stationen von Las Vegas bis New York. Über jeder Station steht, wie ihr dorthin kommt.",
   stationen: [
     {
       nr: 1,
@@ -160,41 +164,12 @@ REISEN.usa = {
     },
     {
       nr: 3,
-      name: "Page und Lake Powell",
-      land: "us",
-      region: "Arizona",
-      datum: "23.–24. Juni",
-      naechte: "1 Nacht",
-      anreise: "Mietwagen von Springdale über den Zion–Mount Carmel Highway und Kanab nach Page (ca. 2,5 Std., ca. 180 km). Arizona hat keine Sommerzeit, die Uhr springt −1 Std.",
-      text: "Kleinstadt am Lake Powell mit zwei weltberühmten Fotomotiven: dem Horseshoe Bend und dem Antelope Canyon. Beides liegt auf oder neben Navajo-Land.",
-      teens: "Geführte Tour durch den Antelope Canyon (Zeitfenster vorab buchen), Horseshoe Bend zum Sonnenuntergang, Bootsfahrt oder Baden im Lake Powell.",
-      fakten: [
-        "<strong>Dauer:</strong> 1 Nacht: am Nachmittag Antelope Canyon (Tour mit Zeitfenster), am Abend Horseshoe Bend, am Morgen ein Bad im Lake Powell.",
-        "<strong>Hinweis:</strong> Der Antelope Canyon ist nur mit zugelassenen Navajo-Führern zugänglich. Bei Gewitter oder Regen in der Umgebung werden Touren wegen Sturzfluten abgesagt (Juli: Monsun).",
-        "<strong>Zeit:</strong> Page richtet sich nach der Arizona-Zeit (keine Sommerzeit). Die Uhr ändert sich gegenüber Utah um eine Stunde."
-      ],
-      ausserdem: "Glen Canyon Dam (Besucherzentrum), Wahweap-Strand, Rainbow Bridge (nur per Boot), Waterholes Canyon (Tour).",
-      bilder: [
-        {titel: "Horseshoe Bend", suche: "Horseshoe Bend Arizona", stichwort: "horseshoe bend"},
-        {titel: "Antelope Canyon", suche: "Antelope Canyon|Lower Antelope Canyon", stichwort: "antelope canyon"},
-        {titel: "Lake Powell", suche: "Lake Powell Arizona|Lake Powell", stichwort: "lake powell"},
-        {titel: "Glen Canyon Dam", suche: "Glen Canyon Dam", stichwort: "glen canyon dam"},
-        {
-          titel: "Rainbow Bridge",
-          suche: "Rainbow Bridge National Monument|Rainbow Bridge Lake Powell",
-          stichwort: "rainbow bridge national|lake powell"
-        },
-        {titel: "Page", suche: "Page Arizona|Wahweap Bay", stichwort: "page|wahweap"}
-      ]
-    },
-    {
-      nr: 4,
       name: "Monument Valley (Navajo Nation)",
       land: "us",
       region: "Utah und Arizona",
-      datum: "24.–25. Juni",
+      datum: "23.–24. Juni",
       naechte: "1 Nacht",
-      anreise: "Mietwagen von Page über den Highway 98 und Kayenta nach Monument Valley (ca. 2–2,5 Std., ca. 200 km). Die Navajo Nation hat Sommerzeit, die Uhr springt +1 Std.",
+      anreise: "Mietwagen von Springdale über Kanab und Page nach Monument Valley (ca. 4,5–5 Std., ca. 380 km). Unterwegs Halt am Horseshoe Bend bei Page (kurzer Weg ab dem Parkplatz, ca. 1 Std.); der Antelope Canyon ginge nur mit gebuchter Tour (ca. 1,5 Std., dann ein langer Tag). Arizona hat keine Sommerzeit, die Navajo Nation schon: Am Ziel gilt wieder dieselbe Zeit wie in Utah.",
       text: "Die roten Sandsteintürme aus unzähligen Westernfilmen liegen im Navajo Tribal Park an der Grenze von Utah und Arizona. Eine Nacht reicht, wenn ihr Sonnenuntergang und Sonnenaufgang erlebt.",
       teens: "Valley Drive (ca. 27 km Schotterpiste, mit eigenem Fahrzeug oder geführter Jeeptour der Navajo), Fotostopp am Forrest Gump Point auf der Strasse 163, Sonnenaufgang vom Balkon des The View Hotel (früh buchen).",
       fakten: [
@@ -217,11 +192,11 @@ REISEN.usa = {
       ]
     },
     {
-      nr: 5,
+      nr: 4,
       name: "Santa Fe",
       land: "us",
       region: "New Mexico",
-      datum: "25.–27. Juni",
+      datum: "24.–26. Juni",
       naechte: "2 Nächte",
       anreise: "Mietwagen von Monument Valley über Shiprock und Farmington nach Santa Fe (ca. 6,5–7 Std., ca. 620 km). Einer der längsten Fahrtage: früh starten.",
       text: "Die Hauptstadt von New Mexico auf rund 2’100 Metern Höhe: Lehmziegel-Architektur, Kunstgalerien und die Landschaft des Südwestens. Nach der Wildnis kommt hier wieder Stadtleben.",
@@ -247,11 +222,11 @@ REISEN.usa = {
       ]
     },
     {
-      nr: 6,
+      nr: 5,
       name: "White Sands (Alamogordo)",
       land: "us",
       region: "New Mexico",
-      datum: "27.–28. Juni",
+      datum: "26.–27. Juni",
       naechte: "1 Nacht",
       anreise: "Mietwagen von Santa Fe über Albuquerque, die Interstate 25 und die US-54 nach Alamogordo (ca. 4–4,5 Std., ca. 360 km).",
       text: "Weisse Gipsdünen in der Wüste von New Mexico: ein einzigartiger Landschaftstyp, durch den man barfuss wandert und auf Plastikschlitten die Dünen hinunterrutscht. White Sands ist ein Nationalpark.",
@@ -276,11 +251,11 @@ REISEN.usa = {
       ]
     },
     {
-      nr: 7,
+      nr: 6,
       name: "Carlsbad Caverns",
       land: "us",
       region: "New Mexico",
-      datum: "28.–29. Juni",
+      datum: "27.–28. Juni",
       naechte: "1 Nacht",
       anreise: "Mietwagen von Alamogordo über die Bergstrasse US-82 durch Cloudcroft und Artesia nach Carlsbad (ca. 3–3,5 Std., ca. 300 km).",
       text: "Riesige Tropfsteinhöhlen unter der Wüste: Ein Rundweg führt durch den «Big Room», einen der grössten Höhlensäle Nordamerikas. Am Abend fliegen im Sommer Hunderttausende Fledermäuse aus.",
@@ -309,13 +284,13 @@ REISEN.usa = {
       ]
     },
     {
-      nr: 8,
+      nr: 7,
       name: "San Antonio",
       land: "us",
       region: "Texas",
-      datum: "30. Juni–2. Juli",
+      datum: "29. Juni–1. Juli",
       naechte: "2 Nächte",
-      zwischenstopp: {text: "Zwischenübernachtung in Fort Stockton", datum: "29.–30. Juni"},
+      zwischenstopp: {text: "Zwischenübernachtung in Fort Stockton", datum: "28.–29. Juni"},
       anreise: "Mietwagen von Carlsbad über die US-285 nach Fort Stockton (ca. 2,5–3,5 Std., ca. 250 km; schmale Strasse mit viel Lastwagenverkehr, wenig Tankstellen), dort übernachten. In Texas springt die Uhr +1 Std. Am nächsten Tag über die Interstate 10 nach San Antonio (ca. 5–5,5 Std., ca. 520 km).",
       text: "Texanische Geschichte und Flusspromenade: die Missionsstation Alamo, der River Walk mit Booten und Restaurants am Wasser und Tex-Mex-Küche.",
       teens: "Bootsfahrt auf dem River Walk, The Alamo, Missions-Weltkulturerbe per Velo, Freizeitpark Six Flags Fiesta Texas oder Wasserpark.",
@@ -335,11 +310,11 @@ REISEN.usa = {
       ]
     },
     {
-      nr: 9,
+      nr: 8,
       name: "Houston",
       land: "us",
       region: "Texas",
-      datum: "2.–3. Juli",
+      datum: "1.–2. Juli",
       naechte: "1 Nacht",
       anreise: "Mietwagen von San Antonio über die Interstate 10 (ca. 3–3,5 Std., ca. 320 km).",
       text: "Die Raumfahrtstadt: Im Space Center Houston steht man in der Halle der Saturn-V-Rakete und neben dem Kontrollraum der Mondlandungen.",
@@ -363,11 +338,11 @@ REISEN.usa = {
       ]
     },
     {
-      nr: 10,
+      nr: 9,
       name: "New Orleans",
       land: "us",
       region: "Louisiana",
-      datum: "3.–5. Juli",
+      datum: "2.–4. Juli",
       naechte: "2 Nächte",
       anreise: "Mietwagen von Houston über die Interstate 10 durch Louisiana (ca. 5–6 Std., ca. 560 km).",
       text: "Jazz, Balkone mit schmiedeeisernen Geländern und kreolische Küche im French Quarter, dazu Sümpfe mit Alligatoren gleich vor der Stadt.",
@@ -375,8 +350,7 @@ REISEN.usa = {
       fakten: [
         "<strong>Dauer:</strong> 2 Nächte.",
         "<strong>Hitze:</strong> Sehr feucht und heiss; Programm am Morgen und Abend, mittags klimatisierte Museen.",
-        "<strong>Sicherheit:</strong> Im French Quarter abends auf belebten Strassen bleiben, Wertsachen nicht offen tragen.",
-        "<strong>4. Juli:</strong> Am Nationalfeiertag (Sonntag) gibt es abends ein grosses Feuerwerk über dem Mississippi; Unterkünfte früh buchen."
+        "<strong>Sicherheit:</strong> Im French Quarter abends auf belebten Strassen bleiben, Wertsachen nicht offen tragen."
       ],
       ausserdem: "Garden District, National WWII Museum, Jackson Square, Frenchmen Street (Jazz).",
       bilder: [
@@ -389,17 +363,17 @@ REISEN.usa = {
       ]
     },
     {
-      nr: 11,
+      nr: 10,
       name: "Destin (Golfküste)",
       land: "us",
       region: "Florida Panhandle",
-      datum: "5.–8. Juli",
-      naechte: "3 Nächte",
+      datum: "4.–8. Juli",
+      naechte: "4 Nächte",
       anreise: "Mietwagen von New Orleans über die Interstate 10 an die Golfküste (ca. 4–4,5 Std., ca. 400 km).",
-      text: "Weisser Quarzsand und smaragdgrünes Wasser am Golf von Mexiko: drei Strandtage nach Wüste und Städten, bevor es in die Berge geht.",
+      text: "Weisser Quarzsand und smaragdgrünes Wasser am Golf von Mexiko: vier Strandtage nach Wüste und Städten, bevor es in die Berge geht.",
       teens: "Baden und Sandburgen am Henderson Beach, Delfin-Bootstour, Schnorcheln an den Jetties von Destin (ruhiges Wasser), Stand-up-Paddle.",
       fakten: [
-        "<strong>Dauer:</strong> 3 Nächte am Strand, z.B. in Destin oder Santa Rosa Beach: Baden, Schnorcheln an den Steinmolen, Bootstour zu den Delfinen.",
+        "<strong>Dauer:</strong> 4 Nächte am Strand, z.B. in Destin oder Santa Rosa Beach: Baden, Schnorcheln an den Steinmolen, Bootstour zu den Delfinen, Ruhetage. Am 4. Juli (Nationalfeiertag) Feuerwerk am Strand; Unterkünfte früh buchen.",
         "<strong>Baden:</strong> Auf die Strandflaggen achten: rote Flagge heisst gefährliche Strömung (Rip Currents), dann nicht ins Wasser.",
         "<strong>Wetter:</strong> Gewitter am Nachmittag sind häufig; Hurrikansaison."
       ],
@@ -414,7 +388,7 @@ REISEN.usa = {
       ]
     },
     {
-      nr: 12,
+      nr: 11,
       name: "Atlanta",
       land: "us",
       region: "Georgia",
@@ -439,7 +413,7 @@ REISEN.usa = {
       ]
     },
     {
-      nr: 13,
+      nr: 12,
       name: "Great Smoky Mountains (Gatlinburg)",
       ersatzsuche: "Great Smoky Mountains|Gatlinburg",
       land: "us",
@@ -466,7 +440,7 @@ REISEN.usa = {
       ]
     },
     {
-      nr: 14,
+      nr: 13,
       name: "Shenandoah (Luray)",
       ersatzsuche: "Shenandoah National Park|Luray",
       land: "us",
@@ -493,7 +467,7 @@ REISEN.usa = {
       ]
     },
     {
-      nr: 15,
+      nr: 14,
       name: "Washington, D.C.",
       land: "us",
       region: "Washington, D.C.",
@@ -518,7 +492,7 @@ REISEN.usa = {
       ]
     },
     {
-      nr: 16,
+      nr: 15,
       name: "New York",
       land: "us",
       region: "New York",
@@ -579,9 +553,9 @@ REISEN.usa = {
       ["Verpflegung (Restaurants, Imbiss, Getränke)", "4’470–7’670", "5’820", "ca. 140–250 CHF pro Tag für 4 Personen"],
       [
         "Aktivitäten und Eintritte (inkl. Nationalpark-Jahrespass)",
-        "4’450–8’000",
-        "5’900",
-        "Pass 250 USD, Antelope Canyon, Meow Wolf, Space Center Houston, Georgia Aquarium, Dollywood, Luray Caverns, Aussichtsplattform und Broadway in New York usw."
+        "4’300–7’750",
+        "5’700",
+        "Pass 250 USD, Meow Wolf, Space Center Houston, Georgia Aquarium, Dollywood, Luray Caverns, Aussichtsplattform und Broadway in New York usw."
       ],
       [
         "ESTA, Versicherung, eSIM",
@@ -594,21 +568,20 @@ REISEN.usa = {
     stationen: [
       ["1. Las Vegas (2)", "710–1’310"],
       ["2. Zion National Park (2)", "730–1’180"],
-      ["3. Page und Lake Powell (1)", "440–740"],
-      ["4. Monument Valley (1)", "540–1’040"],
-      ["5. Santa Fe (2)", "780–1’330"],
-      ["6. White Sands (1)", "300–520"],
-      ["7. Carlsbad Caverns (1)", "250–400"],
+      ["3. Monument Valley (1)", "540–1’040"],
+      ["4. Santa Fe (2)", "780–1’330"],
+      ["5. White Sands (1)", "300–520"],
+      ["6. Carlsbad Caverns (1)", "250–400"],
       ["Zwischenübernachtung Fort Stockton (1)", "150–250"],
-      ["8. San Antonio (2)", "500–850"],
-      ["9. Houston (1)", "300–500"],
-      ["10. New Orleans (2)", "600–1’000"],
-      ["11. Destin (3)", "900–1’500"],
-      ["12. Atlanta (1)", "350–600"],
-      ["13. Great Smoky Mountains (3)", "1’000–1’700"],
-      ["14. Shenandoah (2)", "600–1’000"],
-      ["15. Washington, D.C. (3)", "1’280–2’180"],
-      ["16. New York (4)", "2’650–4’420"]
+      ["7. San Antonio (2)", "500–850"],
+      ["8. Houston (1)", "300–500"],
+      ["9. New Orleans (2)", "600–1’000"],
+      ["10. Destin (4)", "1’200–2’000"],
+      ["11. Atlanta (1)", "350–600"],
+      ["12. Great Smoky Mountains (3)", "1’000–1’700"],
+      ["13. Shenandoah (2)", "600–1’000"],
+      ["14. Washington, D.C. (3)", "1’280–2’180"],
+      ["15. New York (4)", "2’650–4’420"]
     ],
     hinweise: [
       "Preise für die Kids: Der Sohn (12) und die Tochter (14) zahlen bei Eintritten teils Kinderpreise (bis 11 bzw. 12 Jahre), oft aber den Vollpreis.",
@@ -616,9 +589,9 @@ REISEN.usa = {
       "Alle Beträge sind Richtwerte in CHF (Schätzungen, nicht verbindlich). Flug-, Hotel- und Mietwagenpreise im Juli schwanken stark; aktuelle Preise vor der Buchung vergleichen."
     ],
     naechte: 32,
-    total: "36’660",
-    spanne: "28’400–47’600",
-    proTag: "ca. 1’150 CHF pro Tag, ca. 9’200 pro Person"
+    total: "36’460",
+    spanne: "28’300–47’400",
+    proTag: "ca. 1’140 CHF pro Tag, ca. 9’100 pro Person"
   },
   tippsIntro: "Einreise, Gesundheit, Sicherheit und Praktisches für die Reise mit 2 Erwachsenen und 2 Kids.",
   tipps: [
@@ -641,7 +614,7 @@ REISEN.usa = {
     ],
     [
       "Hitze und Monsun",
-      "Las Vegas, Zion und White Sands erreichen Ende Juni 38–45 °C, ab Juli beginnt im Südwesten der Monsun mit Gewittern und Sturzfluten in Schluchten (Narrows, Antelope Canyon). Texas und die Golfküste sind heiss und schwül, Juni bis November ist Hurrikansaison. In den Smokies und in Shenandoah ist es kühler, mit Gewittern am Nachmittag."
+      "Las Vegas, Zion und White Sands erreichen Ende Juni 38–45 °C, ab Juli beginnt im Südwesten der Monsun mit Gewittern und Sturzfluten in Schluchten (z.B. Narrows in Zion). Texas und die Golfküste sind heiss und schwül, Juni bis November ist Hurrikansaison. In den Smokies und in Shenandoah ist es kühler, mit Gewittern am Nachmittag."
     ],
     [
       "Zeitzonen",
@@ -653,7 +626,7 @@ REISEN.usa = {
     ],
     [
       "Navajo Nation",
-      "Monument Valley und Antelope Canyon liegen auf Navajo-Land mit eigenen Regeln: Eintritt pro Person, geführte Touren, keine Drohnen, kein Alkohol. Respektvoll verhalten, Fotos von Menschen nur mit Erlaubnis."
+      "Monument Valley liegt auf Navajo-Land mit eigenen Regeln: Eintritt pro Person, geführte Touren, keine Drohnen, kein Alkohol. Respektvoll verhalten, Fotos von Menschen nur mit Erlaubnis."
     ],
     [
       "Zug im Nordosten",

@@ -53,23 +53,23 @@
 <polyline points="783.6,123.9 792.6,107.8 818.0,85.5 835.4,63.6 841.4,51.7 847.0,41.7 851.4,41.4" fill="none" stroke="#0F4C55" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"><title>Zug: Washington – New York (Amtrak)</title></polyline>
 <g><title>Zwischenübernachtung Fort Stockton</title><circle cx="41.8" cy="462.9" r="6" fill="#fff" stroke="#718096" stroke-width="2.5"/></g>
 <text class="tl" x="51.8" y="466.9">Fort Stockton</text>
-<g><title>8. San Antonio: Mi, 30.06.2027 – Fr, 02.07.2027, 2 Nächte</title><circle cx="176.8" cy="523.2" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="176.8" y="527.4" text-anchor="middle">8</text></g>
+<g><title>7. San Antonio: Di, 29.06.2027 – Do, 01.07.2027, 2 Nächte</title><circle cx="176.8" cy="523.2" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="176.8" y="527.4" text-anchor="middle">7</text></g>
 <text class="sl" x="159.8" y="528.2" text-anchor="end">San Antonio</text>
-<g><title>9. Houston: Fr, 02.07.2027 – Sa, 03.07.2027, 1 Nacht</title><circle cx="275.6" cy="511.8" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="275.6" y="516.0" text-anchor="middle">9</text></g>
+<g><title>8. Houston: Do, 01.07.2027 – Fr, 02.07.2027, 1 Nacht</title><circle cx="275.6" cy="511.8" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="275.6" y="516.0" text-anchor="middle">8</text></g>
 <text class="sl" x="275.6" y="538.8" text-anchor="middle">Houston</text>
-<g><title>10. New Orleans: Sa, 03.07.2027 – Mo, 05.07.2027, 2 Nächte</title><circle cx="442.2" cy="499.1" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="442.2" y="503.3" text-anchor="middle">10</text></g>
+<g><title>9. New Orleans: Fr, 02.07.2027 – So, 04.07.2027, 2 Nächte</title><circle cx="442.2" cy="499.1" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="442.2" y="503.3" text-anchor="middle">9</text></g>
 <text class="sl" x="442.2" y="526.1" text-anchor="middle">New Orleans</text>
-<g><title>11. Destin: Mo, 05.07.2027 – Do, 08.07.2027, 3 Nächte</title><circle cx="552.7" cy="474.0" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="552.7" y="478.2" text-anchor="middle">11</text></g>
+<g><title>10. Destin: So, 04.07.2027 – Do, 08.07.2027, 4 Nächte</title><circle cx="552.7" cy="474.0" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="552.7" y="478.2" text-anchor="middle">10</text></g>
 <text class="sl" x="552.7" y="501.0" text-anchor="middle">Destin</text>
-<g><title>12. Atlanta: Do, 08.07.2027 – Fr, 09.07.2027, 1 Nacht</title><circle cx="603.4" cy="344.8" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="603.4" y="349.0" text-anchor="middle">12</text></g>
+<g><title>11. Atlanta: Do, 08.07.2027 – Fr, 09.07.2027, 1 Nacht</title><circle cx="603.4" cy="344.8" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="603.4" y="349.0" text-anchor="middle">11</text></g>
 <text class="sl" x="586.4" y="349.8" text-anchor="end">Atlanta</text>
-<g><title>13. Smoky Mountains: Fr, 09.07.2027 – Mo, 12.07.2027, 3 Nächte</title><circle cx="620.2" cy="270.2" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="620.2" y="274.4" text-anchor="middle">13</text></g>
+<g><title>12. Smoky Mountains: Fr, 09.07.2027 – Mo, 12.07.2027, 3 Nächte</title><circle cx="620.2" cy="270.2" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="620.2" y="274.4" text-anchor="middle">12</text></g>
 <text class="sl" x="603.2" y="275.2" text-anchor="end">Smoky Mountains</text>
-<g><title>14. Shenandoah: Mo, 12.07.2027 – Mi, 14.07.2027, 2 Nächte</title><circle cx="746.1" cy="140.1" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="746.1" y="144.3" text-anchor="middle">14</text></g>
+<g><title>13. Shenandoah: Mo, 12.07.2027 – Mi, 14.07.2027, 2 Nächte</title><circle cx="746.1" cy="140.1" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="746.1" y="144.3" text-anchor="middle">13</text></g>
 <text class="sl" x="729.1" y="145.1" text-anchor="end">Shenandoah</text>
-<g><title>15. Washington, D.C.: Mi, 14.07.2027 – Sa, 17.07.2027, 3 Nächte</title><circle cx="783.6" cy="123.9" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="783.6" y="128.1" text-anchor="middle">15</text></g>
+<g><title>14. Washington, D.C.: Mi, 14.07.2027 – Sa, 17.07.2027, 3 Nächte</title><circle cx="783.6" cy="123.9" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="783.6" y="128.1" text-anchor="middle">14</text></g>
 <text class="sl" x="800.6" y="128.9" text-anchor="start">Washington, D.C.</text>
-<g><title>16. New York: Sa, 17.07.2027 – Mi, 21.07.2027, 4 Nächte</title><circle cx="851.4" cy="41.4" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="851.4" y="45.6" text-anchor="middle">16</text></g>
+<g><title>15. New York: Sa, 17.07.2027 – Mi, 21.07.2027, 4 Nächte</title><circle cx="851.4" cy="41.4" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="851.4" y="45.6" text-anchor="middle">15</text></g>
 <text class="sl" x="868.4" y="46.4" text-anchor="start">New York</text>
 <text class="fl" x="858.1" y="21.4" text-anchor="middle">Rückflug nach Zürich ✈</text>
 </svg>
