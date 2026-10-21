@@ -76,6 +76,7 @@ window.QUELLEN = {
       titel: "Fahrzeiten USA",
       links: [
         ["Flightmapper: SWISS LX 64 Zürich–Miami (täglich, Sommer 2026 ca. 13.05–17.30 Uhr)", "https://info.flightmapper.net/flight/Swiss_LX_64"],
+        ["Flightmapper: SWISS LX 17 New York JFK–Zürich (täglich, Sommer 2026 ca. 16.15–6.10 Uhr)", "https://info.flightmapper.net/flight/Swiss_LX_17"],
         ["Southwest: Flüge Las Vegas–Washington Reagan National", "https://www.southwest.com/en/flights/flights-from-las-vegas-to-washington-dc-reagan-national"],
         ["FlightsFrom: Nonstop Las Vegas–Washington Dulles (Frontier, United; ca. 4 Std. 45 Min.)", "https://www.flightsfrom.com/LAS-IAD"],
         ["Wanderu: Zug Washington–New York (ca. 3,5 Std., Acela ca. 3 Std., viele Züge pro Tag)", "https://www.wanderu.com/en-us/train/us-dc/washington/us-ny/new-york/?cur=sek"],

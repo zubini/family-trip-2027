@@ -67,7 +67,7 @@ REISEN.usa = {
   rueckflug: {
     datum: "23. Juli",
     name: "Flug New York–Zürich",
-    info: "Nachtflug ab Newark oder John F. Kennedy ca. 7,5–8 Std., Ankunft in Zürich am Sa, 24.07.2027 am Morgen"
+    info: "Direktflug New York (JFK)–Zürich mit SWISS, täglich; im Sommer 2026 Abflug ca. 16.15 Uhr, ca. 7,75–8 Std., Ankunft in Zürich am Sa, 24.07.2027 um ca. 6 Uhr"
   },
   planHinweise: [
     [
@@ -76,7 +76,7 @@ REISEN.usa = {
     ],
     [
       "Flug ab und nach Zürich",
-      "Hinflug: Zürich–Miami mit SWISS als Direktflug täglich, ca. 10,5 Std. (Sommer 2026: Abflug ca. 13 Uhr, Ankunft ca. 17.30 Uhr Ortszeit, Zeitverschiebung −6 Std.). Rückflug: New York–Zürich ca. 7,5–8 Std. als Nachtflug am Fr, 23.07.2027 (Zeitverschiebung +6 Std.), Ankunft am Sa, 24.07.2027 am Morgen. Inlandflug Las Vegas–Washington am Sa, 17.07.2027 nonstop ca. 4,5–5 Std. (Uhr +3 Std.). Flugpläne 2027 bei der Buchung prüfen."
+      "Hinflug: Zürich–Miami mit SWISS als Direktflug täglich, ca. 10,5 Std. (Sommer 2026: Abflug ca. 13 Uhr, Ankunft ca. 17.30 Uhr Ortszeit, Zeitverschiebung −6 Std.). Rückflug: New York (JFK)–Zürich mit SWISS als Direktflug täglich, ca. 7,75–8 Std., als Nachtflug am Fr, 23.07.2027 (Sommer 2026: Abflug ca. 16.15 Uhr, Ankunft ca. 6.10 Uhr; Zeitverschiebung +6 Std.). Inlandflug Las Vegas–Washington am Sa, 17.07.2027 nonstop ca. 4,5–5 Std. (Uhr +3 Std.). Flugpläne 2027 bei der Buchung prüfen."
     ],
     [
       "Vorab buchen",
@@ -558,11 +558,11 @@ REISEN.usa = {
       region: "New York",
       datum: "20.–23. Juli",
       naechte: "3 Nächte, Rückflug 23. Juli",
-      anreise: "Amtrak-Zug ab Washington Union Station nach New York Penn Station (Northeast Regional ca. 3,5 Std., Acela ca. 3 Std.; viele Züge pro Tag). Rückflug ab Newark oder John F. Kennedy am Abend des Fr, 23.07.2027 (ca. 7,5–8 Std., Ankunft in Zürich am Sa, 24.07.2027 am Morgen).",
+      anreise: "Amtrak-Zug ab Washington Union Station nach New York Penn Station (Northeast Regional ca. 3,5 Std., Acela ca. 3 Std.; viele Züge pro Tag). Rückflug direkt ab John F. Kennedy (SWISS) am Fr, 23.07.2027 am Nachmittag (Sommer 2026 ca. 16.15 Uhr; ca. 7,75–8 Std., Ankunft in Zürich am Sa, 24.07.2027 um ca. 6 Uhr). Zum Flughafen JFK mit dem AirTrain oder Taxi ca. 1–1,5 Std., also am Mittag los.",
       text: "Das grosse Finale: Wolkenkratzer, Parks, Museen und Hafenpanorama.",
       teens: "Fähre zur Freiheitsstatue und nach Ellis Island, Aussicht vom Empire State Building oder Top of the Rock, Broadway-Musical, Brooklyn Bridge, Coney Island (Achterbahn und Strand), Intrepid Museum (Flugzeugträger).",
       fakten: [
-        "<strong>Dauer:</strong> 3 Nächte: Tag 1 Freiheitsstatue und Lower Manhattan (9/11 Memorial), Tag 2 Central Park, Museen und Aussichtsplattform am Abend, Tag 3 Brooklyn Bridge und Wunschprogramm der Kids; am Abreisetag Gepäck im Hotel lassen.",
+        "<strong>Dauer:</strong> 3 Nächte: Tag 1 Freiheitsstatue und Lower Manhattan (9/11 Memorial), Tag 2 Central Park, Museen und Aussichtsplattform am Abend, Tag 3 Brooklyn Bridge und Wunschprogramm der Kids; am Abreisetag nur noch der Vormittag (Gepäck im Hotel lassen).",
         "<strong>Fortbewegung:</strong> U-Bahn mit OMNY (Kreditkarte oder Handy), Fähren, Taxi und Uber.",
         "<strong>Hinweis:</strong> Im Hochsommer heiss, Gewitter möglich. Tickets für Aussichtsplattformen und Broadway früh buchen."
       ],
@@ -581,7 +581,7 @@ REISEN.usa = {
       ]
     }
   ],
-  abschluss: "Rückflug ab New York nach Zürich am Abend des Fr, 23.07.2027 (ca. 7,5–8 Std.), Ankunft am Sa, 24.07.2027 am Morgen.",
+  abschluss: "Direktflug ab New York (JFK) nach Zürich am Fr, 23.07.2027 am Nachmittag (ca. 7,75–8 Std.), Ankunft am Sa, 24.07.2027 am frühen Morgen, dann mit der Bahn nach Brig-Glis.",
   budgetIntro: "Mittelklasse inklusive Flüge, Mietwagen, Zug, Unterkunft, Verpflegung und Aktivitäten. Alle Beträge sind Schätzungen in CHF.",
   budget: {
     posten: [

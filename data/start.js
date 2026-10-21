@@ -52,7 +52,7 @@ window.START = {
       stationen: "17 Stationen und 1 Zwischenübernachtung",
       laender: "USA (Florida bis Nevada, Washington, New York)",
       hinflug: "Direktflug Zürich–Miami ca. 10,5 Std. (täglich)",
-      rueckflug: "New York–Zürich ca. 7,5–8 Std. als Nachtflug am Fr, 23.07.2027, Ankunft Sa, 24.07.2027",
+      rueckflug: "Direktflug New York (JFK)–Zürich ca. 7,75–8 Std. (SWISS, täglich) am Fr, 23.07.2027, Ankunft Sa, 24.07.2027 am Morgen",
       dazwischen: "Einwegmiete Miami–Las Vegas (ca. 28 Tage), Inlandflug Las Vegas–Washington (ca. 4,5–5 Std.), Amtrak Washington–New York (ca. 3–3,5 Std.)",
       tempo: "Ca. 59–60 Std. reine Fahrzeit (ca. 5’700 km), realistisch mit Pausen und Stau ca. 69–73 Std. im Auto, an 15 Fahrtagen: 6 Tage mit 4,5–7 Std., die übrigen 1,25–4 Std.; dazu ein Inlandflug und ein Zug im Osten.",
       gesamt: "Ca. 111–118 Std. Tür zu Tür: Bahn Brig-Glis–Zürich Flughafen (ca. 2,5 Std.), Flüge mit Wartezeiten, Einreise und Mietwagen zusammen ca. 30 Std., der Inlandflug nach Washington mit Transfers ca. 8–9 Std., der Zug nach New York ca. 4 Std. und ca. 69–73 Std. im Auto. Uhr −6 bis −9 Std., Jetlag vor allem nach der Rückkehr.",
