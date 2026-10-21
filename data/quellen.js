@@ -102,7 +102,7 @@ window.QUELLEN = {
         ["NPS: Dark Hollow Falls", "https://www.nps.gov/places/000/dark-hollow-falls.htm"],
         ["Luray Caverns: Eintrittspreise", "https://luraycaverns.com/?p=276"],
         ["NPS: Zusatzgebühr für Nicht-Residenten in 11 Parks", "https://www.nps.gov/aboutus/nonresident-fees.htm"],
-        ["Georgia Aquarium: Kombiticket mit World of Coca-Cola", "https://www.georgiaaquarium.org/booking/aquarium-coca-cola-combo/"],
+        ["The Better Vacation: World of Coca-Cola, Eintritt (ca. 25 USD ab 13 Jahren)", "https://thebettervacation.com/world-of-coca-cola"],
         ["Brick Underground: Staugebühr New York (9 USD bis 2027)", "https://www.brickunderground.com/live/hochul-reinstates-congestion-pricing-plan-lower-cost-nyc"],
         ["SpotHero: Parkieren in Manhattan (Beispiel Hotel)", "https://spothero.com/nyc/hampton-inn-manhattan-grand-central-parking"]
       ]

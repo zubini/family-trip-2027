@@ -440,9 +440,9 @@ REISEN.asien = {
   budgetIntro: "Mittelklasse inklusive Flüge, Transport, Unterkunft, Verpflegung und Aktivitäten. Alle Beträge sind Schätzungen in CHF.",
   budget: {
     naechte: 32,
-    total: "20’250",
-    spanne: "16’100–25’000",
-    proTag: "ca. 630 CHF pro Tag, ca. 5’100 pro Person",
+    total: "19’300",
+    spanne: "15’300–23’800",
+    proTag: "ca. 600 CHF pro Tag, ca. 4’800 pro Person",
     posten: [
       [
         "Flüge Zürich–Singapur und Bangkok–Zürich",
@@ -481,11 +481,11 @@ REISEN.asien = {
         "900",
         "Reisekranken- und Annullationsschutz, Reiseapotheke"
       ],
-      ["Reserve (ca. 10 %)", "1’500–2’300", "1’850", "Souvenirs, Wäsche, Unvorhergesehenes"],
+      ["Reserve (ca. 5 %)", "750–1’150", "900", "Souvenirs, Wäsche, Unvorhergesehenes"],
       [
         "<strong>Total</strong>",
-        "<strong>16’100–25’000</strong>",
-        "<strong>ca. 20’250</strong>",
+        "<strong>15’300–23’800</strong>",
+        "<strong>ca. 19’300</strong>",
         "ca. 620 CHF pro Tag, ca. 5’150 pro Person"
       ]
     ],

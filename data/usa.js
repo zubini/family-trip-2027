@@ -99,7 +99,7 @@ REISEN.usa = {
     ["Strand", "Vier Nächte an den weissen Stränden der Golfküste bei Destin (Wasser ca. 28–30 °C)."],
     [
       "Action und Freizeitparks",
-      "Las Vegas, Meow Wolf in Santa Fe, Space Center Houston, Georgia Aquarium, Dollywood, Narrows in Zion."
+      "Las Vegas, Meow Wolf in Santa Fe, Space Center Houston, World of Coca-Cola, Dollywood, Narrows in Zion."
     ],
     [
       "Städte und Kultur",
@@ -387,21 +387,21 @@ REISEN.usa = {
       datum: "8.–9. Juli",
       naechte: "1 Nacht",
       anreise: "Mietwagen von Destin über Montgomery nach Atlanta (ca. 5–5,5 Std., ca. 535 km). In Georgia gilt die Eastern-Zeit, die Uhr springt +1 Std.",
-      text: "Die grösste Stadt der Südstaaten: der Olympiapark der Spiele von 1996, eines der grössten Aquarien der Welt und die Geschichte der Bürgerrechtsbewegung um Martin Luther King.",
-      teens: "Georgia Aquarium mit Walhaien, World of Coca-Cola (Getränke aus aller Welt probieren), Wasserspiele im Centennial Olympic Park, Geburtshaus von Martin Luther King.",
+      text: "Die grösste Stadt der Südstaaten: der Olympiapark der Spiele von 1996, die Welt von Coca-Cola und die Geschichte der Bürgerrechtsbewegung um Martin Luther King.",
+      teens: "World of Coca-Cola (Getränke aus aller Welt probieren), Wasserspiele im Centennial Olympic Park, Geburtshaus von Martin Luther King.",
       fakten: [
-        "<strong>Dauer:</strong> 1 Nacht: am Nachmittag Aquarium oder World of Coca-Cola, am Abend der Olympiapark, am Morgen weiter in die Berge.",
-        "<strong>Eintritte:</strong> Georgia Aquarium je nach Tag ca. 55–65 USD, World of Coca-Cola ca. 25 USD ab 13 Jahren; Kombiticket online. Beides liegt direkt am Olympiapark. Preise vorab prüfen.",
+        "<strong>Dauer:</strong> 1 Nacht: am Nachmittag World of Coca-Cola oder das Geburtshaus von Martin Luther King, am Abend der Olympiapark, am Morgen weiter in die Berge.",
+        "<strong>Eintritte:</strong> World of Coca-Cola ca. 25 USD ab 13 Jahren, ca. 21 USD für Kinder; liegt direkt am Olympiapark. Der Park und der Martin Luther King Jr. National Historical Park sind gratis. Preise vorab prüfen.",
         "<strong>Verkehr:</strong> Im Grossraum Atlanta oft Stau; Hotel mit Parkplatz in der Innenstadt wählen."
       ],
-      ausserdem: "Stone Mountain Park, Atlanta BeltLine (Spazierweg), Zoo Atlanta, Martin Luther King Jr. National Historical Park (gratis).",
+      ausserdem: "Georgia Aquarium, Stone Mountain Park, Atlanta BeltLine (Spazierweg), Zoo Atlanta.",
       bilder: [
-        {titel: "Georgia Aquarium", suche: "Georgia Aquarium whale shark", stichwort: "aquarium|whale shark"},
         {titel: "Centennial Olympic Park", suche: "Centennial Olympic Park Atlanta", stichwort: "olympic|atlanta"},
         {titel: "World of Coca-Cola", suche: "World of Coca-Cola Atlanta", stichwort: "coca"},
         {titel: "Skyline", suche: "Atlanta skyline", stichwort: "atlanta"},
         {titel: "Martin Luther King", suche: "Martin Luther King Jr National Historical Park", stichwort: "king"},
-        {titel: "Stone Mountain", suche: "Stone Mountain Georgia", stichwort: "stone mountain"}
+        {titel: "Stone Mountain", suche: "Stone Mountain Georgia", stichwort: "stone mountain"},
+        {titel: "Atlanta BeltLine", suche: "Atlanta BeltLine", stichwort: "beltline|atlanta"}
       ]
     },
     {
@@ -545,9 +545,9 @@ REISEN.usa = {
       ["Verpflegung (Restaurants, Imbiss, Getränke)", "4’470–7’670", "5’820", "ca. 140–250 CHF pro Tag für 4 Personen"],
       [
         "Aktivitäten und Eintritte (inkl. Nationalpark-Jahrespass)",
-        "4’250–7’700",
-        "5’650",
-        "Pass 250 USD, Meow Wolf, Space Center Houston, Georgia Aquarium, Dollywood, Luray Caverns, Aussichtsplattform und Broadway in New York usw."
+        "4’050–7’400",
+        "5’400",
+        "Pass 250 USD, Meow Wolf, Space Center Houston, World of Coca-Cola, Dollywood, Luray Caverns, Aussichtsplattform und Broadway in New York usw."
       ],
       [
         "ESTA, Versicherung, eSIM",
@@ -555,7 +555,7 @@ REISEN.usa = {
         "1’300",
         "ESTA ca. 40 USD pro Person, Reisekranken- und Annullationsschutz mit hoher Deckung"
       ],
-      ["Reserve (ca. 10 %)", "2’620–4’400", "3’390", "Souvenirs, Wäsche, Unvorhergesehenes"]
+      ["Reserve (ca. 5 %)", "1’250–2’150", "1’650", "Souvenirs, Wäsche, Unvorhergesehenes"]
     ],
     stationen: [
       ["1. Las Vegas (2)", "710–1’310"],
@@ -569,7 +569,7 @@ REISEN.usa = {
       ["8. Houston (1)", "300–500"],
       ["9. New Orleans (2)", "600–1’000"],
       ["10. Destin (4)", "1’200–2’000"],
-      ["11. Atlanta (1)", "350–600"],
+      ["11. Atlanta (1)", "300–500"],
       ["12. Great Smoky Mountains (3)", "1’000–1’700"],
       ["13. Shenandoah (2)", "600–1’000"],
       ["14. Washington, D.C. (3)", "1’280–2’180"],
@@ -581,9 +581,9 @@ REISEN.usa = {
       "Alle Beträge sind Richtwerte in CHF (Schätzungen, nicht verbindlich). Flug-, Hotel- und Mietwagenpreise im Juli schwanken stark; aktuelle Preise vor der Buchung vergleichen."
     ],
     naechte: 32,
-    total: "36’410",
-    spanne: "28’200–47’300",
-    proTag: "ca. 1’140 CHF pro Tag, ca. 9’100 pro Person"
+    total: "34’420",
+    spanne: "26’700–44’800",
+    proTag: "ca. 1’080 CHF pro Tag, ca. 8’600 pro Person"
   },
   tippsIntro: "Einreise, Gesundheit, Sicherheit und Praktisches für die Reise mit 2 Erwachsenen und 2 Kids.",
   tipps: [

@@ -692,9 +692,9 @@ REISEN.marokko = {
   budgetIntro: "Mittelklasse inklusive Maut, Fähren, Züge und Transfers in Marokko, Unterkunft, Verpflegung und Aktivitäten; Laden an Tesla-Superchargern ist gratis. Alle Beträge sind Schätzungen in CHF.",
   budget: {
     naechte: 35,
-    total: "20’100",
-    spanne: "15’200–26’400",
-    proTag: "ca. 570 CHF pro Tag, ca. 5’000 pro Person",
+    total: "19’200",
+    spanne: "14’500–25’200",
+    proTag: "ca. 550 CHF pro Tag, ca. 4’800 pro Person",
     posten: [
       [
         "Auto: Maut, Vignetten, Laden unterwegs (ca. 5’300 km)",
@@ -744,7 +744,7 @@ REISEN.marokko = {
         "500",
         "Pannenhilfe-Versicherung fürs Auto, Reiseversicherung für Marokko, Annullationsschutz"
       ],
-      ["Reserve (ca. 10 %)", "1’400–2’450", "1’800", "Souvenirs, Wäsche, Unvorhergesehenes"]
+      ["Reserve (ca. 5 %)", "700–1’200", "900", "Souvenirs, Wäsche, Unvorhergesehenes"]
     ],
     stationen: [
       ["Zwischenübernachtung Sète (1)", "250–400"],
