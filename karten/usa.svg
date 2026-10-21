@@ -73,10 +73,8 @@
 <text class="sea" x="68.6" y="217.2" text-anchor="middle">Pazifik</text>
 <text class="cn" x="358.2" y="412.7" text-anchor="middle">Mexiko</text>
 <text class="cn" x="520.5" y="180.2" text-anchor="middle">USA</text>
-<polyline points="881.8,433.6 876.7,441.4 879.1,450.1 875.6,454.8 866.4,461.3 860.2,463.4 851.9,467.2" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
-<polyline points="881.8,433.6 876.7,441.4 879.1,450.1 875.6,454.8 866.4,461.3 860.2,463.4 851.9,467.2" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Miami – Key West (Overseas Highway)</title></polyline>
-<polyline points="851.9,467.2 860.2,463.4 866.4,461.3 875.6,454.8 879.1,450.1" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
-<polyline points="851.9,467.2 860.2,463.4 866.4,461.3 875.6,454.8 879.1,450.1" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Key West – Key Largo</title></polyline>
+<polyline points="881.8,433.6 876.7,441.4 879.1,450.1" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="881.8,433.6 876.7,441.4 879.1,450.1" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Miami – Key Largo</title></polyline>
 <polyline points="879.1,450.1 876.7,441.4 876.7,433.5 877.9,411.6 866.6,395.4 853.2,379.4 846.1,372.3" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
 <polyline points="879.1,450.1 876.7,441.4 876.7,433.5 877.9,411.6 866.6,395.4 853.2,379.4 846.1,372.3" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Key Largo – Orlando (Florida’s Turnpike)</title></polyline>
 <polyline points="846.1,372.3 831.8,364.6 822.5,349.0 815.1,336.8 780.0,335.6 756.4,332.1 740.2,335.1 734.7,341.9" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
@@ -112,23 +110,22 @@
 <g><title>Zwischenübernachtung Fort Stockton</title><circle cx="398.5" cy="334.6" r="6" fill="#fff" stroke="#718096" stroke-width="2.5"/></g>
 <text class="tl" x="408.5" y="352.6">Fort Stockton</text>
 <g><title>1. Miami: Sa, 19.06.2027 – Mo, 21.06.2027, 2 Nächte</title><circle cx="881.8" cy="433.6" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
-<g><title>2. Key West: Mo, 21.06.2027 – Mi, 23.06.2027, 2 Nächte</title><circle cx="851.9" cy="467.2" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
-<g><title>3. Key Largo: Mi, 23.06.2027 – Fr, 25.06.2027, 2 Nächte</title><circle cx="879.1" cy="450.1" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
-<g><title>4. Orlando: Fr, 25.06.2027 – Mo, 28.06.2027, 3 Nächte</title><circle cx="846.1" cy="372.3" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
-<g><title>5. Destin: Mo, 28.06.2027 – Mi, 30.06.2027, 2 Nächte</title><circle cx="734.7" cy="341.9" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
-<g><title>6. New Orleans: Mi, 30.06.2027 – Fr, 02.07.2027, 2 Nächte</title><circle cx="662.0" cy="358.4" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
-<g><title>7. Houston: Fr, 02.07.2027 – Sa, 03.07.2027, 1 Nacht</title><circle cx="552.3" cy="366.8" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
-<g><title>8. San Antonio: Sa, 03.07.2027 – Mo, 05.07.2027, 2 Nächte</title><circle cx="487.3" cy="374.3" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
-<g><title>9. Carlsbad: Di, 06.07.2027 – Mi, 07.07.2027, 1 Nacht</title><circle cx="374.1" cy="295.8" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
-<g><title>10. White Sands: Mi, 07.07.2027 – Do, 08.07.2027, 1 Nacht</title><circle cx="337.7" cy="282.6" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
-<g><title>11. Santa Fe: Do, 08.07.2027 – Fr, 09.07.2027, 1 Nacht</title><circle cx="348.1" cy="214.1" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
-<g><title>12. Monument Valley: Fr, 09.07.2027 – Sa, 10.07.2027, 1 Nacht</title><circle cx="273.0" cy="173.1" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
-<g><title>13. Grand Canyon: Sa, 10.07.2027 – So, 11.07.2027, 1 Nacht</title><circle cx="231.3" cy="188.9" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
-<g><title>14. Page: So, 11.07.2027 – Mo, 12.07.2027, 1 Nacht</title><circle cx="247.5" cy="170.8" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
-<g><title>15. Zion: Mo, 12.07.2027 – Mi, 14.07.2027, 2 Nächte</title><circle cx="219.9" cy="156.5" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
-<g><title>16. Las Vegas: Mi, 14.07.2027 – Fr, 16.07.2027, 2 Nächte</title><circle cx="175.3" cy="175.7" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
-<g><title>17. Washington, D.C.: Fr, 16.07.2027 – Mo, 19.07.2027, 3 Nächte</title><circle cx="886.7" cy="111.5" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
-<g><title>18. New York: Mo, 19.07.2027 – Fr, 23.07.2027, 4 Nächte</title><circle cx="931.3" cy="57.2" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
+<g><title>2. Key Largo: Mo, 21.06.2027 – Fr, 25.06.2027, 4 Nächte</title><circle cx="879.1" cy="450.1" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
+<g><title>3. Orlando: Fr, 25.06.2027 – Mo, 28.06.2027, 3 Nächte</title><circle cx="846.1" cy="372.3" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
+<g><title>4. Destin: Mo, 28.06.2027 – Mi, 30.06.2027, 2 Nächte</title><circle cx="734.7" cy="341.9" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
+<g><title>5. New Orleans: Mi, 30.06.2027 – Fr, 02.07.2027, 2 Nächte</title><circle cx="662.0" cy="358.4" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
+<g><title>6. Houston: Fr, 02.07.2027 – Sa, 03.07.2027, 1 Nacht</title><circle cx="552.3" cy="366.8" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
+<g><title>7. San Antonio: Sa, 03.07.2027 – Mo, 05.07.2027, 2 Nächte</title><circle cx="487.3" cy="374.3" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
+<g><title>8. Carlsbad: Di, 06.07.2027 – Mi, 07.07.2027, 1 Nacht</title><circle cx="374.1" cy="295.8" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
+<g><title>9. White Sands: Mi, 07.07.2027 – Do, 08.07.2027, 1 Nacht</title><circle cx="337.7" cy="282.6" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
+<g><title>10. Santa Fe: Do, 08.07.2027 – Fr, 09.07.2027, 1 Nacht</title><circle cx="348.1" cy="214.1" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
+<g><title>11. Monument Valley: Fr, 09.07.2027 – Sa, 10.07.2027, 1 Nacht</title><circle cx="273.0" cy="173.1" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
+<g><title>12. Grand Canyon: Sa, 10.07.2027 – Mo, 12.07.2027, 2 Nächte</title><circle cx="231.3" cy="188.9" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
+<g><title>13. Page: Mo, 12.07.2027 – Di, 13.07.2027, 1 Nacht</title><circle cx="247.5" cy="170.8" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
+<g><title>14. Zion: Di, 13.07.2027 – Do, 15.07.2027, 2 Nächte</title><circle cx="219.9" cy="156.5" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
+<g><title>15. Las Vegas: Do, 15.07.2027 – Sa, 17.07.2027, 2 Nächte</title><circle cx="175.3" cy="175.7" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
+<g><title>16. Washington, D.C.: Sa, 17.07.2027 – Di, 20.07.2027, 3 Nächte</title><circle cx="886.7" cy="111.5" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
+<g><title>17. New York: Di, 20.07.2027 – Fr, 23.07.2027, 3 Nächte</title><circle cx="931.3" cy="57.2" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
 <text class="fl" x="871.0" y="422.4" text-anchor="end">Ankunft aus Zürich ✈</text>
 <text class="fl" x="933.5" y="34.6" text-anchor="middle">Rückflug nach Zürich ✈</text>
 </svg>

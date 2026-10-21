@@ -48,14 +48,14 @@ window.START = {
       zusatz: "Roadtrip von Florida in den Westen, dann Washington und New York",
       passt: "Nationalparks, Roadtrip, Florida und Grossstädte im Vordergrund stehen, ihr sehr viele Fahrtage in Kauf nehmt und das höhere Budget (rund {mehrkosten} CHF mehr) passt.",
       kurz: "Fünf Wochen USA: mit dem Mietwagen von Miami über die Florida Keys, Orlando, die Golfküste, New Orleans und Texas zu Carlsbad Caverns, White Sands und den Nationalparks im Südwesten bis Las Vegas, dann Inlandflug nach Washington und Zug nach New York.",
-      route: "Miami, Key West, Key Largo, Orlando, Destin, New Orleans, Houston, San Antonio, Fort Stockton, Carlsbad Caverns, White Sands, Santa Fe, Monument Valley, Grand Canyon, Page, Zion, Las Vegas, (Flug) Washington, (Zug) New York",
-      stationen: "18 Stationen und 1 Zwischenübernachtung",
+      route: "Miami, Key Largo, Orlando, Destin, New Orleans, Houston, San Antonio, Fort Stockton, Carlsbad Caverns, White Sands, Santa Fe, Monument Valley, Grand Canyon, Page, Zion, Las Vegas, (Flug) Washington, (Zug) New York",
+      stationen: "17 Stationen und 1 Zwischenübernachtung",
       laender: "USA (Florida bis Nevada, Washington, New York)",
       hinflug: "Direktflug Zürich–Miami ca. 10,5 Std. (täglich)",
       rueckflug: "New York–Zürich ca. 7,5–8 Std. als Nachtflug am Fr, 23.07.2027, Ankunft Sa, 24.07.2027",
-      dazwischen: "Einwegmiete Miami–Las Vegas (ca. 27 Tage), Inlandflug Las Vegas–Washington (ca. 4,5–5 Std.), Amtrak Washington–New York (ca. 3–3,5 Std.)",
-      tempo: "Ca. 64 Std. reine Fahrzeit (ca. 6’000 km), realistisch mit Pausen und Stau ca. 74–78 Std. im Auto, an 16 Fahrtagen: 6 Tage mit 4,5–7 Std., die übrigen 2–4 Std.; dazu ein Inlandflug und ein Zug im Osten.",
-      gesamt: "Ca. 116–123 Std. Tür zu Tür: Bahn Brig-Glis–Zürich Flughafen (ca. 2,5 Std.), Flüge mit Wartezeiten, Einreise und Mietwagen zusammen ca. 30 Std., der Inlandflug nach Washington mit Transfers ca. 8–9 Std., der Zug nach New York ca. 4 Std. und ca. 74–78 Std. im Auto. Uhr −6 bis −9 Std., Jetlag vor allem nach der Rückkehr.",
+      dazwischen: "Einwegmiete Miami–Las Vegas (ca. 28 Tage), Inlandflug Las Vegas–Washington (ca. 4,5–5 Std.), Amtrak Washington–New York (ca. 3–3,5 Std.)",
+      tempo: "Ca. 59–60 Std. reine Fahrzeit (ca. 5’700 km), realistisch mit Pausen und Stau ca. 69–73 Std. im Auto, an 15 Fahrtagen: 6 Tage mit 4,5–7 Std., die übrigen 1,25–4 Std.; dazu ein Inlandflug und ein Zug im Osten.",
+      gesamt: "Ca. 111–118 Std. Tür zu Tür: Bahn Brig-Glis–Zürich Flughafen (ca. 2,5 Std.), Flüge mit Wartezeiten, Einreise und Mietwagen zusammen ca. 30 Std., der Inlandflug nach Washington mit Transfers ca. 8–9 Std., der Zug nach New York ca. 4 Std. und ca. 69–73 Std. im Auto. Uhr −6 bis −9 Std., Jetlag vor allem nach der Rückkehr.",
       wetter: "Florida, die Golfküste und Texas heiss und feucht mit Gewittern am Nachmittag, Hurrikansaison; im Südwesten 38–45 °C und Monsungewitter; Washington und New York heiss und schwül.",
       einreise: "ESTA für alle vier (ca. 40 USD pro Person), Regeln im Wandel. Nationalpark-Jahrespass für Nicht-Residenten 250 USD, 100 USD Zusatzgebühr pro Person ab 16 Jahren in 11 Parks.",
       hoehepunkte: "Everglades, Florida Keys mit Korallenriff, Kennedy Space Center und Universal, weisse Strände bei Destin, New Orleans, Space Center Houston, Alamo, Carlsbad Caverns, White Sands, Monument Valley, Grand Canyon, Antelope Canyon, Zion, Las Vegas, Smithsonian-Museen in Washington, New York.",
@@ -67,8 +67,8 @@ window.START = {
         "Sehr gute medizinische Versorgung, eigenes Tempo mit dem Mietwagen"
       ],
       contra: [
-        "Am teuersten (ca. {plan:usa} CHF): Einwegmiete quer durchs Land mit hoher Rückgabegebühr, Inlandflug, Unterkünfte in Key West und New York; Arztkosten sehr hoch",
-        "Am meisten Reisezeit: ca. 74–78 Std. im Auto an 16 Fahrtagen, Tür zu Tür ca. 116–123 Std. und Jetlag",
+        "Am teuersten (ca. {plan:usa} CHF): Einwegmiete quer durchs Land mit hoher Rückgabegebühr, Inlandflug, Unterkünfte in New York; Arztkosten sehr hoch",
+        "Am meisten Reisezeit: ca. 69–73 Std. im Auto an 15 Fahrtagen, Tür zu Tür ca. 111–118 Std. und Jetlag",
         "Hitze im Südwesten (oft über 40 °C), Gewitter und Hurrikansaison in Florida und an der Golfküste",
         "Drei Flüge mit viel CO₂, ESTA-Regeln vorab prüfen"
       ]
@@ -140,7 +140,7 @@ window.START = {
         4,
         "Vier Nächte auf Formentera, dazu Costa Brava, Benidorm, Cabo de Gata, Tarifa, Cádiz, Algarve und San Sebastián; im Juli voll."
       ],
-      usa: [3, "Miami Beach, die Florida Keys und die weissen Strände bei Destin mit ca. 28–30 °C warmem Wasser; aber nur rund 8 von 34 Nächten am Meer, Gewitter und rote Flaggen."],
+      usa: [3, "Miami Beach, Key Largo und Islamorada und die weissen Strände bei Destin mit ca. 28–30 °C warmem Wasser; aber nur rund 8 von 34 Nächten am Meer, Gewitter und rote Flaggen."],
       asien: [
         5,
         "Tioman, Perhentian Islands, Khanom, Koh Samui, Koh Tao und Hua Hin: tropische Strände mit ca. 29 °C warmem Wasser an fast jeder zweiten Station."
@@ -152,7 +152,7 @@ window.START = {
         3,
         "Gutes Mittelmeer-Schnorcheln: Meeresschutzgebiet der Medes-Inseln mit grossen Fischen, vier Nächte auf Formentera (Cala Saona, Es Caló, Seegraswiesen mit sehr klarem Wasser) und das Cabo de Gata (Los Escullos, Cala de San Pedro); wenige Korallen, keine Riffe und kühleres Wasser als in den Tropen."
       ],
-      usa: [3, "Das einzige Korallenriff der USA-Festlandküste im Pennekamp-Park bei Key Largo, optional die Dry Tortugas; eine Bootstour, das Riff ist weniger farbig als in Südostasien."],
+      usa: [3, "Das einzige Korallenriff der USA-Festlandküste im Pennekamp-Park bei Key Largo mit Ausweichtag bei Wind; eine bis zwei Bootstouren, das Riff ist weniger farbig als in Südostasien."],
       asien: [
         5,
         "Tioman, Perhentian Islands, Koh Samui und Koh Tao: fast jede Inselstation hat Riffe, Schildkröten und Schnorchelboote."
@@ -191,7 +191,7 @@ window.START = {
     {
       kriterium: "Budget (mehr Punkte = günstiger)",
       marokko: [4, "ca. {plan:marokko} CHF: kein Flug, Supercharging gratis, Marokko günstig; dafür Fähren und Züge in Marokko sowie Parkplatz in Tarifa."],
-      usa: [1, "ca. {plan:usa} CHF: rund {mehrkosten} CHF mehr, vor allem Einwegmiete mit Rückgabegebühr, Inlandflug und Unterkünfte in Key West und New York."],
+      usa: [1, "ca. {plan:usa} CHF: rund {mehrkosten} CHF mehr, vor allem Einwegmiete mit Rückgabegebühr, Inlandflug und Unterkünfte in New York."],
       asien: [4, "ca. {plan:asien} CHF: Singapur ist teuer, der Rest günstig."]
     },
     {
@@ -200,7 +200,7 @@ window.START = {
         3,
         "Ca. 96–103 Stunden Tür zu Tür, kein Jetlag, in Marokko kein Fahren; aber Wechsel zwischen eigenem Auto, Fähre und Zug, Passkontrollen, ein langer Zugtag Marrakesch–Fès und mehrere Tage mit 7–9 Stunden."
       ],
-      usa: [1, "Ca. 116–123 Stunden Tür zu Tür: zwei Langstreckenflüge mit Einreise und Jetlag, ein Inlandflug, dazu am meisten Zeit im Auto (ca. 74–78 Stunden an 16 Fahrtagen, sechs Tage mit 4,5–7 Stunden)."],
+      usa: [1, "Ca. 111–118 Stunden Tür zu Tür: zwei Langstreckenflüge mit Einreise und Jetlag, ein Inlandflug, dazu am meisten Zeit im Auto (ca. 69–73 Stunden an 15 Fahrtagen, sechs Tage mit 4,5–7 Stunden)."],
       asien: [
         2,
         "Ca. 101–108 Stunden Tür zu Tür: zwei Direktflüge mit Jetlag, dazu ca. 65–70 Stunden mit Bus, Zug und Fähre und viele Umstiege mit Gepäck; niemand muss selber fahren."
@@ -212,7 +212,7 @@ window.START = {
         5,
         "Kein Flug: Elektroauto (ca. 1’100 kWh), zwei kurze Fähren, Züge in Marokko (ohne Mietwagen); grob geschätzt ca. 0,1–0,2 t CO₂ pro Person."
       ],
-      usa: [1, "Zwei Langstreckenflüge und ein Inlandflug (zusammen ca. 17’500 km) und ca. 6’000 km Mietwagen, grob geschätzt ca. 3,5–4 t CO₂ pro Person."],
+      usa: [1, "Zwei Langstreckenflüge und ein Inlandflug (zusammen ca. 17’500 km) und ca. 5’700 km Mietwagen, grob geschätzt ca. 3,5–4 t CO₂ pro Person."],
       asien: [
         1,
         "Zwei Langstreckenflüge (ca. 19’000 km), unterwegs Bus, Zug und Fähre, grob geschätzt ca. 4 t CO₂ pro Person."

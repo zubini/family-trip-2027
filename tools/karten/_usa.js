@@ -5,10 +5,8 @@ const orte = {
   CAR: [32.42, -104.23], WS: [32.82, -106.10], SF: [35.69, -105.94], MV: [36.98, -110.11], GC: [36.06, -112.14], PG: [36.91, -111.46],
   ZI: [37.30, -113.03], LV: [36.17, -115.14], DC: [38.91, -77.04], NY: [40.71, -74.01]
 };
-const KEYS = ['MIA', 'HMS', 'KL', 'ISL', 'MAR', [24.66, -81.38], 'KW'];
 const wege = [
-  ['car', 'Miami – Key West (Overseas Highway)', KEYS],
-  ['car', 'Key West – Key Largo', KEYS.slice(2).reverse()],
+  ['car', 'Miami – Key Largo', ['MIA', 'HMS', 'KL']],
   ['car', 'Key Largo – Orlando (Florida’s Turnpike)', ['KL', 'HMS', [25.80, -80.42], [26.70, -80.20], [27.45, -80.60], [28.20, -81.10], 'ORL']],
   ['car', 'Orlando – Destin', ['ORL', [28.95, -82.00], [29.65, -82.33], [30.20, -82.60], [30.44, -84.28], [30.70, -85.40], [30.65, -86.20], 'DES']],
   ['car', 'Destin – New Orleans', ['DES', [30.42, -87.20], [30.69, -88.04], [30.40, -89.00], 'NOL']],
@@ -26,9 +24,9 @@ const wege = [
   ['air', 'Las Vegas – Washington (Inlandflug)', ['LV', [38.6, -104.0], [39.4, -92.0], [39.3, -84.0], 'DC']],
   ['train', 'Washington – New York (Amtrak)', ['DC', [39.29, -76.61], [39.74, -75.55], [40.22, -74.76], [40.50, -74.45], [40.73, -74.17], 'NY']]
 ];
-const STATIONEN = [[1, 'MIA', 'Miami'], [2, 'KW', 'Key West'], [3, 'KL', 'Key Largo'], [4, 'ORL', 'Orlando'], [5, 'DES', 'Destin'],
-  [6, 'NOL', 'New Orleans'], [7, 'HOU', 'Houston'], [8, 'SAT', 'San Antonio'], [9, 'CAR', 'Carlsbad'], [10, 'WS', 'White Sands'],
-  [11, 'SF', 'Santa Fe'], [12, 'MV', 'Monument Valley'], [13, 'GC', 'Grand Canyon'], [14, 'PG', 'Page'], [15, 'ZI', 'Zion'], [16, 'LV', 'Las Vegas'],
-  [17, 'DC', 'Washington, D.C.'], [18, 'NY', 'New York']];
+const STATIONEN = [[1, 'MIA', 'Miami'], [2, 'KL', 'Key Largo'], [3, 'ORL', 'Orlando'], [4, 'DES', 'Destin'],
+  [5, 'NOL', 'New Orleans'], [6, 'HOU', 'Houston'], [7, 'SAT', 'San Antonio'], [8, 'CAR', 'Carlsbad'], [9, 'WS', 'White Sands'],
+  [10, 'SF', 'Santa Fe'], [11, 'MV', 'Monument Valley'], [12, 'GC', 'Grand Canyon'], [13, 'PG', 'Page'], [14, 'ZI', 'Zion'], [15, 'LV', 'Las Vegas'],
+  [16, 'DC', 'Washington, D.C.'], [17, 'NY', 'New York']];
 const stationen = seiten => STATIONEN.filter(s => seiten[s[0]]).map(([nr, o, name]) => [nr, o, seiten[nr], name]);
 module.exports = { orte, wege, stationen, basis: { reise: 'usa', projektion: 'albers', laender: ['USA'], orte } };
