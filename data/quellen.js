@@ -108,6 +108,27 @@ window.QUELLEN = {
       ]
     },
     {
+      titel: "USA-Variante New York – Florida",
+      links: [
+        ["NHC: Hurrikan-Klimatologie (Saison 1. Juni–30. November, Höhepunkt um den 10. September)", "https://www.nhc.noaa.gov/climo/"],
+        ["Wikipedia: Klima von Miami (Juli ca. 33 °C, Gewitter am Nachmittag)", "https://en.wikipedia.org/wiki/Climate_of_Miami"],
+        ["Seatemperature: Wassertemperatur Florida Keys im Juli (ca. 30 °C)", "https://seatemperature.net/monthly/florida-keys-sea-temperature-in-july-9222"],
+        ["Flight-Status: SWISS LX 14 Zürich–New York JFK (Sommer 2026 ca. 13.15–16.35 Uhr)", "https://flight-status.com/swiss/lx-14"],
+        ["Flightmapper: SWISS LX 65 Miami–Zürich (täglich, Sommer 2026 ca. 19.40–10.50 Uhr)", "https://info.flightmapper.net/flight/Swiss_LX_65"],
+        ["Siesta Key Chamber: Strand, Quarzsand, Parkplätze", "https://www.siestakeychamber.com/plan-your-trip/faqs/"],
+        ["Visit Florida: Siesta Key", "https://www.visitflorida.com/travel-ideas/articles/beach-highlights-siesta-key"],
+        ["MustDo: Schnorcheln am Point of Rocks (Siesta Key)", "https://www.mustdo.com/articles/snorkeling-at-point-of-rocks-on-siesta-key/"],
+        ["Shark Valley Tram Tours: Preise", "https://www.sharkvalleytramtours.com/?p=11400"],
+        ["NPS: Everglades, Eintritt und Zusatzgebühr", "https://home.nps.gov/ever/planyourvisit/fees.htm"],
+        ["Florida Review: Kennedy Space Center, Preise 2026", "https://www.floridareview.co.uk/blog/buying-kennedy-space-center-tickets"],
+        ["Florida Review: Universal Orlando, Preise 2026", "https://www.floridareview.co.uk/blog/buying-universal-orlando-tickets"],
+        ["Free Tours by Foot: Fort Sumter, Fähre und Preise", "https://freetoursbyfoot.com/visit-fort-sumter-charleston/"],
+        ["NPS: Castillo de San Marcos, Eintritt", "https://www.nps.gov/casa/planyourvisit/fees.htm"],
+        ["Hertz (Virgin Holidays): Einweggebühren in den USA nach Distanz", "https://flywith.virginatlantic.com/content/dam/vhols/fly-drives/hertz-usa-one-way-fees.pdf"],
+        ["OSRM: Fahrzeiten Gatlinburg–Charleston, Savannah–St. Augustine, Orlando–Siesta Key, Siesta Key–Key Largo (Routenplaner, ohne Stau; vorab prüfen)", "https://router.project-osrm.org"]
+      ]
+    },
+    {
       titel: "Bewertung: Reisezeit und CO₂",
       links: [
         ["Trainline: Zürich Flughafen–Brig mit dem Zug (ca. 2,5 Std.)", "https://thetrainline.com/train-times/zurich-to-brig"],

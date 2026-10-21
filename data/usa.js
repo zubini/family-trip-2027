@@ -5,6 +5,7 @@ window.REISEN = window.REISEN || {};
 REISEN.usa = {
   titel: "Von Las Vegas über New Orleans nach New York",
   menu: "USA",
+  variante: "Las Vegas – New Orleans – New York",
   untertitel: "Fünf Wochen USA ohne Inlandflug: mit dem Mietwagen von Las Vegas durch die Nationalparks im Südwesten, über Texas und New Orleans an die Golfküste, durch die Great Smoky Mountains und Shenandoah nach Washington, dann mit dem Zug nach New York.",
   zeitraum: "Sa, 19.06.2027 bis Do, 22.07.2027, 2 Erwachsene und 2 Kids",
   titelbild: {
