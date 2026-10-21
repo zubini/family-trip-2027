@@ -1,13 +1,13 @@
-// Variante der USA-Reise (data/usa.js): von New York über Washington, die Smokies und die Altstädte des Südens nach Florida
+// Variante der USA-Reise (data/usa.js): von New York über Washington, die Smokies, New Orleans und Houston nach Florida
 // Daten in "datum" ohne Wochentag schreiben (z.B. "19.–22. Juni"), die Wochentage rechnet js/app.js aus.
 // Texte dürfen einfaches HTML enthalten (<b>, <strong>, <i>).
 window.REISEN = window.REISEN || {};
 REISEN.usa2 = {
-  titel: "Von New York nach Florida",
+  titel: "Von New York über New Orleans nach Florida",
   menu: "USA",
   alternativeZu: "usa",
-  variante: "New York – Florida",
-  untertitel: "Fünf Wochen USA im Osten: New York und Washington, die Berge von Shenandoah und den Smokies, die Altstädte Charleston, Savannah und St. Augustine, Freizeitparks in Orlando, Strand an der Golfküste, Korallenriff in den Keys und zum Schluss Miami.",
+  variante: "New York – New Orleans – Florida",
+  untertitel: "Fünf Wochen USA: New York und Washington, die Berge von Shenandoah und den Smokies, New Orleans und das Space Center Houston, Strand in Destin, Freizeitparks in Orlando, die Golfküste bei Siesta Key, Korallenriff in den Keys und zum Schluss Miami.",
   zeitraum: "Sa, 19.06.2027 bis Do, 22.07.2027, 2 Erwachsene und 2 Kids",
   titelbild: {
     suche: "Seven Mile Bridge Florida Keys|Florida Keys aerial",
@@ -35,15 +35,22 @@ REISEN.usa2 = {
       info: "Mietwagen ab Washington (ca. 1,75–2 Std.; Einwegmiete bis Miami)"
     },
     {datum: "28. Juni–1. Juli", name: "4. Great Smoky Mountains", naechte: 3, info: "Mietwagen (ca. 6–7 Std.)"},
-    {datum: "1.–3. Juli", name: "5. Charleston", naechte: 2, info: "Mietwagen über Asheville (ca. 5,75–6,25 Std.)"},
-    {datum: "3.–5. Juli", name: "6. Savannah", naechte: 2, info: "Mietwagen (ca. 2 Std.)"},
-    {datum: "5.–6. Juli", name: "7. St. Augustine", naechte: 1, info: "Mietwagen (ca. 2,75–3 Std.)"},
-    {datum: "6.–10. Juli", name: "8. Orlando", naechte: 4, info: "Mietwagen (ca. 1,75 Std.)"},
-    {datum: "10.–14. Juli", name: "9. Siesta Key (Golfküste)", naechte: 4, info: "Mietwagen (ca. 2,25 Std.)"},
     {
-      datum: "14.–18. Juli",
+      datum: "1.–2. Juli",
+      name: "Zwischenübernachtung Birmingham",
+      naechte: 1,
+      info: "Mietwagen (ca. 4,75–5 Std.), Uhr −1 Std."
+    },
+    {datum: "2.–4. Juli", name: "5. New Orleans", naechte: 2, info: "Mietwagen (ca. 5,25–5,5 Std.)"},
+    {datum: "4.–6. Juli", name: "6. Houston", naechte: 2, info: "Mietwagen (ca. 5–6 Std.)"},
+    {datum: "6.–7. Juli", name: "Zwischenübernachtung Lafayette", naechte: 1, info: "Mietwagen (ca. 3,25–3,5 Std.)"},
+    {datum: "7.–9. Juli", name: "7. Destin (Golfküste)", naechte: 2, info: "Mietwagen (ca. 6 Std.)"},
+    {datum: "9.–12. Juli", name: "8. Orlando", naechte: 3, info: "Mietwagen (ca. 6–7 Std.), Uhr +1 Std."},
+    {datum: "12.–15. Juli", name: "9. Siesta Key (Golfküste)", naechte: 3, info: "Mietwagen (ca. 2,25 Std.)"},
+    {
+      datum: "15.–18. Juli",
       name: "10. Key Largo und Islamorada",
-      naechte: 4,
+      naechte: 3,
       info: "Mietwagen durch die Everglades (ca. 4,5–5 Std.)"
     },
     {datum: "18.–21. Juli", name: "11. Miami", naechte: 3, info: "Mietwagen (ca. 1,25–1,5 Std.); Rückflug 21. Juli"}
@@ -56,7 +63,7 @@ REISEN.usa2 = {
   planHinweise: [
     [
       "Gesamt",
-      "32 Nächte, 11 Stationen. Zuerst New York und Washington mit dem Zug (ca. 3–3,5 Std.), dann eine Einwegmiete Washington–Miami (ca. 25 Tage) mit ca. 2’800 km und ca. 29–31 Std. reiner Fahrzeit an 9 Fahrtagen, realistisch ca. 35–38 Std. im Auto. Die längsten Fahrtage: Luray–Gatlinburg (ca. 6–7 Std.), Gatlinburg–Charleston (ca. 5,75–6,25 Std.), Siesta Key–Key Largo (ca. 4,5–5 Std.); die übrigen 1,25–3 Std."
+      "32 Nächte, 11 Stationen und zwei Zwischenübernachtungen (Birmingham, Lafayette). Zuerst New York und Washington mit dem Zug (ca. 3–3,5 Std.), dann eine Einwegmiete Washington–Miami (ca. 25 Tage) mit ca. 4’800 km und ca. 46–51 Std. reiner Fahrzeit an 11 Fahrtagen, realistisch ca. 54–60 Std. im Auto. Die längsten Fahrtage: Luray–Gatlinburg und Destin–Orlando (je ca. 6–7 Std.), Lafayette–Destin (ca. 6 Std.), New Orleans–Houston (ca. 5–6 Std.), Birmingham–New Orleans (ca. 5,25–5,5 Std.). Von Houston führt der Weg ein Stück auf derselben Strecke zurück nach Osten."
     ],
     [
       "Flug ab und nach Zürich",
@@ -68,15 +75,15 @@ REISEN.usa2 = {
     ],
     [
       "Vorab buchen",
-      "Flüge, Einwegmiete Washington–Miami (Gebühr vergleichen), Amtrak New York–Washington, Aussichtsplattform und Broadway in New York, Air and Space Museum, Parkticket Smokies, Dollywood, Fort Sumter, Universal und Kennedy Space Center, Apartment in Siesta Key, Unterkunft und Schnorcheltour in Key Largo."
+      "Flüge, Einwegmiete Washington–Miami (Gebühr vergleichen), Amtrak New York–Washington, Aussichtsplattform und Broadway in New York, Air and Space Museum, Parkticket Smokies, Dollywood, Sumpftour in New Orleans, Space Center Houston, Unterkunft in Destin, Universal und Kennedy Space Center, Apartment in Siesta Key, Unterkunft und Schnorcheltour in Key Largo."
     ],
     [
       "Optional",
-      "Philadelphia (Halt mit dem Zug), Blue Ridge Parkway und Asheville (zwischen den Smokies und Charleston), Hilton Head Island, Cocoa Beach (ab Orlando), Key West (Tagesausflug ab Key Largo), Dry Tortugas."
+      "Philadelphia (Halt mit dem Zug), Nashville (Musikstadt, statt Birmingham), Galveston (Strand, ab Houston), Charleston und Savannah (Altstädte, statt New Orleans und Houston), Cocoa Beach (ab Orlando), Key West (Tagesausflug ab Key Largo)."
     ],
     [
       "Unterschied zur Route ab Las Vegas",
-      "Gleiche Reisedaten und gleiche Teile im Osten (New York, Washington, Shenandoah, Smokies). Statt Wüste, Texas und New Orleans: Altstädte Charleston, Savannah und St. Augustine, Orlando, Strand an der Golfküste und Korallenriff in den Keys. Rund die Hälfte der Fahrzeit, mehr Strand und Schnorcheln, aber keine Nationalparks im Westen."
+      "Gleiche Reisedaten und gleiche Teile im Osten (New York, Washington, Shenandoah, Smokies), dazu wie dort New Orleans, Houston und Destin. Statt Wüste, Zion, Monument Valley und Atlanta: Orlando, Siesta Key, das Korallenriff in den Keys und Miami. Weniger Fahrzeit, mehr Strand und Schnorcheln, aber keine Nationalparks im Westen."
     ]
   ],
   karte: {
@@ -85,27 +92,27 @@ REISEN.usa2 = {
     legende: ["car", "train"],
     karten: [{datei: "karten/usa2.svg"}]
   },
-  abwechslungIntro: "Grossstädte, grüne Berge, Altstädte des Südens, Freizeitparks und Strand wechseln sich ab; nach langen Fahrtagen ein ruhiger Tag.",
+  abwechslungIntro: "Grossstädte, grüne Berge, die Südstaaten, Freizeitparks und Strand wechseln sich ab; nach langen Fahrtagen ein ruhiger Tag.",
   abwechslung: [
     [
       "Städte und Kultur",
-      "New York, Washington mit den Smithsonian-Museen, Charleston, Savannah, St. Augustine (älteste Stadt der USA) und Miami."
+      "New York, Washington mit den Smithsonian-Museen, New Orleans mit Jazz, Houston mit dem Space Center und Miami."
     ],
     [
       "Natur",
-      "Shenandoah mit den Luray Caverns, Great Smoky Mountains, Everglades, Mangroven und das Korallenriff der Keys."
+      "Shenandoah mit den Luray Caverns, Great Smoky Mountains, Sümpfe in Louisiana, Everglades, Mangroven und das Korallenriff der Keys."
     ],
     [
       "Strand und Schnorcheln",
-      "Tybee Island, St. Augustine Beach, vier Nächte Siesta Key an der Golfküste, vier Nächte Key Largo mit Schnorcheltour am Riff, Miami Beach. Wasser ca. 29–31 °C."
+      "Zwei Nächte Destin, drei Nächte Siesta Key an der Golfküste, drei Nächte Key Largo mit Schnorcheltour am Riff, Miami Beach. Wasser ca. 29–31 °C."
     ],
     [
       "Action und Freizeitparks",
-      "Universal und Kennedy Space Center in Orlando, Dollywood, Airboat in den Everglades, Broadway in New York."
+      "Space Center Houston, Universal und Kennedy Space Center in Orlando, Dollywood, Sumpftour in Louisiana, Airboat in den Everglades, Broadway in New York."
     ],
     ["Ruhetage", "Siesta Key und Key Largo sind Strandferien; in New York und Washington kein Auto."]
   ],
-  stationenIntro: "Elf Stationen von New York bis Miami. Über jeder Station steht, wie ihr dorthin kommt.",
+  stationenIntro: "Elf Stationen und zwei Zwischenübernachtungen von New York bis Miami. Über jeder Station steht, wie ihr dorthin kommt.",
   stationen: [
     {
       nr: 1,
@@ -218,81 +225,83 @@ REISEN.usa2 = {
     },
     {
       nr: 5,
-      name: "Charleston",
+      name: "New Orleans",
       land: "us",
-      region: "South Carolina",
-      datum: "1.–3. Juli",
+      region: "Louisiana",
+      datum: "2.–4. Juli",
       naechte: "2 Nächte",
-      anreise: "Mietwagen von Gatlinburg über die Berge nach Asheville und auf der Interstate 26 nach Charleston (ca. 5,75–6,25 Std., ca. 560 km); in Asheville Mittagshalt möglich.",
-      text: "Pastellfarbene Häuser, Kirchtürme und Gaslaternen in einer der ältesten Städte der USA. Vor dem Hafen liegt Fort Sumter, wo der Bürgerkrieg begann; Strände und Inseln sind nah.",
-      teens: "Flugzeugträger USS Yorktown in Patriots Point, Boot zum Fort Sumter, Rainbow Row und Ananasbrunnen, Baden am Folly Beach, die riesige Angel Oak.",
+      zwischenstopp: {text: "Zwischenübernachtung in Birmingham", datum: "1.–2. Juli"},
+      anreise: "Mietwagen von Gatlinburg über Knoxville und Chattanooga nach Birmingham (ca. 4,75–5 Std., ca. 480 km), dort übernachten; in Alabama gilt die Central-Zeit, die Uhr springt −1 Std. Am nächsten Tag über die Interstate 59 nach New Orleans (ca. 5,25–5,5 Std., ca. 555 km).",
+      text: "Jazz, Balkone mit schmiedeeisernen Geländern und kreolische Küche im French Quarter, dazu Sümpfe mit Alligatoren gleich vor der Stadt.",
+      teens: "Sumpftour mit Alligatoren, Raddampfer auf dem Mississippi, Beignets im Café du Monde, Strassenmusik im French Quarter, Insektenmuseum Audubon Insectarium.",
       fakten: [
-        "<strong>Dauer:</strong> 2 Nächte: ein Tag Altstadt und Fort Sumter, ein Tag Patriots Point und Strand.",
-        "<strong>Geschichte:</strong> Charleston war ein grosser Sklavenhandelshafen. Das International African American Museum und Plantagen wie McLeod erzählen diese Geschichte.",
-        "<strong>Fort Sumter:</strong> Nur mit dem Boot erreichbar (ca. 2,25 Std. mit Besuch); 2026 ca. 35 USD ab 12 Jahren, Tickets vorab."
+        "<strong>Dauer:</strong> 2 Nächte: ein Tag French Quarter, Raddampfer und Beignets, ein halber Tag Sumpftour mit Alligatoren.",
+        "<strong>Hitze:</strong> Sehr feucht und heiss; Programm am Morgen und Abend, mittags klimatisierte Museen.",
+        "<strong>Sicherheit:</strong> Im French Quarter abends auf belebten Strassen bleiben, Wertsachen nicht offen tragen."
       ],
-      ausserdem: "Waterfront Park, City Market, Magnolia Plantation, Sullivan’s Island, Isle of Palms.",
+      ausserdem: "Garden District, National WWII Museum, Jackson Square, Frenchmen Street (Jazz).",
       bilder: [
-        {titel: "Rainbow Row", suche: "Rainbow Row Charleston", stichwort: "rainbow row"},
-        {titel: "Ananasbrunnen", suche: "Pineapple Fountain Charleston", stichwort: "pineapple"},
-        {titel: "Fort Sumter", suche: "Fort Sumter Charleston", stichwort: "sumter"},
-        {titel: "USS Yorktown", suche: "USS Yorktown Patriots Point", stichwort: "yorktown"},
-        {titel: "Angel Oak", suche: "Angel Oak Tree Charleston", stichwort: "angel oak"},
-        {titel: "Folly Beach", suche: "Folly Beach pier", stichwort: "folly"}
+        {titel: "French Quarter", suche: "French Quarter New Orleans balconies", stichwort: "french quarter"},
+        {titel: "Sumpftour", suche: "Louisiana swamp tour alligator|Louisiana bayou", stichwort: "swamp|bayou"},
+        {titel: "Raddampfer", suche: "Steamboat Natchez New Orleans", stichwort: "natchez"},
+        {titel: "Jackson Square", suche: "Jackson Square New Orleans", stichwort: "jackson square"},
+        {titel: "Garden District", suche: "Garden District New Orleans", stichwort: "garden district"},
+        {titel: "Café du Monde", suche: "Cafe du Monde New Orleans", stichwort: "du monde"}
       ]
     },
     {
       nr: 6,
-      name: "Savannah",
+      name: "Houston",
       land: "us",
-      region: "Georgia",
-      datum: "3.–5. Juli",
+      region: "Texas",
+      datum: "4.–6. Juli",
       naechte: "2 Nächte",
-      anreise: "Mietwagen von Charleston über die US-17 und die Interstate 95 nach Savannah (ca. 2 Std., ca. 175 km).",
-      text: "Eine der schönsten Altstädte des Südens: 22 grüne Plätze unter Eichen mit Spanischem Moos, alte Backsteinhäuser am Fluss und in einer halben Stunde der Strand von Tybee Island.",
-      teens: "Trolley oder Geisterführung am Abend, Brunnen im Forsyth Park, River Street mit Schiffen, Strand und Leuchtturm auf Tybee Island, Delfine vom Boot aus.",
+      anreise: "Mietwagen von New Orleans über die Interstate 10 durch Louisiana nach Houston (ca. 5–6 Std., ca. 560 km).",
+      text: "Die Raumfahrtstadt: Im Space Center Houston steht man in der Halle der Saturn-V-Rakete und neben dem Kontrollraum der Mondlandungen.",
+      teens: "Space Center Houston mit Tram-Tour zum Mission Control und zur Saturn-V-Halle, Museum District, Abend am Buffalo Bayou.",
       fakten: [
-        "<strong>Dauer:</strong> 2 Nächte: ein Tag Altstadt mit den Plätzen und der River Street, ein Tag Tybee Island (Strand, Leuchtturm, ca. 30 Min.).",
-        "<strong>4. Juli:</strong> Am Nationalfeiertag (Sonntag) Feuerwerk am Fluss; Unterkünfte früh buchen.",
-        "<strong>Hitze:</strong> Schwül und heiss, am Nachmittag oft Gewitter; Programm am Morgen und Abend."
+        "<strong>Dauer:</strong> 2 Nächte: ein Tag Space Center Houston (ca. 40 Min. südöstlich der Stadt), ein halber Tag Museum District oder Strand in Galveston (ca. 1 Std.).",
+        "<strong>Hitze:</strong> Heiss und feucht; das Space Center ist zum grossen Teil klimatisiert.",
+        "<strong>4. Juli:</strong> Am Nationalfeiertag (Sonntag) grosses Feuerwerk in der Innenstadt; Unterkünfte früh buchen."
       ],
-      ausserdem: "Bonaventure Cemetery, Wormsloe (Eichenallee), Fort Pulaski, Hilton Head Island.",
+      ausserdem: "Museum District, Buffalo Bayou Park, Galveston (Strand, ca. 1 Std.).",
       bilder: [
-        {titel: "Plätze mit Eichen", suche: "Savannah Georgia square oak Spanish moss", stichwort: "savannah|moss"},
-        {titel: "Forsyth Park", suche: "Forsyth Park fountain Savannah", stichwort: "forsyth"},
-        {titel: "River Street", suche: "River Street Savannah", stichwort: "savannah|river"},
-        {titel: "Tybee Island", suche: "Tybee Island lighthouse", stichwort: "tybee"},
-        {titel: "Wormsloe", suche: "Wormsloe oak avenue", stichwort: "wormsloe|oak"},
-        {titel: "Altstadt", suche: "Savannah historic district", stichwort: "savannah"}
+        {titel: "Space Center Houston", suche: "Space Center Houston", stichwort: "space center houston"},
+        {titel: "Saturn V", suche: "Saturn V Johnson Space Center", stichwort: "saturn"},
+        {
+          titel: "Mission Control",
+          suche: "Christopher C. Kraft Mission Control Center|Mission Control Houston",
+          stichwort: "mission control"
+        },
+        {titel: "Skyline", suche: "Houston skyline", stichwort: "houston"},
+        {titel: "Buffalo Bayou", suche: "Buffalo Bayou Park Houston", stichwort: "buffalo bayou"},
+        {titel: "Galveston", suche: "Galveston Pleasure Pier", stichwort: "galveston"}
       ]
     },
     {
       nr: 7,
-      name: "St. Augustine",
+      name: "Destin (Golfküste)",
       land: "us",
-      region: "Florida",
-      datum: "5.–6. Juli",
-      naechte: "1 Nacht",
-      anreise: "Mietwagen von Savannah über die Interstate 95 nach St. Augustine (ca. 2,75–3 Std., ca. 305 km).",
-      text: "Die älteste von Europäern gegründete Stadt der USA (1565): eine spanische Festung am Meer, enge Gassen mit Balkonen und ein langer Atlantikstrand gleich vor der Stadt.",
-      teens: "Festung Castillo de San Marcos mit Kanonenvorführung, Aufstieg auf den Leuchtturm (219 Stufen), Altstadtgasse St. George Street, Baden am St. Augustine Beach, Alligator Farm.",
+      region: "Florida Panhandle",
+      datum: "7.–9. Juli",
+      naechte: "2 Nächte",
+      zwischenstopp: {text: "Zwischenübernachtung in Lafayette", datum: "6.–7. Juli"},
+      anreise: "Mietwagen von Houston über die Interstate 10 nach Lafayette (ca. 3,25–3,5 Std., ca. 350 km), dort übernachten: Cajun-Küche, mit Glück eine Sumpftour am Abend. Am nächsten Tag über Baton Rouge und Mobile nach Destin (ca. 6 Std., ca. 585 km).",
+      text: "Weisser Quarzsand und smaragdgrünes Wasser am Golf von Mexiko: zwei Strandtage nach den Städten, bevor es nach Florida hineingeht.",
+      teens: "Baden und Sandburgen am Henderson Beach, Delfin-Bootstour, Schnorcheln an den Jetties von Destin (ruhiges Wasser), Stand-up-Paddle.",
       fakten: [
-        "<strong>Dauer:</strong> 1 Nacht: am Nachmittag Festung und Altstadt, am Abend Strand, am Morgen Leuchtturm und weiter nach Orlando.",
-        "<strong>Castillo de San Marcos:</strong> Eintritt 15 USD pro Person ab 16 Jahren (Kids gratis), nur mit Karte; mit dem Jahrespass inklusive.",
-        "<strong>Baden:</strong> Auf die Strandflaggen achten, am Atlantik gibt es Strömungen."
+        "<strong>Dauer:</strong> 2 Nächte am Strand, z.B. in Destin oder Santa Rosa Beach.",
+        "<strong>Baden:</strong> Auf die Strandflaggen achten: rote Flagge heisst gefährliche Strömung (Rip Currents), dann nicht ins Wasser.",
+        "<strong>Wetter:</strong> Gewitter am Nachmittag sind häufig; Hurrikansaison."
       ],
-      ausserdem: "Flagler College (ehemaliges Hotel), Bridge of Lions, Fort Matanzas, Anastasia State Park.",
+      ausserdem: "Henderson Beach State Park, Grayton Beach, Seaside, Pensacola Beach (auf dem Weg).",
       bilder: [
-        {
-          titel: "Castillo de San Marcos",
-          suche: "Castillo de San Marcos St Augustine",
-          stichwort: "castillo|san marcos"
-        },
-        {titel: "Altstadt", suche: "St George Street St Augustine", stichwort: "st george|augustine"},
-        {titel: "Leuchtturm", suche: "St Augustine Lighthouse", stichwort: "lighthouse"},
-        {titel: "Flagler College", suche: "Flagler College St Augustine", stichwort: "flagler"},
-        {titel: "Strand", suche: "St Augustine Beach pier", stichwort: "augustine"},
-        {titel: "Bridge of Lions", suche: "Bridge of Lions St Augustine", stichwort: "bridge of lions"}
+        {titel: "Strand", suche: "Destin Florida beach", stichwort: "destin"},
+        {titel: "Henderson Beach", suche: "Henderson Beach State Park", stichwort: "henderson"},
+        {titel: "Grayton Beach", suche: "Grayton Beach State Park", stichwort: "grayton"},
+        {titel: "Seaside", suche: "Seaside Florida", stichwort: "seaside"},
+        {titel: "Smaragdküste", suche: "Emerald Coast Florida", stichwort: "emerald coast"},
+        {titel: "Pensacola Beach", suche: "Pensacola Beach", stichwort: "pensacola"}
       ]
     },
     {
@@ -300,13 +309,13 @@ REISEN.usa2 = {
       name: "Orlando",
       land: "us",
       region: "Florida",
-      datum: "6.–10. Juli",
-      naechte: "4 Nächte",
-      anreise: "Mietwagen von St. Augustine über die Interstate 95 und die Interstate 4 nach Orlando (ca. 1,75 Std., ca. 170 km).",
+      datum: "9.–12. Juli",
+      naechte: "3 Nächte",
+      anreise: "Mietwagen von Destin über die Interstate 10 und die Interstate 75 nach Orlando (ca. 6–7 Std., ca. 650 km). In Orlando gilt Eastern-Zeit, die Uhr springt +1 Std.",
       text: "Hauptstadt der Freizeitparks und Ausgangspunkt zum Kennedy Space Center, von wo die Raketen starten. Für die Teenager einer der Höhepunkte der Reise.",
       teens: "Universal Studios und Islands of Adventure (Harry Potter), Kennedy Space Center mit der Saturn-V-Rakete und dem Space Shuttle Atlantis, mit Glück ein Raketenstart.",
       fakten: [
-        "<strong>Dauer:</strong> 4 Nächte: zwei Tage Universal (beide Parks oder Epic Universe), ein Tag Kennedy Space Center (ca. 1 Std. östlich), ein ruhiger Tag am Pool.",
+        "<strong>Dauer:</strong> 3 Nächte: ein Tag Universal (beide Parks), ein Tag Kennedy Space Center oder ein zweiter Parktag, ein ruhiger Tag am Pool.",
         "<strong>Tickets:</strong> Kennedy Space Center 2026 ca. 77 USD ab 12 Jahren; Universal mit zwei Parks an einem Tag ca. 190–225 USD je nach Datum (die Kids zahlen den Erwachsenenpreis). Früh online buchen.",
         "<strong>Maut:</strong> Viele Strassen in Florida sind mautpflichtig; beim Mietwagen das Mautpaket oder die Abrechnung per Kennzeichen klären."
       ],
@@ -326,13 +335,13 @@ REISEN.usa2 = {
       ersatzsuche: "Siesta Key|Siesta Beach",
       land: "us",
       region: "Florida",
-      datum: "10.–14. Juli",
-      naechte: "4 Nächte",
+      datum: "12.–15. Juli",
+      naechte: "3 Nächte",
       anreise: "Mietwagen von Orlando über die Interstate 4 und die Interstate 75 nach Siesta Key bei Sarasota (ca. 2,25 Std., ca. 220 km).",
       text: "Eine Insel vor Sarasota mit einem der bekanntesten Strände der USA: feiner weisser Quarzsand, der auch in der Sonne kühl bleibt, und ruhiges, warmes Wasser im Golf von Mexiko.",
       teens: "Baden und Sandburgen am Siesta Beach, Schnorcheln am Point of Rocks (Fische, manchmal Seekühe), Kajak durch die Mangroven, Sonnenuntergang am Strand, Haifischzähne suchen in Venice.",
       fakten: [
-        "<strong>Dauer:</strong> 4 Nächte Strandferien in einem Apartment, mit Ruhetagen nach den Freizeitparks.",
+        "<strong>Dauer:</strong> 3 Nächte Strandferien in einem Apartment, mit Ruhetagen nach den Freizeitparks.",
         "<strong>Strand:</strong> Siesta Beach hat Sand aus ca. 99 % Quarz; der Gratis-Parkplatz (ca. 850–950 Plätze) ist früh voll, am Wochenende vor 10 Uhr da sein. Die Gratis-Bahn Siesta Key Breeze fährt täglich über die Insel.",
         "<strong>Schnorcheln:</strong> Point of Rocks am Südende von Crescent Beach: flach und ruhig, Einstieg vom Strand, Sicht oft nur ein paar Meter; der Zugang hat nur ca. 20 Parkplätze.",
         "<strong>Wetter:</strong> Fast täglich Gewitter am späten Nachmittag; bei Blitz sofort aus dem Wasser."
@@ -352,13 +361,13 @@ REISEN.usa2 = {
       name: "Key Largo und Islamorada",
       land: "us",
       region: "Florida Keys",
-      datum: "14.–18. Juli",
-      naechte: "4 Nächte",
+      datum: "15.–18. Juli",
+      naechte: "3 Nächte",
       anreise: "Mietwagen von Siesta Key über die Interstate 75 (Alligator Alley quer durch die Everglades) und Homestead nach Key Largo oder Islamorada (ca. 4,5–5 Std., ca. 470 km). Alternativ über den Tamiami Trail mit Halt in Shark Valley (ähnlich lang).",
       text: "Die oberen Keys sind das Schnorchelrevier der Reise: das einzige lebende Korallenriff auf dem Festlandsockel der USA liegt vor der Küste, mit Papageifischen, Rochen und manchmal Schildkröten.",
       teens: "Schnorcheltour zum Riff im John Pennekamp Coral Reef State Park, Kajak durch die Mangroven, Tarpune füttern bei Robbie’s in Islamorada, Delfine im Dolphin Research Center.",
       fakten: [
-        "<strong>Dauer:</strong> 4 Nächte: Schnorcheltour (mit Ausweichtag bei Wind), Kajak in den Mangroven, ein Tag über die Seven Mile Bridge zum Bahia Honda State Park (ca. 1,5–2 Std. pro Weg), ein ruhiger Strandtag.",
+        "<strong>Dauer:</strong> 3 Nächte: Schnorcheltour (mit Ausweichtag bei Wind), Kajak in den Mangroven oder ein Tag über die Seven Mile Bridge zum Bahia Honda State Park, ein ruhiger Strandtag.",
         "<strong>Schnorcheln:</strong> Bootstouren im Pennekamp-Park dauern ca. 2,5 Std. mit gut einer Stunde im Wasser (2026 ca. 65–75 USD pro Person, Ausrüstung inklusive); alle müssen schwimmen können.",
         "<strong>Riff:</strong> Riffschonende Sonnencreme verwenden, Korallen nicht berühren."
       ],
@@ -411,9 +420,9 @@ REISEN.usa2 = {
       ],
       [
         "Mietwagen (Einwegmiete, Benzin, Parken, Maut)",
-        "2’300–4’000",
-        "3’000",
-        "Washington–Miami (ca. 25 Tage, ca. 1’750 Meilen); Rückgabegebühr typischerweise ca. 250–500 USD, Gesamtpreise vergleichen; Maut in Florida"
+        "2’600–4’500",
+        "3’400",
+        "Washington–Miami (ca. 25 Tage, ca. 3’000 Meilen); Rückgabegebühr typischerweise ca. 250–500 USD, Gesamtpreise vergleichen; Maut in Florida"
       ],
       [
         "Zug und lokale Verkehrsmittel",
@@ -423,16 +432,16 @@ REISEN.usa2 = {
       ],
       [
         "Unterkunft (Familienzimmer oder 2 Zimmer, 3 Sterne)",
-        "8’000–13’000",
-        "10’100",
+        "7’700–12’500",
+        "9’700",
         "ca. 150–600 CHF pro Nacht; New York, Washington, Siesta Key und die Keys am teuersten"
       ],
       ["Verpflegung (Restaurants, Imbiss, Getränke)", "4’500–8’000", "6’000", "ca. 140–250 CHF pro Tag für 4 Personen"],
       [
         "Aktivitäten und Eintritte (inkl. Nationalpark-Jahrespass)",
-        "4’500–8’000",
-        "6’000",
-        "Pass 250 USD, Aussichtsplattform und Broadway, Dollywood, Fort Sumter, zwei Tage Universal, Kennedy Space Center, Schnorcheltour, Everglades"
+        "4’300–7’700",
+        "5’800",
+        "Pass 250 USD, Aussichtsplattform und Broadway, Dollywood, Sumpftour, Space Center Houston, Universal, Kennedy Space Center, Schnorcheltour, Everglades"
       ],
       [
         "ESTA, Versicherung, eSIM",
@@ -447,12 +456,14 @@ REISEN.usa2 = {
       ["2. Washington, D.C. (3)", "1’280–2’180"],
       ["3. Shenandoah (2)", "600–1’000"],
       ["4. Great Smoky Mountains (3)", "1’000–1’700"],
-      ["5. Charleston (2)", "750–1’250"],
-      ["6. Savannah (2)", "650–1’100"],
-      ["7. St. Augustine (1)", "300–500"],
-      ["8. Orlando (4)", "1’800–3’200"],
-      ["9. Siesta Key (4)", "1’300–2’200"],
-      ["10. Key Largo und Islamorada (4)", "1’400–2’400"],
+      ["Zwischenübernachtung Birmingham (1)", "150–250"],
+      ["5. New Orleans (2)", "600–1’000"],
+      ["6. Houston (2)", "650–1’100"],
+      ["Zwischenübernachtung Lafayette (1)", "150–250"],
+      ["7. Destin (2)", "600–1’000"],
+      ["8. Orlando (3)", "1’350–2’400"],
+      ["9. Siesta Key (3)", "1’000–1’650"],
+      ["10. Key Largo und Islamorada (3)", "1’050–1’800"],
       ["11. Miami (3)", "1’050–1’800"]
     ],
     hinweise: [
@@ -461,9 +472,9 @@ REISEN.usa2 = {
       "Alle Beträge sind Richtwerte in CHF (Schätzungen, nicht verbindlich). Flug-, Hotel- und Mietwagenpreise im Juli schwanken stark; aktuelle Preise vor der Buchung vergleichen."
     ],
     naechte: 32,
-    total: "33’900",
-    spanne: "26’100–44’200",
-    proTag: "ca. 1’060 CHF pro Tag, ca. 8’500 pro Person"
+    total: "33’700",
+    spanne: "25’900–43’900",
+    proTag: "ca. 1’050 CHF pro Tag, ca. 8’400 pro Person"
   },
   tippsIntro: "Einreise, Gesundheit, Sicherheit und Praktisches für die Reise mit 2 Erwachsenen und 2 Kids.",
   tipps: [
@@ -488,7 +499,10 @@ REISEN.usa2 = {
       "Hitze und Hurrikane",
       "Florida und der Süden sind im Juli ca. 32–33 °C heiss und sehr schwül, mit fast täglichen Gewittern am Nachmittag (bei Blitz aus dem Wasser). Die Hurrikansaison läuft von Juni bis November, mit dem Höhepunkt Mitte August bis Mitte Oktober; im Juli ist ein Sturm selten, aber möglich: Wetterberichte verfolgen, Reiseversicherung und flexible Buchungen. In Shenandoah und den Smokies ist es kühler."
     ],
-    ["Zeitzonen", "Die ganze Route liegt in der Eastern-Zeit, 6 Stunden hinter der Schweiz."],
+    [
+      "Zeitzonen",
+      "New York, Washington, die Smokies und Florida (ohne Panhandle) Eastern-Zeit, 6 Stunden hinter der Schweiz; Alabama, Louisiana, Texas und die Golfküste bei Destin Central-Zeit, 7 Stunden hinter der Schweiz."
+    ],
     [
       "Versicherung",
       "Reisekranken- und Rücktransportversicherung mit hoher Deckung ist in den USA unverzichtbar, Arztkosten sind sehr hoch. Zusätzlich Annullationsschutz für Flüge, Hotels und Mietwagen."

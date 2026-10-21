@@ -108,7 +108,7 @@ window.QUELLEN = {
       ]
     },
     {
-      titel: "USA-Variante New York – Florida",
+      titel: "USA-Variante New York – New Orleans – Florida",
       links: [
         ["NHC: Hurrikan-Klimatologie (Saison 1. Juni–30. November, Höhepunkt um den 10. September)", "https://www.nhc.noaa.gov/climo/"],
         ["Wikipedia: Klima von Miami (Juli ca. 33 °C, Gewitter am Nachmittag)", "https://en.wikipedia.org/wiki/Climate_of_Miami"],
@@ -122,10 +122,8 @@ window.QUELLEN = {
         ["NPS: Everglades, Eintritt und Zusatzgebühr", "https://home.nps.gov/ever/planyourvisit/fees.htm"],
         ["Florida Review: Kennedy Space Center, Preise 2026", "https://www.floridareview.co.uk/blog/buying-kennedy-space-center-tickets"],
         ["Florida Review: Universal Orlando, Preise 2026", "https://www.floridareview.co.uk/blog/buying-universal-orlando-tickets"],
-        ["Free Tours by Foot: Fort Sumter, Fähre und Preise", "https://freetoursbyfoot.com/visit-fort-sumter-charleston/"],
-        ["NPS: Castillo de San Marcos, Eintritt", "https://www.nps.gov/casa/planyourvisit/fees.htm"],
         ["Hertz (Virgin Holidays): Einweggebühren in den USA nach Distanz", "https://flywith.virginatlantic.com/content/dam/vhols/fly-drives/hertz-usa-one-way-fees.pdf"],
-        ["OSRM: Fahrzeiten Gatlinburg–Charleston, Savannah–St. Augustine, Orlando–Siesta Key, Siesta Key–Key Largo (Routenplaner, ohne Stau; vorab prüfen)", "https://router.project-osrm.org"]
+        ["OSRM: Fahrzeiten Gatlinburg–Birmingham–New Orleans, Houston–Lafayette–Destin, Orlando–Siesta Key, Siesta Key–Key Largo (Routenplaner, eher zu lang gerechnet; vorab prüfen)", "https://router.project-osrm.org"]
       ]
     },
     {
