@@ -47,28 +47,28 @@ window.START = {
       name: "USA (Las Vegas – New Orleans – New York)",
       zusatz: "Roadtrip vom Südwesten über den Süden an die Ostküste",
       passt: "Nationalparks, ein grosser Roadtrip, Städte des Südens, etwas Strand und zum Schluss Washington und New York im Vordergrund stehen, ihr sehr viele Fahrtage in Kauf nehmt und das höhere Budget (rund {mehrkosten} CHF mehr) passt.",
-      kurz: "Fünf Wochen USA ohne Inlandflug: mit dem Mietwagen von Las Vegas durch Zion, Grand Canyon, Monument Valley und White Sands, über Texas und New Orleans an den Strand von Destin, durch die Great Smoky Mountains und Shenandoah nach Washington, dann mit dem Zug nach New York.",
-      route: "Las Vegas, Zion, Page, Grand Canyon, Monument Valley, Santa Fe, White Sands, Carlsbad Caverns, Fort Stockton, San Antonio, Houston, New Orleans, Destin, Atlanta, Great Smoky Mountains, Shenandoah, Washington, (Zug) New York",
-      stationen: "17 Stationen und 1 Zwischenübernachtung",
+      kurz: "Fünf Wochen USA ohne Inlandflug: mit dem Mietwagen von Las Vegas durch Zion, Antelope Canyon, Monument Valley und White Sands, über Texas und New Orleans an den Strand von Destin, durch die Great Smoky Mountains und Shenandoah nach Washington, dann mit dem Zug nach New York.",
+      route: "Las Vegas, Zion, Page, Monument Valley, Santa Fe, White Sands, Carlsbad Caverns, Fort Stockton, San Antonio, Houston, New Orleans, Destin, Atlanta, Great Smoky Mountains, Shenandoah, Washington, (Zug) New York",
+      stationen: "16 Stationen und 1 Zwischenübernachtung",
       laender: "USA (Nevada bis New York)",
       hinflug: "Zürich–Las Vegas ca. 11,5 Std. direkt (nur an einzelnen Wochentagen, im Sommer 2026 auch samstags), sonst 14–17 Std.",
       rueckflug: "Direktflug New York (JFK)–Zürich ca. 7,75–8 Std. (SWISS, täglich) am Mi, 21.07.2027, Ankunft Do, 22.07.2027 am Morgen; zwei Tage Puffer gegen den Jetlag",
       dazwischen: "Keine Flüge dazwischen: Einwegmiete Las Vegas–Washington (ca. 25 Tage), Amtrak Washington–New York (ca. 3–3,5 Std.)",
-      tempo: "Ca. 63–66 Std. reine Fahrzeit (ca. 5’900 km), realistisch mit Pausen und Stau ca. 74–78 Std. im Auto, an 16 Fahrtagen: 6 Tage mit 5–7,5 Std., die übrigen 2–4,5 Std.; dazu der Zug nach New York.",
-      gesamt: "Ca. 110–115 Std. Tür zu Tür: Bahn Brig-Glis–Zürich Flughafen (ca. 2,5 Std.), Flüge mit Wartezeiten, Einreise und Mietwagen zusammen ca. 30 Std., der Zug nach New York ca. 4 Std. und ca. 74–78 Std. im Auto. Uhr −6 bis −9 Std., Jetlag vor allem nach der Rückkehr.",
+      tempo: "Ca. 59–62 Std. reine Fahrzeit (ca. 5’600 km), realistisch mit Pausen und Stau ca. 70–74 Std. im Auto, an 15 Fahrtagen: 6 Tage mit 5–7,5 Std., die übrigen 2–4,5 Std.; dazu der Zug nach New York.",
+      gesamt: "Ca. 106–111 Std. Tür zu Tür: Bahn Brig-Glis–Zürich Flughafen (ca. 2,5 Std.), Flüge mit Wartezeiten, Einreise und Mietwagen zusammen ca. 30 Std., der Zug nach New York ca. 4 Std. und ca. 70–74 Std. im Auto. Uhr −6 bis −9 Std., Jetlag vor allem nach der Rückkehr.",
       wetter: "Im Südwesten Ende Juni 38–45 °C, ab Juli Monsungewitter; Texas, New Orleans und die Golfküste heiss und feucht, Hurrikansaison; in den Smokies und in Shenandoah kühler mit Gewittern; Washington und New York heiss und schwül.",
       einreise: "ESTA für alle vier (ca. 40 USD pro Person), Regeln im Wandel. Nationalpark-Jahrespass für Nicht-Residenten 250 USD, 100 USD Zusatzgebühr pro Person ab 16 Jahren in 11 Parks; in den Smokies Parkticket statt Eintritt.",
-      hoehepunkte: "Zion, Antelope Canyon, Horseshoe Bend, Grand Canyon, Monument Valley, Meow Wolf, White Sands, Carlsbad Caverns, Alamo, Space Center Houston, New Orleans, weisse Strände bei Destin, Georgia Aquarium, Great Smoky Mountains, Skyline Drive und Luray Caverns, Smithsonian-Museen in Washington, New York.",
+      hoehepunkte: "Zion, Antelope Canyon, Horseshoe Bend, Monument Valley, Meow Wolf, White Sands, Carlsbad Caverns, Alamo, Space Center Houston, New Orleans, weisse Strände bei Destin, Georgia Aquarium, Great Smoky Mountains, Skyline Drive und Luray Caverns, Smithsonian-Museen in Washington, New York.",
       teens: "Narrows in Zion, Antelope Canyon, Sandboarding auf White Sands, Space Center Houston, Strand und Delfine in Destin, Schwarzbären in den Smokies, Dollywood, Air and Space Museum, New York.",
       pro: [
         "Kein Inlandflug: ein Roadtrip am Stück von der Wüste bis an die Ostküste, Wagen in Washington zurück, dann Zug",
-        "Spektakuläre Landschaften: Zion, Grand Canyon, Monument Valley, White Sands, Carlsbad Caverns, Great Smoky Mountains und Shenandoah",
+        "Spektakuläre Landschaften: Zion, Antelope Canyon, Monument Valley, White Sands, Carlsbad Caverns, Great Smoky Mountains und Shenandoah",
         "Abwechslung: Nationalparks, Städte des Südens (San Antonio, New Orleans, Atlanta), drei Strandtage in Destin und zum Schluss Washington und New York",
         "Sehr gute medizinische Versorgung, viele Teenager-Highlights; Rückkehr zwei Tage vor Ferienende gegen den Jetlag"
       ],
       contra: [
-        "Am teuersten (ca. {plan:usa} CHF): Einwegmiete quer durchs Land mit hoher Rückgabegebühr, Unterkünfte in den Nationalparks und in New York; Arztkosten sehr hoch",
-        "Am meisten Reisezeit: ca. 74–78 Std. im Auto an 16 Fahrtagen, sechs lange Tage mit 5–7,5 Std.; Tür zu Tür ca. 110–115 Std. und Jetlag",
+        "Am teuersten (ca. {plan:usa} CHF): Einwegmiete quer durchs Land mit hoher Rückgabegebühr, Unterkünfte in Monument Valley, Destin und New York; Arztkosten sehr hoch",
+        "Am meisten Reisezeit: ca. 70–74 Std. im Auto an 15 Fahrtagen, sechs lange Tage mit 5–7,5 Std.; Tür zu Tür ca. 106–111 Std. und Jetlag",
         "Hitze im Südwesten (oft über 40 °C) und Hurrikansaison an der Golfküste; wenig Strand, kein Schnorcheln am Riff",
         "Zwei Langstreckenflüge mit viel CO₂; Direktflug nach Las Vegas nur an einzelnen Wochentagen, ESTA-Regeln vorab prüfen"
       ]
@@ -110,7 +110,7 @@ window.START = {
         3,
         "Schöne Küsten und einzelne Naturhöhepunkte: Vulkanküste am Cabo de Gata, Schlucht des Caminito del Rey, Agafay-Steinwüste vor dem Hohen Atlas, Felsküste der Algarve, Felsbögen der Playa de las Catedrales; viele Tage in Städten und keine grossen Nationalparks wie in den USA."
       ],
-      usa: [5, "Zion, Antelope Canyon, Horseshoe Bend, Grand Canyon, Monument Valley, White Sands, Carlsbad Caverns, die Great Smoky Mountains und Shenandoah: spektakuläre und abwechslungsreiche Landschaften."],
+      usa: [5, "Zion, Antelope Canyon, Horseshoe Bend, Monument Valley, White Sands, Carlsbad Caverns, die Great Smoky Mountains und Shenandoah: spektakuläre und abwechslungsreiche Landschaften (Grand Canyon nur als Option)."],
       asien: [
         4,
         "Inseln, Strände und Riffe von Tioman bis Koh Tao, dazu Delfine bei Khanom und Wasserfälle; eher sanfte als dramatische Landschaften."
@@ -200,7 +200,7 @@ window.START = {
         3,
         "Ca. 96–103 Stunden Tür zu Tür, kein Jetlag, in Marokko kein Fahren; aber Wechsel zwischen eigenem Auto, Fähre und Zug, Passkontrollen, ein langer Zugtag Marrakesch–Fès und mehrere Tage mit 7–9 Stunden."
       ],
-      usa: [1, "Ca. 110–115 Stunden Tür zu Tür: zwei Langstreckenflüge mit Einreise und Jetlag, dazu am meisten Zeit im Auto (ca. 74–78 Stunden an 16 Fahrtagen, sechs Tage mit 5–7,5 Stunden)."],
+      usa: [1, "Ca. 106–111 Stunden Tür zu Tür: zwei Langstreckenflüge mit Einreise und Jetlag, dazu am meisten Zeit im Auto (ca. 70–74 Stunden an 15 Fahrtagen, sechs Tage mit 5–7,5 Stunden)."],
       asien: [
         2,
         "Ca. 101–108 Stunden Tür zu Tür: zwei Direktflüge mit Jetlag, dazu ca. 65–70 Stunden mit Bus, Zug und Fähre und viele Umstiege mit Gepäck; niemand muss selber fahren."
@@ -212,7 +212,7 @@ window.START = {
         5,
         "Kein Flug: Elektroauto (ca. 1’100 kWh), zwei kurze Fähren, Züge in Marokko (ohne Mietwagen); grob geschätzt ca. 0,1–0,2 t CO₂ pro Person."
       ],
-      usa: [1, "Zwei Langstreckenflüge (zusammen ca. 15’000 km) und ca. 5’900 km Mietwagen, grob geschätzt ca. 3–3,5 t CO₂ pro Person."],
+      usa: [1, "Zwei Langstreckenflüge (zusammen ca. 15’000 km) und ca. 5’600 km Mietwagen, grob geschätzt ca. 3–3,5 t CO₂ pro Person."],
       asien: [
         1,
         "Zwei Langstreckenflüge (ca. 19’000 km), unterwegs Bus, Zug und Fähre, grob geschätzt ca. 4 t CO₂ pro Person."

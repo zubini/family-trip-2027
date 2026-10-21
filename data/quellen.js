@@ -79,7 +79,7 @@ window.QUELLEN = {
         ["Flightmapper: SWISS LX 17 New York JFK–Zürich (täglich, Sommer 2026 ca. 16.15–6.10 Uhr)", "https://info.flightmapper.net/flight/Swiss_LX_17"],
         ["Wanderu: Zug Washington–New York (ca. 3,5 Std., Acela ca. 3 Std., viele Züge pro Tag)", "https://www.wanderu.com/en-us/train/us-dc/washington/us-ny/new-york/?cur=sek"],
         ["Wanderlog: Springdale (Zion)–Page", "https://Wanderlog.com/drive/between/59086/58476/springdale-to-page-drive"],
-        ["guias-viajar.com: Grand Canyon–Monument Valley", "https://guias-viajar.com/en/America/tourism-in-the-united-states/monument-valley-road-trip-from-grand-canon/"],
+        ["Antelope Lower Canyon: Page–Monument Valley (ca. 125 Meilen, ca. 2 Std. 15 Min.)", "https://www.antelopelowercanyon.com/blog/monument-valley-to-antelope-canyon"],
         ["LazyTrips: Roadtrip Las Vegas–Santa Fe (Monument Valley–Santa Fe)", "https://lazytrips.com/trip/road-trip-from-las-vegas-to-santa-fe"],
         ["CS Ginger: White Sands–Carlsbad Caverns über Cloudcroft", "https://csginger.com/carlsbad-caverns-to-white-sands/"],
         ["NPS: Carlsbad Caverns, Zeitfenster-Reservation und Eintritt", "https://home.nps.gov/cave/planyourvisit/fees.htm"],
