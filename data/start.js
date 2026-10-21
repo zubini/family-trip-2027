@@ -58,8 +58,8 @@ window.START = {
       gesamt: "Ca. 106–111 Std. Tür zu Tür: Bahn Brig-Glis–Zürich Flughafen (ca. 2,5 Std.), Flüge mit Wartezeiten, Einreise und Mietwagen zusammen ca. 30 Std., der Zug nach New York ca. 4 Std. und ca. 70–74 Std. im Auto. Uhr −6 bis −9 Std., Jetlag vor allem nach der Rückkehr.",
       wetter: "Im Südwesten Ende Juni 38–45 °C, ab Juli Monsungewitter; Texas, New Orleans und die Golfküste heiss und feucht, Hurrikansaison; in den Smokies und in Shenandoah kühler mit Gewittern; Washington und New York heiss und schwül.",
       einreise: "ESTA für alle vier (ca. 40 USD pro Person), Regeln im Wandel. Nationalpark-Jahrespass für Nicht-Residenten 250 USD, 100 USD Zusatzgebühr pro Person ab 16 Jahren in 11 Parks; in den Smokies Parkticket statt Eintritt.",
-      hoehepunkte: "Zion, Horseshoe Bend, Monument Valley, Meow Wolf, White Sands, Carlsbad Caverns, Alamo, Space Center Houston, New Orleans, weisse Strände bei Destin, Georgia Aquarium, Great Smoky Mountains, Skyline Drive und Luray Caverns, Smithsonian-Museen in Washington, New York.",
-      teens: "Narrows in Zion, Sandboarding auf White Sands, Space Center Houston, Strand und Delfine in Destin, Schwarzbären in den Smokies, Dollywood, Air and Space Museum, New York.",
+      hoehepunkte: "Zion, Horseshoe Bend, Monument Valley, Meow Wolf, White Sands, UFO-Museum in Roswell, Carlsbad Caverns, Alamo, Space Center Houston, New Orleans, weisse Strände bei Destin, Georgia Aquarium, Great Smoky Mountains, Skyline Drive und Luray Caverns, Smithsonian-Museen in Washington, New York.",
+      teens: "Narrows in Zion, Sandboarding auf White Sands, UFO-Museum in Roswell, Fledermäuse in Carlsbad, Space Center Houston, Strand und Delfine in Destin, Schwarzbären in den Smokies, Dollywood, Air and Space Museum, New York.",
       pro: [
         "Kein Inlandflug: ein Roadtrip am Stück von der Wüste bis an die Ostküste, Wagen in Washington zurück, dann Zug",
         "Spektakuläre Landschaften: Zion, Horseshoe Bend, Monument Valley, White Sands, Carlsbad Caverns, Great Smoky Mountains und Shenandoah",

@@ -35,7 +35,7 @@ REISEN.usa = {
     },
     {datum: "24.–26. Juni", name: "4. Santa Fe", naechte: 2, info: "Mietwagen (ca. 6,5–7 Std.)"},
     {datum: "26.–27. Juni", name: "5. White Sands (Alamogordo)", naechte: 1, info: "Mietwagen (ca. 4–4,5 Std.)"},
-    {datum: "27.–28. Juni", name: "6. Carlsbad Caverns", naechte: 1, info: "Mietwagen (ca. 3–3,5 Std.)"},
+    {datum: "27.–28. Juni", name: "6. Carlsbad Caverns", naechte: 1, info: "Mietwagen über Roswell (ca. 3,25–3,75 Std.)"},
     {
       datum: "28.–29. Juni",
       name: "Zwischenübernachtung Fort Stockton",
@@ -77,7 +77,7 @@ REISEN.usa = {
     ],
     [
       "Optional",
-      "Page mit Lake Powell und Antelope Canyon (eine Nacht mehr zwischen Zion und Monument Valley), Grand Canyon (ebenfalls mit einer Nacht mehr), Bryce Canyon (ab Zion, ca. 2 Std.), Big Bend National Park (ab Fort Stockton, Umweg), Galveston (Strand, ab Houston), Memphis und Nashville statt Atlanta (Musikroute), Blue Ridge Parkway (zwischen den Smokies und Shenandoah), Mount Vernon (ab Washington), Philadelphia (Halt mit dem Zug)."
+      "Page mit Lake Powell (eine Nacht mehr zwischen Zion und Monument Valley), Grand Canyon (ebenfalls mit einer Nacht mehr), Bryce Canyon (ab Zion, ca. 2 Std.), Big Bend National Park (ab Fort Stockton, Umweg), Galveston (Strand, ab Houston), Memphis und Nashville statt Atlanta (Musikroute), Blue Ridge Parkway (zwischen den Smokies und Shenandoah), Mount Vernon (ab Washington), Philadelphia (Halt mit dem Zug)."
     ]
   ],
   karte: {
@@ -169,7 +169,7 @@ REISEN.usa = {
       region: "Utah und Arizona",
       datum: "23.–24. Juni",
       naechte: "1 Nacht",
-      anreise: "Mietwagen von Springdale über Kanab und Page nach Monument Valley (ca. 4,5–5 Std., ca. 380 km). Unterwegs Halt am Horseshoe Bend bei Page (kurzer Weg ab dem Parkplatz, ca. 1 Std.); der Antelope Canyon ginge nur mit gebuchter Tour (ca. 1,5 Std., dann ein langer Tag). Arizona hat keine Sommerzeit, die Navajo Nation schon: Am Ziel gilt wieder dieselbe Zeit wie in Utah.",
+      anreise: "Mietwagen von Springdale über Kanab und Page nach Monument Valley (ca. 4,5–5 Std., ca. 380 km). Unterwegs Halt am Horseshoe Bend bei Page (kurzer Weg ab dem Parkplatz, ca. 1 Std.). Arizona hat keine Sommerzeit, die Navajo Nation schon: Am Ziel gilt wieder dieselbe Zeit wie in Utah.",
       text: "Die roten Sandsteintürme aus unzähligen Westernfilmen liegen im Navajo Tribal Park an der Grenze von Utah und Arizona. Eine Nacht reicht, wenn ihr Sonnenuntergang und Sonnenaufgang erlebt.",
       teens: "Valley Drive (ca. 27 km Schotterpiste, mit eigenem Fahrzeug oder geführter Jeeptour der Navajo), Fotostopp am Forrest Gump Point auf der Strasse 163, Sonnenaufgang vom Balkon des The View Hotel (früh buchen).",
       fakten: [
@@ -257,11 +257,12 @@ REISEN.usa = {
       region: "New Mexico",
       datum: "27.–28. Juni",
       naechte: "1 Nacht",
-      anreise: "Mietwagen von Alamogordo über die Bergstrasse US-82 durch Cloudcroft und Artesia nach Carlsbad (ca. 3–3,5 Std., ca. 300 km).",
+      anreise: "Mietwagen von Alamogordo über die US-70 durch Ruidoso nach Roswell (ca. 2 Std., ca. 190 km) und weiter über die US-285 nach Carlsbad (ca. 1,25 Std., ca. 120 km); zusammen ca. 3,25–3,75 Std., nur ca. 15–30 Min. mehr als über Cloudcroft. Mittagshalt in Roswell mit dem International UFO Museum (ca. 1–1,5 Std.).",
       text: "Riesige Tropfsteinhöhlen unter der Wüste: Ein Rundweg führt durch den «Big Room», einen der grössten Höhlensäle Nordamerikas. Am Abend fliegen im Sommer Hunderttausende Fledermäuse aus.",
-      teens: "Abstieg zu Fuss durch den natürlichen Eingang oder per Lift, Rundgang durch den Big Room, Fledermausflug in der Abenddämmerung.",
+      teens: "UFO-Museum und Alien-Strassenlampen in Roswell auf der Anreise, Abstieg zu Fuss durch den natürlichen Eingang oder per Lift, Rundgang durch den Big Room, Fledermausflug in der Abenddämmerung.",
       fakten: [
-        "<strong>Dauer:</strong> 1 Nacht in Carlsbad oder White’s City.",
+        "<strong>Dauer:</strong> 1 Nacht in Carlsbad oder White’s City: am Abend der Fledermausflug am Höhleneingang, am nächsten Morgen die Höhle (Zeitfenster), dann weiter nach Fort Stockton.",
+        "<strong>Roswell:</strong> Das International UFO Museum erzählt vom angeblichen Absturz eines UFOs 1947; täglich ca. 9–17 Uhr, Eintritt günstig (Angaben 2023: ca. 5–7 USD Erwachsene, ca. 2 USD Kinder von 5 bis 15). Preise und Zeiten vorab prüfen.",
         "<strong>Tickets:</strong> Zeitfenster-Reservation auf recreation.gov (1 USD) dringend empfohlen, dazu Eintritt 15 USD pro Person ab 16 Jahren; Kids bis 15 gratis.",
         "<strong>Hinweis:</strong> In der Höhle sind es ganzjährig ca. 13 °C: eine Jacke mitnehmen."
       ],
