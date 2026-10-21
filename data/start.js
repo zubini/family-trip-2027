@@ -7,7 +7,7 @@ window.START = {
   titel: "Familienreise 2027",
   zeitraum: "Sa, 19.06.2027 bis Sa, 24.07.2027, 2 Erwachsene und 2 Kids",
   untertitel: "Verschiedene Reisevarianten als Fahrplan für eine Entscheidung.",
-  reisenIntro: "Alle Reisen dauern vom Sa, 19.06.2027 bis zum Sa, 24.07.2027 und sind für die Familie mit Sohn (12) und Tochter (14) geplant: die Reise mit dem eigenen Auto 35 Nächte, die Flugreisen 34 Nächte vor Ort (Hinflug am Abend bzw. Nachtflug zurück). Ein Klick führt zum vollständigen Fahrplan mit Stationen, Karte und Budget.",
+  reisenIntro: "Alle Reisen beginnen am Sa, 19.06.2027 und sind für die Familie mit Sohn (12) und Tochter (14) geplant: die Reise mit dem eigenen Auto und Malaysia / Thailand dauern bis Sa, 24.07.2027 (35 bzw. 34 Nächte), die USA-Reise endet schon am Do, 22.07.2027 (32 Nächte), damit zwei Tage gegen den Jetlag bleiben. Ein Klick führt zum vollständigen Fahrplan mit Stationen, Karte und Budget.",
   bewertungIntro: "Bewertet werden Natur, Dschungelfeeling, Wüstenfeeling, Strand und Baden, Schnorcheln, Abenteuer, Städte, Gesundheit und Sicherheit, Budget, Reisekomfort sowie CO₂ und Umwelt. Fünf Punkte sind die beste Bewertung (beim Budget heisst das: günstig, beim CO₂: wenig Ausstoss). Die Skala ist fest und nicht nur ein Vergleich der Reisen: 5 heisst Weltklasse (z.B. tropische Riffe beim Schnorcheln, kurze Etappen beim Reisekomfort), 0 heisst, dass es das auf der Reise nicht gibt. Die Punkte sind eine Einschätzung auf Basis der Reisepläne, keine Messung.",
   budgetIntro: "Mittelklasse inklusive Flüge bzw. Autokosten, Transport, Unterkunft, Verpflegung und Aktivitäten für 4 Personen. Der dunkle Punkt ist der Planwert, der helle Balken die Spanne.",
   vergleichIntro: "Die wichtigsten Unterschiede nebeneinander.",
@@ -52,8 +52,8 @@ window.START = {
       stationen: "17 Stationen und 1 Zwischenübernachtung",
       laender: "USA (Nevada bis New York)",
       hinflug: "Zürich–Las Vegas ca. 11,5 Std. direkt (nur an einzelnen Wochentagen, im Sommer 2026 auch samstags), sonst 14–17 Std.",
-      rueckflug: "Direktflug New York (JFK)–Zürich ca. 7,75–8 Std. (SWISS, täglich) am Fr, 23.07.2027, Ankunft Sa, 24.07.2027 am Morgen",
-      dazwischen: "Keine Flüge dazwischen: Einwegmiete Las Vegas–Washington (ca. 27 Tage), Amtrak Washington–New York (ca. 3–3,5 Std.)",
+      rueckflug: "Direktflug New York (JFK)–Zürich ca. 7,75–8 Std. (SWISS, täglich) am Mi, 21.07.2027, Ankunft Do, 22.07.2027 am Morgen; zwei Tage Puffer gegen den Jetlag",
+      dazwischen: "Keine Flüge dazwischen: Einwegmiete Las Vegas–Washington (ca. 25 Tage), Amtrak Washington–New York (ca. 3–3,5 Std.)",
       tempo: "Ca. 63–66 Std. reine Fahrzeit (ca. 5’900 km), realistisch mit Pausen und Stau ca. 74–78 Std. im Auto, an 16 Fahrtagen: 6 Tage mit 5–7,5 Std., die übrigen 2–4,5 Std.; dazu der Zug nach New York.",
       gesamt: "Ca. 110–115 Std. Tür zu Tür: Bahn Brig-Glis–Zürich Flughafen (ca. 2,5 Std.), Flüge mit Wartezeiten, Einreise und Mietwagen zusammen ca. 30 Std., der Zug nach New York ca. 4 Std. und ca. 74–78 Std. im Auto. Uhr −6 bis −9 Std., Jetlag vor allem nach der Rückkehr.",
       wetter: "Im Südwesten Ende Juni 38–45 °C, ab Juli Monsungewitter; Texas, New Orleans und die Golfküste heiss und feucht, Hurrikansaison; in den Smokies und in Shenandoah kühler mit Gewittern; Washington und New York heiss und schwül.",
@@ -64,7 +64,7 @@ window.START = {
         "Kein Inlandflug: ein Roadtrip am Stück von der Wüste bis an die Ostküste, Wagen in Washington zurück, dann Zug",
         "Spektakuläre Landschaften: Zion, Grand Canyon, Monument Valley, White Sands, Carlsbad Caverns, Great Smoky Mountains und Shenandoah",
         "Abwechslung: Nationalparks, Städte des Südens (San Antonio, New Orleans, Atlanta), drei Strandtage in Destin und zum Schluss Washington und New York",
-        "Sehr gute medizinische Versorgung, viele Teenager-Highlights"
+        "Sehr gute medizinische Versorgung, viele Teenager-Highlights; Rückkehr zwei Tage vor Ferienende gegen den Jetlag"
       ],
       contra: [
         "Am teuersten (ca. {plan:usa} CHF): Einwegmiete quer durchs Land mit hoher Rückgabegebühr, Unterkünfte in den Nationalparks und in New York; Arztkosten sehr hoch",

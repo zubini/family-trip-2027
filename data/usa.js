@@ -6,14 +6,14 @@ REISEN.usa = {
   titel: "Von Las Vegas über New Orleans nach New York",
   menu: "USA",
   untertitel: "Fünf Wochen USA ohne Inlandflug: mit dem Mietwagen von Las Vegas durch die Nationalparks im Südwesten, über Texas und New Orleans an die Golfküste, durch die Great Smoky Mountains und Shenandoah nach Washington, dann mit dem Zug nach New York.",
-  zeitraum: "Sa, 19.06.2027 bis Sa, 24.07.2027, 2 Erwachsene und 2 Kids",
+  zeitraum: "Sa, 19.06.2027 bis Do, 22.07.2027, 2 Erwachsene und 2 Kids",
   titelbild: {
     datei: "USA 10187 Horseshoe Bend Luca Galuzzi 2007.jpg",
     suche: "Horseshoe Bend Arizona|Monument Valley sunset",
     stichwort: "horseshoe bend|monument valley",
     alt: "Horseshoe Bend, Arizona"
   },
-  planIntro: "Abflug ab Zürich nach Las Vegas am Sa, 19.06.2027, Rückflug ab New York am Fr, 23.07.2027 (Ankunft Sa, 24.07.2027). Dazwischen eine Einwegmiete Las Vegas–Washington und der Zug nach New York, kein Inlandflug. Ein Klick auf eine Station springt zur Beschreibung.",
+  planIntro: "Abflug ab Zürich nach Las Vegas am Sa, 19.06.2027, Rückflug ab New York am Mi, 21.07.2027 (Ankunft Do, 22.07.2027). Dazwischen eine Einwegmiete Las Vegas–Washington und der Zug nach New York, kein Inlandflug. Ein Klick auf eine Station springt zur Beschreibung.",
   hinflug: {
     datum: "19. Juni",
     name: "Flug Zürich–Las Vegas",
@@ -44,29 +44,29 @@ REISEN.usa = {
     {datum: "5.–7. Juli", name: "11. New Orleans", naechte: 2, info: "Mietwagen (ca. 5–6 Std.)"},
     {datum: "7.–10. Juli", name: "12. Destin (Golfküste)", naechte: 3, info: "Mietwagen (ca. 4–4,5 Std.)"},
     {datum: "10.–11. Juli", name: "13. Atlanta", naechte: 1, info: "Mietwagen (ca. 5–5,5 Std.), Uhr +1 Std."},
-    {datum: "11.–14. Juli", name: "14. Great Smoky Mountains", naechte: 3, info: "Mietwagen (ca. 3,75–4,5 Std.)"},
-    {datum: "14.–16. Juli", name: "15. Shenandoah (Luray)", naechte: 2, info: "Mietwagen (ca. 6–7,5 Std.)"},
+    {datum: "11.–13. Juli", name: "14. Great Smoky Mountains", naechte: 2, info: "Mietwagen (ca. 3,75–4,5 Std.)"},
+    {datum: "13.–14. Juli", name: "15. Shenandoah (Luray)", naechte: 1, info: "Mietwagen (ca. 6–7,5 Std.)"},
     {
-      datum: "16.–19. Juli",
+      datum: "14.–17. Juli",
       name: "16. Washington, D.C.",
       naechte: 3,
       info: "Mietwagen (ca. 1,75–2 Std.), Rückgabe in Washington"
     },
-    {datum: "19.–23. Juli", name: "17. New York", naechte: 4, info: "Amtrak-Zug (ca. 3–3,5 Std.); Rückflug 23. Juli"}
+    {datum: "17.–21. Juli", name: "17. New York", naechte: 4, info: "Amtrak-Zug (ca. 3–3,5 Std.); Rückflug 21. Juli"}
   ],
   rueckflug: {
-    datum: "23. Juli",
+    datum: "21. Juli",
     name: "Flug New York–Zürich",
-    info: "Direktflug New York (JFK)–Zürich mit SWISS, täglich; im Sommer 2026 Abflug ca. 16.15 Uhr, ca. 7,75–8 Std., Ankunft in Zürich am Sa, 24.07.2027 um ca. 6 Uhr"
+    info: "Direktflug New York (JFK)–Zürich mit SWISS, täglich; im Sommer 2026 Abflug ca. 16.15 Uhr, ca. 7,75–8 Std., Ankunft in Zürich am Do, 22.07.2027 um ca. 6 Uhr"
   },
   planHinweise: [
     [
       "Gesamt",
-      "34 Nächte, 17 Stationen und eine Zwischenübernachtung (Fort Stockton). Eine Einwegmiete Las Vegas–Washington (ca. 27 Tage) mit ca. 5’900 km und ca. 63–66 Std. reiner Fahrzeit an 16 Fahrtagen, realistisch mit Pausen, Tanken, Stau und Fahrten vor Ort ca. 74–78 Std. im Auto. Dazu der Zug nach New York (ca. 3–3,5 Std.). Die längsten Fahrtage: Monument Valley–Santa Fe (ca. 6,5–7 Std.), Great Smoky Mountains–Luray (ca. 6–7,5 Std.), Houston–New Orleans (ca. 5–6 Std.), Destin–Atlanta (ca. 5–5,5 Std.), Fort Stockton–San Antonio (ca. 5–5,5 Std.)."
+      "32 Nächte, 17 Stationen und eine Zwischenübernachtung (Fort Stockton). Eine Einwegmiete Las Vegas–Washington (ca. 25 Tage) mit ca. 5’900 km und ca. 63–66 Std. reiner Fahrzeit an 16 Fahrtagen, realistisch mit Pausen, Tanken, Stau und Fahrten vor Ort ca. 74–78 Std. im Auto. Dazu der Zug nach New York (ca. 3–3,5 Std.). Die längsten Fahrtage: Monument Valley–Santa Fe (ca. 6,5–7 Std.), Great Smoky Mountains–Luray (ca. 6–7,5 Std.), Houston–New Orleans (ca. 5–6 Std.), Destin–Atlanta (ca. 5–5,5 Std.), Fort Stockton–San Antonio (ca. 5–5,5 Std.)."
     ],
     [
       "Flug ab und nach Zürich",
-      "Hinflug: Zürich–Las Vegas mit Edelweiss als Direktflug ca. 11,5 Std. (Sommer 2026: Mo, Mi und Sa, Abflug ca. 13.55 Uhr, Ankunft ca. 16.25 Uhr Ortszeit, Zeitverschiebung −9 Std.; sonst mit Umstieg ca. 14–17 Std.). Rückflug: New York (JFK)–Zürich mit SWISS als Direktflug täglich, ca. 7,75–8 Std., am Fr, 23.07.2027 (Sommer 2026: Abflug ca. 16.15 Uhr, Ankunft ca. 6.10 Uhr; Zeitverschiebung +6 Std.). Flugpläne 2027 bei der Buchung prüfen."
+      "Hinflug: Zürich–Las Vegas mit Edelweiss als Direktflug ca. 11,5 Std. (Sommer 2026: Mo, Mi und Sa, Abflug ca. 13.55 Uhr, Ankunft ca. 16.25 Uhr Ortszeit, Zeitverschiebung −9 Std.; sonst mit Umstieg ca. 14–17 Std.). Rückflug: New York (JFK)–Zürich mit SWISS als Direktflug täglich, ca. 7,75–8 Std., am Mi, 21.07.2027 (Sommer 2026: Abflug ca. 16.15 Uhr, Ankunft ca. 6.10 Uhr; Zeitverschiebung +6 Std.). Flugpläne 2027 bei der Buchung prüfen."
     ],
     [
       "Vorab buchen",
@@ -471,13 +471,13 @@ REISEN.usa = {
       ersatzsuche: "Great Smoky Mountains|Gatlinburg",
       land: "us",
       region: "Tennessee",
-      datum: "11.–14. Juli",
-      naechte: "3 Nächte",
+      datum: "11.–13. Juli",
+      naechte: "2 Nächte",
       anreise: "Mietwagen von Atlanta über die Interstate 75, Chattanooga und Knoxville nach Gatlinburg (ca. 3,75–4,5 Std., ca. 315 km).",
       text: "Der meistbesuchte Nationalpark der USA: bewaldete Berge im Dunst, Wasserfälle, Schwarzbären und alte Farmhäuser im Tal Cades Cove. Nach Wüste und Golfküste grün und etwas kühler.",
       teens: "Wanderung zum Felsbogen Arch Rock am Alum Cave Trail, Aussichtsturm auf dem Kuwohi (früher Clingmans Dome), Rundfahrt durch Cades Cove mit Bären und Hirschen, Hängebrücken in Anakeesta, Achterbahnen in Dollywood.",
       fakten: [
-        "<strong>Dauer:</strong> 3 Nächte: ein Tag Kuwohi und Alum Cave, ein Tag Cades Cove, ein Tag Dollywood oder Anakeesta.",
+        "<strong>Dauer:</strong> 2 Nächte: ein Tag Kuwohi und Alum Cave, ein halber Tag Cades Cove oder Anakeesta (Dollywood braucht einen ganzen Tag, dann ohne Cades Cove).",
         "<strong>Parken:</strong> Kein Eintritt, aber ab 15 Min. Parken ein Parkticket (5 USD pro Tag, 15 USD pro Woche, online auf recreation.gov); der Nationalpark-Jahrespass gilt dafür nicht.",
         "<strong>Hinweis:</strong> Cades Cove war 2026 mittwochs für Autos gesperrt (nur Velos); der Weg zu den Laurel Falls ist seit Januar 2025 wegen Bauarbeiten zu. Für 2027 vorab prüfen.",
         "<strong>Freizeitparks:</strong> Dollywood 2026 ab ca. 95 USD pro Person (ab 10 Jahren Erwachsenenpreis), Anakeesta ca. 35–40 USD. Preise vorab prüfen."
@@ -498,13 +498,13 @@ REISEN.usa = {
       ersatzsuche: "Shenandoah National Park|Luray",
       land: "us",
       region: "Virginia",
-      datum: "14.–16. Juli",
-      naechte: "2 Nächte",
+      datum: "13.–14. Juli",
+      naechte: "1 Nacht",
       anreise: "Mietwagen über die Interstate 40 und die Interstate 81 durch das Shenandoah-Tal nach Luray (ca. 6–7,5 Std., ca. 630 km). Einer der längsten Fahrtage: früh starten.",
       text: "Ein langer Bergrücken in Virginia mit der Panoramastrasse Skyline Drive, Wasserfällen, Hirschen und weiter Aussicht über das Shenandoah-Tal. Bei Luray liegen grosse Tropfsteinhöhlen.",
       teens: "Luray Caverns, Wanderung zu den Dark Hollow Falls, Aussicht vom Stony Man, Hirsche am Strassenrand in der Abenddämmerung.",
       fakten: [
-        "<strong>Dauer:</strong> 2 Nächte: ein Tag Skyline Drive mit kurzen Wanderungen, ein halber Tag Luray Caverns.",
+        "<strong>Dauer:</strong> 1 Nacht: am Ankunftsabend Hirsche am Skyline Drive, am Morgen Dark Hollow Falls und Luray Caverns, am Nachmittag weiter nach Washington.",
         "<strong>Eintritt:</strong> 30 USD pro Auto für 7 Tage, mit dem Jahrespass inklusive (keine Zusatzgebühr für Nicht-Residenten). Der Skyline Drive ist 105 Meilen (ca. 170 km) lang, Tempo 35 mph, ganze Strecke ca. 3 Std.",
         "<strong>Luray Caverns:</strong> ca. 36 USD Erwachsene, ca. 18 USD Kinder von 6 bis 12 (die Tochter zahlt den Erwachsenenpreis); Preise vorab prüfen.",
         "<strong>Wandern:</strong> Dark Hollow Falls ca. 2,3 km hin und zurück, der Rückweg ist steil; Wasser mitnehmen."
@@ -524,7 +524,7 @@ REISEN.usa = {
       name: "Washington, D.C.",
       land: "us",
       region: "Washington, D.C.",
-      datum: "16.–19. Juli",
+      datum: "14.–17. Juli",
       naechte: "3 Nächte",
       anreise: "Mietwagen von Luray über die US-211 und die Interstate 66 nach Washington (ca. 1,75–2 Std., ca. 150 km; vor der Stadt oft Stau). Mietwagen bei der Ankunft zurückgeben, z.B. am Flughafen Reagan National oder an der Union Station; in der Stadt Metro, Velo oder zu Fuss.",
       text: "Die Hauptstadt der USA: Denkmäler, Regierungsgebäude und eine Vielzahl kostenloser Museen rund um die National Mall. Alles ist gut zu Fuss und mit der Metro erreichbar.",
@@ -549,9 +549,9 @@ REISEN.usa = {
       name: "New York",
       land: "us",
       region: "New York",
-      datum: "19.–23. Juli",
-      naechte: "4 Nächte, Rückflug 23. Juli",
-      anreise: "Amtrak-Zug ab Washington Union Station nach New York Penn Station (Northeast Regional ca. 3,5 Std., Acela ca. 3 Std.; viele Züge pro Tag). Rückflug direkt ab John F. Kennedy (SWISS) am Fr, 23.07.2027 am Nachmittag (Sommer 2026 ca. 16.15 Uhr; ca. 7,75–8 Std., Ankunft in Zürich am Sa, 24.07.2027 um ca. 6 Uhr). Zum Flughafen JFK mit dem AirTrain oder Taxi ca. 1–1,5 Std., also am Mittag los.",
+      datum: "17.–21. Juli",
+      naechte: "4 Nächte, Rückflug 21. Juli",
+      anreise: "Amtrak-Zug ab Washington Union Station nach New York Penn Station (Northeast Regional ca. 3,5 Std., Acela ca. 3 Std.; viele Züge pro Tag). Rückflug direkt ab John F. Kennedy (SWISS) am Mi, 21.07.2027 am Nachmittag (Sommer 2026 ca. 16.15 Uhr; ca. 7,75–8 Std., Ankunft in Zürich am Do, 22.07.2027 um ca. 6 Uhr). Zum Flughafen JFK mit dem AirTrain oder Taxi ca. 1–1,5 Std., also am Mittag los.",
       text: "Das grosse Finale: Wolkenkratzer, Parks, Museen und Hafenpanorama.",
       teens: "Fähre zur Freiheitsstatue und nach Ellis Island, Aussicht vom Empire State Building oder Top of the Rock, Broadway-Musical, Brooklyn Bridge, Coney Island (Achterbahn und Strand), Intrepid Museum (Flugzeugträger).",
       fakten: [
@@ -575,7 +575,7 @@ REISEN.usa = {
       ]
     }
   ],
-  abschluss: "Direktflug ab New York (JFK) nach Zürich am Fr, 23.07.2027 am Nachmittag (ca. 7,75–8 Std.), Ankunft am Sa, 24.07.2027 am frühen Morgen, dann mit der Bahn nach Brig-Glis.",
+  abschluss: "Direktflug ab New York (JFK) nach Zürich am Mi, 21.07.2027 am Nachmittag (ca. 7,75–8 Std.), Ankunft am Do, 22.07.2027 am frühen Morgen, dann mit der Bahn nach Brig-Glis. Bis zum Ferienende bleiben zwei Tage gegen den Jetlag.",
   budgetIntro: "Mittelklasse inklusive Flüge, Mietwagen, Zug, Unterkunft, Verpflegung und Aktivitäten. Alle Beträge sind Schätzungen in CHF.",
   budget: {
     posten: [
@@ -587,9 +587,9 @@ REISEN.usa = {
       ],
       [
         "Mietwagen (Einwegmiete, Benzin, Parken, Maut)",
-        "3’500–6’000",
-        "4’600",
-        "Las Vegas–Washington (ca. 27 Tage, ca. 3’700 Meilen); die Rückgabegebühr für eine Einwegmiete quer durchs Land kann bis gegen 1’500 USD betragen"
+        "3’450–5’850",
+        "4’500",
+        "Las Vegas–Washington (ca. 25 Tage, ca. 3’700 Meilen); die Rückgabegebühr für eine Einwegmiete quer durchs Land kann bis gegen 1’500 USD betragen"
       ],
       [
         "Zug und lokale Verkehrsmittel",
@@ -599,15 +599,15 @@ REISEN.usa = {
       ],
       [
         "Unterkunft (Familienzimmer oder 2 Zimmer, 3 Sterne)",
-        "8’400–13’300",
-        "10’450",
+        "8’000–12’650",
+        "9’950",
         "ca. 150–700 CHF pro Nacht; Nationalparks, Destin, Washington und New York am teuersten"
       ],
-      ["Verpflegung (Restaurants, Imbiss, Getränke)", "4’750–8’150", "6’200", "ca. 140–250 CHF pro Tag für 4 Personen"],
+      ["Verpflegung (Restaurants, Imbiss, Getränke)", "4’470–7’670", "5’820", "ca. 140–250 CHF pro Tag für 4 Personen"],
       [
         "Aktivitäten und Eintritte (inkl. Nationalpark-Jahrespass)",
-        "4’600–8’300",
-        "6’100",
+        "4’500–8’100",
+        "5’950",
         "Pass 250 USD, Antelope Canyon, Meow Wolf, Space Center Houston, Georgia Aquarium, Dollywood, Luray Caverns, Aussichtsplattform und Broadway in New York usw."
       ],
       [
@@ -616,7 +616,7 @@ REISEN.usa = {
         "1’300",
         "ESTA ca. 40 USD pro Person, Reisekranken- und Annullationsschutz mit hoher Deckung"
       ],
-      ["Reserve (ca. 10 %)", "2’700–4’550", "3’500", "Souvenirs, Wäsche, Unvorhergesehenes"]
+      ["Reserve (ca. 10 %)", "2’620–4’400", "3’390", "Souvenirs, Wäsche, Unvorhergesehenes"]
     ],
     stationen: [
       ["1. Las Vegas (2)", "710–1’310"],
@@ -633,8 +633,8 @@ REISEN.usa = {
       ["11. New Orleans (2)", "600–1’000"],
       ["12. Destin (3)", "900–1’500"],
       ["13. Atlanta (1)", "350–600"],
-      ["14. Great Smoky Mountains (3)", "1’000–1’700"],
-      ["15. Shenandoah (2)", "600–1’000"],
+      ["14. Great Smoky Mountains (2)", "700–1’150"],
+      ["15. Shenandoah (1)", "300–500"],
       ["16. Washington, D.C. (3)", "1’280–2’180"],
       ["17. New York (4)", "2’650–4’420"]
     ],
@@ -643,10 +643,10 @@ REISEN.usa = {
       "Sparhebel: ein Zimmer mit zwei Queen-Betten, Motels mit Frühstück, Imbiss statt Restaurant, Nationalpark-Jahrespass früh kaufen, die vielen Gratis-Museen in Washington nutzen.",
       "Alle Beträge sind Richtwerte in CHF (Schätzungen, nicht verbindlich). Flug-, Hotel- und Mietwagenpreise im Juli schwanken stark; aktuelle Preise vor der Buchung vergleichen."
     ],
-    naechte: 34,
-    total: "38’050",
-    spanne: "29’500–49’500",
-    proTag: "ca. 1’120 CHF pro Tag, ca. 9’500 pro Person"
+    naechte: 32,
+    total: "36’810",
+    spanne: "28’500–47’900",
+    proTag: "ca. 1’150 CHF pro Tag, ca. 9’200 pro Person"
   },
   tippsIntro: "Einreise, Gesundheit, Sicherheit und Praktisches für die Reise mit 2 Erwachsenen und 2 Kids.",
   tipps: [
