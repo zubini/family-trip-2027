@@ -483,10 +483,28 @@ REISEN.usa = {
       ],
       ["Inlandflug Miami–Washington", "400–900", "600", "4 Personen inklusive aufgegebenem Gepäck"],
       [
-        "Mietwagen (Einwegmiete, Benzin, Parken, Maut)",
-        "4’100–4’500",
-        "4’300",
-        "Angebot Los Angeles–Miami inkl. Versicherung und Einweggebühr ca. 3’000 CHF (ca. 25 Tage, ca. 5’350 km); dazu Benzin ca. 450–550, Parkieren ca. 550–700 und Maut ca. 100–200"
+        "Mietwagen (Einwegmiete)",
+        "3’000–3’200",
+        "3’000",
+        "Angebot Los Angeles–Miami (ca. 25 Tage) inkl. Vollkasko, Zusatzhaftpflicht und Einweggebühr; Spanne für Extras vor Ort"
+      ],
+      [
+        "Benzin",
+        "450–550",
+        "500",
+        "ca. 5’350 km, Van oder SUV mit ca. 10–12 l/100 km (ca. 600 Liter); in Kalifornien am teuersten"
+      ],
+      [
+        "Parkieren",
+        "550–700",
+        "650",
+        "Hotels in Los Angeles, New Orleans und Miami Beach oft 35–60 USD pro Nacht, Las Vegas, San Antonio und Orlando ca. 20–35 USD; Universal, Kennedy Space Center, Strände; Motels meist gratis"
+      ],
+      [
+        "Maut",
+        "100–200",
+        "150",
+        "vor allem in Florida (Turnpike, Orlando, Miami), dazu die Gebühr des Vermieters für die automatische Mauterfassung"
       ],
       [
         "Zug und lokale Verkehrsmittel",
@@ -538,7 +556,7 @@ REISEN.usa = {
     ],
     naechte: 32,
     total: "33’850",
-    spanne: "27’600–43’000",
+    spanne: "27’600–43’100",
     proTag: "ca. 1’060 CHF pro Tag, ca. 8’500 pro Person"
   },
   tippsIntro: "Einreise, Gesundheit, Sicherheit und Praktisches für die Reise mit 2 Erwachsenen und 2 Kids.",
