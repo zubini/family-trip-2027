@@ -5,7 +5,7 @@
 Reiseführer und Variantenvergleich für die Familienreise 2027 (Sa, 19. Juni bis Sa, 24. Juli, 2 Erwachsene und 2 Kids) mit drei Varianten:
 
 - **Spanien / Portugal / Marokko**: mit dem eigenen Auto ab Brig-Glis, sechs Nächte Marokko nur mit Fähre und Zug (Casablanca, Marrakesch, Agafay-Wüste, Fès)
-- **USA (Las Vegas – New Orleans – New York)**: Roadtrip von den Nationalparks im Südwesten über Texas, New Orleans, Destin und die Appalachen nach Washington, Zug nach New York; als Variante von New York über Washington, die Smokies, New Orleans und Houston nach Florida
+- **USA (Las Vegas – Miami – New York)**: Roadtrip vom Südwesten über Texas, New Orleans und Destin nach Florida, Inlandflug nach Washington, Zug nach New York
 - **Malaysia / Thailand**: von Singapur nach Bangkok
 
 Dazu eine Einstiegsseite mit Vergleich, Bewertung, Budget sowie Pro und Contra und eine Seite mit den Quellen.
@@ -19,8 +19,7 @@ index.html        Seitengerüst
 data/             die Inhalte, hier wird fast alles geändert
   start.js        Einstiegsseite: Texte, Bewertung, Pro und Contra
   marokko.js      Spanien / Portugal / Marokko (eigenes Auto, Marokko mit Fähre und Zug)
-  usa.js          USA (Las Vegas–New Orleans–New York)
-  usa2.js         Variante: New York–New Orleans–Florida
+  usa.js          USA (Las Vegas–Miami–New York)
   asien.js        Malaysia / Thailand (Singapur–Bangkok)
   quellen.js      Seite «Quellen» (Belege für Fahrzeiten, Einreise, Bilder)
   bilder-unsplash.js  Unsplash-Fotos (erzeugt von tools/bilder-unsplash.js)

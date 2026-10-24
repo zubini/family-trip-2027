@@ -44,33 +44,33 @@ window.START = {
       ]
     },
     usa: {
-      name: "USA (Las Vegas – New Orleans – New York)",
-      zusatz: "Roadtrip vom Südwesten über den Süden an die Ostküste",
-      passt: "Nationalparks, ein grosser Roadtrip, Städte des Südens, etwas Strand und zum Schluss Washington und New York im Vordergrund stehen, ihr sehr viele Fahrtage in Kauf nehmt und das höhere Budget (rund {mehrkosten} CHF mehr) passt.",
-      kurz: "Fünf Wochen USA ohne Inlandflug: mit dem Mietwagen von Las Vegas durch Zion, Monument Valley und White Sands, über Texas und New Orleans an den Strand von Destin, durch die Great Smoky Mountains und Shenandoah nach Washington, dann mit dem Zug nach New York.",
-      route: "Las Vegas, Zion, Monument Valley, Santa Fe, White Sands, Roswell, Fort Stockton, San Antonio, Houston, New Orleans, Destin, Atlanta, Great Smoky Mountains, Shenandoah, Washington, (Zug) New York",
-      stationen: "15 Stationen und 1 Zwischenübernachtung",
-      laender: "USA (Nevada bis New York)",
+      name: "USA (Las Vegas – Miami – New York)",
+      zusatz: "Roadtrip vom Südwesten über die Golfküste nach Florida, dann Washington und New York",
+      passt: "Nationalparks, ein grosser Roadtrip, Städte des Südens, Strand in Destin und Miami und zum Schluss Washington und New York im Vordergrund stehen, ihr viele Fahrtage in Kauf nehmt und das höhere Budget (rund {mehrkosten} CHF mehr) passt.",
+      kurz: "Fünf Wochen USA: mit dem Mietwagen von Las Vegas über Zion, Monument Valley, Albuquerque und White Sands nach Texas, über Houston und New Orleans an den Strand von Destin, nach Orlando und Miami; dann Inlandflug nach Washington und Zug nach New York.",
+      route: "Las Vegas, Zion, Monument Valley, Albuquerque, White Sands, (Roswell) Fort Stockton, San Antonio, Houston, New Orleans, Destin, Orlando, Miami, (Flug) Washington, (Zug) New York",
+      stationen: "13 Stationen und 1 Zwischenübernachtung",
+      laender: "USA (Nevada bis Florida, Washington, New York)",
       hinflug: "Zürich–Las Vegas ca. 11,5 Std. direkt (nur an einzelnen Wochentagen, im Sommer 2026 auch samstags), sonst 14–17 Std.",
       rueckflug: "Direktflug New York (JFK)–Zürich ca. 7,75–8 Std. (SWISS, täglich) am Mi, 21.07.2027, Ankunft Do, 22.07.2027 am Morgen; zwei Tage Puffer gegen den Jetlag",
-      dazwischen: "Keine Flüge dazwischen: Einwegmiete Las Vegas–Washington (ca. 25 Tage), Amtrak Washington–New York (ca. 3–3,5 Std.)",
-      tempo: "Ca. 59–62 Std. reine Fahrzeit (ca. 5’600 km), realistisch mit Pausen und Stau ca. 70–74 Std. im Auto, an 14 Fahrtagen: 6 Tage mit 5–7,5 Std., die übrigen 2–4,5 Std.; dazu der Zug nach New York.",
-      gesamt: "Ca. 106–111 Std. Tür zu Tür: Bahn Brig-Glis–Zürich Flughafen (ca. 2,5 Std.), Flüge mit Wartezeiten, Einreise und Mietwagen zusammen ca. 30 Std., der Zug nach New York ca. 4 Std. und ca. 70–74 Std. im Auto. Uhr −6 bis −9 Std., Jetlag vor allem nach der Rückkehr.",
-      wetter: "Im Südwesten Ende Juni 38–45 °C, ab Juli Monsungewitter; Texas, New Orleans und die Golfküste heiss und feucht, Hurrikansaison; in den Smokies und in Shenandoah kühler mit Gewittern; Washington und New York heiss und schwül.",
-      einreise: "ESTA für alle vier (ca. 40 USD pro Person), Regeln im Wandel. Nationalpark-Jahrespass für Nicht-Residenten 250 USD, 100 USD Zusatzgebühr pro Person ab 16 Jahren in 11 Parks; in den Smokies Parkticket statt Eintritt.",
-      hoehepunkte: "Zion, Horseshoe Bend, Monument Valley, Meow Wolf, White Sands, UFO-Museum in Roswell, Alamo, Space Center Houston, New Orleans, weisse Strände bei Destin, World of Coca-Cola, Great Smoky Mountains, Skyline Drive und Luray Caverns, Smithsonian-Museen in Washington, New York.",
-      teens: "Narrows in Zion, Sandboarding auf White Sands, UFO-Museum in Roswell, Space Center Houston, Strand und Delfine in Destin, Schwarzbären in den Smokies, Dollywood, Air and Space Museum, New York.",
+      dazwischen: "Einwegmiete Las Vegas–Miami (ca. 25 Tage), Inlandflug Miami–Washington (ca. 2,5–3 Std.), Amtrak Washington–New York (ca. 3–3,5 Std.)",
+      tempo: "Ca. 50–54 Std. reine Fahrzeit (ca. 4’900 km), realistisch mit Pausen und Stau ca. 58–64 Std. im Auto, an 11 Fahrtagen: 6 Tage mit 5–7 Std., die übrigen 2,5–4 Std.; dazu ein Inlandflug und ein Zug im Osten.",
+      gesamt: "Ca. 100–107 Std. Tür zu Tür: Bahn Brig-Glis–Zürich Flughafen (ca. 2,5 Std.), Flüge mit Wartezeiten, Einreise und Mietwagen zusammen ca. 30 Std., der Inlandflug nach Washington mit Transfers ca. 7 Std., der Zug nach New York ca. 4 Std. und ca. 58–64 Std. im Auto. Uhr −6 bis −9 Std., Jetlag vor allem nach der Rückkehr.",
+      wetter: "Im Südwesten Ende Juni 38–45 °C, ab Juli Monsungewitter; Texas, die Golfküste und Florida heiss und feucht (ca. 32–33 °C) mit Gewittern am Nachmittag, Hurrikansaison mit Höhepunkt erst ab Mitte August; Washington und New York heiss und schwül.",
+      einreise: "ESTA für alle vier (ca. 40 USD pro Person), Regeln im Wandel. Nationalpark-Jahrespass für Nicht-Residenten 250 USD, 100 USD Zusatzgebühr pro Person ab 16 Jahren in 11 Parks (auf der Route Zion und Everglades).",
+      hoehepunkte: "Las Vegas, Zion, Horseshoe Bend, Monument Valley, Sandia Peak und Meow Wolf, White Sands, UFO-Museum in Roswell, Alamo, Space Center Houston, New Orleans, weisse Strände bei Destin, Universal und Kennedy Space Center, Everglades, Korallenriff bei Key Largo, Miami Beach, Smithsonian-Museen in Washington, New York.",
+      teens: "Narrows in Zion, Sandboarding auf White Sands, UFO-Museum, Space Center Houston, Sumpftour mit Alligatoren, Strand in Destin, Universal, Airboat und Schnorcheln am Riff, Air and Space Museum, New York.",
       pro: [
-        "Kein Inlandflug: ein Roadtrip am Stück von der Wüste bis an die Ostküste, Wagen in Washington zurück, dann Zug",
-        "Spektakuläre Landschaften: Zion, Horseshoe Bend, Monument Valley, White Sands, Great Smoky Mountains und Shenandoah",
-        "Abwechslung: Nationalparks, Städte des Südens (San Antonio, New Orleans, Atlanta), vier Strandtage in Destin und zum Schluss Washington und New York",
-        "Sehr gute medizinische Versorgung, viele Teenager-Highlights; Rückkehr zwei Tage vor Ferienende gegen den Jetlag"
+        "Ein Querschnitt durch die USA: Wüste und Nationalparks, Texas, New Orleans, Golfküste, Florida und zum Schluss Washington und New York",
+        "Spektakuläre Landschaften: Zion, Monument Valley, White Sands, Everglades und das Korallenriff der Keys",
+        "Strand in Destin und Miami, viele Teenager-Highlights (Universal, Space Center, Las Vegas, New York); im Osten kein Auto mehr",
+        "Sehr gute medizinische Versorgung; Rückkehr zwei Tage vor Ferienende gegen den Jetlag"
       ],
       contra: [
-        "Am teuersten (ca. {plan:usa} CHF): Einwegmiete quer durchs Land mit hoher Rückgabegebühr, Unterkünfte in Monument Valley, Destin und New York; Arztkosten sehr hoch",
-        "Am meisten Reisezeit: ca. 70–74 Std. im Auto an 14 Fahrtagen, sechs lange Tage mit 5–7,5 Std.; Tür zu Tür ca. 106–111 Std. und Jetlag",
-        "Hitze im Südwesten (oft über 40 °C) und Hurrikansaison an der Golfküste; wenig Strand, kein Schnorcheln am Riff",
-        "Zwei Langstreckenflüge mit viel CO₂; Direktflug nach Las Vegas nur an einzelnen Wochentagen, ESTA-Regeln vorab prüfen"
+        "Am teuersten (ca. {plan:usa} CHF): Einwegmiete quer durchs Land mit hoher Rückgabegebühr, Inlandflug, Unterkünfte in Miami und New York; Arztkosten sehr hoch",
+        "Viel Reisezeit: ca. 58–64 Std. im Auto an 11 Fahrtagen, sechs lange Tage mit 5–7 Std.; Tür zu Tür ca. 100–107 Std. und Jetlag",
+        "Hitze im Südwesten (oft über 40 °C), schwüle Hitze und Gewitter an der Golfküste und in Florida, Hurrikansaison (im Juli selten)",
+        "Drei Flüge mit viel CO₂; Direktflug nach Las Vegas nur an einzelnen Wochentagen, ESTA-Regeln vorab prüfen"
       ]
     },
     asien: {
@@ -110,7 +110,7 @@ window.START = {
         3,
         "Schöne Küsten und einzelne Naturhöhepunkte: Vulkanküste am Cabo de Gata, Schlucht des Caminito del Rey, Agafay-Steinwüste vor dem Hohen Atlas, Felsküste der Algarve, Felsbögen der Playa de las Catedrales; viele Tage in Städten und keine grossen Nationalparks wie in den USA."
       ],
-      usa: [5, "Zion, Horseshoe Bend, Monument Valley, White Sands, die Great Smoky Mountains und Shenandoah: spektakuläre und abwechslungsreiche Landschaften (Grand Canyon und Lake Powell nur als Option)."],
+      usa: [5, "Zion, Horseshoe Bend, Monument Valley, Sandia Peak, White Sands, die Everglades und das Korallenriff der Keys: spektakuläre und abwechslungsreiche Landschaften."],
       asien: [
         4,
         "Inseln, Strände und Riffe von Tioman bis Koh Tao, dazu Delfine bei Khanom und Wasserfälle; eher sanfte als dramatische Landschaften."
@@ -119,7 +119,7 @@ window.START = {
     {
       kriterium: "Dschungelfeeling",
       marokko: [0, "Kein Regenwald: Steinwüste, Palmengärten in Marrakesch und grüne Hügel im Baskenland."],
-      usa: [1, "Kein Regenwald; dichte, feuchte Laubwälder in den Great Smoky Mountains und Sümpfe in Louisiana."],
+      usa: [1, "Kein Regenwald; Sümpfe in Louisiana und Mangroven in den Everglades."],
       asien: [
         3,
         "Dschungelwanderung auf Tioman, Wasserfälle und Inselwälder; kein grosser zusammenhängender Regenwald auf der Route."
@@ -140,7 +140,7 @@ window.START = {
         4,
         "Vier Nächte auf Formentera, dazu Costa Brava, Benidorm, Cabo de Gata, Tarifa, Cádiz, Algarve und San Sebastián; im Juli voll."
       ],
-      usa: [2, "Vier Nächte an den weissen Stränden bei Destin mit ca. 28–30 °C warmem Wasser; sonst kaum Meer."],
+      usa: [3, "Drei Nächte an den weissen Stränden bei Destin und vier Nächte in Miami mit Miami Beach, Wasser ca. 28–31 °C; dazwischen viele Tage ohne Meer."],
       asien: [
         5,
         "Tioman, Perhentian Islands, Khanom, Koh Samui, Koh Tao und Hua Hin: tropische Strände mit ca. 29 °C warmem Wasser an fast jeder zweiten Station."
@@ -152,7 +152,7 @@ window.START = {
         3,
         "Gutes Mittelmeer-Schnorcheln: Meeresschutzgebiet der Medes-Inseln mit grossen Fischen, vier Nächte auf Formentera (Cala Saona, Es Caló, Seegraswiesen mit sehr klarem Wasser) und das Cabo de Gata (Los Escullos, Cala de San Pedro); wenige Korallen, keine Riffe und kühleres Wasser als in den Tropen."
       ],
-      usa: [1, "Nur an den Steinmolen bei Destin (Fische, ruhiges Wasser); kein Korallenriff auf der Route."],
+      usa: [2, "Ein Tagesausflug von Miami nach Key Largo mit Bootstour zum einzigen Korallenriff an der Festlandküste der USA, dazu die Steinmolen bei Destin; das Riff ist weniger farbig als in Südostasien."],
       asien: [
         5,
         "Tioman, Perhentian Islands, Koh Samui und Koh Tao: fast jede Inselstation hat Riffe, Schildkröten und Schnorchelboote."
@@ -164,7 +164,7 @@ window.START = {
         3,
         "Caminito del Rey, Kamelritt, Quad und Nacht im Zeltcamp in der Agafay-Wüste, Medinas mit Führer, Zugfahrten quer durch Marokko, Kajak durch die Grotten der Algarve, Surfen in San Sebastián."
       ],
-      usa: [4, "Durch die Narrows waten, Sandboarding auf White Sands, UFO-Museum in Roswell, Wanderungen in den Smokies, ein Roadtrip quer durchs Land."],
+      usa: [4, "Durch die Narrows waten, Sandboarding auf White Sands, Sumpftour mit Alligatoren, Airboat in den Everglades, Schnorcheln am Riff, ein Roadtrip quer durchs Land."],
       asien: [3, "Kajak, Seilrutschen, Inselhopping und Fähren; eher abenteuerlich beim Reisen als in der Natur."]
     },
     {
@@ -173,7 +173,7 @@ window.START = {
         5,
         "Barcelona, Valencia, Casablanca, Marrakesch, Fès, Cádiz, Sevilla, Lissabon, Porto, San Sebastián und Carcassonne: europäische und marokkanische Städte im Wechsel."
       ],
-      usa: [5, "Las Vegas, Santa Fe, San Antonio, New Orleans, Atlanta, Washington und New York mit Museen und Aussichtsplattformen."],
+      usa: [5, "Las Vegas, Albuquerque und Santa Fe, San Antonio, Houston, New Orleans, Miami, Washington und New York mit Museen und Aussichtsplattformen."],
       asien: [4, "Singapur, Kuala Lumpur, Penang und Bangkok mit Street-Food und Tempeln."]
     },
     {
@@ -182,7 +182,7 @@ window.START = {
         4,
         "Rund vier von fünf Wochen in Spanien, Portugal und Frankreich, dort unkompliziert. In Marokko (6 Nächte) keine Krankenversicherungskarte, kein Leitungswasser und auf Hygiene beim Essen achten; das grösste Risiko ist die Hitze in Marrakesch, in der Agafay-Wüste und in Fès (38–42 °C)."
       ],
-      usa: [4, "Sehr gute Spitäler, aber sehr teuer (Reiseversicherung mit hoher Deckung nötig); Hitze im Südwesten, Hurrikansaison an der Golfküste."],
+      usa: [4, "Sehr gute Spitäler, aber sehr teuer (Reiseversicherung mit hoher Deckung nötig); Hitze im Südwesten, Hurrikansaison an der Golfküste und in Florida."],
       asien: [
         3,
         "Singapur sehr sicher; in Malaysia und Thailand Dengue-Mückenschutz, kein Leitungswasser, Impfstatus vorab klären; auf den Inseln (Tioman, Perhentian) ist ein Spital weit weg, Bootsfahrten bei Wellengang."
@@ -191,7 +191,7 @@ window.START = {
     {
       kriterium: "Budget (mehr Punkte = günstiger)",
       marokko: [4, "ca. {plan:marokko} CHF: kein Flug, Supercharging gratis, Marokko günstig; dafür Fähren und Züge in Marokko sowie Parkplatz in Tarifa."],
-      usa: [1, "ca. {plan:usa} CHF: rund {mehrkosten} CHF mehr, vor allem Einwegmiete mit Rückgabegebühr und Unterkünfte in den Nationalparks und in New York."],
+      usa: [1, "ca. {plan:usa} CHF: rund {mehrkosten} CHF mehr, vor allem Einwegmiete mit Rückgabegebühr, Inlandflug und Unterkünfte in Miami und New York."],
       asien: [4, "ca. {plan:asien} CHF: Singapur ist teuer, der Rest günstig."]
     },
     {
@@ -200,7 +200,7 @@ window.START = {
         3,
         "Ca. 96–103 Stunden Tür zu Tür, kein Jetlag, in Marokko kein Fahren; aber Wechsel zwischen eigenem Auto, Fähre und Zug, Passkontrollen, ein langer Zugtag Marrakesch–Fès und mehrere Tage mit 7–9 Stunden."
       ],
-      usa: [1, "Ca. 106–111 Stunden Tür zu Tür: zwei Langstreckenflüge mit Einreise und Jetlag, dazu am meisten Zeit im Auto (ca. 70–74 Stunden an 14 Fahrtagen, sechs Tage mit 5–7,5 Stunden)."],
+      usa: [1, "Ca. 100–107 Stunden Tür zu Tür: zwei Langstreckenflüge mit Einreise und Jetlag, ein Inlandflug, dazu viel Zeit im Auto (ca. 58–64 Stunden an 11 Fahrtagen, sechs Tage mit 5–7 Stunden)."],
       asien: [
         2,
         "Ca. 101–108 Stunden Tür zu Tür: zwei Direktflüge mit Jetlag, dazu ca. 65–70 Stunden mit Bus, Zug und Fähre und viele Umstiege mit Gepäck; niemand muss selber fahren."
@@ -212,7 +212,7 @@ window.START = {
         5,
         "Kein Flug: Elektroauto (ca. 1’100 kWh), zwei kurze Fähren, Züge in Marokko (ohne Mietwagen); grob geschätzt ca. 0,1–0,2 t CO₂ pro Person."
       ],
-      usa: [1, "Zwei Langstreckenflüge (zusammen ca. 15’000 km) und ca. 5’600 km Mietwagen, grob geschätzt ca. 3–3,5 t CO₂ pro Person."],
+      usa: [1, "Zwei Langstreckenflüge und ein Inlandflug (zusammen ca. 17’000 km) und ca. 4’900 km Mietwagen, grob geschätzt ca. 3,5 t CO₂ pro Person."],
       asien: [
         1,
         "Zwei Langstreckenflüge (ca. 19’000 km), unterwegs Bus, Zug und Fähre, grob geschätzt ca. 4 t CO₂ pro Person."

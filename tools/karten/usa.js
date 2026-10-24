@@ -1,10 +1,10 @@
 // Übersichtskarte Las Vegas – New Orleans – New York.
 const { basis, wege, stationen } = require('./_usa.js');
 const alle = {};
-for (let i = 1; i <= 15; i++) alle[i] = 'r';
+for (let i = 1; i <= 13; i++) alle[i] = 'r';
 module.exports = Object.assign({}, basis, {
-  titel: 'Übersichtskarte der Reiseroute von Las Vegas über New Orleans nach New York',
-  laenge: [-120.5, -70.5], breitengrad: [27.0, 43.0], breite: 1100, klein: true,
+  titel: 'Übersichtskarte der Reiseroute von Las Vegas über New Orleans und Miami nach New York',
+  laenge: [-120.5, -70.5], breitengrad: [24.0, 43.0], breite: 1100, klein: true,
   wege,
   stationen: stationen(alle),
   zwischenstopps: [['Fort Stockton', 'FST', 14]],

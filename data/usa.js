@@ -1,12 +1,11 @@
-// Reise: USA von Las Vegas über New Orleans nach New York (Mietwagen bis Washington, Zug nach New York, kein Inlandflug)
+// Reise: USA von Las Vegas über New Orleans und Miami nach New York (Mietwagen bis Miami, Inlandflug nach Washington, Zug nach New York)
 // Daten in "datum" ohne Wochentag schreiben (z.B. "19.–22. Juni"), die Wochentage rechnet js/app.js aus.
 // Texte dürfen einfaches HTML enthalten (<b>, <strong>, <i>).
 window.REISEN = window.REISEN || {};
 REISEN.usa = {
-  titel: "Von Las Vegas über New Orleans nach New York",
+  titel: "Von Las Vegas über New Orleans und Miami nach New York",
   menu: "USA",
-  variante: "Las Vegas – New Orleans – New York",
-  untertitel: "Fünf Wochen USA ohne Inlandflug: mit dem Mietwagen von Las Vegas durch die Nationalparks im Südwesten, über Texas und New Orleans an die Golfküste, durch die Great Smoky Mountains und Shenandoah nach Washington, dann mit dem Zug nach New York.",
+  untertitel: "Fünf Wochen USA: mit dem Mietwagen von Las Vegas über Zion, Monument Valley, Albuquerque und White Sands nach Texas, über Houston und New Orleans an den Strand von Destin, nach Orlando und Miami; dann mit dem Flugzeug nach Washington und mit dem Zug nach New York.",
   zeitraum: "Sa, 19.06.2027 bis Do, 22.07.2027, 2 Erwachsene und 2 Kids",
   titelbild: {
     datei: "USA 10187 Horseshoe Bend Luca Galuzzi 2007.jpg",
@@ -14,7 +13,7 @@ REISEN.usa = {
     stichwort: "horseshoe bend|monument valley",
     alt: "Horseshoe Bend, Arizona"
   },
-  planIntro: "Abflug ab Zürich nach Las Vegas am Sa, 19.06.2027, Rückflug ab New York am Mi, 21.07.2027 (Ankunft Do, 22.07.2027). Dazwischen eine Einwegmiete Las Vegas–Washington und der Zug nach New York, kein Inlandflug. Ein Klick auf eine Station springt zur Beschreibung.",
+  planIntro: "Abflug ab Zürich nach Las Vegas am Sa, 19.06.2027, Rückflug ab New York am Mi, 21.07.2027 (Ankunft Do, 22.07.2027). Dazwischen eine Einwegmiete Las Vegas–Miami, ein Inlandflug nach Washington und der Zug nach New York. Ein Klick auf eine Station springt zur Beschreibung.",
   hinflug: {
     datum: "19. Juni",
     name: "Flug Zürich–Las Vegas",
@@ -25,7 +24,7 @@ REISEN.usa = {
       datum: "19.–21. Juni",
       name: "1. Las Vegas",
       naechte: 2,
-      info: "Flug ab Zürich (ca. 11,5 Std.), Mietwagen am Flughafen abholen (Einwegmiete bis Washington)"
+      info: "Flug ab Zürich (ca. 11,5 Std.), Mietwagen am Flughafen abholen (Einwegmiete bis Miami)"
     },
     {datum: "21.–23. Juni", name: "2. Zion National Park", naechte: 2, info: "Mietwagen (ca. 2,5–3 Std.), Uhr +1 Std."},
     {
@@ -34,29 +33,27 @@ REISEN.usa = {
       naechte: 1,
       info: "Mietwagen über Page (ca. 4,5–5 Std.), Halt am Horseshoe Bend"
     },
-    {datum: "24.–26. Juni", name: "4. Santa Fe", naechte: 2, info: "Mietwagen (ca. 6,5–7 Std.)"},
-    {datum: "26.–27. Juni", name: "5. White Sands (Alamogordo)", naechte: 1, info: "Mietwagen (ca. 4–4,5 Std.)"},
-    {datum: "27.–28. Juni", name: "6. Roswell", naechte: 1, info: "Mietwagen über Ruidoso (ca. 2 Std.)"},
+    {datum: "24.–26. Juni", name: "4. Albuquerque", naechte: 2, info: "Mietwagen (ca. 5,5–6,5 Std.)"},
+    {datum: "26.–27. Juni", name: "5. White Sands (Alamogordo)", naechte: 1, info: "Mietwagen (ca. 3,5–4 Std.)"},
     {
-      datum: "28.–29. Juni",
+      datum: "27.–28. Juni",
       name: "Zwischenübernachtung Fort Stockton",
       naechte: 1,
-      info: "Mietwagen über die US-285 (ca. 3,5–4 Std.), Uhr +1 Std."
+      info: "Mietwagen über Roswell (ca. 5,5–6 Std.), Uhr +1 Std."
     },
-    {datum: "29. Juni–1. Juli", name: "7. San Antonio", naechte: 2, info: "Mietwagen (ca. 5–5,5 Std.)"},
-    {datum: "1.–2. Juli", name: "8. Houston", naechte: 1, info: "Mietwagen (ca. 3–3,5 Std.)"},
-    {datum: "2.–4. Juli", name: "9. New Orleans", naechte: 2, info: "Mietwagen (ca. 5–6 Std.)"},
-    {datum: "4.–8. Juli", name: "10. Destin (Golfküste)", naechte: 4, info: "Mietwagen (ca. 4–4,5 Std.)"},
-    {datum: "8.–9. Juli", name: "11. Atlanta", naechte: 1, info: "Mietwagen (ca. 5–5,5 Std.), Uhr +1 Std."},
-    {datum: "9.–12. Juli", name: "12. Great Smoky Mountains", naechte: 3, info: "Mietwagen (ca. 3,75–4,5 Std.)"},
-    {datum: "12.–14. Juli", name: "13. Shenandoah (Luray)", naechte: 2, info: "Mietwagen (ca. 6–7,5 Std.)"},
+    {datum: "28.–30. Juni", name: "6. San Antonio", naechte: 2, info: "Mietwagen (ca. 5–5,5 Std.)"},
+    {datum: "30. Juni–2. Juli", name: "7. Houston", naechte: 2, info: "Mietwagen (ca. 3–3,5 Std.)"},
+    {datum: "2.–4. Juli", name: "8. New Orleans", naechte: 2, info: "Mietwagen (ca. 5–6 Std.)"},
+    {datum: "4.–7. Juli", name: "9. Destin (Golfküste)", naechte: 3, info: "Mietwagen (ca. 4–4,5 Std.)"},
+    {datum: "7.–10. Juli", name: "10. Orlando", naechte: 3, info: "Mietwagen (ca. 6–7 Std.), Uhr +1 Std."},
     {
-      datum: "14.–17. Juli",
-      name: "14. Washington, D.C.",
-      naechte: 3,
-      info: "Mietwagen (ca. 1,75–2 Std.), Rückgabe in Washington"
+      datum: "10.–14. Juli",
+      name: "11. Miami",
+      naechte: 4,
+      info: "Mietwagen (ca. 3,5–4 Std.), Rückgabe am Flughafen am Abreisetag"
     },
-    {datum: "17.–21. Juli", name: "15. New York", naechte: 4, info: "Amtrak-Zug (ca. 3–3,5 Std.); Rückflug 21. Juli"}
+    {datum: "14.–17. Juli", name: "12. Washington, D.C.", naechte: 3, info: "Inlandflug nonstop (ca. 2,5–3 Std.)"},
+    {datum: "17.–21. Juli", name: "13. New York", naechte: 4, info: "Amtrak-Zug (ca. 3–3,5 Std.); Rückflug 21. Juli"}
   ],
   rueckflug: {
     datum: "21. Juli",
@@ -66,52 +63,56 @@ REISEN.usa = {
   planHinweise: [
     [
       "Gesamt",
-      "32 Nächte, 15 Stationen und eine Zwischenübernachtung (Fort Stockton). Eine Einwegmiete Las Vegas–Washington (ca. 25 Tage) mit ca. 5’600 km und ca. 59–62 Std. reiner Fahrzeit an 14 Fahrtagen, realistisch mit Pausen, Tanken, Stau und Fahrten vor Ort ca. 70–74 Std. im Auto. Dazu der Zug nach New York (ca. 3–3,5 Std.). Die längsten Fahrtage: Monument Valley–Santa Fe (ca. 6,5–7 Std.), Great Smoky Mountains–Luray (ca. 6–7,5 Std.), Houston–New Orleans (ca. 5–6 Std.), Destin–Atlanta (ca. 5–5,5 Std.), Fort Stockton–San Antonio (ca. 5–5,5 Std.)."
+      "32 Nächte, 13 Stationen und eine Zwischenübernachtung (Fort Stockton). Eine Einwegmiete Las Vegas–Miami (ca. 25 Tage) mit ca. 4’900 km und ca. 50–54 Std. reiner Fahrzeit an 11 Fahrtagen, realistisch mit Pausen, Tanken, Stau und Fahrten vor Ort ca. 58–64 Std. im Auto. Dazu ein Inlandflug Miami–Washington (ca. 2,5–3 Std.) und der Zug nach New York (ca. 3–3,5 Std.). Die längsten Fahrtage: Destin–Orlando (ca. 6–7 Std.), Monument Valley–Albuquerque (ca. 5,5–6,5 Std.), White Sands–Fort Stockton über Roswell (ca. 5,5–6 Std.), Houston–New Orleans und Fort Stockton–San Antonio (je ca. 5–6 Std.)."
     ],
     [
       "Flug ab und nach Zürich",
-      "Hinflug: Zürich–Las Vegas mit Edelweiss als Direktflug ca. 11,5 Std. (Sommer 2026: Mo, Mi und Sa, Abflug ca. 13.55 Uhr, Ankunft ca. 16.25 Uhr Ortszeit, Zeitverschiebung −9 Std.; sonst mit Umstieg ca. 14–17 Std.). Rückflug: New York (JFK)–Zürich mit SWISS als Direktflug täglich, ca. 7,75–8 Std., am Mi, 21.07.2027 (Sommer 2026: Abflug ca. 16.15 Uhr, Ankunft ca. 6.10 Uhr; Zeitverschiebung +6 Std.). Flugpläne 2027 bei der Buchung prüfen."
+      "Hinflug: Zürich–Las Vegas mit Edelweiss als Direktflug ca. 11,5 Std. (Sommer 2026: Mo, Mi und Sa, Abflug ca. 13.55 Uhr, Ankunft ca. 16.25 Uhr Ortszeit, Zeitverschiebung −9 Std.; sonst mit Umstieg ca. 14–17 Std.). Inlandflug Miami–Washington am Mi, 14.07.2027 nonstop ca. 2,5–3 Std. (American, Delta, viele Flüge pro Tag). Rückflug: New York (JFK)–Zürich mit SWISS als Direktflug täglich, ca. 7,75–8 Std., am Mi, 21.07.2027 (Sommer 2026: Abflug ca. 16.15 Uhr, Ankunft ca. 6.10 Uhr). Flugpläne 2027 bei der Buchung prüfen."
+    ],
+    [
+      "Hitze und Hurrikane",
+      "Im Südwesten Ende Juni 38–45 °C. Texas, die Golfküste und Florida sind im Juli ca. 32–33 °C heiss und sehr schwül, mit fast täglichen Gewittern am Nachmittag. Die Hurrikansaison dauert von Juni bis November, die meisten Stürme kommen aber von Mitte August bis Mitte Oktober (Höhepunkt um den 10. September); im Juli ist das Risiko klein, aber nicht null: Reiseversicherung und flexible Buchungen."
     ],
     [
       "Vorab buchen",
-      "Einwegmiete Las Vegas–Washington, Unterkunft in Monument Valley (oft Monate im Voraus), Meow Wolf, Space Center Houston, Unterkunft in Destin, Parkticket für die Great Smoky Mountains, Dollywood, Air and Space Museum, Amtrak Washington–New York, Aussichtsplattform und Broadway in New York."
+      "Einwegmiete Las Vegas–Miami (Gebühr vergleichen), Unterkunft in Monument Valley (oft Monate im Voraus), Meow Wolf, Space Center Houston, Sumpftour in New Orleans, Unterkunft in Destin, Universal und Kennedy Space Center, Schnorcheltour in Key Largo, Inlandflug Miami–Washington (Gepäck einrechnen), Air and Space Museum, Amtrak Washington–New York, Aussichtsplattform und Broadway in New York."
     ],
     [
       "Optional",
-      "Page mit Lake Powell (eine Nacht mehr zwischen Zion und Monument Valley), Grand Canyon (ebenfalls mit einer Nacht mehr), Bryce Canyon (ab Zion, ca. 2 Std.), Big Bend National Park (ab Fort Stockton, Umweg), Galveston (Strand, ab Houston), Memphis und Nashville statt Atlanta (Musikroute), Blue Ridge Parkway (zwischen den Smokies und Shenandoah), Mount Vernon (ab Washington), Philadelphia (Halt mit dem Zug)."
+      "Bryce Canyon (ab Zion, ca. 2 Std.), Page mit Lake Powell und Antelope Canyon (eine Nacht mehr zwischen Zion und Monument Valley), Grand Canyon (ebenfalls mit einer Nacht mehr), Santa Fe mit eigener Nacht, Carlsbad Caverns (auf der Fahrt nach Fort Stockton), Galveston (Strand, ab Houston), Siesta Key oder Key Largo mit eigenen Nächten, Philadelphia (Halt mit dem Zug)."
     ]
   ],
   karte: {
-    intro: "Ungefährer Verlauf der Wege: mit dem Mietwagen von Las Vegas nach Washington, dann mit dem Zug nach New York. Darunter zwei Detailkarten.",
+    intro: "Ungefährer Verlauf der Wege: mit dem Mietwagen von Las Vegas nach Miami, dann mit dem Flugzeug nach Washington und mit dem Zug nach New York. Darunter zwei Detailkarten.",
     breit: true,
-    legende: ["car", "train"],
+    legende: ["car", "air", "train"],
     karten: [
       {datei: "karten/usa.svg"},
-      {titel: "Südwesten im Detail (Stationen 1 bis 6)", datei: "karten/usa-suedwesten.svg"},
-      {titel: "Von Texas bis New York im Detail (Stationen 7 bis 15)", datei: "karten/usa-osten.svg"}
+      {titel: "Südwesten im Detail (Stationen 1 bis 5)", datei: "karten/usa-suedwesten.svg"},
+      {titel: "Von Texas bis New York im Detail (Stationen 6 bis 13)", datei: "karten/usa-osten.svg"}
     ]
   },
-  abwechslungIntro: "Nach langen Fahrtagen jeweils einen ruhigen Tag einplanen. Wüste und Nationalparks, Städte des Südens, Strand und grüne Berge wechseln sich ab, zum Schluss Washington und New York ohne Auto.",
+  abwechslungIntro: "Wüste und Nationalparks, Städte des Südens, Strand und Freizeitparks wechseln sich ab, zum Schluss Washington und New York ohne Auto.",
   abwechslung: [
     [
       "Naturwunder",
-      "Zion, Horseshoe Bend (Halt unterwegs), Monument Valley, White Sands, Great Smoky Mountains, Shenandoah mit den Luray Caverns."
+      "Zion, Horseshoe Bend, Monument Valley, Sandia Peak, White Sands, Everglades und das Korallenriff bei Key Largo."
     ],
-    ["Strand", "Vier Nächte an den weissen Stränden der Golfküste bei Destin (Wasser ca. 28–30 °C)."],
+    [
+      "Strand",
+      "Drei Nächte an den weissen Stränden bei Destin, dazu Miami Beach und ein Schnorcheltag in Key Largo (Wasser ca. 29–31 °C)."
+    ],
     [
       "Action und Freizeitparks",
-      "Las Vegas, Meow Wolf in Santa Fe, Space Center Houston, World of Coca-Cola, Dollywood, Narrows in Zion."
+      "Las Vegas, Meow Wolf in Santa Fe, UFO-Museum in Roswell, Space Center Houston, Sumpftour in Louisiana, Universal und Kennedy Space Center in Orlando, Airboat in den Everglades, Broadway."
     ],
     [
       "Städte und Kultur",
-      "Las Vegas, Santa Fe, Navajo Nation, San Antonio mit dem Alamo, New Orleans mit Jazz, Atlanta, Washington mit den Smithsonian-Museen, New York."
+      "Las Vegas, Albuquerque und Santa Fe, Navajo Nation, San Antonio mit dem Alamo, Houston, New Orleans mit Jazz, Miami, Washington mit den Smithsonian-Museen, New York."
     ],
-    [
-      "Ruhetage",
-      "Santa Fe, Destin und die Smokies sorgen für Erholung zwischen den Fahrtagen; im Osten kein Auto mehr."
-    ]
+    ["Ruhetage", "Zion, Albuquerque, Destin und Miami haben mehrere Nächte; im Osten kein Auto mehr."]
   ],
-  stationenIntro: "Fünfzehn Stationen von Las Vegas bis New York. Über jeder Station steht, wie ihr dorthin kommt.",
+  stationenIntro: "Dreizehn Stationen von Las Vegas bis New York. Über jeder Station steht, wie ihr dorthin kommt.",
   stationen: [
     {
       nr: 1,
@@ -194,27 +195,29 @@ REISEN.usa = {
     },
     {
       nr: 4,
-      name: "Santa Fe",
+      name: "Albuquerque",
       land: "us",
       region: "New Mexico",
       datum: "24.–26. Juni",
       naechte: "2 Nächte",
-      anreise: "Mietwagen von Monument Valley über Shiprock und Farmington nach Santa Fe (ca. 6,5–7 Std., ca. 620 km). Einer der längsten Fahrtage: früh starten.",
-      text: "Die Hauptstadt von New Mexico auf rund 2’100 Metern Höhe: Lehmziegel-Architektur, Kunstgalerien und die Landschaft des Südwestens. Nach der Wildnis kommt hier wieder Stadtleben.",
-      teens: "Meow Wolf «House of Eternal Return» (immersive Kunstwelt, Tickets vorab), Bandelier National Monument (Felswohnungen und Leitern), Plaza und Canyon Road, Bradbury Science Museum in Los Alamos.",
+      anreise: "Mietwagen von Monument Valley über Kayenta, Shiprock und Gallup auf die Interstate 40 nach Albuquerque (ca. 5,5–6,5 Std., ca. 520 km). Einer der längeren Fahrtage: früh starten.",
+      text: "Die grösste Stadt New Mexicos am Rio Grande: eine Altstadt mit Lehmziegelbauten, die Route 66 und eine der längsten Pendelseilbahnen der Welt auf den Sandia Peak.",
+      teens: "Sandia Peak Tramway auf über 3’100 m mit Blick über die Wüste (oben kühl), Old Town mit Lehmziegelkirche, Felszeichnungen im Petroglyph National Monument, Neonschilder an der Route 66, Meow Wolf in Santa Fe (begehbare Kunstwelt, Tagesausflug).",
       fakten: [
-        "<strong>Dauer:</strong> 2 Nächte: ein Tag Plaza, Meow Wolf und Pueblo-Felswohnungen bei Bandelier; Ruhetag nach der langen Fahrt.",
-        "<strong>Höhe:</strong> Auf 2’100 m Sonnencreme, viel trinken und am ersten Tag nicht übertreiben.",
-        "<strong>Hinweis:</strong> Am Nachmittag sind Monsungewitter möglich; in Schluchten und auf Bergstrassen achtsam fahren.",
-        "<strong>Essen:</strong> Neu-mexikanische Küche mit roten und grünen Chilis (nach der Schärfe fragen)."
+        "<strong>Dauer:</strong> 2 Nächte: Old Town und mit der Sandia Peak Tramway zum Sonnenuntergang, ein Tag Santa Fe mit Meow Wolf und der Altstadt (ca. 1 Std. nördlich).",
+        "<strong>Höhe:</strong> Albuquerque liegt auf ca. 1’600 m, der Sandia Peak auf ca. 3’160 m: Jacke für oben, Sonnencreme und viel trinken."
       ],
-      ausserdem: "Georgia O’Keeffe Museum, Loretto Chapel, Kasha-Katuwe Tent Rocks (Wanderung), Albuquerque (Altstadt, Petroglyph National Monument).",
+      ausserdem: "Santa Fe (Meow Wolf, Plaza), Petroglyph National Monument, Indian Pueblo Cultural Center, Kasha-Katuwe Tent Rocks.",
       bilder: [
-        {titel: "Plaza", suche: "Santa Fe Plaza|Santa Fe New Mexico plaza", stichwort: "santa fe"},
-        {titel: "Meow Wolf", suche: "Meow Wolf Santa Fe|House of Eternal Return", stichwort: "meow wolf"},
-        {titel: "Bandelier", suche: "Bandelier National Monument", stichwort: "bandelier"},
-        {titel: "Canyon Road", suche: "Canyon Road Santa Fe", stichwort: "canyon road"},
-        {titel: "Loretto Chapel", suche: "Loretto Chapel Santa Fe", stichwort: "loretto"},
+        {titel: "Sandia Peak Tramway", suche: "Sandia Peak Tramway Albuquerque", stichwort: "sandia"},
+        {titel: "Old Town", suche: "Albuquerque Old Town San Felipe de Neri", stichwort: "old town|albuquerque|felipe"},
+        {titel: "Petroglyphen", suche: "Petroglyph National Monument", stichwort: "petroglyph"},
+        {titel: "Route 66", suche: "Route 66 Albuquerque neon", stichwort: "route 66"},
+        {
+          titel: "Rio Grande",
+          suche: "Rio Grande Albuquerque bosque|Albuquerque sunset",
+          stichwort: "rio grande|albuquerque"
+        },
         {
           titel: "Tent Rocks",
           suche: "Kasha-Katuwe Tent Rocks National Monument|Tent Rocks",
@@ -229,7 +232,7 @@ REISEN.usa = {
       region: "New Mexico",
       datum: "26.–27. Juni",
       naechte: "1 Nacht",
-      anreise: "Mietwagen von Santa Fe über Albuquerque, die Interstate 25 und die US-54 nach Alamogordo (ca. 4–4,5 Std., ca. 360 km).",
+      anreise: "Mietwagen von Albuquerque über die Interstate 25, Carrizozo und die US-54 nach Alamogordo (ca. 3,5–4 Std., ca. 360 km).",
       text: "Weisse Gipsdünen in der Wüste von New Mexico: ein einzigartiger Landschaftstyp, durch den man barfuss wandert und auf Plastikschlitten die Dünen hinunterrutscht. White Sands ist ein Nationalpark.",
       teens: "Dünenrutschen mit Schlitten (im Visitor Center erhältlich), Sonnenuntergangs-Spaziergang, Wanderung auf dem Alkali Flat Trail (nur früh oder spät).",
       fakten: [
@@ -253,44 +256,20 @@ REISEN.usa = {
     },
     {
       nr: 6,
-      name: "Roswell",
-      land: "us",
-      region: "New Mexico",
-      datum: "27.–28. Juni",
-      naechte: "1 Nacht",
-      anreise: "Mietwagen von Alamogordo über die US-70 durch Tularosa und Ruidoso nach Roswell (ca. 2 Std., ca. 190 km).",
-      text: "Kleinstadt in der Ebene des Pecos-Flusses: 1947 soll hier ein UFO abgestürzt sein. Heute dreht sich vieles um Ausserirdische, mit Museum, Alien-Strassenlampen und grünen Figuren vor den Läden.",
-      teens: "International UFO Museum, Fotos mit Aliens auf der Main Street, Baden im Lea Lake im Bottomless Lakes State Park (Seen in alten Dolinen, ca. 20 Min.).",
-      fakten: [
-        "<strong>Dauer:</strong> 1 Nacht: am Nachmittag UFO-Museum und Main Street, am Abend Baden in den Bottomless Lakes oder im Hotelpool; am Morgen weiter nach Fort Stockton.",
-        "<strong>UFO-Museum:</strong> Das International UFO Museum erzählt vom angeblichen Absturz eines UFOs 1947; täglich ca. 9–17 Uhr, Eintritt günstig (Angaben 2023: ca. 5–7 USD Erwachsene, ca. 2 USD Kinder von 5 bis 15). Preise und Zeiten vorab prüfen.",
-        "<strong>Hitze:</strong> Im Sommer oft über 35 °C; Programm am Nachmittag in klimatisierten Räumen, Baden am Abend."
-      ],
-      ausserdem: "Bottomless Lakes State Park, Walker Aviation Museum, Spring River Park and Zoo.",
-      bilder: [
-        {titel: "UFO-Museum", suche: "International UFO Museum Roswell", stichwort: "ufo|roswell"},
-        {titel: "Main Street", suche: "Roswell New Mexico alien street", stichwort: "roswell|alien"},
-        {titel: "Bottomless Lakes", suche: "Bottomless Lakes State Park", stichwort: "bottomless"},
-        {titel: "Aliens", suche: "Roswell alien statue", stichwort: "alien|roswell"},
-        {titel: "Roswell", suche: "Roswell New Mexico", stichwort: "roswell"},
-        {titel: "Pecos-Ebene", suche: "New Mexico desert highway", stichwort: "new mexico|desert|highway"}
-      ]
-    },
-    {
-      nr: 7,
       name: "San Antonio",
       land: "us",
       region: "Texas",
-      datum: "29. Juni–1. Juli",
+      datum: "28.–30. Juni",
       naechte: "2 Nächte",
-      zwischenstopp: {text: "Zwischenübernachtung in Fort Stockton", datum: "28.–29. Juni"},
-      anreise: "Mietwagen von Roswell über Artesia, Carlsbad und Pecos auf der US-285 nach Fort Stockton (ca. 3,5–4 Std., ca. 350 km; schmale Strasse mit viel Lastwagenverkehr aus den Ölfeldern, wenig Tankstellen), dort übernachten. In Texas springt die Uhr +1 Std. Am nächsten Tag über die Interstate 10 nach San Antonio (ca. 5–5,5 Std., ca. 520 km).",
+      zwischenstopp: {text: "Zwischenübernachtung in Fort Stockton", datum: "27.–28. Juni"},
+      anreise: "Mietwagen von Alamogordo über die US-70 durch Ruidoso nach Roswell (ca. 2 Std., ca. 190 km; Mittagshalt im International UFO Museum), weiter über Artesia, Carlsbad und Pecos auf der US-285 nach Fort Stockton (ca. 3,5–4 Std., ca. 350 km; viel Lastwagenverkehr aus den Ölfeldern, wenig Tankstellen), dort übernachten. In Texas springt die Uhr +1 Std. Am nächsten Tag über die Interstate 10 nach San Antonio (ca. 5–5,5 Std., ca. 520 km).",
       text: "Texanische Geschichte und Flusspromenade: die Missionsstation Alamo, der River Walk mit Booten und Restaurants am Wasser und Tex-Mex-Küche.",
       teens: "Bootsfahrt auf dem River Walk, The Alamo, Missions-Weltkulturerbe per Velo, Freizeitpark Six Flags Fiesta Texas oder Wasserpark.",
       fakten: [
         "<strong>Dauer:</strong> 2 Nächte zum Ausruhen nach den langen Fahrtagen durch die Wüste.",
         "<strong>Hitze:</strong> Oft über 35 °C; River Walk am Abend am schönsten.",
-        "<strong>Hinweis:</strong> The Alamo mit Zeitfenster-Tickets (Eintritt in die Kirche gratis, Reservation empfohlen)."
+        "<strong>Hinweis:</strong> The Alamo mit Zeitfenster-Tickets (Eintritt in die Kirche gratis, Reservation empfohlen).",
+        "<strong>Roswell:</strong> Das International UFO Museum (täglich ca. 9–17 Uhr, Eintritt günstig, Angaben 2023: ca. 5–7 USD Erwachsene) liegt auf der Fahrt von White Sands; ca. 1–1,5 Std. einplanen."
       ],
       ausserdem: "San Antonio Missions (Unesco), Pearl District, Natural Bridge Caverns (Höhle).",
       bilder: [
@@ -303,17 +282,17 @@ REISEN.usa = {
       ]
     },
     {
-      nr: 8,
+      nr: 7,
       name: "Houston",
       land: "us",
       region: "Texas",
-      datum: "1.–2. Juli",
-      naechte: "1 Nacht",
+      datum: "30. Juni–2. Juli",
+      naechte: "2 Nächte",
       anreise: "Mietwagen von San Antonio über die Interstate 10 (ca. 3–3,5 Std., ca. 320 km).",
       text: "Die Raumfahrtstadt: Im Space Center Houston steht man in der Halle der Saturn-V-Rakete und neben dem Kontrollraum der Mondlandungen.",
       teens: "Space Center Houston mit Tram-Tour zum Mission Control und zur Saturn-V-Halle, Museum District, Abend am Buffalo Bayou.",
       fakten: [
-        "<strong>Dauer:</strong> 1 Nacht; das Space Center liegt ca. 40 Min. südöstlich der Stadt und eignet sich auch als Halt auf der Anreise.",
+        "<strong>Dauer:</strong> 2 Nächte: ein Tag Space Center Houston (ca. 40 Min. südöstlich der Stadt), ein halber Tag Museum District oder Strand in Galveston (ca. 1 Std.).",
         "<strong>Hitze:</strong> Heiss und feucht; das Space Center ist zum grossen Teil klimatisiert."
       ],
       ausserdem: "Museum District, Buffalo Bayou Park, Galveston (Strand, ca. 1 Std.).",
@@ -331,7 +310,7 @@ REISEN.usa = {
       ]
     },
     {
-      nr: 9,
+      nr: 8,
       name: "New Orleans",
       land: "us",
       region: "Louisiana",
@@ -356,17 +335,17 @@ REISEN.usa = {
       ]
     },
     {
-      nr: 10,
+      nr: 9,
       name: "Destin (Golfküste)",
       land: "us",
       region: "Florida Panhandle",
-      datum: "4.–8. Juli",
-      naechte: "4 Nächte",
+      datum: "4.–7. Juli",
+      naechte: "3 Nächte",
       anreise: "Mietwagen von New Orleans über die Interstate 10 an die Golfküste (ca. 4–4,5 Std., ca. 400 km).",
-      text: "Weisser Quarzsand und smaragdgrünes Wasser am Golf von Mexiko: vier Strandtage nach Wüste und Städten, bevor es in die Berge geht.",
+      text: "Weisser Quarzsand und smaragdgrünes Wasser am Golf von Mexiko: drei Strandtage nach Wüste und Städten, bevor es nach Florida hineingeht.",
       teens: "Baden und Sandburgen am Henderson Beach, Delfin-Bootstour, Schnorcheln an den Jetties von Destin (ruhiges Wasser), Stand-up-Paddle.",
       fakten: [
-        "<strong>Dauer:</strong> 4 Nächte am Strand, z.B. in Destin oder Santa Rosa Beach: Baden, Schnorcheln an den Steinmolen, Bootstour zu den Delfinen, Ruhetage. Am 4. Juli (Nationalfeiertag) Feuerwerk am Strand; Unterkünfte früh buchen.",
+        "<strong>Dauer:</strong> 3 Nächte am Strand, z.B. in Destin oder Santa Rosa Beach: Baden, Schnorcheln an den Steinmolen, Bootstour zu den Delfinen. Am 4. Juli (Nationalfeiertag) Feuerwerk am Strand; Unterkünfte früh buchen.",
         "<strong>Baden:</strong> Auf die Strandflaggen achten: rote Flagge heisst gefährliche Strömung (Rip Currents), dann nicht ins Wasser.",
         "<strong>Wetter:</strong> Gewitter am Nachmittag sind häufig; Hurrikansaison."
       ],
@@ -381,98 +360,71 @@ REISEN.usa = {
       ]
     },
     {
-      nr: 11,
-      name: "Atlanta",
+      nr: 10,
+      name: "Orlando",
       land: "us",
-      region: "Georgia",
-      datum: "8.–9. Juli",
-      naechte: "1 Nacht",
-      anreise: "Mietwagen von Destin über Montgomery nach Atlanta (ca. 5–5,5 Std., ca. 535 km). In Georgia gilt die Eastern-Zeit, die Uhr springt +1 Std.",
-      text: "Die grösste Stadt der Südstaaten: der Olympiapark der Spiele von 1996, die Welt von Coca-Cola und die Geschichte der Bürgerrechtsbewegung um Martin Luther King.",
-      teens: "World of Coca-Cola (Getränke aus aller Welt probieren), Wasserspiele im Centennial Olympic Park, Geburtshaus von Martin Luther King.",
+      region: "Florida",
+      datum: "7.–10. Juli",
+      naechte: "3 Nächte",
+      anreise: "Mietwagen von Destin über die Interstate 10 und die Interstate 75 nach Orlando (ca. 6–7 Std., ca. 650 km). In Orlando gilt Eastern-Zeit, die Uhr springt +1 Std.",
+      text: "Hauptstadt der Freizeitparks und Ausgangspunkt zum Kennedy Space Center, von wo die Raketen starten. Für die Teenager einer der Höhepunkte der Reise.",
+      teens: "Universal Studios und Islands of Adventure (Harry Potter), Kennedy Space Center mit der Saturn-V-Rakete und dem Space Shuttle Atlantis, mit Glück ein Raketenstart.",
       fakten: [
-        "<strong>Dauer:</strong> 1 Nacht: am Nachmittag World of Coca-Cola oder das Geburtshaus von Martin Luther King, am Abend der Olympiapark, am Morgen weiter in die Berge.",
-        "<strong>Eintritte:</strong> World of Coca-Cola ca. 25 USD ab 13 Jahren, ca. 21 USD für Kinder; liegt direkt am Olympiapark. Der Park und der Martin Luther King Jr. National Historical Park sind gratis. Preise vorab prüfen.",
-        "<strong>Verkehr:</strong> Im Grossraum Atlanta oft Stau; Hotel mit Parkplatz in der Innenstadt wählen."
+        "<strong>Dauer:</strong> 3 Nächte: ein Tag Universal (beide Parks), ein Tag Kennedy Space Center oder ein zweiter Parktag, ein ruhiger Tag am Pool.",
+        "<strong>Tickets:</strong> Kennedy Space Center 2026 ca. 77 USD ab 12 Jahren; Universal mit zwei Parks an einem Tag ca. 190–225 USD je nach Datum (die Kids zahlen den Erwachsenenpreis). Früh online buchen.",
+        "<strong>Maut:</strong> Viele Strassen in Florida sind mautpflichtig; beim Mietwagen das Mautpaket oder die Abrechnung per Kennzeichen klären."
       ],
-      ausserdem: "Georgia Aquarium, Stone Mountain Park, Atlanta BeltLine (Spazierweg), Zoo Atlanta.",
+      ausserdem: "Walt Disney World, Cocoa Beach, ICON Park mit Riesenrad.",
       bilder: [
-        {titel: "Centennial Olympic Park", suche: "Centennial Olympic Park Atlanta", stichwort: "olympic|atlanta"},
-        {titel: "World of Coca-Cola", suche: "World of Coca-Cola Atlanta", stichwort: "coca"},
-        {titel: "Skyline", suche: "Atlanta skyline", stichwort: "atlanta"},
-        {titel: "Martin Luther King", suche: "Martin Luther King Jr National Historical Park", stichwort: "king"},
-        {titel: "Stone Mountain", suche: "Stone Mountain Georgia", stichwort: "stone mountain"},
-        {titel: "Atlanta BeltLine", suche: "Atlanta BeltLine", stichwort: "beltline|atlanta"}
+        {titel: "Kennedy Space Center", suche: "Kennedy Space Center Visitor Complex", stichwort: "kennedy"},
+        {titel: "Space Shuttle Atlantis", suche: "Space Shuttle Atlantis Kennedy", stichwort: "atlantis"},
+        {titel: "Universal", suche: "Universal Studios Florida", stichwort: "universal"},
+        {titel: "Saturn V", suche: "Saturn V Kennedy Space Center", stichwort: "saturn"},
+        {titel: "Raketenstart", suche: "rocket launch Cape Canaveral", stichwort: "canaveral|launch"},
+        {titel: "Cocoa Beach", suche: "Cocoa Beach pier", stichwort: "cocoa beach"}
+      ]
+    },
+    {
+      nr: 11,
+      name: "Miami",
+      land: "us",
+      region: "Florida",
+      datum: "10.–14. Juli",
+      naechte: "4 Nächte",
+      anreise: "Mietwagen von Orlando über den Florida’s Turnpike nach Miami (ca. 3,5–4 Std., ca. 380 km, Mautstrasse).",
+      text: "Art-déco-Häuser und Strand in South Beach, kubanisches Essen in Little Havana und gleich vor der Stadt die Everglades mit Alligatoren und Mangroven.",
+      teens: "Airboat-Fahrt und Alligatoren in den Everglades, Strand und Art-déco-Viertel in South Beach, Graffiti-Kunst in Wynwood Walls, Little Havana mit kubanischem Essen.",
+      fakten: [
+        "<strong>Dauer:</strong> 4 Nächte: ein Tag Everglades (Airboat oder Shark Valley Tram), ein Tag Key Largo mit Schnorcheltour am Korallenriff (ca. 1,25–1,5 Std. pro Weg), ein Tag South Beach, ein halber Tag Wynwood und Little Havana.",
+        "<strong>Everglades:</strong> Eintritt ca. 35 USD pro Auto, dazu für Nicht-US-Bewohner ab 16 Jahren 100 USD pro Person, mit dem Jahrespass (250 USD) entfällt beides. Shark Valley Tram (ca. 2 Std.) 34 USD Erwachsene, 18 USD Kinder bis 12; Airboat-Touren ausserhalb des Parks ca. 27–37 USD.",
+        "<strong>Schnorcheln:</strong> Bootstouren im John Pennekamp Coral Reef State Park dauern ca. 2,5 Std. mit gut einer Stunde im Wasser (2026 ca. 65–75 USD pro Person, Ausrüstung inklusive); alle müssen schwimmen können, riffschonende Sonnencreme.",
+        "<strong>Wetter:</strong> Heiss und feucht (ca. 33 °C), am Nachmittag oft kurze Gewitter; Juni bis November ist Hurrikansaison, Wetterberichte verfolgen.",
+        "<strong>Weiterflug:</strong> Am Mi, 14.07.2027 nonstop nach Washington (ca. 2,5–3 Std., z.B. American oder Delta nach Reagan National, viele Flüge pro Tag). Mietwagen vorher am Flughafen zurückgeben."
+      ],
+      ausserdem: "Key Largo und Islamorada (Riff, Mangroven), Vizcaya Museum, Key Biscayne, Frost Science Museum.",
+      bilder: [
+        {titel: "South Beach", suche: "Miami South Beach|Miami Beach", stichwort: "miami beach|south beach"},
+        {titel: "Everglades", suche: "Everglades National Park airboat|Everglades", stichwort: "everglades"},
+        {titel: "Art déco", suche: "Ocean Drive Miami art deco", stichwort: "ocean drive|art deco"},
+        {titel: "Wynwood Walls", suche: "Wynwood Walls Miami", stichwort: "wynwood"},
+        {titel: "Little Havana", suche: "Little Havana Miami Calle Ocho", stichwort: "little havana|calle ocho"},
+        {titel: "Skyline", suche: "Miami skyline", stichwort: "miami"}
       ]
     },
     {
       nr: 12,
-      name: "Great Smoky Mountains (Gatlinburg)",
-      ersatzsuche: "Great Smoky Mountains|Gatlinburg",
-      land: "us",
-      region: "Tennessee",
-      datum: "9.–12. Juli",
-      naechte: "3 Nächte",
-      anreise: "Mietwagen von Atlanta über die Interstate 75, Chattanooga und Knoxville nach Gatlinburg (ca. 3,75–4,5 Std., ca. 315 km).",
-      text: "Der meistbesuchte Nationalpark der USA: bewaldete Berge im Dunst, Wasserfälle, Schwarzbären und alte Farmhäuser im Tal Cades Cove. Nach Wüste und Golfküste grün und etwas kühler.",
-      teens: "Wanderung zum Felsbogen Arch Rock am Alum Cave Trail, Aussichtsturm auf dem Kuwohi (früher Clingmans Dome), Rundfahrt durch Cades Cove mit Bären und Hirschen, Hängebrücken in Anakeesta, Achterbahnen in Dollywood.",
-      fakten: [
-        "<strong>Dauer:</strong> 3 Nächte: ein Tag Kuwohi und Alum Cave, ein Tag Cades Cove, ein Tag Dollywood oder Anakeesta.",
-        "<strong>Parken:</strong> Kein Eintritt, aber ab 15 Min. Parken ein Parkticket (5 USD pro Tag, 15 USD pro Woche, online auf recreation.gov); der Nationalpark-Jahrespass gilt dafür nicht.",
-        "<strong>Hinweis:</strong> Cades Cove war 2026 mittwochs für Autos gesperrt (nur Velos); der Weg zu den Laurel Falls ist seit Januar 2025 wegen Bauarbeiten zu. Für 2027 vorab prüfen.",
-        "<strong>Freizeitparks:</strong> Dollywood 2026 ab ca. 95 USD pro Person (ab 10 Jahren Erwachsenenpreis), Anakeesta ca. 35–40 USD. Preise vorab prüfen."
-      ],
-      ausserdem: "Pigeon Forge, Ripley’s Aquarium of the Smokies, Roaring Fork Motor Nature Trail, Newfound Gap.",
-      bilder: [
-        {titel: "Great Smoky Mountains", suche: "Great Smoky Mountains National Park", stichwort: "smoky"},
-        {titel: "Cades Cove", suche: "Cades Cove", stichwort: "cades"},
-        {titel: "Kuwohi", suche: "Clingmans Dome observation tower", stichwort: "clingmans|kuwohi"},
-        {titel: "Schwarzbär", suche: "black bear Great Smoky Mountains", stichwort: "bear"},
-        {titel: "Alum Cave", suche: "Alum Cave Trail Arch Rock", stichwort: "alum|arch rock"},
-        {titel: "Gatlinburg", suche: "Gatlinburg Tennessee", stichwort: "gatlinburg"}
-      ]
-    },
-    {
-      nr: 13,
-      name: "Shenandoah (Luray)",
-      ersatzsuche: "Shenandoah National Park|Luray",
-      land: "us",
-      region: "Virginia",
-      datum: "12.–14. Juli",
-      naechte: "2 Nächte",
-      anreise: "Mietwagen über die Interstate 40 und die Interstate 81 durch das Shenandoah-Tal nach Luray (ca. 6–7,5 Std., ca. 630 km). Einer der längsten Fahrtage: früh starten.",
-      text: "Ein langer Bergrücken in Virginia mit der Panoramastrasse Skyline Drive, Wasserfällen, Hirschen und weiter Aussicht über das Shenandoah-Tal. Bei Luray liegen grosse Tropfsteinhöhlen.",
-      teens: "Luray Caverns, Wanderung zu den Dark Hollow Falls, Aussicht vom Stony Man, Hirsche am Strassenrand in der Abenddämmerung.",
-      fakten: [
-        "<strong>Dauer:</strong> 2 Nächte: ein Tag Skyline Drive mit kurzen Wanderungen, ein halber Tag Luray Caverns.",
-        "<strong>Eintritt:</strong> 30 USD pro Auto für 7 Tage, mit dem Jahrespass inklusive (keine Zusatzgebühr für Nicht-Residenten). Der Skyline Drive ist 105 Meilen (ca. 170 km) lang, Tempo 35 mph, ganze Strecke ca. 3 Std.",
-        "<strong>Luray Caverns:</strong> ca. 36 USD Erwachsene, ca. 18 USD Kinder von 6 bis 12 (die Tochter zahlt den Erwachsenenpreis); Preise vorab prüfen.",
-        "<strong>Wandern:</strong> Dark Hollow Falls ca. 2,3 km hin und zurück, der Rückweg ist steil; Wasser mitnehmen."
-      ],
-      ausserdem: "Big Meadows, Skyland, Front Royal, Weingüter im Shenandoah-Tal.",
-      bilder: [
-        {titel: "Skyline Drive", suche: "Skyline Drive Shenandoah", stichwort: "skyline|shenandoah"},
-        {titel: "Luray Caverns", suche: "Luray Caverns", stichwort: "luray"},
-        {titel: "Dark Hollow Falls", suche: "Dark Hollow Falls Shenandoah", stichwort: "dark hollow|falls"},
-        {titel: "Stony Man", suche: "Stony Man Shenandoah", stichwort: "stony man"},
-        {titel: "Shenandoah-Tal", suche: "Shenandoah Valley view", stichwort: "shenandoah"},
-        {titel: "Hirsch", suche: "deer Shenandoah National Park", stichwort: "deer"}
-      ]
-    },
-    {
-      nr: 14,
       name: "Washington, D.C.",
       land: "us",
       region: "Washington, D.C.",
       datum: "14.–17. Juli",
       naechte: "3 Nächte",
-      anreise: "Mietwagen von Luray über die US-211 und die Interstate 66 nach Washington (ca. 1,75–2 Std., ca. 150 km; vor der Stadt oft Stau). Mietwagen bei der Ankunft zurückgeben, z.B. am Flughafen Reagan National oder an der Union Station; in der Stadt Metro, Velo oder zu Fuss.",
+      anreise: "Inlandflug Miami–Washington nonstop (ca. 2,5–3 Std.); vom Flughafen Reagan National mit der Metro in die Stadt (ca. 20 Min.). In der Stadt Metro, Velo oder zu Fuss.",
       text: "Die Hauptstadt der USA: Denkmäler, Regierungsgebäude und eine Vielzahl kostenloser Museen rund um die National Mall. Alles ist gut zu Fuss und mit der Metro erreichbar.",
       teens: "National Air and Space Museum (Zeitfenster-Tickets vorab), Natural History Museum (Hope-Diamant), Spy Museum, Lincoln Memorial und Washington Monument bei Abenddämmerung, Capitol.",
       fakten: [
         "<strong>Dauer:</strong> 3 Nächte: ein Tag National Mall und Denkmäler, ein Tag Museen (Air and Space, Natural History), ein halber Tag Arlington oder Georgetown.",
         "<strong>Hitze:</strong> Im Juli heiss und schwül, nachmittags oft Gewitter; Museen als Hitzepause einplanen.",
-        "<strong>Hinweis:</strong> Das White House ist von innen nur nach früher Anfrage über die Schweizer Botschaft zu besichtigen, von aussen jederzeit. In der Stadt Metro, Velo oder zu Fuss; kein Auto nötig."
+        "<strong>Hinweis:</strong> Das White House ist von innen nur nach früher Anfrage über die Schweizer Botschaft zu besichtigen, von aussen jederzeit."
       ],
       ausserdem: "Arlington National Cemetery, Mount Vernon (Landsitz von George Washington), Georgetown, National Zoo (gratis), Holocaust Memorial Museum (Zeitfenster).",
       bilder: [
@@ -485,7 +437,7 @@ REISEN.usa = {
       ]
     },
     {
-      nr: 15,
+      nr: 13,
       name: "New York",
       land: "us",
       region: "New York",
@@ -496,8 +448,7 @@ REISEN.usa = {
       teens: "Fähre zur Freiheitsstatue und nach Ellis Island, Aussicht vom Empire State Building oder Top of the Rock, Broadway-Musical, Brooklyn Bridge, Coney Island (Achterbahn und Strand), Intrepid Museum (Flugzeugträger).",
       fakten: [
         "<strong>Dauer:</strong> 4 Nächte: Tag 1 Midtown und Aussichtsplattform, Tag 2 Freiheitsstatue und Lower Manhattan (9/11 Memorial), Tag 3 Central Park und Museen, Tag 4 Brooklyn Bridge und Wunschprogramm der Kids; am Abreisetag nur noch der Vormittag (Gepäck im Hotel lassen).",
-        "<strong>Ohne Auto:</strong> In Manhattan kostet ein Parkplatz ca. 35–85 USD pro Nacht, dazu die Staugebühr von 9 USD pro Tag; darum endet die Mietwagenfahrt in Washington.",
-        "<strong>Fortbewegung:</strong> U-Bahn mit OMNY (Kreditkarte oder Handy), Fähren, Taxi und Uber.",
+        "<strong>Ohne Auto:</strong> In New York U-Bahn mit OMNY (Kreditkarte oder Handy), Fähren, Taxi und Uber; ein Parkplatz in Manhattan würde ca. 35–85 USD pro Nacht kosten.",
         "<strong>Hinweis:</strong> Im Hochsommer heiss, Gewitter möglich. Tickets für Aussichtsplattformen und Broadway früh buchen."
       ],
       ausserdem: "High Line, Chelsea Market, Natural History Museum, Metropolitan Museum, Staten-Island-Fähre (gratis), Bronx Zoo, Yankee Stadium.",
@@ -525,30 +476,31 @@ REISEN.usa = {
         "5’000",
         "ca. 1’000–1’500 pro Person (Juli ist Hochsaison; beide Teenager zahlen Vollpreis)"
       ],
+      ["Inlandflug Miami–Washington", "400–900", "600", "4 Personen inklusive aufgegebenem Gepäck"],
       [
         "Mietwagen (Einwegmiete, Benzin, Parken, Maut)",
-        "3’400–5’700",
-        "4’400",
-        "Las Vegas–Washington (ca. 25 Tage, ca. 3’700 Meilen); die Rückgabegebühr für eine Einwegmiete quer durchs Land kann bis gegen 1’500 USD betragen"
+        "3’500–6’000",
+        "4’600",
+        "Las Vegas–Miami (ca. 25 Tage, ca. 3’050 Meilen); die Rückgabegebühr für eine Einwegmiete quer durchs Land kann bis gegen 1’500 USD betragen"
       ],
       [
         "Zug und lokale Verkehrsmittel",
-        "600–1’400",
+        "600–1’300",
         "900",
         "Amtrak Washington–New York, Metro und U-Bahn, Taxi zum Flughafen"
       ],
       [
         "Unterkunft (Familienzimmer oder 2 Zimmer, 3 Sterne)",
-        "8’000–12’650",
-        "9’950",
-        "ca. 150–700 CHF pro Nacht; Nationalparks, Destin, Washington und New York am teuersten"
+        "7’400–11’800",
+        "9’200",
+        "ca. 130–600 CHF pro Nacht; Monument Valley, Destin, Miami, Washington und New York am teuersten"
       ],
-      ["Verpflegung (Restaurants, Imbiss, Getränke)", "4’470–7’670", "5’820", "ca. 140–250 CHF pro Tag für 4 Personen"],
+      ["Verpflegung (Restaurants, Imbiss, Getränke)", "4’500–8’000", "6’000", "ca. 140–250 CHF pro Tag für 4 Personen"],
       [
         "Aktivitäten und Eintritte (inkl. Nationalpark-Jahrespass)",
-        "4’050–7’400",
-        "5’400",
-        "Pass 250 USD, Meow Wolf, Space Center Houston, World of Coca-Cola, Dollywood, Luray Caverns, Aussichtsplattform und Broadway in New York usw."
+        "4’300–7’700",
+        "5’800",
+        "Pass 250 USD, Meow Wolf, Sandia Peak Tramway, Space Center Houston, Sumpftour, Universal, Everglades, Schnorcheltour, Aussichtsplattform und Broadway in New York usw."
       ],
       [
         "ESTA, Versicherung, eSIM",
@@ -556,25 +508,23 @@ REISEN.usa = {
         "1’300",
         "ESTA ca. 40 USD pro Person, Reisekranken- und Annullationsschutz mit hoher Deckung"
       ],
-      ["Reserve (ca. 5 %)", "1’250–2’150", "1’650", "Souvenirs, Wäsche, Unvorhergesehenes"]
+      ["Reserve (ca. 5 %)", "1’300–2’200", "1’650", "Souvenirs, Wäsche, Unvorhergesehenes"]
     ],
     stationen: [
       ["1. Las Vegas (2)", "710–1’310"],
       ["2. Zion National Park (2)", "730–1’180"],
       ["3. Monument Valley (1)", "540–1’040"],
-      ["4. Santa Fe (2)", "780–1’330"],
+      ["4. Albuquerque (2)", "650–1’100"],
       ["5. White Sands (1)", "300–520"],
-      ["6. Roswell (1)", "220–380"],
       ["Zwischenübernachtung Fort Stockton (1)", "150–250"],
-      ["7. San Antonio (2)", "500–850"],
-      ["8. Houston (1)", "300–500"],
-      ["9. New Orleans (2)", "600–1’000"],
-      ["10. Destin (4)", "1’200–2’000"],
-      ["11. Atlanta (1)", "300–500"],
-      ["12. Great Smoky Mountains (3)", "1’000–1’700"],
-      ["13. Shenandoah (2)", "600–1’000"],
-      ["14. Washington, D.C. (3)", "1’280–2’180"],
-      ["15. New York (4)", "2’650–4’420"]
+      ["6. San Antonio (2)", "500–850"],
+      ["7. Houston (2)", "650–1’100"],
+      ["8. New Orleans (2)", "600–1’000"],
+      ["9. Destin (3)", "900–1’500"],
+      ["10. Orlando (3)", "1’350–2’400"],
+      ["11. Miami (4)", "1’450–2’450"],
+      ["12. Washington, D.C. (3)", "1’280–2’180"],
+      ["13. New York (4)", "2’650–4’420"]
     ],
     hinweise: [
       "Preise für die Kids: Der Sohn (12) und die Tochter (14) zahlen bei Eintritten teils Kinderpreise (bis 11 bzw. 12 Jahre), oft aber den Vollpreis.",
@@ -582,9 +532,9 @@ REISEN.usa = {
       "Alle Beträge sind Richtwerte in CHF (Schätzungen, nicht verbindlich). Flug-, Hotel- und Mietwagenpreise im Juli schwanken stark; aktuelle Preise vor der Buchung vergleichen."
     ],
     naechte: 32,
-    total: "34’420",
-    spanne: "26’700–44’800",
-    proTag: "ca. 1’080 CHF pro Tag, ca. 8’600 pro Person"
+    total: "35’050",
+    spanne: "26’900–45’700",
+    proTag: "ca. 1’100 CHF pro Tag, ca. 8’800 pro Person"
   },
   tippsIntro: "Einreise, Gesundheit, Sicherheit und Praktisches für die Reise mit 2 Erwachsenen und 2 Kids.",
   tipps: [
@@ -595,11 +545,11 @@ REISEN.usa = {
     ["Reisepass", "Biometrischer Reisepass für alle vier, mind. 6 Monate gültig. Zusätzlich Kopien aufbewahren."],
     [
       "Nationalparks und Gebühren",
-      "Seit Januar 2026 zahlen Nicht-US-Bewohner ab 16 Jahren in 11 Parks zusätzlich 100 USD pro Person (u.a. Zion; auf dieser Route der einzige). Der Jahrespass für Nicht-Residenten kostet 250 USD und deckt das Fahrzeug bzw. die Insassen. Für euch (zwei Erwachsene über 16) lohnt sich der Pass trotzdem: Er deckt die Zusatzgebühr in Zion (zusammen 200 USD) und die Eintritte in Zion, White Sands und Shenandoah. Für Monument Valley gilt er nicht (Navajo-Nation-Eintritt)."
+      "Seit Januar 2026 zahlen Nicht-US-Bewohner ab 16 Jahren in 11 Parks zusätzlich 100 USD pro Person; auf dieser Route betrifft das Zion und die Everglades. Der Jahrespass für Nicht-Residenten kostet 250 USD und deckt das Fahrzeug bzw. die Insassen: Für euch (zwei Erwachsene über 16) lohnt er sich klar. Für Monument Valley gilt er nicht (Navajo-Nation-Eintritt)."
     ],
     [
       "Mietwagen",
-      "Familienvan oder SUV, die Einwegmiete Las Vegas–Washington früh buchen (Rückgabegebühr oft hoch, Anbieter vergleichen). Schweizer Führerschein reicht; ein internationaler Führerschein ist als Zusatz empfehlenswert. Vollkasko prüfen, Maut im Osten einplanen. Den Wagen in Washington abgeben: in New York sind Parkplätze sehr teuer."
+      "Familienvan oder SUV, die Einwegmiete Las Vegas–Miami früh buchen (Rückgabegebühr oft hoch, Anbieter vergleichen). In Florida viele Mautstrassen: Mautpaket des Vermieters klären. Schweizer Führerschein reicht; ein internationaler Führerschein ist als Zusatz empfehlenswert. Den Wagen am Flughafen Miami abgeben; im Osten Flug, Zug, Metro und U-Bahn."
     ],
     [
       "Tanken und Zahlen",
@@ -607,11 +557,11 @@ REISEN.usa = {
     ],
     [
       "Hitze und Monsun",
-      "Las Vegas, Zion und White Sands erreichen Ende Juni 38–45 °C, ab Juli beginnt im Südwesten der Monsun mit Gewittern und Sturzfluten in Schluchten (z.B. Narrows in Zion). Texas und die Golfküste sind heiss und schwül, Juni bis November ist Hurrikansaison. In den Smokies und in Shenandoah ist es kühler, mit Gewittern am Nachmittag."
+      "Las Vegas, Zion und White Sands erreichen Ende Juni 38–45 °C, ab Juli beginnt im Südwesten der Monsun mit Gewittern und Sturzfluten in Schluchten (z.B. Narrows in Zion). Texas, die Golfküste und Florida sind heiss und schwül, mit Gewittern am Nachmittag; Juni bis November ist Hurrikansaison, der Höhepunkt kommt erst ab Mitte August."
     ],
     [
       "Zeitzonen",
-      "Las Vegas Pazifikzeit, Utah Mountain-Zeit, Arizona ohne Sommerzeit, Navajo Nation mit Sommerzeit, New Mexico Mountain-Zeit, Texas, Louisiana und die Golfküste bei Destin Central-Zeit, Georgia, Tennessee, Virginia und der Osten Eastern-Zeit. Zur Schweiz sind es −6 bis −9 Stunden."
+      "Las Vegas Pazifikzeit, Utah Mountain-Zeit, Arizona ohne Sommerzeit, Navajo Nation mit Sommerzeit, New Mexico Mountain-Zeit, Texas, Louisiana und die Golfküste bei Destin Central-Zeit, Orlando, Miami und der Osten Eastern-Zeit. Zur Schweiz sind es −6 bis −9 Stunden."
     ],
     [
       "Versicherung",
@@ -622,8 +572,8 @@ REISEN.usa = {
       "Monument Valley liegt auf Navajo-Land mit eigenen Regeln: Eintritt pro Person, geführte Touren, keine Drohnen, kein Alkohol. Respektvoll verhalten, Fotos von Menschen nur mit Erlaubnis."
     ],
     [
-      "Zug im Nordosten",
-      "Amtrak-Züge Washington–New York fahren oft (Northeast Regional ca. 3,5 Std., Acela ca. 3 Std.); Tickets früh online buchen, Gepäck selbst tragen."
+      "Flug und Zug im Osten",
+      "Inlandflug Miami–Washington mit Gepäck buchen. Amtrak-Züge Washington–New York fahren oft (Northeast Regional ca. 3,5 Std., Acela ca. 3 Std.); Tickets früh online buchen, Gepäck selbst tragen."
     ],
     [
       "Notfall",
