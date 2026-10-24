@@ -481,7 +481,12 @@ REISEN.usa = {
         "4’000",
         "Angebot für alle vier ca. 4’000 CHF (ca. 1’000 pro Person); bis zur Buchung nicht fest"
       ],
-      ["Inlandflug Miami–Washington", "400–900", "600", "4 Personen inklusive aufgegebenem Gepäck"],
+      [
+        "Inlandflug Miami–Washington",
+        "500–800",
+        "650",
+        "4 Personen ca. 120–200 USD pro Person, dazu ca. 35–40 USD pro aufgegebenem Koffer"
+      ],
       [
         "Mietwagen (Einwegmiete)",
         "3’000–3’200",
@@ -490,74 +495,75 @@ REISEN.usa = {
       ],
       [
         "Benzin",
-        "450–550",
-        "500",
+        "400–550",
+        "450",
         "ca. 5’350 km, Van oder SUV mit ca. 10–12 l/100 km (ca. 600 Liter); in Kalifornien am teuersten"
       ],
       [
         "Parkieren",
-        "550–700",
-        "650",
-        "Hotels in Los Angeles, New Orleans und Miami Beach oft 35–60 USD pro Nacht, Las Vegas, San Antonio und Orlando ca. 20–35 USD; Universal, Kennedy Space Center, Strände; Motels meist gratis"
+        "500–700",
+        "600",
+        "Hotels in Los Angeles, New Orleans und Miami Beach oft 35–60 USD pro Nacht, Las Vegas (Strip-Hotels ca. 20–25 USD pro Tag), San Antonio und Orlando ca. 20–35 USD; Universal, Kennedy Space Center, Strände; Motels meist gratis"
       ],
       [
         "Maut",
-        "100–200",
-        "150",
+        "80–200",
+        "120",
         "vor allem in Florida (Turnpike, Orlando, Miami), dazu die Gebühr des Vermieters für die automatische Mauterfassung"
       ],
       [
         "Zug und lokale Verkehrsmittel",
-        "600–1’300",
-        "900",
-        "Amtrak Washington–New York, Metro und U-Bahn, Taxi zum Flughafen"
+        "550–900",
+        "700",
+        "Amtrak Washington–New York ca. 60–140 USD pro Person je nach Buchungszeitpunkt, Metro und U-Bahn, Taxi oder AirTrain zum Flughafen"
       ],
       [
-        "Unterkunft (Familienzimmer oder 2 Zimmer, 3 Sterne)",
-        "7’550–12’250",
-        "9’450",
-        "ca. 130–600 CHF pro Nacht; Los Angeles, Monument Valley, Destin, Miami, Washington und New York am teuersten"
+        "Unterkunft (Familienzimmer, 3 Sterne)",
+        "7’000–10’000",
+        "8’000",
+        "ca. 100–420 CHF pro Nacht inkl. Steuern (ein Zimmer mit zwei Queen-Betten); Los Angeles, Zion, Monument Valley, Destin, Miami, Washington und New York am teuersten, in Las Vegas zusätzlich «Resort Fees»"
       ],
       ["Verpflegung (Restaurants, Imbiss, Getränke)", "4’500–8’000", "6’000", "ca. 140–250 CHF pro Tag für 4 Personen"],
       [
         "Aktivitäten und Eintritte (inkl. Nationalpark-Jahrespass)",
-        "4’200–7’500",
-        "5’650",
-        "Pass 250 USD, Meow Wolf, Sandia Peak Tramway, Sumpftour, Universal, Everglades, Schnorcheltour, Aussichtsplattform und Broadway in New York usw."
+        "3’400–5’000",
+        "4’200",
+        "Pass 250 USD, Monument Valley mit Jeep-Tour, Sandia Peak Tramway, Meow Wolf, Sumpftour, Kennedy Space Center, Universal (ca. 860 USD für vier), Airboat, Schnorcheltour, Aussichtsplattform, Freiheitsstatue und Broadway (im Schnitt ca. 130 USD pro Ticket) usw."
       ],
       [
         "ESTA, Versicherung, eSIM",
-        "900–1’800",
-        "1’300",
-        "ESTA ca. 40 USD pro Person, Reisekranken- und Annullationsschutz mit hoher Deckung"
+        "400–1’100",
+        "700",
+        "ESTA ca. 40 USD pro Person, eSIM, Reiseversicherung mit hoher Deckung (falls nicht schon über eine Jahresversicherung abgedeckt)"
       ],
-      ["Reserve (ca. 5 %)", "1’300–2’200", "1’650", "Souvenirs, Wäsche, Unvorhergesehenes"]
+      ["Reserve (ca. 5 %)", "1’200–1’750", "1’400", "Souvenirs, Wäsche, Unvorhergesehenes"]
     ],
     stationen: [
-      ["1. Los Angeles (2)", "900–1’600"],
-      ["2. Las Vegas (1)", "400–750"],
-      ["3. Zion National Park (2)", "730–1’180"],
-      ["4. Monument Valley (1)", "540–1’040"],
-      ["5. Albuquerque (2)", "650–1’100"],
-      ["6. White Sands (1)", "300–520"],
-      ["Zwischenübernachtung Fort Stockton (1)", "150–250"],
-      ["7. San Antonio (2)", "500–850"],
-      ["8. New Orleans (2)", "600–1’000"],
-      ["9. Destin (3)", "900–1’500"],
-      ["10. Orlando (4)", "1’800–3’200"],
-      ["11. Miami (4)", "1’450–2’450"],
-      ["12. Washington, D.C. (3)", "1’280–2’180"],
-      ["13. New York (4)", "2’650–4’420"]
+      ["1. Los Angeles (2)", "780–1’380"],
+      ["2. Las Vegas (1)", "350–650"],
+      ["3. Zion National Park (2)", "630–1’020"],
+      ["4. Monument Valley (1)", "470–900"],
+      ["5. Albuquerque (2)", "560–950"],
+      ["6. White Sands (1)", "260–450"],
+      ["Zwischenübernachtung Fort Stockton (1)", "130–220"],
+      ["7. San Antonio (2)", "430–730"],
+      ["8. New Orleans (2)", "520–860"],
+      ["9. Destin (3)", "780–1’290"],
+      ["10. Orlando (4)", "1’550–2’760"],
+      ["11. Miami (4)", "1’250–2’110"],
+      ["12. Washington, D.C. (3)", "1’100–1’880"],
+      ["13. New York (4)", "2’290–3’810"]
     ],
     hinweise: [
       "Preise für die Kids: Der Sohn (12) und die Tochter (14) zahlen bei Eintritten teils Kinderpreise (bis 11 bzw. 12 Jahre), oft aber den Vollpreis.",
       "Sparhebel: ein Zimmer mit zwei Queen-Betten, Motels mit Frühstück, Imbiss statt Restaurant, Nationalpark-Jahrespass früh kaufen, die vielen Gratis-Museen in Washington nutzen.",
+      "Gerechnet mit ca. 0,83 CHF pro USD (Kurs Oktober 2026); Preise in den USA meist ohne Verkaufssteuer angeschrieben, im Restaurant kommen 15–20 % Trinkgeld dazu.",
       "Alle Beträge sind Richtwerte in CHF (Schätzungen, nicht verbindlich). Flug-, Hotel- und Mietwagenpreise im Juli schwanken stark; aktuelle Preise vor der Buchung vergleichen."
     ],
     naechte: 32,
-    total: "33’850",
-    spanne: "27’600–43’100",
-    proTag: "ca. 1’060 CHF pro Tag, ca. 8’500 pro Person"
+    total: "29’820",
+    spanne: "25’500–36’700",
+    proTag: "ca. 930 CHF pro Tag, ca. 7’500 pro Person"
   },
   tippsIntro: "Einreise, Gesundheit, Sicherheit und Praktisches für die Reise mit 2 Erwachsenen und 2 Kids.",
   tipps: [

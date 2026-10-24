@@ -102,6 +102,12 @@ window.QUELLEN = {
         ["OSRM: San Antonio–New Orleans über die Interstate 10 (ca. 870 km)", "https://router.project-osrm.org"],
         ["LazyTrips: Roadtrip New Orleans–Destin (über die Interstate 10)", "https://lazytrips.com/trip/road-trip-from-new-orleans-to-destin"],
         ["NPS: Zusatzgebühr für Nicht-Residenten in 11 Parks", "https://www.nps.gov/aboutus/nonresident-fees.htm"],
+        ["Pound Sterling Live: Wechselkurs USD–CHF 2026 (Oktober ca. 0,83)", "https://www.poundsterlinglive.com/history/USD-CHF-2026"],
+        ["Vegas Always: Parkieren bei Caesars Palace (Hotelgäste ca. 20 USD pro Tag)", "https://www.vegasalways.com/caesars-palace-parking/"],
+        ["Feeling Vegas: Parkgebühren der Hotels am Strip", "https://www.feelingvegas.com/las-vegas-strip-hotel-parking-rates/"],
+        ["Engine: Hotelpreise New York (Juli im Schnitt ca. 270 USD ohne Steuern)", "https://engine.com/data/hotel-prices/new-york-ny"],
+        ["BroadwayWorld: Saison 2025/26, Ticket im Schnitt ca. 131 USD", "https://www.broadwayworld.com/industry/article/Broadway-Set-Another-Box-Office-Record-in-2025-2026-Crossing-191-Billion-20260528"],
+        ["Wanderu: Amtrak Washington–New York (Preise)", "https://www.wanderu.com/en-us/train/us-dc/washington/us-ny/new-york/"],
         ["Brick Underground: Staugebühr New York (9 USD bis 2027)", "https://www.brickunderground.com/live/hochul-reinstates-congestion-pricing-plan-lower-cost-nyc"],
         ["SpotHero: Parkieren in Manhattan (Beispiel Hotel)", "https://spothero.com/nyc/hampton-inn-manhattan-grand-central-parking"]
       ]
