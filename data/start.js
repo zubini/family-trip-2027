@@ -67,7 +67,7 @@ window.START = {
         "Sehr gute medizinische Versorgung; Rückkehr zwei Tage vor Ferienende gegen den Jetlag"
       ],
       contra: [
-        "Am teuersten (ca. {plan:usa} CHF): Einwegmiete quer durchs Land mit hoher Rückgabegebühr, Inlandflug, Unterkünfte in Miami und New York; Arztkosten sehr hoch",
+        "Am teuersten (ca. {plan:usa} CHF): Einwegmiete quer durchs Land (ca. 3’000 CHF plus Benzin, Parkieren und Maut), Inlandflug, Unterkünfte in Miami und New York; Arztkosten sehr hoch",
         "Viel Reisezeit: ca. 63–69 Std. im Auto an 11 Fahrtagen, ein Tag mit ca. 9,5–10 Std. (San Antonio–New Orleans) und vier mit 5–7 Std.; Tür zu Tür ca. 107–114 Std. und Jetlag",
         "Hitze im Südwesten (oft über 40 °C), schwüle Hitze und Gewitter an der Golfküste und in Florida, Hurrikansaison (im Juli selten)",
         "Drei Flüge mit viel CO₂, ESTA-Regeln vorab prüfen"
@@ -191,7 +191,7 @@ window.START = {
     {
       kriterium: "Budget (mehr Punkte = günstiger)",
       marokko: [4, "ca. {plan:marokko} CHF: kein Flug, Supercharging gratis, Marokko günstig; dafür Fähren und Züge in Marokko sowie Parkplatz in Tarifa."],
-      usa: [1, "ca. {plan:usa} CHF: rund {mehrkosten} CHF mehr, vor allem Einwegmiete mit Rückgabegebühr, Inlandflug und Unterkünfte in Miami und New York."],
+      usa: [1, "ca. {plan:usa} CHF: rund {mehrkosten} CHF mehr, vor allem Einwegmiete, Inlandflug und Unterkünfte in Miami und New York."],
       asien: [4, "ca. {plan:asien} CHF: Singapur ist teuer, der Rest günstig."]
     },
     {

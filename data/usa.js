@@ -75,7 +75,7 @@ REISEN.usa = {
     ],
     [
       "Vorab buchen",
-      "Einwegmiete Los Angeles–Miami (Gebühr vergleichen), Space Shuttle Endeavour (Zeitfenster), Unterkunft in Monument Valley (oft Monate im Voraus), Meow Wolf, Sumpftour in New Orleans, Unterkunft in Destin, Universal und Kennedy Space Center, Schnorcheltour in Key Largo, Inlandflug Miami–Washington (Gepäck einrechnen), Air and Space Museum, Amtrak Washington–New York, Aussichtsplattform und Broadway in New York."
+      "Einwegmiete Los Angeles–Miami (Angebot ca. 3’000 CHF inkl. Versicherung und Einweggebühr), Space Shuttle Endeavour (Zeitfenster), Unterkunft in Monument Valley (oft Monate im Voraus), Meow Wolf, Sumpftour in New Orleans, Unterkunft in Destin, Universal und Kennedy Space Center, Schnorcheltour in Key Largo, Inlandflug Miami–Washington (Gepäck einrechnen), Air and Space Museum, Amtrak Washington–New York, Aussichtsplattform und Broadway in New York."
     ],
     [
       "Optional",
@@ -484,9 +484,9 @@ REISEN.usa = {
       ["Inlandflug Miami–Washington", "400–900", "600", "4 Personen inklusive aufgegebenem Gepäck"],
       [
         "Mietwagen (Einwegmiete, Benzin, Parken, Maut)",
-        "3’600–6’250",
-        "4’750",
-        "Los Angeles–Miami (ca. 25 Tage, ca. 5’350 km); die Rückgabegebühr für eine Einwegmiete quer durchs Land kann bis gegen 1’500 USD betragen"
+        "4’100–4’500",
+        "4’300",
+        "Angebot Los Angeles–Miami inkl. Versicherung und Einweggebühr ca. 3’000 CHF (ca. 25 Tage, ca. 5’350 km); dazu Benzin ca. 450–550, Parkieren ca. 550–700 und Maut ca. 100–200"
       ],
       [
         "Zug und lokale Verkehrsmittel",
@@ -537,9 +537,9 @@ REISEN.usa = {
       "Alle Beträge sind Richtwerte in CHF (Schätzungen, nicht verbindlich). Flug-, Hotel- und Mietwagenpreise im Juli schwanken stark; aktuelle Preise vor der Buchung vergleichen."
     ],
     naechte: 32,
-    total: "34’300",
-    spanne: "27’100–44’700",
-    proTag: "ca. 1’070 CHF pro Tag, ca. 8’600 pro Person"
+    total: "33’850",
+    spanne: "27’600–43’000",
+    proTag: "ca. 1’060 CHF pro Tag, ca. 8’500 pro Person"
   },
   tippsIntro: "Einreise, Gesundheit, Sicherheit und Praktisches für die Reise mit 2 Erwachsenen und 2 Kids.",
   tipps: [
@@ -554,7 +554,7 @@ REISEN.usa = {
     ],
     [
       "Mietwagen",
-      "Familienvan oder SUV, die Einwegmiete Los Angeles–Miami früh buchen (Rückgabegebühr oft hoch, Anbieter vergleichen). In Florida viele Mautstrassen: Mautpaket des Vermieters klären. Schweizer Führerschein reicht; ein internationaler Führerschein ist als Zusatz empfehlenswert. Den Wagen am Flughafen Miami abgeben; im Osten Flug, Zug, Metro und U-Bahn."
+      "Familienvan oder SUV, die Einwegmiete Los Angeles–Miami früh buchen (Angebot ca. 3’000 CHF inkl. Vollkasko, Zusatzhaftpflicht und Einweggebühr; Kaution auf der Kreditkarte). In Florida viele Mautstrassen: Mautpaket des Vermieters klären. Schweizer Führerschein reicht; ein internationaler Führerschein ist als Zusatz empfehlenswert. Den Wagen am Flughafen Miami abgeben; im Osten Flug, Zug, Metro und U-Bahn."
     ],
     [
       "Tanken und Zahlen",
