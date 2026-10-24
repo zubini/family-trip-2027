@@ -23,10 +23,10 @@
 <path class="lo" fill-rule="evenodd" d="M204,677 L201,683 L192,678 L202,661 L204,677Z"/>
 <polyline points="110.8,280.2 145.8,285.3 164.7,287.7 165.5,275.0 196.1,243.4 247.9,231.0 285.8,217.2 305.1,185.2" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
 <polyline points="110.8,280.2 145.8,285.3 164.7,287.7 165.5,275.0 196.1,243.4 247.9,231.0 285.8,217.2 305.1,185.2" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Los Angeles – Las Vegas (Interstate 15)</title></polyline>
-<polyline points="305.1,185.2 364.8,156.7 392.0,142.7 406.9,140.4 420.8,135.3" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
-<polyline points="305.1,185.2 364.8,156.7 392.0,142.7 406.9,140.4 420.8,135.3" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Las Vegas – Zion</title></polyline>
-<polyline points="420.8,135.3 436.9,142.6 442.2,155.0 492.7,172.5 503.2,187.6 526.6,197.7 549.2,194.2 559.0,178.5" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
-<polyline points="420.8,135.3 436.9,142.6 442.2,155.0 492.7,172.5 503.2,187.6 526.6,197.7 549.2,194.2 559.0,178.5" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Zion – Kanab – Page – Monument Valley</title></polyline>
+<polyline points="305.1,185.2 364.8,156.7 392.0,142.7 406.8,141.0 419.8,154.9 441.1,161.2 442.2,155.0" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="305.1,185.2 364.8,156.7 392.0,142.7 406.8,141.0 419.8,154.9 441.1,161.2 442.2,155.0" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Las Vegas – Hurricane – Fredonia – Kanab</title></polyline>
+<polyline points="442.2,155.0 457.7,160.9 484.7,160.4 492.7,172.5 503.2,187.6 526.6,197.7 549.2,194.2 559.0,178.5" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="442.2,155.0 457.7,160.9 484.7,160.4 492.7,172.5 503.2,187.6 526.6,197.7 549.2,194.2 559.0,178.5" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Kanab – Page – Monument Valley</title></polyline>
 <polyline points="559.0,178.5 600.0,208.5 626.6,200.1 613.6,278.2 672.8,306.7 714.5,319.1" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
 <polyline points="559.0,178.5 600.0,208.5 626.6,200.1 613.6,278.2 672.8,306.7 714.5,319.1" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Monument Valley – Shiprock – Gallup – Albuquerque</title></polyline>
 <polyline points="714.5,319.1 694.9,378.8 743.8,413.1 732.9,447.9 732.8,458.6 727.1,463.0" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
@@ -45,8 +45,8 @@
 <text class="sl" x="93.8" y="285.2" text-anchor="end">Los Angeles</text>
 <g><title>2. Las Vegas: Mo, 21.06.2027 – Mi, 23.06.2027, 2 Nächte</title><circle cx="305.1" cy="185.2" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="305.1" y="189.4" text-anchor="middle">2</text></g>
 <text class="sl" x="322.1" y="190.2" text-anchor="start">Las Vegas</text>
-<g><title>3. Zion: Mi, 23.06.2027 – Fr, 25.06.2027, 2 Nächte</title><circle cx="420.8" cy="135.3" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="420.8" y="139.5" text-anchor="middle">3</text></g>
-<text class="sl" x="420.8" y="117.3" text-anchor="middle">Zion</text>
+<g><title>3. Kanab: Mi, 23.06.2027 – Fr, 25.06.2027, 2 Nächte</title><circle cx="442.2" cy="155.0" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="442.2" y="159.2" text-anchor="middle">3</text></g>
+<text class="sl" x="442.2" y="137.0" text-anchor="middle">Kanab</text>
 <g><title>4. Monument Valley: Fr, 25.06.2027 – Sa, 26.06.2027, 1 Nacht</title><circle cx="559.0" cy="178.5" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="559.0" y="182.7" text-anchor="middle">4</text></g>
 <text class="sl" x="576.0" y="183.5" text-anchor="start">Monument Valley</text>
 <g><title>5. Albuquerque: Sa, 26.06.2027 – Mo, 28.06.2027, 2 Nächte</title><circle cx="714.5" cy="319.1" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="714.5" y="323.3" text-anchor="middle">5</text></g>

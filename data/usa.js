@@ -5,7 +5,7 @@ window.REISEN = window.REISEN || {};
 REISEN.usa = {
   titel: "Von Los Angeles über New Orleans und Miami nach New York",
   menu: "USA",
-  untertitel: "Fünf Wochen USA: mit dem Mietwagen von Los Angeles über Las Vegas, Zion, Monument Valley, Albuquerque und White Sands nach Texas, über San Antonio und New Orleans an den Strand von Destin, nach Orlando und Miami; dann mit dem Flugzeug nach Washington und mit dem Zug nach New York.",
+  untertitel: "Fünf Wochen USA: mit dem Mietwagen von Los Angeles über Las Vegas, Kanab, Monument Valley, Albuquerque und White Sands nach Texas, über San Antonio und New Orleans an den Strand von Destin, nach Orlando und Miami; dann mit dem Flugzeug nach Washington und mit dem Zug nach New York.",
   zeitraum: "Sa, 19.06.2027 bis Do, 22.07.2027, 2 Erwachsene und 2 Kids",
   titelbild: {
     datei: "USA 10187 Horseshoe Bend Luca Galuzzi 2007.jpg",
@@ -27,12 +27,12 @@ REISEN.usa = {
       info: "Flug ab Zürich (ca. 12,25 Std.), Mietwagen am Flughafen abholen (Einwegmiete bis Miami)"
     },
     {datum: "21.–23. Juni", name: "2. Las Vegas", naechte: 2, info: "Mietwagen (ca. 4,5–5 Std.)"},
-    {datum: "23.–25. Juni", name: "3. Zion National Park", naechte: 2, info: "Mietwagen (ca. 2,5–3 Std.), Uhr +1 Std."},
+    {datum: "23.–25. Juni", name: "3. Kanab", naechte: 2, info: "Mietwagen (ca. 3–3,5 Std.), Uhr +1 Std."},
     {
       datum: "25.–26. Juni",
       name: "4. Monument Valley",
       naechte: 1,
-      info: "Mietwagen über Page (ca. 4,5–5 Std.), Halt am Horseshoe Bend"
+      info: "Mietwagen über Page (ca. 3,5–4 Std.), Halt am Horseshoe Bend"
     },
     {datum: "26.–28. Juni", name: "5. Albuquerque", naechte: 2, info: "Mietwagen (ca. 5,5–6,5 Std.)"},
     {datum: "28.–29. Juni", name: "6. White Sands (Alamogordo)", naechte: 1, info: "Mietwagen (ca. 3,5–4 Std.)"},
@@ -79,7 +79,7 @@ REISEN.usa = {
     ],
     [
       "Optional",
-      "Universal Studios Hollywood oder Disneyland (mit einer Nacht mehr in Los Angeles), Bryce Canyon (ab Zion, ca. 2 Std.), Page mit Lake Powell und Antelope Canyon (eine Nacht mehr zwischen Zion und Monument Valley), Grand Canyon (ebenfalls mit einer Nacht mehr), Santa Fe mit eigener Nacht, Carlsbad Caverns (auf der Fahrt nach Fort Stockton), Houston mit Space Center Houston (eine Nacht zwischen San Antonio und New Orleans, teilt den längsten Fahrtag), Siesta Key oder Key Largo mit eigenen Nächten, Philadelphia (Halt mit dem Zug)."
+      "Universal Studios Hollywood oder Disneyland (mit einer Nacht mehr in Los Angeles), Zion (ab Kanab ca. 45 Min.) oder Bryce Canyon (ca. 1,25 Std.), beide mit Zusatzgebühr, Page mit Lake Powell und Antelope Canyon (eine Nacht mehr zwischen Kanab und Monument Valley), Grand Canyon (ebenfalls mit einer Nacht mehr), Santa Fe mit eigener Nacht, Carlsbad Caverns (auf der Fahrt nach Fort Stockton), Houston mit Space Center Houston (eine Nacht zwischen San Antonio und New Orleans, teilt den längsten Fahrtag), Siesta Key oder Key Largo mit eigenen Nächten, Philadelphia (Halt mit dem Zug)."
     ]
   ],
   karte: {
@@ -96,7 +96,7 @@ REISEN.usa = {
   abwechslung: [
     [
       "Naturwunder",
-      "Zion, Horseshoe Bend, Monument Valley, Sandia Peak, White Sands, Everglades und das Korallenriff bei Key Largo."
+      "Rosa Sanddünen bei Kanab, Horseshoe Bend, Monument Valley, Sandia Peak, White Sands, Everglades und das Korallenriff bei Key Largo."
     ],
     [
       "Strand",
@@ -112,7 +112,7 @@ REISEN.usa = {
     ],
     [
       "Ruhetage",
-      "Los Angeles, Las Vegas, Zion, Albuquerque, Destin, Orlando und Miami haben mehrere Nächte; im Osten kein Auto mehr."
+      "Los Angeles, Las Vegas, Kanab, Albuquerque, Destin, Orlando und Miami haben mehrere Nächte; im Osten kein Auto mehr."
     ]
   ],
   stationenIntro: "Dreizehn Stationen von Los Angeles bis New York. Über jeder Station steht, wie ihr dorthin kommt.",
@@ -174,27 +174,32 @@ REISEN.usa = {
     },
     {
       nr: 3,
-      name: "Zion National Park (Springdale)",
+      name: "Kanab",
       land: "us",
       region: "Utah",
       datum: "23.–25. Juni",
       naechte: "2 Nächte",
-      anreise: "Mietwagen von Las Vegas über die Interstate 15 und St. George nach Springdale (ca. 2,5–3 Std., ca. 260 km). In Utah springt die Uhr +1 Std.",
-      text: "Rote Felsklippen, grüne Schluchten und der Virgin River: Zion ist einer der schönsten Nationalparks der USA. Das Dorf Springdale liegt direkt am Parkeingang.",
-      teens: "Riverside Walk und Wandern durch den Fluss in «The Narrows» (Wasserschuhe und Wanderstöcke leihbar), Emerald Pools, Canyon Overlook Trail, kostenloser Parkshuttle ab dem Visitor Center.",
+      anreise: "Mietwagen von Las Vegas über die Interstate 15 bis Hurricane, dann über Colorado City und Fredonia nach Kanab (ca. 3–3,5 Std., ca. 320 km), ohne Fahrt durch den Zion-Nationalpark. In Utah springt die Uhr +1 Std.",
+      text: "Kleiner Westernort zwischen roten Felsen, früher Kulisse vieler Hollywood-Western. Von hier aus sind rosa Sanddünen, eine Felsschlucht und eine Höhle schnell erreichbar, ohne die Menschenmassen der grossen Nationalparks.",
+      teens: "Sandboarding und Sandschlitten auf den Coral Pink Sand Dunes, Kletterpartie durch den Tunnel «Belly of the Dragon», Moqui Cave (Höhle mit kleinem Museum), Tierheim Best Friends Animal Sanctuary, Westernkulissen im Ort.",
       fakten: [
-        "<strong>Gebühr:</strong> Zion gehört zu den 11 Parks mit 100 USD Zusatzgebühr pro Person ab 16 Jahren für Nicht-US-Bewohner (die Teenager sind davon ausgenommen). Für die Reise lohnt sich der Nicht-Residenten-Jahrespass (250 USD).",
-        "<strong>Sicherheit:</strong> Juli ist Monsunzeit. Bei Gewitterwarnung werden die Narrows wegen Sturzflutgefahr gesperrt; aktuelle Lage im Visitor Center prüfen.",
-        "<strong>Hinweis:</strong> Angels Landing braucht eine Genehmigung und ist exponiert, für die Kids nicht eingeplant."
+        "<strong>Dauer:</strong> 2 Nächte: ein Tag Coral Pink Sand Dunes (ca. 30 Min. westlich) am Morgen und Abend, dazwischen Pool; ein halber Tag Belly of the Dragon, Moqui Cave und Best Friends nördlich von Kanab (ca. 10–20 Min.).",
+        "<strong>Dünen:</strong> Eintritt ca. 15 USD pro Auto; Sandboards und Sandschlitten werden im Visitor Center für ca. 25 USD pro Stück vermietet (solange Vorrat). Im Sommer bis knapp 40 °C, der Sand wird sehr heiss: nur am Morgen oder am Abend.",
+        "<strong>Gratis:</strong> Belly of the Dragon (Entwässerungstunnel unter der Strasse, unebener Boden, bei Gewitter meiden) und Führungen in Best Friends (Zeiten vorab prüfen); Moqui Cave kostet einen kleinen Eintritt.",
+        "<strong>Option:</strong> Zion (ca. 45 Min.) oder Bryce Canyon (ca. 1,25 Std.) als Tagesausflug; beide mit 100 USD Zusatzgebühr pro Person ab 16 Jahren für Nicht-US-Bewohner."
       ],
-      ausserdem: "Watchman Trail, Zion–Mount Carmel Highway (Panoramastrasse), Kolob Canyons (ruhiger Nordteil), Bryce Canyon als Tagesausflug (ca. 2 Std., ebenfalls mit Zusatzgebühr).",
+      ausserdem: "Little Hollywood Museum (Westernkulissen), Moqui-Sandhöhlen, Vermilion Cliffs, Wire Pass (Schlucht, nur bei trockenem Wetter).",
       bilder: [
-        {titel: "Zion Canyon", suche: "Zion Canyon Virgin River|Zion National Park", stichwort: "zion"},
-        {titel: "The Narrows", suche: "The Narrows Zion|Zion Narrows", stichwort: "narrows"},
-        {titel: "Emerald Pools", suche: "Emerald Pools Zion", stichwort: "emerald pools"},
-        {titel: "Angels Landing", suche: "Angels Landing Zion", stichwort: "angels landing"},
-        {titel: "Mount Carmel Highway", suche: "Zion Mount Carmel Highway", stichwort: "carmel"},
-        {titel: "Watchman", suche: "The Watchman Zion|Watchman Zion", stichwort: "watchman"}
+        {titel: "Coral Pink Sand Dunes", suche: "Coral Pink Sand Dunes State Park", stichwort: "coral pink"},
+        {
+          titel: "Sandboarding",
+          suche: "Coral Pink Sand Dunes sandboarding|Coral Pink Sand Dunes",
+          stichwort: "coral pink|sand"
+        },
+        {titel: "Belly of the Dragon", suche: "Belly of the Dragon Kanab|Belly of the Dragon Utah", stichwort: "dragon"},
+        {titel: "Kanab", suche: "Kanab Utah", stichwort: "kanab"},
+        {titel: "Vermilion Cliffs", suche: "Vermilion Cliffs Kanab|Vermilion Cliffs Utah", stichwort: "vermilion"},
+        {titel: "Moqui Cave", suche: "Moqui Cave Kanab", stichwort: "moqui"}
       ]
     },
     {
@@ -204,7 +209,7 @@ REISEN.usa = {
       region: "Utah und Arizona",
       datum: "25.–26. Juni",
       naechte: "1 Nacht",
-      anreise: "Mietwagen von Springdale über Kanab und Page nach Monument Valley (ca. 4,5–5 Std., ca. 380 km). Unterwegs Halt am Horseshoe Bend bei Page (kurzer Weg ab dem Parkplatz, ca. 1 Std.). Arizona hat keine Sommerzeit, die Navajo Nation schon: Am Ziel gilt wieder dieselbe Zeit wie in Utah.",
+      anreise: "Mietwagen von Kanab über Page nach Monument Valley (ca. 3,5–4 Std., ca. 320 km). Unterwegs Halt am Horseshoe Bend bei Page (kurzer Weg ab dem Parkplatz, ca. 1 Std.). Arizona hat keine Sommerzeit (Uhr −1 Std. in Page), die Navajo Nation schon: Am Ziel gilt wieder dieselbe Zeit wie in Utah.",
       text: "Die roten Sandsteintürme aus unzähligen Westernfilmen liegen im Navajo Tribal Park an der Grenze von Utah und Arizona. Eine Nacht reicht, wenn ihr Sonnenuntergang und Sonnenaufgang erlebt.",
       teens: "Valley Drive (ca. 27 km Schotterpiste, mit eigenem Fahrzeug oder geführter Jeeptour der Navajo), Fotostopp am Forrest Gump Point auf der Strasse 163, Sonnenaufgang vom Balkon des The View Hotel (früh buchen).",
       fakten: [
@@ -520,15 +525,15 @@ REISEN.usa = {
       [
         "Unterkunft (Familienzimmer, 3 Sterne)",
         "7’000–10’000",
-        "8’100",
-        "ca. 100–420 CHF pro Nacht inkl. Steuern (ein Zimmer mit zwei Queen-Betten); Los Angeles, Zion, Monument Valley, Destin, Miami, Washington und New York am teuersten, in Las Vegas zusätzlich «Resort Fees»"
+        "7’900",
+        "ca. 100–420 CHF pro Nacht inkl. Steuern (ein Zimmer mit zwei Queen-Betten); Los Angeles, Monument Valley, Destin, Miami, Washington und New York am teuersten, in Las Vegas zusätzlich «Resort Fees»"
       ],
       ["Verpflegung (Restaurants, Imbiss, Getränke)", "4’500–8’000", "6’000", "ca. 140–250 CHF pro Tag für 4 Personen"],
       [
-        "Aktivitäten und Eintritte (inkl. Nationalpark-Jahrespass)",
+        "Aktivitäten und Eintritte",
         "3’400–5’000",
-        "4’200",
-        "Pass 250 USD, Monument Valley mit Jeep-Tour, Sandia Peak Tramway, Meow Wolf, Sumpftour, Kennedy Space Center, Universal (ca. 860 USD für vier), Airboat, Schnorcheltour, Aussichtsplattform, Freiheitsstatue und Broadway (im Schnitt ca. 130 USD pro Ticket) usw."
+        "4’100",
+        "Sandboards bei Kanab, Monument Valley mit Jeep-Tour, Sandia Peak Tramway, Meow Wolf, Sumpftour, Kennedy Space Center, Universal (ca. 860 USD für vier), Airboat, Schnorcheltour, Aussichtsplattform, Freiheitsstatue und Broadway (im Schnitt ca. 130 USD pro Ticket) usw."
       ],
       [
         "ESTA, Versicherung, eSIM",
@@ -536,12 +541,12 @@ REISEN.usa = {
         "700",
         "ESTA ca. 40 USD pro Person, eSIM, Reiseversicherung mit hoher Deckung (falls nicht schon über eine Jahresversicherung abgedeckt)"
       ],
-      ["Reserve (ca. 5 %)", "1’200–1’750", "1’450", "Souvenirs, Wäsche, Unvorhergesehenes"]
+      ["Reserve (ca. 5 %)", "1’200–1’750", "1’400", "Souvenirs, Wäsche, Unvorhergesehenes"]
     ],
     stationen: [
       ["1. Los Angeles (2)", "780–1’380"],
       ["2. Las Vegas (2)", "610–1’130"],
-      ["3. Zion National Park (2)", "630–1’020"],
+      ["3. Kanab (2)", "480–800"],
       ["4. Monument Valley (1)", "470–900"],
       ["5. Albuquerque (2)", "560–950"],
       ["6. White Sands (1)", "260–450"],
@@ -561,9 +566,9 @@ REISEN.usa = {
       "Alle Beträge sind Richtwerte in CHF (Schätzungen, nicht verbindlich). Flug-, Hotel- und Mietwagenpreise im Juli schwanken stark; aktuelle Preise vor der Buchung vergleichen."
     ],
     naechte: 32,
-    total: "29’970",
+    total: "29’620",
     spanne: "25’500–36’700",
-    proTag: "ca. 940 CHF pro Tag, ca. 7’500 pro Person"
+    proTag: "ca. 930 CHF pro Tag, ca. 7’400 pro Person"
   },
   tippsIntro: "Einreise, Gesundheit, Sicherheit und Praktisches für die Reise mit 2 Erwachsenen und 2 Kids.",
   tipps: [
@@ -574,7 +579,7 @@ REISEN.usa = {
     ["Reisepass", "Biometrischer Reisepass für alle vier, mind. 6 Monate gültig. Zusätzlich Kopien aufbewahren."],
     [
       "Nationalparks und Gebühren",
-      "Seit Januar 2026 zahlen Nicht-US-Bewohner ab 16 Jahren in 11 Parks zusätzlich 100 USD pro Person; auf dieser Route betrifft das Zion (und die Everglades, falls ihr in den Nationalpark fahrt). Der Jahrespass für Nicht-Residenten kostet 250 USD und deckt das Fahrzeug bzw. die Insassen: Für euch (zwei Erwachsene über 16) lohnt er sich schon wegen Zion (ca. 235 USD) und White Sands. Für Monument Valley gilt er nicht (Navajo-Nation-Eintritt)."
+      "Seit Januar 2026 zahlen Nicht-US-Bewohner ab 16 Jahren in 11 Parks zusätzlich 100 USD pro Person; auf dieser Route nur bei den Optionen Zion, Bryce Canyon oder dem Everglades-Nationalpark. Ohne diese lohnt sich der Jahrespass für Nicht-Residenten (250 USD) nicht: White Sands kostet 25 USD pro Auto. Wer zwei dieser Parks besucht, fährt mit dem Pass günstiger. Für Monument Valley gilt er nicht (Navajo-Nation-Eintritt)."
     ],
     [
       "Mietwagen",
@@ -586,7 +591,7 @@ REISEN.usa = {
     ],
     [
       "Hitze und Monsun",
-      "Las Vegas, Zion und White Sands (anders als Los Angeles am Meer) erreichen Ende Juni 38–45 °C, ab Juli beginnt im Südwesten der Monsun mit Gewittern und Sturzfluten in Schluchten (z.B. Narrows in Zion). Texas, die Golfküste und Florida sind heiss und schwül, mit Gewittern am Nachmittag; Juni bis November ist Hurrikansaison, der Höhepunkt kommt erst ab Mitte August."
+      "Las Vegas, Kanab und White Sands (anders als Los Angeles am Meer) erreichen Ende Juni 38–45 °C, ab Juli beginnt im Südwesten der Monsun mit Gewittern und Sturzfluten in Schluchten und Tunneln (z.B. Belly of the Dragon bei Kanab). Texas, die Golfküste und Florida sind heiss und schwül, mit Gewittern am Nachmittag; Juni bis November ist Hurrikansaison, der Höhepunkt kommt erst ab Mitte August."
     ],
     [
       "Zeitzonen",
