@@ -13,8 +13,7 @@ const wege = [
   ['car', 'White Sands – Ruidoso – Roswell', ['WS', [33.07, -106.02], [33.33, -105.67], [33.39, -105.27], 'ROS']],
   ['car', 'Roswell – Carlsbad – Pecos – Fort Stockton', ['ROS', [32.84, -104.40], 'CAR', [31.42, -103.49], 'FST']],
   ['car', 'Fort Stockton – San Antonio', ['FST', [30.71, -101.20], [30.57, -100.64], [30.05, -99.20], 'SAT']],
-  ['car', 'San Antonio – Houston', ['SAT', [29.70, -96.50], 'HOU']],
-  ['car', 'Houston – New Orleans', ['HOU', [30.08, -94.13], [30.23, -93.22], [30.22, -92.02], [30.45, -91.15], 'NOL']],
+  ['car', 'San Antonio – Houston – New Orleans', ['SAT', [29.70, -96.50], 'HOU', [30.08, -94.13], [30.23, -93.22], [30.22, -92.02], [30.45, -91.15], 'NOL']],
   ['car', 'New Orleans – Destin', ['NOL', [30.40, -89.00], [30.69, -88.04], [30.42, -87.20], 'DES']],
   ['car', 'Destin – Orlando', ['DES', [30.65, -86.20], [30.70, -85.40], [30.44, -84.28], [30.20, -82.60], [29.65, -82.33], [28.95, -82.00], 'ORL']],
   ['car', 'Orlando – Miami (Florida’s Turnpike)', ['ORL', [28.20, -81.10], [27.45, -80.60], [26.70, -80.20], 'MIA']],
@@ -22,7 +21,7 @@ const wege = [
   ['train', 'Washington – New York (Amtrak)', ['DC', [39.29, -76.61], [39.74, -75.55], [40.22, -74.76], [40.50, -74.45], [40.73, -74.17], 'NY']]
 ];
 const STATIONEN = [[1, 'LV', 'Las Vegas'], [2, 'ZI', 'Zion'], [3, 'MV', 'Monument Valley'], [4, 'ABQ', 'Albuquerque'], [5, 'WS', 'White Sands'],
-  [6, 'SAT', 'San Antonio'], [7, 'HOU', 'Houston'], [8, 'NOL', 'New Orleans'], [9, 'DES', 'Destin'], [10, 'ORL', 'Orlando'], [11, 'MIA', 'Miami'],
-  [12, 'DC', 'Washington, D.C.'], [13, 'NY', 'New York']];
+  [6, 'SAT', 'San Antonio'], [7, 'NOL', 'New Orleans'], [8, 'DES', 'Destin'], [9, 'ORL', 'Orlando'], [10, 'MIA', 'Miami'],
+  [11, 'DC', 'Washington, D.C.'], [12, 'NY', 'New York']];
 const stationen = seiten => STATIONEN.filter(s => seiten[s[0]]).map(([nr, o, name]) => [nr, o, seiten[nr], name]);
 module.exports = { orte, wege, stationen, basis: { reise: 'usa', projektion: 'albers', laender: ['USA'], orte } };

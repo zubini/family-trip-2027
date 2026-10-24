@@ -5,7 +5,7 @@ window.REISEN = window.REISEN || {};
 REISEN.usa = {
   titel: "Von Las Vegas über New Orleans und Miami nach New York",
   menu: "USA",
-  untertitel: "Fünf Wochen USA: mit dem Mietwagen von Las Vegas über Zion, Monument Valley, Albuquerque und White Sands nach Texas, über Houston und New Orleans an den Strand von Destin, nach Orlando und Miami; dann mit dem Flugzeug nach Washington und mit dem Zug nach New York.",
+  untertitel: "Fünf Wochen USA: mit dem Mietwagen von Las Vegas über Zion, Monument Valley, Albuquerque und White Sands nach Texas, über San Antonio und New Orleans an den Strand von Destin, nach Orlando und Miami; dann mit dem Flugzeug nach Washington und mit dem Zug nach New York.",
   zeitraum: "Sa, 19.06.2027 bis Do, 22.07.2027, 2 Erwachsene und 2 Kids",
   titelbild: {
     datei: "USA 10187 Horseshoe Bend Luca Galuzzi 2007.jpg",
@@ -42,18 +42,22 @@ REISEN.usa = {
       info: "Mietwagen über Roswell (ca. 5,5–6 Std.), Uhr +1 Std."
     },
     {datum: "28.–30. Juni", name: "6. San Antonio", naechte: 2, info: "Mietwagen (ca. 5–5,5 Std.)"},
-    {datum: "30. Juni–2. Juli", name: "7. Houston", naechte: 2, info: "Mietwagen (ca. 3–3,5 Std.)"},
-    {datum: "2.–4. Juli", name: "8. New Orleans", naechte: 2, info: "Mietwagen (ca. 5–6 Std.)"},
-    {datum: "4.–7. Juli", name: "9. Destin (Golfküste)", naechte: 3, info: "Mietwagen (ca. 4–4,5 Std.)"},
-    {datum: "7.–10. Juli", name: "10. Orlando", naechte: 3, info: "Mietwagen (ca. 6–7 Std.), Uhr +1 Std."},
+    {
+      datum: "30. Juni–2. Juli",
+      name: "7. New Orleans",
+      naechte: 2,
+      info: "Mietwagen (ca. 8–8,5 Std., längster Fahrtag)"
+    },
+    {datum: "2.–6. Juli", name: "8. Destin (Golfküste)", naechte: 4, info: "Mietwagen (ca. 4–4,5 Std.)"},
+    {datum: "6.–10. Juli", name: "9. Orlando", naechte: 4, info: "Mietwagen (ca. 6–7 Std.), Uhr +1 Std."},
     {
       datum: "10.–14. Juli",
-      name: "11. Miami",
+      name: "10. Miami",
       naechte: 4,
       info: "Mietwagen (ca. 3,5–4 Std.), Rückgabe am Flughafen am Abreisetag"
     },
-    {datum: "14.–17. Juli", name: "12. Washington, D.C.", naechte: 3, info: "Inlandflug nonstop (ca. 2,5–3 Std.)"},
-    {datum: "17.–21. Juli", name: "13. New York", naechte: 4, info: "Amtrak-Zug (ca. 3–3,5 Std.); Rückflug 21. Juli"}
+    {datum: "14.–17. Juli", name: "11. Washington, D.C.", naechte: 3, info: "Inlandflug nonstop (ca. 2,5–3 Std.)"},
+    {datum: "17.–21. Juli", name: "12. New York", naechte: 4, info: "Amtrak-Zug (ca. 3–3,5 Std.); Rückflug 21. Juli"}
   ],
   rueckflug: {
     datum: "21. Juli",
@@ -63,7 +67,7 @@ REISEN.usa = {
   planHinweise: [
     [
       "Gesamt",
-      "32 Nächte, 13 Stationen und eine Zwischenübernachtung (Fort Stockton). Eine Einwegmiete Las Vegas–Miami (ca. 25 Tage) mit ca. 4’900 km und ca. 50–54 Std. reiner Fahrzeit an 11 Fahrtagen, realistisch mit Pausen, Tanken, Stau und Fahrten vor Ort ca. 58–64 Std. im Auto. Dazu ein Inlandflug Miami–Washington (ca. 2,5–3 Std.) und der Zug nach New York (ca. 3–3,5 Std.). Die längsten Fahrtage: Destin–Orlando (ca. 6–7 Std.), Monument Valley–Albuquerque (ca. 5,5–6,5 Std.), White Sands–Fort Stockton über Roswell (ca. 5,5–6 Std.), Houston–New Orleans und Fort Stockton–San Antonio (je ca. 5–6 Std.)."
+      "32 Nächte, 12 Stationen und eine Zwischenübernachtung (Fort Stockton). Eine Einwegmiete Las Vegas–Miami (ca. 25 Tage) mit ca. 4’900 km und ca. 50–53 Std. reiner Fahrzeit an 10 Fahrtagen, realistisch mit Pausen, Tanken, Stau und Fahrten vor Ort ca. 57–63 Std. im Auto. Dazu ein Inlandflug Miami–Washington (ca. 2,5–3 Std.) und der Zug nach New York (ca. 3–3,5 Std.). Die längsten Fahrtage: San Antonio–New Orleans (ca. 8–8,5 Std., realistisch ca. 9,5–10 Std.), Destin–Orlando (ca. 6–7 Std.), Monument Valley–Albuquerque (ca. 5,5–6,5 Std.), White Sands–Fort Stockton über Roswell (ca. 5,5–6 Std.) und Fort Stockton–San Antonio (ca. 5–5,5 Std.)."
     ],
     [
       "Flug ab und nach Zürich",
@@ -75,11 +79,11 @@ REISEN.usa = {
     ],
     [
       "Vorab buchen",
-      "Einwegmiete Las Vegas–Miami (Gebühr vergleichen), Unterkunft in Monument Valley (oft Monate im Voraus), Meow Wolf, Space Center Houston, Sumpftour in New Orleans, Unterkunft in Destin, Universal und Kennedy Space Center, Schnorcheltour in Key Largo, Inlandflug Miami–Washington (Gepäck einrechnen), Air and Space Museum, Amtrak Washington–New York, Aussichtsplattform und Broadway in New York."
+      "Einwegmiete Las Vegas–Miami (Gebühr vergleichen), Unterkunft in Monument Valley (oft Monate im Voraus), Meow Wolf, Sumpftour in New Orleans, Unterkunft in Destin, Universal und Kennedy Space Center, Schnorcheltour in Key Largo, Inlandflug Miami–Washington (Gepäck einrechnen), Air and Space Museum, Amtrak Washington–New York, Aussichtsplattform und Broadway in New York."
     ],
     [
       "Optional",
-      "Bryce Canyon (ab Zion, ca. 2 Std.), Page mit Lake Powell und Antelope Canyon (eine Nacht mehr zwischen Zion und Monument Valley), Grand Canyon (ebenfalls mit einer Nacht mehr), Santa Fe mit eigener Nacht, Carlsbad Caverns (auf der Fahrt nach Fort Stockton), Galveston (Strand, ab Houston), Siesta Key oder Key Largo mit eigenen Nächten, Philadelphia (Halt mit dem Zug)."
+      "Bryce Canyon (ab Zion, ca. 2 Std.), Page mit Lake Powell und Antelope Canyon (eine Nacht mehr zwischen Zion und Monument Valley), Grand Canyon (ebenfalls mit einer Nacht mehr), Santa Fe mit eigener Nacht, Carlsbad Caverns (auf der Fahrt nach Fort Stockton), Houston mit Space Center Houston (eine Nacht zwischen San Antonio und New Orleans, teilt den längsten Fahrtag), Siesta Key oder Key Largo mit eigenen Nächten, Philadelphia (Halt mit dem Zug)."
     ]
   ],
   karte: {
@@ -89,7 +93,7 @@ REISEN.usa = {
     karten: [
       {datei: "karten/usa.svg"},
       {titel: "Südwesten im Detail (Stationen 1 bis 5)", datei: "karten/usa-suedwesten.svg"},
-      {titel: "Von Texas bis New York im Detail (Stationen 6 bis 13)", datei: "karten/usa-osten.svg"}
+      {titel: "Von Texas bis New York im Detail (Stationen 6 bis 12)", datei: "karten/usa-osten.svg"}
     ]
   },
   abwechslungIntro: "Wüste und Nationalparks, Städte des Südens, Strand und Freizeitparks wechseln sich ab, zum Schluss Washington und New York ohne Auto.",
@@ -100,19 +104,19 @@ REISEN.usa = {
     ],
     [
       "Strand",
-      "Drei Nächte an den weissen Stränden bei Destin, dazu Miami Beach und ein Schnorcheltag in Key Largo (Wasser ca. 29–31 °C)."
+      "Vier Nächte an den weissen Stränden bei Destin, dazu Miami Beach und ein Schnorcheltag in Key Largo (Wasser ca. 29–31 °C)."
     ],
     [
       "Action und Freizeitparks",
-      "Las Vegas, Meow Wolf in Santa Fe, UFO-Museum in Roswell, Space Center Houston, Sumpftour in Louisiana, Universal und Kennedy Space Center in Orlando, Airboat in den Everglades, Broadway."
+      "Las Vegas, Meow Wolf in Santa Fe, UFO-Museum in Roswell, Sumpftour in Louisiana, Universal und Kennedy Space Center in Orlando, Airboat in den Everglades, Broadway."
     ],
     [
       "Städte und Kultur",
-      "Las Vegas, Albuquerque und Santa Fe, Navajo Nation, San Antonio mit dem Alamo, Houston, New Orleans mit Jazz, Miami, Washington mit den Smithsonian-Museen, New York."
+      "Las Vegas, Albuquerque und Santa Fe, Navajo Nation, San Antonio mit dem Alamo, New Orleans mit Jazz, Miami, Washington mit den Smithsonian-Museen, New York."
     ],
-    ["Ruhetage", "Zion, Albuquerque, Destin und Miami haben mehrere Nächte; im Osten kein Auto mehr."]
+    ["Ruhetage", "Zion, Albuquerque, Destin, Orlando und Miami haben mehrere Nächte; im Osten kein Auto mehr."]
   ],
-  stationenIntro: "Dreizehn Stationen von Las Vegas bis New York. Über jeder Station steht, wie ihr dorthin kommt.",
+  stationenIntro: "Zwölf Stationen von Las Vegas bis New York. Über jeder Station steht, wie ihr dorthin kommt.",
   stationen: [
     {
       nr: 1,
@@ -121,7 +125,7 @@ REISEN.usa = {
       region: "Nevada",
       datum: "19.–21. Juni",
       naechte: "2 Nächte",
-      anreise: "Direktflug Zürich–Las Vegas am Sa, 19.06.2027 (Edelweiss, ca. 11,5 Std.; im Sommer 2026 Mo, Mi und Sa, Abflug ca. 13.55 Uhr, Ankunft ca. 16.25 Uhr), Zeitverschiebung −9 Std. Mietwagen am Flughafen abholen (Einwegmiete bis Washington).",
+      anreise: "Direktflug Zürich–Las Vegas am Sa, 19.06.2027 (Edelweiss, ca. 11,5 Std.; im Sommer 2026 Mo, Mi und Sa, Abflug ca. 13.55 Uhr, Ankunft ca. 16.25 Uhr), Zeitverschiebung −9 Std. Mietwagen am Flughafen abholen (Einwegmiete bis Miami).",
       text: "Der Einstieg in der Wüste: Neonlichter, Hotels wie Freizeitparks und die Wasserspiele des Bellagio. Zwei Nächte, um den Jetlag zu überwinden, bevor es in die Nationalparks geht.",
       teens: "High Roller (Riesenrad) bei Sonnenuntergang, Wasserspiele des Bellagio, Red Rock Canyon (Felsen und Aussicht) früh am Morgen, Hoover-Staudamm als Halbtagesausflug, Shows und Hotels als Kulisse.",
       fakten: [
@@ -283,40 +287,12 @@ REISEN.usa = {
     },
     {
       nr: 7,
-      name: "Houston",
-      land: "us",
-      region: "Texas",
-      datum: "30. Juni–2. Juli",
-      naechte: "2 Nächte",
-      anreise: "Mietwagen von San Antonio über die Interstate 10 (ca. 3–3,5 Std., ca. 320 km).",
-      text: "Die Raumfahrtstadt: Im Space Center Houston steht man in der Halle der Saturn-V-Rakete und neben dem Kontrollraum der Mondlandungen.",
-      teens: "Space Center Houston mit Tram-Tour zum Mission Control und zur Saturn-V-Halle, Museum District, Abend am Buffalo Bayou.",
-      fakten: [
-        "<strong>Dauer:</strong> 2 Nächte: ein Tag Space Center Houston (ca. 40 Min. südöstlich der Stadt), ein halber Tag Museum District oder Strand in Galveston (ca. 1 Std.).",
-        "<strong>Hitze:</strong> Heiss und feucht; das Space Center ist zum grossen Teil klimatisiert."
-      ],
-      ausserdem: "Museum District, Buffalo Bayou Park, Galveston (Strand, ca. 1 Std.).",
-      bilder: [
-        {titel: "Space Center Houston", suche: "Space Center Houston", stichwort: "space center houston"},
-        {titel: "Saturn V", suche: "Saturn V Johnson Space Center", stichwort: "saturn"},
-        {
-          titel: "Mission Control",
-          suche: "Christopher C. Kraft Mission Control Center|Mission Control Houston",
-          stichwort: "mission control"
-        },
-        {titel: "Skyline", suche: "Houston skyline", stichwort: "houston"},
-        {titel: "Buffalo Bayou", suche: "Buffalo Bayou Park Houston", stichwort: "buffalo bayou"},
-        {titel: "Galveston", suche: "Galveston Pleasure Pier", stichwort: "galveston"}
-      ]
-    },
-    {
-      nr: 8,
       name: "New Orleans",
       land: "us",
       region: "Louisiana",
-      datum: "2.–4. Juli",
+      datum: "30. Juni–2. Juli",
       naechte: "2 Nächte",
-      anreise: "Mietwagen von Houston über die Interstate 10 durch Louisiana (ca. 5–6 Std., ca. 560 km).",
+      anreise: "Mietwagen von San Antonio über die Interstate 10 an Houston vorbei und durch Louisiana (ca. 8–8,5 Std. reine Fahrzeit, ca. 870 km; realistisch mit Pausen ca. 9,5–10 Std.). Der längste Fahrtag der Reise: früh losfahren, Houston nicht zur Rushhour durchqueren.",
       text: "Jazz, Balkone mit schmiedeeisernen Geländern und kreolische Küche im French Quarter, dazu Sümpfe mit Alligatoren gleich vor der Stadt.",
       teens: "Sumpftour mit Alligatoren, Raddampfer auf dem Mississippi, Beignets im Café du Monde, Strassenmusik im French Quarter, Insektenmuseum Audubon Insectarium.",
       fakten: [
@@ -335,17 +311,17 @@ REISEN.usa = {
       ]
     },
     {
-      nr: 9,
+      nr: 8,
       name: "Destin (Golfküste)",
       land: "us",
       region: "Florida Panhandle",
-      datum: "4.–7. Juli",
-      naechte: "3 Nächte",
+      datum: "2.–6. Juli",
+      naechte: "4 Nächte",
       anreise: "Mietwagen von New Orleans über die Interstate 10 an die Golfküste (ca. 4–4,5 Std., ca. 400 km).",
-      text: "Weisser Quarzsand und smaragdgrünes Wasser am Golf von Mexiko: drei Strandtage nach Wüste und Städten, bevor es nach Florida hineingeht.",
+      text: "Weisser Quarzsand und smaragdgrünes Wasser am Golf von Mexiko: vier Strandtage nach Wüste und Städten, bevor es nach Florida hineingeht.",
       teens: "Baden und Sandburgen am Henderson Beach, Delfin-Bootstour, Schnorcheln an den Jetties von Destin (ruhiges Wasser), Stand-up-Paddle.",
       fakten: [
-        "<strong>Dauer:</strong> 3 Nächte am Strand, z.B. in Destin oder Santa Rosa Beach: Baden, Schnorcheln an den Steinmolen, Bootstour zu den Delfinen. Am 4. Juli (Nationalfeiertag) Feuerwerk am Strand; Unterkünfte früh buchen.",
+        "<strong>Dauer:</strong> 4 Nächte am Strand, z.B. in Destin oder Santa Rosa Beach: Baden, Schnorcheln an den Steinmolen, Bootstour zu den Delfinen. Am 4. Juli (Nationalfeiertag) Feuerwerk am Strand; Unterkünfte früh buchen.",
         "<strong>Baden:</strong> Auf die Strandflaggen achten: rote Flagge heisst gefährliche Strömung (Rip Currents), dann nicht ins Wasser.",
         "<strong>Wetter:</strong> Gewitter am Nachmittag sind häufig; Hurrikansaison."
       ],
@@ -360,17 +336,17 @@ REISEN.usa = {
       ]
     },
     {
-      nr: 10,
+      nr: 9,
       name: "Orlando",
       land: "us",
       region: "Florida",
-      datum: "7.–10. Juli",
-      naechte: "3 Nächte",
+      datum: "6.–10. Juli",
+      naechte: "4 Nächte",
       anreise: "Mietwagen von Destin über die Interstate 10 und die Interstate 75 nach Orlando (ca. 6–7 Std., ca. 650 km). In Orlando gilt Eastern-Zeit, die Uhr springt +1 Std.",
       text: "Hauptstadt der Freizeitparks und Ausgangspunkt zum Kennedy Space Center, von wo die Raketen starten. Für die Teenager einer der Höhepunkte der Reise.",
       teens: "Universal Studios und Islands of Adventure (Harry Potter), Kennedy Space Center mit der Saturn-V-Rakete und dem Space Shuttle Atlantis, mit Glück ein Raketenstart.",
       fakten: [
-        "<strong>Dauer:</strong> 3 Nächte: ein Tag Universal (beide Parks), ein Tag Kennedy Space Center oder ein zweiter Parktag, ein ruhiger Tag am Pool.",
+        "<strong>Dauer:</strong> 4 Nächte: ein Tag Kennedy Space Center (ca. 1 Std. östlich; mit Glück ein Raketenstart, Startplan kurz vorher prüfen), ein Tag Universal (beide Parks), ein zweiter Parktag oder Cocoa Beach, ein ruhiger Tag am Pool.",
         "<strong>Tickets:</strong> Kennedy Space Center 2026 ca. 77 USD ab 12 Jahren; Universal mit zwei Parks an einem Tag ca. 190–225 USD je nach Datum (die Kids zahlen den Erwachsenenpreis). Früh online buchen.",
         "<strong>Maut:</strong> Viele Strassen in Florida sind mautpflichtig; beim Mietwagen das Mautpaket oder die Abrechnung per Kennzeichen klären."
       ],
@@ -385,7 +361,7 @@ REISEN.usa = {
       ]
     },
     {
-      nr: 11,
+      nr: 10,
       name: "Miami",
       land: "us",
       region: "Florida",
@@ -412,7 +388,7 @@ REISEN.usa = {
       ]
     },
     {
-      nr: 12,
+      nr: 11,
       name: "Washington, D.C.",
       land: "us",
       region: "Washington, D.C.",
@@ -437,7 +413,7 @@ REISEN.usa = {
       ]
     },
     {
-      nr: 13,
+      nr: 12,
       name: "New York",
       land: "us",
       region: "New York",
@@ -491,16 +467,16 @@ REISEN.usa = {
       ],
       [
         "Unterkunft (Familienzimmer oder 2 Zimmer, 3 Sterne)",
-        "7’400–11’800",
-        "9’200",
+        "7’450–12’000",
+        "9’300",
         "ca. 130–600 CHF pro Nacht; Monument Valley, Destin, Miami, Washington und New York am teuersten"
       ],
       ["Verpflegung (Restaurants, Imbiss, Getränke)", "4’500–8’000", "6’000", "ca. 140–250 CHF pro Tag für 4 Personen"],
       [
         "Aktivitäten und Eintritte (inkl. Nationalpark-Jahrespass)",
-        "4’300–7’700",
-        "5’800",
-        "Pass 250 USD, Meow Wolf, Sandia Peak Tramway, Space Center Houston, Sumpftour, Universal, Everglades, Schnorcheltour, Aussichtsplattform und Broadway in New York usw."
+        "4’200–7’500",
+        "5’650",
+        "Pass 250 USD, Meow Wolf, Sandia Peak Tramway, Sumpftour, Universal, Everglades, Schnorcheltour, Aussichtsplattform und Broadway in New York usw."
       ],
       [
         "ESTA, Versicherung, eSIM",
@@ -518,13 +494,12 @@ REISEN.usa = {
       ["5. White Sands (1)", "300–520"],
       ["Zwischenübernachtung Fort Stockton (1)", "150–250"],
       ["6. San Antonio (2)", "500–850"],
-      ["7. Houston (2)", "650–1’100"],
-      ["8. New Orleans (2)", "600–1’000"],
-      ["9. Destin (3)", "900–1’500"],
-      ["10. Orlando (3)", "1’350–2’400"],
-      ["11. Miami (4)", "1’450–2’450"],
-      ["12. Washington, D.C. (3)", "1’280–2’180"],
-      ["13. New York (4)", "2’650–4’420"]
+      ["7. New Orleans (2)", "600–1’000"],
+      ["8. Destin (4)", "1’200–2’000"],
+      ["9. Orlando (4)", "1’800–3’200"],
+      ["10. Miami (4)", "1’450–2’450"],
+      ["11. Washington, D.C. (3)", "1’280–2’180"],
+      ["12. New York (4)", "2’650–4’420"]
     ],
     hinweise: [
       "Preise für die Kids: Der Sohn (12) und die Tochter (14) zahlen bei Eintritten teils Kinderpreise (bis 11 bzw. 12 Jahre), oft aber den Vollpreis.",
@@ -532,9 +507,9 @@ REISEN.usa = {
       "Alle Beträge sind Richtwerte in CHF (Schätzungen, nicht verbindlich). Flug-, Hotel- und Mietwagenpreise im Juli schwanken stark; aktuelle Preise vor der Buchung vergleichen."
     ],
     naechte: 32,
-    total: "35’050",
+    total: "35’000",
     spanne: "26’900–45’700",
-    proTag: "ca. 1’100 CHF pro Tag, ca. 8’800 pro Person"
+    proTag: "ca. 1’090 CHF pro Tag, ca. 8’800 pro Person"
   },
   tippsIntro: "Einreise, Gesundheit, Sicherheit und Praktisches für die Reise mit 2 Erwachsenen und 2 Kids.",
   tipps: [

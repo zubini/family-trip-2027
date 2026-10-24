@@ -47,19 +47,19 @@ window.START = {
       name: "USA (Las Vegas – Miami – New York)",
       zusatz: "Roadtrip vom Südwesten über die Golfküste nach Florida, dann Washington und New York",
       passt: "Nationalparks, ein grosser Roadtrip, Städte des Südens, Strand in Destin und Miami und zum Schluss Washington und New York im Vordergrund stehen, ihr viele Fahrtage in Kauf nehmt und das höhere Budget (rund {mehrkosten} CHF mehr) passt.",
-      kurz: "Fünf Wochen USA: mit dem Mietwagen von Las Vegas über Zion, Monument Valley, Albuquerque und White Sands nach Texas, über Houston und New Orleans an den Strand von Destin, nach Orlando und Miami; dann Inlandflug nach Washington und Zug nach New York.",
-      route: "Las Vegas, Zion, Monument Valley, Albuquerque, White Sands, (Roswell) Fort Stockton, San Antonio, Houston, New Orleans, Destin, Orlando, Miami, (Flug) Washington, (Zug) New York",
-      stationen: "13 Stationen und 1 Zwischenübernachtung",
+      kurz: "Fünf Wochen USA: mit dem Mietwagen von Las Vegas über Zion, Monument Valley, Albuquerque und White Sands nach Texas, über San Antonio und New Orleans an den Strand von Destin, nach Orlando und Miami; dann Inlandflug nach Washington und Zug nach New York.",
+      route: "Las Vegas, Zion, Monument Valley, Albuquerque, White Sands, (Roswell) Fort Stockton, San Antonio, New Orleans, Destin, Orlando, Miami, (Flug) Washington, (Zug) New York",
+      stationen: "12 Stationen und 1 Zwischenübernachtung",
       laender: "USA (Nevada bis Florida, Washington, New York)",
       hinflug: "Zürich–Las Vegas ca. 11,5 Std. direkt (nur an einzelnen Wochentagen, im Sommer 2026 auch samstags), sonst 14–17 Std.",
       rueckflug: "Direktflug New York (JFK)–Zürich ca. 7,75–8 Std. (SWISS, täglich) am Mi, 21.07.2027, Ankunft Do, 22.07.2027 am Morgen; zwei Tage Puffer gegen den Jetlag",
       dazwischen: "Einwegmiete Las Vegas–Miami (ca. 25 Tage), Inlandflug Miami–Washington (ca. 2,5–3 Std.), Amtrak Washington–New York (ca. 3–3,5 Std.)",
-      tempo: "Ca. 50–54 Std. reine Fahrzeit (ca. 4’900 km), realistisch mit Pausen und Stau ca. 58–64 Std. im Auto, an 11 Fahrtagen: 6 Tage mit 5–7 Std., die übrigen 2,5–4 Std.; dazu ein Inlandflug und ein Zug im Osten.",
-      gesamt: "Ca. 100–107 Std. Tür zu Tür: Bahn Brig-Glis–Zürich Flughafen (ca. 2,5 Std.), Flüge mit Wartezeiten, Einreise und Mietwagen zusammen ca. 30 Std., der Inlandflug nach Washington mit Transfers ca. 7 Std., der Zug nach New York ca. 4 Std. und ca. 58–64 Std. im Auto. Uhr −6 bis −9 Std., Jetlag vor allem nach der Rückkehr.",
+      tempo: "Ca. 50–53 Std. reine Fahrzeit (ca. 4’900 km), realistisch mit Pausen und Stau ca. 57–63 Std. im Auto, an 10 Fahrtagen: San Antonio–New Orleans ca. 8–8,5 Std. (realistisch ca. 9,5–10 Std.), 4 Tage mit 5–7 Std., die übrigen 2,5–5 Std.; dazu ein Inlandflug und ein Zug im Osten.",
+      gesamt: "Ca. 99–106 Std. Tür zu Tür: Bahn Brig-Glis–Zürich Flughafen (ca. 2,5 Std.), Flüge mit Wartezeiten, Einreise und Mietwagen zusammen ca. 30 Std., der Inlandflug nach Washington mit Transfers ca. 7 Std., der Zug nach New York ca. 4 Std. und ca. 57–63 Std. im Auto. Uhr −6 bis −9 Std., Jetlag vor allem nach der Rückkehr.",
       wetter: "Im Südwesten Ende Juni 38–45 °C, ab Juli Monsungewitter; Texas, die Golfküste und Florida heiss und feucht (ca. 32–33 °C) mit Gewittern am Nachmittag, Hurrikansaison mit Höhepunkt erst ab Mitte August; Washington und New York heiss und schwül.",
       einreise: "ESTA für alle vier (ca. 40 USD pro Person), Regeln im Wandel. Nationalpark-Jahrespass für Nicht-Residenten 250 USD, 100 USD Zusatzgebühr pro Person ab 16 Jahren in 11 Parks (auf der Route Zion und Everglades).",
-      hoehepunkte: "Las Vegas, Zion, Horseshoe Bend, Monument Valley, Sandia Peak und Meow Wolf, White Sands, UFO-Museum in Roswell, Alamo, Space Center Houston, New Orleans, weisse Strände bei Destin, Universal und Kennedy Space Center, Everglades, Korallenriff bei Key Largo, Miami Beach, Smithsonian-Museen in Washington, New York.",
-      teens: "Narrows in Zion, Sandboarding auf White Sands, UFO-Museum, Space Center Houston, Sumpftour mit Alligatoren, Strand in Destin, Universal, Airboat und Schnorcheln am Riff, Air and Space Museum, New York.",
+      hoehepunkte: "Las Vegas, Zion, Horseshoe Bend, Monument Valley, Sandia Peak und Meow Wolf, White Sands, UFO-Museum in Roswell, Alamo, New Orleans, weisse Strände bei Destin, Universal und Kennedy Space Center, Everglades, Korallenriff bei Key Largo, Miami Beach, Smithsonian-Museen in Washington, New York.",
+      teens: "Narrows in Zion, Sandboarding auf White Sands, UFO-Museum, Sumpftour, Raketen im Kennedy Space Center mit Alligatoren, Strand in Destin, Universal, Airboat und Schnorcheln am Riff, Air and Space Museum, New York.",
       pro: [
         "Ein Querschnitt durch die USA: Wüste und Nationalparks, Texas, New Orleans, Golfküste, Florida und zum Schluss Washington und New York",
         "Spektakuläre Landschaften: Zion, Monument Valley, White Sands, Everglades und das Korallenriff der Keys",
@@ -68,7 +68,7 @@ window.START = {
       ],
       contra: [
         "Am teuersten (ca. {plan:usa} CHF): Einwegmiete quer durchs Land mit hoher Rückgabegebühr, Inlandflug, Unterkünfte in Miami und New York; Arztkosten sehr hoch",
-        "Viel Reisezeit: ca. 58–64 Std. im Auto an 11 Fahrtagen, sechs lange Tage mit 5–7 Std.; Tür zu Tür ca. 100–107 Std. und Jetlag",
+        "Viel Reisezeit: ca. 57–63 Std. im Auto an 10 Fahrtagen, ein Tag mit ca. 9,5–10 Std. (San Antonio–New Orleans) und vier mit 5–7 Std.; Tür zu Tür ca. 99–106 Std. und Jetlag",
         "Hitze im Südwesten (oft über 40 °C), schwüle Hitze und Gewitter an der Golfküste und in Florida, Hurrikansaison (im Juli selten)",
         "Drei Flüge mit viel CO₂; Direktflug nach Las Vegas nur an einzelnen Wochentagen, ESTA-Regeln vorab prüfen"
       ]
@@ -140,7 +140,7 @@ window.START = {
         4,
         "Vier Nächte auf Formentera, dazu Costa Brava, Benidorm, Cabo de Gata, Tarifa, Cádiz, Algarve und San Sebastián; im Juli voll."
       ],
-      usa: [3, "Drei Nächte an den weissen Stränden bei Destin und vier Nächte in Miami mit Miami Beach, Wasser ca. 28–31 °C; dazwischen viele Tage ohne Meer."],
+      usa: [3, "Vier Nächte an den weissen Stränden bei Destin und vier Nächte in Miami mit Miami Beach, Wasser ca. 28–31 °C; dazwischen viele Tage ohne Meer."],
       asien: [
         5,
         "Tioman, Perhentian Islands, Khanom, Koh Samui, Koh Tao und Hua Hin: tropische Strände mit ca. 29 °C warmem Wasser an fast jeder zweiten Station."
@@ -173,7 +173,7 @@ window.START = {
         5,
         "Barcelona, Valencia, Casablanca, Marrakesch, Fès, Cádiz, Sevilla, Lissabon, Porto, San Sebastián und Carcassonne: europäische und marokkanische Städte im Wechsel."
       ],
-      usa: [5, "Las Vegas, Albuquerque und Santa Fe, San Antonio, Houston, New Orleans, Miami, Washington und New York mit Museen und Aussichtsplattformen."],
+      usa: [5, "Las Vegas, Albuquerque und Santa Fe, San Antonio, New Orleans, Miami, Washington und New York mit Museen und Aussichtsplattformen."],
       asien: [4, "Singapur, Kuala Lumpur, Penang und Bangkok mit Street-Food und Tempeln."]
     },
     {
@@ -200,7 +200,7 @@ window.START = {
         3,
         "Ca. 96–103 Stunden Tür zu Tür, kein Jetlag, in Marokko kein Fahren; aber Wechsel zwischen eigenem Auto, Fähre und Zug, Passkontrollen, ein langer Zugtag Marrakesch–Fès und mehrere Tage mit 7–9 Stunden."
       ],
-      usa: [1, "Ca. 100–107 Stunden Tür zu Tür: zwei Langstreckenflüge mit Einreise und Jetlag, ein Inlandflug, dazu viel Zeit im Auto (ca. 58–64 Stunden an 11 Fahrtagen, sechs Tage mit 5–7 Stunden)."],
+      usa: [1, "Ca. 99–106 Stunden Tür zu Tür: zwei Langstreckenflüge mit Einreise und Jetlag, ein Inlandflug, dazu viel Zeit im Auto (ca. 57–63 Stunden an 10 Fahrtagen, ein Tag mit ca. 9,5–10 Stunden und vier mit 5–7 Stunden)."],
       asien: [
         2,
         "Ca. 101–108 Stunden Tür zu Tür: zwei Direktflüge mit Jetlag, dazu ca. 65–70 Stunden mit Bus, Zug und Fähre und viele Umstiege mit Gepäck; niemand muss selber fahren."

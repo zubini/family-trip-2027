@@ -88,10 +88,8 @@
 <polyline points="370.0,284.2 371.2,297.7 373.7,308.1 386.7,333.3 398.2,347.0" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Roswell – Carlsbad – Pecos – Fort Stockton</title></polyline>
 <polyline points="398.2,347.0 432.3,353.5 443.7,357.5 472.9,371.2 487.2,386.7" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
 <polyline points="398.2,347.0 432.3,353.5 443.7,357.5 472.9,371.2 487.2,386.7" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Fort Stockton – San Antonio</title></polyline>
-<polyline points="487.2,386.7 528.8,380.7 552.4,379.2" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
-<polyline points="487.2,386.7 528.8,380.7 552.4,379.2" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: San Antonio – Houston</title></polyline>
-<polyline points="552.4,379.2 578.0,371.2 596.8,367.1 621.6,366.5 639.3,360.1 662.3,370.9" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
-<polyline points="552.4,379.2 578.0,371.2 596.8,367.1 621.6,366.5 639.3,360.1 662.3,370.9" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Houston – New Orleans</title></polyline>
+<polyline points="487.2,386.7 528.8,380.7 552.4,379.2 578.0,371.2 596.8,367.1 621.6,366.5 639.3,360.1 662.3,370.9" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="487.2,386.7 528.8,380.7 552.4,379.2 578.0,371.2 596.8,367.1 621.6,366.5 639.3,360.1 662.3,370.9" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: San Antonio – Houston – New Orleans</title></polyline>
 <polyline points="662.3,370.9 683.7,358.6 702.9,350.1 720.7,355.0 735.1,354.3" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
 <polyline points="662.3,370.9 683.7,358.6 702.9,350.1 720.7,355.0 735.1,354.3" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: New Orleans – Destin</title></polyline>
 <polyline points="735.1,354.3 740.7,347.5 756.9,344.5 780.5,348.0 815.7,349.2 823.2,361.4 832.4,377.0 846.8,384.8" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
@@ -110,13 +108,12 @@
 <g><title>4. Albuquerque: Do, 24.06.2027 – Sa, 26.06.2027, 2 Nächte</title><circle cx="332.4" cy="239.4" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
 <g><title>5. White Sands: Sa, 26.06.2027 – So, 27.06.2027, 1 Nacht</title><circle cx="337.3" cy="294.8" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
 <g><title>6. San Antonio: Mo, 28.06.2027 – Mi, 30.06.2027, 2 Nächte</title><circle cx="487.2" cy="386.7" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
-<g><title>7. Houston: Mi, 30.06.2027 – Fr, 02.07.2027, 2 Nächte</title><circle cx="552.4" cy="379.2" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
-<g><title>8. New Orleans: Fr, 02.07.2027 – So, 04.07.2027, 2 Nächte</title><circle cx="662.3" cy="370.9" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
-<g><title>9. Destin: So, 04.07.2027 – Mi, 07.07.2027, 3 Nächte</title><circle cx="735.1" cy="354.3" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
-<g><title>10. Orlando: Mi, 07.07.2027 – Sa, 10.07.2027, 3 Nächte</title><circle cx="846.8" cy="384.8" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
-<g><title>11. Miami: Sa, 10.07.2027 – Mi, 14.07.2027, 4 Nächte</title><circle cx="882.6" cy="446.2" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
-<g><title>12. Washington, D.C.: Mi, 14.07.2027 – Sa, 17.07.2027, 3 Nächte</title><circle cx="887.4" cy="123.4" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
-<g><title>13. New York: Sa, 17.07.2027 – Mi, 21.07.2027, 4 Nächte</title><circle cx="932.2" cy="69.0" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
+<g><title>7. New Orleans: Mi, 30.06.2027 – Fr, 02.07.2027, 2 Nächte</title><circle cx="662.3" cy="370.9" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
+<g><title>8. Destin: Fr, 02.07.2027 – Di, 06.07.2027, 4 Nächte</title><circle cx="735.1" cy="354.3" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
+<g><title>9. Orlando: Di, 06.07.2027 – Sa, 10.07.2027, 4 Nächte</title><circle cx="846.8" cy="384.8" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
+<g><title>10. Miami: Sa, 10.07.2027 – Mi, 14.07.2027, 4 Nächte</title><circle cx="882.6" cy="446.2" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
+<g><title>11. Washington, D.C.: Mi, 14.07.2027 – Sa, 17.07.2027, 3 Nächte</title><circle cx="887.4" cy="123.4" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
+<g><title>12. New York: Sa, 17.07.2027 – Mi, 21.07.2027, 4 Nächte</title><circle cx="932.2" cy="69.0" r="5.5" fill="#0F4C55" stroke="#fff" stroke-width="2"/></g>
 <text class="fl" x="169.2" y="208.1" text-anchor="middle">Ankunft aus Zürich ✈</text>
 <text class="fl" x="934.3" y="46.4" text-anchor="middle">Rückflug nach Zürich ✈</text>
 </svg>

@@ -98,7 +98,7 @@ window.QUELLEN = {
         ["Wayro: Roswell–Fort Stockton (ca. 195 Meilen, ca. 3 Std.; andere Angaben bis ca. 235 Meilen)", "https://blog.wayro.ai/roswell-corpus-christi-desert-coast-road-trip-guide"],
         ["iRV2: Carlsbad Caverns–Fort Stockton über die US-285", "https://www.irv2.com/forums/f38/carlsbad-caverns-travel-from-fort-stockton-272235.html"],
         ["Visit Big Bend: Fahrt San Antonio–Fort Stockton", "https://visitbigbend.com/drive-san-antonio/"],
-        ["Rome2rio: Houston–New Orleans (ca. 348 Meilen)", "https://www.rome2rio.com/s/Tulane-University/Houston"],
+        ["OSRM: San Antonio–New Orleans über die Interstate 10 (ca. 870 km)", "https://router.project-osrm.org"],
         ["LazyTrips: Roadtrip New Orleans–Destin (über die Interstate 10)", "https://lazytrips.com/trip/road-trip-from-new-orleans-to-destin"],
         ["NPS: Zusatzgebühr für Nicht-Residenten in 11 Parks", "https://www.nps.gov/aboutus/nonresident-fees.htm"],
         ["Brick Underground: Staugebühr New York (9 USD bis 2027)", "https://www.brickunderground.com/live/hochul-reinstates-congestion-pricing-plan-lower-cost-nyc"],
