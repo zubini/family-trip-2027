@@ -400,8 +400,8 @@ REISEN.usa = {
       text: "Art-déco-Häuser und Strand in South Beach, kubanisches Essen in Little Havana und gleich vor der Stadt die Everglades mit Alligatoren und Mangroven.",
       teens: "Airboat-Fahrt und Alligatoren in den Everglades, Strand und Art-déco-Viertel in South Beach, Graffiti-Kunst in Wynwood Walls, Little Havana mit kubanischem Essen.",
       fakten: [
-        "<strong>Dauer:</strong> 4 Nächte: ein Tag Everglades (Airboat oder Shark Valley Tram), ein Tag Key Largo mit Schnorcheltour am Korallenriff (ca. 1,25–1,5 Std. pro Weg), ein Tag South Beach, ein halber Tag Wynwood und Little Havana.",
-        "<strong>Everglades:</strong> Eintritt ca. 35 USD pro Auto, dazu für Nicht-US-Bewohner ab 16 Jahren 100 USD pro Person, mit dem Jahrespass (250 USD) entfällt beides. Shark Valley Tram (ca. 2 Std.) 34 USD Erwachsene, 18 USD Kinder bis 12; Airboat-Touren ausserhalb des Parks ca. 27–37 USD.",
+        "<strong>Dauer:</strong> 4 Nächte: ein halber Tag Everglades mit Airboat-Tour am Rand des Parks (ca. 45 Min. pro Weg, Tour ca. 1 Std.), ein Tag Key Largo mit Schnorcheltour am Korallenriff (ca. 1,25–1,5 Std. pro Weg), ein Tag South Beach, ein freier Tag mit Strand oder Pool, ein halber Tag Wynwood und Little Havana.",
+        "<strong>Everglades:</strong> Airboat-Touren am Tamiami Trail ausserhalb des Nationalparks ca. 27–37 USD pro Person, ohne Parkeintritt. Optional der Nationalpark selbst mit der Shark Valley Tram (ca. 2 Std., 34 USD Erwachsene, 18 USD Kinder bis 12); Eintritt ca. 35 USD pro Auto plus 100 USD pro Person ab 16 für Nicht-US-Bewohner, mit dem Jahrespass inklusive.",
         "<strong>Schnorcheln:</strong> Bootstouren im John Pennekamp Coral Reef State Park dauern ca. 2,5 Std. mit gut einer Stunde im Wasser (2026 ca. 65–75 USD pro Person, Ausrüstung inklusive); alle müssen schwimmen können, riffschonende Sonnencreme.",
         "<strong>Wetter:</strong> Heiss und feucht (ca. 33 °C), am Nachmittag oft kurze Gewitter; Juni bis November ist Hurrikansaison, Wetterberichte verfolgen.",
         "<strong>Weiterflug:</strong> Am Mi, 14.07.2027 nonstop nach Washington (ca. 2,5–3 Std., z.B. American oder Delta nach Reagan National, viele Flüge pro Tag). Mietwagen vorher am Flughafen zurückgeben."
@@ -520,7 +520,7 @@ REISEN.usa = {
       [
         "Unterkunft (Familienzimmer, 3 Sterne)",
         "7’000–10’000",
-        "8’000",
+        "8’100",
         "ca. 100–420 CHF pro Nacht inkl. Steuern (ein Zimmer mit zwei Queen-Betten); Los Angeles, Zion, Monument Valley, Destin, Miami, Washington und New York am teuersten, in Las Vegas zusätzlich «Resort Fees»"
       ],
       ["Verpflegung (Restaurants, Imbiss, Getränke)", "4’500–8’000", "6’000", "ca. 140–250 CHF pro Tag für 4 Personen"],
@@ -536,7 +536,7 @@ REISEN.usa = {
         "700",
         "ESTA ca. 40 USD pro Person, eSIM, Reiseversicherung mit hoher Deckung (falls nicht schon über eine Jahresversicherung abgedeckt)"
       ],
-      ["Reserve (ca. 5 %)", "1’200–1’750", "1’400", "Souvenirs, Wäsche, Unvorhergesehenes"]
+      ["Reserve (ca. 5 %)", "1’200–1’750", "1’450", "Souvenirs, Wäsche, Unvorhergesehenes"]
     ],
     stationen: [
       ["1. Los Angeles (2)", "780–1’380"],
@@ -561,9 +561,9 @@ REISEN.usa = {
       "Alle Beträge sind Richtwerte in CHF (Schätzungen, nicht verbindlich). Flug-, Hotel- und Mietwagenpreise im Juli schwanken stark; aktuelle Preise vor der Buchung vergleichen."
     ],
     naechte: 32,
-    total: "29’820",
+    total: "29’970",
     spanne: "25’500–36’700",
-    proTag: "ca. 930 CHF pro Tag, ca. 7’500 pro Person"
+    proTag: "ca. 940 CHF pro Tag, ca. 7’500 pro Person"
   },
   tippsIntro: "Einreise, Gesundheit, Sicherheit und Praktisches für die Reise mit 2 Erwachsenen und 2 Kids.",
   tipps: [
@@ -574,7 +574,7 @@ REISEN.usa = {
     ["Reisepass", "Biometrischer Reisepass für alle vier, mind. 6 Monate gültig. Zusätzlich Kopien aufbewahren."],
     [
       "Nationalparks und Gebühren",
-      "Seit Januar 2026 zahlen Nicht-US-Bewohner ab 16 Jahren in 11 Parks zusätzlich 100 USD pro Person; auf dieser Route betrifft das Zion und die Everglades. Der Jahrespass für Nicht-Residenten kostet 250 USD und deckt das Fahrzeug bzw. die Insassen: Für euch (zwei Erwachsene über 16) lohnt er sich klar. Für Monument Valley gilt er nicht (Navajo-Nation-Eintritt)."
+      "Seit Januar 2026 zahlen Nicht-US-Bewohner ab 16 Jahren in 11 Parks zusätzlich 100 USD pro Person; auf dieser Route betrifft das Zion (und die Everglades, falls ihr in den Nationalpark fahrt). Der Jahrespass für Nicht-Residenten kostet 250 USD und deckt das Fahrzeug bzw. die Insassen: Für euch (zwei Erwachsene über 16) lohnt er sich schon wegen Zion (ca. 235 USD) und White Sands. Für Monument Valley gilt er nicht (Navajo-Nation-Eintritt)."
     ],
     [
       "Mietwagen",
