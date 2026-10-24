@@ -155,21 +155,21 @@ REISEN.usa = {
       datum: "21.–23. Juni",
       naechte: "2 Nächte",
       anreise: "Mietwagen von Los Angeles über die Interstate 15 durch die Mojave-Wüste (ca. 4,5–5 Std., ca. 460 km; realistisch ca. 5,5–6,5 Std., weil die Ausfahrt aus Los Angeles oft staut: früh losfahren). Gleiche Zeitzone.",
-      text: "Neonlichter, Hotels wie Freizeitparks und die Wasserspiele des Bellagio, dazu rote Felsen gleich vor der Stadt. Zwei Nächte, bevor es in die Nationalparks geht.",
-      teens: "High Roller (Riesenrad) bei Sonnenuntergang, Wasserspiele des Bellagio, Red Rock Canyon (Felsen und Aussicht) früh am Morgen, Hoover-Staudamm als Halbtagesausflug, Shows und Hotels als Kulisse.",
+      text: "Neonlichter, Hotels wie Freizeitparks und die Wasserspiele des Bellagio: zwei Nächte nur in der Stadt, ohne Ausflüge, bevor es in die Nationalparks geht.",
+      teens: "High Roller (Riesenrad) bei Sonnenuntergang, Wasserspiele des Bellagio, Gondelfahrt im Venetian, Lichtshow an der Fremont Street, eine Show am Abend, Hotels als Kulisse.",
       fakten: [
-        "<strong>Dauer:</strong> 2 Nächte: am Ankunftsabend Strip und Bellagio, am zweiten Tag früh Red Rock Canyon oder der Hoover-Staudamm, über Mittag Pool oder klimatisierte Hotels, am Abend High Roller oder eine Show.",
+        "<strong>Dauer:</strong> 2 Nächte: am Ankunftsabend Strip und Bellagio, am zweiten Tag Pool und Hotels am Strip (Venetian, Caesars Palace), am Abend High Roller, Fremont Street oder eine Show.",
         "<strong>Hitze:</strong> Im Juli werden oft 40–45 °C erreicht. Aktivitäten morgens und abends, tagsüber klimatisierte Hotels. Viel Wasser trinken.",
         "<strong>Hinweis:</strong> Glücksspiel ist erst ab 21 Jahren erlaubt. Viele Hotels verlangen zusätzlich «Resort Fees» pro Nacht (oft über 40 USD)."
       ],
-      ausserdem: "Fremont Street Experience (Altstadt, Lichtshow), Neon Museum, Valley of Fire State Park (rote Felsen), Sphere (nur bei Veranstaltungen).",
+      ausserdem: "Neon Museum (alte Leuchtreklamen), Sphere (nur bei Veranstaltungen), Shark Reef Aquarium im Mandalay Bay, Achterbahn im New York-New York.",
       bilder: [
         {titel: "Strip", suche: "Las Vegas Strip night|Las Vegas Boulevard", stichwort: "las vegas"},
         {titel: "Bellagio", suche: "Fountains of Bellagio", stichwort: "bellagio"},
         {titel: "High Roller", suche: "High Roller Las Vegas|High Roller observation wheel", stichwort: "high roller"},
         {titel: "Fremont Street", suche: "Fremont Street Experience", stichwort: "fremont"},
-        {titel: "Red Rock Canyon", suche: "Red Rock Canyon National Conservation Area", stichwort: "red rock"},
-        {titel: "Valley of Fire", suche: "Valley of Fire State Park", stichwort: "valley of fire"}
+        {titel: "Venetian", suche: "The Venetian Las Vegas", stichwort: "venetian"},
+        {titel: "Neon Museum", suche: "Neon Museum Las Vegas", stichwort: "neon"}
       ]
     },
     {
