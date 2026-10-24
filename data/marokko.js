@@ -692,9 +692,9 @@ REISEN.marokko = {
   budgetIntro: "Mittelklasse inklusive Maut, Fähren, Züge und Transfers in Marokko, Unterkunft, Verpflegung und Aktivitäten; Laden an Tesla-Superchargern ist gratis. Alle Beträge sind Schätzungen in CHF.",
   budget: {
     naechte: 35,
-    total: "19’200",
-    spanne: "14’500–25’200",
-    proTag: "ca. 550 CHF pro Tag, ca. 4’800 pro Person",
+    total: "17’450",
+    spanne: "14’000–22’700",
+    proTag: "ca. 500 CHF pro Tag, ca. 4’400 pro Person",
     posten: [
       [
         "Auto: Maut, Vignetten, Laden unterwegs (ca. 5’300 km)",
@@ -704,15 +704,15 @@ REISEN.marokko = {
       ],
       [
         "Parkieren und lokale Transfers",
-        "600–1’000",
-        "800",
-        "Parkplatz in Tarifa für ca. eine Woche, Hotel-Parkhäuser in Städten, Taxis und Metro"
+        "450–800",
+        "600",
+        "Parkplatz in Tarifa für ca. eine Woche (ca. 10–15 EUR pro Tag), Hotel-Parkhäuser in Städten (ca. 15–35 EUR pro Nacht), Taxis und Metro"
       ],
       [
         "Autofähre Dénia–Formentera hin und zurück",
-        "350–700",
-        "500",
-        "Auto und 4 Personen mit Sitzplätzen; im Juli früh buchen"
+        "550–850",
+        "650",
+        "Auto und 4 Personen mit Sitzplätzen; Baleària ab ca. 227 EUR hin und zurück für Fahrer mit Auto plus ca. 115 EUR pro weitere Person, im Juli eher mehr; früh buchen"
       ],
       [
         "Marokko: Fähren, Züge, Transfers",
@@ -722,9 +722,9 @@ REISEN.marokko = {
       ],
       [
         "Unterkunft (Familienzimmer, Apartment, Riad oder 2 Zimmer)",
-        "6’000–10’350",
-        "8’000",
-        "ca. 120–300 CHF pro Nacht; Riads in Marokko günstiger, Formentera im Juli, das Camp in der Agafay-Wüste, Lissabon und San Sebastián teurer"
+        "6’000–9’000",
+        "7’100",
+        "ca. 110–420 CHF pro Nacht; Formentera im Juli am teuersten (Familienzimmer ca. 350–500 EUR), Riads in Marokko günstiger, das Camp in der Agafay-Wüste, Barcelona, Lissabon und San Sebastián teurer"
       ],
       [
         "Verpflegung (Restaurants, Einkauf)",
@@ -734,8 +734,8 @@ REISEN.marokko = {
       ],
       [
         "Aktivitäten und Eintritte",
-        "2’100–3’600",
-        "2’750",
+        "1’600–2’600",
+        "2’000",
         "Schnorcheltour Medes-Inseln, Kajak und Schnorcheln auf Formentera, Aqualandia oder Terra Mítica, Sagrada Família, Oceanogràfic, Caminito del Rey, Hassan-II.-Moschee, Kamelritt und Quad in der Agafay-Wüste, Führer in Fès, Alcázar, Kajak an der Algarve, Oceanário, Cité von Carcassonne"
       ],
       [
@@ -744,34 +744,35 @@ REISEN.marokko = {
         "500",
         "Pannenhilfe-Versicherung fürs Auto, Reiseversicherung für Marokko, Annullationsschutz"
       ],
-      ["Reserve (ca. 5 %)", "700–1’200", "900", "Souvenirs, Wäsche, Unvorhergesehenes"]
+      ["Reserve (ca. 5 %)", "650–1’100", "850", "Souvenirs, Wäsche, Unvorhergesehenes"]
     ],
     stationen: [
-      ["Zwischenübernachtung Sète (1)", "250–400"],
-      ["1. Costa Brava (2)", "650–1’100"],
-      ["2. Barcelona (2)", "750–1’250"],
-      ["3. Valencia (1)", "350–550"],
-      ["4. Formentera (4)", "1’700–2’900"],
-      ["5. Benidorm (2)", "600–1’000"],
-      ["6. Cabo de Gata (2)", "600–1’000"],
-      ["7. Caminito del Rey (1)", "300–500"],
-      ["8. Tarifa (1)", "300–500"],
-      ["9. Casablanca (1)", "250–400"],
-      ["10. Marrakesch (2)", "600–1’000"],
-      ["11. Agafay-Wüste (1)", "300–550"],
-      ["12. Fès (2)", "500–850"],
-      ["13. Cádiz (1)", "300–500"],
-      ["14. Sevilla (2)", "650–1’050"],
-      ["15. Algarve (3)", "900–1’500"],
-      ["16. Lissabon (2)", "700–1’150"],
-      ["Zwischenübernachtung Porto (1)", "250–400"],
-      ["17. Playa de las Catedrales (2)", "550–900"],
-      ["18. San Sebastián (1)", "400–650"],
-      ["19. Carcassonne (1)", "300–450"]
+      ["Zwischenübernachtung Sète (1)", "220–360"],
+      ["1. Costa Brava (2)", "580–980"],
+      ["2. Barcelona (2)", "670–1’120"],
+      ["3. Valencia (1)", "310–490"],
+      ["4. Formentera (4)", "1’800–2’900"],
+      ["5. Benidorm (2)", "540–890"],
+      ["6. Cabo de Gata (2)", "540–890"],
+      ["7. Caminito del Rey (1)", "270–450"],
+      ["8. Tarifa (1)", "270–450"],
+      ["9. Casablanca (1)", "220–360"],
+      ["10. Marrakesch (2)", "540–890"],
+      ["11. Agafay-Wüste (1)", "270–490"],
+      ["12. Fès (2)", "450–760"],
+      ["13. Cádiz (1)", "270–450"],
+      ["14. Sevilla (2)", "580–940"],
+      ["15. Algarve (3)", "800–1’340"],
+      ["16. Lissabon (2)", "620–1’030"],
+      ["Zwischenübernachtung Porto (1)", "220–360"],
+      ["17. Playa de las Catedrales (2)", "490–800"],
+      ["18. San Sebastián (1)", "360–580"],
+      ["19. Carcassonne (1)", "270–400"]
     ],
     hinweise: [
       "Preise für die Kids: Viele Sehenswürdigkeiten sind für Kinder bis 11 oder 12 Jahre günstiger oder gratis; die Tochter (14) zahlt oft schon den Jugend- oder Erwachsenenpreis.",
       "Sparhebel: Apartments mit Küche, Menú del día am Mittag, Riads in Marokko, Fähren und Züge früh buchen, Unterkunft auf Formentera früh buchen.",
+      "Gerechnet mit ca. 0,93 CHF pro EUR (Kurs Oktober 2026); in Marokko wird in Dirham bezahlt, vieles bar.",
       "Nicht eingerechnet ist die Abnutzung des eigenen Autos (Service, Reifen). Alle Beträge sind Richtwerte in CHF (Schätzungen, nicht verbindlich)."
     ]
   },

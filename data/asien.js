@@ -440,9 +440,9 @@ REISEN.asien = {
   budgetIntro: "Mittelklasse inklusive Flüge, Transport, Unterkunft, Verpflegung und Aktivitäten. Alle Beträge sind Schätzungen in CHF.",
   budget: {
     naechte: 32,
-    total: "19’300",
-    spanne: "15’300–23’800",
-    proTag: "ca. 600 CHF pro Tag, ca. 4’800 pro Person",
+    total: "17’600",
+    spanne: "14’300–21’800",
+    proTag: "ca. 550 CHF pro Tag, ca. 4’400 pro Person",
     posten: [
       [
         "Flüge Zürich–Singapur und Bangkok–Zürich",
@@ -452,28 +452,28 @@ REISEN.asien = {
       ],
       [
         "Fernverkehr (Bus, Zug, Fähre, Minivan)",
-        "870–1’580",
-        "1’200",
+        "800–1’300",
+        "1’000",
         "Bus Singapur–Mersing, Fähren Mersing–Tioman, Bus nach Kuala Lumpur und Kuala Besut, Boote Perhentian, Minivan nach Penang, Fähre/ETS/Zug nach Hat Yai, Minivans nach Khanom, Fähren Samui–Tao–Chumphon, Zug nach Hua Hin/Bangkok"
       ],
-      ["Lokale Transfers", "500–1’000", "600", "Grab, MRT/Skytrain, Wassertaxis, Songthaew"],
+      ["Lokale Transfers", "400–800", "550", "Grab, MRT/Skytrain, Wassertaxis, Songthaew"],
       [
         "Unterkunft (Familienzimmer oder 2 Zimmer, 3–4 Sterne)",
-        "3’200–5’150",
-        "4’150",
-        "ca. 80–170 CHF pro Nacht, Singapur ca. 220–300"
+        "3’000–4’800",
+        "3’800",
+        "ca. 50–130 CHF pro Nacht, Singapur ca. 250–300"
       ],
       [
         "Verpflegung (Hawker, Restaurants, Getränke)",
-        "2’700–4’200",
-        "3’400",
-        "ca. 70–180 CHF pro Tag für 4 Personen, Singapur am teuersten"
+        "2’400–3’800",
+        "3’000",
+        "ca. 75–120 CHF pro Tag für 4 Personen, Singapur am teuersten"
       ],
       [
         "Aktivitäten und Eintritte",
-        "2’300–3’950",
-        "3’150",
-        "Universal, Schnorcheltouren, Marine-Park-Gebühren, Ang Thong usw."
+        "2’000–3’200",
+        "2’500",
+        "Universal und Sentosa, Mandai, Sunway Lagoon, Escape Penang, Schnorcheltouren, Marine-Park-Gebühren, Ang Thong, Wasserpark Hua Hin, Safari World usw."
       ],
       [
         "Versicherung, eSIM, Medikamente, Impfungen",
@@ -481,27 +481,27 @@ REISEN.asien = {
         "900",
         "Reisekranken- und Annullationsschutz, Reiseapotheke"
       ],
-      ["Reserve (ca. 5 %)", "750–1’150", "900", "Souvenirs, Wäsche, Unvorhergesehenes"],
+      ["Reserve (ca. 5 %)", "700–1’050", "850", "Souvenirs, Wäsche, Unvorhergesehenes"],
       [
         "<strong>Total</strong>",
-        "<strong>15’300–23’800</strong>",
-        "<strong>ca. 19’300</strong>",
-        "ca. 620 CHF pro Tag, ca. 5’150 pro Person"
+        "<strong>14’300–21’800</strong>",
+        "<strong>ca. 17’600</strong>",
+        "ca. 550 CHF pro Tag, ca. 4’400 pro Person"
       ]
     ],
     stationen: [
-      ["1. Singapur (3)", "1’520–2’240"],
-      ["2. Pulau Tioman (3)", "640–1’090"],
-      ["3. Kuala Lumpur (3)", "630–1’050"],
-      ["Zwischenübernachtung Kuala Besut (1)", "140–220"],
-      ["4. Perhentian Islands (3)", "760–1’290"],
-      ["5. Penang (3)", "630–1’000"],
-      ["Zwischenübernachtung Hat Yai (1)", "140–270"],
-      ["6. Khanom (2)", "440–740"],
-      ["7. Koh Samui (4)", "1’150–1’830"],
-      ["8. Koh Tao (4)", "920–1’480"],
-      ["9. Hua Hin / Khao Sam Roi Yot (2)", "490–770"],
-      ["10. Bangkok (3)", "840–1’400"]
+      ["1. Singapur (3)", "1’320–1’950"],
+      ["2. Pulau Tioman (3)", "560–950"],
+      ["3. Kuala Lumpur (3)", "550–910"],
+      ["Zwischenübernachtung Kuala Besut (1)", "120–190"],
+      ["4. Perhentian Islands (3)", "660–1’120"],
+      ["5. Penang (3)", "550–870"],
+      ["Zwischenübernachtung Hat Yai (1)", "120–230"],
+      ["6. Khanom (2)", "380–640"],
+      ["7. Koh Samui (4)", "1’000–1’590"],
+      ["8. Koh Tao (4)", "800–1’290"],
+      ["9. Hua Hin / Khao Sam Roi Yot (2)", "430–670"],
+      ["10. Bangkok (3)", "730–1’220"]
     ],
     hinweise: [
       "<strong>Preise für die Kids:</strong> Der Sohn (12) zahlt bei Eintritten oft noch den Kinderpreis (teils nur bis 11), die Tochter (14) meist den Vollpreis.",
