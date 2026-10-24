@@ -1,11 +1,11 @@
-// Reise: USA von Las Vegas über New Orleans und Miami nach New York (Mietwagen bis Miami, Inlandflug nach Washington, Zug nach New York)
+// Reise: USA von Los Angeles über New Orleans und Miami nach New York (Mietwagen bis Miami, Inlandflug nach Washington, Zug nach New York)
 // Daten in "datum" ohne Wochentag schreiben (z.B. "19.–22. Juni"), die Wochentage rechnet js/app.js aus.
 // Texte dürfen einfaches HTML enthalten (<b>, <strong>, <i>).
 window.REISEN = window.REISEN || {};
 REISEN.usa = {
-  titel: "Von Las Vegas über New Orleans und Miami nach New York",
+  titel: "Von Los Angeles über New Orleans und Miami nach New York",
   menu: "USA",
-  untertitel: "Fünf Wochen USA: mit dem Mietwagen von Las Vegas über Zion, Monument Valley, Albuquerque und White Sands nach Texas, über San Antonio und New Orleans an den Strand von Destin, nach Orlando und Miami; dann mit dem Flugzeug nach Washington und mit dem Zug nach New York.",
+  untertitel: "Fünf Wochen USA: mit dem Mietwagen von Los Angeles über Las Vegas, Zion, Monument Valley, Albuquerque und White Sands nach Texas, über San Antonio und New Orleans an den Strand von Destin, nach Orlando und Miami; dann mit dem Flugzeug nach Washington und mit dem Zug nach New York.",
   zeitraum: "Sa, 19.06.2027 bis Do, 22.07.2027, 2 Erwachsene und 2 Kids",
   titelbild: {
     datei: "USA 10187 Horseshoe Bend Luca Galuzzi 2007.jpg",
@@ -13,51 +13,47 @@ REISEN.usa = {
     stichwort: "horseshoe bend|monument valley",
     alt: "Horseshoe Bend, Arizona"
   },
-  planIntro: "Abflug ab Zürich nach Las Vegas am Sa, 19.06.2027, Rückflug ab New York am Mi, 21.07.2027 (Ankunft Do, 22.07.2027). Dazwischen eine Einwegmiete Las Vegas–Miami, ein Inlandflug nach Washington und der Zug nach New York. Ein Klick auf eine Station springt zur Beschreibung.",
+  planIntro: "Abflug ab Zürich nach Los Angeles am Sa, 19.06.2027, Rückflug ab New York am Mi, 21.07.2027 (Ankunft Do, 22.07.2027). Dazwischen eine Einwegmiete Los Angeles–Miami, ein Inlandflug nach Washington und der Zug nach New York. Ein Klick auf eine Station springt zur Beschreibung.",
   hinflug: {
     datum: "19. Juni",
-    name: "Flug Zürich–Las Vegas",
-    info: "Abflug am Sa, 19.06.2027, Direktflug ca. 11,5 Std. (nur an einzelnen Wochentagen), Ankunft am selben Tag am späten Nachmittag"
+    name: "Flug Zürich–Los Angeles",
+    info: "Abflug am Sa, 19.06.2027, Direktflug mit SWISS ca. 12,25 Std. (im Sommer 2026 täglich ausser Do), Ankunft am selben Tag am späten Nachmittag"
   },
   plan: [
     {
       datum: "19.–21. Juni",
-      name: "1. Las Vegas",
+      name: "1. Los Angeles",
       naechte: 2,
-      info: "Flug ab Zürich (ca. 11,5 Std.), Mietwagen am Flughafen abholen (Einwegmiete bis Miami)"
+      info: "Flug ab Zürich (ca. 12,25 Std.), Mietwagen am Flughafen abholen (Einwegmiete bis Miami)"
     },
-    {datum: "21.–23. Juni", name: "2. Zion National Park", naechte: 2, info: "Mietwagen (ca. 2,5–3 Std.), Uhr +1 Std."},
+    {datum: "21.–22. Juni", name: "2. Las Vegas", naechte: 1, info: "Mietwagen (ca. 4,5–5 Std.)"},
+    {datum: "22.–24. Juni", name: "3. Zion National Park", naechte: 2, info: "Mietwagen (ca. 2,5–3 Std.), Uhr +1 Std."},
     {
-      datum: "23.–24. Juni",
-      name: "3. Monument Valley",
+      datum: "24.–25. Juni",
+      name: "4. Monument Valley",
       naechte: 1,
       info: "Mietwagen über Page (ca. 4,5–5 Std.), Halt am Horseshoe Bend"
     },
-    {datum: "24.–26. Juni", name: "4. Albuquerque", naechte: 2, info: "Mietwagen (ca. 5,5–6,5 Std.)"},
-    {datum: "26.–27. Juni", name: "5. White Sands (Alamogordo)", naechte: 1, info: "Mietwagen (ca. 3,5–4 Std.)"},
+    {datum: "25.–27. Juni", name: "5. Albuquerque", naechte: 2, info: "Mietwagen (ca. 5,5–6,5 Std.)"},
+    {datum: "27.–28. Juni", name: "6. White Sands (Alamogordo)", naechte: 1, info: "Mietwagen (ca. 3,5–4 Std.)"},
     {
-      datum: "27.–28. Juni",
+      datum: "28.–29. Juni",
       name: "Zwischenübernachtung Fort Stockton",
       naechte: 1,
       info: "Mietwagen über Roswell (ca. 5,5–6 Std.), Uhr +1 Std."
     },
-    {datum: "28.–30. Juni", name: "6. San Antonio", naechte: 2, info: "Mietwagen (ca. 5–5,5 Std.)"},
-    {
-      datum: "30. Juni–2. Juli",
-      name: "7. New Orleans",
-      naechte: 2,
-      info: "Mietwagen (ca. 8–8,5 Std., längster Fahrtag)"
-    },
-    {datum: "2.–6. Juli", name: "8. Destin (Golfküste)", naechte: 4, info: "Mietwagen (ca. 4–4,5 Std.)"},
-    {datum: "6.–10. Juli", name: "9. Orlando", naechte: 4, info: "Mietwagen (ca. 6–7 Std.), Uhr +1 Std."},
+    {datum: "29. Juni–1. Juli", name: "7. San Antonio", naechte: 2, info: "Mietwagen (ca. 5–5,5 Std.)"},
+    {datum: "1.–3. Juli", name: "8. New Orleans", naechte: 2, info: "Mietwagen (ca. 8–8,5 Std., längster Fahrtag)"},
+    {datum: "3.–6. Juli", name: "9. Destin (Golfküste)", naechte: 3, info: "Mietwagen (ca. 4–4,5 Std.)"},
+    {datum: "6.–10. Juli", name: "10. Orlando", naechte: 4, info: "Mietwagen (ca. 6–7 Std.), Uhr +1 Std."},
     {
       datum: "10.–14. Juli",
-      name: "10. Miami",
+      name: "11. Miami",
       naechte: 4,
       info: "Mietwagen (ca. 3,5–4 Std.), Rückgabe am Flughafen am Abreisetag"
     },
-    {datum: "14.–17. Juli", name: "11. Washington, D.C.", naechte: 3, info: "Inlandflug nonstop (ca. 2,5–3 Std.)"},
-    {datum: "17.–21. Juli", name: "12. New York", naechte: 4, info: "Amtrak-Zug (ca. 3–3,5 Std.); Rückflug 21. Juli"}
+    {datum: "14.–17. Juli", name: "12. Washington, D.C.", naechte: 3, info: "Inlandflug nonstop (ca. 2,5–3 Std.)"},
+    {datum: "17.–21. Juli", name: "13. New York", naechte: 4, info: "Amtrak-Zug (ca. 3–3,5 Std.); Rückflug 21. Juli"}
   ],
   rueckflug: {
     datum: "21. Juli",
@@ -67,33 +63,33 @@ REISEN.usa = {
   planHinweise: [
     [
       "Gesamt",
-      "32 Nächte, 12 Stationen und eine Zwischenübernachtung (Fort Stockton). Eine Einwegmiete Las Vegas–Miami (ca. 25 Tage) mit ca. 4’900 km und ca. 50–53 Std. reiner Fahrzeit an 10 Fahrtagen, realistisch mit Pausen, Tanken, Stau und Fahrten vor Ort ca. 57–63 Std. im Auto. Dazu ein Inlandflug Miami–Washington (ca. 2,5–3 Std.) und der Zug nach New York (ca. 3–3,5 Std.). Die längsten Fahrtage: San Antonio–New Orleans (ca. 8–8,5 Std., realistisch ca. 9,5–10 Std.), Destin–Orlando (ca. 6–7 Std.), Monument Valley–Albuquerque (ca. 5,5–6,5 Std.), White Sands–Fort Stockton über Roswell (ca. 5,5–6 Std.) und Fort Stockton–San Antonio (ca. 5–5,5 Std.)."
+      "32 Nächte, 13 Stationen und eine Zwischenübernachtung (Fort Stockton). Eine Einwegmiete Los Angeles–Miami (ca. 25 Tage) mit ca. 5’350 km und ca. 55–58 Std. reiner Fahrzeit an 11 Fahrtagen, realistisch mit Pausen, Tanken, Stau und Fahrten vor Ort ca. 63–69 Std. im Auto. Dazu ein Inlandflug Miami–Washington (ca. 2,5–3 Std.) und der Zug nach New York (ca. 3–3,5 Std.). Die längsten Fahrtage: San Antonio–New Orleans (ca. 8–8,5 Std., realistisch ca. 9,5–10 Std.), Destin–Orlando (ca. 6–7 Std.), Monument Valley–Albuquerque (ca. 5,5–6,5 Std.), White Sands–Fort Stockton über Roswell (ca. 5,5–6 Std.), Fort Stockton–San Antonio (ca. 5–5,5 Std.) und Los Angeles–Las Vegas (ca. 4,5–5 Std., mit Stau ca. 5,5–6,5 Std.)."
     ],
     [
       "Flug ab und nach Zürich",
-      "Hinflug: Zürich–Las Vegas mit Edelweiss als Direktflug ca. 11,5 Std. (Sommer 2026: Mo, Mi und Sa, Abflug ca. 13.55 Uhr, Ankunft ca. 16.25 Uhr Ortszeit, Zeitverschiebung −9 Std.; sonst mit Umstieg ca. 14–17 Std.). Inlandflug Miami–Washington am Mi, 14.07.2027 nonstop ca. 2,5–3 Std. (American, Delta, viele Flüge pro Tag). Rückflug: New York (JFK)–Zürich mit SWISS als Direktflug täglich, ca. 7,75–8 Std., am Mi, 21.07.2027 (Sommer 2026: Abflug ca. 16.15 Uhr, Ankunft ca. 6.10 Uhr). Flugpläne 2027 bei der Buchung prüfen."
+      "Hinflug: Zürich–Los Angeles mit SWISS als Direktflug ca. 12,25 Std. (Sommer 2026: täglich ausser Do, Abflug ca. 13.05 Uhr, Ankunft ca. 16.25 Uhr Ortszeit, Zeitverschiebung −9 Std.). Für Hin- und Rückflug mit SWISS liegt ein Angebot von ca. 4’000 CHF für alle vier vor. Inlandflug Miami–Washington am Mi, 14.07.2027 nonstop ca. 2,5–3 Std. (American, Delta, viele Flüge pro Tag). Rückflug: New York (JFK)–Zürich mit SWISS als Direktflug täglich, ca. 7,75–8 Std., am Mi, 21.07.2027 (Sommer 2026: Abflug ca. 16.15 Uhr, Ankunft ca. 6.10 Uhr). Flugpläne 2027 bei der Buchung prüfen."
     ],
     [
       "Hitze und Hurrikane",
-      "Im Südwesten Ende Juni 38–45 °C. Texas, die Golfküste und Florida sind im Juli ca. 32–33 °C heiss und sehr schwül, mit fast täglichen Gewittern am Nachmittag. Die Hurrikansaison dauert von Juni bis November, die meisten Stürme kommen aber von Mitte August bis Mitte Oktober (Höhepunkt um den 10. September); im Juli ist das Risiko klein, aber nicht null: Reiseversicherung und flexible Buchungen."
+      "In Los Angeles am Meer mild (ca. 22–26 °C), im Südwesten Ende Juni 38–45 °C. Texas, die Golfküste und Florida sind im Juli ca. 32–33 °C heiss und sehr schwül, mit fast täglichen Gewittern am Nachmittag. Die Hurrikansaison dauert von Juni bis November, die meisten Stürme kommen aber von Mitte August bis Mitte Oktober (Höhepunkt um den 10. September); im Juli ist das Risiko klein, aber nicht null: Reiseversicherung und flexible Buchungen."
     ],
     [
       "Vorab buchen",
-      "Einwegmiete Las Vegas–Miami (Gebühr vergleichen), Unterkunft in Monument Valley (oft Monate im Voraus), Meow Wolf, Sumpftour in New Orleans, Unterkunft in Destin, Universal und Kennedy Space Center, Schnorcheltour in Key Largo, Inlandflug Miami–Washington (Gepäck einrechnen), Air and Space Museum, Amtrak Washington–New York, Aussichtsplattform und Broadway in New York."
+      "Einwegmiete Los Angeles–Miami (Gebühr vergleichen), Space Shuttle Endeavour (Zeitfenster), Unterkunft in Monument Valley (oft Monate im Voraus), Meow Wolf, Sumpftour in New Orleans, Unterkunft in Destin, Universal und Kennedy Space Center, Schnorcheltour in Key Largo, Inlandflug Miami–Washington (Gepäck einrechnen), Air and Space Museum, Amtrak Washington–New York, Aussichtsplattform und Broadway in New York."
     ],
     [
       "Optional",
-      "Bryce Canyon (ab Zion, ca. 2 Std.), Page mit Lake Powell und Antelope Canyon (eine Nacht mehr zwischen Zion und Monument Valley), Grand Canyon (ebenfalls mit einer Nacht mehr), Santa Fe mit eigener Nacht, Carlsbad Caverns (auf der Fahrt nach Fort Stockton), Houston mit Space Center Houston (eine Nacht zwischen San Antonio und New Orleans, teilt den längsten Fahrtag), Siesta Key oder Key Largo mit eigenen Nächten, Philadelphia (Halt mit dem Zug)."
+      "Universal Studios Hollywood oder Disneyland (mit einer Nacht mehr in Los Angeles), Bryce Canyon (ab Zion, ca. 2 Std.), Page mit Lake Powell und Antelope Canyon (eine Nacht mehr zwischen Zion und Monument Valley), Grand Canyon (ebenfalls mit einer Nacht mehr), Santa Fe mit eigener Nacht, Carlsbad Caverns (auf der Fahrt nach Fort Stockton), Houston mit Space Center Houston (eine Nacht zwischen San Antonio und New Orleans, teilt den längsten Fahrtag), Siesta Key oder Key Largo mit eigenen Nächten, Philadelphia (Halt mit dem Zug)."
     ]
   ],
   karte: {
-    intro: "Ungefährer Verlauf der Wege: mit dem Mietwagen von Las Vegas nach Miami, dann mit dem Flugzeug nach Washington und mit dem Zug nach New York. Darunter zwei Detailkarten.",
+    intro: "Ungefährer Verlauf der Wege: mit dem Mietwagen von Los Angeles über Las Vegas nach Miami, dann mit dem Flugzeug nach Washington und mit dem Zug nach New York. Darunter zwei Detailkarten.",
     breit: true,
     legende: ["car", "air", "train"],
     karten: [
       {datei: "karten/usa.svg"},
-      {titel: "Südwesten im Detail (Stationen 1 bis 5)", datei: "karten/usa-suedwesten.svg"},
-      {titel: "Von Texas bis New York im Detail (Stationen 6 bis 12)", datei: "karten/usa-osten.svg"}
+      {titel: "Südwesten im Detail (Stationen 1 bis 6)", datei: "karten/usa-suedwesten.svg"},
+      {titel: "Von Texas bis New York im Detail (Stationen 7 bis 13)", datei: "karten/usa-osten.svg"}
     ]
   },
   abwechslungIntro: "Wüste und Nationalparks, Städte des Südens, Strand und Freizeitparks wechseln sich ab, zum Schluss Washington und New York ohne Auto.",
@@ -104,36 +100,69 @@ REISEN.usa = {
     ],
     [
       "Strand",
-      "Vier Nächte an den weissen Stränden bei Destin, dazu Miami Beach und ein Schnorcheltag in Key Largo (Wasser ca. 29–31 °C)."
+      "Santa Monica am Pazifik, drei Nächte an den weissen Stränden bei Destin, dazu Miami Beach und ein Schnorcheltag in Key Largo (Wasser ca. 29–31 °C)."
     ],
     [
       "Action und Freizeitparks",
-      "Las Vegas, Meow Wolf in Santa Fe, UFO-Museum in Roswell, Sumpftour in Louisiana, Universal und Kennedy Space Center in Orlando, Airboat in den Everglades, Broadway."
+      "Santa Monica Pier, Las Vegas, Meow Wolf in Santa Fe, UFO-Museum in Roswell, Sumpftour in Louisiana, Universal und Kennedy Space Center in Orlando, Airboat in den Everglades, Broadway."
     ],
     [
       "Städte und Kultur",
-      "Las Vegas, Albuquerque und Santa Fe, Navajo Nation, San Antonio mit dem Alamo, New Orleans mit Jazz, Miami, Washington mit den Smithsonian-Museen, New York."
+      "Los Angeles, Las Vegas, Albuquerque und Santa Fe, Navajo Nation, San Antonio mit dem Alamo, New Orleans mit Jazz, Miami, Washington mit den Smithsonian-Museen, New York."
     ],
-    ["Ruhetage", "Zion, Albuquerque, Destin, Orlando und Miami haben mehrere Nächte; im Osten kein Auto mehr."]
+    [
+      "Ruhetage",
+      "Los Angeles, Zion, Albuquerque, Destin, Orlando und Miami haben mehrere Nächte; im Osten kein Auto mehr."
+    ]
   ],
-  stationenIntro: "Zwölf Stationen von Las Vegas bis New York. Über jeder Station steht, wie ihr dorthin kommt.",
+  stationenIntro: "Dreizehn Stationen von Los Angeles bis New York. Über jeder Station steht, wie ihr dorthin kommt.",
   stationen: [
     {
       nr: 1,
+      name: "Los Angeles",
+      land: "us",
+      region: "Kalifornien",
+      datum: "19.–21. Juni",
+      naechte: "2 Nächte",
+      anreise: "Direktflug Zürich–Los Angeles mit SWISS am Sa, 19.06.2027 (ca. 12,25 Std.; im Sommer 2026 täglich ausser Do, Abflug ca. 13.05 Uhr, Ankunft ca. 16.25 Uhr), Zeitverschiebung −9 Std. Mietwagen am Flughafen abholen (Einwegmiete bis Miami); nach Santa Monica ca. 30–45 Min.",
+      text: "Der Start am Pazifik: Strand und Pier in Santa Monica, die Hügel von Hollywood mit dem berühmten Schriftzug und der Blick über die Stadt vom Griffith Observatory. Zwei Nächte, um den Jetlag zu überwinden, bevor es in die Wüste geht.",
+      teens: "Santa Monica Pier mit Riesenrad, Velo am Strand bis Venice Beach (Skatepark, Muscle Beach), Griffith Observatory mit Blick auf das Hollywood-Zeichen, Space Shuttle Endeavour im California Science Center, Walk of Fame.",
+      fakten: [
+        "<strong>Dauer:</strong> 2 Nächte gegen den Jetlag, am besten in Santa Monica: am Ankunftsabend nur noch an den Strand, am zweiten Tag Santa Monica und Venice Beach, am Abend das Griffith Observatory (Eintritt gratis, Parkplatz kostenpflichtig).",
+        "<strong>Wetter:</strong> Am Meer im Juni mild (ca. 22–26 °C), am Morgen oft Hochnebel («June Gloom»), der sich über Mittag auflöst; im Landesinneren deutlich heisser.",
+        "<strong>Verkehr:</strong> Staus fast den ganzen Tag. Für die Fahrt nach Las Vegas früh losfahren.",
+        "<strong>Hinweis:</strong> Für das Space Shuttle Endeavour im California Science Center vorab ein Zeitfenster reservieren."
+      ],
+      ausserdem: "Getty Center (Kunst und Aussicht), Malibu, La Brea Tar Pits (Fossilien), Universal Studios Hollywood oder Disneyland (beide teuer, Universal ist in Orlando eingeplant).",
+      bilder: [
+        {titel: "Santa Monica Pier", suche: "Santa Monica Pier", stichwort: "santa monica"},
+        {titel: "Griffith Observatory", suche: "Griffith Observatory", stichwort: "griffith"},
+        {titel: "Hollywood-Zeichen", suche: "Hollywood Sign", stichwort: "hollywood"},
+        {titel: "Venice Beach", suche: "Venice Beach California", stichwort: "venice"},
+        {
+          titel: "Space Shuttle Endeavour",
+          suche: "Space Shuttle Endeavour California Science Center",
+          stichwort: "endeavour"
+        },
+        {titel: "Getty Center", suche: "Getty Center Los Angeles", stichwort: "getty"}
+      ]
+    },
+    {
+      nr: 2,
       name: "Las Vegas",
       land: "us",
       region: "Nevada",
-      datum: "19.–21. Juni",
-      naechte: "2 Nächte",
-      anreise: "Direktflug Zürich–Las Vegas am Sa, 19.06.2027 (Edelweiss, ca. 11,5 Std.; im Sommer 2026 Mo, Mi und Sa, Abflug ca. 13.55 Uhr, Ankunft ca. 16.25 Uhr), Zeitverschiebung −9 Std. Mietwagen am Flughafen abholen (Einwegmiete bis Miami).",
-      text: "Der Einstieg in der Wüste: Neonlichter, Hotels wie Freizeitparks und die Wasserspiele des Bellagio. Zwei Nächte, um den Jetlag zu überwinden, bevor es in die Nationalparks geht.",
-      teens: "High Roller (Riesenrad) bei Sonnenuntergang, Wasserspiele des Bellagio, Red Rock Canyon (Felsen und Aussicht) früh am Morgen, Hoover-Staudamm als Halbtagesausflug, Shows und Hotels als Kulisse.",
+      datum: "21.–22. Juni",
+      naechte: "1 Nacht",
+      anreise: "Mietwagen von Los Angeles über die Interstate 15 durch die Mojave-Wüste (ca. 4,5–5 Std., ca. 460 km; realistisch ca. 5,5–6,5 Std., weil die Ausfahrt aus Los Angeles oft staut: früh losfahren). Gleiche Zeitzone.",
+      text: "Ein Abend auf dem Strip: Neonlichter, Hotels wie Freizeitparks und die Wasserspiele des Bellagio, bevor es in die Nationalparks geht.",
+      teens: "High Roller (Riesenrad) bei Sonnenuntergang, Wasserspiele des Bellagio, Hotels als Kulisse, am nächsten Morgen früh Red Rock Canyon (Felsen und Aussicht).",
       fakten: [
-        "<strong>Dauer:</strong> 2 Nächte gegen den Jetlag; am ersten Abend früh schlafen, am zweiten Tag Red Rock Canyon am Morgen und der Strip am Abend.",
+        "<strong>Dauer:</strong> 1 Nacht: am Nachmittag ankommen, am Abend Strip und Bellagio; am nächsten Morgen Red Rock Canyon oder direkt nach Zion (ca. 2,5–3 Std.).",
         "<strong>Hitze:</strong> Im Juli werden oft 40–45 °C erreicht. Aktivitäten morgens und abends, tagsüber klimatisierte Hotels. Viel Wasser trinken.",
         "<strong>Hinweis:</strong> Glücksspiel ist erst ab 21 Jahren erlaubt. Viele Hotels verlangen zusätzlich «Resort Fees» pro Nacht (oft über 40 USD)."
       ],
-      ausserdem: "Fremont Street Experience (Altstadt, Lichtshow), Neon Museum, Valley of Fire State Park (rote Felsen), Madame Tussauds, Sphere (nur bei Veranstaltungen).",
+      ausserdem: "Hoover-Staudamm, Fremont Street Experience (Altstadt, Lichtshow), Neon Museum, Valley of Fire State Park (rote Felsen), Sphere (nur bei Veranstaltungen).",
       bilder: [
         {titel: "Strip", suche: "Las Vegas Strip night|Las Vegas Boulevard", stichwort: "las vegas"},
         {titel: "Bellagio", suche: "Fountains of Bellagio", stichwort: "bellagio"},
@@ -144,11 +173,11 @@ REISEN.usa = {
       ]
     },
     {
-      nr: 2,
+      nr: 3,
       name: "Zion National Park (Springdale)",
       land: "us",
       region: "Utah",
-      datum: "21.–23. Juni",
+      datum: "22.–24. Juni",
       naechte: "2 Nächte",
       anreise: "Mietwagen von Las Vegas über die Interstate 15 und St. George nach Springdale (ca. 2,5–3 Std., ca. 260 km). In Utah springt die Uhr +1 Std.",
       text: "Rote Felsklippen, grüne Schluchten und der Virgin River: Zion ist einer der schönsten Nationalparks der USA. Das Dorf Springdale liegt direkt am Parkeingang.",
@@ -169,11 +198,11 @@ REISEN.usa = {
       ]
     },
     {
-      nr: 3,
+      nr: 4,
       name: "Monument Valley (Navajo Nation)",
       land: "us",
       region: "Utah und Arizona",
-      datum: "23.–24. Juni",
+      datum: "24.–25. Juni",
       naechte: "1 Nacht",
       anreise: "Mietwagen von Springdale über Kanab und Page nach Monument Valley (ca. 4,5–5 Std., ca. 380 km). Unterwegs Halt am Horseshoe Bend bei Page (kurzer Weg ab dem Parkplatz, ca. 1 Std.). Arizona hat keine Sommerzeit, die Navajo Nation schon: Am Ziel gilt wieder dieselbe Zeit wie in Utah.",
       text: "Die roten Sandsteintürme aus unzähligen Westernfilmen liegen im Navajo Tribal Park an der Grenze von Utah und Arizona. Eine Nacht reicht, wenn ihr Sonnenuntergang und Sonnenaufgang erlebt.",
@@ -198,11 +227,11 @@ REISEN.usa = {
       ]
     },
     {
-      nr: 4,
+      nr: 5,
       name: "Albuquerque",
       land: "us",
       region: "New Mexico",
-      datum: "24.–26. Juni",
+      datum: "25.–27. Juni",
       naechte: "2 Nächte",
       anreise: "Mietwagen von Monument Valley über Kayenta, Shiprock und Gallup auf die Interstate 40 nach Albuquerque (ca. 5,5–6,5 Std., ca. 520 km). Einer der längeren Fahrtage: früh starten.",
       text: "Die grösste Stadt New Mexicos am Rio Grande: eine Altstadt mit Lehmziegelbauten, die Route 66 und eine der längsten Pendelseilbahnen der Welt auf den Sandia Peak.",
@@ -230,11 +259,11 @@ REISEN.usa = {
       ]
     },
     {
-      nr: 5,
+      nr: 6,
       name: "White Sands (Alamogordo)",
       land: "us",
       region: "New Mexico",
-      datum: "26.–27. Juni",
+      datum: "27.–28. Juni",
       naechte: "1 Nacht",
       anreise: "Mietwagen von Albuquerque über die Interstate 25, Carrizozo und die US-54 nach Alamogordo (ca. 3,5–4 Std., ca. 360 km).",
       text: "Weisse Gipsdünen in der Wüste von New Mexico: ein einzigartiger Landschaftstyp, durch den man barfuss wandert und auf Plastikschlitten die Dünen hinunterrutscht. White Sands ist ein Nationalpark.",
@@ -259,13 +288,13 @@ REISEN.usa = {
       ]
     },
     {
-      nr: 6,
+      nr: 7,
       name: "San Antonio",
       land: "us",
       region: "Texas",
-      datum: "28.–30. Juni",
+      datum: "29. Juni–1. Juli",
       naechte: "2 Nächte",
-      zwischenstopp: {text: "Zwischenübernachtung in Fort Stockton", datum: "27.–28. Juni"},
+      zwischenstopp: {text: "Zwischenübernachtung in Fort Stockton", datum: "28.–29. Juni"},
       anreise: "Mietwagen von Alamogordo über die US-70 durch Ruidoso nach Roswell (ca. 2 Std., ca. 190 km; Mittagshalt im International UFO Museum), weiter über Artesia, Carlsbad und Pecos auf der US-285 nach Fort Stockton (ca. 3,5–4 Std., ca. 350 km; viel Lastwagenverkehr aus den Ölfeldern, wenig Tankstellen), dort übernachten. In Texas springt die Uhr +1 Std. Am nächsten Tag über die Interstate 10 nach San Antonio (ca. 5–5,5 Std., ca. 520 km).",
       text: "Texanische Geschichte und Flusspromenade: die Missionsstation Alamo, der River Walk mit Booten und Restaurants am Wasser und Tex-Mex-Küche.",
       teens: "Bootsfahrt auf dem River Walk, The Alamo, Missions-Weltkulturerbe per Velo, Freizeitpark Six Flags Fiesta Texas oder Wasserpark.",
@@ -286,11 +315,11 @@ REISEN.usa = {
       ]
     },
     {
-      nr: 7,
+      nr: 8,
       name: "New Orleans",
       land: "us",
       region: "Louisiana",
-      datum: "30. Juni–2. Juli",
+      datum: "1.–3. Juli",
       naechte: "2 Nächte",
       anreise: "Mietwagen von San Antonio über die Interstate 10 an Houston vorbei und durch Louisiana (ca. 8–8,5 Std. reine Fahrzeit, ca. 870 km; realistisch mit Pausen ca. 9,5–10 Std.). Der längste Fahrtag der Reise: früh losfahren, Houston nicht zur Rushhour durchqueren.",
       text: "Jazz, Balkone mit schmiedeeisernen Geländern und kreolische Küche im French Quarter, dazu Sümpfe mit Alligatoren gleich vor der Stadt.",
@@ -311,17 +340,17 @@ REISEN.usa = {
       ]
     },
     {
-      nr: 8,
+      nr: 9,
       name: "Destin (Golfküste)",
       land: "us",
       region: "Florida Panhandle",
-      datum: "2.–6. Juli",
-      naechte: "4 Nächte",
+      datum: "3.–6. Juli",
+      naechte: "3 Nächte",
       anreise: "Mietwagen von New Orleans über die Interstate 10 an die Golfküste (ca. 4–4,5 Std., ca. 400 km).",
-      text: "Weisser Quarzsand und smaragdgrünes Wasser am Golf von Mexiko: vier Strandtage nach Wüste und Städten, bevor es nach Florida hineingeht.",
+      text: "Weisser Quarzsand und smaragdgrünes Wasser am Golf von Mexiko: drei Strandtage nach Wüste und Städten, bevor es nach Florida hineingeht.",
       teens: "Baden und Sandburgen am Henderson Beach, Delfin-Bootstour, Schnorcheln an den Jetties von Destin (ruhiges Wasser), Stand-up-Paddle.",
       fakten: [
-        "<strong>Dauer:</strong> 4 Nächte am Strand, z.B. in Destin oder Santa Rosa Beach: Baden, Schnorcheln an den Steinmolen, Bootstour zu den Delfinen. Am 4. Juli (Nationalfeiertag) Feuerwerk am Strand; Unterkünfte früh buchen.",
+        "<strong>Dauer:</strong> 3 Nächte am Strand, z.B. in Destin oder Santa Rosa Beach: Baden, Schnorcheln an den Steinmolen, Bootstour zu den Delfinen. Am 4. Juli (Nationalfeiertag) Feuerwerk am Strand; Unterkünfte früh buchen.",
         "<strong>Baden:</strong> Auf die Strandflaggen achten: rote Flagge heisst gefährliche Strömung (Rip Currents), dann nicht ins Wasser.",
         "<strong>Wetter:</strong> Gewitter am Nachmittag sind häufig; Hurrikansaison."
       ],
@@ -336,7 +365,7 @@ REISEN.usa = {
       ]
     },
     {
-      nr: 9,
+      nr: 10,
       name: "Orlando",
       land: "us",
       region: "Florida",
@@ -361,7 +390,7 @@ REISEN.usa = {
       ]
     },
     {
-      nr: 10,
+      nr: 11,
       name: "Miami",
       land: "us",
       region: "Florida",
@@ -388,7 +417,7 @@ REISEN.usa = {
       ]
     },
     {
-      nr: 11,
+      nr: 12,
       name: "Washington, D.C.",
       land: "us",
       region: "Washington, D.C.",
@@ -413,7 +442,7 @@ REISEN.usa = {
       ]
     },
     {
-      nr: 12,
+      nr: 13,
       name: "New York",
       land: "us",
       region: "New York",
@@ -447,17 +476,17 @@ REISEN.usa = {
   budget: {
     posten: [
       [
-        "Flüge Zürich–Las Vegas und New York–Zürich",
-        "4’000–6’000",
-        "5’000",
-        "ca. 1’000–1’500 pro Person (Juli ist Hochsaison; beide Teenager zahlen Vollpreis)"
+        "Flüge Zürich–Los Angeles und New York–Zürich (SWISS)",
+        "4’000–4’500",
+        "4’000",
+        "Angebot für alle vier ca. 4’000 CHF (ca. 1’000 pro Person); bis zur Buchung nicht fest"
       ],
       ["Inlandflug Miami–Washington", "400–900", "600", "4 Personen inklusive aufgegebenem Gepäck"],
       [
         "Mietwagen (Einwegmiete, Benzin, Parken, Maut)",
-        "3’500–6’000",
-        "4’600",
-        "Las Vegas–Miami (ca. 25 Tage, ca. 3’050 Meilen); die Rückgabegebühr für eine Einwegmiete quer durchs Land kann bis gegen 1’500 USD betragen"
+        "3’600–6’250",
+        "4’750",
+        "Los Angeles–Miami (ca. 25 Tage, ca. 5’350 km); die Rückgabegebühr für eine Einwegmiete quer durchs Land kann bis gegen 1’500 USD betragen"
       ],
       [
         "Zug und lokale Verkehrsmittel",
@@ -467,9 +496,9 @@ REISEN.usa = {
       ],
       [
         "Unterkunft (Familienzimmer oder 2 Zimmer, 3 Sterne)",
-        "7’450–12’000",
-        "9’300",
-        "ca. 130–600 CHF pro Nacht; Monument Valley, Destin, Miami, Washington und New York am teuersten"
+        "7’550–12’250",
+        "9’450",
+        "ca. 130–600 CHF pro Nacht; Los Angeles, Monument Valley, Destin, Miami, Washington und New York am teuersten"
       ],
       ["Verpflegung (Restaurants, Imbiss, Getränke)", "4’500–8’000", "6’000", "ca. 140–250 CHF pro Tag für 4 Personen"],
       [
@@ -487,19 +516,20 @@ REISEN.usa = {
       ["Reserve (ca. 5 %)", "1’300–2’200", "1’650", "Souvenirs, Wäsche, Unvorhergesehenes"]
     ],
     stationen: [
-      ["1. Las Vegas (2)", "710–1’310"],
-      ["2. Zion National Park (2)", "730–1’180"],
-      ["3. Monument Valley (1)", "540–1’040"],
-      ["4. Albuquerque (2)", "650–1’100"],
-      ["5. White Sands (1)", "300–520"],
+      ["1. Los Angeles (2)", "900–1’600"],
+      ["2. Las Vegas (1)", "400–750"],
+      ["3. Zion National Park (2)", "730–1’180"],
+      ["4. Monument Valley (1)", "540–1’040"],
+      ["5. Albuquerque (2)", "650–1’100"],
+      ["6. White Sands (1)", "300–520"],
       ["Zwischenübernachtung Fort Stockton (1)", "150–250"],
-      ["6. San Antonio (2)", "500–850"],
-      ["7. New Orleans (2)", "600–1’000"],
-      ["8. Destin (4)", "1’200–2’000"],
-      ["9. Orlando (4)", "1’800–3’200"],
-      ["10. Miami (4)", "1’450–2’450"],
-      ["11. Washington, D.C. (3)", "1’280–2’180"],
-      ["12. New York (4)", "2’650–4’420"]
+      ["7. San Antonio (2)", "500–850"],
+      ["8. New Orleans (2)", "600–1’000"],
+      ["9. Destin (3)", "900–1’500"],
+      ["10. Orlando (4)", "1’800–3’200"],
+      ["11. Miami (4)", "1’450–2’450"],
+      ["12. Washington, D.C. (3)", "1’280–2’180"],
+      ["13. New York (4)", "2’650–4’420"]
     ],
     hinweise: [
       "Preise für die Kids: Der Sohn (12) und die Tochter (14) zahlen bei Eintritten teils Kinderpreise (bis 11 bzw. 12 Jahre), oft aber den Vollpreis.",
@@ -507,9 +537,9 @@ REISEN.usa = {
       "Alle Beträge sind Richtwerte in CHF (Schätzungen, nicht verbindlich). Flug-, Hotel- und Mietwagenpreise im Juli schwanken stark; aktuelle Preise vor der Buchung vergleichen."
     ],
     naechte: 32,
-    total: "35’000",
-    spanne: "26’900–45’700",
-    proTag: "ca. 1’090 CHF pro Tag, ca. 8’800 pro Person"
+    total: "34’300",
+    spanne: "27’100–44’700",
+    proTag: "ca. 1’070 CHF pro Tag, ca. 8’600 pro Person"
   },
   tippsIntro: "Einreise, Gesundheit, Sicherheit und Praktisches für die Reise mit 2 Erwachsenen und 2 Kids.",
   tipps: [
@@ -524,7 +554,7 @@ REISEN.usa = {
     ],
     [
       "Mietwagen",
-      "Familienvan oder SUV, die Einwegmiete Las Vegas–Miami früh buchen (Rückgabegebühr oft hoch, Anbieter vergleichen). In Florida viele Mautstrassen: Mautpaket des Vermieters klären. Schweizer Führerschein reicht; ein internationaler Führerschein ist als Zusatz empfehlenswert. Den Wagen am Flughafen Miami abgeben; im Osten Flug, Zug, Metro und U-Bahn."
+      "Familienvan oder SUV, die Einwegmiete Los Angeles–Miami früh buchen (Rückgabegebühr oft hoch, Anbieter vergleichen). In Florida viele Mautstrassen: Mautpaket des Vermieters klären. Schweizer Führerschein reicht; ein internationaler Führerschein ist als Zusatz empfehlenswert. Den Wagen am Flughafen Miami abgeben; im Osten Flug, Zug, Metro und U-Bahn."
     ],
     [
       "Tanken und Zahlen",
@@ -532,11 +562,11 @@ REISEN.usa = {
     ],
     [
       "Hitze und Monsun",
-      "Las Vegas, Zion und White Sands erreichen Ende Juni 38–45 °C, ab Juli beginnt im Südwesten der Monsun mit Gewittern und Sturzfluten in Schluchten (z.B. Narrows in Zion). Texas, die Golfküste und Florida sind heiss und schwül, mit Gewittern am Nachmittag; Juni bis November ist Hurrikansaison, der Höhepunkt kommt erst ab Mitte August."
+      "Las Vegas, Zion und White Sands (anders als Los Angeles am Meer) erreichen Ende Juni 38–45 °C, ab Juli beginnt im Südwesten der Monsun mit Gewittern und Sturzfluten in Schluchten (z.B. Narrows in Zion). Texas, die Golfküste und Florida sind heiss und schwül, mit Gewittern am Nachmittag; Juni bis November ist Hurrikansaison, der Höhepunkt kommt erst ab Mitte August."
     ],
     [
       "Zeitzonen",
-      "Las Vegas Pazifikzeit, Utah Mountain-Zeit, Arizona ohne Sommerzeit, Navajo Nation mit Sommerzeit, New Mexico Mountain-Zeit, Texas, Louisiana und die Golfküste bei Destin Central-Zeit, Orlando, Miami und der Osten Eastern-Zeit. Zur Schweiz sind es −6 bis −9 Stunden."
+      "Los Angeles und Las Vegas Pazifikzeit, Utah Mountain-Zeit, Arizona ohne Sommerzeit, Navajo Nation mit Sommerzeit, New Mexico Mountain-Zeit, Texas, Louisiana und die Golfküste bei Destin Central-Zeit, Orlando, Miami und der Osten Eastern-Zeit. Zur Schweiz sind es −6 bis −9 Stunden."
     ],
     [
       "Versicherung",
