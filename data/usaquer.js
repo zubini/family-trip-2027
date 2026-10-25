@@ -1,14 +1,14 @@
-// Reise: USA Nord von Los Angeles über die Route 66 und Chicago nach New York (Einwegmiete Los Angeles–Washington, Zug nach New York, kein Inlandflug)
+// Reise: USA Quer von Los Angeles über Houston, New Orleans und Chicago nach New York (Einwegmiete Los Angeles–New York, kein Inlandflug)
 // Daten in "datum" ohne Wochentag schreiben (z.B. "19.–22. Juni"), die Wochentage rechnet js/app.js aus.
 // Texte dürfen einfaches HTML enthalten (<b>, <strong>, <i>).
 window.REISEN = window.REISEN || {};
-REISEN.usanord = {
-  titel: "Von Los Angeles über die Route 66 und Chicago nach New York",
-  menu: "USA Nord",
-  untertitel: "Fünf Wochen quer durch die USA ohne Inlandflug: mit dem Mietwagen von Los Angeles über Las Vegas, Kanab und Monument Valley nach Albuquerque, auf der Route 66 über Amarillo, Tulsa und St. Louis nach Chicago, über Cedar Point, die Niagarafälle und die Finger Lakes nach Washington; dann mit dem Zug über Philadelphia nach New York.",
+REISEN.usaquer = {
+  titel: "Von Los Angeles über Houston, New Orleans und Chicago nach New York",
+  menu: "USA Quer",
+  untertitel: "Fünf Wochen quer durch die USA ohne Inlandflug: mit dem Mietwagen von Los Angeles über Las Vegas, Kanab und Monument Valley nach Albuquerque, über Amarillo und Fort Worth nach Houston und New Orleans, den Mississippi hinauf über Memphis und St. Louis nach Chicago, über Cedar Point und die Niagarafälle in die Finger Lakes und nach New York.",
   zeitraum: "Sa, 19.06.2027 bis Do, 22.07.2027, 2 Erwachsene und 2 Kids",
   titelbild: {suche: "Route 66 sign|Route 66", stichwort: "route 66", alt: "Route 66"},
-  planIntro: "Abflug ab Zürich nach Los Angeles am Sa, 19.06.2027, Rückflug ab New York am Mi, 21.07.2027 (Ankunft Do, 22.07.2027). Dazwischen eine Einwegmiete Los Angeles–Washington und der Zug über Philadelphia nach New York, ohne Inlandflug. Ein Klick auf eine Station springt zur Beschreibung.",
+  planIntro: "Abflug ab Zürich nach Los Angeles am Sa, 19.06.2027, Rückflug ab New York am Mi, 21.07.2027 (Ankunft Do, 22.07.2027). Dazwischen eine Einwegmiete Los Angeles–New York, ohne Inlandflug. Ein Klick auf eine Station springt zur Beschreibung.",
   hinflug: {
     datum: "19. Juni",
     name: "Flug Zürich–Los Angeles",
@@ -19,7 +19,7 @@ REISEN.usanord = {
       datum: "19.–21. Juni",
       name: "1. Los Angeles",
       naechte: 2,
-      info: "Flug ab Zürich (ca. 12,25 Std.), Mietwagen am Flughafen abholen (Einwegmiete bis Washington)"
+      info: "Flug ab Zürich (ca. 12,25 Std.), Mietwagen am Flughafen abholen (Einwegmiete bis New York)"
     },
     {datum: "21.–23. Juni", name: "2. Las Vegas", naechte: 2, info: "Mietwagen (ca. 4,5–5 Std.)"},
     {datum: "23.–25. Juni", name: "3. Kanab", naechte: 2, info: "Mietwagen (ca. 3–3,5 Std.), Uhr +1 Std."},
@@ -31,25 +31,26 @@ REISEN.usanord = {
     },
     {datum: "26.–28. Juni", name: "5. Albuquerque", naechte: 2, info: "Mietwagen (ca. 5,5–6,5 Std.)"},
     {datum: "28.–29. Juni", name: "6. Amarillo", naechte: 1, info: "Mietwagen (ca. 4–4,5 Std.), Uhr +1 Std."},
-    {datum: "29.–30. Juni", name: "7. Tulsa", naechte: 1, info: "Mietwagen (ca. 5,25–5,75 Std.)"},
-    {datum: "30. Juni–2. Juli", name: "8. St. Louis", naechte: 2, info: "Mietwagen (ca. 6–6,5 Std.)"},
-    {datum: "2.–6. Juli", name: "9. Chicago", naechte: 4, info: "Mietwagen (ca. 4,5–5 Std.)"},
+    {datum: "29.–30. Juni", name: "7. Fort Worth", naechte: 1, info: "Mietwagen (ca. 5–5,5 Std.)"},
+    {datum: "30. Juni–2. Juli", name: "8. Houston", naechte: 2, info: "Mietwagen (ca. 3,75–4,25 Std.)"},
+    {datum: "2.–4. Juli", name: "9. New Orleans", naechte: 2, info: "Mietwagen (ca. 5–5,5 Std.)"},
+    {datum: "4.–5. Juli", name: "10. Memphis", naechte: 1, info: "Mietwagen (ca. 6–6,5 Std.)"},
+    {datum: "5.–7. Juli", name: "11. St. Louis", naechte: 2, info: "Mietwagen (ca. 4,25–4,5 Std.)"},
+    {datum: "7.–10. Juli", name: "12. Chicago", naechte: 3, info: "Mietwagen (ca. 4,5–5 Std.)"},
     {
-      datum: "6.–8. Juli",
-      name: "10. Sandusky (Cedar Point)",
+      datum: "10.–12. Juli",
+      name: "13. Sandusky (Cedar Point)",
       naechte: 2,
       info: "Mietwagen (ca. 4,5–4,75 Std.), Uhr +1 Std."
     },
-    {datum: "8.–10. Juli", name: "11. Niagarafälle", naechte: 2, info: "Mietwagen (ca. 4,5–4,75 Std.)"},
-    {datum: "10.–13. Juli", name: "12. Finger Lakes", naechte: 3, info: "Mietwagen (ca. 3 Std.)"},
+    {datum: "12.–14. Juli", name: "14. Niagarafälle", naechte: 2, info: "Mietwagen (ca. 4,5–4,75 Std.)"},
+    {datum: "14.–17. Juli", name: "15. Finger Lakes", naechte: 3, info: "Mietwagen (ca. 3 Std.)"},
     {
-      datum: "13.–16. Juli",
-      name: "13. Washington, D.C.",
-      naechte: 3,
-      info: "Mietwagen (ca. 5,5–6 Std.), Rückgabe in Washington"
-    },
-    {datum: "16.–17. Juli", name: "14. Philadelphia", naechte: 1, info: "Amtrak-Zug (ca. 1,5–2 Std.)"},
-    {datum: "17.–21. Juli", name: "15. New York", naechte: 4, info: "Amtrak-Zug (ca. 1–1,5 Std.); Rückflug 21. Juli"}
+      datum: "17.–21. Juli",
+      name: "16. New York",
+      naechte: 4,
+      info: "Mietwagen (ca. 4–4,5 Std.), Rückgabe am Flughafen; Rückflug 21. Juli"
+    }
   ],
   rueckflug: {
     datum: "21. Juli",
@@ -59,7 +60,7 @@ REISEN.usanord = {
   planHinweise: [
     [
       "Gesamt",
-      "32 Nächte, 15 Stationen. Eine Einwegmiete Los Angeles–Washington (ca. 24 Tage) mit ca. 5’450 km und ca. 54–60 Std. reiner Fahrzeit an 12 Fahrtagen, realistisch mit Pausen, Tanken, Stau und Fahrten vor Ort ca. 62–70 Std. im Auto. Dazu der Zug Washington–Philadelphia–New York (zusammen ca. 2,5–3,5 Std.). Die längsten Fahrtage: Monument Valley–Albuquerque (ca. 5,5–6,5 Std.), Tulsa–St. Louis (ca. 6–6,5 Std.), Finger Lakes–Washington (ca. 5,5–6 Std.), Amarillo–Tulsa (ca. 5,25–5,75 Std.) und Los Angeles–Las Vegas (ca. 4,5–5 Std., mit Stau ca. 5,5–6,5 Std.). Von Albuquerque bis St. Louis drei Fahrtage hintereinander."
+      "32 Nächte, 16 Stationen. Eine Einwegmiete Los Angeles–New York (ca. 28 Tage) mit ca. 6’700 km und ca. 65–72 Std. reiner Fahrzeit an 15 Fahrtagen, realistisch mit Pausen, Tanken, Stau und Fahrten vor Ort ca. 75–84 Std. im Auto. Die längsten Fahrtage: New Orleans–Memphis (ca. 6–6,5 Std.), Monument Valley–Albuquerque (ca. 5,5–6,5 Std.), Amarillo–Fort Worth und Houston–New Orleans (je ca. 5–5,5 Std.). Von Albuquerque bis Houston drei Fahrtage hintereinander."
     ],
     [
       "Flug ab und nach Zürich",
@@ -67,51 +68,51 @@ REISEN.usanord = {
     ],
     [
       "Wetter",
-      "In Los Angeles am Meer mild (ca. 22–26 °C), in Las Vegas und im Südwesten Ende Juni 38–45 °C, in Texas, Oklahoma und Missouri heiss und oft schwül (ca. 33–36 °C) mit Gewittern; an den Grossen Seen und in den Finger Lakes angenehmer (ca. 26–29 °C), Washington und New York heiss und schwül."
+      "In Los Angeles am Meer mild (ca. 22–26 °C), in Las Vegas und im Südwesten Ende Juni 38–45 °C, ab Juli Monsungewitter; in Texas, Louisiana und Tennessee heiss und sehr schwül (ca. 33–36 °C) mit Gewittern, Hurrikansaison an der Golfküste (im Juli selten); an den Grossen Seen angenehmer (ca. 26–29 °C), New York heiss und schwül."
     ],
     [
       "Vorab buchen",
-      "Einwegmiete Los Angeles–Washington (Gebühr vergleichen), Space Shuttle Endeavour (Zeitfenster), Unterkunft in Monument Valley (oft Monate im Voraus), Meow Wolf, Gateway Arch (Zeitfenster), Skydeck und Bootstour in Chicago, Cedar Point, Air and Space Museum, Amtrak Washington–Philadelphia–New York, Aussichtsplattform und Broadway in New York."
+      "Einwegmiete Los Angeles–New York (Gebühr vergleichen), Space Shuttle Endeavour (Zeitfenster), Unterkunft in Monument Valley (oft Monate im Voraus), Meow Wolf, Space Center Houston, Sumpftour in New Orleans, Gateway Arch (Zeitfenster), Skydeck und Bootstour in Chicago, Cedar Point, Aussichtsplattform und Broadway in New York."
     ],
     [
       "Optional",
-      "Grand Canyon (eine Nacht mehr zwischen Kanab und Albuquerque), Santa Fe mit eigener Nacht, Oklahoma City National Memorial (auf dem Weg nach Tulsa), die kanadische Seite der Niagarafälle (zu Fuss über die Rainbow Bridge), Corning Museum of Glass, Gettysburg (auf dem Weg nach Washington)."
+      "Grand Canyon (eine Nacht mehr zwischen Kanab und Albuquerque), Santa Fe mit eigener Nacht, Dallas (Sixth Floor Museum), Galveston mit eigener Nacht, Graceland in Memphis, die kanadische Seite der Niagarafälle (zu Fuss über die Rainbow Bridge), Washington (ab New York mit dem Zug ca. 3–3,5 Std., auch als Tagesausflug möglich)."
     ]
   ],
   karte: {
-    intro: "Ungefährer Verlauf der Wege: mit dem Mietwagen von Los Angeles durch den Südwesten und auf der Route 66 nach Chicago, an den Grossen Seen entlang nach Washington, dann mit dem Zug über Philadelphia nach New York. Darunter zwei Detailkarten.",
+    intro: "Ungefährer Verlauf der Wege: mit dem Mietwagen von Los Angeles durch den Südwesten nach Texas und New Orleans, den Mississippi hinauf nach Chicago und an den Grossen Seen entlang nach New York. Darunter zwei Detailkarten.",
     breit: true,
-    legende: ["car", "train"],
+    legende: ["car"],
     karten: [
-      {datei: "karten/usa-nord.svg"},
-      {titel: "Südwesten und Route 66 im Detail (Stationen 1 bis 8)", datei: "karten/usa-nord-west.svg"},
-      {titel: "Von St. Louis bis New York im Detail (Stationen 8 bis 15)", datei: "karten/usa-nord-ost.svg"}
+      {datei: "karten/usa-quer.svg"},
+      {titel: "Südwesten und Texas im Detail (Stationen 1 bis 9)", datei: "karten/usa-quer-west.svg"},
+      {titel: "Von New Orleans bis New York im Detail (Stationen 9 bis 16)", datei: "karten/usa-quer-ost.svg"}
     ]
   },
-  abwechslungIntro: "Pazifik, Wüste und Felsen, die Route 66 durch die Prärie, Grossstadt am See, Achterbahnen, Wasserfälle und zum Schluss die Ostküste ohne Auto.",
+  abwechslungIntro: "Pazifik, Wüste und Felsen, Prärie und Cowboys, Raumfahrt, Jazz und Blues am Mississippi, Grossstadt am See, Achterbahnen, Wasserfälle, Seen und zum Schluss New York ohne Auto.",
   abwechslung: [
     [
       "Natur",
-      "Rosa Sanddünen bei Kanab, Horseshoe Bend, Monument Valley, Sandia Peak, Palo Duro Canyon, Niagarafälle und die Schluchten der Finger Lakes."
+      "Rosa Sanddünen bei Kanab, Horseshoe Bend, Monument Valley, Sandia Peak, Palo Duro Canyon, Sümpfe in Louisiana, Niagarafälle und die Schlucht von Watkins Glen."
     ],
     [
       "Strand",
-      "Santa Monica am Pazifik, Stadtstrände am Michigansee, Strand am Eriesee bei Cedar Point und Badestellen in den Finger Lakes; kein warmes Meer."
+      "Santa Monica am Pazifik, Galveston (Option ab Houston), Stadtstrände am Michigansee und der Strand am Eriesee bei Cedar Point; kein warmes, klares Meer."
     ],
     [
       "Action und Freizeitparks",
-      "Santa Monica Pier, Las Vegas, Sandboarding bei Kanab, Meow Wolf, Cadillac Ranch, City Museum in St. Louis, Skydeck in Chicago, Achterbahnen in Cedar Point, Maid of the Mist, Broadway."
+      "Santa Monica Pier, Las Vegas, Sandboarding bei Kanab, Meow Wolf, Cadillac Ranch, Viehtrieb in Fort Worth, Space Center Houston, Sumpftour, City Museum, Skydeck, Achterbahnen in Cedar Point, Maid of the Mist, Broadway."
     ],
     [
       "Städte und Kultur",
-      "Los Angeles, Las Vegas, Albuquerque und Santa Fe, St. Louis, Chicago, Washington, Philadelphia, New York; dazu die Route 66 mit Leuchtreklamen und Kuriositäten."
+      "Los Angeles, Las Vegas, Albuquerque und Santa Fe, Fort Worth, Houston, New Orleans mit Jazz, Memphis mit Blues und Elvis, St. Louis, Chicago, New York."
     ],
     [
       "Ruhetage",
-      "Los Angeles, Las Vegas, Kanab, Albuquerque, St. Louis, Chicago (4 Nächte) und die Finger Lakes haben mehrere Nächte; ab Washington kein Auto mehr."
+      "Los Angeles, Las Vegas, Kanab, Albuquerque, Houston, New Orleans, St. Louis, Chicago und die Finger Lakes haben mehrere Nächte; dazwischen einige Ein-Nacht-Halte. In New York kein Auto mehr."
     ]
   ],
-  stationenIntro: "Fünfzehn Stationen von Los Angeles bis New York. Über jeder Station steht, wie ihr dorthin kommt.",
+  stationenIntro: "Sechzehn Stationen von Los Angeles bis New York. Über jeder Station steht, wie ihr dorthin kommt.",
   stationen: [
     {
       nr: 1,
@@ -120,7 +121,7 @@ REISEN.usanord = {
       region: "Kalifornien",
       datum: "19.–21. Juni",
       naechte: "2 Nächte",
-      anreise: "Direktflug Zürich–Los Angeles mit SWISS am Sa, 19.06.2027 (ca. 12,25 Std.; im Sommer 2026 täglich ausser Do, Abflug ca. 13.05 Uhr, Ankunft ca. 16.25 Uhr), Zeitverschiebung −9 Std. Mietwagen am Flughafen abholen (Einwegmiete bis Washington); nach Santa Monica ca. 30–45 Min.",
+      anreise: "Direktflug Zürich–Los Angeles mit SWISS am Sa, 19.06.2027 (ca. 12,25 Std.; im Sommer 2026 täglich ausser Do, Abflug ca. 13.05 Uhr, Ankunft ca. 16.25 Uhr), Zeitverschiebung −9 Std. Mietwagen am Flughafen abholen (Einwegmiete bis New York); nach Santa Monica ca. 30–45 Min.",
       text: "Der Start am Pazifik: Strand und Pier in Santa Monica, die Hügel von Hollywood mit dem berühmten Schriftzug und der Blick über die Stadt vom Griffith Observatory. Zwei Nächte, um den Jetlag zu überwinden, bevor es in die Wüste geht.",
       teens: "Santa Monica Pier mit Riesenrad, Velo am Strand bis Venice Beach (Skatepark, Muscle Beach), Griffith Observatory mit Blick auf das Hollywood-Zeichen, Space Shuttle Endeavour im California Science Center, Walk of Fame.",
       fakten: [
@@ -286,40 +287,130 @@ REISEN.usanord = {
     },
     {
       nr: 7,
-      name: "Tulsa",
+      name: "Fort Worth",
       land: "us",
-      region: "Oklahoma",
+      region: "Texas",
       datum: "29.–30. Juni",
       naechte: "1 Nacht",
-      anreise: "Mietwagen von Amarillo über die Interstate 40 und Oklahoma City nach Tulsa (ca. 5,25–5,75 Std., ca. 585 km; Turner Turnpike mit Maut).",
-      text: "Route-66-Stadt mit Art-déco-Häusern und einem der besten Parks der USA am Arkansas River.",
-      teens: "Gathering Place (riesiger Park mit Abenteuerspielplatz, Kletterturm, Wasserspielen und Booten, gratis), Neonschilder der Route 66, Blue Whale of Catoosa (Route-66-Kuriosität).",
+      anreise: "Mietwagen von Amarillo über die US-287 durch die Prärie nach Fort Worth (ca. 5–5,5 Std., ca. 545 km).",
+      text: "Cowboy-Stadt im Grossraum Dallas: In den Stockyards treiben Cowboys zweimal täglich Longhorn-Rinder durch die Strasse.",
+      teens: "Viehtrieb der Longhorns in den Stockyards (gratis), Rodeo am Freitag- oder Samstagabend, Labyrinth Cowtown Cattlepen Maze, Westernstiefel anprobieren.",
       fakten: [
-        "<strong>Dauer:</strong> 1 Nacht: am Abend Gathering Place oder das Route-66-Viertel; am nächsten Morgen Halt am Blue Whale of Catoosa auf dem Weg nach St. Louis.",
-        "<strong>Gratis:</strong> Gathering Place ohne Eintritt; Blue Whale of Catoosa ohne Eintritt (Öffnung vorab prüfen, zeitweise Renovation)."
+        "<strong>Dauer:</strong> 1 Nacht: am späten Nachmittag Viehtrieb in den Stockyards (täglich ca. 11.30 und 16 Uhr, Zeiten vorab prüfen), am Abend Stockyards und Rodeo, falls am Wochenende.",
+        "<strong>Hitze:</strong> Oft über 35 °C; viel Wasser, Hut."
       ],
-      ausserdem: "Philbrook Museum, Woody Guthrie Center, Art-déco-Viertel, Oklahoma City National Memorial (auf dem Weg).",
+      ausserdem: "Sixth Floor Museum in Dallas (Attentat auf Kennedy), AT&T Stadium (Dallas Cowboys), Fort Worth Zoo.",
       bilder: [
-        {titel: "Gathering Place", suche: "Gathering Place Tulsa", stichwort: "gathering place"},
-        {titel: "Blue Whale", suche: "Blue Whale of Catoosa", stichwort: "blue whale"},
-        {titel: "Route 66", suche: "Route 66 Tulsa neon|Route 66 Rising", stichwort: "route 66"},
-        {titel: "Art déco", suche: "Tulsa art deco Boston Avenue", stichwort: "tulsa|art deco"},
-        {titel: "Skyline", suche: "Tulsa skyline", stichwort: "tulsa"},
-        {titel: "Arkansas River", suche: "Arkansas River Tulsa", stichwort: "arkansas"}
+        {
+          titel: "Longhorns",
+          suche: "Fort Worth Stockyards cattle drive|Fort Worth Herd",
+          stichwort: "stockyards|longhorn|cattle"
+        },
+        {titel: "Stockyards", suche: "Fort Worth Stockyards", stichwort: "stockyards"},
+        {titel: "Rodeo", suche: "Stockyards Championship Rodeo|Cowtown Coliseum", stichwort: "rodeo|cowtown"},
+        {titel: "Exchange Avenue", suche: "Exchange Avenue Fort Worth", stichwort: "exchange"},
+        {titel: "Skyline", suche: "Fort Worth skyline", stichwort: "fort worth"},
+        {titel: "Dallas", suche: "Dallas skyline", stichwort: "dallas"}
       ]
     },
     {
       nr: 8,
+      name: "Houston",
+      land: "us",
+      region: "Texas",
+      datum: "30. Juni–2. Juli",
+      naechte: "2 Nächte",
+      anreise: "Mietwagen von Fort Worth über die Interstate 45 nach Houston (ca. 3,75–4,25 Std., ca. 420 km).",
+      text: "Die Raumfahrtstadt: Im Space Center Houston steht man in der Halle der Saturn-V-Rakete und fährt mit der Tram zum Kontrollraum der Mondlandungen.",
+      teens: "Space Center Houston mit Tram-Tour zum Mission Control und zur Saturn-V-Halle, Museum District, Abend am Buffalo Bayou, Strand in Galveston.",
+      fakten: [
+        "<strong>Dauer:</strong> 2 Nächte: ein Tag Space Center Houston (ca. 40 Min. südöstlich der Stadt), ein halber Tag Museum District oder Strand in Galveston (ca. 1 Std.).",
+        "<strong>Space Center:</strong> 2026 ca. 30 USD ab 12 Jahren, ca. 25 USD für Kinder 4–11; online günstiger und mit Zeitfenster.",
+        "<strong>Hitze:</strong> Heiss und feucht; das Space Center ist zum grossen Teil klimatisiert."
+      ],
+      ausserdem: "Museum District (Naturkundemuseum mit Dinosauriern), Buffalo Bayou Park, Galveston mit Pleasure Pier (ca. 1 Std.).",
+      bilder: [
+        {titel: "Space Center Houston", suche: "Space Center Houston", stichwort: "space center houston"},
+        {titel: "Saturn V", suche: "Saturn V Johnson Space Center", stichwort: "saturn"},
+        {
+          titel: "Mission Control",
+          suche: "Christopher C. Kraft Mission Control Center|Mission Control Houston",
+          stichwort: "mission control"
+        },
+        {titel: "Skyline", suche: "Houston skyline", stichwort: "houston"},
+        {titel: "Buffalo Bayou", suche: "Buffalo Bayou Park Houston", stichwort: "buffalo bayou"},
+        {titel: "Galveston", suche: "Galveston Pleasure Pier", stichwort: "galveston"}
+      ]
+    },
+    {
+      nr: 9,
+      name: "New Orleans",
+      land: "us",
+      region: "Louisiana",
+      datum: "2.–4. Juli",
+      naechte: "2 Nächte",
+      anreise: "Mietwagen von Houston über die Interstate 10 durch Louisiana (ca. 5–5,5 Std., ca. 560 km).",
+      text: "Jazz, Balkone mit schmiedeeisernen Geländern und kreolische Küche im French Quarter, dazu Sümpfe mit Alligatoren gleich vor der Stadt.",
+      teens: "Sumpftour mit Alligatoren, Raddampfer auf dem Mississippi, Beignets im Café du Monde, Strassenmusik im French Quarter, Insektenmuseum Audubon Insectarium.",
+      fakten: [
+        "<strong>Dauer:</strong> 2 Nächte.",
+        "<strong>Hitze:</strong> Sehr feucht und heiss; Programm am Morgen und Abend, mittags klimatisierte Museen.",
+        "<strong>Sicherheit:</strong> Im French Quarter abends auf belebten Strassen bleiben, Wertsachen nicht offen tragen."
+      ],
+      ausserdem: "Garden District, National WWII Museum, Jackson Square, Frenchmen Street (Jazz).",
+      bilder: [
+        {titel: "French Quarter", suche: "French Quarter New Orleans balconies", stichwort: "french quarter"},
+        {titel: "Sumpftour", suche: "Louisiana swamp tour alligator|Louisiana bayou", stichwort: "swamp|bayou"},
+        {titel: "Raddampfer", suche: "Steamboat Natchez New Orleans", stichwort: "natchez"},
+        {titel: "Jackson Square", suche: "Jackson Square New Orleans", stichwort: "jackson square"},
+        {titel: "Garden District", suche: "Garden District New Orleans", stichwort: "garden district"},
+        {titel: "Café du Monde", suche: "Cafe du Monde New Orleans", stichwort: "du monde"}
+      ]
+    },
+    {
+      nr: 10,
+      name: "Memphis",
+      land: "us",
+      region: "Tennessee",
+      datum: "4.–5. Juli",
+      naechte: "1 Nacht",
+      anreise: "Mietwagen von New Orleans über die Interstate 55 durch Mississippi nach Memphis (ca. 6–6,5 Std., ca. 635 km). Am 4. Juli: früh losfahren.",
+      text: "Stadt des Blues und des Rock ’n’ Roll am Mississippi: Beale Street mit Livemusik, Graceland von Elvis und das Museum der Bürgerrechtsbewegung im Motel, wo Martin Luther King erschossen wurde.",
+      teens: "Livemusik auf der Beale Street, Graceland (Haus von Elvis), National Civil Rights Museum, Enten-Parade im Peabody Hotel (täglich 11 und 17 Uhr).",
+      fakten: [
+        "<strong>Dauer:</strong> 1 Nacht: am Abend Beale Street (am 4. Juli Feuerwerk am Fluss, Termine prüfen), am nächsten Morgen Civil Rights Museum oder Graceland.",
+        "<strong>Graceland:</strong> Touren 2026 ca. 53–85 USD Erwachsene und 30–49 USD Kinder je nach Paket; das Civil Rights Museum ist deutlich günstiger."
+      ],
+      ausserdem: "Sun Studio (wo Elvis die ersten Platten aufnahm), Stax Museum of American Soul Music, Big River Crossing (Fussgängerbrücke über den Mississippi).",
+      bilder: [
+        {titel: "Beale Street", suche: "Beale Street Memphis", stichwort: "beale"},
+        {titel: "Graceland", suche: "Graceland Memphis", stichwort: "graceland"},
+        {
+          titel: "Civil Rights Museum",
+          suche: "National Civil Rights Museum Lorraine Motel",
+          stichwort: "lorraine|civil rights"
+        },
+        {
+          titel: "Mississippi",
+          suche: "Memphis Mississippi River bridge|Hernando de Soto Bridge",
+          stichwort: "mississippi|de soto"
+        },
+        {titel: "Peabody-Enten", suche: "Peabody ducks Memphis", stichwort: "peabody|duck"},
+        {titel: "Sun Studio", suche: "Sun Studio Memphis", stichwort: "sun studio"}
+      ]
+    },
+    {
+      nr: 11,
       name: "St. Louis",
       land: "us",
       region: "Missouri",
-      datum: "30. Juni–2. Juli",
+      datum: "5.–7. Juli",
       naechte: "2 Nächte",
-      anreise: "Mietwagen von Tulsa über die Interstate 44, die alte Route 66, nach St. Louis (ca. 6–6,5 Std., ca. 640 km; Will Rogers Turnpike mit Maut). Unterwegs Halt am Blue Whale of Catoosa.",
+      anreise: "Mietwagen von Memphis über die Interstate 55 nach St. Louis (ca. 4,25–4,5 Std., ca. 455 km).",
       text: "Tor zum Westen am Mississippi: der 192 m hohe Gateway Arch und das City Museum, ein riesiges Kletter- und Abenteuerhaus aus Fundstücken.",
       teens: "Mit der kleinen Kabinenbahn auf den Gateway Arch, City Museum (Rutschen, Tunnel, Kletterkäfige auf dem Dach), Raddampfer auf dem Mississippi, Baseball im Busch Stadium.",
       fakten: [
-        "<strong>Dauer:</strong> 2 Nächte zum Ausruhen nach drei Fahrtagen: ein halber Tag Gateway Arch, ein halber Tag City Museum, dazu Zoo oder Pool.",
+        "<strong>Dauer:</strong> 2 Nächte zum Ausruhen nach zwei langen Fahrtagen: ein halber Tag Gateway Arch, ein halber Tag City Museum, dazu Zoo oder Pool.",
         "<strong>Gateway Arch:</strong> Fahrt auf die Spitze 2026 ca. 15–19 USD ab 16 Jahren, ca. 11–15 USD für Kinder 3–15, mit Zeitfenster; vorab buchen.",
         "<strong>City Museum:</strong> Eintritt ca. 20–22 USD pro Person ab 3 Jahren, Dach mit eigenem Eintritt; Kleidung zum Klettern und Knieschoner empfohlen.",
         "<strong>Gratis:</strong> Saint Louis Zoo und Science Center ohne Eintritt (Parkplatz kostet)."
@@ -335,17 +426,17 @@ REISEN.usanord = {
       ]
     },
     {
-      nr: 9,
+      nr: 12,
       name: "Chicago",
       land: "us",
       region: "Illinois",
-      datum: "2.–6. Juli",
-      naechte: "4 Nächte",
+      datum: "7.–10. Juli",
+      naechte: "3 Nächte",
       anreise: "Mietwagen von St. Louis über die Interstate 55, der Route 66 entlang, nach Chicago (ca. 4,5–5 Std., ca. 475 km). In Chicago endet die Route 66. Auto im Hotel parkieren.",
       text: "Wolkenkratzer am Michigansee: Architektur, Museen, Strände mitten in der Stadt und der Blick vom Glasbalkon im 103. Stock.",
       teens: "Glasbalkon im Skydeck (Willis Tower), Architektur-Bootstour auf dem Chicago River, Navy Pier mit Riesenrad, «The Bean» im Millennium Park, Museum of Science and Industry (U-Boot U-505), Strand am Michigansee, Deep-Dish-Pizza.",
       fakten: [
-        "<strong>Dauer:</strong> 4 Nächte: ein Tag Innenstadt mit Bootstour und Skydeck, ein Tag Museen (Science and Industry oder Field Museum) und Navy Pier, ein Tag Strand am See, ein freier Tag. Rund um den 4. Juli Feuerwerke am Seeufer (Termine vorab prüfen).",
+        "<strong>Dauer:</strong> 3 Nächte: ein Tag Innenstadt mit Bootstour und Skydeck, ein Tag Museen (Science and Industry oder Field Museum) und Navy Pier, ein halber Tag Strand am See.",
         "<strong>Preise:</strong> Skydeck ca. 32 USD Erwachsene, 24 USD Kinder 3–11; Architektur-Bootstour ca. 45–50 USD pro Person. Kombitickets sind günstiger.",
         "<strong>Parkieren:</strong> In der Innenstadt teuer (Hotel oft 50–70 USD pro Nacht); in der Stadt mit der Hochbahn «L» und zu Fuss unterwegs sein."
       ],
@@ -364,11 +455,11 @@ REISEN.usanord = {
       ]
     },
     {
-      nr: 10,
+      nr: 13,
       name: "Sandusky (Cedar Point)",
       land: "us",
       region: "Ohio",
-      datum: "6.–8. Juli",
+      datum: "10.–12. Juli",
       naechte: "2 Nächte",
       anreise: "Mietwagen von Chicago über die Indiana Toll Road und den Ohio Turnpike nach Sandusky am Eriesee (ca. 4,5–4,75 Std., ca. 470 km, Maut). Die Uhr springt wieder +1 Std.",
       text: "Achterbahnen am Eriesee: Cedar Point gilt als einer der besten Achterbahn-Parks der Welt, auf einer Halbinsel mit eigenem Strand.",
@@ -393,11 +484,11 @@ REISEN.usanord = {
       ]
     },
     {
-      nr: 11,
+      nr: 14,
       name: "Niagarafälle",
       land: "us",
       region: "New York",
-      datum: "8.–10. Juli",
+      datum: "12.–14. Juli",
       naechte: "2 Nächte",
       anreise: "Mietwagen von Sandusky über Cleveland, Erie und Buffalo zu den Niagarafällen (ca. 4,5–4,75 Std., ca. 440 km; New York State Thruway mit Maut). Übernachtung auf der amerikanischen Seite, ohne Grenzübertritt mit dem Auto.",
       text: "Die berühmtesten Wasserfälle Nordamerikas: mit dem Boot bis in die Gischt des Hufeisenfalls und auf Holzstegen direkt an den Bridal Veil Falls.",
@@ -418,11 +509,11 @@ REISEN.usanord = {
       ]
     },
     {
-      nr: 12,
+      nr: 15,
       name: "Finger Lakes",
       land: "us",
       region: "New York",
-      datum: "10.–13. Juli",
+      datum: "14.–17. Juli",
       naechte: "3 Nächte",
       anreise: "Mietwagen von den Niagarafällen nach Watkins Glen oder Ithaca am Seneca- bzw. Cayugasee (ca. 3 Std., ca. 270 km).",
       text: "Lange, schmale Seen zwischen Hügeln, Schluchten mit Wasserfällen und Badestellen: ruhige Tage vor dem Finale in New York.",
@@ -442,64 +533,14 @@ REISEN.usanord = {
       ]
     },
     {
-      nr: 13,
-      name: "Washington, D.C.",
-      land: "us",
-      region: "Washington, D.C.",
-      datum: "13.–16. Juli",
-      naechte: "3 Nächte",
-      anreise: "Mietwagen von den Finger Lakes über Williamsport und Harrisburg nach Washington (ca. 5,5–6 Std., ca. 485 km) und dort abgeben (z.B. am Flughafen Reagan National oder an der Union Station). In der Stadt Metro und zu Fuss.",
-      text: "Die Hauptstadt der USA: Denkmäler, Regierungsgebäude und eine Vielzahl kostenloser Museen rund um die National Mall. Alles ist gut zu Fuss und mit der Metro erreichbar.",
-      teens: "National Air and Space Museum (Zeitfenster-Tickets vorab), Natural History Museum (Hope-Diamant), Spy Museum, Lincoln Memorial und Washington Monument bei Abenddämmerung, Capitol.",
-      fakten: [
-        "<strong>Dauer:</strong> 3 Nächte: ein Tag National Mall und Denkmäler, ein Tag Museen (Air and Space, Natural History), ein halber Tag Arlington oder Georgetown.",
-        "<strong>Hitze:</strong> Im Juli heiss und schwül, nachmittags oft Gewitter; Museen als Hitzepause einplanen.",
-        "<strong>Hinweis:</strong> Das White House ist von innen nur nach früher Anfrage über die Schweizer Botschaft zu besichtigen, von aussen jederzeit."
-      ],
-      ausserdem: "Arlington National Cemetery, Mount Vernon (Landsitz von George Washington), Georgetown, National Zoo (gratis), Holocaust Memorial Museum (Zeitfenster).",
-      bilder: [
-        {titel: "Lincoln Memorial", suche: "Lincoln Memorial Washington", stichwort: "lincoln memorial"},
-        {titel: "Washington Monument", suche: "Washington Monument", stichwort: "washington monument"},
-        {titel: "Capitol", suche: "United States Capitol Washington", stichwort: "capitol"},
-        {titel: "Air and Space Museum", suche: "National Air and Space Museum Washington", stichwort: "air and space"},
-        {titel: "Smithsonian Castle", suche: "Smithsonian Institution Building castle", stichwort: "smithsonian"},
-        {titel: "Jefferson Memorial", suche: "Jefferson Memorial Tidal Basin", stichwort: "jefferson memorial"}
-      ]
-    },
-    {
-      nr: 14,
-      name: "Philadelphia",
-      land: "us",
-      region: "Pennsylvania",
-      datum: "16.–17. Juli",
-      naechte: "1 Nacht",
-      anreise: "Amtrak-Zug ab Washington Union Station nach Philadelphia 30th Street (ca. 1,5–2 Std.; viele Züge pro Tag).",
-      text: "Geburtsort der USA: Independence Hall, wo die Unabhängigkeitserklärung unterzeichnet wurde, die Liberty Bell und die Treppe aus dem Film «Rocky».",
-      teens: "Liberty Bell und Independence Hall, die «Rocky Steps» vor dem Kunstmuseum hinauflaufen, Philly Cheesesteak und Reading Terminal Market, Franklin Institute (Wissenschaftsmuseum).",
-      fakten: [
-        "<strong>Dauer:</strong> 1 Nacht als Halt zwischen Washington und New York: am Nachmittag Altstadt mit Liberty Bell, am Abend Rocky Steps; am Morgen weiter.",
-        "<strong>Independence Hall:</strong> Eintritt gratis, aber mit Zeitfenster-Ticket (im Visitor Center oder vorab gegen kleine Gebühr); Liberty Bell ohne Ticket, Sicherheitskontrolle.",
-        "<strong>Gepäck:</strong> Hotel nahe beim Bahnhof oder in der Altstadt wählen; Taxi oder Uber zwischen Bahnhof und Hotel."
-      ],
-      ausserdem: "Franklin Institute, Philadelphia Museum of Art, Elfreth’s Alley (älteste bewohnte Gasse der USA), Eastern State Penitentiary (altes Gefängnis).",
-      bilder: [
-        {titel: "Independence Hall", suche: "Independence Hall Philadelphia", stichwort: "independence hall"},
-        {titel: "Liberty Bell", suche: "Liberty Bell", stichwort: "liberty bell"},
-        {titel: "Rocky Steps", suche: "Rocky Steps Philadelphia Museum of Art", stichwort: "rocky|museum of art"},
-        {titel: "Reading Terminal Market", suche: "Reading Terminal Market", stichwort: "reading terminal"},
-        {titel: "Elfreth’s Alley", suche: "Elfreth's Alley", stichwort: "elfreth"},
-        {titel: "Skyline", suche: "Philadelphia skyline", stichwort: "philadelphia"}
-      ]
-    },
-    {
-      nr: 15,
+      nr: 16,
       name: "New York",
       land: "us",
       region: "New York",
       datum: "17.–21. Juli",
       naechte: "4 Nächte, Rückflug 21. Juli",
-      anreise: "Amtrak-Zug ab Philadelphia nach New York Penn Station (ca. 1–1,5 Std.; viele Züge pro Tag). Rückflug direkt ab John F. Kennedy (SWISS) am Mi, 21.07.2027 am Nachmittag (Sommer 2026 ca. 16.15 Uhr; ca. 7,75–8 Std., Ankunft in Zürich am Do, 22.07.2027 um ca. 6 Uhr). Zum Flughafen JFK mit dem AirTrain oder Taxi ca. 1–1,5 Std., also am Mittag los.",
-      text: "Das grosse Finale: Wolkenkratzer, Parks, Museen und Hafenpanorama.",
+      anreise: "Mietwagen von den Finger Lakes nach New York (ca. 4–4,5 Std., ca. 360 km) und am Flughafen (z.B. Newark oder LaGuardia) abgeben, von dort mit Zug oder Taxi in die Stadt. Rückflug direkt ab John F. Kennedy (SWISS) am Mi, 21.07.2027 am Nachmittag (Sommer 2026 ca. 16.15 Uhr; ca. 7,75–8 Std., Ankunft in Zürich am Do, 22.07.2027 um ca. 6 Uhr). Zum Flughafen JFK mit dem AirTrain oder Taxi ca. 1–1,5 Std., also am Mittag los.",
+      text: "Das grosse Finale: Wolkenkratzer, Parks, Museen und Hafenpanorama, ohne Auto.",
       teens: "Fähre zur Freiheitsstatue und nach Ellis Island, Aussicht vom Empire State Building oder Top of the Rock, Broadway-Musical, Brooklyn Bridge, Coney Island (Achterbahn und Strand), Intrepid Museum (Flugzeugträger).",
       fakten: [
         "<strong>Dauer:</strong> 4 Nächte: Tag 1 Midtown und Aussichtsplattform, Tag 2 Freiheitsstatue und Lower Manhattan (9/11 Memorial), Tag 3 Central Park und Museen, Tag 4 Brooklyn Bridge und Wunschprogramm der Kids; am Abreisetag nur noch der Vormittag (Gepäck im Hotel lassen).",
@@ -533,46 +574,46 @@ REISEN.usanord = {
       ],
       [
         "Mietwagen (Einwegmiete)",
-        "2’800–3’600",
-        "3’100",
-        "Los Angeles–Washington (ca. 24 Tage) inkl. Vollkasko, Zusatzhaftpflicht und Einweggebühr; geschätzt nach dem Angebot Los Angeles–Miami, Angebote vergleichen"
+        "2’900–3’800",
+        "3’200",
+        "Los Angeles–New York (ca. 28 Tage) inkl. Vollkasko, Zusatzhaftpflicht und Einweggebühr; geschätzt nach dem Angebot Los Angeles–Miami, Angebote vergleichen"
       ],
       [
         "Benzin",
-        "400–550",
-        "470",
-        "ca. 5’450 km, Van oder SUV mit ca. 10–12 l/100 km (ca. 600 Liter); in Kalifornien am teuersten"
+        "470–640",
+        "540",
+        "ca. 6’700 km, Van oder SUV mit ca. 10–12 l/100 km (ca. 740 Liter); in Kalifornien am teuersten"
       ],
       [
         "Parkieren",
-        "450–700",
-        "550",
-        "Hotels in Los Angeles und Chicago oft 45–70 USD pro Nacht, Las Vegas (Strip-Hotels ca. 20–25 USD pro Tag) und St. Louis ca. 20–30 USD; Cedar Point, Niagara; Motels meist gratis; ab Washington kein Auto mehr"
+        "500–800",
+        "650",
+        "Hotels in Los Angeles und Chicago oft 45–70 USD pro Nacht, New Orleans ca. 40–50 USD, Las Vegas (Strip-Hotels ca. 20–25 USD pro Tag), Houston und St. Louis ca. 20–30 USD; Cedar Point, Niagara; Motels meist gratis; in New York kein Auto mehr"
       ],
       [
         "Maut",
-        "100–200",
-        "130",
-        "Turnpikes in Oklahoma, Indiana Toll Road, Ohio Turnpike, New York State Thruway, dazu die Gebühr des Vermieters für die automatische Mauterfassung"
+        "110–240",
+        "160",
+        "Indiana Toll Road, Ohio Turnpike, New York State Thruway, Mautstrassen um Houston und Dallas, Brücken und Tunnel bei New York, dazu die Gebühr des Vermieters für die automatische Mauterfassung"
       ],
       [
-        "Zug und lokale Verkehrsmittel",
-        "450–800",
-        "550",
-        "Amtrak Washington–Philadelphia–New York, Metro in Washington, Hochbahn in Chicago, U-Bahn in New York, Taxi oder AirTrain zum Flughafen"
+        "Lokale Verkehrsmittel",
+        "250–450",
+        "300",
+        "Hochbahn in Chicago, U-Bahn in New York, Zug oder Taxi vom Mietwagen-Flughafen und zum Flughafen JFK"
       ],
       [
         "Unterkunft (Familienzimmer, 3 Sterne)",
-        "6’300–9’200",
-        "7’300",
-        "ca. 110–420 CHF pro Nacht inkl. Steuern (ein Zimmer mit zwei Queen-Betten); Los Angeles, Monument Valley, Chicago, Washington und New York am teuersten, in Las Vegas zusätzlich «Resort Fees»"
+        "6’200–9’000",
+        "6’800",
+        "ca. 110–420 CHF pro Nacht inkl. Steuern (ein Zimmer mit zwei Queen-Betten); Los Angeles, Monument Valley, Chicago und New York am teuersten, in Las Vegas zusätzlich «Resort Fees»"
       ],
       ["Verpflegung (Restaurants, Imbiss, Getränke)", "4’500–8’000", "6’000", "ca. 140–250 CHF pro Tag für 4 Personen"],
       [
         "Aktivitäten und Eintritte",
-        "2’700–4’000",
-        "3’200",
-        "Show in Las Vegas, Sandboards bei Kanab, Monument Valley mit Jeep-Tour, Sandia Peak Tramway, Meow Wolf, Gateway Arch, City Museum, Skydeck und Bootstour, Cedar Point, Maid of the Mist, Aussichtsplattform und Broadway in New York usw."
+        "3’100–4’500",
+        "3’500",
+        "Show in Las Vegas, Sandboards bei Kanab, Monument Valley mit Jeep-Tour, Sandia Peak Tramway, Meow Wolf, Space Center Houston, Sumpftour und Raddampfer, Gateway Arch, City Museum, Skydeck und Bootstour, Cedar Point, Maid of the Mist, Aussichtsplattform und Broadway in New York usw."
       ],
       [
         "ESTA, Versicherung, eSIM",
@@ -589,25 +630,26 @@ REISEN.usanord = {
       ["4. Monument Valley (1)", "620–990"],
       ["5. Albuquerque (2)", "680–1’080"],
       ["6. Amarillo (1)", "250–390"],
-      ["7. Tulsa (1)", "230–360"],
-      ["8. St. Louis (2)", "610–960"],
-      ["9. Chicago (4)", "1’790–2’850"],
-      ["10. Sandusky (2)", "740–1’180"],
-      ["11. Niagarafälle (2)", "670–1’060"],
-      ["12. Finger Lakes (3)", "800–1’260"],
-      ["13. Washington, D.C. (3)", "1’190–1’890"],
-      ["14. Philadelphia (1)", "300–470"],
-      ["15. New York (4)", "2’570–4’070"]
+      ["7. Fort Worth (1)", "260–410"],
+      ["8. Houston (2)", "580–920"],
+      ["9. New Orleans (2)", "810–1’290"],
+      ["10. Memphis (1)", "300–480"],
+      ["11. St. Louis (2)", "610–960"],
+      ["12. Chicago (3)", "1’370–2’170"],
+      ["13. Sandusky (2)", "740–1’180"],
+      ["14. Niagarafälle (2)", "670–1’060"],
+      ["15. Finger Lakes (3)", "800–1’260"],
+      ["16. New York (4)", "2’570–4’070"]
     ],
     hinweise: [
       "Preise für die Kids: Der Sohn (12) und die Tochter (14) zahlen bei Eintritten teils Kinderpreise (bis 11 bzw. 12 Jahre), oft aber den Vollpreis.",
-      "Sparhebel: ein Zimmer mit zwei Queen-Betten, Motels mit Frühstück, Imbiss statt Restaurant, Hotels mit Gratis-Parkplatz ausserhalb der Innenstädte, die Gratis-Museen in Washington nutzen.",
+      "Sparhebel: ein Zimmer mit zwei Queen-Betten, Motels mit Frühstück, Imbiss statt Restaurant, Hotels mit Gratis-Parkplatz ausserhalb der Innenstädte, Gratis-Museen und -Parks nutzen.",
       "Gerechnet mit ca. 0,83 CHF pro USD (Kurs Oktober 2026); Preise in den USA meist ohne Verkaufssteuer angeschrieben, im Restaurant kommen 15–20 % Trinkgeld dazu.",
       "Alle Beträge sind Richtwerte in CHF (Schätzungen, nicht verbindlich). Flug-, Hotel- und Mietwagenpreise im Juli schwanken stark; aktuelle Preise vor der Buchung vergleichen."
     ],
     naechte: 32,
-    total: "27’300",
-    spanne: "23’200–34’300",
+    total: "27’150",
+    spanne: "23’500–34’700",
     proTag: "ca. 850 CHF pro Tag, ca. 6’800 pro Person"
   },
   tippsIntro: "Einreise, Gesundheit, Sicherheit und Praktisches für die Reise mit 2 Erwachsenen und 2 Kids.",
@@ -623,7 +665,7 @@ REISEN.usanord = {
     ],
     [
       "Mietwagen",
-      "Familienvan oder SUV, die Einwegmiete Los Angeles–Washington früh buchen und Angebote vergleichen (Einweggebühr). Mautstrassen vor allem in Oklahoma, Indiana, Ohio und New York: Mautpaket des Vermieters klären. Schweizer Führerschein reicht; ein internationaler Führerschein ist als Zusatz empfehlenswert. Wer mit dem Auto nach Kanada will, braucht die Erlaubnis des Vermieters. Den Wagen in Washington abgeben."
+      "Familienvan oder SUV, die Einwegmiete Los Angeles–New York früh buchen und Angebote vergleichen (Einweggebühr). Mautstrassen vor allem in Texas, Indiana, Ohio und New York: Mautpaket des Vermieters klären. Schweizer Führerschein reicht; ein internationaler Führerschein ist als Zusatz empfehlenswert. Wer mit dem Auto nach Kanada will, braucht die Erlaubnis des Vermieters. Den Wagen vor New York am Flughafen abgeben (z.B. Newark oder LaGuardia)."
     ],
     [
       "Tanken und Zahlen",
@@ -631,11 +673,11 @@ REISEN.usanord = {
     ],
     [
       "Hitze und Gewitter",
-      "Las Vegas und der Südwesten erreichen Ende Juni 38–45 °C, ab Juli Monsungewitter mit Sturzfluten in Schluchten. In Texas, Oklahoma und Missouri heiss, Gewitter und selten Tornados: Wetterwarnungen auf dem Handy beachten. An den Grossen Seen angenehmer."
+      "Las Vegas und der Südwesten erreichen Ende Juni 38–45 °C, ab Juli Monsungewitter mit Sturzfluten in Schluchten. In Texas, Louisiana und Tennessee heiss und schwül mit Gewittern, an der Golfküste Hurrikansaison (Höhepunkt erst ab Mitte August). An den Grossen Seen angenehmer."
     ],
     [
       "Zeitzonen",
-      "Los Angeles und Las Vegas Pazifikzeit (−9 Std. zur Schweiz), Utah, Navajo Nation und New Mexico Mountain-Zeit, Arizona ohne Sommerzeit, Texas, Oklahoma, Missouri und Chicago Central-Zeit, ab Ohio Eastern-Zeit (−6 Std.)."
+      "Los Angeles und Las Vegas Pazifikzeit (−9 Std. zur Schweiz), Utah, Navajo Nation und New Mexico Mountain-Zeit, Arizona ohne Sommerzeit, Texas, Louisiana, Tennessee, Missouri und Chicago Central-Zeit, ab Ohio Eastern-Zeit (−6 Std.)."
     ],
     [
       "Versicherung",
@@ -644,10 +686,6 @@ REISEN.usanord = {
     [
       "Navajo Nation",
       "Monument Valley liegt auf Navajo-Land mit eigenen Regeln: Eintritt pro Person, geführte Touren, keine Drohnen, kein Alkohol. Respektvoll verhalten, Fotos von Menschen nur mit Erlaubnis."
-    ],
-    [
-      "Zug im Osten",
-      "Amtrak-Züge Washington–Philadelphia–New York fahren oft (Northeast Regional, Acela schneller und teurer); Tickets früh online buchen, Gepäck selbst tragen."
     ],
     [
       "Notfall",

@@ -140,15 +140,16 @@ window.QUELLEN = {
       ]
     },
     {
-      titel: "USA Nord (Los Angeles – Chicago – New York)",
+      titel: "USA Quer (Los Angeles – New Orleans – Chicago – New York)",
       links: [
         ["OSRM: Fahrzeiten und Distanzen der Etappen auf der Route 66 und im Osten (Routenplaner, eher zu lang gerechnet)", "https://router.project-osrm.org"],
         ["Gateway Arch: Tickets für die Fahrt auf die Spitze (2026 ca. 15–19 USD ab 16)", "https://gatewayarch.com/buy-tickets"],
         ["Tripster: City Museum St. Louis (Eintritt ca. 20–23 USD)", "https://www.tripster.com/detail/city-museum-st-louis-tickets"],
         ["Texas Parks & Wildlife: Palo Duro Canyon (8 USD ab 13 Jahren)", "https://tpwd.texas.gov/state-parks/palo-duro-canyon/field-trips-group-visits/group-visits"],
         ["The Local Tourist: Blue Whale of Catoosa (Route 66)", "https://thelocaltourist.com/blue-whale-of-catoosa/"],
-        ["NPS: Independence Hall mit Zeitfenster-Tickets", "https://www.nps.gov/inde/learn/news/memorial-day-weekend-in-the-historic-district.htm"],
-        ["The Constitutional: Independence Hall, Tickets", "https://www.theconstitutional.com/node/1872"]
+        ["The Better Vacation: Space Center Houston (Preise 2026)", "https://thebettervacation.com/space-center-houston"],
+        ["Graceland: Tickets und Preise", "https://www.graceland.com/ticket-information"],
+        ["Visit Fort Worth: Viehtrieb in den Stockyards (täglich ca. 11.30 und 16 Uhr)", "https://www.fortworth.com/the-herd/where-and-when-is-the-cattle-drive"]
       ]
     },
     {

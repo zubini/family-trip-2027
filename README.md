@@ -7,7 +7,7 @@ Reiseführer und Variantenvergleich für die Familienreise 2027 (Sa, 19. Juni bi
 - **Spanien / Portugal / Marokko**: mit dem eigenen Auto ab Brig-Glis, sechs Nächte Marokko nur mit Fähre und Zug (Casablanca, Marrakesch, Agafay-Wüste, Fès)
 - **USA (Los Angeles – Miami – New York)**: Roadtrip von Los Angeles durch den Südwesten über Texas, New Orleans und Destin nach Florida, Inlandflug nach Washington, Zug nach New York
 - **USA Ost (Miami – Chicago – New York)**: nur mit dem Mietwagen von Miami über Key Largo, Orlando, Savannah, Charleston und die Outer Banks nach Washington, über Pittsburgh nach Chicago und über Cedar Point, die Niagarafälle und die Finger Lakes nach New York
-- **USA Nord (Los Angeles – Chicago – New York)**: mit dem Mietwagen von Los Angeles über Las Vegas, Kanab und Monument Valley auf der Route 66 nach Chicago, über Cedar Point, die Niagarafälle und die Finger Lakes nach Washington, mit dem Zug über Philadelphia nach New York (kein Inlandflug)
+- **USA Quer (Los Angeles – New Orleans – Chicago – New York)**: mit dem Mietwagen von Los Angeles über Las Vegas, Kanab und Monument Valley nach Albuquerque, über Amarillo und Fort Worth nach Houston und New Orleans, über Memphis und St. Louis nach Chicago, über Cedar Point und die Niagarafälle in die Finger Lakes und nach New York (kein Inlandflug)
 - **Malaysia / Thailand**: von Singapur nach Bangkok
 
 Dazu eine Einstiegsseite mit Vergleich, Bewertung, Budget sowie Pro und Contra und eine Seite mit den Quellen.
@@ -23,7 +23,7 @@ data/             die Inhalte, hier wird fast alles geändert
   marokko.js      Spanien / Portugal / Marokko (eigenes Auto, Marokko mit Fähre und Zug)
   usa.js          USA (Los Angeles–Miami–New York)
   usaost.js       USA Ost (Miami–Chicago–New York, nur Mietwagen)
-  usanord.js      USA Nord (Los Angeles–Route 66–Chicago–New York, ohne Inlandflug)
+  usaquer.js      USA Quer (Los Angeles–New Orleans–Chicago–New York, ohne Inlandflug)
   asien.js        Malaysia / Thailand (Singapur–Bangkok)
   quellen.js      Seite «Quellen» (Belege für Fahrzeiten, Einreise, Bilder)
   bilder-unsplash.js  Unsplash-Fotos (erzeugt von tools/bilder-unsplash.js)
