@@ -2,7 +2,7 @@
 // Budgetzahlen kommen automatisch aus den Reisen (data/marokko.js usw.).
 // Platzhalter in Texten: {plan:marokko}, {plan:usa}, {plan:usaost}, {plan:asien} = Planwert, {mehrkosten} = USA minus Malaysia / Thailand.
 // Reihenfolge der Reisen hier = Reihenfolge der Spalten; die Navigation folgt der Reihenfolge in index.html.
-// Bewertung: [Punkte 0–5, Text]. Die Punkte und Pro/Contra sind eine Einschätzung und bei Änderungen an den Reisen von Hand anzupassen.
+// Pro/Contra: je 5 kurze Stichworte. Bewertung: [Punkte 0–5, Text]. Die Punkte und Pro/Contra sind eine Einschätzung und bei Änderungen an den Reisen von Hand anzupassen.
 window.START = {
   titel: "Familienreise 2027",
   zeitraum: "Ab Sa, 19.06.2027, bis spätestens Sa, 24.07.2027, 2 Erwachsene und 2 Kids",
@@ -31,16 +31,18 @@ window.START = {
       hoehepunkte: "Schnorcheln bei den Medes-Inseln, auf Formentera und am Cabo de Gata, Sagrada Família, Oceanogràfic, Terra Mítica und Aqualandia in Benidorm, Caminito del Rey, Hassan-II.-Moschee in Casablanca, Jemaa el-Fna in Marrakesch, Kamelritt und Nacht im Zeltcamp in der Agafay-Wüste, Medina von Fès, Cádiz, Sevilla, Grotten der Algarve, Lissabon, Felsbögen der Playa de las Catedrales, San Sebastián, Carcassonne.",
       teens: "Wasserpark Aqualandia oder Terra Mítica in Benidorm, Kamelritt und Quad in der Agafay-Wüste, Souks und Gaukler in Marrakesch, Game-of-Thrones-Drehorte, Kajak an der Algarve, Surfen in San Sebastián, Ritterburg Carcassonne.",
       pro: [
-        "Kein Flug und kein Jetlag, und trotzdem sechs Nächte Afrika: Casablanca, Marrakesch, Agafay-Wüste und Fès, ohne selber in Marokko zu fahren",
-        "Viele Städte: Barcelona, Valencia, Casablanca, Marrakesch, Fès, Sevilla, Lissabon, Porto, San Sebastián",
-        "Grosse Abwechslung zwischen Mittelmeer, Wüste, Atlantik, Baskenland und Südfrankreich",
-        "Günstig (ca. {plan:marokko} CHF) und wenig CO₂; Laden an Superchargern gratis"
+        "Kein Flug, kein Jetlag",
+        "Sechs Nächte Marokko, ohne dort selber zu fahren",
+        "Viele Städte von Barcelona bis Lissabon",
+        "Mittelmeer, Wüste und Atlantik im Wechsel",
+        "Günstig (ca. {plan:marokko} CHF), wenig CO₂"
       ],
       contra: [
-        "Grosse Hitze im Juli: Marrakesch, die Agafay-Wüste und Fès oft 38–42 °C; die Agafay ist eine Steinwüste ohne Sanddünen",
-        "Tür zu Tür ca. 96–103 Std., Wechsel zwischen eigenem Auto, Fähre und Zug; einige lange Tage mit 7–9 Std.; Bauarbeiten an der Bahnstrecke nach Marrakesch (Fahrplan kurz vorher prüfen)",
-        "Für Marokko Reisepass für alle, keine Krankenversicherungskarte, kein Leitungswasser; aufdringliche Händler in den Medinas",
-        "Lange Reisetage wie Agafay–Fès (ca. 7,5–8,5 Std.) und Fès–Cádiz (Zug und Fähre, ca. 7–9 Std.); auf Formentera keine Supercharger"
+        "Hitze in Marokko bis 42 °C",
+        "Agafay ist eine Steinwüste, ohne Sanddünen",
+        "Viele Wechsel zwischen Auto, Fähre und Zug",
+        "Mehrere lange Tage mit 7–9 Std.",
+        "In Marokko kein Leitungswasser, aufdringliche Händler"
       ]
     },
     usa: {
@@ -61,16 +63,18 @@ window.START = {
       hoehepunkte: "Santa Monica und Griffith Observatory in Los Angeles, Las Vegas, rosa Sanddünen bei Kanab, Horseshoe Bend, Monument Valley, Sandia Peak und Meow Wolf, White Sands, UFO-Museum in Roswell, Alamo, New Orleans, weisse Strände bei Destin, Universal und Kennedy Space Center, Everglades, Korallenriff bei Key Largo, Miami Beach, Smithsonian-Museen in Washington, New York.",
       teens: "Santa Monica Pier und Venice Beach, Sandboarding auf den Dünen bei Kanab und auf White Sands, UFO-Museum, Sumpftour, Raketen im Kennedy Space Center mit Alligatoren, Strand in Destin, Universal, Airboat und Schnorcheln am Riff, Air and Space Museum, New York.",
       pro: [
-        "Ein Querschnitt durch die USA: Wüste und Nationalparks, Texas, New Orleans, Golfküste, Florida und zum Schluss Washington und New York",
-        "Spektakuläre Landschaften: Horseshoe Bend, Monument Valley, White Sands, Everglades und das Korallenriff der Keys",
-        "Strand in Santa Monica, Destin und Miami, viele Teenager-Highlights (Universal, Space Center, Las Vegas, New York); im Osten kein Auto mehr",
-        "Sehr gute medizinische Versorgung; Rückkehr zwei Tage vor Ferienende gegen den Jetlag"
+        "Monument Valley, Horseshoe Bend, White Sands",
+        "Los Angeles, Las Vegas und New York",
+        "Universal und Kennedy Space Center",
+        "Strand in Santa Monica, Destin und Miami",
+        "Ab Washington ohne Auto"
       ],
       contra: [
-        "Am teuersten (ca. {plan:usa} CHF): Einwegmiete quer durchs Land (ca. 3’000 CHF plus Benzin, Parkieren und Maut), Inlandflug, Unterkünfte in Miami und New York; Arztkosten sehr hoch",
-        "Viel Reisezeit: ca. 63–69 Std. im Auto an 11 Fahrtagen, ein Tag mit ca. 9,5–10 Std. (San Antonio–New Orleans) und vier mit 5–7 Std.; Tür zu Tür ca. 107–114 Std. und Jetlag",
-        "Hitze im Südwesten (oft über 40 °C), schwüle Hitze und Gewitter an der Golfküste und in Florida, Hurrikansaison (im Juli selten)",
-        "Drei Flüge mit viel CO₂, ESTA-Regeln vorab prüfen"
+        "Am teuersten (ca. {plan:usa} CHF)",
+        "Ca. 63–69 Std. im Auto",
+        "Ein Fahrtag mit ca. 9,5–10 Std.",
+        "Wüstenhitze bis 45 °C",
+        "Jetlag (−9 Std.), drei Flüge, viel CO₂"
       ]
     },
     usaost: {
@@ -91,16 +95,18 @@ window.START = {
       hoehepunkte: "South Beach und Airboat in den Everglades, Korallenriff bei Key Largo, Universal und Kennedy Space Center, Savannah und Charleston, Dünen und wilde Pferde auf den Outer Banks, 4. Juli in Washington, Skydeck und Architektur in Chicago, Achterbahnen in Cedar Point, Niagarafälle, Schluchten der Finger Lakes, New York.",
       teens: "Schnorcheln am Riff, Universal, Raketen im Kennedy Space Center, Geistertour in Savannah, wilde Pferde, Feuerwerk am 4. Juli, Glasbalkon im Skydeck, Achterbahnen in Cedar Point, Maid of the Mist, New York.",
       pro: [
-        "Viel Abwechslung im Osten: Strand und Riff in Florida, Städte des Südens, Washington, Chicago, Niagara und New York",
-        "Nur ein Mietwagen, kein Inlandflug; kürzere Flüge als nach Los Angeles und weniger Zeitverschiebung (−6 Std.)",
-        "Viele Teenager-Highlights (Universal, Kennedy Space Center, Cedar Point, Skydeck, Niagara, New York); im Norden angenehmeres Klima",
-        "Sehr gute medizinische Versorgung; Rückkehr zwei Tage vor Ferienende gegen den Jetlag"
+        "Strand und Riff in Florida",
+        "Universal, Kennedy Space Center, Cedar Point",
+        "Savannah, Charleston, Washington, Chicago",
+        "Niagarafälle und New York zum Schluss",
+        "Nur ein Mietwagen, nur −6 Std. Zeitverschiebung"
       ],
       contra: [
-        "Teuer (ca. {plan:usaost} CHF): Einwegmiete, Unterkünfte in Miami, Washington, Chicago und New York; Arztkosten sehr hoch",
-        "Viel Reisezeit: ca. 58–65 Std. im Auto an 12 Fahrtagen, zwei lange Tage mit 7–7,75 Std.; der Abstecher nach Chicago kostet allein ca. 11 Std. Fahrt",
-        "Keine Wüste und keine grossen Nationalparks; schwüle Hitze im Süden, Hurrikansaison (im Juni und Juli selten)",
-        "Zwei Langstreckenflüge mit viel CO₂, ESTA-Regeln vorab prüfen"
+        "Teuer (ca. {plan:usaost} CHF)",
+        "Ca. 58–65 Std. im Auto",
+        "Abstecher nach Chicago: ca. 11 Std. Fahrt",
+        "Keine Wüste, keine grossen Nationalparks",
+        "Schwüle Hitze im Süden"
       ]
     },
     asien: {
@@ -121,15 +127,18 @@ window.START = {
       hoehepunkte: "Schnorcheln auf Tioman, den Perhentians, Samui und Koh Tao, Street-Food in Penang, Delfine bei Khanom, Ang Thong, Grand Palace und Wat Arun in Bangkok.",
       teens: "Schnorcheln, Inselhopping, Wasserparks, Sentosa mit Universal Studios, Kajak.",
       pro: [
-        "Die meisten Schnorchel- und Strandtage: Tioman, Perhentian Islands, Koh Samui und Koh Tao bei ca. 29 °C warmem Wasser",
-        "Städte mit Street-Food und Tempeln: Singapur, Kuala Lumpur, Penang und Bangkok",
-        "Direktflüge hin und zurück, unterwegs muss niemand selber fahren; günstig (ca. {plan:asien} CHF)"
+        "Die meisten Schnorchel- und Strandtage",
+        "Warmes Meer (ca. 29 °C) mit Riffen und Schildkröten",
+        "Singapur, Kuala Lumpur, Penang und Bangkok",
+        "Niemand muss selber fahren",
+        "Günstig (ca. {plan:asien} CHF)"
       ],
       contra: [
-        "Tür zu Tür ca. 101–108 Std., davon 6 lange Reisetage mit 5–9 Std. und viele Umstiege mit Gepäck; Jetlag",
-        "Regenzeit in Penang und Bangkok, schwüle Hitze",
-        "Dengue-Mückenschutz, kein Leitungswasser, Impfstatus vorab klären",
-        "Zwei Langstreckenflüge mit viel CO₂; Thailand nur 30 Tage visafrei, Regeln prüfen"
+        "Viele Umstiege mit Gepäck",
+        "Sechs lange Reisetage mit 5–9 Std.",
+        "Regenzeit und schwüle Hitze",
+        "Dengue-Mücken, kein Leitungswasser",
+        "Jetlag (+6 Std.), viel CO₂"
       ]
     }
   },
