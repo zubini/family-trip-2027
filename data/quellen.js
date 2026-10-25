@@ -76,7 +76,7 @@ window.QUELLEN = {
       ]
     },
     {
-      titel: "Fahrzeiten USA",
+      titel: "USA Süd (Los Angeles – Florida – New York)",
       links: [
         ["NHC: Hurrikan-Klimatologie (Saison 1. Juni–30. November, Höhepunkt um den 10. September)", "https://www.nhc.noaa.gov/climo/"],
         ["Wikipedia: Klima von Miami (Juli ca. 33 °C, Gewitter am Nachmittag)", "https://en.wikipedia.org/wiki/Climate_of_Miami"],
@@ -121,7 +121,7 @@ window.QUELLEN = {
       ]
     },
     {
-      titel: "USA Ost (Miami – Chicago – New York)",
+      titel: "USA Ostküste (Miami – Niagara – New York)",
       links: [
         ["Flightmapper: SWISS LX 64 Zürich–Miami (Sommer 2026 täglich, ca. 13.05–17.30 Uhr)", "https://info.flightmapper.net/flight/Swiss_LX_64"],
         ["OSRM: Fahrzeiten und Distanzen aller Etappen (Routenplaner, eher zu lang gerechnet)", "https://router.project-osrm.org"],
@@ -136,11 +136,12 @@ window.QUELLEN = {
         ["Freizeitpark-Welt: Cedar Point (Preise 2026)", "https://www.freizeitpark-welt.de/freizeitparks/cedarpoint/preise/"],
         ["Maid of the Mist: Fahrplan und Preise 2026", "https://maidofthemist.com/schedule-pricing"],
         ["NY State Parks: Watkins Glen State Park (10 USD pro Auto)", "https://parks.ny.gov/parks/watkinsglen/index.aspx"],
+        ["Hersheypark: Sommer 2026 (Preise und Angebote)", "https://www.hersheypark.com/plan-your-visit/blog/the-ultimate-hershey-summer-2026-guide"],
         ["AutoSlash: Mit dem Mietwagen von den USA nach Kanada", "https://blog.autoslash.com/crossing-the-border-from-the-u-s-to-canada-in-a-rental-car/"]
       ]
     },
     {
-      titel: "USA Quer (Los Angeles – New Orleans – Chicago – New York)",
+      titel: "USA Mitte (Los Angeles – Chicago – New York)",
       links: [
         ["OSRM: Fahrzeiten und Distanzen der Etappen auf der Route 66 und im Osten (Routenplaner, eher zu lang gerechnet)", "https://router.project-osrm.org"],
         ["Gateway Arch: Tickets für die Fahrt auf die Spitze (2026 ca. 15–19 USD ab 16)", "https://gatewayarch.com/buy-tickets"],

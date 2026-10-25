@@ -1,10 +1,10 @@
-// Reise: USA Quer von Los Angeles über Houston, New Orleans und Chicago nach New York (Einwegmiete Los Angeles–New York, kein Inlandflug)
+// Reise: USA Mitte von Los Angeles über Houston, New Orleans und Chicago nach New York (Einwegmiete Los Angeles–New York, kein Inlandflug)
 // Daten in "datum" ohne Wochentag schreiben (z.B. "19.–22. Juni"), die Wochentage rechnet js/app.js aus.
 // Texte dürfen einfaches HTML enthalten (<b>, <strong>, <i>).
 window.REISEN = window.REISEN || {};
-REISEN.usaquer = {
+REISEN.usamitte = {
   titel: "Von Los Angeles über Houston, New Orleans und Chicago nach New York",
-  menu: "USA Quer",
+  menu: "USA Mitte",
   untertitel: "Fünf Wochen quer durch die USA ohne Inlandflug: mit dem Mietwagen von Los Angeles über Las Vegas, Kanab und Monument Valley nach Albuquerque, über Amarillo und Fort Worth nach Houston und New Orleans, den Mississippi hinauf über Memphis und St. Louis nach Chicago, über Cedar Point und die Niagarafälle in die Finger Lakes und nach New York.",
   zeitraum: "Sa, 19.06.2027 bis Do, 22.07.2027, 2 Erwachsene und 2 Kids",
   titelbild: {suche: "Route 66 sign|Route 66", stichwort: "route 66", alt: "Route 66"},
@@ -36,14 +36,14 @@ REISEN.usaquer = {
     {datum: "2.–4. Juli", name: "9. New Orleans", naechte: 2, info: "Mietwagen (ca. 5–5,5 Std.)"},
     {datum: "4.–5. Juli", name: "10. Memphis", naechte: 1, info: "Mietwagen (ca. 6–6,5 Std.)"},
     {datum: "5.–7. Juli", name: "11. St. Louis", naechte: 2, info: "Mietwagen (ca. 4,25–4,5 Std.)"},
-    {datum: "7.–10. Juli", name: "12. Chicago", naechte: 3, info: "Mietwagen (ca. 4,5–5 Std.)"},
+    {datum: "7.–11. Juli", name: "12. Chicago", naechte: 4, info: "Mietwagen (ca. 4,5–5 Std.)"},
     {
-      datum: "10.–12. Juli",
+      datum: "11.–13. Juli",
       name: "13. Sandusky (Cedar Point)",
       naechte: 2,
       info: "Mietwagen (ca. 4,5–4,75 Std.), Uhr +1 Std."
     },
-    {datum: "12.–14. Juli", name: "14. Niagarafälle", naechte: 2, info: "Mietwagen (ca. 4,5–4,75 Std.)"},
+    {datum: "13.–14. Juli", name: "14. Niagarafälle", naechte: 1, info: "Mietwagen (ca. 4,5–4,75 Std.)"},
     {datum: "14.–17. Juli", name: "15. Finger Lakes", naechte: 3, info: "Mietwagen (ca. 3 Std.)"},
     {
       datum: "17.–21. Juli",
@@ -84,9 +84,9 @@ REISEN.usaquer = {
     breit: true,
     legende: ["car"],
     karten: [
-      {datei: "karten/usa-quer.svg"},
-      {titel: "Südwesten und Texas im Detail (Stationen 1 bis 9)", datei: "karten/usa-quer-west.svg"},
-      {titel: "Von New Orleans bis New York im Detail (Stationen 9 bis 16)", datei: "karten/usa-quer-ost.svg"}
+      {datei: "karten/usa-mitte.svg"},
+      {titel: "Südwesten und Texas im Detail (Stationen 1 bis 9)", datei: "karten/usa-mitte-west.svg"},
+      {titel: "Von New Orleans bis New York im Detail (Stationen 9 bis 16)", datei: "karten/usa-mitte-ost.svg"}
     ]
   },
   abwechslungIntro: "Pazifik, Wüste und Felsen, Prärie und Cowboys, Raumfahrt, Jazz und Blues am Mississippi, Grossstadt am See, Achterbahnen, Wasserfälle, Seen und zum Schluss New York ohne Auto.",
@@ -430,13 +430,13 @@ REISEN.usaquer = {
       name: "Chicago",
       land: "us",
       region: "Illinois",
-      datum: "7.–10. Juli",
-      naechte: "3 Nächte",
+      datum: "7.–11. Juli",
+      naechte: "4 Nächte",
       anreise: "Mietwagen von St. Louis über die Interstate 55, der Route 66 entlang, nach Chicago (ca. 4,5–5 Std., ca. 475 km). In Chicago endet die Route 66. Auto im Hotel parkieren.",
       text: "Wolkenkratzer am Michigansee: Architektur, Museen, Strände mitten in der Stadt und der Blick vom Glasbalkon im 103. Stock.",
       teens: "Glasbalkon im Skydeck (Willis Tower), Architektur-Bootstour auf dem Chicago River, Navy Pier mit Riesenrad, «The Bean» im Millennium Park, Museum of Science and Industry (U-Boot U-505), Strand am Michigansee, Deep-Dish-Pizza.",
       fakten: [
-        "<strong>Dauer:</strong> 3 Nächte: ein Tag Innenstadt mit Bootstour und Skydeck, ein Tag Museen (Science and Industry oder Field Museum) und Navy Pier, ein halber Tag Strand am See.",
+        "<strong>Dauer:</strong> 4 Nächte: ein Tag Innenstadt mit Bootstour und Skydeck, ein Tag Museen (Science and Industry oder Field Museum) und Navy Pier, ein Tag Strand am See, ein freier Tag.",
         "<strong>Preise:</strong> Skydeck ca. 32 USD Erwachsene, 24 USD Kinder 3–11; Architektur-Bootstour ca. 45–50 USD pro Person. Kombitickets sind günstiger.",
         "<strong>Parkieren:</strong> In der Innenstadt teuer (Hotel oft 50–70 USD pro Nacht); in der Stadt mit der Hochbahn «L» und zu Fuss unterwegs sein."
       ],
@@ -459,7 +459,7 @@ REISEN.usaquer = {
       name: "Sandusky (Cedar Point)",
       land: "us",
       region: "Ohio",
-      datum: "10.–12. Juli",
+      datum: "11.–13. Juli",
       naechte: "2 Nächte",
       anreise: "Mietwagen von Chicago über die Indiana Toll Road und den Ohio Turnpike nach Sandusky am Eriesee (ca. 4,5–4,75 Std., ca. 470 km, Maut). Die Uhr springt wieder +1 Std.",
       text: "Achterbahnen am Eriesee: Cedar Point gilt als einer der besten Achterbahn-Parks der Welt, auf einer Halbinsel mit eigenem Strand.",
@@ -488,13 +488,13 @@ REISEN.usaquer = {
       name: "Niagarafälle",
       land: "us",
       region: "New York",
-      datum: "12.–14. Juli",
-      naechte: "2 Nächte",
+      datum: "13.–14. Juli",
+      naechte: "1 Nacht",
       anreise: "Mietwagen von Sandusky über Cleveland, Erie und Buffalo zu den Niagarafällen (ca. 4,5–4,75 Std., ca. 440 km; New York State Thruway mit Maut). Übernachtung auf der amerikanischen Seite, ohne Grenzübertritt mit dem Auto.",
       text: "Die berühmtesten Wasserfälle Nordamerikas: mit dem Boot bis in die Gischt des Hufeisenfalls und auf Holzstegen direkt an den Bridal Veil Falls.",
       teens: "Bootsfahrt mit der Maid of the Mist in die Gischt, Cave of the Winds (Holzstege am Wasserfall, Regenponcho inklusive), Goat Island, Beleuchtung und Feuerwerk am Abend.",
       fakten: [
-        "<strong>Dauer:</strong> 2 Nächte: ein Tag Maid of the Mist, Cave of the Winds und Goat Island; am Abend die beleuchteten Fälle.",
+        "<strong>Dauer:</strong> 1 Nacht: am Nachmittag Maid of the Mist und Cave of the Winds, am Abend die beleuchteten Fälle, am nächsten Morgen Goat Island und weiter.",
         "<strong>Preise:</strong> Maid of the Mist 2026 ca. 30 USD Erwachsene, ca. 20 USD Kinder 6–12 (inkl. Lift); Cave of the Winds mit eigenem Eintritt.",
         "<strong>Kanada:</strong> Die kanadische Seite mit dem besten Blick ist zu Fuss über die Rainbow Bridge erreichbar (Pass mitnehmen). Mit dem Mietwagen nach Kanada nur mit Erlaubnis des Vermieters."
       ],
@@ -605,7 +605,7 @@ REISEN.usaquer = {
       [
         "Unterkunft (Familienzimmer, 3 Sterne)",
         "6’200–9’000",
-        "6’800",
+        "6’900",
         "ca. 110–420 CHF pro Nacht inkl. Steuern (ein Zimmer mit zwei Queen-Betten); Los Angeles, Monument Valley, Chicago und New York am teuersten, in Las Vegas zusätzlich «Resort Fees»"
       ],
       ["Verpflegung (Restaurants, Imbiss, Getränke)", "4’500–8’000", "6’000", "ca. 140–250 CHF pro Tag für 4 Personen"],
@@ -635,9 +635,9 @@ REISEN.usaquer = {
       ["9. New Orleans (2)", "810–1’290"],
       ["10. Memphis (1)", "300–480"],
       ["11. St. Louis (2)", "610–960"],
-      ["12. Chicago (3)", "1’370–2’170"],
+      ["12. Chicago (4)", "1’830–2’890"],
       ["13. Sandusky (2)", "740–1’180"],
-      ["14. Niagarafälle (2)", "670–1’060"],
+      ["14. Niagarafälle (1)", "340–530"],
       ["15. Finger Lakes (3)", "800–1’260"],
       ["16. New York (4)", "2’570–4’070"]
     ],
@@ -648,7 +648,7 @@ REISEN.usaquer = {
       "Alle Beträge sind Richtwerte in CHF (Schätzungen, nicht verbindlich). Flug-, Hotel- und Mietwagenpreise im Juli schwanken stark; aktuelle Preise vor der Buchung vergleichen."
     ],
     naechte: 32,
-    total: "27’150",
+    total: "27’250",
     spanne: "23’500–34’700",
     proTag: "ca. 850 CHF pro Tag, ca. 6’800 pro Person"
   },

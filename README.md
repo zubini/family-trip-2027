@@ -5,9 +5,9 @@
 Reiseführer und Variantenvergleich für die Familienreise 2027 (Sa, 19. Juni bis Sa, 24. Juli, 2 Erwachsene und 2 Kids) mit fünf Varianten:
 
 - **Spanien / Portugal / Marokko**: mit dem eigenen Auto ab Brig-Glis, sechs Nächte Marokko nur mit Fähre und Zug (Casablanca, Marrakesch, Agafay-Wüste, Fès)
-- **USA (Los Angeles – Miami – New York)**: Roadtrip von Los Angeles durch den Südwesten über Texas, New Orleans und Destin nach Florida, Inlandflug nach Washington, Zug nach New York
-- **USA Ost (Miami – Chicago – New York)**: nur mit dem Mietwagen von Miami über Key Largo, Orlando, Savannah, Charleston und die Outer Banks nach Washington, über Pittsburgh nach Chicago und über Cedar Point, die Niagarafälle und die Finger Lakes nach New York
-- **USA Quer (Los Angeles – New Orleans – Chicago – New York)**: mit dem Mietwagen von Los Angeles über Las Vegas, Kanab und Monument Valley nach Albuquerque, über Amarillo und Fort Worth nach Houston und New Orleans, über Memphis und St. Louis nach Chicago, über Cedar Point und die Niagarafälle in die Finger Lakes und nach New York (kein Inlandflug)
+- **USA Süd (Los Angeles – Florida – New York)**: Roadtrip von Los Angeles durch den Südwesten über Texas, New Orleans und Destin nach Florida, Inlandflug nach Washington, Zug nach New York
+- **USA Ostküste (Miami – Niagara – New York)**: nur mit dem Mietwagen von Miami über Key Largo, Orlando, Savannah, Charleston und die Outer Banks nach Washington, über Hershey zu den Niagarafällen und durch die Finger Lakes nach New York
+- **USA Mitte (Los Angeles – Chicago – New York)**: mit dem Mietwagen von Los Angeles über Las Vegas, Kanab und Monument Valley nach Albuquerque, über Amarillo und Fort Worth nach Houston und New Orleans, über Memphis und St. Louis nach Chicago, über Cedar Point und die Niagarafälle in die Finger Lakes und nach New York (kein Inlandflug)
 - **Malaysia / Thailand**: von Singapur nach Bangkok
 
 Dazu eine Einstiegsseite mit Vergleich, Bewertung, Budget sowie Pro und Contra und eine Seite mit den Quellen.
@@ -21,9 +21,9 @@ index.html        Seitengerüst
 data/             die Inhalte, hier wird fast alles geändert
   start.js        Einstiegsseite: Texte, Bewertung, Pro und Contra
   marokko.js      Spanien / Portugal / Marokko (eigenes Auto, Marokko mit Fähre und Zug)
-  usa.js          USA (Los Angeles–Miami–New York)
-  usaost.js       USA Ost (Miami–Chicago–New York, nur Mietwagen)
-  usaquer.js      USA Quer (Los Angeles–New Orleans–Chicago–New York, ohne Inlandflug)
+  usa.js          USA Süd (Los Angeles–Florida–New York)
+  usaost.js       USA Ostküste (Miami–Niagara–New York, nur Mietwagen)
+  usamitte.js     USA Mitte (Los Angeles–Chicago–New York, ohne Inlandflug)
   asien.js        Malaysia / Thailand (Singapur–Bangkok)
   quellen.js      Seite «Quellen» (Belege für Fahrzeiten, Einreise, Bilder)
   bilder-unsplash.js  Unsplash-Fotos (erzeugt von tools/bilder-unsplash.js)

@@ -4,7 +4,7 @@
 window.REISEN = window.REISEN || {};
 REISEN.usa = {
   titel: "Von Los Angeles über New Orleans und Miami nach New York",
-  menu: "USA",
+  menu: "USA Süd",
   untertitel: "Fünf Wochen USA: mit dem Mietwagen von Los Angeles über Las Vegas, Kanab, Monument Valley, Albuquerque und White Sands nach Texas, über San Antonio und New Orleans an den Strand von Destin, nach Orlando und Miami; dann mit dem Flugzeug nach Washington und mit dem Zug nach New York.",
   zeitraum: "Sa, 19.06.2027 bis Do, 22.07.2027, 2 Erwachsene und 2 Kids",
   titelbild: {
