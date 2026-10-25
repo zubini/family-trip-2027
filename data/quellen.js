@@ -140,6 +140,18 @@ window.QUELLEN = {
       ]
     },
     {
+      titel: "USA Nord (Los Angeles – Chicago – New York)",
+      links: [
+        ["OSRM: Fahrzeiten und Distanzen der Etappen auf der Route 66 und im Osten (Routenplaner, eher zu lang gerechnet)", "https://router.project-osrm.org"],
+        ["Gateway Arch: Tickets für die Fahrt auf die Spitze (2026 ca. 15–19 USD ab 16)", "https://gatewayarch.com/buy-tickets"],
+        ["Tripster: City Museum St. Louis (Eintritt ca. 20–23 USD)", "https://www.tripster.com/detail/city-museum-st-louis-tickets"],
+        ["Texas Parks & Wildlife: Palo Duro Canyon (8 USD ab 13 Jahren)", "https://tpwd.texas.gov/state-parks/palo-duro-canyon/field-trips-group-visits/group-visits"],
+        ["The Local Tourist: Blue Whale of Catoosa (Route 66)", "https://thelocaltourist.com/blue-whale-of-catoosa/"],
+        ["NPS: Independence Hall mit Zeitfenster-Tickets", "https://www.nps.gov/inde/learn/news/memorial-day-weekend-in-the-historic-district.htm"],
+        ["The Constitutional: Independence Hall, Tickets", "https://www.theconstitutional.com/node/1872"]
+      ]
+    },
+    {
       titel: "Bewertung: Reisezeit und CO₂",
       links: [
         ["Trainline: Zürich Flughafen–Brig mit dem Zug (ca. 2,5 Std.)", "https://thetrainline.com/train-times/zurich-to-brig"],

@@ -1,6 +1,6 @@
 // Einstiegsseite: Vergleich der Reisen
 // Budgetzahlen kommen automatisch aus den Reisen (data/marokko.js usw.).
-// Platzhalter in Texten: {plan:marokko}, {plan:usa}, {plan:usaost}, {plan:asien} = Planwert, {mehrkosten} = USA minus Malaysia / Thailand.
+// Platzhalter in Texten: {plan:marokko}, {plan:usa}, {plan:usaost}, {plan:usanord}, {plan:asien} = Planwert, {mehrkosten} = USA minus Malaysia / Thailand.
 // Reihenfolge der Reisen hier = Reihenfolge der Spalten; die Navigation folgt der Reihenfolge in index.html.
 // Pro/Contra: je 5 kurze Stichworte. Bewertung: [Punkte 0–5, Text]. Die Punkte und Pro/Contra sind eine Einschätzung und bei Änderungen an den Reisen von Hand anzupassen.
 window.START = {
@@ -109,6 +109,38 @@ window.START = {
         "Schwüle Hitze im Süden"
       ]
     },
+    usanord: {
+      name: "USA Nord (Los Angeles – Chicago – New York)",
+      zusatz: "Roadtrip ohne Inlandflug: Südwesten, Route 66, Grosse Seen, Washington und New York",
+      passt: "ein grosser Roadtrip quer durchs Land mit Route 66, Monument Valley, Chicago, Niagara, Washington und New York im Vordergrund steht, Strand und warmes Meer weniger wichtig sind und ihr viele Fahrtage in Kauf nehmt.",
+      kurz: "Fünf Wochen quer durch die USA ohne Inlandflug: mit dem Mietwagen von Los Angeles über Las Vegas, Kanab und Monument Valley auf der Route 66 über Albuquerque, Amarillo, Tulsa und St. Louis nach Chicago, über Cedar Point, die Niagarafälle und die Finger Lakes nach Washington, mit dem Zug über Philadelphia nach New York.",
+      route: "Los Angeles, Las Vegas, Kanab, Monument Valley, Albuquerque, Amarillo, Tulsa, St. Louis, Chicago, Sandusky (Cedar Point), Niagarafälle, Finger Lakes, Washington, (Zug) Philadelphia, (Zug) New York",
+      stationen: "15 Stationen",
+      laender: "USA (Kalifornien bis New York)",
+      hinflug: "Zürich–Los Angeles ca. 12,25 Std. direkt mit SWISS (im Sommer 2026 täglich ausser Do); Hin- und Rückflug für alle vier ca. 4’000 CHF",
+      rueckflug: "Direktflug New York (JFK)–Zürich ca. 7,75–8 Std. (SWISS, täglich) am Mi, 21.07.2027, Ankunft Do, 22.07.2027 am Morgen; zwei Tage Puffer gegen den Jetlag",
+      dazwischen: "Einwegmiete Los Angeles–Washington (ca. 24 Tage), Amtrak Washington–Philadelphia–New York (zusammen ca. 2,5–3,5 Std.), kein Inlandflug",
+      tempo: "Ca. 54–60 Std. reine Fahrzeit (ca. 5’450 km), realistisch mit Pausen und Stau ca. 62–70 Std. im Auto, an 12 Fahrtagen: 5 Tage mit 5–6,5 Std., die übrigen 3–5 Std.; von Albuquerque bis St. Louis drei Fahrtage hintereinander.",
+      gesamt: "Ca. 100–108 Std. Tür zu Tür: Bahn Brig-Glis–Zürich Flughafen (ca. 2,5 Std.), Flüge mit Wartezeiten, Einreise und Mietwagen zusammen ca. 31 Std., ca. 62–70 Std. im Auto und ca. 4 Std. mit dem Zug. Uhr −9 Std. in Los Angeles, −6 Std. im Osten.",
+      wetter: "In Los Angeles am Meer mild, in Las Vegas und im Südwesten Ende Juni 38–45 °C, ab Juli Monsungewitter; in Texas, Oklahoma und Missouri heiss mit Gewittern, an den Grossen Seen angenehmer (ca. 26–29 °C), Washington und New York heiss und schwül.",
+      einreise: "ESTA für alle vier (ca. 40 USD pro Person), Regeln im Wandel. Kein Nationalpark-Jahrespass nötig (Zion, Bryce oder Grand Canyon nur als Option mit 100 USD Zusatzgebühr pro Person ab 16). Nach Kanada (Niagara) zu Fuss mit dem Pass.",
+      hoehepunkte: "Santa Monica und Griffith Observatory, Las Vegas, rosa Sanddünen bei Kanab, Horseshoe Bend, Monument Valley, Sandia Peak und Meow Wolf, Route 66 mit Cadillac Ranch, Palo Duro Canyon, Gateway Arch und City Museum, Chicago, Cedar Point, Niagarafälle, Finger Lakes, Washington, Philadelphia, New York.",
+      teens: "Santa Monica Pier, Sandboarding bei Kanab, Jeep-Tour im Monument Valley, Autos besprayen auf der Cadillac Ranch, Klettern im City Museum, Glasbalkon im Skydeck, Achterbahnen in Cedar Point, Maid of the Mist, Rocky Steps, New York.",
+      pro: [
+        "Einmal quer durchs Land, mit der Route 66",
+        "Monument Valley, Kanab, Niagara",
+        "Los Angeles, Las Vegas, Chicago, Washington, New York",
+        "Cedar Point, City Museum, Skydeck",
+        "Flugangebot ca. 4’000 CHF, kein Inlandflug"
+      ],
+      contra: [
+        "Teuer (ca. {plan:usanord} CHF)",
+        "Ca. 62–70 Std. im Auto",
+        "Drei Fahrtage hintereinander durch die Prärie",
+        "Kaum Strand, kein warmes Meer",
+        "Wüstenhitze, Jetlag (−9 Std.), viel CO₂"
+      ]
+    },
     asien: {
       name: "Malaysia / Thailand",
       zusatz: "von Singapur nach Bangkok",
@@ -151,6 +183,7 @@ window.START = {
       ],
       usa: [5, "Rote Felsen und rosa Sanddünen bei Kanab, Horseshoe Bend, Monument Valley, Sandia Peak, White Sands, die Everglades und das Korallenriff der Keys: spektakuläre und abwechslungsreiche Landschaften."],
       usaost: [3, "Everglades am Rand, Korallenriff bei Key Largo, Dünen und wilde Pferde auf den Outer Banks, Niagarafälle und die Schluchten der Finger Lakes; schöne Küsten und Wasserfälle, aber keine grossen Nationalparks."],
+      usanord: [4, "Rosa Sanddünen bei Kanab, Horseshoe Bend, Monument Valley, Sandia Peak, Palo Duro Canyon, Niagarafälle und die Schluchten der Finger Lakes; abwechslungsreich, aber ohne die grossen Nationalparks."],
       asien: [
         4,
         "Inseln, Strände und Riffe von Tioman bis Koh Tao, dazu Delfine bei Khanom und Wasserfälle; eher sanfte als dramatische Landschaften."
@@ -161,6 +194,7 @@ window.START = {
       marokko: [0, "Kein Regenwald: Steinwüste, Palmengärten in Marrakesch und grüne Hügel im Baskenland."],
       usa: [1, "Kein Regenwald; Sümpfe in Louisiana und Mangroven in den Everglades."],
       usaost: [1, "Kein Regenwald; Mangroven in Key Largo und Sümpfe der Everglades."],
+      usanord: [0, "Kein Regenwald."],
       asien: [
         3,
         "Dschungelwanderung auf Tioman, Wasserfälle und Inselwälder; kein grosser zusammenhängender Regenwald auf der Route."
@@ -174,6 +208,7 @@ window.START = {
       ],
       usa: [4, "Mojave um Las Vegas, rote Felswüsten in Utah und Arizona, Monument Valley, die weissen Gipsdünen von White Sands und die Chihuahua-Wüste in Westtexas."],
       usaost: [0, "Keine Wüste; nur Küstendünen auf den Outer Banks."],
+      usanord: [4, "Mojave um Las Vegas, rote Felsen und Dünen bei Kanab, Monument Valley und die Wüste New Mexicos; danach Prärie."],
       asien: [0, "Keine Wüste: tropische Inseln, Regenwald und Städte."]
     },
     {
@@ -184,6 +219,7 @@ window.START = {
       ],
       usa: [3, "Santa Monica am Pazifik, drei Nächte an den weissen Stränden bei Destin und vier Nächte in Miami mit Miami Beach, Wasser ca. 28–31 °C; dazwischen viele Tage ohne Meer."],
       usaost: [3, "Miami Beach, zwei Nächte in Key Largo, Tybee Island, Folly Beach und die Outer Banks, Wasser im Süden ca. 28–31 °C; im Norden Badestellen an Seen."],
+      usanord: [1, "Santa Monica am Pazifik, Stadtstrände am Michigansee, Strand am Eriesee bei Cedar Point und Badestellen in den Finger Lakes; kein warmes Meer."],
       asien: [
         5,
         "Tioman, Perhentian Islands, Khanom, Koh Samui, Koh Tao und Hua Hin: tropische Strände mit ca. 29 °C warmem Wasser an fast jeder zweiten Station."
@@ -197,6 +233,7 @@ window.START = {
       ],
       usa: [2, "Ein Tagesausflug von Miami nach Key Largo mit Bootstour zum einzigen Korallenriff an der Festlandküste der USA, dazu die Steinmolen bei Destin; das Riff ist weniger farbig als in Südostasien."],
       usaost: [2, "Zwei Nächte in Key Largo mit Bootstour zum einzigen Korallenriff an der Festlandküste der USA; weniger farbig als in Südostasien."],
+      usanord: [0, "Kein Schnorcheln auf der Route."],
       asien: [
         5,
         "Tioman, Perhentian Islands, Koh Samui und Koh Tao: fast jede Inselstation hat Riffe, Schildkröten und Schnorchelboote."
@@ -210,6 +247,7 @@ window.START = {
       ],
       usa: [4, "Sandboarding auf den Dünen bei Kanab und auf White Sands, Kletterei durch den Belly of the Dragon, Sumpftour mit Alligatoren, Airboat in den Everglades, Schnorcheln am Riff, ein Roadtrip quer durchs Land."],
       usaost: [4, "Airboat mit Alligatoren, Schnorcheln am Riff, Kajak in den Mangroven, Pferde-Tour auf den Outer Banks, Achterbahnen in Cedar Point, Boot in die Gischt der Niagarafälle, Schlucht von Watkins Glen."],
+      usanord: [4, "Sandboarding bei Kanab, Jeep-Tour im Monument Valley, Klettern im City Museum, Achterbahnen in Cedar Point, Boot in die Gischt der Niagarafälle, ein Roadtrip quer durchs Land."],
       asien: [3, "Kajak, Seilrutschen, Inselhopping und Fähren; eher abenteuerlich beim Reisen als in der Natur."]
     },
     {
@@ -220,6 +258,7 @@ window.START = {
       ],
       usa: [5, "Los Angeles, Las Vegas, Albuquerque und Santa Fe, San Antonio, New Orleans, Miami, Washington und New York mit Museen und Aussichtsplattformen."],
       usaost: [5, "Miami, Savannah, Charleston, Washington, Pittsburgh, Chicago und New York mit Museen, Architektur und Aussichtsplattformen."],
+      usanord: [5, "Los Angeles, Las Vegas, Albuquerque und Santa Fe, St. Louis, Chicago, Washington, Philadelphia und New York, dazu die Route 66."],
       asien: [4, "Singapur, Kuala Lumpur, Penang und Bangkok mit Street-Food und Tempeln."]
     },
     {
@@ -230,6 +269,7 @@ window.START = {
       ],
       usa: [4, "Sehr gute Spitäler, aber sehr teuer (Reiseversicherung mit hoher Deckung nötig); Hitze im Südwesten, Hurrikansaison an der Golfküste und in Florida."],
       usaost: [4, "Sehr gute Spitäler, aber sehr teuer (Reiseversicherung mit hoher Deckung nötig); schwüle Hitze und Hurrikansaison im Süden."],
+      usanord: [4, "Sehr gute Spitäler, aber sehr teuer (Reiseversicherung mit hoher Deckung nötig); Hitze im Südwesten, Gewitter in der Prärie."],
       asien: [
         3,
         "Singapur sehr sicher; in Malaysia und Thailand Dengue-Mückenschutz, kein Leitungswasser, Impfstatus vorab klären; auf den Inseln (Tioman, Perhentian) ist ein Spital weit weg, Bootsfahrten bei Wellengang."
@@ -240,6 +280,7 @@ window.START = {
       marokko: [4, "ca. {plan:marokko} CHF: kein Flug, Supercharging gratis, Marokko günstig; dafür Fähren und Züge in Marokko sowie Parkplatz in Tarifa."],
       usa: [1, "ca. {plan:usa} CHF: rund {mehrkosten} CHF mehr, vor allem Einwegmiete, Inlandflug und Unterkünfte in Miami und New York."],
       usaost: [1, "ca. {plan:usaost} CHF: vor allem Einwegmiete, Unterkünfte in Miami, Washington, Chicago und New York und Freizeitparks."],
+      usanord: [1, "ca. {plan:usanord} CHF: vor allem Einwegmiete, Unterkünfte in Los Angeles, Chicago, Washington und New York."],
       asien: [4, "ca. {plan:asien} CHF: Singapur ist teuer, der Rest günstig."]
     },
     {
@@ -250,6 +291,7 @@ window.START = {
       ],
       usa: [1, "Ca. 107–114 Stunden Tür zu Tür: zwei Langstreckenflüge mit Einreise und Jetlag, ein Inlandflug, dazu viel Zeit im Auto (ca. 63–69 Stunden an 11 Fahrtagen, ein Tag mit ca. 9,5–10 Stunden und vier mit 5–7 Stunden)."],
       usaost: [2, "Ca. 90–97 Stunden Tür zu Tür: zwei Langstreckenflüge, aber weniger Zeitverschiebung (−6 Std.); viel Zeit im Auto (ca. 58–65 Stunden an 12 Fahrtagen, zwei Tage mit 7–7,75 Stunden)."],
+      usanord: [1, "Ca. 100–108 Stunden Tür zu Tür: zwei Langstreckenflüge mit Jetlag (−9 Std.), viel Zeit im Auto (ca. 62–70 Stunden an 12 Fahrtagen, drei Fahrtage hintereinander durch die Prärie)."],
       asien: [
         2,
         "Ca. 101–108 Stunden Tür zu Tür: zwei Direktflüge mit Jetlag, dazu ca. 65–70 Stunden mit Bus, Zug und Fähre und viele Umstiege mit Gepäck; niemand muss selber fahren."
@@ -263,6 +305,7 @@ window.START = {
       ],
       usa: [1, "Zwei Langstreckenflüge und ein Inlandflug (zusammen ca. 17’500 km) und ca. 5’350 km Mietwagen, grob geschätzt ca. 3,6 t CO₂ pro Person."],
       usaost: [1, "Zwei Langstreckenflüge (zusammen ca. 14’400 km) und ca. 5’000 km Mietwagen, grob geschätzt ca. 3 t CO₂ pro Person."],
+      usanord: [1, "Zwei Langstreckenflüge (zusammen ca. 15’800 km) und ca. 5’450 km Mietwagen, grob geschätzt ca. 3,4 t CO₂ pro Person."],
       asien: [
         1,
         "Zwei Langstreckenflüge (ca. 19’000 km), unterwegs Bus, Zug und Fähre, grob geschätzt ca. 4 t CO₂ pro Person."
