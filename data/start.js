@@ -1,13 +1,13 @@
 // Einstiegsseite: Vergleich der Reisen
 // Budgetzahlen kommen automatisch aus den Reisen (data/marokko.js usw.).
-// Platzhalter in Texten: {plan:marokko}, {plan:usa}, {plan:usamitte}, {plan:asien}, {plan:indonesien} = Planwert, {mehrkosten} = USA minus Malaysia / Thailand.
+// Platzhalter in Texten: {plan:marokko}, {plan:usa}, {plan:usamitte}, {plan:asien}, {plan:malaysia} = Planwert, {mehrkosten} = USA minus Malaysia / Thailand.
 // Reihenfolge der Reisen hier = Reihenfolge der Spalten; die Navigation folgt der Reihenfolge in index.html.
 // Pro/Contra: je 5 kurze Stichworte. Bewertung: [Punkte 0–5, Text]. Die Punkte und Pro/Contra sind eine Einschätzung und bei Änderungen an den Reisen von Hand anzupassen.
 window.START = {
   titel: "Familienreise 2027",
   zeitraum: "Ab Sa, 19.06.2027, bis spätestens Sa, 24.07.2027, 2 Erwachsene und 2 Kids",
   untertitel: "Verschiedene Reisevarianten als Fahrplan für eine Entscheidung.",
-  reisenIntro: "Alle Reisen beginnen am Sa, 19.06.2027 und sind für die Familie mit Sohn (12) und Tochter (14) geplant. Die Reise mit dem eigenen Auto dauert bis Sa, 24.07.2027 (35 Nächte); die Flugreisen enden schon am Do, 22.07.2027 (32 Nächte; bei Singapur / Malaysia / Indonesien 31 Nächte und zwei Nachtflüge), damit zwei Tage gegen den Jetlag bleiben. Ein Klick führt zum vollständigen Fahrplan mit Stationen, Karte und Budget.",
+  reisenIntro: "Alle Reisen beginnen am Sa, 19.06.2027 und sind für die Familie mit Sohn (12) und Tochter (14) geplant. Die Reise mit dem eigenen Auto dauert bis Sa, 24.07.2027 (35 Nächte); die Flugreisen enden schon am Do, 22.07.2027 (32 Nächte; Singapur / Malaysia dauert vier Wochen bis Mo, 19.07.2027), damit zwei Tage gegen den Jetlag bleiben. Ein Klick führt zum vollständigen Fahrplan mit Stationen, Karte und Budget.",
   bewertungIntro: "Bewertet werden Natur, Dschungelfeeling, Wüstenfeeling, Strand und Baden, Schnorcheln, Abenteuer, Städte, Gesundheit und Sicherheit, Budget, Reisekomfort sowie CO₂ und Umwelt. Fünf Punkte sind die beste Bewertung (beim Budget heisst das: günstig, beim CO₂: wenig Ausstoss). Die Skala ist fest und nicht nur ein Vergleich der Reisen: 5 heisst Weltklasse (z.B. tropische Riffe beim Schnorcheln, kurze Etappen beim Reisekomfort), 0 heisst, dass es das auf der Reise nicht gibt. Die Punkte sind eine Einschätzung auf Basis der Reisepläne, keine Messung.",
   budgetIntro: "Mittelklasse inklusive Flüge bzw. Autokosten, Transport, Unterkunft, Verpflegung und Aktivitäten für 4 Personen. Der dunkle Punkt ist der Planwert, der helle Balken die Spanne.",
   vergleichIntro: "Die wichtigsten Unterschiede nebeneinander.",
@@ -141,36 +141,36 @@ window.START = {
         "Jetlag (+6 Std.), viel CO₂"
       ]
     },
-    indonesien: {
-      name: "Singapur / Malaysia / Indonesien",
-      zusatz: "Singapur, Tioman, Bali, Gili-Inseln und Komodo in der Trockenzeit",
-      passt: "Schnorcheln, Inseln und Strand im Vordergrund stehen, dazu Abenteuer wie Komodowarane, Mantas, Rafting und Dschungel, und ihr Bus, Fähren, kurze Flüge und Bootsfahrten in Kauf nehmt.",
-      kurz: "Fünf Wochen Singapur, Malaysia und Indonesien: Singapur, die Dschungelinsel Tioman, Bali mit Ubud und Amed, die Gili-Inseln, Komodo, Nusa Lembongan, Südbali und zum Schluss Sentosa.",
-      route: "Singapur, (Bus, Fähre) Pulau Tioman, (Flug) Ubud, Amed, (Boot) Gili Air, (Flug) Labuan Bajo (Komodo), (Flug, Boot) Nusa Lembongan, Südbali, (Flug) Singapur und Sentosa",
-      stationen: "9 Stationen und 1 Zwischenübernachtung",
-      laender: "Singapur, Malaysia (Tioman), Indonesien (Bali, Gili-Inseln, Flores)",
+    malaysia: {
+      name: "Singapur / Malaysia",
+      zusatz: "Vier Wochen ohne Inlandflug: Malakka, Kuala Lumpur, Regenwald und die Inseln der Ostküste",
+      passt: "Inseln, Schnorcheln und Dschungel im Vordergrund stehen, die Reise kürzer und ohne Inlandflüge sein soll und ihr Busse, Transfers und Boote in Kauf nehmt.",
+      kurz: "Vier Wochen Singapur und Malaysia: Malakka, Kuala Lumpur, Taman Negara, die Inseln Perhentian, Redang und Tioman, das Surfdorf Cherating und zum Schluss Sentosa.",
+      route: "Singapur, (Bus) Malakka, Kuala Lumpur, (Transfer) Taman Negara, Perhentian Islands, Pulau Redang, Cherating, Pulau Tioman, (Fähre, Bus) Singapur und Sentosa",
+      stationen: "9 Stationen",
+      laender: "Singapur, Malaysia",
       hinflug: "Direktflug Zürich–Singapur ca. 12–13 Std. (SWISS) am Sa, 19.06.2027 am Abend, Ankunft So am Nachmittag",
-      rueckflug: "Direktflug Singapur–Zürich ca. 13–13,5 Std. (SWISS) in der Nacht auf den Do, 22.07.2027, Ankunft am frühen Morgen; zwei Tage Puffer gegen den Jetlag",
-      dazwischen: "Bus und Fähre nach Tioman und zurück, vier kurze Flüge (je ca. 1–2,75 Std.), Schnellboote nach Gili Air und Nusa Lembongan, Fahrer auf Bali",
-      tempo: "Niemand muss selber fahren: zweimal Bus und Fähre (je ca. 5,5–6,5 Std.), ca. 6–8 Std. mit Fahrer, ca. 3–4 Std. Schnellboot und vier kurze Flüge, mit Transfers je ein halber bis ganzer Reisetag; überall 2–4 Nächte.",
-      gesamt: "Ca. 75–85 Std. Tür zu Tür: Bahn Brig-Glis–Zürich Flughafen (ca. 2,5 Std.), Langstreckenflüge mit Wartezeiten, Einreise und Transfers zusammen ca. 34 Std., Bus und Fähren nach Tioman ca. 12 Std., vier Regionalflüge mit Transfers ca. 20–24 Std., Boote und Fahrten ca. 9–12 Std. Uhr +6 Std.",
-      wetter: "Trockenzeit auf Bali, den Gili-Inseln und Flores, beste Zeit auch auf Tioman: ca. 29–32 °C, wenig Regen; Singapur ca. 31 °C und schwül mit kurzen Schauern; Meer ca. 27–29 °C.",
-      einreise: "Singapur und Malaysia visumfrei (SG Arrival Card, MDAC). Indonesien: Visum bei Ankunft oder e-VOA (2026 ca. 500’000 IDR pro Person, Erhöhung geplant), Bali-Abgabe 150’000 IDR pro Person; nur offizielle Seiten nutzen.",
-      hoehepunkte: "Gardens by the Bay, Dschungel und Riffe auf Tioman, Reisterrassen und Rafting bei Ubud, Wrack bei Amed, Schildkröten auf Gili Air, Komodowarane und Mantas, Nusa Lembongan, Uluwatu mit Kecak-Tanz, Universal Studios Singapore.",
-      teens: "Schnorcheln auf Tioman, Dschungel-Wanderung, Rafting, Schildkröten und Mantas, Komodowarane, Klippenspringen, Surfkurs, Waterbom Bali, Universal Studios Singapore.",
+      rueckflug: "Direktflug Singapur–Zürich ca. 13–13,5 Std. (SWISS) in der Nacht auf den Mo, 19.07.2027, Ankunft am frühen Morgen",
+      dazwischen: "Fernbusse, private Transfers, Speedboote und Fähre, kein Inlandflug",
+      tempo: "Niemand muss selber fahren: Busse und Transfers je ca. 2–5,5 Std., dazu Boote; längster Reisetag Taman Negara–Perhentian ca. 6–7 Std.; überall 2–5 Nächte.",
+      gesamt: "Ca. 70–76 Std. Tür zu Tür: Bahn Brig-Glis–Zürich Flughafen (ca. 2,5 Std.), Langstreckenflüge mit Wartezeiten, Einreise und Transfers zusammen ca. 34 Std., Busse, Transfers und Boote ca. 33–38 Std. Uhr +6 Std.",
+      wetter: "Beste Zeit an der Ostküste (März bis Oktober): ruhige See, klares Wasser, ca. 30–32 °C; im Landesinneren und in Kuala Lumpur schwül mit Gewittern am Nachmittag; Meer ca. 28–30 °C.",
+      einreise: "Singapur und Malaysia visumfrei (SG Arrival Card, MDAC online vor der Ankunft).",
+      hoehepunkte: "Gardens by the Bay, Altstadt von Malakka, Petronas Towers und Batu Caves, Regenwald von Taman Negara mit Hängebrücken, Schildkröten und Riffhaie auf den Perhentians, klares Wasser auf Redang, Glühwürmchen bei Cherating, Dschungelinsel Tioman, Universal Studios Singapore.",
+      teens: "Nachtwanderung im Dschungel, Bootsfahrt durch Stromschnellen, Schnorcheln mit Schildkröten und Riffhaien, Surfkurs, Glühwürmchen, Sunway Lagoon, Universal Studios Singapore.",
       pro: [
-        "Weltklasse-Schnorcheln: Schildkröten, Mantas",
-        "Komodowarane, Dschungel, Rafting",
-        "Trockenzeit, angenehm warm",
-        "Niemand muss selber fahren",
-        "Drei Länder, Singapur am Anfang und Ende"
+        "Beste Reisezeit an der Ostküste",
+        "Inseln: Perhentian, Redang, Tioman",
+        "Regenwald, Schildkröten, Glühwürmchen",
+        "Keine Inlandflüge, nur vier Wochen",
+        "Günstig (ca. {plan:malaysia} CHF)"
       ],
       contra: [
-        "Vier kurze Flüge, Bus, Fähren und Boote",
+        "Viele Transfers mit Bus, Van und Boot",
         "Lange Anreise, Jetlag (+6 Std.)",
-        "Dengue, Tollwut, Malaria auf Flores",
-        "Einfache Versorgung auf kleinen Inseln",
-        "Viel CO₂"
+        "Fähren von Gezeiten und Wetter abhängig",
+        "Dengue, Blutegel im Dschungel",
+        "Teils wie Malaysia / Thailand"
       ]
     }
   },
@@ -187,7 +187,7 @@ window.START = {
         4,
         "Inseln, Strände und Riffe von Tioman bis Koh Tao, dazu Delfine bei Khanom und Wasserfälle; eher sanfte als dramatische Landschaften."
       ],
-      indonesien: [5, "Dschungelinsel Tioman, Reisterrassen und Wälder bei Ubud, Vulkane Agung und Rinjani, Inseln und Buchten im Komodo-Nationalpark mit Waranen, Riffe: spektakulär und abwechslungsreich."],
+      malaysia: [4, "Regenwald von Taman Negara, Dschungel und Wasserfälle auf Tioman, Inseln und Riffe der Ostküste, Mangroven mit Glühwürmchen; eher sanfte als dramatische Landschaften."],
     },
     {
       kriterium: "Dschungelfeeling",
@@ -198,7 +198,7 @@ window.START = {
         3,
         "Dschungelwanderung auf Tioman, Wasserfälle und Inselwälder; kein grosser zusammenhängender Regenwald auf der Route."
       ],
-      indonesien: [3, "Dschungel und Wasserfälle auf Tioman und bei Ubud, Mangroven auf Nusa Lembongan; kein grosser zusammenhängender Regenwald auf der Route."],
+      malaysia: [4, "Taman Negara, einer der ältesten Regenwälder der Welt, mit Hängebrücken und Nachtwanderung, dazu der Dschungel auf Tioman."],
     },
     {
       kriterium: "Wüstenfeeling",
@@ -209,7 +209,7 @@ window.START = {
       usa: [4, "Mojave um Las Vegas, rote Felswüsten in Utah und Arizona, Monument Valley, die weissen Gipsdünen von White Sands und die Chihuahua-Wüste in Westtexas."],
       usamitte: [4, "Mojave um Las Vegas, rote Felsen und Dünen bei Kanab, Monument Valley und die Wüste New Mexicos; danach Prärie."],
       asien: [0, "Keine Wüste: tropische Inseln, Regenwald und Städte."],
-      indonesien: [1, "Keine Wüste; trockene Savanne auf den Komodo-Inseln."]
+      malaysia: [0, "Keine Wüste: Regenwald und tropische Inseln."],
     },
     {
       kriterium: "Strand und Baden",
@@ -223,7 +223,7 @@ window.START = {
         5,
         "Tioman, Perhentian Islands, Khanom, Koh Samui, Koh Tao und Hua Hin: tropische Strände mit ca. 29 °C warmem Wasser an fast jeder zweiten Station."
       ],
-      indonesien: [5, "Tioman, Gili Air, Pink Beach bei Komodo, Nusa Lembongan und Südbali mit Surfstränden: tropische Strände mit ca. 27–29 °C warmem Wasser."],
+      malaysia: [5, "Perhentian, Redang, Tioman und Cherating: tropische Strände mit ca. 28–30 °C warmem Wasser an fast der Hälfte der Tage."],
     },
     {
       kriterium: "Schnorcheln",
@@ -237,7 +237,7 @@ window.START = {
         5,
         "Tioman, Perhentian Islands, Koh Samui und Koh Tao: fast jede Inselstation hat Riffe, Schildkröten und Schnorchelboote."
       ],
-      indonesien: [5, "Riffe im Marine Park von Tioman, Schildkröten auf den Gili-Inseln, Mantas bei Komodo und Nusa Penida, ein Wrack bei Amed: Weltklasse-Schnorcheln."],
+      malaysia: [5, "Schildkröten und Riffhaie auf den Perhentians, klares Wasser und Korallengärten auf Redang, Riffe auf Tioman."],
     },
     {
       kriterium: "Abenteuer",
@@ -248,7 +248,7 @@ window.START = {
       usa: [4, "Sandboarding auf den Dünen bei Kanab und auf White Sands, Kletterei durch den Belly of the Dragon, Sumpftour mit Alligatoren, Airboat in den Everglades, Schnorcheln am Riff, ein Roadtrip quer durchs Land."],
       usamitte: [4, "Sandboarding bei Kanab, Jeep-Tour im Monument Valley, Sumpftour mit Alligatoren, Klettern im City Museum, Achterbahnen in Cedar Point, Boot in die Gischt der Niagarafälle, ein Roadtrip quer durchs Land."],
       asien: [3, "Kajak, Seilrutschen, Inselhopping und Fähren; eher abenteuerlich beim Reisen als in der Natur."],
-      indonesien: [5, "Dschungel-Wanderung auf Tioman, Rafting, Surfkurs, Komodowarane mit Ranger, Schnorcheln mit Mantas, Klippenspringen."],
+      malaysia: [4, "Nachtwanderung im Dschungel, Bootsfahrt durch Stromschnellen, Schnorcheln mit Riffhaien, Surfkurs, Glühwürmchen-Tour."],
     },
     {
       kriterium: "Städte",
@@ -259,7 +259,7 @@ window.START = {
       usa: [5, "Los Angeles, Las Vegas, Albuquerque und Santa Fe, Austin, New Orleans, Miami und New York mit Museen und Aussichtsplattformen."],
       usamitte: [5, "Los Angeles, Las Vegas, Albuquerque und Santa Fe, Fort Worth, Houston, New Orleans, Memphis, St. Louis, Chicago und New York."],
       asien: [4, "Singapur, Kuala Lumpur, Penang und Bangkok mit Street-Food und Tempeln."],
-      indonesien: [2, "Singapur, dazu Tempel und Tänze auf Bali und malaiische Dörfer auf Tioman; sonst kleine Orte."],
+      malaysia: [3, "Singapur, Malakka (Unesco) und Kuala Lumpur mit Street-Food, Tempeln und Moscheen."],
     },
     {
       kriterium: "Gesundheit und Sicherheit",
@@ -273,7 +273,7 @@ window.START = {
         3,
         "Singapur sehr sicher; in Malaysia und Thailand Dengue-Mückenschutz, kein Leitungswasser, Impfstatus vorab klären; auf den Inseln (Tioman, Perhentian) ist ein Spital weit weg, Bootsfahrten bei Wellengang."
       ],
-      indonesien: [3, "Singapur sehr sicher; in Indonesien Dengue, Tollwut auf Bali (Affen und Hunde meiden), auf Flores Malaria-Risiko, kein Leitungswasser; auf den kleinen Inseln nur einfache Kliniken, Strömungen beim Schnorcheln."]
+      malaysia: [4, "Singapur und Malaysia sicher mit guter Versorgung in den Städten; Dengue, Blutegel im Dschungel, auf den Inseln nur einfache Kliniken, kein Leitungswasser in Malaysia."],
     },
     {
       kriterium: "Budget (mehr Punkte = günstiger)",
@@ -281,7 +281,7 @@ window.START = {
       usa: [1, "ca. {plan:usa} CHF: rund {mehrkosten} CHF mehr, vor allem Einwegmiete, Inlandflug und Unterkünfte in Destin, Key Largo, Miami und New York."],
       usamitte: [1, "ca. {plan:usamitte} CHF: vor allem Einwegmiete, Unterkünfte in Los Angeles, Chicago und New York."],
       asien: [4, "ca. {plan:asien} CHF: Singapur ist teuer, der Rest günstig."],
-      indonesien: [3, "ca. {plan:indonesien} CHF: Langstreckenflug und vier Regionalflüge kosten, Unterkunft und Essen in Malaysia und Indonesien günstig."],
+      malaysia: [4, "ca. {plan:malaysia} CHF: Langstreckenflug, sonst günstig; keine Inlandflüge, vier statt fünf Wochen."],
     },
     {
       kriterium: "Reisekomfort",
@@ -295,7 +295,7 @@ window.START = {
         2,
         "Ca. 101–108 Stunden Tür zu Tür: zwei Direktflüge mit Jetlag, dazu ca. 65–70 Stunden mit Bus, Zug und Fähre und viele Umstiege mit Gepäck; niemand muss selber fahren."
       ],
-      indonesien: [2, "Ca. 75–85 Stunden Tür zu Tür: zwei lange Direktflüge mit Jetlag, Bus und Fähre nach Tioman, vier Regionalflüge und mehrere Schnellboote mit Gepäck; niemand muss selber fahren, überall 2–4 Nächte."],
+      malaysia: [3, "Ca. 70–76 Stunden Tür zu Tür: zwei lange Direktflüge mit Jetlag, dazu Busse, Transfers und Boote mit Gepäck; niemand muss selber fahren, keine Inlandflüge."],
     },
     {
       kriterium: "CO₂ und Umwelt (mehr Punkte = weniger CO₂)",
@@ -309,7 +309,7 @@ window.START = {
         1,
         "Zwei Langstreckenflüge (ca. 19’000 km), unterwegs Bus, Zug und Fähre, grob geschätzt ca. 4 t CO₂ pro Person."
       ],
-      indonesien: [1, "Zwei Langstreckenflüge (ca. 20’600 km) und vier Regionalflüge (ca. 4’500 km), grob geschätzt ca. 4,3 t CO₂ pro Person."],
+      malaysia: [1, "Zwei Langstreckenflüge (ca. 20’600 km), unterwegs Bus, Auto und Boot, grob geschätzt ca. 3,8 t CO₂ pro Person."],
     }
   ]
 };

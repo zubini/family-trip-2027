@@ -144,19 +144,16 @@ window.QUELLEN = {
       ]
     },
     {
-      titel: "Singapur / Malaysia / Indonesien",
+      titel: "Singapur / Malaysia",
       links: [
         ["Skyscanner: SWISS LX 177 Singapur–Zürich (2026 ca. 23.05 Uhr, Ankunft ca. 6.15 Uhr)", "https://www.skyscanner.com/flight-tracker/swiss/lx177"],
-        ["Wego: Visum bei Ankunft in Indonesien 2026 (500’000 IDR)", "https://blog.wego.com/indonesia-visa-on-arrival/"],
-        ["Buch-dein-Visum: Indonesien plant höhere Gebühren für Visa on Arrival und e-VOA", "https://www.buch-dein-visum.de/en/news/indonesien/indonesien-plant-hoehere-gebuehren-fuer-visa-on-arrival-voa-und-e-voa-259a3a"],
-        ["Honeycombers: Visum und Touristenabgabe für Bali", "https://thehoneycombers.com/bali/bali-visa-indonesia/"],
-        ["Freebird Express: Schnellboot Amed–Gili (ca. 1,5 Std. nach Gili Air)", "https://www.gilibookings.com/freebird-express"],
-        ["GeckoRoutes: Schnellboote Bali–Gili-Inseln", "https://www.geckoroutes.com/indonesia/bali-to-gili-islands/"],
-        ["FlightConnections: Nonstop Lombok–Labuan Bajo (Wings Air, ca. 1,25 Std.)", "https://www.flightconnections.com/flights-from-lop-to-lbj"],
-        ["Dragon Dive Komodo: Eintritt und Besucherquoten 2026", "https://dragondivekomodo.com/komodo-island-entry-fees"],
-        ["Komodo Explorer: Preise für Touren 2026", "https://www.komodoexplorer.com/blog/komodo-tour-price-guide-2026"],
-        ["Backpack Moments: Borobudur (Aufstieg, Sonnenaufgang)", "https://backpackmoments.com/borobudur-guide-climb-up-watch-the-sunrise/"],
-        ["Indonesia Expat: zwei Arten von Tickets für Borobudur", "https://indonesiaexpat.id/news/two-different-tickets-applying-at-borobudur-temple"]
+        ["OSRM: Fahrzeiten Singapur–Malakka–Kuala Lumpur–Kuala Tahan–Kuala Besut–Merang–Cherating–Mersing (Routenplaner)", "https://router.project-osrm.org"],
+        ["GeckoRoutes: Kuala Lumpur–Taman Negara", "https://geckoroutes.com/malaysia/kuala-lumpur-to-taman-negara/"],
+        ["Malaysia Uncovered: Canopy Walk in Taman Negara", "https://malaysiauncovered.com/taman-negara-canopy-walk/"],
+        ["Redang.com.my: Pakete 2026 mit Marine-Park-Gebühr (Ausländer 30 MYR, Kinder 15 MYR)", "https://redang.com.my/travel-packages/28/suite-room-snorkeling-package-2026/"],
+        ["Wikivoyage: Pulau Redang (Anreise ab Merang)", "https://en.wikivoyage.org/wiki/Pulau_Redang"],
+        ["The Abroad Guide: Glühwürmchen-Tour in Cherating", "https://theabroadguide.com/fireflies-tour-in-cherating/"],
+        ["Wonderful Malaysia: Schildkröten-Station Cherating", "https://www.wonderfulmalaysia.com/attractions/?p=1005"]
       ]
     },
     {
