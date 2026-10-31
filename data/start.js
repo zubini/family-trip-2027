@@ -175,20 +175,20 @@ window.START = {
     },
     indonesien: {
       name: "Singapur / Indonesien",
-      zusatz: "Singapur, Bali, Gili-Inseln, Lombok, Komodo und Java in der Trockenzeit",
+      zusatz: "Singapur, Bali, Gili-Inseln, Komodo und Java in der Trockenzeit",
       passt: "Schnorcheln, Inseln und Strand im Vordergrund stehen, dazu Abenteuer wie Komodowarane, Mantas, Rafting und Vulkane und Kultur auf Bali und Java, und ihr mehrere kurze Flüge und Bootsfahrten in Kauf nehmt.",
-      kurz: "Fünf Wochen Singapur und Indonesien: Singapur, Bali mit Ubud und Amed, die Gili-Inseln, Lombok, Komodo, Nusa Lembongan, Yogyakarta mit Borobudur und zum Schluss Südbali und Sentosa.",
-      route: "Singapur, (Flug) Ubud, Amed, (Boot) Gili Air, Kuta (Lombok), (Flug) Labuan Bajo (Komodo), (Flug, Boot) Nusa Lembongan, (Flug) Yogyakarta, (Flug) Südbali, (Flug) Singapur und Sentosa",
-      stationen: "10 Stationen",
-      laender: "Singapur, Indonesien (Bali, Lombok, Flores, Java)",
+      kurz: "Fünf Wochen Singapur und Indonesien: Singapur, Bali mit Ubud und Amed, die Gili-Inseln, Komodo, Nusa Lembongan, Yogyakarta mit Borobudur und zum Schluss Südbali und Sentosa.",
+      route: "Singapur, (Flug) Ubud, Amed, (Boot) Gili Air, (Flug) Labuan Bajo (Komodo), (Flug, Boot) Nusa Lembongan, (Flug) Yogyakarta, (Flug) Südbali, (Flug) Singapur und Sentosa",
+      stationen: "9 Stationen",
+      laender: "Singapur, Indonesien (Bali, Gili-Inseln, Flores, Java)",
       hinflug: "Direktflug Zürich–Singapur ca. 12–13 Std. (SWISS) am Sa, 19.06.2027 am Abend, Ankunft So am Nachmittag",
       rueckflug: "Direktflug Singapur–Zürich ca. 13–13,5 Std. (SWISS) in der Nacht auf den Do, 22.07.2027, Ankunft am frühen Morgen; zwei Tage Puffer gegen den Jetlag",
-      dazwischen: "Sechs kurze Flüge (je ca. 1–2,75 Std.), Schnellboote nach Gili Air und Nusa Lembongan, Fahrer auf Bali und Lombok",
-      tempo: "Niemand muss selber fahren: ca. 9–11 Std. mit Fahrer, ca. 3–4 Std. Schnellboot und sechs kurze Flüge, mit Transfers je ein halber bis ganzer Reisetag; überall 2–4 Nächte.",
+      dazwischen: "Sechs kurze Flüge (je ca. 1–2,75 Std.), Schnellboote nach Gili Air und Nusa Lembongan, Fahrer auf Bali",
+      tempo: "Niemand muss selber fahren: ca. 7–9 Std. mit Fahrer, ca. 3–4 Std. Schnellboot und sechs kurze Flüge, mit Transfers je ein halber bis ganzer Reisetag; überall 2–5 Nächte.",
       gesamt: "Ca. 80–90 Std. Tür zu Tür: Bahn Brig-Glis–Zürich Flughafen (ca. 2,5 Std.), Langstreckenflüge mit Wartezeiten, Einreise und Transfers zusammen ca. 34 Std., sechs Regionalflüge mit Transfers ca. 30–35 Std., Boote und Fahrten ca. 13–15 Std. Uhr +6 Std. (Java +5 Std.).",
-      wetter: "Trockenzeit auf Bali, Lombok und Flores: ca. 29–31 °C, wenig Regen, nachts angenehm; Singapur ca. 31 °C und schwül mit kurzen Schauern; Meer ca. 26–28 °C.",
+      wetter: "Trockenzeit auf Bali, den Gili-Inseln und Flores: ca. 29–31 °C, wenig Regen, nachts angenehm; Singapur ca. 31 °C und schwül mit kurzen Schauern; Meer ca. 26–28 °C.",
       einreise: "Singapur visumfrei (SG Arrival Card). Indonesien: Visum bei Ankunft oder e-VOA (2026 ca. 500’000 IDR pro Person, Erhöhung geplant), Bali-Abgabe 150’000 IDR pro Person; nur offizielle Seiten nutzen.",
-      hoehepunkte: "Gardens by the Bay, Reisterrassen und Rafting bei Ubud, Wrack bei Amed, Schildkröten auf Gili Air, Surfstrände auf Lombok, Komodowarane und Mantas, Nusa Lembongan, Borobudur und Merapi, Uluwatu mit Kecak-Tanz, Universal Studios Singapore.",
+      hoehepunkte: "Gardens by the Bay, Reisterrassen und Rafting bei Ubud, Wrack bei Amed, Schildkröten auf Gili Air, Komodowarane und Mantas, Nusa Lembongan, Borobudur und Merapi, Uluwatu mit Kecak-Tanz, Universal Studios Singapore.",
       teens: "Rafting, Schnorcheln mit Schildkröten und Mantas, Komodowarane, Surfkurs, Klippenspringen, Jeep am Vulkan, Waterbom Bali, Universal Studios Singapore.",
       pro: [
         "Weltklasse-Schnorcheln: Schildkröten, Mantas",
@@ -232,7 +232,7 @@ window.START = {
         3,
         "Dschungelwanderung auf Tioman, Wasserfälle und Inselwälder; kein grosser zusammenhängender Regenwald auf der Route."
       ],
-      indonesien: [3, "Dschungel und Wasserfälle bei Ubud und auf Lombok, Mangroven auf Nusa Lembongan; kein grosser zusammenhängender Regenwald auf der Route."]
+      indonesien: [3, "Dschungel und Wasserfälle bei Ubud, Mangroven auf Nusa Lembongan; kein grosser zusammenhängender Regenwald auf der Route."]
     },
     {
       kriterium: "Wüstenfeeling",
@@ -259,7 +259,7 @@ window.START = {
         5,
         "Tioman, Perhentian Islands, Khanom, Koh Samui, Koh Tao und Hua Hin: tropische Strände mit ca. 29 °C warmem Wasser an fast jeder zweiten Station."
       ],
-      indonesien: [5, "Gili Air, Surfstrände auf Lombok, Pink Beach bei Komodo, Nusa Lembongan und Südbali: tropische Strände mit ca. 26–28 °C warmem Wasser."]
+      indonesien: [5, "Gili Air, Pink Beach bei Komodo, Nusa Lembongan und Südbali mit Surfstränden: tropische Strände mit ca. 26–28 °C warmem Wasser."]
     },
     {
       kriterium: "Schnorcheln",
@@ -337,7 +337,7 @@ window.START = {
         2,
         "Ca. 101–108 Stunden Tür zu Tür: zwei Direktflüge mit Jetlag, dazu ca. 65–70 Stunden mit Bus, Zug und Fähre und viele Umstiege mit Gepäck; niemand muss selber fahren."
       ],
-      indonesien: [2, "Ca. 80–90 Stunden Tür zu Tür: zwei lange Direktflüge mit Jetlag, sechs Regionalflüge und mehrere Schnellboote mit Gepäck; niemand muss selber fahren, überall 2–4 Nächte."]
+      indonesien: [2, "Ca. 80–90 Stunden Tür zu Tür: zwei lange Direktflüge mit Jetlag, sechs Regionalflüge und mehrere Schnellboote mit Gepäck; niemand muss selber fahren, überall 2–5 Nächte."]
     },
     {
       kriterium: "CO₂ und Umwelt (mehr Punkte = weniger CO₂)",

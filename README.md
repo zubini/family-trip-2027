@@ -9,7 +9,7 @@ Reiseführer und Variantenvergleich für die Familienreise 2027 (Sa, 19. Juni bi
 - **USA Mitte (Los Angeles – Chicago – New York)**: mit dem Mietwagen von Los Angeles über Las Vegas, Kanab und Monument Valley nach Albuquerque, über Amarillo und Fort Worth nach Houston und New Orleans, über Memphis und St. Louis nach Chicago, über Cedar Point und die Niagarafälle in die Finger Lakes und nach New York (kein Inlandflug)
 - **USA Appalachen (Los Angeles – Smoky Mountains – New York)**: mit dem Mietwagen von Los Angeles über den Südwesten, Texas und New Orleans an den Strand von Alabama, durch die Smoky Mountains und das Shenandoah-Tal nach Washington und New York (kein Inlandflug)
 - **Malaysia / Thailand**: von Singapur nach Bangkok
-- **Singapur / Indonesien**: Singapur, Bali (Ubud, Amed), Gili-Inseln, Lombok, Komodo, Nusa Lembongan, Yogyakarta, Südbali und Sentosa
+- **Singapur / Indonesien**: Singapur, Bali (Ubud, Amed), Gili-Inseln, Komodo, Nusa Lembongan, Yogyakarta, Südbali und Sentosa
 
 Dazu eine Einstiegsseite mit Vergleich, Bewertung, Budget sowie Pro und Contra und eine Seite mit den Quellen.
 
@@ -26,7 +26,7 @@ data/             die Inhalte, hier wird fast alles geändert
   usamitte.js     USA Mitte (Los Angeles–Chicago–New York, ohne Inlandflug)
   usaappalachen.js  USA Appalachen (Los Angeles–Smoky Mountains–New York, ohne Inlandflug)
   asien.js        Malaysia / Thailand (Singapur–Bangkok)
-  indonesien.js   Singapur / Indonesien (Bali, Lombok, Komodo, Java)
+  indonesien.js   Singapur / Indonesien (Bali, Gili-Inseln, Komodo, Java)
   quellen.js      Seite «Quellen» (Belege für Fahrzeiten, Einreise, Bilder)
   bilder-unsplash.js  Unsplash-Fotos (erzeugt von tools/bilder-unsplash.js)
 css/              Gestaltung (basis, navigation, reise, karte, start)

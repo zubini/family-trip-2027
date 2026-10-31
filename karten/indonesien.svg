@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg viewBox="0 0 1000 651" overflow="hidden" role="img" aria-labelledby="mt" xmlns="http://www.w3.org/2000/svg"><title id="mt">Übersichtskarte der Reiseroute von Singapur nach Bali, Lombok, Flores und Java und zurück</title>
+<svg viewBox="0 0 1000 651" overflow="hidden" role="img" aria-labelledby="mt" xmlns="http://www.w3.org/2000/svg"><title id="mt">Übersichtskarte der Reiseroute von Singapur nach Bali, zu den Gili-Inseln, nach Flores und Java und zurück</title>
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400;0,600;0,700;0,800;1,400&amp;display=swap");
 .lr{fill:#F4F1E4;stroke:#B9B39A;stroke-width:.8}
@@ -71,8 +71,8 @@
 <text class="cn" x="969.1" y="596.8" text-anchor="middle">Flores</text>
 <text class="sea" x="500.0" y="392.7" text-anchor="middle">Javasee</text>
 <text class="sea" x="319.6" y="630.4" text-anchor="middle">Indischer Ozean</text>
-<polyline points="104.1,64.6 396.9,263.5 689.2,586.5" fill="none" stroke="#fff" stroke-width="5.6" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
-<polyline points="104.1,64.6 396.9,263.5 689.2,586.5" fill="none" stroke="#7A5CC7" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 7"><title>Flug: Singapur – Bali</title></polyline>
+<polyline points="104.1,64.6 689.2,586.5" fill="none" stroke="#fff" stroke-width="5.6" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="104.1,64.6 689.2,586.5" fill="none" stroke="#7A5CC7" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 7"><title>Flug: Singapur – Bali (Hin- und Rückflug)</title></polyline>
 <polyline points="689.2,586.5 691.8,580.8 693.8,574.1" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
 <polyline points="689.2,586.5 691.8,580.8 693.8,574.1" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Flughafen Bali – Ubud</title></polyline>
 <polyline points="693.8,574.1 702.1,572.5 710.3,568.4 713.9,565.3" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
@@ -81,34 +81,34 @@
 <polyline points="713.9,565.3 724.2,563.2 736.1,566.3" fill="none" stroke="#E08A12" stroke-width="3.0" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 6"><title>Fähre oder Boot: Amed – Gili Air (Schnellboot)</title></polyline>
 <polyline points="736.1,566.3 738.1,566.8" fill="none" stroke="#fff" stroke-width="6.0" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
 <polyline points="736.1,566.3 738.1,566.8" fill="none" stroke="#E08A12" stroke-width="3.0" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 6"><title>Fähre oder Boot: Gili Air – Bangsal</title></polyline>
-<polyline points="738.1,566.8 738.7,576.1 744.3,584.9 746.4,593.7" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
-<polyline points="738.1,566.8 738.7,576.1 744.3,584.9 746.4,593.7" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Bangsal – Kuta (Lombok)</title></polyline>
-<polyline points="746.4,587.0 835.1,565.8 932.0,573.0" fill="none" stroke="#fff" stroke-width="5.6" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
-<polyline points="746.4,587.0 835.1,565.8 932.0,573.0" fill="none" stroke="#7A5CC7" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 7"><title>Flug: Lombok – Labuan Bajo</title></polyline>
+<polyline points="738.1,566.8 742.3,576.1 746.4,587.0" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="738.1,566.8 742.3,576.1 746.4,587.0" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Bangsal – Flughafen Lombok</title></polyline>
+<polyline points="746.4,587.0 932.0,573.0" fill="none" stroke="#fff" stroke-width="5.6" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="746.4,587.0 932.0,573.0" fill="none" stroke="#7A5CC7" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 7"><title>Flug: Lombok – Labuan Bajo</title></polyline>
 <polyline points="932.0,573.0 923.7,579.8 912.4,577.7" fill="none" stroke="#fff" stroke-width="6.0" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
 <polyline points="932.0,573.0 923.7,579.8 912.4,577.7" fill="none" stroke="#E08A12" stroke-width="3.0" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 6"><title>Fähre oder Boot: Bootstouren im Komodo-Nationalpark</title></polyline>
-<polyline points="932.0,573.0 809.3,560.6 689.2,586.5" fill="none" stroke="#fff" stroke-width="5.6" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
-<polyline points="932.0,573.0 809.3,560.6 689.2,586.5" fill="none" stroke="#7A5CC7" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 7"><title>Flug: Labuan Bajo – Bali</title></polyline>
+<polyline points="932.0,573.0 814.4,555.5 689.2,586.5" fill="none" stroke="#fff" stroke-width="5.6" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="932.0,573.0 814.4,555.5 689.2,586.5" fill="none" stroke="#7A5CC7" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 7"><title>Flug: Labuan Bajo – Bali</title></polyline>
 <polyline points="689.2,586.5 693.8,583.4" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
 <polyline points="689.2,586.5 693.8,583.4" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Flughafen – Sanur</title></polyline>
 <polyline points="693.8,583.4 699.0,583.9 703.6,582.9" fill="none" stroke="#fff" stroke-width="6.0" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
 <polyline points="693.8,583.4 699.0,583.9 703.6,582.9" fill="none" stroke="#E08A12" stroke-width="3.0" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 6"><title>Fähre oder Boot: Sanur – Nusa Lembongan (Schnellboot)</title></polyline>
-<polyline points="689.2,586.5 556.7,552.9 425.8,542.6" fill="none" stroke="#fff" stroke-width="5.6" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
-<polyline points="689.2,586.5 556.7,552.9 425.8,542.6" fill="none" stroke="#7A5CC7" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 7"><title>Flug: Bali – Yogyakarta und zurück</title></polyline>
+<polyline points="689.2,586.5 425.8,542.6" fill="none" stroke="#fff" stroke-width="5.6" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="689.2,586.5 425.8,542.6" fill="none" stroke="#7A5CC7" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 7"><title>Flug: Bali – Yogyakarta und zurück</title></polyline>
 <polyline points="425.8,542.6 441.8,537.4" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
 <polyline points="425.8,542.6 441.8,537.4" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Flughafen Yogyakarta – Stadt</title></polyline>
 <polyline points="689.2,586.5 688.7,588.5" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
 <polyline points="689.2,586.5 688.7,588.5" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Flughafen – Jimbaran</title></polyline>
-<polyline points="689.2,586.5 474.2,315.2 110.8,80.1" fill="none" stroke="#fff" stroke-width="5.6" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
-<polyline points="689.2,586.5 474.2,315.2 110.8,80.1" fill="none" stroke="#7A5CC7" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 7"><title>Flug: Bali – Singapur</title></polyline>
+<polyline points="104.1,64.6 110.8,80.1" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="104.1,64.6 110.8,80.1" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Flughafen Singapur – Sentosa</title></polyline>
 <g><title>1. Singapur: So, 20.06.2027 – Di, 22.06.2027, 2 Nächte</title><circle cx="104.1" cy="64.6" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="104.1" y="68.8" text-anchor="middle">1</text></g>
 <text class="sl" x="104.1" y="46.6" text-anchor="middle">Singapur</text>
-<g><title>6. Labuan Bajo: Mo, 05.07.2027 – Fr, 09.07.2027, 4 Nächte</title><circle cx="932.0" cy="573.0" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="932.0" y="577.2" text-anchor="middle">6</text></g>
+<g><title>5. Labuan Bajo: So, 04.07.2027 – Do, 08.07.2027, 4 Nächte</title><circle cx="932.0" cy="573.0" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="932.0" y="577.2" text-anchor="middle">5</text></g>
 <text class="sl" x="932.0" y="555.0" text-anchor="middle">Labuan Bajo</text>
-<g><title>8. Yogyakarta: Mo, 12.07.2027 – Do, 15.07.2027, 3 Nächte</title><circle cx="441.8" cy="537.4" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="441.8" y="541.6" text-anchor="middle">8</text></g>
+<g><title>7. Yogyakarta: So, 11.07.2027 – Mi, 14.07.2027, 3 Nächte</title><circle cx="441.8" cy="537.4" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="441.8" y="541.6" text-anchor="middle">7</text></g>
 <text class="sl" x="441.8" y="519.4" text-anchor="middle">Yogyakarta</text>
-<g><title>10. Singapur und Sentosa: Mo, 19.07.2027 – Mi, 21.07.2027, 2 Nächte</title><circle cx="110.8" cy="80.1" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="110.8" y="84.3" text-anchor="middle">10</text></g>
+<g><title>9. Singapur und Sentosa: Mo, 19.07.2027 – Mi, 21.07.2027, 2 Nächte</title><circle cx="110.8" cy="80.1" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="110.8" y="84.3" text-anchor="middle">9</text></g>
 <text class="sl" x="110.8" y="107.1" text-anchor="middle">Singapur und Sentosa</text>
-<text class="fl" x="711.3" y="630.4" text-anchor="middle">Bali und Lombok: siehe Detailkarte</text>
+<text class="fl" x="711.3" y="630.4" text-anchor="middle">Bali und Gili-Inseln: siehe Detailkarte</text>
 <text class="fl" x="144.3" y="51.7" text-anchor="start">Ankunft aus Zürich und Rückflug ✈</text>
 </svg>
