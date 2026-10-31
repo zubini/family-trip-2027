@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 1000 651" overflow="hidden" role="img" aria-labelledby="mt" xmlns="http://www.w3.org/2000/svg"><title id="mt">Übersichtskarte der Reiseroute von Singapur nach Bali, Lombok, Flores und Java und zurück</title>
+<style>
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400;0,600;0,700;0,800;1,400&amp;display=swap");
+.lr{fill:#F4F1E4;stroke:#B9B39A;stroke-width:.8}
+.lo{fill:#ECECE6;stroke:#C9C9BF;stroke-width:.8}
+.cn{font:600 15px "Figtree",system-ui,sans-serif;fill:#9A9580;letter-spacing:.05em}
+.sea{font:italic 14px "Figtree",system-ui,sans-serif;fill:#6E98A6}
+.sl{font:700 13px "Figtree",system-ui,sans-serif;fill:#1C2B2D;paint-order:stroke;stroke:#fff;stroke-width:3.5px;stroke-linejoin:round}
+.tl{font:600 11.5px "Figtree",system-ui,sans-serif;fill:#5B6B6E;paint-order:stroke;stroke:#fff;stroke-width:3px}
+.nm{font:800 12px "Figtree",system-ui,sans-serif;fill:#fff}
+.nm2{font:800 10px "Figtree",system-ui,sans-serif;fill:#fff}
+.fl{font:600 12px "Figtree",system-ui,sans-serif;fill:#5B6B6E;paint-order:stroke;stroke:#fff;stroke-width:3px}
+</style>
+<rect width="1000" height="651" fill="#D7E9EE"/>
+<path class="lo" fill-rule="evenodd" d="M-87,-197 L-82,-213 L-71,-203 L-55,-202 L-49,-188 L-36,-189 L-42,-166 L-34,-156 L-11,-172 L1,-162 L7,-173 L7,-173 L8,-175 L9,-176 L14,-183 L14,-184 L14,-184 L14,-186 L14,-187 L14,-188 L15,-188 L15,-189 L28,-184 L35,-171 L68,-145 L85,-113 L87,-88 L79,-62 L86,-47 L84,-18 L93,-2 L104,1 L129,60 L121,65 L112,51 L113,60 L99,59 L88,69 L81,55 L-26,-12 L-21,-20 L-26,-34 L-55,-65 L-56,-72 L-48,-74 L-64,-88 L-59,-107 L-74,-129 L-75,-174 L-87,-197ZM42,-129 L39,-122 L48,-116 L42,-129Z"/>
+<path class="lo" fill-rule="evenodd" d="M633,-103 L637,-102 L638,-102 L662,-73 L674,-91 L669,-110 L680,-117 L680,-118 L682,-114 L683,-113 L683,-113 L682,-113 L682,-111 L682,-111 L682,-109 L682,-106 L683,-106 L683,-104 L685,-92 L698,-88 L689,-117 L688,-117 L689,-118 L688,-119 L689,-119 L708,-128 L711,-135 L698,-140 L699,-145 L711,-157 L711,-151 L725,-154 L770,-229 L776,-222 L773,-205 L791,-228 L798,-207 L810,-208 L822,-198 L811,-183 L819,-174 L811,-169 L834,-179 L842,-168 L830,-165 L832,-159 L853,-167 L866,-158 L863,-150 L868,-157 L876,-147 L894,-147 L900,-140 L892,-128 L870,-120 L852,-125 L841,-118 L867,-97 L863,-90 L835,-84 L813,-95 L814,-82 L812,-82 L812,-81 L811,-81 L796,-91 L761,-94 L755,-87 L741,-92 L736,-87 L726,-92 L709,-68 L710,-29 L685,-11 L685,0 L693,5 L670,18 L674,35 L666,38 L658,60 L628,59 L610,71 L576,61 L577,53 L552,53 L537,59 L534,75 L517,83 L486,78 L453,90 L405,51 L399,35 L405,27 L406,38 L418,47 L438,46 L439,52 L440,41 L460,54 L459,60 L459,61 L459,60 L463,53 L482,64 L474,53 L484,50 L479,43 L485,26 L497,24 L482,23 L486,9 L499,12 L496,-5 L579,-30 L633,-103ZM625,-4 L621,5 L628,-1 L625,-4ZM655,-9 L651,2 L661,-6 L655,-9ZM522,71 L515,74 L522,76 L522,71Z"/>
+<path class="lo" fill-rule="evenodd" d="M124,-10 L120,-7 L122,-15 L124,-10Z"/>
+<path class="lr" fill-rule="evenodd" d="M102,59 L115,66 L93,71 L102,59Z"/>
+<path class="lo" fill-rule="evenodd" d="M201,673 L199,681 L192,677 L201,673Z"/>
+<path class="lo" fill-rule="evenodd" d="M201,673 L199,681 L192,677 L201,673Z"/>
+<path class="lr" fill-rule="evenodd" d="M405,27 L399,35 L405,51 L453,90 L486,78 L517,83 L534,75 L537,59 L552,53 L577,53 L576,61 L610,71 L628,59 L658,60 L666,38 L674,35 L670,18 L693,5 L685,0 L685,-11 L710,-29 L709,-68 L726,-92 L736,-87 L741,-92 L755,-87 L761,-94 L796,-91 L811,-81 L812,-81 L812,-82 L814,-82 L803,-78 L826,-57 L818,-53 L806,-57 L809,-52 L782,-52 L780,-57 L781,-52 L809,-47 L795,-47 L811,-36 L798,-29 L815,-24 L813,-18 L820,-18 L812,-16 L821,-15 L814,-11 L840,14 L823,30 L827,38 L886,83 L876,93 L855,93 L838,88 L829,75 L837,94 L822,95 L807,129 L806,148 L809,159 L816,156 L807,171 L815,174 L798,177 L777,200 L770,186 L771,205 L743,226 L755,226 L756,240 L749,243 L763,248 L758,267 L746,266 L754,268 L751,283 L743,290 L739,280 L735,290 L746,296 L740,297 L730,321 L664,350 L655,309 L652,315 L632,305 L610,313 L607,297 L595,304 L579,285 L574,295 L579,296 L559,310 L539,305 L520,317 L514,315 L517,292 L511,279 L503,290 L495,284 L456,291 L452,281 L436,287 L429,239 L418,229 L426,204 L409,181 L406,187 L385,178 L384,168 L399,172 L377,161 L374,146 L381,131 L367,117 L363,92 L370,85 L366,74 L379,70 L369,72 L374,56 L389,34 L405,27ZM737,155 L742,161 L746,157 L737,155ZM755,144 L753,148 L760,148 L755,144Z"/>
+<path class="lr" fill-rule="evenodd" d="M139,84 L125,78 L143,71 L144,92 L139,84Z"/>
+<path class="lr" fill-rule="evenodd" d="M142,128 L138,122 L149,133 L142,128Z"/>
+<path class="lr" fill-rule="evenodd" d="M146,136 L165,150 L136,147 L139,134 L146,136Z"/>
+<path class="lr" fill-rule="evenodd" d="M137,152 L144,159 L132,169 L126,160 L137,152Z"/>
+<path class="lr" fill-rule="evenodd" d="M118,75 L119,84 L109,82 L109,75 L118,75Z"/>
+<path class="lr" fill-rule="evenodd" d="M109,82 L110,87 L105,84 L109,82Z"/>
+<path class="lr" fill-rule="evenodd" d="M81,75 L85,83 L78,81 L81,75Z"/>
+<path class="lr" fill-rule="evenodd" d="M88,98 L82,101 L81,88 L88,98Z"/>
+<path class="lr" fill-rule="evenodd" d="M30,66 L10,52 L34,56 L37,69 L30,66Z"/>
+<path class="lr" fill-rule="evenodd" d="M35,70 L30,87 L21,61 L35,70Z"/>
+<path class="lr" fill-rule="evenodd" d="M42,81 L36,85 L35,76 L42,81Z"/>
+<path class="lr" fill-rule="evenodd" d="M46,86 L56,85 L64,97 L31,90 L48,82 L46,86Z"/>
+<path class="lr" fill-rule="evenodd" d="M55,80 L42,82 L55,76 L70,90 L52,83 L55,80Z"/>
+<path class="lr" fill-rule="evenodd" d="M70,101 L75,99 L77,107 L71,109 L70,101Z"/>
+<path class="lr" fill-rule="evenodd" d="M-21,36 L-7,24 L-1,34 L-9,47 L-21,36Z"/>
+<path class="lr" fill-rule="evenodd" d="M1035,161 L1023,162 L1029,156 L1035,161Z"/>
+<path class="lr" fill-rule="evenodd" d="M815,-34 L812,-43 L818,-42 L815,-34Z"/>
+<path class="lr" fill-rule="evenodd" d="M209,-20 L203,-11 L201,-24 L209,-20Z"/>
+<path class="lr" fill-rule="evenodd" d="M230,-30 L231,-25 L227,-33 L230,-30Z"/>
+<path class="lr" fill-rule="evenodd" d="M340,-61 L328,-53 L331,-63 L318,-72 L331,-84 L340,-61Z"/>
+<path class="lr" fill-rule="evenodd" d="M301,269 L311,265 L333,276 L330,297 L319,303 L312,292 L299,302 L301,269Z"/>
+<path class="lr" fill-rule="evenodd" d="M234,287 L214,280 L204,245 L172,242 L185,218 L196,213 L202,220 L198,225 L206,226 L201,213 L212,212 L226,233 L232,259 L260,267 L247,284 L255,294 L243,295 L234,287Z"/>
+<path class="lr" fill-rule="evenodd" d="M15,411 L23,409 L29,418 L15,411Z"/>
+<path class="lr" fill-rule="evenodd" d="M406,187 L411,194 L391,199 L396,184 L406,187Z"/>
+<path class="lr" fill-rule="evenodd" d="M366,220 L360,216 L368,214 L366,220Z"/>
+<path class="lr" fill-rule="evenodd" d="M810,568 L808,558 L818,555 L810,568Z"/>
+<path class="lr" fill-rule="evenodd" d="M734,320 L746,300 L748,337 L737,346 L734,320Z"/>
+<path class="lr" fill-rule="evenodd" d="M919,352 L910,315 L882,316 L875,294 L881,284 L874,279 L877,270 L894,262 L897,238 L904,236 L904,195 L924,168 L932,179 L928,142 L918,135 L930,140 L926,123 L933,123 L932,111 L941,108 L940,97 L951,93 L951,85 L969,96 L985,64 L1003,71 L1013,67 L1012,74 L1024,81 L1064,81 L1085,93 L1092,84 L1142,91 L1162,74 L1174,73 L1172,65 L1187,59 L1195,44 L1205,48 L1208,57 L1196,76 L1177,94 L1171,110 L1156,115 L1111,118 L1096,107 L1031,113 L1017,105 L995,114 L972,107 L954,113 L940,138 L941,167 L954,184 L964,186 L973,208 L995,209 L1023,176 L1024,182 L1039,186 L1052,175 L1091,173 L1078,168 L1096,163 L1116,174 L1109,189 L1098,177 L1082,183 L1061,211 L1034,221 L1025,235 L1005,229 L1007,238 L1011,233 L1018,246 L1032,253 L1042,275 L1066,299 L1058,301 L1061,313 L1054,310 L1052,321 L1076,336 L1068,341 L1075,342 L1075,349 L1086,351 L1080,345 L1085,345 L1087,362 L1076,358 L1079,367 L1071,362 L1047,368 L1042,388 L1018,381 L1014,373 L1021,345 L985,319 L994,290 L988,280 L995,275 L980,270 L948,288 L960,303 L955,346 L962,375 L952,400 L962,425 L955,419 L935,421 L923,429 L909,423 L905,410 L919,352ZM1011,273 L1010,286 L1026,273 L1011,273ZM969,225 L964,229 L973,242 L969,225Z"/>
+<path class="lr" fill-rule="evenodd" d="M1079,385 L1072,415 L1069,406 L1065,413 L1055,413 L1060,379 L1077,373 L1079,385Z"/>
+<path class="lr" fill-rule="evenodd" d="M1032,403 L1040,396 L1044,416 L1039,418 L1032,403Z"/>
+<path class="lr" fill-rule="evenodd" d="M968,447 L963,470 L963,432 L968,447Z"/>
+<path class="lr" fill-rule="evenodd" d="M973,504 L970,496 L979,499 L973,504Z"/>
+<path class="lr" fill-rule="evenodd" d="M1035,673 L1041,679 L1025,681 L1035,673Z"/>
+<path class="lr" fill-rule="evenodd" d="M951,632 L962,631 L980,657 L961,668 L947,663 L921,640 L896,639 L883,628 L895,619 L928,620 L935,613 L951,632Z"/>
+<path class="lr" fill-rule="evenodd" d="M908,574 L916,573 L909,586 L908,574Z"/>
+<path class="lr" fill-rule="evenodd" d="M985,566 L1016,580 L1022,572 L1042,570 L1056,581 L1087,563 L1088,557 L1079,559 L1085,551 L1094,564 L1081,569 L1084,579 L1023,595 L1019,589 L990,597 L981,591 L934,593 L928,587 L931,570 L943,571 L960,560 L985,566Z"/>
+<path class="lr" fill-rule="evenodd" d="M922,590 L918,579 L928,580 L922,590Z"/>
+<path class="lr" fill-rule="evenodd" d="M877,591 L857,593 L855,579 L844,592 L805,602 L784,605 L769,598 L774,575 L789,567 L813,569 L824,585 L849,582 L819,560 L831,552 L842,554 L850,567 L869,563 L869,576 L875,564 L887,564 L888,580 L895,577 L895,585 L870,586 L885,590 L877,591Z"/>
+<path class="lr" fill-rule="evenodd" d="M735,586 L734,570 L745,561 L769,566 L756,590 L761,594 L732,594 L723,586 L735,586Z"/>
+<path class="lr" fill-rule="evenodd" d="M562,501 L570,490 L624,489 L636,495 L604,509 L562,501Z"/>
+<path class="lr" fill-rule="evenodd" d="M706,587 L709,582 L713,588 L706,587Z"/>
+<path class="lr" fill-rule="evenodd" d="M706,493 L699,490 L695,497 L691,491 L701,487 L706,493Z"/>
+<path class="lr" fill-rule="evenodd" d="M674,558 L690,551 L717,568 L686,592 L687,581 L659,568 L651,553 L674,558Z"/>
+<path class="lr" fill-rule="evenodd" d="M273,443 L286,443 L300,456 L314,454 L326,462 L338,457 L356,486 L386,489 L398,484 L445,493 L460,467 L470,465 L487,480 L503,477 L532,491 L554,488 L573,529 L592,536 L631,527 L652,537 L646,575 L660,586 L584,561 L559,571 L515,561 L510,567 L459,558 L389,533 L349,532 L342,538 L312,534 L289,521 L238,516 L243,494 L218,487 L177,488 L184,478 L189,487 L198,469 L206,470 L219,438 L225,445 L249,444 L258,451 L273,443Z"/>
+<path class="lr" fill-rule="evenodd" d="M84,161 L78,171 L104,189 L132,188 L141,226 L137,234 L142,230 L145,238 L160,243 L148,256 L151,267 L157,252 L161,258 L197,258 L207,285 L219,289 L221,302 L207,320 L214,332 L207,349 L211,390 L202,440 L180,416 L173,435 L143,419 L151,441 L142,441 L109,399 L57,366 L25,339 L22,323 L-9,302 L-47,254 L-48,234 L-75,195 L-76,178 L-108,134 L-137,121 L-159,54 L-155,45 L-197,18 L-207,19 L-217,-14 L-228,-20 L-247,-49 L-275,-60 L-329,-115 L-340,-153 L-319,-157 L-279,-135 L-221,-136 L-201,-118 L-198,-100 L-181,-94 L-188,-77 L-168,-73 L-160,-59 L-105,-29 L-93,-18 L-93,2 L-90,-7 L-82,9 L-87,-1 L-81,-5 L-71,17 L-46,35 L-53,17 L-38,17 L-20,47 L-3,49 L18,63 L31,92 L58,98 L68,111 L59,116 L79,106 L98,119 L104,134 L95,136 L91,135 L91,134 L90,134 L90,134 L91,135 L91,138 L83,147 L103,152 L84,161ZM109,382 L110,390 L114,384 L109,382ZM-142,8 L-147,1 L-146,8 L-157,6 L-153,14 L-136,9 L-142,8ZM-169,-16 L-162,1 L-159,-8 L-148,1 L-160,-16 L-169,-16Z"/>
+<text class="cn" x="360.8" y="506.4" text-anchor="middle">Java</text>
+<text class="cn" x="577.3" y="186.0" text-anchor="middle">Borneo</text>
+<text class="cn" x="87.6" y="263.5" text-anchor="middle">Sumatra</text>
+<text class="cn" x="969.1" y="596.8" text-anchor="middle">Flores</text>
+<text class="sea" x="500.0" y="392.7" text-anchor="middle">Javasee</text>
+<text class="sea" x="319.6" y="630.4" text-anchor="middle">Indischer Ozean</text>
+<polyline points="104.1,64.6 396.9,263.5 689.2,586.5" fill="none" stroke="#fff" stroke-width="5.6" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="104.1,64.6 396.9,263.5 689.2,586.5" fill="none" stroke="#7A5CC7" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 7"><title>Flug: Singapur – Bali</title></polyline>
+<polyline points="689.2,586.5 691.8,580.8 693.8,574.1" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="689.2,586.5 691.8,580.8 693.8,574.1" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Flughafen Bali – Ubud</title></polyline>
+<polyline points="693.8,574.1 702.1,572.5 710.3,568.4 713.9,565.3" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="693.8,574.1 702.1,572.5 710.3,568.4 713.9,565.3" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Ubud – Sidemen – Amed</title></polyline>
+<polyline points="713.9,565.3 724.2,563.2 736.1,566.3" fill="none" stroke="#fff" stroke-width="6.0" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="713.9,565.3 724.2,563.2 736.1,566.3" fill="none" stroke="#E08A12" stroke-width="3.0" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 6"><title>Fähre oder Boot: Amed – Gili Air (Schnellboot)</title></polyline>
+<polyline points="736.1,566.3 738.1,566.8" fill="none" stroke="#fff" stroke-width="6.0" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="736.1,566.3 738.1,566.8" fill="none" stroke="#E08A12" stroke-width="3.0" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 6"><title>Fähre oder Boot: Gili Air – Bangsal</title></polyline>
+<polyline points="738.1,566.8 738.7,576.1 744.3,584.9 746.4,593.7" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="738.1,566.8 738.7,576.1 744.3,584.9 746.4,593.7" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Bangsal – Kuta (Lombok)</title></polyline>
+<polyline points="746.4,587.0 835.1,565.8 932.0,573.0" fill="none" stroke="#fff" stroke-width="5.6" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="746.4,587.0 835.1,565.8 932.0,573.0" fill="none" stroke="#7A5CC7" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 7"><title>Flug: Lombok – Labuan Bajo</title></polyline>
+<polyline points="932.0,573.0 923.7,579.8 912.4,577.7" fill="none" stroke="#fff" stroke-width="6.0" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="932.0,573.0 923.7,579.8 912.4,577.7" fill="none" stroke="#E08A12" stroke-width="3.0" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 6"><title>Fähre oder Boot: Bootstouren im Komodo-Nationalpark</title></polyline>
+<polyline points="932.0,573.0 809.3,560.6 689.2,586.5" fill="none" stroke="#fff" stroke-width="5.6" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="932.0,573.0 809.3,560.6 689.2,586.5" fill="none" stroke="#7A5CC7" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 7"><title>Flug: Labuan Bajo – Bali</title></polyline>
+<polyline points="689.2,586.5 693.8,583.4" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="689.2,586.5 693.8,583.4" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Flughafen – Sanur</title></polyline>
+<polyline points="693.8,583.4 699.0,583.9 703.6,582.9" fill="none" stroke="#fff" stroke-width="6.0" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="693.8,583.4 699.0,583.9 703.6,582.9" fill="none" stroke="#E08A12" stroke-width="3.0" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 6"><title>Fähre oder Boot: Sanur – Nusa Lembongan (Schnellboot)</title></polyline>
+<polyline points="689.2,586.5 556.7,552.9 425.8,542.6" fill="none" stroke="#fff" stroke-width="5.6" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="689.2,586.5 556.7,552.9 425.8,542.6" fill="none" stroke="#7A5CC7" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 7"><title>Flug: Bali – Yogyakarta und zurück</title></polyline>
+<polyline points="425.8,542.6 441.8,537.4" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="425.8,542.6 441.8,537.4" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Flughafen Yogyakarta – Stadt</title></polyline>
+<polyline points="689.2,586.5 688.7,588.5" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="689.2,586.5 688.7,588.5" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Flughafen – Jimbaran</title></polyline>
+<polyline points="689.2,586.5 474.2,315.2 110.8,80.1" fill="none" stroke="#fff" stroke-width="5.6" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="689.2,586.5 474.2,315.2 110.8,80.1" fill="none" stroke="#7A5CC7" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 7"><title>Flug: Bali – Singapur</title></polyline>
+<g><title>1. Singapur: So, 20.06.2027 – Di, 22.06.2027, 2 Nächte</title><circle cx="104.1" cy="64.6" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="104.1" y="68.8" text-anchor="middle">1</text></g>
+<text class="sl" x="104.1" y="46.6" text-anchor="middle">Singapur</text>
+<g><title>6. Labuan Bajo: Mo, 05.07.2027 – Fr, 09.07.2027, 4 Nächte</title><circle cx="932.0" cy="573.0" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="932.0" y="577.2" text-anchor="middle">6</text></g>
+<text class="sl" x="932.0" y="555.0" text-anchor="middle">Labuan Bajo</text>
+<g><title>8. Yogyakarta: Mo, 12.07.2027 – Do, 15.07.2027, 3 Nächte</title><circle cx="441.8" cy="537.4" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="441.8" y="541.6" text-anchor="middle">8</text></g>
+<text class="sl" x="441.8" y="519.4" text-anchor="middle">Yogyakarta</text>
+<g><title>10. Singapur und Sentosa: Mo, 19.07.2027 – Mi, 21.07.2027, 2 Nächte</title><circle cx="110.8" cy="80.1" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="110.8" y="84.3" text-anchor="middle">10</text></g>
+<text class="sl" x="110.8" y="107.1" text-anchor="middle">Singapur und Sentosa</text>
+<text class="fl" x="711.3" y="630.4" text-anchor="middle">Bali und Lombok: siehe Detailkarte</text>
+<text class="fl" x="144.3" y="51.7" text-anchor="start">Ankunft aus Zürich und Rückflug ✈</text>
+</svg>

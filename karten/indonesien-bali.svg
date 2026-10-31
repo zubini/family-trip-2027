@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 1000 528" overflow="hidden" role="img" aria-labelledby="mt" xmlns="http://www.w3.org/2000/svg"><title id="mt">Detailkarte von Bali und Lombok mit Ubud, Amed, Gili Air, Kuta, Nusa Lembongan und Jimbaran</title>
+<style>
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400;0,600;0,700;0,800;1,400&amp;display=swap");
+.lr{fill:#F4F1E4;stroke:#B9B39A;stroke-width:.8}
+.lo{fill:#ECECE6;stroke:#C9C9BF;stroke-width:.8}
+.cn{font:600 15px "Figtree",system-ui,sans-serif;fill:#9A9580;letter-spacing:.05em}
+.sea{font:italic 14px "Figtree",system-ui,sans-serif;fill:#6E98A6}
+.sl{font:700 13px "Figtree",system-ui,sans-serif;fill:#1C2B2D;paint-order:stroke;stroke:#fff;stroke-width:3.5px;stroke-linejoin:round}
+.tl{font:600 11.5px "Figtree",system-ui,sans-serif;fill:#5B6B6E;paint-order:stroke;stroke:#fff;stroke-width:3px}
+.nm{font:800 12px "Figtree",system-ui,sans-serif;fill:#fff}
+.nm2{font:800 10px "Figtree",system-ui,sans-serif;fill:#fff}
+.fl{font:600 12px "Figtree",system-ui,sans-serif;fill:#5B6B6E;paint-order:stroke;stroke:#fff;stroke-width:3px}
+</style>
+<rect width="1000" height="528" fill="#D7E9EE"/>
+<path class="lr" fill-rule="evenodd" d="M1922,387 L1748,404 L1735,286 L1643,396 L1309,484 L1135,510 L1009,448 L1052,251 L1178,185 L1378,202 L1474,339 L1683,312 L1430,127 L1530,57 L1626,79 L1691,185 L1848,149 L1848,264 L1900,158 L2000,158 L2013,299 L2074,268 L2074,339 L1861,347 L1983,382 L1922,387Z"/>
+<path class="lr" fill-rule="evenodd" d="M722,352 L709,215 L809,132 L1009,176 L900,378 L943,413 L700,418 L617,352 L722,352Z"/>
+<path class="lr" fill-rule="evenodd" d="M474,356 L504,317 L535,360 L474,356Z"/>
+<path class="lr" fill-rule="evenodd" d="M204,110 L339,48 L570,198 L309,396 L313,308 L78,198 L13,66 L204,110Z"/>
+<path class="lr" fill-rule="evenodd" d="M-3178,-870 L-3070,-870 L-2948,-756 L-2830,-774 L-2726,-708 L-2626,-747 L-2474,-501 L-2222,-475 L-2122,-519 L-1726,-440 L-1596,-668 L-1513,-681 L-1374,-554 L-1239,-580 L-991,-462 L-804,-488 L-648,-141 L-487,-75 L-157,-154 L17,-70 L-26,251 L87,352 L-557,136 L-761,220 L-1130,136 L-1174,189 L-1604,110 L-2196,-106 L-2535,-114 L-2596,-57 L-2848,-92 L-3043,-202 L-3474,-251 L-3430,-435 L-3639,-497 L-3983,-488 L-3926,-571 L-3883,-492 L-3804,-646 L-3739,-642 L-3635,-910 L-3583,-848 L-3374,-857 L-3300,-804 L-3178,-870Z"/>
+<text class="cn" x="260.9" y="131.9" text-anchor="middle">Bali</text>
+<text class="cn" x="891.3" y="263.8" text-anchor="middle">Lombok</text>
+<text class="sea" x="587.0" y="329.7" text-anchor="middle">Lombokstrasse</text>
+<polyline points="334.8,351.7 356.5,303.3 373.9,246.2" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="334.8,351.7 356.5,303.3 373.9,246.2" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Flughafen Bali – Ubud</title></polyline>
+<polyline points="373.9,246.2 443.5,233.0 513.0,197.8 543.5,171.4" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="373.9,246.2 443.5,233.0 513.0,197.8 543.5,171.4" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Ubud – Sidemen – Amed</title></polyline>
+<polyline points="543.5,171.4 630.4,153.9 730.4,180.2" fill="none" stroke="#fff" stroke-width="6.0" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="543.5,171.4 630.4,153.9 730.4,180.2" fill="none" stroke="#E08A12" stroke-width="3.0" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 6"><title>Fähre oder Boot: Amed – Gili Air (Schnellboot)</title></polyline>
+<polyline points="730.4,180.2 747.8,184.6" fill="none" stroke="#fff" stroke-width="6.0" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="730.4,180.2 747.8,184.6" fill="none" stroke="#E08A12" stroke-width="3.0" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 6"><title>Fähre oder Boot: Gili Air – Bangsal</title></polyline>
+<polyline points="747.8,184.6 752.2,263.8 800.0,338.5 817.4,413.2" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="747.8,184.6 752.2,263.8 800.0,338.5 817.4,413.2" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Bangsal – Kuta (Lombok)</title></polyline>
+<polyline points="334.8,351.7 373.9,325.3" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="334.8,351.7 373.9,325.3" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Flughafen – Sanur</title></polyline>
+<polyline points="373.9,325.3 417.4,329.7 456.5,320.9" fill="none" stroke="#fff" stroke-width="6.0" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="373.9,325.3 417.4,329.7 456.5,320.9" fill="none" stroke="#E08A12" stroke-width="3.0" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 6"><title>Fähre oder Boot: Sanur – Nusa Lembongan (Schnellboot)</title></polyline>
+<polyline points="334.8,351.7 330.4,369.3" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="334.8,351.7 330.4,369.3" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Flughafen – Jimbaran</title></polyline>
+<g><title>2. Ubud: Di, 22.06.2027 – Fr, 25.06.2027, 3 Nächte</title><circle cx="373.9" cy="246.2" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="373.9" y="250.4" text-anchor="middle">2</text></g>
+<text class="sl" x="356.9" y="251.2" text-anchor="end">Ubud</text>
+<g><title>3. Amed: Fr, 25.06.2027 – Mo, 28.06.2027, 3 Nächte</title><circle cx="543.5" cy="171.4" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="543.5" y="175.6" text-anchor="middle">3</text></g>
+<text class="sl" x="543.5" y="153.4" text-anchor="middle">Amed</text>
+<g><title>4. Gili Air: Mo, 28.06.2027 – Fr, 02.07.2027, 4 Nächte</title><circle cx="730.4" cy="180.2" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="730.4" y="184.4" text-anchor="middle">4</text></g>
+<text class="sl" x="730.4" y="162.2" text-anchor="middle">Gili Air</text>
+<g><title>5. Kuta: Fr, 02.07.2027 – Mo, 05.07.2027, 3 Nächte</title><circle cx="817.4" cy="413.2" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="817.4" y="417.4" text-anchor="middle">5</text></g>
+<text class="sl" x="817.4" y="440.2" text-anchor="middle">Kuta</text>
+<g><title>7. Nusa Lembongan: Fr, 09.07.2027 – Mo, 12.07.2027, 3 Nächte</title><circle cx="456.5" cy="320.9" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="456.5" y="325.1" text-anchor="middle">7</text></g>
+<text class="sl" x="456.5" y="347.9" text-anchor="middle">Nusa Lembongan</text>
+<g><title>9. Südbali: Do, 15.07.2027 – Mo, 19.07.2027, 4 Nächte</title><circle cx="330.4" cy="369.3" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="330.4" y="373.5" text-anchor="middle">9</text></g>
+<text class="sl" x="313.4" y="374.3" text-anchor="end">Südbali</text>
+<text class="fl" x="391.3" y="373.7" text-anchor="start">Flughafen Bali ✈</text>
+<text class="fl" x="839.1" y="329.7" text-anchor="start">Flughafen Lombok ✈</text>
+</svg>

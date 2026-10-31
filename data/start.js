@@ -1,13 +1,13 @@
 // Einstiegsseite: Vergleich der Reisen
 // Budgetzahlen kommen automatisch aus den Reisen (data/marokko.js usw.).
-// Platzhalter in Texten: {plan:marokko}, {plan:usa}, {plan:usamitte}, {plan:asien} = Planwert, {mehrkosten} = USA minus Malaysia / Thailand.
+// Platzhalter in Texten: {plan:marokko}, {plan:usa}, {plan:usamitte}, {plan:asien}, {plan:indonesien} = Planwert, {mehrkosten} = USA minus Malaysia / Thailand.
 // Reihenfolge der Reisen hier = Reihenfolge der Spalten; die Navigation folgt der Reihenfolge in index.html.
 // Pro/Contra: je 5 kurze Stichworte. Bewertung: [Punkte 0–5, Text]. Die Punkte und Pro/Contra sind eine Einschätzung und bei Änderungen an den Reisen von Hand anzupassen.
 window.START = {
   titel: "Familienreise 2027",
   zeitraum: "Ab Sa, 19.06.2027, bis spätestens Sa, 24.07.2027, 2 Erwachsene und 2 Kids",
   untertitel: "Verschiedene Reisevarianten als Fahrplan für eine Entscheidung.",
-  reisenIntro: "Alle Reisen beginnen am Sa, 19.06.2027 und sind für die Familie mit Sohn (12) und Tochter (14) geplant. Die Reise mit dem eigenen Auto dauert bis Sa, 24.07.2027 (35 Nächte); die Flugreisen enden schon am Do, 22.07.2027 (32 Nächte), damit zwei Tage gegen den Jetlag bleiben. Ein Klick führt zum vollständigen Fahrplan mit Stationen, Karte und Budget.",
+  reisenIntro: "Alle Reisen beginnen am Sa, 19.06.2027 und sind für die Familie mit Sohn (12) und Tochter (14) geplant. Die Reise mit dem eigenen Auto dauert bis Sa, 24.07.2027 (35 Nächte); die Flugreisen enden schon am Do, 22.07.2027 (32 Nächte; bei Singapur / Indonesien 31 Nächte und zwei Nachtflüge), damit zwei Tage gegen den Jetlag bleiben. Ein Klick führt zum vollständigen Fahrplan mit Stationen, Karte und Budget.",
   bewertungIntro: "Bewertet werden Natur, Dschungelfeeling, Wüstenfeeling, Strand und Baden, Schnorcheln, Abenteuer, Städte, Gesundheit und Sicherheit, Budget, Reisekomfort sowie CO₂ und Umwelt. Fünf Punkte sind die beste Bewertung (beim Budget heisst das: günstig, beim CO₂: wenig Ausstoss). Die Skala ist fest und nicht nur ein Vergleich der Reisen: 5 heisst Weltklasse (z.B. tropische Riffe beim Schnorcheln, kurze Etappen beim Reisekomfort), 0 heisst, dass es das auf der Reise nicht gibt. Die Punkte sind eine Einschätzung auf Basis der Reisepläne, keine Messung.",
   budgetIntro: "Mittelklasse inklusive Flüge bzw. Autokosten, Transport, Unterkunft, Verpflegung und Aktivitäten für 4 Personen. Der dunkle Punkt ist der Planwert, der helle Balken die Spanne.",
   vergleichIntro: "Die wichtigsten Unterschiede nebeneinander.",
@@ -140,6 +140,38 @@ window.START = {
         "Dengue-Mücken, kein Leitungswasser",
         "Jetlag (+6 Std.), viel CO₂"
       ]
+    },
+    indonesien: {
+      name: "Singapur / Indonesien",
+      zusatz: "Singapur, Bali, Gili-Inseln, Lombok, Komodo und Java in der Trockenzeit",
+      passt: "Schnorcheln, Inseln und Strand im Vordergrund stehen, dazu Abenteuer wie Komodowarane, Mantas, Rafting und Vulkane und Kultur auf Bali und Java, und ihr mehrere kurze Flüge und Bootsfahrten in Kauf nehmt.",
+      kurz: "Fünf Wochen Singapur und Indonesien: Singapur, Bali mit Ubud und Amed, die Gili-Inseln, Lombok, Komodo, Nusa Lembongan, Yogyakarta mit Borobudur und zum Schluss Südbali und Sentosa.",
+      route: "Singapur, (Flug) Ubud, Amed, (Boot) Gili Air, Kuta (Lombok), (Flug) Labuan Bajo (Komodo), (Flug, Boot) Nusa Lembongan, (Flug) Yogyakarta, (Flug) Südbali, (Flug) Singapur und Sentosa",
+      stationen: "10 Stationen",
+      laender: "Singapur, Indonesien (Bali, Lombok, Flores, Java)",
+      hinflug: "Direktflug Zürich–Singapur ca. 12–13 Std. (SWISS) am Sa, 19.06.2027 am Abend, Ankunft So am Nachmittag",
+      rueckflug: "Direktflug Singapur–Zürich ca. 13–13,5 Std. (SWISS) in der Nacht auf den Do, 22.07.2027, Ankunft am frühen Morgen; zwei Tage Puffer gegen den Jetlag",
+      dazwischen: "Sechs kurze Flüge (je ca. 1–2,75 Std.), Schnellboote nach Gili Air und Nusa Lembongan, Fahrer auf Bali und Lombok",
+      tempo: "Niemand muss selber fahren: ca. 9–11 Std. mit Fahrer, ca. 3–4 Std. Schnellboot und sechs kurze Flüge, mit Transfers je ein halber bis ganzer Reisetag; überall 2–4 Nächte.",
+      gesamt: "Ca. 80–90 Std. Tür zu Tür: Bahn Brig-Glis–Zürich Flughafen (ca. 2,5 Std.), Langstreckenflüge mit Wartezeiten, Einreise und Transfers zusammen ca. 34 Std., sechs Regionalflüge mit Transfers ca. 30–35 Std., Boote und Fahrten ca. 13–15 Std. Uhr +6 Std. (Java +5 Std.).",
+      wetter: "Trockenzeit auf Bali, Lombok und Flores: ca. 29–31 °C, wenig Regen, nachts angenehm; Singapur ca. 31 °C und schwül mit kurzen Schauern; Meer ca. 26–28 °C.",
+      einreise: "Singapur visumfrei (SG Arrival Card). Indonesien: Visum bei Ankunft oder e-VOA (2026 ca. 500’000 IDR pro Person, Erhöhung geplant), Bali-Abgabe 150’000 IDR pro Person; nur offizielle Seiten nutzen.",
+      hoehepunkte: "Gardens by the Bay, Reisterrassen und Rafting bei Ubud, Wrack bei Amed, Schildkröten auf Gili Air, Surfstrände auf Lombok, Komodowarane und Mantas, Nusa Lembongan, Borobudur und Merapi, Uluwatu mit Kecak-Tanz, Universal Studios Singapore.",
+      teens: "Rafting, Schnorcheln mit Schildkröten und Mantas, Komodowarane, Surfkurs, Klippenspringen, Jeep am Vulkan, Waterbom Bali, Universal Studios Singapore.",
+      pro: [
+        "Weltklasse-Schnorcheln: Schildkröten, Mantas",
+        "Komodowarane, Vulkane, Rafting",
+        "Trockenzeit, angenehm warm",
+        "Niemand muss selber fahren",
+        "Kultur auf Bali und Java, Singapur"
+      ],
+      contra: [
+        "Sechs kurze Flüge, viele Bootsfahrten",
+        "Lange Anreise, Jetlag (+6 Std.)",
+        "Dengue, Tollwut, Malaria auf Flores",
+        "Einfache Versorgung auf kleinen Inseln",
+        "Viel CO₂"
+      ]
     }
   },
   bewertung: [
@@ -154,7 +186,8 @@ window.START = {
       asien: [
         4,
         "Inseln, Strände und Riffe von Tioman bis Koh Tao, dazu Delfine bei Khanom und Wasserfälle; eher sanfte als dramatische Landschaften."
-      ]
+      ],
+      indonesien: [5, "Reisterrassen und Dschungel bei Ubud, Vulkane Agung, Rinjani und Merapi, Inseln und Buchten im Komodo-Nationalpark mit Waranen, Riffe und Wasserfälle: spektakulär und abwechslungsreich."]
     },
     {
       kriterium: "Dschungelfeeling",
@@ -164,7 +197,8 @@ window.START = {
       asien: [
         3,
         "Dschungelwanderung auf Tioman, Wasserfälle und Inselwälder; kein grosser zusammenhängender Regenwald auf der Route."
-      ]
+      ],
+      indonesien: [3, "Dschungel und Wasserfälle bei Ubud und auf Lombok, Mangroven auf Nusa Lembongan; kein grosser zusammenhängender Regenwald auf der Route."]
     },
     {
       kriterium: "Wüstenfeeling",
@@ -174,7 +208,8 @@ window.START = {
       ],
       usa: [4, "Mojave um Las Vegas, rote Felswüsten in Utah und Arizona, Monument Valley, die weissen Gipsdünen von White Sands und die Chihuahua-Wüste in Westtexas."],
       usamitte: [4, "Mojave um Las Vegas, rote Felsen und Dünen bei Kanab, Monument Valley und die Wüste New Mexicos; danach Prärie."],
-      asien: [0, "Keine Wüste: tropische Inseln, Regenwald und Städte."]
+      asien: [0, "Keine Wüste: tropische Inseln, Regenwald und Städte."],
+      indonesien: [1, "Keine Wüste; trockene Savanne auf den Komodo-Inseln."]
     },
     {
       kriterium: "Strand und Baden",
@@ -187,7 +222,8 @@ window.START = {
       asien: [
         5,
         "Tioman, Perhentian Islands, Khanom, Koh Samui, Koh Tao und Hua Hin: tropische Strände mit ca. 29 °C warmem Wasser an fast jeder zweiten Station."
-      ]
+      ],
+      indonesien: [5, "Gili Air, Surfstrände auf Lombok, Pink Beach bei Komodo, Nusa Lembongan und Südbali: tropische Strände mit ca. 26–28 °C warmem Wasser."]
     },
     {
       kriterium: "Schnorcheln",
@@ -200,7 +236,8 @@ window.START = {
       asien: [
         5,
         "Tioman, Perhentian Islands, Koh Samui und Koh Tao: fast jede Inselstation hat Riffe, Schildkröten und Schnorchelboote."
-      ]
+      ],
+      indonesien: [5, "Schildkröten auf den Gili-Inseln, Mantas bei Komodo und Nusa Penida, Riffe und ein Wrack bei Amed: Weltklasse-Schnorcheln."]
     },
     {
       kriterium: "Abenteuer",
@@ -210,7 +247,8 @@ window.START = {
       ],
       usa: [4, "Sandboarding auf den Dünen bei Kanab und auf White Sands, Kletterei durch den Belly of the Dragon, Sumpftour mit Alligatoren, Airboat in den Everglades, Schnorcheln am Riff, ein Roadtrip quer durchs Land."],
       usamitte: [4, "Sandboarding bei Kanab, Jeep-Tour im Monument Valley, Sumpftour mit Alligatoren, Klettern im City Museum, Achterbahnen in Cedar Point, Boot in die Gischt der Niagarafälle, ein Roadtrip quer durchs Land."],
-      asien: [3, "Kajak, Seilrutschen, Inselhopping und Fähren; eher abenteuerlich beim Reisen als in der Natur."]
+      asien: [3, "Kajak, Seilrutschen, Inselhopping und Fähren; eher abenteuerlich beim Reisen als in der Natur."],
+      indonesien: [5, "Rafting, Surfkurs, Komodowarane mit Ranger, Schnorcheln mit Mantas, Klippenspringen, Jeep-Tour am Vulkan Merapi."]
     },
     {
       kriterium: "Städte",
@@ -220,7 +258,8 @@ window.START = {
       ],
       usa: [5, "Los Angeles, Las Vegas, Albuquerque und Santa Fe, San Antonio, New Orleans, Miami und New York mit Museen und Aussichtsplattformen."],
       usamitte: [5, "Los Angeles, Las Vegas, Albuquerque und Santa Fe, Fort Worth, Houston, New Orleans, Memphis, St. Louis, Chicago und New York."],
-      asien: [4, "Singapur, Kuala Lumpur, Penang und Bangkok mit Street-Food und Tempeln."]
+      asien: [4, "Singapur, Kuala Lumpur, Penang und Bangkok mit Street-Food und Tempeln."],
+      indonesien: [3, "Singapur und Yogyakarta mit Borobudur und Prambanan, dazu Tempel und Tänze auf Bali; sonst Dörfer und kleine Orte."]
     },
     {
       kriterium: "Gesundheit und Sicherheit",
@@ -233,14 +272,16 @@ window.START = {
       asien: [
         3,
         "Singapur sehr sicher; in Malaysia und Thailand Dengue-Mückenschutz, kein Leitungswasser, Impfstatus vorab klären; auf den Inseln (Tioman, Perhentian) ist ein Spital weit weg, Bootsfahrten bei Wellengang."
-      ]
+      ],
+      indonesien: [3, "Singapur sehr sicher; in Indonesien Dengue, Tollwut auf Bali (Affen und Hunde meiden), auf Flores Malaria-Risiko, kein Leitungswasser; auf den kleinen Inseln nur einfache Kliniken, Strömungen beim Schnorcheln."]
     },
     {
       kriterium: "Budget (mehr Punkte = günstiger)",
       marokko: [4, "ca. {plan:marokko} CHF: kein Flug, Supercharging gratis, Marokko günstig; dafür Fähren und Züge in Marokko sowie Parkplatz in Tarifa."],
       usa: [1, "ca. {plan:usa} CHF: rund {mehrkosten} CHF mehr, vor allem Einwegmiete, Inlandflug und Unterkünfte in Destin, Key Largo, Miami und New York."],
       usamitte: [1, "ca. {plan:usamitte} CHF: vor allem Einwegmiete, Unterkünfte in Los Angeles, Chicago und New York."],
-      asien: [4, "ca. {plan:asien} CHF: Singapur ist teuer, der Rest günstig."]
+      asien: [4, "ca. {plan:asien} CHF: Singapur ist teuer, der Rest günstig."],
+      indonesien: [3, "ca. {plan:indonesien} CHF: Langstreckenflug und sechs Regionalflüge kosten, Unterkunft und Essen in Indonesien günstig."]
     },
     {
       kriterium: "Reisekomfort",
@@ -253,7 +294,8 @@ window.START = {
       asien: [
         2,
         "Ca. 101–108 Stunden Tür zu Tür: zwei Direktflüge mit Jetlag, dazu ca. 65–70 Stunden mit Bus, Zug und Fähre und viele Umstiege mit Gepäck; niemand muss selber fahren."
-      ]
+      ],
+      indonesien: [2, "Ca. 80–90 Stunden Tür zu Tür: zwei lange Direktflüge mit Jetlag, sechs Regionalflüge und mehrere Schnellboote mit Gepäck; niemand muss selber fahren, überall 2–4 Nächte."]
     },
     {
       kriterium: "CO₂ und Umwelt (mehr Punkte = weniger CO₂)",
@@ -266,7 +308,8 @@ window.START = {
       asien: [
         1,
         "Zwei Langstreckenflüge (ca. 19’000 km), unterwegs Bus, Zug und Fähre, grob geschätzt ca. 4 t CO₂ pro Person."
-      ]
+      ],
+      indonesien: [1, "Zwei Langstreckenflüge (ca. 20’600 km) und sechs Regionalflüge (ca. 6’000 km), grob geschätzt ca. 4,5 t CO₂ pro Person."]
     }
   ]
 };
