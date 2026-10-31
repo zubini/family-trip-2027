@@ -61,7 +61,7 @@ REISEN.malaysia = {
   planHinweise: [
     [
       "Gesamt",
-      "32 Nächte im Land, 8 Stationen. Fernbus Singapur–Mersing (ca. 3,5–4 Std.), private Transfers (Mersing–Cherating ca. 3–3,5 Std., Cherating–Taman Negara ca. 3,5–4 Std., Taman Negara–Kuala Besut ca. 5–5,5 Std., Merang–Kuala Lumpur ca. 5–5,5 Std.), Boote (zusammen ca. 5–6 Std.) und ein kurzer Flug Kuala Lumpur–Bangkok (ca. 2–2,25 Std.). Der längste Reisetag ist Taman Negara–Perhentian mit ca. 6–7 Std. Niemand muss selber fahren."
+      "32 Nächte im Land, 8 Stationen. Fernbus Singapur–Mersing (ca. 3,5–4 Std.), private Transfers (Mersing–Cherating ca. 3–3,5 Std., Cherating–Taman Negara ca. 3,5–4 Std., Taman Negara–Kuala Besut ca. 5–5,5 Std., Merang–Kuala Lumpur ca. 5–5,5 Std.), Boote (zusammen ca. 5–6 Std.) und ein kurzer Flug Kuala Lumpur–Bangkok (ca. 2–2,25 Std.). Am Boden zusammen ca. 25–28 Std. reine Reisezeit, realistisch mit Pausen und Wartezeiten auf Boote und Transfers ca. 30–34 Std. Der längste Reisetag ist Taman Negara–Perhentian mit ca. 6–7 Std. Niemand muss selber fahren."
     ],
     [
       "Flug ab und nach Zürich",

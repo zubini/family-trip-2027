@@ -259,7 +259,7 @@ REISEN.asien = {
       teens: "Penang Hill (Standseilbahn, Kanopyweg), Entopia (Schmetterlinge/Insekten), Escape Adventure Park (Wasserrutschen), Strand in Batu Ferringhi, Street-Art-Schnitzeljagd.",
       fakten: [
         "<strong>Essen:</strong> Char Kway Teow, Satay, Cendol, Hawker Centres. Bei scharfen Gerichten «nicht scharf» bestellen, falls nötig.",
-        "<strong>Dauer:</strong> 2 Nächte. Altstadt per Grab und zu Fuss, mittags Pausen wegen Hitze.",
+        "<strong>Dauer:</strong> 3 Nächte. Altstadt per Grab und zu Fuss, mittags Pausen wegen Hitze.",
         "<strong>Mitmachen:</strong> Kajak an der Küste, Wassersport am Strand von Batu Ferringhi."
       ],
       ausserdem: "Pinang Peranakan Mansion, Khoo Kongsi, Fort Cornwallis, Clan Jetties (Chew Jetty), Penang National Park (Monkey Beach per Boot).",
