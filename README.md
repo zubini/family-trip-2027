@@ -2,12 +2,11 @@
 
 **Zur Seite: https://zubini.github.io/family-trip-2027/**
 
-Reiseführer und Variantenvergleich für die Familienreise 2027 (Sa, 19. Juni bis Sa, 24. Juli, 2 Erwachsene und 2 Kids) mit sechs Varianten:
+Reiseführer und Variantenvergleich für die Familienreise 2027 (Sa, 19. Juni bis Sa, 24. Juli, 2 Erwachsene und 2 Kids) mit fünf Varianten:
 
 - **Spanien / Portugal / Marokko**: mit dem eigenen Auto ab Brig-Glis, sechs Nächte Marokko nur mit Fähre und Zug (Casablanca, Marrakesch, Agafay-Wüste, Fès)
 - **USA Süd (Los Angeles – Florida – New York)**: Roadtrip von Los Angeles durch den Südwesten über Texas, New Orleans und Destin nach Florida mit Key Largo, Inlandflug Miami–New York
 - **USA Mitte (Los Angeles – Chicago – New York)**: mit dem Mietwagen von Los Angeles über Las Vegas, Kanab und Monument Valley nach Albuquerque, über Amarillo und Fort Worth nach Houston und New Orleans, über Memphis und St. Louis nach Chicago, über Cedar Point und die Niagarafälle in die Finger Lakes und nach New York (kein Inlandflug)
-- **USA Appalachen (Los Angeles – Smoky Mountains – New York)**: mit dem Mietwagen von Los Angeles über den Südwesten, Texas und New Orleans an den Strand von Alabama, durch die Smoky Mountains und das Shenandoah-Tal nach Washington und New York (kein Inlandflug)
 - **Malaysia / Thailand**: von Singapur nach Bangkok
 - **Singapur / Malaysia / Indonesien**: Singapur, Tioman, Bali (Ubud, Amed), Gili-Inseln, Komodo, Nusa Lembongan, Südbali und Sentosa
 
@@ -24,7 +23,6 @@ data/             die Inhalte, hier wird fast alles geändert
   marokko.js      Spanien / Portugal / Marokko (eigenes Auto, Marokko mit Fähre und Zug)
   usa.js          USA Süd (Los Angeles–Florida–New York)
   usamitte.js     USA Mitte (Los Angeles–Chicago–New York, ohne Inlandflug)
-  usaappalachen.js  USA Appalachen (Los Angeles–Smoky Mountains–New York, ohne Inlandflug)
   asien.js        Malaysia / Thailand (Singapur–Bangkok)
   indonesien.js   Singapur / Malaysia / Indonesien (Tioman, Bali, Gili-Inseln, Komodo)
   quellen.js      Seite «Quellen» (Belege für Fahrzeiten, Einreise, Bilder)

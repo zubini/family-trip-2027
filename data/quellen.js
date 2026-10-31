@@ -144,19 +144,6 @@ window.QUELLEN = {
       ]
     },
     {
-      titel: "USA Appalachen (Los Angeles – Smoky Mountains – New York)",
-      links: [
-        ["OSRM: Fahrzeiten New Orleans–Gulf Shores–Chattanooga–Smoky Mountains–Shenandoah–Washington (Routenplaner, eher zu lang gerechnet)", "https://router.project-osrm.org"],
-        ["NOLA Ready: Go 4th on the River (Feuerwerk am 4. Juli)", "https://ready.nola.gov/events/july-4th-2023/go-fourth-on-the-river-2023/"],
-        ["TripShock: 4. Juli in Gulf Shores und Orange Beach", "https://www.tripshock.com/blog/gulf-shores-al-fourth-of-july-festivities"],
-        ["Gulf Shores & Orange Beach: Aktivitäten", "https://www.GulfShores.com/things-to-do"],
-        ["Lookout Mountain: Ruby Falls, Incline Railway und Rock City", "https://www.lookoutmountain.com/plan-your-visit/"],
-        ["NPS: Parkkarte Great Smoky Mountains", "https://www.nps.gov/grsm/planyourvisit/fees.htm"],
-        ["NPS: Eintritt Shenandoah (Fragen zur Erhöhung)", "https://www.nps.gov/shen/proposed-entrance-fee-increase-faqs.htm"],
-        ["Visit Shenandoah: Luray Caverns", "https://visitshenandoah.org/poi/luray-caverns/"]
-      ]
-    },
-    {
       titel: "Singapur / Malaysia / Indonesien",
       links: [
         ["Skyscanner: SWISS LX 177 Singapur–Zürich (2026 ca. 23.05 Uhr, Ankunft ca. 6.15 Uhr)", "https://www.skyscanner.com/flight-tracker/swiss/lx177"],

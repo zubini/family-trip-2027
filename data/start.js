@@ -1,6 +1,6 @@
 // Einstiegsseite: Vergleich der Reisen
 // Budgetzahlen kommen automatisch aus den Reisen (data/marokko.js usw.).
-// Platzhalter in Texten: {plan:marokko}, {plan:usa}, {plan:usamitte}, {plan:usaappalachen}, {plan:asien}, {plan:indonesien} = Planwert, {mehrkosten} = USA minus Malaysia / Thailand.
+// Platzhalter in Texten: {plan:marokko}, {plan:usa}, {plan:usamitte}, {plan:asien}, {plan:indonesien} = Planwert, {mehrkosten} = USA minus Malaysia / Thailand.
 // Reihenfolge der Reisen hier = Reihenfolge der Spalten; die Navigation folgt der Reihenfolge in index.html.
 // Pro/Contra: je 5 kurze Stichworte. Bewertung: [Punkte 0–5, Text]. Die Punkte und Pro/Contra sind eine Einschätzung und bei Änderungen an den Reisen von Hand anzupassen.
 window.START = {
@@ -109,38 +109,6 @@ window.START = {
         "Wüstenhitze, Jetlag (−9 Std.), viel CO₂"
       ]
     },
-    usaappalachen: {
-      name: "USA Appalachen (Los Angeles – Smoky Mountains – New York)",
-      zusatz: "Roadtrip ohne Inlandflug: Südwesten, Texas, New Orleans, Golfküste, Appalachen, Washington und New York",
-      passt: "ein grosser Roadtrip quer durchs Land mit viel Abwechslung im Vordergrund steht, von Wüste und Monument Valley über Jazz in New Orleans und Strand am Golf bis zu grünen Bergen mit Bären, und ihr viele Fahrtage in Kauf nehmt.",
-      kurz: "Fünf Wochen quer durch die USA ohne Inlandflug: mit dem Mietwagen von Los Angeles über Las Vegas, Kanab und Monument Valley nach Albuquerque, über Amarillo, Fort Worth und Houston nach New Orleans, an den Strand von Alabama, in die Great Smoky Mountains und das Shenandoah-Tal, nach Washington und New York.",
-      route: "Los Angeles, Las Vegas, Kanab, Monument Valley, Albuquerque, Amarillo, Fort Worth, Houston, New Orleans, Gulf Shores, Chattanooga, Great Smoky Mountains, Shenandoah, Washington, New York",
-      stationen: "15 Stationen",
-      laender: "USA (Kalifornien bis New York, Texas, Louisiana, Alabama, Tennessee, Virginia)",
-      hinflug: "Zürich–Los Angeles ca. 12,25 Std. direkt mit SWISS (im Sommer 2026 täglich ausser Do); Hin- und Rückflug für alle vier ca. 4’000 CHF",
-      rueckflug: "Direktflug New York (JFK)–Zürich ca. 7,75–8 Std. (SWISS, täglich) am Mi, 21.07.2027, Ankunft Do, 22.07.2027 am Morgen; zwei Tage Puffer gegen den Jetlag",
-      dazwischen: "Einwegmiete Los Angeles–New York (ca. 28 Tage), kein Inlandflug, in New York ohne Auto",
-      tempo: "Ca. 58–65 Std. reine Fahrzeit (ca. 6’000 km), realistisch mit Pausen und Stau ca. 67–76 Std. im Auto, an 14 Fahrtagen: 6 Tage mit 5–7 Std., die übrigen 1,5–5 Std.; von Albuquerque bis Houston drei Fahrtage hintereinander.",
-      gesamt: "Ca. 100–110 Std. Tür zu Tür: Bahn Brig-Glis–Zürich Flughafen (ca. 2,5 Std.), Flüge mit Wartezeiten, Einreise und Mietwagen zusammen ca. 31 Std. und ca. 67–76 Std. im Auto. Uhr −9 Std. in Los Angeles, −6 Std. im Osten.",
-      wetter: "In Los Angeles am Meer mild, in Las Vegas und im Südwesten Ende Juni 38–45 °C; in Texas, Louisiana und an der Golfküste heiss und sehr schwül mit Gewittern, Hurrikansaison (im Juli selten); in den Smoky Mountains und im Shenandoah-Tal angenehmer, Washington und New York heiss und schwül.",
-      einreise: "ESTA für alle vier (ca. 40 USD pro Person), Regeln im Wandel. Kein Nationalpark-Jahrespass nötig: Smoky Mountains ohne Eintritt (Parkkarte ca. 5 USD pro Tag), Shenandoah ca. 30 USD pro Auto.",
-      hoehepunkte: "Santa Monica und Griffith Observatory, Las Vegas, rosa Sanddünen bei Kanab, Horseshoe Bend, Monument Valley, Sandia Peak und Meow Wolf, Cadillac Ranch, Viehtrieb in Fort Worth, Space Center Houston, New Orleans mit Feuerwerk am 4. Juli, Strand in Gulf Shores, Ruby Falls, Great Smoky Mountains, Skyline Drive und Luray Caverns, Washington, New York.",
-      teens: "Santa Monica Pier, Sandboarding bei Kanab, Jeep-Tour im Monument Valley, Longhorns in Fort Worth, Space Center Houston, Sumpftour mit Alligatoren, Delfine im Golf, Wasserfall in der Höhle, Schwarzbären, Tubing und Bergachterbahn, Air and Space Museum, New York.",
-      pro: [
-        "Wüste, Südstaaten, Strand, Berge",
-        "Monument Valley, Smoky Mountains, Shenandoah",
-        "New Orleans am 4. Juli, Washington, New York",
-        "Strand am Golf, Bären und Wasserfälle",
-        "Flugangebot ca. 4’000 CHF, kein Inlandflug"
-      ],
-      contra: [
-        "Teuer (ca. {plan:usaappalachen} CHF)",
-        "Ca. 67–76 Std. im Auto",
-        "Drei Fahrtage hintereinander durch Texas",
-        "Kaum Schnorcheln, Strand nur am Golf",
-        "Hitze im Süden, Jetlag (−9 Std.)"
-      ]
-    },
     asien: {
       name: "Malaysia / Thailand",
       zusatz: "von Singapur nach Bangkok",
@@ -215,7 +183,6 @@ window.START = {
       ],
       usa: [5, "Rote Felsen und rosa Sanddünen bei Kanab, Horseshoe Bend, Monument Valley, Sandia Peak, White Sands, die Everglades und das Korallenriff der Keys: spektakuläre und abwechslungsreiche Landschaften."],
       usamitte: [4, "Rosa Sanddünen bei Kanab, Horseshoe Bend, Monument Valley, Sandia Peak, Sümpfe in Louisiana, Niagarafälle und die Schlucht von Watkins Glen; abwechslungsreich, aber ohne die grossen Nationalparks."],
-      usaappalachen: [5, "Rosa Sanddünen bei Kanab, Horseshoe Bend, Monument Valley, Sandia Peak, Palo Duro Canyon, Sümpfe in Louisiana, Golfküste, Wälder und Wasserfälle der Smoky Mountains, Blue Ridge Mountains und Luray Caverns: sehr abwechslungsreich."],
       asien: [
         4,
         "Inseln, Strände und Riffe von Tioman bis Koh Tao, dazu Delfine bei Khanom und Wasserfälle; eher sanfte als dramatische Landschaften."
@@ -227,7 +194,6 @@ window.START = {
       marokko: [0, "Kein Regenwald: Steinwüste, Palmengärten in Marrakesch und grüne Hügel im Baskenland."],
       usa: [1, "Kein Regenwald; Sümpfe in Louisiana und Mangroven in den Everglades."],
       usamitte: [1, "Kein Regenwald; Sümpfe in Louisiana."],
-      usaappalachen: [1, "Kein Regenwald; Sümpfe in Louisiana und dichte Laubwälder in den Smoky Mountains."],
       asien: [
         3,
         "Dschungelwanderung auf Tioman, Wasserfälle und Inselwälder; kein grosser zusammenhängender Regenwald auf der Route."
@@ -242,7 +208,6 @@ window.START = {
       ],
       usa: [4, "Mojave um Las Vegas, rote Felswüsten in Utah und Arizona, Monument Valley, die weissen Gipsdünen von White Sands und die Chihuahua-Wüste in Westtexas."],
       usamitte: [4, "Mojave um Las Vegas, rote Felsen und Dünen bei Kanab, Monument Valley und die Wüste New Mexicos; danach Prärie."],
-      usaappalachen: [4, "Mojave um Las Vegas, rote Felsen und Dünen bei Kanab, Monument Valley und die Wüste New Mexicos."],
       asien: [0, "Keine Wüste: tropische Inseln, Regenwald und Städte."],
       indonesien: [1, "Keine Wüste; trockene Savanne auf den Komodo-Inseln."]
     },
@@ -254,7 +219,6 @@ window.START = {
       ],
       usa: [3, "Santa Monica am Pazifik, vier Nächte an den weissen Stränden bei Destin, drei Nächte in Key Largo und drei in Miami mit Miami Beach, Wasser ca. 28–31 °C; dazwischen viele Tage ohne Meer."],
       usamitte: [1, "Santa Monica am Pazifik, Galveston als Option, Stadtstrände am Michigansee und der Strand am Eriesee bei Cedar Point; kein warmes, klares Meer."],
-      usaappalachen: [2, "Santa Monica am Pazifik und drei Nächte in Gulf Shores am Golf von Mexiko, Wasser ca. 29–30 °C; sonst viele Tage ohne Meer."],
       asien: [
         5,
         "Tioman, Perhentian Islands, Khanom, Koh Samui, Koh Tao und Hua Hin: tropische Strände mit ca. 29 °C warmem Wasser an fast jeder zweiten Station."
@@ -269,7 +233,6 @@ window.START = {
       ],
       usa: [2, "Drei Nächte in Key Largo mit Bootstour zum einzigen Korallenriff an der Festlandküste der USA, dazu die Steinmolen bei Destin; das Riff ist weniger farbig als in Südostasien."],
       usamitte: [0, "Kein Schnorcheln auf der Route."],
-      usaappalachen: [0, "Kein Schnorcheln auf der Route; das Wasser am Golf ist eher trüb."],
       asien: [
         5,
         "Tioman, Perhentian Islands, Koh Samui und Koh Tao: fast jede Inselstation hat Riffe, Schildkröten und Schnorchelboote."
@@ -284,7 +247,6 @@ window.START = {
       ],
       usa: [4, "Sandboarding auf den Dünen bei Kanab und auf White Sands, Kletterei durch den Belly of the Dragon, Sumpftour mit Alligatoren, Airboat in den Everglades, Schnorcheln am Riff, ein Roadtrip quer durchs Land."],
       usamitte: [4, "Sandboarding bei Kanab, Jeep-Tour im Monument Valley, Sumpftour mit Alligatoren, Klettern im City Museum, Achterbahnen in Cedar Point, Boot in die Gischt der Niagarafälle, ein Roadtrip quer durchs Land."],
-      usaappalachen: [4, "Sandboarding bei Kanab, Jeep-Tour im Monument Valley, Sumpftour mit Alligatoren, Delfin-Bootstour, Höhlen, Tubing und Bergachterbahn in den Smoky Mountains, ein Roadtrip quer durchs Land."],
       asien: [3, "Kajak, Seilrutschen, Inselhopping und Fähren; eher abenteuerlich beim Reisen als in der Natur."],
       indonesien: [5, "Dschungel-Wanderung auf Tioman, Rafting, Surfkurs, Komodowarane mit Ranger, Schnorcheln mit Mantas, Klippenspringen."],
     },
@@ -296,7 +258,6 @@ window.START = {
       ],
       usa: [5, "Los Angeles, Las Vegas, Albuquerque und Santa Fe, Austin, New Orleans, Miami und New York mit Museen und Aussichtsplattformen."],
       usamitte: [5, "Los Angeles, Las Vegas, Albuquerque und Santa Fe, Fort Worth, Houston, New Orleans, Memphis, St. Louis, Chicago und New York."],
-      usaappalachen: [5, "Los Angeles, Las Vegas, Albuquerque und Santa Fe, Fort Worth, Houston, New Orleans, Chattanooga, Washington und New York."],
       asien: [4, "Singapur, Kuala Lumpur, Penang und Bangkok mit Street-Food und Tempeln."],
       indonesien: [2, "Singapur, dazu Tempel und Tänze auf Bali und malaiische Dörfer auf Tioman; sonst kleine Orte."],
     },
@@ -308,7 +269,6 @@ window.START = {
       ],
       usa: [4, "Sehr gute Spitäler, aber sehr teuer (Reiseversicherung mit hoher Deckung nötig); Hitze im Südwesten, Hurrikansaison an der Golfküste und in Florida."],
       usamitte: [4, "Sehr gute Spitäler, aber sehr teuer (Reiseversicherung mit hoher Deckung nötig); Hitze im Südwesten und an der Golfküste, Gewitter."],
-      usaappalachen: [4, "Sehr gute Spitäler, aber sehr teuer (Reiseversicherung mit hoher Deckung nötig); Hitze im Südwesten und an der Golfküste, Bären in den Bergen."],
       asien: [
         3,
         "Singapur sehr sicher; in Malaysia und Thailand Dengue-Mückenschutz, kein Leitungswasser, Impfstatus vorab klären; auf den Inseln (Tioman, Perhentian) ist ein Spital weit weg, Bootsfahrten bei Wellengang."
@@ -320,7 +280,6 @@ window.START = {
       marokko: [4, "ca. {plan:marokko} CHF: kein Flug, Supercharging gratis, Marokko günstig; dafür Fähren und Züge in Marokko sowie Parkplatz in Tarifa."],
       usa: [1, "ca. {plan:usa} CHF: rund {mehrkosten} CHF mehr, vor allem Einwegmiete, Inlandflug und Unterkünfte in Destin, Key Largo, Miami und New York."],
       usamitte: [1, "ca. {plan:usamitte} CHF: vor allem Einwegmiete, Unterkünfte in Los Angeles, Chicago und New York."],
-      usaappalachen: [1, "ca. {plan:usaappalachen} CHF: vor allem Einwegmiete, Unterkünfte in Los Angeles, Gulf Shores, Washington und New York."],
       asien: [4, "ca. {plan:asien} CHF: Singapur ist teuer, der Rest günstig."],
       indonesien: [3, "ca. {plan:indonesien} CHF: Langstreckenflug und vier Regionalflüge kosten, Unterkunft und Essen in Malaysia und Indonesien günstig."],
     },
@@ -332,7 +291,6 @@ window.START = {
       ],
       usa: [1, "Ca. 104–111 Stunden Tür zu Tür: zwei Langstreckenflüge mit Einreise und Jetlag, ein Inlandflug, dazu viel Zeit im Auto (ca. 64–70 Stunden an 12 Fahrtagen, ein Tag mit ca. 9,5–10 Stunden)."],
       usamitte: [1, "Ca. 108–118 Stunden Tür zu Tür: zwei Langstreckenflüge mit Jetlag (−9 Std.) und die meiste Zeit im Auto (ca. 75–84 Stunden an 15 Fahrtagen, drei Fahrtage hintereinander durch Texas)."],
-      usaappalachen: [1, "Ca. 100–110 Stunden Tür zu Tür: zwei Langstreckenflüge mit Jetlag (−9 Std.) und viel Zeit im Auto (ca. 67–76 Stunden an 14 Fahrtagen, drei Fahrtage hintereinander durch Texas)."],
       asien: [
         2,
         "Ca. 101–108 Stunden Tür zu Tür: zwei Direktflüge mit Jetlag, dazu ca. 65–70 Stunden mit Bus, Zug und Fähre und viele Umstiege mit Gepäck; niemand muss selber fahren."
@@ -347,7 +305,6 @@ window.START = {
       ],
       usa: [1, "Zwei Langstreckenflüge und ein Inlandflug (zusammen ca. 17’700 km) und ca. 5’550 km Mietwagen, grob geschätzt ca. 3,7 t CO₂ pro Person."],
       usamitte: [1, "Zwei Langstreckenflüge (zusammen ca. 15’800 km) und ca. 6’700 km Mietwagen, grob geschätzt ca. 3,6 t CO₂ pro Person."],
-      usaappalachen: [1, "Zwei Langstreckenflüge (zusammen ca. 15’800 km) und ca. 6’000 km Mietwagen, grob geschätzt ca. 3,5 t CO₂ pro Person."],
       asien: [
         1,
         "Zwei Langstreckenflüge (ca. 19’000 km), unterwegs Bus, Zug und Fähre, grob geschätzt ca. 4 t CO₂ pro Person."
