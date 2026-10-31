@@ -154,7 +154,7 @@ window.QUELLEN = {
       ]
     },
     {
-      titel: "Singapur / Indonesien",
+      titel: "Singapur / Malaysia / Indonesien",
       links: [
         ["Skyscanner: SWISS LX 177 Singapur–Zürich (2026 ca. 23.05 Uhr, Ankunft ca. 6.15 Uhr)", "https://www.skyscanner.com/flight-tracker/swiss/lx177"],
         ["Wego: Visum bei Ankunft in Indonesien 2026 (500’000 IDR)", "https://blog.wego.com/indonesia-visa-on-arrival/"],

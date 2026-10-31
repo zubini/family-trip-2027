@@ -7,7 +7,7 @@ window.START = {
   titel: "Familienreise 2027",
   zeitraum: "Ab Sa, 19.06.2027, bis spätestens Sa, 24.07.2027, 2 Erwachsene und 2 Kids",
   untertitel: "Verschiedene Reisevarianten als Fahrplan für eine Entscheidung.",
-  reisenIntro: "Alle Reisen beginnen am Sa, 19.06.2027 und sind für die Familie mit Sohn (12) und Tochter (14) geplant. Die Reise mit dem eigenen Auto dauert bis Sa, 24.07.2027 (35 Nächte); die Flugreisen enden schon am Do, 22.07.2027 (32 Nächte; bei Singapur / Indonesien 31 Nächte und zwei Nachtflüge), damit zwei Tage gegen den Jetlag bleiben. Ein Klick führt zum vollständigen Fahrplan mit Stationen, Karte und Budget.",
+  reisenIntro: "Alle Reisen beginnen am Sa, 19.06.2027 und sind für die Familie mit Sohn (12) und Tochter (14) geplant. Die Reise mit dem eigenen Auto dauert bis Sa, 24.07.2027 (35 Nächte); die Flugreisen enden schon am Do, 22.07.2027 (32 Nächte; bei Singapur / Malaysia / Indonesien 31 Nächte und zwei Nachtflüge), damit zwei Tage gegen den Jetlag bleiben. Ein Klick führt zum vollständigen Fahrplan mit Stationen, Karte und Budget.",
   bewertungIntro: "Bewertet werden Natur, Dschungelfeeling, Wüstenfeeling, Strand und Baden, Schnorcheln, Abenteuer, Städte, Gesundheit und Sicherheit, Budget, Reisekomfort sowie CO₂ und Umwelt. Fünf Punkte sind die beste Bewertung (beim Budget heisst das: günstig, beim CO₂: wenig Ausstoss). Die Skala ist fest und nicht nur ein Vergleich der Reisen: 5 heisst Weltklasse (z.B. tropische Riffe beim Schnorcheln, kurze Etappen beim Reisekomfort), 0 heisst, dass es das auf der Reise nicht gibt. Die Punkte sind eine Einschätzung auf Basis der Reisepläne, keine Messung.",
   budgetIntro: "Mittelklasse inklusive Flüge bzw. Autokosten, Transport, Unterkunft, Verpflegung und Aktivitäten für 4 Personen. Der dunkle Punkt ist der Planwert, der helle Balken die Spanne.",
   vergleichIntro: "Die wichtigsten Unterschiede nebeneinander.",
@@ -174,31 +174,31 @@ window.START = {
       ]
     },
     indonesien: {
-      name: "Singapur / Indonesien",
-      zusatz: "Singapur, Bali, Gili-Inseln, Komodo und Java in der Trockenzeit",
-      passt: "Schnorcheln, Inseln und Strand im Vordergrund stehen, dazu Abenteuer wie Komodowarane, Mantas, Rafting und Vulkane und Kultur auf Bali und Java, und ihr mehrere kurze Flüge und Bootsfahrten in Kauf nehmt.",
-      kurz: "Fünf Wochen Singapur und Indonesien: Singapur, Bali mit Ubud und Amed, die Gili-Inseln, Komodo, Nusa Lembongan, Yogyakarta mit Borobudur und zum Schluss Südbali und Sentosa.",
-      route: "Singapur, (Flug) Ubud, Amed, (Boot) Gili Air, (Flug) Labuan Bajo (Komodo), (Flug, Boot) Nusa Lembongan, (Flug) Yogyakarta, (Flug) Südbali, (Flug) Singapur und Sentosa",
-      stationen: "9 Stationen",
-      laender: "Singapur, Indonesien (Bali, Gili-Inseln, Flores, Java)",
+      name: "Singapur / Malaysia / Indonesien",
+      zusatz: "Singapur, Tioman, Bali, Gili-Inseln und Komodo in der Trockenzeit",
+      passt: "Schnorcheln, Inseln und Strand im Vordergrund stehen, dazu Abenteuer wie Komodowarane, Mantas, Rafting und Dschungel, und ihr Bus, Fähren, kurze Flüge und Bootsfahrten in Kauf nehmt.",
+      kurz: "Fünf Wochen Singapur, Malaysia und Indonesien: Singapur, die Dschungelinsel Tioman, Bali mit Ubud und Amed, die Gili-Inseln, Komodo, Nusa Lembongan, Südbali und zum Schluss Sentosa.",
+      route: "Singapur, (Bus, Fähre) Pulau Tioman, (Flug) Ubud, Amed, (Boot) Gili Air, (Flug) Labuan Bajo (Komodo), (Flug, Boot) Nusa Lembongan, Südbali, (Flug) Singapur und Sentosa",
+      stationen: "9 Stationen und 1 Zwischenübernachtung",
+      laender: "Singapur, Malaysia (Tioman), Indonesien (Bali, Gili-Inseln, Flores)",
       hinflug: "Direktflug Zürich–Singapur ca. 12–13 Std. (SWISS) am Sa, 19.06.2027 am Abend, Ankunft So am Nachmittag",
       rueckflug: "Direktflug Singapur–Zürich ca. 13–13,5 Std. (SWISS) in der Nacht auf den Do, 22.07.2027, Ankunft am frühen Morgen; zwei Tage Puffer gegen den Jetlag",
-      dazwischen: "Sechs kurze Flüge (je ca. 1–2,75 Std.), Schnellboote nach Gili Air und Nusa Lembongan, Fahrer auf Bali",
-      tempo: "Niemand muss selber fahren: ca. 7–9 Std. mit Fahrer, ca. 3–4 Std. Schnellboot und sechs kurze Flüge, mit Transfers je ein halber bis ganzer Reisetag; überall 2–5 Nächte.",
-      gesamt: "Ca. 80–90 Std. Tür zu Tür: Bahn Brig-Glis–Zürich Flughafen (ca. 2,5 Std.), Langstreckenflüge mit Wartezeiten, Einreise und Transfers zusammen ca. 34 Std., sechs Regionalflüge mit Transfers ca. 30–35 Std., Boote und Fahrten ca. 13–15 Std. Uhr +6 Std. (Java +5 Std.).",
-      wetter: "Trockenzeit auf Bali, den Gili-Inseln und Flores: ca. 29–31 °C, wenig Regen, nachts angenehm; Singapur ca. 31 °C und schwül mit kurzen Schauern; Meer ca. 26–28 °C.",
-      einreise: "Singapur visumfrei (SG Arrival Card). Indonesien: Visum bei Ankunft oder e-VOA (2026 ca. 500’000 IDR pro Person, Erhöhung geplant), Bali-Abgabe 150’000 IDR pro Person; nur offizielle Seiten nutzen.",
-      hoehepunkte: "Gardens by the Bay, Reisterrassen und Rafting bei Ubud, Wrack bei Amed, Schildkröten auf Gili Air, Komodowarane und Mantas, Nusa Lembongan, Borobudur und Merapi, Uluwatu mit Kecak-Tanz, Universal Studios Singapore.",
-      teens: "Rafting, Schnorcheln mit Schildkröten und Mantas, Komodowarane, Surfkurs, Klippenspringen, Jeep am Vulkan, Waterbom Bali, Universal Studios Singapore.",
+      dazwischen: "Bus und Fähre nach Tioman und zurück, vier kurze Flüge (je ca. 1–2,75 Std.), Schnellboote nach Gili Air und Nusa Lembongan, Fahrer auf Bali",
+      tempo: "Niemand muss selber fahren: zweimal Bus und Fähre (je ca. 5,5–6,5 Std.), ca. 6–8 Std. mit Fahrer, ca. 3–4 Std. Schnellboot und vier kurze Flüge, mit Transfers je ein halber bis ganzer Reisetag; überall 2–4 Nächte.",
+      gesamt: "Ca. 75–85 Std. Tür zu Tür: Bahn Brig-Glis–Zürich Flughafen (ca. 2,5 Std.), Langstreckenflüge mit Wartezeiten, Einreise und Transfers zusammen ca. 34 Std., Bus und Fähren nach Tioman ca. 12 Std., vier Regionalflüge mit Transfers ca. 20–24 Std., Boote und Fahrten ca. 9–12 Std. Uhr +6 Std.",
+      wetter: "Trockenzeit auf Bali, den Gili-Inseln und Flores, beste Zeit auch auf Tioman: ca. 29–32 °C, wenig Regen; Singapur ca. 31 °C und schwül mit kurzen Schauern; Meer ca. 27–29 °C.",
+      einreise: "Singapur und Malaysia visumfrei (SG Arrival Card, MDAC). Indonesien: Visum bei Ankunft oder e-VOA (2026 ca. 500’000 IDR pro Person, Erhöhung geplant), Bali-Abgabe 150’000 IDR pro Person; nur offizielle Seiten nutzen.",
+      hoehepunkte: "Gardens by the Bay, Dschungel und Riffe auf Tioman, Reisterrassen und Rafting bei Ubud, Wrack bei Amed, Schildkröten auf Gili Air, Komodowarane und Mantas, Nusa Lembongan, Uluwatu mit Kecak-Tanz, Universal Studios Singapore.",
+      teens: "Schnorcheln auf Tioman, Dschungel-Wanderung, Rafting, Schildkröten und Mantas, Komodowarane, Klippenspringen, Surfkurs, Waterbom Bali, Universal Studios Singapore.",
       pro: [
         "Weltklasse-Schnorcheln: Schildkröten, Mantas",
-        "Komodowarane, Vulkane, Rafting",
+        "Komodowarane, Dschungel, Rafting",
         "Trockenzeit, angenehm warm",
         "Niemand muss selber fahren",
-        "Kultur auf Bali und Java, Singapur"
+        "Drei Länder, Singapur am Anfang und Ende"
       ],
       contra: [
-        "Sechs kurze Flüge, viele Bootsfahrten",
+        "Vier kurze Flüge, Bus, Fähren und Boote",
         "Lange Anreise, Jetlag (+6 Std.)",
         "Dengue, Tollwut, Malaria auf Flores",
         "Einfache Versorgung auf kleinen Inseln",
@@ -220,7 +220,7 @@ window.START = {
         4,
         "Inseln, Strände und Riffe von Tioman bis Koh Tao, dazu Delfine bei Khanom und Wasserfälle; eher sanfte als dramatische Landschaften."
       ],
-      indonesien: [5, "Reisterrassen und Dschungel bei Ubud, Vulkane Agung, Rinjani und Merapi, Inseln und Buchten im Komodo-Nationalpark mit Waranen, Riffe und Wasserfälle: spektakulär und abwechslungsreich."]
+      indonesien: [5, "Dschungelinsel Tioman, Reisterrassen und Wälder bei Ubud, Vulkane Agung und Rinjani, Inseln und Buchten im Komodo-Nationalpark mit Waranen, Riffe: spektakulär und abwechslungsreich."],
     },
     {
       kriterium: "Dschungelfeeling",
@@ -232,7 +232,7 @@ window.START = {
         3,
         "Dschungelwanderung auf Tioman, Wasserfälle und Inselwälder; kein grosser zusammenhängender Regenwald auf der Route."
       ],
-      indonesien: [3, "Dschungel und Wasserfälle bei Ubud, Mangroven auf Nusa Lembongan; kein grosser zusammenhängender Regenwald auf der Route."]
+      indonesien: [3, "Dschungel und Wasserfälle auf Tioman und bei Ubud, Mangroven auf Nusa Lembongan; kein grosser zusammenhängender Regenwald auf der Route."],
     },
     {
       kriterium: "Wüstenfeeling",
@@ -259,7 +259,7 @@ window.START = {
         5,
         "Tioman, Perhentian Islands, Khanom, Koh Samui, Koh Tao und Hua Hin: tropische Strände mit ca. 29 °C warmem Wasser an fast jeder zweiten Station."
       ],
-      indonesien: [5, "Gili Air, Pink Beach bei Komodo, Nusa Lembongan und Südbali mit Surfstränden: tropische Strände mit ca. 26–28 °C warmem Wasser."]
+      indonesien: [5, "Tioman, Gili Air, Pink Beach bei Komodo, Nusa Lembongan und Südbali mit Surfstränden: tropische Strände mit ca. 27–29 °C warmem Wasser."],
     },
     {
       kriterium: "Schnorcheln",
@@ -274,7 +274,7 @@ window.START = {
         5,
         "Tioman, Perhentian Islands, Koh Samui und Koh Tao: fast jede Inselstation hat Riffe, Schildkröten und Schnorchelboote."
       ],
-      indonesien: [5, "Schildkröten auf den Gili-Inseln, Mantas bei Komodo und Nusa Penida, Riffe und ein Wrack bei Amed: Weltklasse-Schnorcheln."]
+      indonesien: [5, "Riffe im Marine Park von Tioman, Schildkröten auf den Gili-Inseln, Mantas bei Komodo und Nusa Penida, ein Wrack bei Amed: Weltklasse-Schnorcheln."],
     },
     {
       kriterium: "Abenteuer",
@@ -286,7 +286,7 @@ window.START = {
       usamitte: [4, "Sandboarding bei Kanab, Jeep-Tour im Monument Valley, Sumpftour mit Alligatoren, Klettern im City Museum, Achterbahnen in Cedar Point, Boot in die Gischt der Niagarafälle, ein Roadtrip quer durchs Land."],
       usaappalachen: [4, "Sandboarding bei Kanab, Jeep-Tour im Monument Valley, Sumpftour mit Alligatoren, Delfin-Bootstour, Höhlen, Tubing und Bergachterbahn in den Smoky Mountains, ein Roadtrip quer durchs Land."],
       asien: [3, "Kajak, Seilrutschen, Inselhopping und Fähren; eher abenteuerlich beim Reisen als in der Natur."],
-      indonesien: [5, "Rafting, Surfkurs, Komodowarane mit Ranger, Schnorcheln mit Mantas, Klippenspringen, Jeep-Tour am Vulkan Merapi."]
+      indonesien: [5, "Dschungel-Wanderung auf Tioman, Rafting, Surfkurs, Komodowarane mit Ranger, Schnorcheln mit Mantas, Klippenspringen."],
     },
     {
       kriterium: "Städte",
@@ -298,7 +298,7 @@ window.START = {
       usamitte: [5, "Los Angeles, Las Vegas, Albuquerque und Santa Fe, Fort Worth, Houston, New Orleans, Memphis, St. Louis, Chicago und New York."],
       usaappalachen: [5, "Los Angeles, Las Vegas, Albuquerque und Santa Fe, Fort Worth, Houston, New Orleans, Chattanooga, Washington und New York."],
       asien: [4, "Singapur, Kuala Lumpur, Penang und Bangkok mit Street-Food und Tempeln."],
-      indonesien: [3, "Singapur und Yogyakarta mit Borobudur und Prambanan, dazu Tempel und Tänze auf Bali; sonst Dörfer und kleine Orte."]
+      indonesien: [2, "Singapur, dazu Tempel und Tänze auf Bali und malaiische Dörfer auf Tioman; sonst kleine Orte."],
     },
     {
       kriterium: "Gesundheit und Sicherheit",
@@ -322,7 +322,7 @@ window.START = {
       usamitte: [1, "ca. {plan:usamitte} CHF: vor allem Einwegmiete, Unterkünfte in Los Angeles, Chicago und New York."],
       usaappalachen: [1, "ca. {plan:usaappalachen} CHF: vor allem Einwegmiete, Unterkünfte in Los Angeles, Gulf Shores, Washington und New York."],
       asien: [4, "ca. {plan:asien} CHF: Singapur ist teuer, der Rest günstig."],
-      indonesien: [3, "ca. {plan:indonesien} CHF: Langstreckenflug und sechs Regionalflüge kosten, Unterkunft und Essen in Indonesien günstig."]
+      indonesien: [3, "ca. {plan:indonesien} CHF: Langstreckenflug und vier Regionalflüge kosten, Unterkunft und Essen in Malaysia und Indonesien günstig."],
     },
     {
       kriterium: "Reisekomfort",
@@ -337,7 +337,7 @@ window.START = {
         2,
         "Ca. 101–108 Stunden Tür zu Tür: zwei Direktflüge mit Jetlag, dazu ca. 65–70 Stunden mit Bus, Zug und Fähre und viele Umstiege mit Gepäck; niemand muss selber fahren."
       ],
-      indonesien: [2, "Ca. 80–90 Stunden Tür zu Tür: zwei lange Direktflüge mit Jetlag, sechs Regionalflüge und mehrere Schnellboote mit Gepäck; niemand muss selber fahren, überall 2–5 Nächte."]
+      indonesien: [2, "Ca. 75–85 Stunden Tür zu Tür: zwei lange Direktflüge mit Jetlag, Bus und Fähre nach Tioman, vier Regionalflüge und mehrere Schnellboote mit Gepäck; niemand muss selber fahren, überall 2–4 Nächte."],
     },
     {
       kriterium: "CO₂ und Umwelt (mehr Punkte = weniger CO₂)",
@@ -352,7 +352,7 @@ window.START = {
         1,
         "Zwei Langstreckenflüge (ca. 19’000 km), unterwegs Bus, Zug und Fähre, grob geschätzt ca. 4 t CO₂ pro Person."
       ],
-      indonesien: [1, "Zwei Langstreckenflüge (ca. 20’600 km) und sechs Regionalflüge (ca. 6’000 km), grob geschätzt ca. 4,5 t CO₂ pro Person."]
+      indonesien: [1, "Zwei Langstreckenflüge (ca. 20’600 km) und vier Regionalflüge (ca. 4’500 km), grob geschätzt ca. 4,3 t CO₂ pro Person."],
     }
   ]
 };

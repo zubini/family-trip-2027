@@ -1,18 +1,18 @@
-// Reise: Singapur und Indonesien (Bali, Gili-Inseln, Komodo, Nusa Lembongan, Yogyakarta), Flüge, Schnellboote und Fahrer
+// Reise: Singapur, Malaysia (Tioman) und Indonesien (Bali, Gili-Inseln, Komodo, Nusa Lembongan): Bus, Fähren, Flüge, Schnellboote und Fahrer
 // Daten in "datum" ohne Wochentag schreiben (z.B. "19.–22. Juni"), die Wochentage rechnet js/app.js aus.
 // Texte dürfen einfaches HTML enthalten (<b>, <strong>, <i>).
 window.REISEN = window.REISEN || {};
 REISEN.indonesien = {
-  titel: "Singapur und Indonesien: von Bali über die Gili-Inseln nach Komodo",
-  menu: "Singapur / Indonesien",
-  untertitel: "Fünf Wochen Singapur und Indonesien in der Trockenzeit: Singapur, Bali mit Ubud und Amed, die Gili-Inseln, Komodo mit Waranen und Mantas, Nusa Lembongan, Yogyakarta mit Borobudur und zum Schluss Strand auf Bali und Sentosa.",
+  titel: "Singapur, Malaysia und Indonesien: Tioman, Bali, Gili-Inseln und Komodo",
+  menu: "Singapur / Malaysia / Indonesien",
+  untertitel: "Fünf Wochen Inseln in der Trockenzeit: Singapur, die Dschungelinsel Tioman in Malaysia, Bali mit Ubud und Amed, die Gili-Inseln, Komodo mit Waranen und Mantas, Nusa Lembongan, Strand in Südbali und zum Schluss Sentosa.",
   zeitraum: "Sa, 19.06.2027 bis Do, 22.07.2027, 2 Erwachsene und 2 Kids",
   titelbild: {
     suche: "Padar Island Komodo|Gili Air beach",
     stichwort: "padar|komodo|gili",
     alt: "Padar im Komodo-Nationalpark"
   },
-  planIntro: "Abflug ab Zürich nach Singapur am Sa, 19.06.2027 am Abend, Rückflug ab Singapur am Mi, 21.07.2027 in der Nacht (Ankunft Do, 22.07.2027 am Morgen). 31 Nächte im Land, dazu zwei Nächte im Flugzeug. Dazwischen sechs kurze Flüge, Schnellboote und Fahrten mit Fahrer. Ein Klick auf eine Station springt zur Beschreibung.",
+  planIntro: "Abflug ab Zürich nach Singapur am Sa, 19.06.2027 am Abend, Rückflug ab Singapur am Mi, 21.07.2027 in der Nacht (Ankunft Do, 22.07.2027 am Morgen). 31 Nächte im Land, dazu zwei Nächte im Flugzeug. Dazwischen Bus und Fähre nach Tioman, vier kurze Flüge, Schnellboote und Fahrten mit Fahrer. Ein Klick auf eine Station springt zur Beschreibung.",
   hinflug: {
     datum: "19.–20. Juni",
     name: "Flug Zürich–Singapur",
@@ -27,35 +27,41 @@ REISEN.indonesien = {
     },
     {
       datum: "22.–26. Juni",
-      name: "2. Ubud (Bali)",
+      name: "2. Pulau Tioman",
       naechte: 4,
-      info: "Flug nach Bali (ca. 2,5–2,75 Std.), Fahrt nach Ubud (ca. 1–1,5 Std.), Uhr bleibt gleich"
+      info: "Bus nach Mersing (ca. 3,5–4 Std., Grenze), Fähre (ca. 1,5–2 Std.)"
     },
-    {datum: "26.–29. Juni", name: "3. Amed (Ostbali)", naechte: 3, info: "Fahrt mit Fahrer (ca. 2–2,5 Std.)"},
-    {datum: "29. Juni–4. Juli", name: "4. Gili Air", naechte: 5, info: "Schnellboot (ca. 1,5 Std.; Hafen vorab prüfen)"},
     {
-      datum: "4.–8. Juli",
-      name: "5. Labuan Bajo (Komodo)",
+      datum: "26.–27. Juni",
+      name: "Zwischenübernachtung Singapur (Flughafen)",
+      naechte: 1,
+      info: "Fähre nach Mersing (ca. 1,5–2 Std.), Bus nach Singapur (ca. 3,5–4 Std.), Hotel am Flughafen Changi"
+    },
+    {
+      datum: "27. Juni–1. Juli",
+      name: "3. Ubud (Bali)",
+      naechte: 4,
+      info: "Flug Singapur–Bali (ca. 2,5–2,75 Std.), Fahrt nach Ubud (ca. 1–1,5 Std.)"
+    },
+    {datum: "1.–4. Juli", name: "4. Amed (Ostbali)", naechte: 3, info: "Fahrt mit Fahrer (ca. 2–2,5 Std.)"},
+    {datum: "4.–8. Juli", name: "5. Gili Air", naechte: 4, info: "Schnellboot (ca. 1,5 Std.; Hafen vorab prüfen)"},
+    {
+      datum: "8.–12. Juli",
+      name: "6. Labuan Bajo (Komodo)",
       naechte: 4,
       info: "Boot und Fahrt zum Flughafen Lombok (ca. 2–2,5 Std.), Flug nach Labuan Bajo (ca. 1,25 Std.)"
     },
     {
-      datum: "8.–11. Juli",
-      name: "6. Nusa Lembongan",
+      datum: "12.–15. Juli",
+      name: "7. Nusa Lembongan",
       naechte: 3,
       info: "Flug nach Bali (ca. 1–1,25 Std.), Schnellboot ab Sanur (ca. 30–45 Min.)"
     },
     {
-      datum: "11.–14. Juli",
-      name: "7. Yogyakarta (Java)",
-      naechte: 3,
-      info: "Schnellboot und Flug nach Yogyakarta (ca. 1,25 Std.), Uhr −1 Std."
-    },
-    {
-      datum: "14.–19. Juli",
+      datum: "15.–19. Juli",
       name: "8. Südbali (Jimbaran)",
-      naechte: 5,
-      info: "Flug nach Bali (ca. 1,25 Std.), Uhr +1 Std."
+      naechte: 4,
+      info: "Schnellboot nach Sanur (ca. 30–45 Min.), Fahrt (ca. 30–45 Min.)"
     },
     {
       datum: "19.–21. Juli",
@@ -72,7 +78,7 @@ REISEN.indonesien = {
   planHinweise: [
     [
       "Gesamt",
-      "31 Nächte im Land, 9 Stationen. Sechs kurze Flüge (Singapur–Bali ca. 2,5–2,75 Std., Lombok–Labuan Bajo ca. 1,25 Std., Labuan Bajo–Bali ca. 1–1,25 Std., Bali–Yogyakarta und zurück je ca. 1,25 Std., Bali–Singapur ca. 2,5–2,75 Std.), dazu Schnellboote (zusammen ca. 3–4 Std.) und Fahrten mit Fahrer (zusammen ca. 7–9 Std.). Mit Transfers, Check-in und Wartezeiten ist jeder Flugtag ein halber bis ganzer Reisetag. Niemand muss selber fahren."
+      "31 Nächte im Land, 9 Stationen und eine Zwischenübernachtung in Singapur. Nach Tioman und zurück mit Bus und Fähre (je ca. 5,5–6,5 Std. mit Grenze und Warten). Vier kurze Flüge (Singapur–Bali ca. 2,5–2,75 Std., Lombok–Labuan Bajo ca. 1,25 Std., Labuan Bajo–Bali ca. 1–1,25 Std., Bali–Singapur ca. 2,5–2,75 Std.), dazu Schnellboote (zusammen ca. 3–4 Std.) und Fahrten mit Fahrer (zusammen ca. 6–8 Std.). Niemand muss selber fahren."
     ],
     [
       "Flug ab und nach Zürich",
@@ -80,44 +86,44 @@ REISEN.indonesien = {
     ],
     [
       "Wetter",
-      "Juni bis September ist auf Bali, Lombok und Flores Trockenzeit: ca. 29–31 °C, wenig Regen, nachts angenehm, auf Komodo trocken und heiss. Singapur ist das ganze Jahr ca. 31 °C und schwül mit kurzen Schauern. Meer ca. 26–28 °C, bei Nusa Penida kühler."
+      "Juni bis September ist auf Bali, den Gili-Inseln und Flores Trockenzeit, auch an der Ostküste Malaysias (Tioman) ist jetzt die beste Zeit: ca. 29–32 °C, nachts angenehm, auf Komodo trocken und heiss. Singapur ist das ganze Jahr ca. 31 °C und schwül mit kurzen Schauern. Meer ca. 27–29 °C, bei Nusa Penida kühler."
     ],
     [
       "Vorab buchen",
-      "Flüge Zürich–Singapur und alle Inlandflüge (Gepäck einrechnen), Unterkunft auf Gili Air und in Labuan Bajo, Bootstour im Komodo-Nationalpark (Quoten), Borobudur mit Zeitfenster, Universal Studios Singapore, Fahrer auf Bali und Transfer zum Flughafen Lombok."
+      "Flüge Zürich–Singapur und alle Inlandflüge (Gepäck einrechnen), Bus Singapur–Mersing und Fähre nach Tioman (nur wenige Fähren pro Tag), Hotel am Flughafen Changi, Unterkunft auf Gili Air und in Labuan Bajo, Bootstour im Komodo-Nationalpark (Quoten), Universal Studios Singapore, Fahrer auf Bali."
     ],
     [
       "Optional",
-      "Ohne Yogyakarta spart ihr zwei Flüge (die Nächte gehen z.B. an Gili Air oder Südbali); Süden von Lombok mit Surfstränden (eigene Nächte zwischen Gili Air und dem Flug nach Flores); Komodo-Tour mit einer Nacht auf dem Boot; Mandai Night Safari in Singapur."
+      "Yogyakarta mit Borobudur und dem Vulkan Merapi (3 Nächte, zwei Flüge mehr); Süden von Lombok mit Surfstränden; Komodo-Tour mit einer Nacht auf dem Boot; Mandai Night Safari in Singapur."
     ]
   ],
   karte: {
-    intro: "Ungefährer Verlauf der Wege: mit dem Flugzeug von Singapur nach Bali, mit Fahrer und Schnellboot über Bali zu den Gili-Inseln, mit dem Flugzeug nach Flores und zurück, nach Java und wieder nach Bali, zum Schluss nach Singapur. Darunter die Detailkarte von Bali und den Gili-Inseln.",
+    intro: "Ungefährer Verlauf der Wege: mit Bus und Fähre von Singapur nach Tioman und zurück, mit dem Flugzeug nach Bali, mit Fahrer und Schnellboot über Bali zu den Gili-Inseln, mit dem Flugzeug nach Flores und zurück nach Bali, zum Schluss nach Singapur. Darunter die Detailkarte von Bali und den Gili-Inseln.",
     breit: true,
-    legende: ["air", "ferry", "car"],
+    legende: ["air", "ferry", "bus", "car"],
     karten: [
       {datei: "karten/indonesien.svg"},
-      {titel: "Bali und die Gili-Inseln im Detail (Stationen 2 bis 4, 6 und 8)", datei: "karten/indonesien-bali.svg"}
+      {titel: "Bali und die Gili-Inseln im Detail (Stationen 3 bis 5, 7 und 8)", datei: "karten/indonesien-bali.svg"}
     ]
   },
-  abwechslungIntro: "Grossstadt, Reisterrassen und Tempel, Riffe und Inseln, Surfstrände, Komodowarane, Vulkane und Tempelanlagen auf Java, zum Schluss Strand und Freizeitpark.",
+  abwechslungIntro: "Grossstadt, Dschungelinsel, Reisterrassen und Tempel, Riffe und Inseln, Komodowarane und Mantas, zum Schluss Strand und Freizeitpark.",
   abwechslung: [
     [
       "Natur",
-      "Reisterrassen und Dschungel bei Ubud, Vulkane Agung, Rinjani und Merapi, Inseln und Buchten im Komodo-Nationalpark, Wasserfälle bei Ubud."
+      "Dschungel und Wasserfälle auf Tioman, Reisterrassen und Wälder bei Ubud, Vulkane Agung und Rinjani, Inseln und Buchten im Komodo-Nationalpark."
     ],
     [
       "Strand und Schnorcheln",
-      "Riffe und ein Wrack bei Amed, Schildkröten auf den Gili-Inseln, Mantarochen bei Komodo und Nusa Penida, ruhige Buchten und Surfstrände in Südbali."
+      "Riffe im Marine Park von Tioman, ein Wrack bei Amed, Schildkröten auf den Gili-Inseln, Mantarochen bei Komodo und Nusa Penida, ruhige Buchten und Surfstrände in Südbali."
     ],
     [
       "Action und Freizeitparks",
-      "Rafting bei Ubud, Surfkurs, Komodowarane mit Ranger, Jeep-Tour am Merapi, Klippenspringen in der Blue Lagoon, Waterbom Bali, Universal Studios Singapore."
+      "Dschungel-Wanderung auf Tioman, Rafting bei Ubud, Komodowarane mit Ranger, Schnorcheln mit Mantas, Klippenspringen in der Blue Lagoon, Surfkurs, Waterbom Bali, Universal Studios Singapore."
     ],
-    ["Städte und Kultur", "Singapur, Tempel und Tänze auf Bali, Borobudur und Prambanan, Sultanspalast in Yogyakarta."],
-    ["Ruhetage", "Überall 2–5 Nächte; Gili Air und Südbali haben je 5 Nächte, Ubud und Komodo je 4."]
+    ["Städte und Kultur", "Singapur, malaiische Dörfer auf Tioman, Tempel und Tänze auf Bali."],
+    ["Ruhetage", "Überall 2–4 Nächte; Tioman, Ubud, Gili Air, Komodo und Südbali haben je 4 Nächte."]
   ],
-  stationenIntro: "Neun Stationen von Singapur über Bali, die Gili-Inseln, Flores und Java zurück nach Singapur. Über jeder Station steht, wie ihr dorthin kommt.",
+  stationenIntro: "Neun Stationen und eine Zwischenübernachtung von Singapur über Tioman, Bali, die Gili-Inseln und Flores zurück nach Singapur. Über jeder Station steht, wie ihr dorthin kommt.",
   stationen: [
     {
       nr: 1,
@@ -131,7 +137,7 @@ REISEN.indonesien = {
       text: "Sanfter Einstieg in Asien: sicher, sauber und gut organisiert. Zwei Nächte zum Ankommen, mit Gärten, Skyline und Hawker-Essen; Sentosa und Universal folgen am Schluss der Reise.",
       teens: "Gardens by the Bay mit Supertrees und Cloud Forest, Lichtshow am Abend, Marina Bay, Chinatown, Hawker Centres, Jewel Changi mit dem Regenwasserfall.",
       fakten: [
-        "<strong>Dauer:</strong> 2 Nächte: Ankunft am Sonntagnachmittag, ein voller Tag in der Stadt (Gärten, Marina Bay, Chinatown), am Abend die Supertrees-Lichtshow.",
+        "<strong>Dauer:</strong> 2 Nächte: Ankunft am Sonntagnachmittag, ein voller Tag in der Stadt (Gärten, Marina Bay, Chinatown), am Abend die Supertrees-Lichtshow. Am nächsten Morgen früh mit dem Bus nach Mersing.",
         "<strong>Essen:</strong> Hawker Centres sind günstig und familienfreundlich (Hainan-Chicken-Reis, Satay, Laksa). Wasserflaschen sind überall erhältlich.",
         "<strong>Regeln:</strong> Vapes und Kaugummi-Import sind verboten; Bussgelder sind hoch."
       ],
@@ -150,12 +156,39 @@ REISEN.indonesien = {
     },
     {
       nr: 2,
+      name: "Pulau Tioman",
+      land: "my",
+      region: "Malaysia",
+      datum: "22.–26. Juni",
+      naechte: "4 Nächte",
+      anreise: "Fernbus von Singapur nach Mersing (ca. 3,5–4 Std., je nach Anbieter Halt direkt am Hafen Mersing Jetty oder am Busbahnhof; Grenzkontrolle einplanen), dann Fähre nach Tioman (ca. 1,5–2 Std.). Früh am Morgen starten, damit ihr eine Nachmittagsfähre erreicht. Bus und Fähre vorab buchen.",
+      text: "Grüne Dschungelinsel vor der Ostküste Malaysias mit Korallenriffen, Wasserfällen und kleinen Dörfern ohne Autoverkehr. Mai bis September ist die beste Reisezeit, also genau euer Zeitraum.",
+      teens: "Schnorcheltour zu den vorgelagerten Inseln (Pulau Tulai, Chebeh, Renggis), Dschungel-Wanderung quer über die Insel (Tekek–Juara, ca. 2–3 Std.), Wasserfälle, Kajak und Strandtage.",
+      fakten: [
+        "<strong>Dauer:</strong> 4 Nächte. Basis z.B. an der ruhigen Westseite (Salang, Air Batang) oder in Juara im Osten: eine Schnorcheltour zu den vorgelagerten Inseln, eine Dschungel-Wanderung, Strandtage. Ein Wechsel der Inselseite kostet Zeit (Boot oder Wanderweg).",
+        "<strong>Praktisch:</strong> Die Fähre fährt nur wenige Male pro Tag zu festen Zeiten, vorab Ticket buchen und rechtzeitig am Hafen sein (Mersing Jetty oder Tanjung Gemok). Bargeld mitnehmen, Geldautomaten sind selten. Die Insel ist zollfrei.",
+        "<strong>Rückweg:</strong> Fähre nach Mersing am Morgen, Bus nach Singapur (ca. 3,5–4 Std. mit Grenze) und eine Nacht am Flughafen Changi; am nächsten Morgen nach Bali.",
+        "<strong>Kultur:</strong> Pahang ist überwiegend muslimisch; ausserhalb der Strände Schultern und Knie bedecken."
+      ],
+      ausserdem: "Asah-Wasserfall bei Juara, Marine-Park-Schnorchelplätze, Kajak entlang der Küste, Sonnenuntergang am Strand von Salang, Dschungelpfade mit Warane und Makaken.",
+      bilder: [
+        {titel: "Pulau Tioman", suche: "Tioman Island|Pulau Tioman", stichwort: "tioman"},
+        {titel: "Juara Strand", suche: "Juara beach Tioman|Pantai Juara", stichwort: "juara"},
+        {titel: "Salang", suche: "Salang Tioman|Kampung Salang", stichwort: "salang"},
+        {titel: "Tekek", suche: "Tekek Tioman|Kampung Tekek", stichwort: "tekek"},
+        {titel: "Dschungel", suche: "Tioman jungle|Tioman rainforest", stichwort: "tioman"},
+        {titel: "Korallenriff", suche: "Tioman coral reef|Tioman snorkeling", stichwort: "tioman"}
+      ]
+    },
+    {
+      nr: 3,
       name: "Ubud (Bali)",
       land: "id",
       region: "Bali",
-      datum: "22.–26. Juni",
+      datum: "27. Juni–1. Juli",
       naechte: "4 Nächte",
-      anreise: "Flug Singapur–Denpasar (Bali) nonstop (ca. 2,5–2,75 Std., viele Flüge pro Tag), Einreise mit Visum bei Ankunft und Bali-Touristenabgabe, dann mit Fahrer nach Ubud (ca. 1–1,5 Std.). Bali hat dieselbe Zeit wie Singapur.",
+      zwischenstopp: {text: "Zwischenübernachtung in Singapur am Flughafen Changi", datum: "26.–27. Juni"},
+      anreise: "Am Morgen Flug Singapur–Denpasar (Bali) nonstop (ca. 2,5–2,75 Std., viele Flüge pro Tag), Einreise mit Visum bei Ankunft und Bali-Touristenabgabe, dann mit Fahrer nach Ubud (ca. 1–1,5 Std.). Bali hat dieselbe Zeit wie Singapur.",
       text: "Das grüne Herz Balis: Reisterrassen, Tempel, Kunsthandwerk und Tänze, mitten im Hügelland mit Dschungel und Flüssen.",
       teens: "Rafting auf dem Ayung (für Kinder ab ca. 7–8 Jahren), Reisterrassen von Tegallalang, Wasser-Tempel Tirta Empul, Legong-Tanz am Abend, Kochkurs.",
       fakten: [
@@ -174,11 +207,11 @@ REISEN.indonesien = {
       ]
     },
     {
-      nr: 3,
+      nr: 4,
       name: "Amed (Ostbali)",
       land: "id",
       region: "Bali",
-      datum: "26.–29. Juni",
+      datum: "1.–4. Juli",
       naechte: "3 Nächte",
       anreise: "Mit Fahrer von Ubud über Sidemen nach Amed an der Ostküste (ca. 2–2,5 Std., ca. 80 km), unterwegs Halt am Wassertempel Tirta Gangga.",
       text: "Ruhige Fischerdörfer mit schwarzem Sand unter dem Vulkan Agung: Riffe direkt vor dem Strand und ein Schiffswrack, das man schnorchelnd erkunden kann.",
@@ -198,17 +231,17 @@ REISEN.indonesien = {
       ]
     },
     {
-      nr: 4,
+      nr: 5,
       name: "Gili Air",
       land: "id",
       region: "Lombok",
-      datum: "29. Juni–4. Juli",
-      naechte: "5 Nächte",
+      datum: "4.–8. Juli",
+      naechte: "4 Nächte",
       anreise: "Schnellboot von Amed (oder Padang Bai) nach Gili Air (ab Amed ca. 1,5 Std., ab Padang Bai ca. 2–2,5 Std.; Abfahrten am Morgen, bei Wellengang auch später oder gestrichen). Den Hafen vorab prüfen: Der Hafen von Amed wurde zeitweise umgebaut. Auf der Insel keine Autos, nur Velos und Pferdekutschen.",
       text: "Kleine, autofreie Insel mit weissen Stränden, Schildkröten im seichten Wasser und Blick auf den Vulkan Rinjani auf Lombok.",
       teens: "Schnorcheln mit Schildkröten, Inselrunde mit dem Velo (ca. 1 Std.), Schnorcheltour zu den drei Gili-Inseln, Unterwasser-Statuen bei Gili Meno, Stand-up-Paddle, Sonnenuntergang am Strand.",
       fakten: [
-        "<strong>Dauer:</strong> 5 Nächte: eine Schnorcheltour um die drei Inseln, ein Ausflug nach Gili Meno, Tage am Strand, mit Velo und Paddle.",
+        "<strong>Dauer:</strong> 4 Nächte: eine Schnorcheltour um die drei Inseln, Tage am Strand, mit Velo und Paddle.",
         "<strong>Preise:</strong> Geteilte Schnorcheltouren mit Glasbodenboot kosten wenig (meist um 10–20 CHF pro Person), Velo-Miete ebenfalls günstig.",
         "<strong>Hinweis:</strong> Strömungen zwischen den Inseln können stark sein; nur mit Führer oder in ruhigen Buchten schnorcheln. Auf Gili Air gibt es nur eine einfache Klinik."
       ],
@@ -223,11 +256,11 @@ REISEN.indonesien = {
       ]
     },
     {
-      nr: 5,
+      nr: 6,
       name: "Labuan Bajo (Komodo)",
       land: "id",
       region: "Flores",
-      datum: "4.–8. Juli",
+      datum: "8.–12. Juli",
       naechte: "4 Nächte",
       anreise: "Kleines Boot von Gili Air nach Bangsal auf Lombok (ca. 15 Min.), mit Fahrer zum Flughafen Lombok (ca. 1,5–2 Std.), Flug nach Labuan Bajo auf Flores (Wings Air nonstop, ca. 1,25 Std., wenige Flüge pro Tag; Flugplan prüfen, sonst über Bali).",
       text: "Tor zum Komodo-Nationalpark: Inseln wie aus dem Bilderbuch, Komodowarane, Mantarochen und rosa Sand.",
@@ -248,11 +281,11 @@ REISEN.indonesien = {
       ]
     },
     {
-      nr: 6,
+      nr: 7,
       name: "Nusa Lembongan",
       land: "id",
       region: "Bali",
-      datum: "8.–11. Juli",
+      datum: "12.–15. Juli",
       naechte: "3 Nächte",
       anreise: "Flug Labuan Bajo–Denpasar (ca. 1–1,25 Std., mehrere Flüge pro Tag), Fahrt nach Sanur (ca. 30 Min.), Schnellboot nach Nusa Lembongan (ca. 30–45 Min.).",
       text: "Kleine Insel vor Bali mit Mangroven, Klippen und Riffen; Ausgangspunkt für Schnorcheln mit Mantarochen bei Nusa Penida.",
@@ -272,42 +305,17 @@ REISEN.indonesien = {
       ]
     },
     {
-      nr: 7,
-      name: "Yogyakarta (Java)",
-      land: "id",
-      region: "Java",
-      datum: "11.–14. Juli",
-      naechte: "3 Nächte",
-      anreise: "Schnellboot nach Sanur (ca. 30–45 Min.), Fahrt zum Flughafen (ca. 30 Min.), Flug Denpasar–Yogyakarta (ca. 1,25 Std.), vom Flughafen in die Stadt ca. 1 Std. Java hat eine Stunde weniger als Bali (+5 Std. zur Schweiz).",
-      text: "Kulturhauptstadt Javas: Borobudur, die grösste buddhistische Tempelanlage der Welt, die Hindu-Tempel von Prambanan und der aktive Vulkan Merapi.",
-      teens: "Borobudur am frühen Morgen, Jeep-Tour am Vulkan Merapi durch die Lavafelder, Tempel von Prambanan, Batik-Kurs, Sultanspalast.",
-      fakten: [
-        "<strong>Dauer:</strong> 3 Nächte: ein Morgen Borobudur, ein Tag Merapi-Jeep und Prambanan, ein halber Tag Stadt.",
-        "<strong>Borobudur:</strong> Der Aufstieg auf die oberen Terrassen ist auf ca. 1’200 Personen pro Tag beschränkt und nur mit Zeitfenster und Führer möglich; die Preise für Ausländer sind 2026 unklar. Vorab online buchen.",
-        "<strong>Hinweis:</strong> Schultern und Knie in Tempeln bedeckt; früh starten wegen Hitze und Andrang."
-      ],
-      ausserdem: "Sonnenaufgang auf dem Hügel Punthuk Setumbu mit Blick auf Borobudur, Wasserschloss Taman Sari, Höhle Jomblang.",
-      bilder: [
-        {titel: "Borobudur", suche: "Borobudur temple", stichwort: "borobudur"},
-        {titel: "Prambanan", suche: "Prambanan temple", stichwort: "prambanan"},
-        {titel: "Merapi", suche: "Mount Merapi", stichwort: "merapi"},
-        {titel: "Jeep-Tour", suche: "Merapi lava tour jeep", stichwort: "jeep|merapi"},
-        {titel: "Taman Sari", suche: "Taman Sari Yogyakarta", stichwort: "taman sari"},
-        {titel: "Batik", suche: "batik Yogyakarta", stichwort: "batik"}
-      ]
-    },
-    {
       nr: 8,
       name: "Südbali (Jimbaran)",
       land: "id",
       region: "Bali",
-      datum: "14.–19. Juli",
-      naechte: "5 Nächte",
-      anreise: "Flug Yogyakarta–Denpasar (ca. 1,25 Std.), Fahrt nach Jimbaran oder Nusa Dua (ca. 20–40 Min.). Die Uhr springt wieder +1 Std.",
+      datum: "15.–19. Juli",
+      naechte: "4 Nächte",
+      anreise: "Schnellboot von Nusa Lembongan nach Sanur (ca. 30–45 Min.), Fahrt nach Jimbaran oder Nusa Dua (ca. 30–45 Min.).",
       text: "Zum Ausruhen vor der Heimreise: ruhige Buchten, Fischrestaurants am Strand, Klippentempel und ein grosser Wasserpark.",
       teens: "Wasserpark Waterbom Bali, Kecak-Feuertanz bei Sonnenuntergang am Klippentempel Uluwatu, Surfkurs in Kuta, Strand in Nusa Dua (ruhiges Wasser), Fischessen am Strand von Jimbaran.",
       fakten: [
-        "<strong>Dauer:</strong> 5 Nächte: ein Tag Waterbom, ein Surfkurs für Anfänger in Kuta, ein Abend Uluwatu mit Kecak-Tanz, zwei Strand- und Pooltage.",
+        "<strong>Dauer:</strong> 4 Nächte: ein Tag Waterbom, ein Surfkurs für Anfänger in Kuta, ein Abend Uluwatu mit Kecak-Tanz, ein Strand- und Pooltag.",
         "<strong>Hinweis:</strong> Auch im Uluwatu-Tempel leben Affen, die Brillen und Handys stehlen; alles gut verstauen."
       ],
       ausserdem: "Padang Padang Beach, Garuda-Wisnu-Kencana-Park, Schildkröten-Station auf Serangan.",
@@ -358,21 +366,21 @@ REISEN.indonesien = {
       ],
       [
         "Flüge in der Region",
-        "2’000–3’200",
-        "2’500",
-        "Singapur–Bali, Lombok–Labuan Bajo, Labuan Bajo–Bali, Bali–Yogyakarta und zurück, Bali–Singapur; ca. 500–800 pro Person inkl. Gepäck. Ohne Yogyakarta ca. 400–500 CHF weniger"
+        "1’400–2’300",
+        "1’800",
+        "Singapur–Bali, Lombok–Labuan Bajo, Labuan Bajo–Bali, Bali–Singapur; ca. 350–550 pro Person inkl. Gepäck"
       ],
       [
-        "Boote, Fahrer und Transfers",
-        "800–1’400",
-        "1’000",
-        "Schnellboote nach Gili Air und Nusa Lembongan, Boot und Fahrt zum Flughafen Lombok, Fahrer auf Bali (Tagespreis), Grab, MRT in Singapur"
+        "Bus, Fähren, Boote, Fahrer und Transfers",
+        "1’000–1’700",
+        "1’250",
+        "Bus Singapur–Mersing und zurück, Fähre nach Tioman, Schnellboote nach Gili Air und Nusa Lembongan, Boot und Fahrt zum Flughafen Lombok, Fahrer auf Bali (Tagespreis), Grab, MRT in Singapur"
       ],
       [
         "Unterkunft (Familienzimmer oder 2 Zimmer, 3–4 Sterne)",
         "3’200–5’200",
-        "4’000",
-        "ca. 80–140 CHF pro Nacht in Indonesien, in Singapur ca. 250–300; Gili Air, Labuan Bajo und Südbali im Juli teurer"
+        "4’200",
+        "ca. 80–140 CHF pro Nacht in Malaysia und Indonesien, in Singapur ca. 250–300 (auch die Nacht am Flughafen); Gili Air, Labuan Bajo und Südbali im Juli teurer"
       ],
       [
         "Verpflegung (Warungs, Restaurants, Getränke)",
@@ -382,9 +390,9 @@ REISEN.indonesien = {
       ],
       [
         "Aktivitäten und Eintritte",
-        "2’100–3’300",
-        "2’600",
-        "Gardens by the Bay, Rafting, Schnorcheltouren, Surfkurs, Bootstouren im Komodo-Nationalpark mit Parkgebühren, Mantas bei Nusa Penida, Borobudur, Prambanan und Merapi-Jeep, Waterbom, Universal Studios Singapore usw."
+        "1’900–3’100",
+        "2’450",
+        "Gardens by the Bay, Schnorcheltouren und Marine-Park-Gebühr auf Tioman, Rafting, Schnorcheln bei Amed und auf den Gili-Inseln, Bootstouren im Komodo-Nationalpark mit Parkgebühren, Mantas bei Nusa Penida, Surfkurs, Waterbom, Universal Studios Singapore usw."
       ],
       [
         "Visum, Versicherung, Impfungen, eSIM",
@@ -392,34 +400,35 @@ REISEN.indonesien = {
         "1’200",
         "Visum bei Ankunft (2026 ca. 500’000 IDR pro Person, eine Erhöhung ist geplant), Bali-Touristenabgabe (150’000 IDR pro Person), Impfungen (z.B. Tollwut, Hepatitis A), Reiseversicherung mit Rücktransport"
       ],
-      ["Reserve (ca. 5 %)", "750–1’200", "950", "Souvenirs, Wäsche, Unvorhergesehenes"]
+      ["Reserve (ca. 5 %)", "750–1’150", "900", "Souvenirs, Wäsche, Unvorhergesehenes"]
     ],
     stationen: [
       ["1. Singapur (2)", "780–1’240"],
-      ["2. Ubud (4)", "760–1’210"],
-      ["3. Amed (3)", "420–660"],
-      ["4. Gili Air (5)", "860–1’370"],
-      ["5. Labuan Bajo (4)", "1’150–1’820"],
-      ["6. Nusa Lembongan (3)", "600–950"],
-      ["7. Yogyakarta (3)", "580–920"],
-      ["8. Südbali (5)", "1’180–1’880"],
+      ["2. Pulau Tioman (4)", "660–1’040"],
+      ["Zwischenübernachtung Singapur (1)", "330–520"],
+      ["3. Ubud (4)", "760–1’210"],
+      ["4. Amed (3)", "420–660"],
+      ["5. Gili Air (4)", "690–1’090"],
+      ["6. Labuan Bajo (4)", "1’150–1’820"],
+      ["7. Nusa Lembongan (3)", "600–950"],
+      ["8. Südbali (4)", "1’000–1’590"],
       ["9. Singapur und Sentosa (2)", "1’360–2’160"]
     ],
     hinweise: [
       "Preise für die Kids: Der Sohn (12) und die Tochter (14) zahlen bei Eintritten in Singapur teils noch Kinderpreise (bis 12), in Indonesien meist den Erwachsenenpreis; vieles ist aber günstig.",
-      "Sparhebel: Yogyakarta weglassen (zwei Flüge weniger), geteilte statt private Bootstouren, Warungs statt Hotelrestaurants, Fahrer für mehrere Tage am Stück buchen.",
+      "Sparhebel: geteilte statt private Bootstouren, Warungs statt Hotelrestaurants, Fahrer für mehrere Tage am Stück buchen.",
       "Alle Beträge sind Richtwerte in CHF (Schätzungen, nicht verbindlich). Preise für Inlandflüge und Unterkünfte im Juli schwanken stark; aktuelle Preise vor der Buchung vergleichen."
     ],
     naechte: 31,
-    total: "19’750",
-    spanne: "16’200–25’000",
-    proTag: "ca. 640 CHF pro Tag, ca. 4’900 pro Person"
+    total: "19’300",
+    spanne: "15’600–24’200",
+    proTag: "ca. 620 CHF pro Tag, ca. 4’800 pro Person"
   },
   tippsIntro: "Einreise, Gesundheit, Sicherheit und Praktisches für die Reise mit 2 Erwachsenen und 2 Kids.",
   tipps: [
     [
-      "Einreise Singapur",
-      "Für Schweizer visumfrei. Vor der Ankunft die SG Arrival Card online ausfüllen (gratis, nur auf der offiziellen Seite)."
+      "Einreise Singapur und Malaysia",
+      "Für Schweizer visumfrei. Vor der Ankunft online die SG Arrival Card (Singapur) und die MDAC (Malaysia Digital Arrival Card) ausfüllen, beide gratis und nur auf den offiziellen Seiten. Beim Bus nach Mersing gibt es zwei Grenzkontrollen."
     ],
     [
       "Einreise Indonesien",
@@ -445,7 +454,7 @@ REISEN.indonesien = {
       "Transport",
       "Auf Bali mit Fahrer oder Grab, nicht selber fahren. Schnellboote bei gutem Anbieter buchen (Rettungswesten, Wetter); Gepäck wird oft nass, wasserdichte Säcke mitnehmen."
     ],
-    ["Zeitzonen", "Singapur, Bali, Lombok und Flores +6 Std. zur Schweiz, Java +5 Std."],
+    ["Zeitzonen", "Singapur, Malaysia, Bali, die Gili-Inseln und Flores +6 Std. zur Schweiz."],
     [
       "Versicherung",
       "Reisekranken- und Rücktransportversicherung mit hoher Deckung; auf den kleinen Inseln gibt es nur einfache Kliniken, ernste Fälle gehen nach Bali oder Singapur."
@@ -456,7 +465,7 @@ REISEN.indonesien = {
     ],
     [
       "Geld und Technik",
-      "In Indonesien viel Bargeld (IDR), Kreditkarte in Hotels; eSIM für Indonesien und Singapur. Steckdosen Typ C/F (wie in Europa, ohne Erdung), in Singapur Typ G."
+      "In Indonesien und auf Tioman viel Bargeld (IDR, MYR; auf Tioman kaum Geldautomaten), Kreditkarte in Hotels; eSIM für die ganze Region. Steckdosen in Indonesien Typ C/F (wie in Europa, ohne Erdung), in Singapur und Malaysia Typ G."
     ],
     [
       "Respekt",
