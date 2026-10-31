@@ -122,28 +122,14 @@ window.QUELLEN = {
       ]
     },
     {
-      titel: "USA Ostküste (Miami – Niagara – New York)",
+      titel: "USA Mitte (Los Angeles – Chicago – New York)",
       links: [
-        ["Flightmapper: SWISS LX 64 Zürich–Miami (Sommer 2026 täglich, ca. 13.05–17.30 Uhr)", "https://info.flightmapper.net/flight/Swiss_LX_64"],
-        ["OSRM: Fahrzeiten und Distanzen aller Etappen (Routenplaner, eher zu lang gerechnet)", "https://router.project-osrm.org"],
-        ["Fort Sumter: Fähre und Besuch (Preise)", "https://freetoursbyfoot.com/visit-fort-sumter-charleston/"],
-        ["NPS: Eintritt Wright Brothers National Memorial (10 USD pro Person ab 16)", "https://www.nps.gov/wrbr/planyourvisit/fees.htm"],
-        ["Bob’s Wild Horse Tours: Pferde-Touren in Corolla", "https://obxguides.com/corolla-outer-banks/bobswildhorsetours/book-online"],
-        ["NC State Parks: Jockey’s Ridge (Sandboarding nur Oktober–März)", "https://www.ncparks.gov/node/126"],
-        ["NPS: Feuerwerk am 4. Juli auf der National Mall", "https://www.nps.gov/subjects/nationalmall4th/fireworks.htm"],
-        ["Visit Pittsburgh: Duquesne Incline (Fahrpreis)", "https://www.visitpittsburgh.com/blog/insiders-guide-duquesne-incline/"],
         ["The Better Vacation: Skydeck Chicago (Preise)", "https://thebettervacation.com/chicago/skydeck-chicago/"],
         ["Tiqets: Skydeck und Architektur-Bootstour Chicago", "https://www.tiqets.com/en/skydeck-chicago-chicago-architecture-river-cruise-b45068"],
         ["Freizeitpark-Welt: Cedar Point (Preise 2026)", "https://www.freizeitpark-welt.de/freizeitparks/cedarpoint/preise/"],
         ["Maid of the Mist: Fahrplan und Preise 2026", "https://maidofthemist.com/schedule-pricing"],
         ["NY State Parks: Watkins Glen State Park (10 USD pro Auto)", "https://parks.ny.gov/parks/watkinsglen/index.aspx"],
-        ["Hersheypark: Sommer 2026 (Preise und Angebote)", "https://www.hersheypark.com/plan-your-visit/blog/the-ultimate-hershey-summer-2026-guide"],
-        ["AutoSlash: Mit dem Mietwagen von den USA nach Kanada", "https://blog.autoslash.com/crossing-the-border-from-the-u-s-to-canada-in-a-rental-car/"]
-      ]
-    },
-    {
-      titel: "USA Mitte (Los Angeles – Chicago – New York)",
-      links: [
+        ["AutoSlash: Mit dem Mietwagen von den USA nach Kanada", "https://blog.autoslash.com/crossing-the-border-from-the-u-s-to-canada-in-a-rental-car/"],
         ["OSRM: Fahrzeiten und Distanzen der Etappen auf der Route 66 und im Osten (Routenplaner, eher zu lang gerechnet)", "https://router.project-osrm.org"],
         ["Gateway Arch: Tickets für die Fahrt auf die Spitze (2026 ca. 15–19 USD ab 16)", "https://gatewayarch.com/buy-tickets"],
         ["Tripster: City Museum St. Louis (Eintritt ca. 20–23 USD)", "https://www.tripster.com/detail/city-museum-st-louis-tickets"],
