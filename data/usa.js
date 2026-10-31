@@ -5,7 +5,7 @@ window.REISEN = window.REISEN || {};
 REISEN.usa = {
   titel: "Von Los Angeles über New Orleans und Miami nach New York",
   menu: "USA Süd",
-  untertitel: "Fünf Wochen USA: mit dem Mietwagen von Los Angeles über Las Vegas, Kanab, Monument Valley, Albuquerque und White Sands nach Texas, über San Antonio und New Orleans an den Strand von Destin, nach Orlando, Key Largo und Miami; dann mit dem Flugzeug nach New York.",
+  untertitel: "Fünf Wochen USA: mit dem Mietwagen von Los Angeles über Las Vegas, Kanab, Monument Valley, Albuquerque und White Sands nach Texas, über Austin und New Orleans an den Strand von Destin, nach Orlando, Key Largo und Miami; dann mit dem Flugzeug nach New York.",
   zeitraum: "Sa, 19.06.2027 bis Do, 22.07.2027, 2 Erwachsene und 2 Kids",
   titelbild: {
     datei: "USA 10187 Horseshoe Bend Luca Galuzzi 2007.jpg",
@@ -42,7 +42,7 @@ REISEN.usa = {
       naechte: 1,
       info: "Mietwagen über Roswell (ca. 5,5–6 Std.), Uhr +1 Std."
     },
-    {datum: "30. Juni–2. Juli", name: "7. San Antonio", naechte: 2, info: "Mietwagen (ca. 5–5,5 Std.)"},
+    {datum: "30. Juni–2. Juli", name: "7. Austin", naechte: 2, info: "Mietwagen (ca. 5 Std.)"},
     {datum: "2.–4. Juli", name: "8. New Orleans", naechte: 2, info: "Mietwagen (ca. 8–8,5 Std., längster Fahrtag)"},
     {datum: "4.–8. Juli", name: "9. Destin (Golfküste)", naechte: 4, info: "Mietwagen (ca. 4–4,5 Std.)"},
     {datum: "8.–11. Juli", name: "10. Orlando", naechte: 3, info: "Mietwagen (ca. 6–7 Std.), Uhr +1 Std."},
@@ -68,7 +68,7 @@ REISEN.usa = {
   planHinweise: [
     [
       "Gesamt",
-      "32 Nächte, 13 Stationen und eine Zwischenübernachtung (Fort Stockton). Eine Einwegmiete Los Angeles–Miami (ca. 28 Tage) mit ca. 5’550 km und ca. 57–60 Std. reiner Fahrzeit an 12 Fahrtagen, realistisch mit Pausen, Tanken, Stau und Fahrten vor Ort ca. 64–70 Std. im Auto. Dazu ein Inlandflug Miami–New York (ca. 3–3,5 Std.). Die längsten Fahrtage: San Antonio–New Orleans (ca. 8–8,5 Std., realistisch ca. 9,5–10 Std.), Destin–Orlando (ca. 6–7 Std.), Monument Valley–Albuquerque (ca. 5,5–6,5 Std.), White Sands–Fort Stockton über Roswell (ca. 5,5–6 Std.), Fort Stockton–San Antonio (ca. 5–5,5 Std.), Orlando–Key Largo (ca. 4,5–5 Std.) und Los Angeles–Las Vegas (ca. 4,5–5 Std., mit Stau ca. 5,5–6,5 Std.)."
+      "32 Nächte, 13 Stationen und eine Zwischenübernachtung (Fort Stockton). Eine Einwegmiete Los Angeles–Miami (ca. 28 Tage) mit ca. 5’550 km und ca. 57–60 Std. reiner Fahrzeit an 12 Fahrtagen, realistisch mit Pausen, Tanken, Stau und Fahrten vor Ort ca. 64–70 Std. im Auto. Dazu ein Inlandflug Miami–New York (ca. 3–3,5 Std.). Die längsten Fahrtage: Austin–New Orleans (ca. 8 Std., realistisch ca. 9,5–10 Std.), Destin–Orlando (ca. 6–7 Std.), Monument Valley–Albuquerque (ca. 5,5–6,5 Std.), White Sands–Fort Stockton über Roswell (ca. 5,5–6 Std.), Fort Stockton–Austin (ca. 5 Std.), Orlando–Key Largo (ca. 4,5–5 Std.) und Los Angeles–Las Vegas (ca. 4,5–5 Std., mit Stau ca. 5,5–6,5 Std.)."
     ],
     [
       "Flug ab und nach Zürich",
@@ -84,7 +84,7 @@ REISEN.usa = {
     ],
     [
       "Optional",
-      "Universal Studios Hollywood oder Disneyland (mit einer Nacht mehr in Los Angeles), Zion (ab Kanab ca. 45 Min.) oder Bryce Canyon (ca. 1,25 Std.), beide mit Zusatzgebühr, Page mit Lake Powell und Antelope Canyon (eine Nacht mehr zwischen Kanab und Monument Valley), Grand Canyon (ebenfalls mit einer Nacht mehr), Santa Fe mit eigener Nacht, Carlsbad Caverns (auf der Fahrt nach Fort Stockton), Houston mit Space Center Houston (eine Nacht zwischen San Antonio und New Orleans, teilt den längsten Fahrtag), Siesta Key mit eigenen Nächten, Washington (ab New York mit dem Zug ca. 3–3,5 Std., auch als Tagesausflug)."
+      "Universal Studios Hollywood oder Disneyland (mit einer Nacht mehr in Los Angeles), Zion (ab Kanab ca. 45 Min.) oder Bryce Canyon (ca. 1,25 Std.), beide mit Zusatzgebühr, Page mit Lake Powell und Antelope Canyon (eine Nacht mehr zwischen Kanab und Monument Valley), Grand Canyon (ebenfalls mit einer Nacht mehr), Santa Fe mit eigener Nacht, Carlsbad Caverns (auf der Fahrt nach Fort Stockton), Houston mit Space Center Houston (eine Nacht zwischen Austin und New Orleans, teilt den längsten Fahrtag), New Braunfels mit Tubing und Wasserpark (statt Austin oder mit einer Nacht mehr), Siesta Key mit eigenen Nächten, Washington (ab New York mit dem Zug ca. 3–3,5 Std., auch als Tagesausflug)."
     ]
   ],
   karte: {
@@ -113,7 +113,7 @@ REISEN.usa = {
     ],
     [
       "Städte und Kultur",
-      "Los Angeles, Las Vegas, Albuquerque und Santa Fe, Navajo Nation, San Antonio mit dem Alamo, New Orleans mit Jazz, Miami, New York."
+      "Los Angeles, Las Vegas, Albuquerque und Santa Fe, Navajo Nation, Austin mit Livemusik, New Orleans mit Jazz, Miami, New York."
     ],
     [
       "Ruhetage",
@@ -299,29 +299,29 @@ REISEN.usa = {
     },
     {
       nr: 7,
-      name: "San Antonio",
+      name: "Austin",
       land: "us",
       region: "Texas",
       datum: "30. Juni–2. Juli",
       naechte: "2 Nächte",
       zwischenstopp: {text: "Zwischenübernachtung in Fort Stockton", datum: "29.–30. Juni"},
-      anreise: "Mietwagen von Alamogordo über die US-70 durch Ruidoso nach Roswell (ca. 2 Std., ca. 190 km; Mittagshalt im International UFO Museum), weiter über Artesia, Carlsbad und Pecos auf der US-285 nach Fort Stockton (ca. 3,5–4 Std., ca. 350 km; viel Lastwagenverkehr aus den Ölfeldern, wenig Tankstellen), dort übernachten. In Texas springt die Uhr +1 Std. Am nächsten Tag über die Interstate 10 nach San Antonio (ca. 5–5,5 Std., ca. 520 km).",
-      text: "Texanische Geschichte und Flusspromenade: die Missionsstation Alamo, der River Walk mit Booten und Restaurants am Wasser und Tex-Mex-Küche.",
-      teens: "Bootsfahrt auf dem River Walk, The Alamo, Missions-Weltkulturerbe per Velo, Freizeitpark Six Flags Fiesta Texas oder Wasserpark.",
+      anreise: "Mietwagen von Alamogordo über die US-70 durch Ruidoso nach Roswell (ca. 2 Std., ca. 190 km; Mittagshalt im International UFO Museum), weiter über Artesia, Carlsbad und Pecos auf der US-285 nach Fort Stockton (ca. 3,5–4 Std., ca. 350 km; viel Lastwagenverkehr aus den Ölfeldern, wenig Tankstellen), dort übernachten. In Texas springt die Uhr +1 Std. Am nächsten Tag über die Interstate 10 und durch das Hill Country über Fredericksburg nach Austin (ca. 5 Std., ca. 545 km).",
+      text: "Die junge Hauptstadt von Texas: Livemusik, Food Trucks und Barbecue, mitten in der Stadt ein Naturbad mit Quellwasser und ein See zum Paddeln. Im Sommer fliegen am Abend über eine Million Fledermäuse unter einer Brücke aus.",
+      teens: "Baden im Quellwasser von Barton Springs (ca. 20 °C), Kajak oder Stand-up-Paddle auf dem Lady Bird Lake, Fledermäuse unter der Congress Avenue Bridge bei Sonnenuntergang, Livemusik und Food Trucks auf der South Congress Avenue, Texas-Barbecue.",
       fakten: [
-        "<strong>Dauer:</strong> 2 Nächte zum Ausruhen nach den langen Fahrtagen durch die Wüste.",
-        "<strong>Hitze:</strong> Oft über 35 °C; River Walk am Abend am schönsten.",
-        "<strong>Hinweis:</strong> The Alamo mit Zeitfenster-Tickets (Eintritt in die Kirche gratis, Reservation empfohlen).",
+        "<strong>Dauer:</strong> 2 Nächte zum Ausruhen nach den langen Fahrtagen durch die Wüste: am Vormittag Barton Springs, am Nachmittag Pool oder Paddeln, am Abend die Fledermäuse und South Congress.",
+        "<strong>Fledermäuse:</strong> Die Kolonie fliegt ca. 15–30 Min. nach Sonnenuntergang aus; vom Gehweg der Congress Avenue Bridge oder vom Ufer aus, früh dort sein. Am 4. Juli wegen des Feuerwerks unberechenbar.",
+        "<strong>Baden:</strong> Barton Springs ohne Reservation, Ticket vor Ort oder in der App (2026 für Auswärtige ca. 9 USD, früh kommen). Hamilton Pool (Grotte mit Wasserfall, ca. 45 Min.) nur mit Reservation und zeitweise ohne Baden, Stand vorab prüfen.",
         "<strong>Roswell:</strong> Das International UFO Museum (täglich ca. 9–17 Uhr, Eintritt günstig, Angaben 2023: ca. 5–7 USD Erwachsene) liegt auf der Fahrt von White Sands; ca. 1–1,5 Std. einplanen."
       ],
-      ausserdem: "San Antonio Missions (Unesco), Pearl District, Natural Bridge Caverns (Höhle).",
+      ausserdem: "Hamilton Pool, McKinney Falls State Park, Texas State Capitol, Bullock Texas State History Museum, New Braunfels mit Tubing (ca. 45 Min.), San Antonio mit River Walk und Alamo (ca. 1,25 Std.).",
       bilder: [
-        {titel: "River Walk", suche: "San Antonio River Walk", stichwort: "river walk"},
-        {titel: "The Alamo", suche: "The Alamo San Antonio", stichwort: "alamo"},
-        {titel: "Mission San José", suche: "Mission San Jose San Antonio", stichwort: "mission san jos"},
-        {titel: "Flussboot", suche: "San Antonio River Walk boat", stichwort: "river walk"},
-        {titel: "Natural Bridge Caverns", suche: "Natural Bridge Caverns", stichwort: "natural bridge"},
-        {titel: "Pearl District", suche: "Pearl Brewery San Antonio", stichwort: "pearl"}
+        {titel: "Skyline", suche: "Austin skyline Lady Bird Lake", stichwort: "austin"},
+        {titel: "Barton Springs", suche: "Barton Springs Pool", stichwort: "barton springs"},
+        {titel: "Fledermäuse", suche: "Congress Avenue Bridge bats Austin", stichwort: "bat"},
+        {titel: "Lady Bird Lake", suche: "Lady Bird Lake kayak Austin", stichwort: "lady bird|kayak"},
+        {titel: "South Congress", suche: "South Congress Avenue Austin", stichwort: "congress"},
+        {titel: "Hamilton Pool", suche: "Hamilton Pool Preserve", stichwort: "hamilton pool"}
       ]
     },
     {
@@ -331,7 +331,7 @@ REISEN.usa = {
       region: "Louisiana",
       datum: "2.–4. Juli",
       naechte: "2 Nächte",
-      anreise: "Mietwagen von San Antonio über die Interstate 10 an Houston vorbei und durch Louisiana (ca. 8–8,5 Std. reine Fahrzeit, ca. 870 km; realistisch mit Pausen ca. 9,5–10 Std.). Der längste Fahrtag der Reise: früh losfahren, Houston nicht zur Rushhour durchqueren.",
+      anreise: "Mietwagen von Austin über Houston und die Interstate 10 durch Louisiana (ca. 8 Std. reine Fahrzeit, ca. 820 km; realistisch mit Pausen ca. 9,5–10 Std.). Der längste Fahrtag der Reise: früh losfahren, Houston nicht zur Rushhour durchqueren.",
       text: "Jazz, Balkone mit schmiedeeisernen Geländern und kreolische Küche im French Quarter, dazu Sümpfe mit Alligatoren gleich vor der Stadt.",
       teens: "Sumpftour mit Alligatoren, Raddampfer auf dem Mississippi, Beignets im Café du Monde, Strassenmusik im French Quarter, Insektenmuseum Audubon Insectarium.",
       fakten: [
@@ -512,7 +512,7 @@ REISEN.usa = {
         "Parkieren",
         "500–700",
         "600",
-        "Hotels in Los Angeles, New Orleans und Miami Beach oft 35–60 USD pro Nacht, Las Vegas (Strip-Hotels ca. 20–25 USD pro Tag), San Antonio und Orlando ca. 20–35 USD; Universal, Kennedy Space Center, Strände; Motels meist gratis"
+        "Hotels in Los Angeles, New Orleans und Miami Beach oft 35–60 USD pro Nacht, Las Vegas (Strip-Hotels ca. 20–25 USD pro Tag), Austin und Orlando ca. 20–35 USD; Universal, Kennedy Space Center, Strände; Motels meist gratis"
       ],
       [
         "Maut",
@@ -555,7 +555,7 @@ REISEN.usa = {
       ["5. Albuquerque (2)", "560–950"],
       ["6. White Sands (1)", "260–450"],
       ["Zwischenübernachtung Fort Stockton (1)", "130–220"],
-      ["7. San Antonio (2)", "430–730"],
+      ["7. Austin (2)", "460–780"],
       ["8. New Orleans (2)", "520–860"],
       ["9. Destin (4)", "1’040–1’720"],
       ["10. Orlando (3)", "1’160–2’070"],

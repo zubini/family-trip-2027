@@ -51,10 +51,10 @@
 <path class="lo" fill-rule="evenodd" d="M641,691 L637,697 L622,700 L620,708 L607,714 L604,709 L591,713 L611,706 L605,701 L611,688 L640,670 L654,668 L669,660 L688,658 L690,661 L702,654 L699,657 L704,660 L719,654 L726,659 L731,655 L731,659 L745,657 L744,660 L750,660 L761,670 L782,667 L809,678 L801,666 L780,662 L791,660 L824,678 L811,673 L810,679 L811,675 L825,683 L827,679 L834,681 L835,685 L827,684 L833,688 L836,682 L841,686 L839,688 L846,687 L844,691 L851,687 L849,690 L855,689 L854,692 L860,688 L872,693 L882,689 L887,691 L882,697 L889,698 L882,698 L883,702 L890,698 L889,701 L915,698 L937,707 L908,724 L908,718 L903,725 L884,724 L829,742 L830,733 L842,725 L844,717 L834,712 L809,716 L796,709 L795,701 L784,691 L771,697 L751,696 L735,691 L728,683 L729,688 L711,690 L705,684 L706,691 L687,690 L675,685 L692,678 L683,674 L655,677 L641,691Z"/>
 <text class="sea" x="420.4" y="533.8" text-anchor="middle">Golf von Mexiko</text>
 <text class="sea" x="820.6" y="251.7" text-anchor="middle">Atlantik</text>
-<polyline points="49.8,430.2 96.9,439.2 112.6,444.6 152.9,463.5 172.6,485.0" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
-<polyline points="49.8,430.2 96.9,439.2 112.6,444.6 152.9,463.5 172.6,485.0" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Fort Stockton – San Antonio</title></polyline>
-<polyline points="172.6,485.0 230.0,476.6 262.4,474.6 297.8,463.5 323.6,457.9 357.9,457.1 382.3,448.3 414.0,463.1" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
-<polyline points="172.6,485.0 230.0,476.6 262.4,474.6 297.8,463.5 323.6,457.9 357.9,457.1 382.3,448.3 414.0,463.1" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: San Antonio – Houston – New Orleans</title></polyline>
+<polyline points="49.8,430.2 96.9,439.2 112.6,444.6 137.2,448.4 162.5,456.5 194.7,457.3" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="49.8,430.2 96.9,439.2 112.6,444.6 137.2,448.4 162.5,456.5 194.7,457.3" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Fort Stockton – Junction – Fredericksburg – Austin</title></polyline>
+<polyline points="194.7,457.3 228.8,476.3 262.4,474.6 297.8,463.5 323.6,457.9 357.9,457.1 382.3,448.3 414.0,463.1" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="194.7,457.3 228.8,476.3 262.4,474.6 297.8,463.5 323.6,457.9 357.9,457.1 382.3,448.3 414.0,463.1" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Austin – Houston – New Orleans</title></polyline>
 <polyline points="414.0,463.1 443.4,446.1 469.9,434.4 494.4,441.2 514.4,440.3" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
 <polyline points="414.0,463.1 443.4,446.1 469.9,434.4 494.4,441.2 514.4,440.3" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: New Orleans – Destin</title></polyline>
 <polyline points="514.4,440.3 522.0,430.9 544.4,426.8 577.0,431.6 625.5,433.2 635.7,450.1 648.5,471.6 668.3,482.3" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
@@ -67,8 +67,8 @@
 <polyline points="717.6,566.9 739.3,421.3 789.7,224.5 786.0,47.0" fill="none" stroke="#7A5CC7" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 7"><title>Flug: Miami – New York (Inlandflug)</title></polyline>
 <g><title>Zwischenübernachtung Fort Stockton</title><circle cx="49.8" cy="430.2" r="6" fill="#fff" stroke="#718096" stroke-width="2.5"/></g>
 <text class="tl" x="59.8" y="434.2">Fort Stockton</text>
-<g><title>7. San Antonio: Mi, 30.06.2027 – Fr, 02.07.2027, 2 Nächte</title><circle cx="172.6" cy="485.0" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="172.6" y="489.2" text-anchor="middle">7</text></g>
-<text class="sl" x="155.6" y="490.0" text-anchor="end">San Antonio</text>
+<g><title>7. Austin: Mi, 30.06.2027 – Fr, 02.07.2027, 2 Nächte</title><circle cx="194.7" cy="457.3" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="194.7" y="461.5" text-anchor="middle">7</text></g>
+<text class="sl" x="177.7" y="462.3" text-anchor="end">Austin</text>
 <g><title>8. New Orleans: Fr, 02.07.2027 – So, 04.07.2027, 2 Nächte</title><circle cx="414.0" cy="463.1" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="414.0" y="467.3" text-anchor="middle">8</text></g>
 <text class="sl" x="414.0" y="490.1" text-anchor="middle">New Orleans</text>
 <g><title>9. Destin: So, 04.07.2027 – Do, 08.07.2027, 4 Nächte</title><circle cx="514.4" cy="440.3" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="514.4" y="444.5" text-anchor="middle">9</text></g>

@@ -7,5 +7,5 @@ module.exports = Object.assign({}, basis, {
   stationen: stationen({ 1: 'l', 2: 'r', 3: 'u', 4: 'r', 5: 'l', 6: 'l' }),
   zwischenstopps: [['Fort Stockton', 'FST', 0]],
   umstiege: [['Roswell', 'ROS', 'r']],
-  hinweise: [['Ankunft aus Zürich ✈', [33.4, -118.3], 'middle'], ['nach San Antonio →', [30.6, -101.6], 'end']]
+  hinweise: [['Ankunft aus Zürich ✈', [33.4, -118.3], 'middle'], ['nach Austin →', [30.6, -101.6], 'end']]
 });
