@@ -144,7 +144,7 @@ window.QUELLEN = {
       ]
     },
     {
-      titel: "Singapur / Malaysia",
+      titel: "Singapur / Malaysia / Bangkok",
       links: [
         ["Skyscanner: SWISS LX 177 Singapur–Zürich (2026 ca. 23.05 Uhr, Ankunft ca. 6.15 Uhr)", "https://www.skyscanner.com/flight-tracker/swiss/lx177"],
         ["OSRM: Fahrzeiten Singapur–Malakka–Kuala Lumpur–Kuala Tahan–Kuala Besut–Merang–Cherating–Mersing (Routenplaner)", "https://router.project-osrm.org"],

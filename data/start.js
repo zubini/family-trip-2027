@@ -7,7 +7,7 @@ window.START = {
   titel: "Familienreise 2027",
   zeitraum: "Ab Sa, 19.06.2027, bis spätestens Sa, 24.07.2027, 2 Erwachsene und 2 Kids",
   untertitel: "Verschiedene Reisevarianten als Fahrplan für eine Entscheidung.",
-  reisenIntro: "Alle Reisen beginnen am Sa, 19.06.2027, für die Familie mit Sohn (12) und Tochter (14). Zurück sind die Flugreisen am Do, 22.07.2027 (Singapur / Malaysia schon am Mo, 19.07.), die Autoreise am Sa, 24.07.2027. Ein Klick führt zum vollständigen Plan.",
+  reisenIntro: "Alle Reisen beginnen am Sa, 19.06.2027, für die Familie mit Sohn (12) und Tochter (14). Zurück sind die Flugreisen am Do, 22.07.2027 (Singapur / Malaysia / Bangkok schon am So, 18.07.), die Autoreise am Sa, 24.07.2027. Ein Klick führt zum vollständigen Plan.",
   bewertungIntro: "Bewertet werden Natur, Dschungelfeeling, Wüstenfeeling, Strand und Baden, Schnorcheln, Abenteuer, Städte, Gesundheit und Sicherheit, Budget, Reisekomfort sowie CO₂ und Umwelt. Fünf Punkte sind die beste Bewertung (beim Budget heisst das: günstig, beim CO₂: wenig Ausstoss). Die Skala ist fest und nicht nur ein Vergleich der Reisen: 5 heisst Weltklasse (z.B. tropische Riffe beim Schnorcheln, kurze Etappen beim Reisekomfort), 0 heisst, dass es das auf der Reise nicht gibt. Die Punkte sind eine Einschätzung auf Basis der Reisepläne, keine Messung.",
   budgetIntro: "Mittelklasse inklusive Flüge bzw. Autokosten, Transport, Unterkunft, Verpflegung und Aktivitäten für 4 Personen. Der dunkle Punkt ist der Planwert, der helle Balken die Spanne.",
   vergleichIntro: "Die wichtigsten Unterschiede nebeneinander.",
@@ -146,32 +146,32 @@ window.START = {
       ]
     },
     malaysia: {
-      steckbrief: {anreise: "Flug nach Singapur, ca. 12–13 Std.", unterwegs: "Bus, Transfer und Boot ca. 33–38 Std.", highlights: "Taman Negara, Perhentian, Redang, Tioman, Sentosa"},
-      name: "Singapur / Malaysia",
-      zusatz: "Vier Wochen ohne Inlandflug: Malakka, Kuala Lumpur, Regenwald und die Inseln der Ostküste",
-      passt: "Inseln, Schnorcheln und Dschungel im Vordergrund stehen, die Reise kürzer und ohne Inlandflüge sein soll und ihr Busse, Transfers und Boote in Kauf nehmt.",
-      kurz: "Vier Wochen Singapur und Malaysia: Malakka, Kuala Lumpur, Taman Negara, die Inseln Perhentian, Redang und Tioman, das Surfdorf Cherating und zum Schluss Sentosa.",
-      route: "Singapur, (Bus) Malakka, Kuala Lumpur, (Transfer) Taman Negara, Perhentian Islands, Pulau Redang, Cherating, Pulau Tioman, (Fähre, Bus) Singapur und Sentosa",
-      stationen: "9 Stationen",
-      laender: "Singapur, Malaysia",
+      steckbrief: {anreise: "Flug nach Singapur, ca. 12–13 Std.", unterwegs: "Bus, Transfer und Boot, zwei kurze Flüge", highlights: "Tioman, Taman Negara, Perhentian, Redang, Bangkok"},
+      name: "Singapur / Malaysia / Bangkok",
+      zusatz: "Vier Wochen: Inseln und Regenwald an der Ostküste Malaysias, zum Schluss Bangkok",
+      passt: "Inseln, Schnorcheln und Dschungel im Vordergrund stehen, die Reise kürzer sein soll und ihr Busse, Transfers, Boote und zwei kurze Flüge in Kauf nehmt.",
+      kurz: "Vier Wochen Singapur, Malaysia und Bangkok: Singapur, Tioman, Cherating, Taman Negara, die Inseln Perhentian und Redang, Kuala Lumpur und zum Schluss Bangkok.",
+      route: "Singapur, (Bus, Fähre) Pulau Tioman, Cherating, (Transfer) Taman Negara, Perhentian Islands, Pulau Redang, (Flug) Kuala Lumpur, (Flug) Bangkok",
+      stationen: "8 Stationen",
+      laender: "Singapur, Malaysia, Thailand",
       hinflug: "Direktflug Zürich–Singapur ca. 12–13 Std. (SWISS) am Sa, 19.06.2027 am Abend, Ankunft So am Nachmittag",
-      rueckflug: "Direktflug Singapur–Zürich ca. 13–13,5 Std. (SWISS) in der Nacht auf den Mo, 19.07.2027, Ankunft am frühen Morgen",
-      dazwischen: "Fernbusse, private Transfers, Speedboote und Fähre, kein Inlandflug",
-      tempo: "Niemand muss selber fahren: Busse und Transfers je ca. 2–5,5 Std., dazu Boote; längster Reisetag Taman Negara–Perhentian ca. 6–7 Std.; überall 2–5 Nächte.",
-      gesamt: "Ca. 70–76 Std. Tür zu Tür: Bahn Brig-Glis–Zürich Flughafen (ca. 2,5 Std.), Langstreckenflüge mit Wartezeiten, Einreise und Transfers zusammen ca. 34 Std., Busse, Transfers und Boote ca. 33–38 Std. Uhr +6 Std.",
-      wetter: "Beste Zeit an der Ostküste (März bis Oktober): ruhige See, klares Wasser, ca. 30–32 °C; im Landesinneren und in Kuala Lumpur schwül mit Gewittern am Nachmittag; Meer ca. 28–30 °C.",
-      einreise: "Singapur und Malaysia visumfrei (SG Arrival Card, MDAC online vor der Ankunft).",
-      hoehepunkte: "Gardens by the Bay, Altstadt von Malakka, Petronas Towers und Batu Caves, Regenwald von Taman Negara mit Hängebrücken, Schildkröten und Riffhaie auf den Perhentians, klares Wasser auf Redang, Glühwürmchen bei Cherating, Dschungelinsel Tioman, Universal Studios Singapore.",
-      teens: "Nachtwanderung im Dschungel, Bootsfahrt durch Stromschnellen, Schnorcheln mit Schildkröten und Riffhaien, Surfkurs, Glühwürmchen, Sunway Lagoon, Universal Studios Singapore.",
+      rueckflug: "Direktflug Bangkok–Zürich ca. 11,5–12 Std. (SWISS) am So, 18.07.2027 um die Mittagszeit, Ankunft am Abend",
+      dazwischen: "Fernbus, private Transfers, Speedboote und Fähren, dann zwei kurze Flüge (Kuala Terengganu–Kuala Lumpur, Kuala Lumpur–Bangkok)",
+      tempo: "Niemand muss selber fahren: Bus und Transfers je ca. 3–5,5 Std., dazu Boote; längster Reisetag Taman Negara–Perhentian ca. 6–7 Std.; zwei kurze Flüge am Schluss; überall 3–5 Nächte.",
+      gesamt: "Ca. 68–75 Std. Tür zu Tür: Bahn Brig-Glis–Zürich Flughafen (ca. 2,5 Std.), Langstreckenflüge mit Wartezeiten, Einreise und Transfers zusammen ca. 32 Std., Bus, Transfers und Boote ca. 24–28 Std., zwei kurze Flüge mit Transfers ca. 10–12 Std. Uhr +6 Std. (Thailand +5 Std.).",
+      wetter: "Beste Zeit an der Ostküste Malaysias (März bis Oktober): ruhige See, klares Wasser, ca. 30–32 °C; im Landesinneren und in Kuala Lumpur schwül mit Gewittern; in Bangkok Regenzeit mit kurzen, heftigen Schauern; Meer ca. 28–30 °C.",
+      einreise: "Singapur, Malaysia und Thailand visumfrei (SG Arrival Card, MDAC, TDAC online vor der Ankunft; Thailand bis 30 Tage, Stand vorab prüfen).",
+      hoehepunkte: "Gardens by the Bay und Universal Studios, Dschungelinsel Tioman, Glühwürmchen bei Cherating, Regenwald von Taman Negara mit Hängebrücken, Schildkröten und Riffhaie auf den Perhentians, klares Wasser auf Redang, Petronas Towers und Batu Caves, Grand Palace und Ayutthaya in Bangkok.",
+      teens: "Universal Studios, Schnorcheln mit Schildkröten und Riffhaien, Surfkurs, Glühwürmchen, Nachtwanderung im Dschungel, Bootsfahrt durch Stromschnellen, Sunway Lagoon, Tempel und Märkte in Bangkok.",
       pro: [
         "Beste Reisezeit an der Ostküste",
         "Inseln: Perhentian, Redang, Tioman",
         "Regenwald, Schildkröten, Glühwürmchen",
-        "Keine Inlandflüge, nur vier Wochen",
+        "Nur vier Wochen, Bangkok zum Schluss",
         "Günstig (ca. {plan:malaysia} CHF)"
       ],
       contra: [
-        "Viele Transfers mit Bus, Van und Boot",
+        "Viele Transfers, zwei kurze Flüge",
         "Lange Anreise, Jetlag (+6 Std.)",
         "Fähren von Gezeiten und Wetter abhängig",
         "Dengue, Blutegel im Dschungel",
@@ -264,7 +264,7 @@ window.START = {
       usa: [5, "Los Angeles, Las Vegas, Albuquerque und Santa Fe, Austin, New Orleans, Miami und New York mit Museen und Aussichtsplattformen."],
       usamitte: [5, "Los Angeles, Las Vegas, Albuquerque und Santa Fe, Fort Worth, Houston, New Orleans, Memphis, St. Louis, Chicago und New York."],
       asien: [4, "Singapur, Kuala Lumpur, Penang und Bangkok mit Street-Food und Tempeln."],
-      malaysia: [3, "Singapur, Malakka (Unesco) und Kuala Lumpur mit Street-Food, Tempeln und Moscheen."],
+      malaysia: [4, "Singapur, Kuala Lumpur und Bangkok mit Street-Food, Tempeln, Märkten und Aussichtstürmen."],
     },
     {
       kriterium: "Gesundheit und Sicherheit",
@@ -286,7 +286,7 @@ window.START = {
       usa: [1, "ca. {plan:usa} CHF: rund {mehrkosten} CHF mehr, vor allem Einwegmiete, Inlandflug und Unterkünfte in Destin, Key Largo, Miami und New York."],
       usamitte: [1, "ca. {plan:usamitte} CHF: vor allem Einwegmiete, Unterkünfte in Los Angeles, Chicago und New York."],
       asien: [4, "ca. {plan:asien} CHF: Singapur ist teuer, der Rest günstig."],
-      malaysia: [4, "ca. {plan:malaysia} CHF: Langstreckenflug, sonst günstig; keine Inlandflüge, vier statt fünf Wochen."],
+      malaysia: [4, "ca. {plan:malaysia} CHF: Langstreckenflug und zwei kurze Flüge, sonst günstig; vier statt fünf Wochen."],
     },
     {
       kriterium: "Reisekomfort",
@@ -300,7 +300,7 @@ window.START = {
         2,
         "Ca. 101–108 Stunden Tür zu Tür: zwei Direktflüge mit Jetlag, dazu ca. 65–70 Stunden mit Bus, Zug und Fähre und viele Umstiege mit Gepäck; niemand muss selber fahren."
       ],
-      malaysia: [3, "Ca. 70–76 Stunden Tür zu Tür: zwei lange Direktflüge mit Jetlag, dazu Busse, Transfers und Boote mit Gepäck; niemand muss selber fahren, keine Inlandflüge."],
+      malaysia: [3, "Ca. 68–75 Stunden Tür zu Tür: zwei lange Direktflüge mit Jetlag, Busse, Transfers und Boote mit Gepäck, zum Schluss zwei kurze Flüge; niemand muss selber fahren."],
     },
     {
       kriterium: "CO₂ und Umwelt (mehr Punkte = weniger CO₂)",
@@ -314,7 +314,7 @@ window.START = {
         1,
         "Zwei Langstreckenflüge (ca. 19’000 km), unterwegs Bus, Zug und Fähre, grob geschätzt ca. 4 t CO₂ pro Person."
       ],
-      malaysia: [1, "Zwei Langstreckenflüge (ca. 20’600 km), unterwegs Bus, Auto und Boot, grob geschätzt ca. 3,8 t CO₂ pro Person."],
+      malaysia: [1, "Zwei Langstreckenflüge (ca. 19’500 km) und zwei kurze Flüge (ca. 1’500 km), grob geschätzt ca. 3,9 t CO₂ pro Person."],
     }
   ]
 };
