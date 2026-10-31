@@ -1,11 +1,11 @@
-// Reise: USA von Los Angeles über New Orleans und Miami nach New York (Mietwagen bis Miami, Inlandflug nach Washington, Zug nach New York)
+// Reise: USA Süd von Los Angeles über New Orleans, Key Largo und Miami nach New York (Mietwagen bis Miami, Inlandflug nach New York)
 // Daten in "datum" ohne Wochentag schreiben (z.B. "19.–22. Juni"), die Wochentage rechnet js/app.js aus.
 // Texte dürfen einfaches HTML enthalten (<b>, <strong>, <i>).
 window.REISEN = window.REISEN || {};
 REISEN.usa = {
   titel: "Von Los Angeles über New Orleans und Miami nach New York",
   menu: "USA Süd",
-  untertitel: "Fünf Wochen USA: mit dem Mietwagen von Los Angeles über Las Vegas, Kanab, Monument Valley, Albuquerque und White Sands nach Texas, über San Antonio und New Orleans an den Strand von Destin, nach Orlando und Miami; dann mit dem Flugzeug nach Washington und mit dem Zug nach New York.",
+  untertitel: "Fünf Wochen USA: mit dem Mietwagen von Los Angeles über Las Vegas, Kanab, Monument Valley, Albuquerque und White Sands nach Texas, über San Antonio und New Orleans an den Strand von Destin, nach Orlando, Key Largo und Miami; dann mit dem Flugzeug nach New York.",
   zeitraum: "Sa, 19.06.2027 bis Do, 22.07.2027, 2 Erwachsene und 2 Kids",
   titelbild: {
     datei: "USA 10187 Horseshoe Bend Luca Galuzzi 2007.jpg",
@@ -13,7 +13,7 @@ REISEN.usa = {
     stichwort: "horseshoe bend|monument valley",
     alt: "Horseshoe Bend, Arizona"
   },
-  planIntro: "Abflug ab Zürich nach Los Angeles am Sa, 19.06.2027, Rückflug ab New York am Mi, 21.07.2027 (Ankunft Do, 22.07.2027). Dazwischen eine Einwegmiete Los Angeles–Miami, ein Inlandflug nach Washington und der Zug nach New York. Ein Klick auf eine Station springt zur Beschreibung.",
+  planIntro: "Abflug ab Zürich nach Los Angeles am Sa, 19.06.2027, Rückflug ab New York am Mi, 21.07.2027 (Ankunft Do, 22.07.2027). Dazwischen eine Einwegmiete Los Angeles–Miami und ein Inlandflug nach New York. Ein Klick auf eine Station springt zur Beschreibung.",
   hinflug: {
     datum: "19. Juni",
     name: "Flug Zürich–Los Angeles",
@@ -44,16 +44,21 @@ REISEN.usa = {
     },
     {datum: "30. Juni–2. Juli", name: "7. San Antonio", naechte: 2, info: "Mietwagen (ca. 5–5,5 Std.)"},
     {datum: "2.–4. Juli", name: "8. New Orleans", naechte: 2, info: "Mietwagen (ca. 8–8,5 Std., längster Fahrtag)"},
-    {datum: "4.–7. Juli", name: "9. Destin (Golfküste)", naechte: 3, info: "Mietwagen (ca. 4–4,5 Std.)"},
-    {datum: "7.–10. Juli", name: "10. Orlando", naechte: 3, info: "Mietwagen (ca. 6–7 Std.), Uhr +1 Std."},
+    {datum: "4.–8. Juli", name: "9. Destin (Golfküste)", naechte: 4, info: "Mietwagen (ca. 4–4,5 Std.)"},
+    {datum: "8.–11. Juli", name: "10. Orlando", naechte: 3, info: "Mietwagen (ca. 6–7 Std.), Uhr +1 Std."},
+    {datum: "11.–14. Juli", name: "11. Key Largo", naechte: 3, info: "Mietwagen (ca. 4,5–5 Std.)"},
     {
-      datum: "10.–14. Juli",
-      name: "11. Miami",
-      naechte: 4,
-      info: "Mietwagen (ca. 3,5–4 Std.), Rückgabe am Flughafen am Abreisetag"
+      datum: "14.–17. Juli",
+      name: "12. Miami",
+      naechte: 3,
+      info: "Mietwagen (ca. 1–1,25 Std.), Rückgabe am Flughafen am Abreisetag"
     },
-    {datum: "14.–17. Juli", name: "12. Washington, D.C.", naechte: 3, info: "Inlandflug nonstop (ca. 2,5–3 Std.)"},
-    {datum: "17.–21. Juli", name: "13. New York", naechte: 4, info: "Amtrak-Zug (ca. 3–3,5 Std.); Rückflug 21. Juli"}
+    {
+      datum: "17.–21. Juli",
+      name: "13. New York",
+      naechte: 4,
+      info: "Inlandflug nonstop (ca. 3–3,5 Std.); Rückflug 21. Juli"
+    }
   ],
   rueckflug: {
     datum: "21. Juli",
@@ -63,11 +68,11 @@ REISEN.usa = {
   planHinweise: [
     [
       "Gesamt",
-      "32 Nächte, 13 Stationen und eine Zwischenübernachtung (Fort Stockton). Eine Einwegmiete Los Angeles–Miami (ca. 25 Tage) mit ca. 5’350 km und ca. 55–58 Std. reiner Fahrzeit an 11 Fahrtagen, realistisch mit Pausen, Tanken, Stau und Fahrten vor Ort ca. 63–69 Std. im Auto. Dazu ein Inlandflug Miami–Washington (ca. 2,5–3 Std.) und der Zug nach New York (ca. 3–3,5 Std.). Die längsten Fahrtage: San Antonio–New Orleans (ca. 8–8,5 Std., realistisch ca. 9,5–10 Std.), Destin–Orlando (ca. 6–7 Std.), Monument Valley–Albuquerque (ca. 5,5–6,5 Std.), White Sands–Fort Stockton über Roswell (ca. 5,5–6 Std.), Fort Stockton–San Antonio (ca. 5–5,5 Std.) und Los Angeles–Las Vegas (ca. 4,5–5 Std., mit Stau ca. 5,5–6,5 Std.)."
+      "32 Nächte, 13 Stationen und eine Zwischenübernachtung (Fort Stockton). Eine Einwegmiete Los Angeles–Miami (ca. 28 Tage) mit ca. 5’550 km und ca. 57–60 Std. reiner Fahrzeit an 12 Fahrtagen, realistisch mit Pausen, Tanken, Stau und Fahrten vor Ort ca. 64–70 Std. im Auto. Dazu ein Inlandflug Miami–New York (ca. 3–3,5 Std.). Die längsten Fahrtage: San Antonio–New Orleans (ca. 8–8,5 Std., realistisch ca. 9,5–10 Std.), Destin–Orlando (ca. 6–7 Std.), Monument Valley–Albuquerque (ca. 5,5–6,5 Std.), White Sands–Fort Stockton über Roswell (ca. 5,5–6 Std.), Fort Stockton–San Antonio (ca. 5–5,5 Std.), Orlando–Key Largo (ca. 4,5–5 Std.) und Los Angeles–Las Vegas (ca. 4,5–5 Std., mit Stau ca. 5,5–6,5 Std.)."
     ],
     [
       "Flug ab und nach Zürich",
-      "Hinflug: Zürich–Los Angeles mit SWISS als Direktflug ca. 12,25 Std. (Sommer 2026: täglich ausser Do, Abflug ca. 13.05 Uhr, Ankunft ca. 16.25 Uhr Ortszeit, Zeitverschiebung −9 Std.). Für Hin- und Rückflug mit SWISS liegt ein Angebot von ca. 4’000 CHF für alle vier vor. Inlandflug Miami–Washington am Mi, 14.07.2027 nonstop ca. 2,5–3 Std. (American, Delta, viele Flüge pro Tag). Rückflug: New York (JFK)–Zürich mit SWISS als Direktflug täglich, ca. 7,75–8 Std., am Mi, 21.07.2027 (Sommer 2026: Abflug ca. 16.15 Uhr, Ankunft ca. 6.10 Uhr). Flugpläne 2027 bei der Buchung prüfen."
+      "Hinflug: Zürich–Los Angeles mit SWISS als Direktflug ca. 12,25 Std. (Sommer 2026: täglich ausser Do, Abflug ca. 13.05 Uhr, Ankunft ca. 16.25 Uhr Ortszeit, Zeitverschiebung −9 Std.). Für Hin- und Rückflug mit SWISS liegt ein Angebot von ca. 4’000 CHF für alle vier vor. Inlandflug Miami–New York am Sa, 17.07.2027 nonstop ca. 3–3,5 Std. (American, Delta und andere, viele Flüge pro Tag nach LaGuardia, JFK oder Newark). Rückflug: New York (JFK)–Zürich mit SWISS als Direktflug täglich, ca. 7,75–8 Std., am Mi, 21.07.2027 (Sommer 2026: Abflug ca. 16.15 Uhr, Ankunft ca. 6.10 Uhr). Flugpläne 2027 bei der Buchung prüfen."
     ],
     [
       "Hitze und Hurrikane",
@@ -75,24 +80,24 @@ REISEN.usa = {
     ],
     [
       "Vorab buchen",
-      "Einwegmiete Los Angeles–Miami (Angebot ca. 3’000 CHF inkl. Versicherung und Einweggebühr), Space Shuttle Endeavour (Zeitfenster), Unterkunft in Monument Valley (oft Monate im Voraus), Meow Wolf, Sumpftour in New Orleans, Unterkunft in Destin, Universal und Kennedy Space Center, Schnorcheltour in Key Largo, Inlandflug Miami–Washington (Gepäck einrechnen), Air and Space Museum, Amtrak Washington–New York, Aussichtsplattform und Broadway in New York."
+      "Einwegmiete Los Angeles–Miami (Angebot ca. 3’000 CHF inkl. Versicherung und Einweggebühr), Space Shuttle Endeavour (Zeitfenster), Unterkunft in Monument Valley (oft Monate im Voraus), Meow Wolf, Sumpftour in New Orleans, Unterkunft in Destin (4. Juli) und Key Largo, Universal und Kennedy Space Center, Schnorcheltour in Key Largo, Inlandflug Miami–New York (Gepäck einrechnen), Aussichtsplattform und Broadway in New York."
     ],
     [
       "Optional",
-      "Universal Studios Hollywood oder Disneyland (mit einer Nacht mehr in Los Angeles), Zion (ab Kanab ca. 45 Min.) oder Bryce Canyon (ca. 1,25 Std.), beide mit Zusatzgebühr, Page mit Lake Powell und Antelope Canyon (eine Nacht mehr zwischen Kanab und Monument Valley), Grand Canyon (ebenfalls mit einer Nacht mehr), Santa Fe mit eigener Nacht, Carlsbad Caverns (auf der Fahrt nach Fort Stockton), Houston mit Space Center Houston (eine Nacht zwischen San Antonio und New Orleans, teilt den längsten Fahrtag), Siesta Key oder Key Largo mit eigenen Nächten, Philadelphia (Halt mit dem Zug)."
+      "Universal Studios Hollywood oder Disneyland (mit einer Nacht mehr in Los Angeles), Zion (ab Kanab ca. 45 Min.) oder Bryce Canyon (ca. 1,25 Std.), beide mit Zusatzgebühr, Page mit Lake Powell und Antelope Canyon (eine Nacht mehr zwischen Kanab und Monument Valley), Grand Canyon (ebenfalls mit einer Nacht mehr), Santa Fe mit eigener Nacht, Carlsbad Caverns (auf der Fahrt nach Fort Stockton), Houston mit Space Center Houston (eine Nacht zwischen San Antonio und New Orleans, teilt den längsten Fahrtag), Siesta Key mit eigenen Nächten, Washington (ab New York mit dem Zug ca. 3–3,5 Std., auch als Tagesausflug)."
     ]
   ],
   karte: {
-    intro: "Ungefährer Verlauf der Wege: mit dem Mietwagen von Los Angeles über Las Vegas nach Miami, dann mit dem Flugzeug nach Washington und mit dem Zug nach New York. Darunter zwei Detailkarten.",
+    intro: "Ungefährer Verlauf der Wege: mit dem Mietwagen von Los Angeles über Las Vegas nach Key Largo und Miami, dann mit dem Flugzeug nach New York. Darunter zwei Detailkarten.",
     breit: true,
-    legende: ["car", "air", "train"],
+    legende: ["car", "air"],
     karten: [
       {datei: "karten/usa.svg"},
       {titel: "Südwesten im Detail (Stationen 1 bis 6)", datei: "karten/usa-suedwesten.svg"},
       {titel: "Von Texas bis New York im Detail (Stationen 7 bis 13)", datei: "karten/usa-osten.svg"}
     ]
   },
-  abwechslungIntro: "Wüste und Nationalparks, Städte des Südens, Strand und Freizeitparks wechseln sich ab, zum Schluss Washington und New York ohne Auto.",
+  abwechslungIntro: "Wüste und Nationalparks, Städte des Südens, Strand und Freizeitparks wechseln sich ab, zum Schluss New York ohne Auto.",
   abwechslung: [
     [
       "Naturwunder",
@@ -100,7 +105,7 @@ REISEN.usa = {
     ],
     [
       "Strand",
-      "Santa Monica am Pazifik, drei Nächte an den weissen Stränden bei Destin, dazu Miami Beach und ein Schnorcheltag in Key Largo (Wasser ca. 29–31 °C)."
+      "Santa Monica am Pazifik, vier Nächte an den weissen Stränden bei Destin, drei Nächte in Key Largo mit Schnorcheln am Riff (Wasser ca. 29–31 °C) und Miami Beach."
     ],
     [
       "Action und Freizeitparks",
@@ -108,11 +113,11 @@ REISEN.usa = {
     ],
     [
       "Städte und Kultur",
-      "Los Angeles, Las Vegas, Albuquerque und Santa Fe, Navajo Nation, San Antonio mit dem Alamo, New Orleans mit Jazz, Miami, Washington mit den Smithsonian-Museen, New York."
+      "Los Angeles, Las Vegas, Albuquerque und Santa Fe, Navajo Nation, San Antonio mit dem Alamo, New Orleans mit Jazz, Miami, New York."
     ],
     [
       "Ruhetage",
-      "Los Angeles, Las Vegas, Kanab, Albuquerque, Destin, Orlando und Miami haben mehrere Nächte; im Osten kein Auto mehr."
+      "Los Angeles, Las Vegas, Kanab, Albuquerque, Destin (4 Nächte), Orlando, Key Largo und Miami haben mehrere Nächte; in New York kein Auto mehr."
     ]
   ],
   stationenIntro: "Dreizehn Stationen von Los Angeles bis New York. Über jeder Station steht, wie ihr dorthin kommt.",
@@ -349,13 +354,13 @@ REISEN.usa = {
       name: "Destin (Golfküste)",
       land: "us",
       region: "Florida Panhandle",
-      datum: "4.–7. Juli",
-      naechte: "3 Nächte",
+      datum: "4.–8. Juli",
+      naechte: "4 Nächte",
       anreise: "Mietwagen von New Orleans über die Interstate 10 an die Golfküste (ca. 4–4,5 Std., ca. 400 km).",
-      text: "Weisser Quarzsand und smaragdgrünes Wasser am Golf von Mexiko: drei Strandtage nach Wüste und Städten, bevor es nach Florida hineingeht.",
+      text: "Weisser Quarzsand und smaragdgrünes Wasser am Golf von Mexiko: vier Strandtage nach Wüste und Städten, bevor es nach Florida hineingeht.",
       teens: "Baden und Sandburgen am Henderson Beach, Delfin-Bootstour, Schnorcheln an den Jetties von Destin (ruhiges Wasser), Stand-up-Paddle.",
       fakten: [
-        "<strong>Dauer:</strong> 3 Nächte am Strand, z.B. in Destin oder Santa Rosa Beach: Baden, Schnorcheln an den Steinmolen, Bootstour zu den Delfinen. Am Anreisetag, dem 4. Juli (Nationalfeiertag), am Abend Feuerwerk am Strand; früh losfahren und Unterkünfte früh buchen.",
+        "<strong>Dauer:</strong> 4 Nächte am Strand, z.B. in Destin oder Santa Rosa Beach: Baden, Schnorcheln an den Steinmolen, Bootstour zu den Delfinen. Am Anreisetag, dem 4. Juli (Nationalfeiertag), am Abend Feuerwerk am Strand; früh losfahren und Unterkünfte früh buchen.",
         "<strong>Baden:</strong> Auf die Strandflaggen achten: rote Flagge heisst gefährliche Strömung (Rip Currents), dann nicht ins Wasser.",
         "<strong>Wetter:</strong> Gewitter am Nachmittag sind häufig; Hurrikansaison."
       ],
@@ -374,7 +379,7 @@ REISEN.usa = {
       name: "Orlando",
       land: "us",
       region: "Florida",
-      datum: "7.–10. Juli",
+      datum: "8.–11. Juli",
       naechte: "3 Nächte",
       anreise: "Mietwagen von Destin über die Interstate 10 und die Interstate 75 nach Orlando (ca. 6–7 Std., ca. 650 km). In Orlando gilt Eastern-Zeit, die Uhr springt +1 Std.",
       text: "Hauptstadt der Freizeitparks und Ausgangspunkt zum Kennedy Space Center, von wo die Raketen starten. Für die Teenager einer der Höhepunkte der Reise.",
@@ -396,22 +401,46 @@ REISEN.usa = {
     },
     {
       nr: 11,
+      name: "Key Largo",
+      land: "us",
+      region: "Florida Keys",
+      datum: "11.–14. Juli",
+      naechte: "3 Nächte",
+      anreise: "Mietwagen von Orlando über den Florida’s Turnpike auf die erste Insel der Florida Keys (ca. 4,5–5 Std., ca. 475 km, Mautstrasse).",
+      text: "Die erste Insel der Florida Keys: Mangroven, türkises Wasser und das einzige Korallenriff an der Festlandküste der USA, ohne Tagesausflug direkt vor der Unterkunft.",
+      teens: "Schnorcheltour zum Riff im John Pennekamp Coral Reef State Park, Kajak durch die Mangroven, Glasbodenboot, Sonnenuntergang am Steg.",
+      fakten: [
+        "<strong>Dauer:</strong> 3 Nächte: ein Tag Schnorcheltour (ca. 2,5 Std., gut eine Stunde im Wasser), ein Tag Kajak in den Mangroven oder Islamorada, ein Strand- und Pooltag.",
+        "<strong>Schnorcheln:</strong> Bootstouren 2026 ca. 65–75 USD pro Person, Ausrüstung inklusive; alle müssen schwimmen können, riffschonende Sonnencreme. Wasser ca. 29–31 °C.",
+        "<strong>Hinweis:</strong> Bei Wind und Gewitter fallen Touren aus; zwei Ersatztage sind eingeplant."
+      ],
+      ausserdem: "Islamorada mit dem Theater of the Sea, Robbie’s (Tarpune füttern), Dolphin Research Center (Marathon, ca. 1 Std.).",
+      bilder: [
+        {titel: "Korallenriff", suche: "John Pennekamp Coral Reef State Park", stichwort: "pennekamp|reef"},
+        {titel: "Schnorcheln", suche: "Key Largo snorkeling", stichwort: "snorkel"},
+        {titel: "Mangroven", suche: "Key Largo mangroves kayak|Florida Keys mangroves", stichwort: "mangrove"},
+        {titel: "Florida Keys", suche: "Florida Keys Overseas Highway|Key Largo", stichwort: "keys|key largo"},
+        {titel: "Christus der Tiefe", suche: "Christ of the Abyss Key Largo", stichwort: "christ of the abyss|abyss"},
+        {titel: "Islamorada", suche: "Islamorada Florida", stichwort: "islamorada"}
+      ]
+    },
+    {
+      nr: 12,
       name: "Miami",
       land: "us",
       region: "Florida",
-      datum: "10.–14. Juli",
-      naechte: "4 Nächte",
-      anreise: "Mietwagen von Orlando über den Florida’s Turnpike nach Miami (ca. 3,5–4 Std., ca. 380 km, Mautstrasse).",
+      datum: "14.–17. Juli",
+      naechte: "3 Nächte",
+      anreise: "Mietwagen von Key Largo über die US-1 nach Miami (ca. 1–1,25 Std., ca. 100 km).",
       text: "Art-déco-Häuser und Strand in South Beach, kubanisches Essen in Little Havana und gleich vor der Stadt die Everglades mit Alligatoren und Mangroven.",
       teens: "Airboat-Fahrt und Alligatoren in den Everglades, Strand und Art-déco-Viertel in South Beach, Graffiti-Kunst in Wynwood Walls, Little Havana mit kubanischem Essen.",
       fakten: [
-        "<strong>Dauer:</strong> 4 Nächte: ein halber Tag Everglades mit Airboat-Tour am Rand des Parks (ca. 45 Min. pro Weg, Tour ca. 1 Std.), ein Tag Key Largo mit Schnorcheltour am Korallenriff (ca. 1,25–1,5 Std. pro Weg), ein Tag South Beach, ein freier Tag mit Strand oder Pool, ein halber Tag Wynwood und Little Havana.",
+        "<strong>Dauer:</strong> 3 Nächte: ein halber Tag Everglades mit Airboat-Tour am Rand des Parks (ca. 45 Min. pro Weg, Tour ca. 1 Std.), ein Tag South Beach, ein halber Tag Wynwood und Little Havana.",
         "<strong>Everglades:</strong> Airboat-Touren am Tamiami Trail ausserhalb des Nationalparks ca. 27–37 USD pro Person, ohne Parkeintritt. Optional der Nationalpark selbst mit der Shark Valley Tram (ca. 2 Std., 34 USD Erwachsene, 18 USD Kinder bis 12); Eintritt ca. 35 USD pro Auto plus 100 USD pro Person ab 16 für Nicht-US-Bewohner, mit dem Jahrespass inklusive.",
-        "<strong>Schnorcheln:</strong> Bootstouren im John Pennekamp Coral Reef State Park dauern ca. 2,5 Std. mit gut einer Stunde im Wasser (2026 ca. 65–75 USD pro Person, Ausrüstung inklusive); alle müssen schwimmen können, riffschonende Sonnencreme.",
         "<strong>Wetter:</strong> Heiss und feucht (ca. 33 °C), am Nachmittag oft kurze Gewitter; Juni bis November ist Hurrikansaison, Wetterberichte verfolgen.",
-        "<strong>Weiterflug:</strong> Am Mi, 14.07.2027 nonstop nach Washington (ca. 2,5–3 Std., z.B. American oder Delta nach Reagan National, viele Flüge pro Tag). Mietwagen vorher am Flughafen zurückgeben."
+        "<strong>Weiterflug:</strong> Am Sa, 17.07.2027 nonstop nach New York (ca. 3–3,5 Std., z.B. American oder Delta nach LaGuardia oder JFK, viele Flüge pro Tag). Mietwagen vorher am Flughafen zurückgeben."
       ],
-      ausserdem: "Key Largo und Islamorada (Riff, Mangroven), Vizcaya Museum, Key Biscayne, Frost Science Museum.",
+      ausserdem: "Vizcaya Museum, Key Biscayne, Frost Science Museum, Shark Valley im Nationalpark (mit Zusatzgebühr).",
       bilder: [
         {titel: "South Beach", suche: "Miami South Beach|Miami Beach", stichwort: "miami beach|south beach"},
         {titel: "Everglades", suche: "Everglades National Park airboat|Everglades", stichwort: "everglades"},
@@ -422,38 +451,13 @@ REISEN.usa = {
       ]
     },
     {
-      nr: 12,
-      name: "Washington, D.C.",
-      land: "us",
-      region: "Washington, D.C.",
-      datum: "14.–17. Juli",
-      naechte: "3 Nächte",
-      anreise: "Inlandflug Miami–Washington nonstop (ca. 2,5–3 Std.); vom Flughafen Reagan National mit der Metro in die Stadt (ca. 20 Min.). In der Stadt Metro, Velo oder zu Fuss.",
-      text: "Die Hauptstadt der USA: Denkmäler, Regierungsgebäude und eine Vielzahl kostenloser Museen rund um die National Mall. Alles ist gut zu Fuss und mit der Metro erreichbar.",
-      teens: "National Air and Space Museum (Zeitfenster-Tickets vorab), Natural History Museum (Hope-Diamant), Spy Museum, Lincoln Memorial und Washington Monument bei Abenddämmerung, Capitol.",
-      fakten: [
-        "<strong>Dauer:</strong> 3 Nächte: ein Tag National Mall und Denkmäler, ein Tag Museen (Air and Space, Natural History), ein halber Tag Arlington oder Georgetown.",
-        "<strong>Hitze:</strong> Im Juli heiss und schwül, nachmittags oft Gewitter; Museen als Hitzepause einplanen.",
-        "<strong>Hinweis:</strong> Das White House ist von innen nur nach früher Anfrage über die Schweizer Botschaft zu besichtigen, von aussen jederzeit."
-      ],
-      ausserdem: "Arlington National Cemetery, Mount Vernon (Landsitz von George Washington), Georgetown, National Zoo (gratis), Holocaust Memorial Museum (Zeitfenster).",
-      bilder: [
-        {titel: "Lincoln Memorial", suche: "Lincoln Memorial Washington", stichwort: "lincoln memorial"},
-        {titel: "Washington Monument", suche: "Washington Monument", stichwort: "washington monument"},
-        {titel: "Capitol", suche: "United States Capitol Washington", stichwort: "capitol"},
-        {titel: "Air and Space Museum", suche: "National Air and Space Museum Washington", stichwort: "air and space"},
-        {titel: "Smithsonian Castle", suche: "Smithsonian Institution Building castle", stichwort: "smithsonian"},
-        {titel: "Jefferson Memorial", suche: "Jefferson Memorial Tidal Basin", stichwort: "jefferson memorial"}
-      ]
-    },
-    {
       nr: 13,
       name: "New York",
       land: "us",
       region: "New York",
       datum: "17.–21. Juli",
       naechte: "4 Nächte, Rückflug 21. Juli",
-      anreise: "Amtrak-Zug ab Washington Union Station nach New York Penn Station (Northeast Regional ca. 3,5 Std., Acela ca. 3 Std.; viele Züge pro Tag). Rückflug direkt ab John F. Kennedy (SWISS) am Mi, 21.07.2027 am Nachmittag (Sommer 2026 ca. 16.15 Uhr; ca. 7,75–8 Std., Ankunft in Zürich am Do, 22.07.2027 um ca. 6 Uhr). Zum Flughafen JFK mit dem AirTrain oder Taxi ca. 1–1,5 Std., also am Mittag los.",
+      anreise: "Inlandflug Miami–New York nonstop (ca. 3–3,5 Std.; viele Flüge pro Tag), vom Flughafen LaGuardia oder JFK mit Taxi oder Bus und U-Bahn in die Stadt (ca. 45–75 Min.). Rückflug direkt ab John F. Kennedy (SWISS) am Mi, 21.07.2027 am Nachmittag (Sommer 2026 ca. 16.15 Uhr; ca. 7,75–8 Std., Ankunft in Zürich am Do, 22.07.2027 um ca. 6 Uhr). Zum Flughafen JFK mit dem AirTrain oder Taxi ca. 1–1,5 Std., also am Mittag los.",
       text: "Das grosse Finale: Wolkenkratzer, Parks, Museen und Hafenpanorama.",
       teens: "Fähre zur Freiheitsstatue und nach Ellis Island, Aussicht vom Empire State Building oder Top of the Rock, Broadway-Musical, Brooklyn Bridge, Coney Island (Achterbahn und Strand), Intrepid Museum (Flugzeugträger).",
       fakten: [
@@ -477,7 +481,7 @@ REISEN.usa = {
     }
   ],
   abschluss: "Direktflug ab New York (JFK) nach Zürich am Mi, 21.07.2027 am Nachmittag (ca. 7,75–8 Std.), Ankunft am Do, 22.07.2027 am frühen Morgen, dann mit der Bahn nach Brig-Glis. Bis zum Ferienende bleiben zwei Tage gegen den Jetlag.",
-  budgetIntro: "Mittelklasse inklusive Flüge, Mietwagen, Zug, Unterkunft, Verpflegung und Aktivitäten. Alle Beträge sind Schätzungen in CHF.",
+  budgetIntro: "Mittelklasse inklusive Flüge, Mietwagen, Unterkunft, Verpflegung und Aktivitäten. Alle Beträge sind Schätzungen in CHF.",
   budget: {
     posten: [
       [
@@ -487,22 +491,22 @@ REISEN.usa = {
         "Angebot für alle vier ca. 4’000 CHF (ca. 1’000 pro Person); bis zur Buchung nicht fest"
       ],
       [
-        "Inlandflug Miami–Washington",
-        "500–800",
+        "Inlandflug Miami–New York",
+        "500–850",
         "650",
         "4 Personen ca. 120–200 USD pro Person, dazu ca. 35–40 USD pro aufgegebenem Koffer"
       ],
       [
         "Mietwagen (Einwegmiete)",
-        "3’000–3’200",
-        "3’000",
-        "Angebot Los Angeles–Miami (ca. 25 Tage) inkl. Vollkasko, Zusatzhaftpflicht und Einweggebühr; Spanne für Extras vor Ort"
+        "3’000–3’600",
+        "3’300",
+        "Angebot Los Angeles–Miami für ca. 25 Tage inkl. Vollkasko, Zusatzhaftpflicht und Einweggebühr ca. 3’000 CHF; jetzt ca. 28 Tage, neu offerieren lassen"
       ],
       [
         "Benzin",
-        "400–550",
-        "450",
-        "ca. 5’350 km, Van oder SUV mit ca. 10–12 l/100 km (ca. 600 Liter); in Kalifornien am teuersten"
+        "420–580",
+        "470",
+        "ca. 5’550 km, Van oder SUV mit ca. 10–12 l/100 km (ca. 620 Liter); in Kalifornien am teuersten"
       ],
       [
         "Parkieren",
@@ -517,16 +521,16 @@ REISEN.usa = {
         "vor allem in Florida (Turnpike, Orlando, Miami), dazu die Gebühr des Vermieters für die automatische Mauterfassung"
       ],
       [
-        "Zug und lokale Verkehrsmittel",
-        "550–900",
-        "700",
-        "Amtrak Washington–New York ca. 60–140 USD pro Person je nach Buchungszeitpunkt, Metro und U-Bahn, Taxi oder AirTrain zum Flughafen"
+        "Lokale Verkehrsmittel",
+        "250–450",
+        "300",
+        "U-Bahn und Taxi in New York, Transfer vom Flughafen und zum Flughafen JFK"
       ],
       [
         "Unterkunft (Familienzimmer, 3 Sterne)",
         "7’000–10’000",
         "7’900",
-        "ca. 100–420 CHF pro Nacht inkl. Steuern (ein Zimmer mit zwei Queen-Betten); Los Angeles, Monument Valley, Destin, Miami, Washington und New York am teuersten, in Las Vegas zusätzlich «Resort Fees»"
+        "ca. 100–420 CHF pro Nacht inkl. Steuern (ein Zimmer mit zwei Queen-Betten); Los Angeles, Monument Valley, Destin, Key Largo, Miami und New York am teuersten, in Las Vegas zusätzlich «Resort Fees»"
       ],
       ["Verpflegung (Restaurants, Imbiss, Getränke)", "4’500–8’000", "6’000", "ca. 140–250 CHF pro Tag für 4 Personen"],
       [
@@ -553,22 +557,22 @@ REISEN.usa = {
       ["Zwischenübernachtung Fort Stockton (1)", "130–220"],
       ["7. San Antonio (2)", "430–730"],
       ["8. New Orleans (2)", "520–860"],
-      ["9. Destin (3)", "780–1’290"],
+      ["9. Destin (4)", "1’040–1’720"],
       ["10. Orlando (3)", "1’160–2’070"],
-      ["11. Miami (4)", "1’250–2’110"],
-      ["12. Washington, D.C. (3)", "1’100–1’880"],
+      ["11. Key Largo (3)", "1’160–1’840"],
+      ["12. Miami (3)", "940–1’580"],
       ["13. New York (4)", "2’290–3’810"]
     ],
     hinweise: [
       "Preise für die Kids: Der Sohn (12) und die Tochter (14) zahlen bei Eintritten teils Kinderpreise (bis 11 bzw. 12 Jahre), oft aber den Vollpreis.",
-      "Sparhebel: ein Zimmer mit zwei Queen-Betten, Motels mit Frühstück, Imbiss statt Restaurant, Nationalpark-Jahrespass früh kaufen, die vielen Gratis-Museen in Washington nutzen.",
+      "Sparhebel: ein Zimmer mit zwei Queen-Betten, Motels mit Frühstück, Imbiss statt Restaurant, Gratis-Museen nutzen.",
       "Gerechnet mit ca. 0,83 CHF pro USD (Kurs Oktober 2026); Preise in den USA meist ohne Verkaufssteuer angeschrieben, im Restaurant kommen 15–20 % Trinkgeld dazu.",
       "Alle Beträge sind Richtwerte in CHF (Schätzungen, nicht verbindlich). Flug-, Hotel- und Mietwagenpreise im Juli schwanken stark; aktuelle Preise vor der Buchung vergleichen."
     ],
     naechte: 32,
-    total: "29’620",
-    spanne: "25’500–36’700",
-    proTag: "ca. 930 CHF pro Tag, ca. 7’400 pro Person"
+    total: "29’540",
+    spanne: "25’300–36’700",
+    proTag: "ca. 920 CHF pro Tag, ca. 7’400 pro Person"
   },
   tippsIntro: "Einreise, Gesundheit, Sicherheit und Praktisches für die Reise mit 2 Erwachsenen und 2 Kids.",
   tipps: [
@@ -583,7 +587,7 @@ REISEN.usa = {
     ],
     [
       "Mietwagen",
-      "Familienvan oder SUV, die Einwegmiete Los Angeles–Miami früh buchen (Angebot ca. 3’000 CHF inkl. Vollkasko, Zusatzhaftpflicht und Einweggebühr; Kaution auf der Kreditkarte). In Florida viele Mautstrassen: Mautpaket des Vermieters klären. Schweizer Führerschein reicht; ein internationaler Führerschein ist als Zusatz empfehlenswert. Den Wagen am Flughafen Miami abgeben; im Osten Flug, Zug, Metro und U-Bahn."
+      "Familienvan oder SUV, die Einwegmiete Los Angeles–Miami früh buchen (Angebot ca. 3’000 CHF inkl. Vollkasko, Zusatzhaftpflicht und Einweggebühr; Kaution auf der Kreditkarte). In Florida viele Mautstrassen: Mautpaket des Vermieters klären. Schweizer Führerschein reicht; ein internationaler Führerschein ist als Zusatz empfehlenswert. Den Wagen am Flughafen Miami abgeben; in New York ohne Auto."
     ],
     [
       "Tanken und Zahlen",
@@ -606,8 +610,8 @@ REISEN.usa = {
       "Monument Valley liegt auf Navajo-Land mit eigenen Regeln: Eintritt pro Person, geführte Touren, keine Drohnen, kein Alkohol. Respektvoll verhalten, Fotos von Menschen nur mit Erlaubnis."
     ],
     [
-      "Flug und Zug im Osten",
-      "Inlandflug Miami–Washington mit Gepäck buchen. Amtrak-Züge Washington–New York fahren oft (Northeast Regional ca. 3,5 Std., Acela ca. 3 Std.); Tickets früh online buchen, Gepäck selbst tragen."
+      "Flug nach New York",
+      "Inlandflug Miami–New York mit Gepäck buchen (viele Flüge pro Tag, ca. 3–3,5 Std.); vorher den Mietwagen am Flughafen Miami zurückgeben. In New York U-Bahn, Taxi und zu Fuss."
     ],
     [
       "Notfall",

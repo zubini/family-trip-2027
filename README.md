@@ -5,7 +5,7 @@
 Reiseführer und Variantenvergleich für die Familienreise 2027 (Sa, 19. Juni bis Sa, 24. Juli, 2 Erwachsene und 2 Kids) mit fünf Varianten:
 
 - **Spanien / Portugal / Marokko**: mit dem eigenen Auto ab Brig-Glis, sechs Nächte Marokko nur mit Fähre und Zug (Casablanca, Marrakesch, Agafay-Wüste, Fès)
-- **USA Süd (Los Angeles – Florida – New York)**: Roadtrip von Los Angeles durch den Südwesten über Texas, New Orleans und Destin nach Florida, Inlandflug nach Washington, Zug nach New York
+- **USA Süd (Los Angeles – Florida – New York)**: Roadtrip von Los Angeles durch den Südwesten über Texas, New Orleans und Destin nach Florida mit Key Largo, Inlandflug Miami–New York
 - **USA Ostküste (Miami – Niagara – New York)**: nur mit dem Mietwagen von Miami über Key Largo, Orlando, Savannah, Charleston und die Outer Banks nach Washington, über Hershey zu den Niagarafällen und durch die Finger Lakes nach New York
 - **USA Mitte (Los Angeles – Chicago – New York)**: mit dem Mietwagen von Los Angeles über Las Vegas, Kanab und Monument Valley nach Albuquerque, über Amarillo und Fort Worth nach Houston und New Orleans, über Memphis und St. Louis nach Chicago, über Cedar Point und die Niagarafälle in die Finger Lakes und nach New York (kein Inlandflug)
 - **Malaysia / Thailand**: von Singapur nach Bangkok

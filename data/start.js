@@ -47,27 +47,27 @@ window.START = {
     },
     usa: {
       name: "USA Süd (Los Angeles – Florida – New York)",
-      zusatz: "Roadtrip vom Südwesten über die Golfküste nach Florida, dann Washington und New York",
-      passt: "Nationalparks, ein grosser Roadtrip, Städte des Südens, Strand in Destin und Miami und zum Schluss Washington und New York im Vordergrund stehen, ihr viele Fahrtage in Kauf nehmt und das höhere Budget (rund {mehrkosten} CHF mehr) passt.",
-      kurz: "Fünf Wochen USA: mit dem Mietwagen von Los Angeles über Las Vegas, Kanab, Monument Valley, Albuquerque und White Sands nach Texas, über San Antonio und New Orleans an den Strand von Destin, nach Orlando und Miami; dann Inlandflug nach Washington und Zug nach New York.",
-      route: "Los Angeles, Las Vegas, Kanab, Monument Valley, Albuquerque, White Sands, (Roswell) Fort Stockton, San Antonio, New Orleans, Destin, Orlando, Miami, (Flug) Washington, (Zug) New York",
+      zusatz: "Roadtrip vom Südwesten über die Golfküste nach Florida, dann Flug nach New York",
+      passt: "Nationalparks, ein grosser Roadtrip, Städte des Südens, Strand in Destin, Key Largo und Miami und zum Schluss New York im Vordergrund stehen, ihr viele Fahrtage in Kauf nehmt und das höhere Budget (rund {mehrkosten} CHF mehr) passt.",
+      kurz: "Fünf Wochen USA: mit dem Mietwagen von Los Angeles über Las Vegas, Kanab, Monument Valley, Albuquerque und White Sands nach Texas, über San Antonio und New Orleans an den Strand von Destin, nach Orlando, Key Largo und Miami; dann Inlandflug nach New York.",
+      route: "Los Angeles, Las Vegas, Kanab, Monument Valley, Albuquerque, White Sands, (Roswell) Fort Stockton, San Antonio, New Orleans, Destin, Orlando, Key Largo, Miami, (Flug) New York",
       stationen: "13 Stationen und 1 Zwischenübernachtung",
-      laender: "USA (Nevada bis Florida, Washington, New York)",
+      laender: "USA (Kalifornien bis Florida, New York)",
       hinflug: "Zürich–Los Angeles ca. 12,25 Std. direkt mit SWISS (im Sommer 2026 täglich ausser Do); Hin- und Rückflug für alle vier ca. 4’000 CHF",
       rueckflug: "Direktflug New York (JFK)–Zürich ca. 7,75–8 Std. (SWISS, täglich) am Mi, 21.07.2027, Ankunft Do, 22.07.2027 am Morgen; zwei Tage Puffer gegen den Jetlag",
-      dazwischen: "Einwegmiete Los Angeles–Miami (ca. 25 Tage), Inlandflug Miami–Washington (ca. 2,5–3 Std.), Amtrak Washington–New York (ca. 3–3,5 Std.)",
-      tempo: "Ca. 55–58 Std. reine Fahrzeit (ca. 5’350 km), realistisch mit Pausen und Stau ca. 63–69 Std. im Auto, an 11 Fahrtagen: San Antonio–New Orleans ca. 8–8,5 Std. (realistisch ca. 9,5–10 Std.), 4 Tage mit 5–7 Std., die übrigen 2,5–5 Std.; dazu ein Inlandflug und ein Zug im Osten.",
-      gesamt: "Ca. 107–114 Std. Tür zu Tür: Bahn Brig-Glis–Zürich Flughafen (ca. 2,5 Std.), Flüge mit Wartezeiten, Einreise und Mietwagen zusammen ca. 31 Std., der Inlandflug nach Washington mit Transfers ca. 7 Std., der Zug nach New York ca. 4 Std. und ca. 63–69 Std. im Auto. Uhr −6 bis −9 Std., Jetlag vor allem nach der Rückkehr.",
-      wetter: "Im Südwesten Ende Juni 38–45 °C, ab Juli Monsungewitter; Texas, die Golfküste und Florida heiss und feucht (ca. 32–33 °C) mit Gewittern am Nachmittag, Hurrikansaison mit Höhepunkt erst ab Mitte August; Washington und New York heiss und schwül.",
+      dazwischen: "Einwegmiete Los Angeles–Miami (ca. 28 Tage), Inlandflug Miami–New York (ca. 3–3,5 Std.)",
+      tempo: "Ca. 57–60 Std. reine Fahrzeit (ca. 5’550 km), realistisch mit Pausen und Stau ca. 64–70 Std. im Auto, an 12 Fahrtagen: San Antonio–New Orleans ca. 8–8,5 Std. (realistisch ca. 9,5–10 Std.), 5 Tage mit 4,5–7 Std., die übrigen 1–5 Std.; dazu ein Inlandflug.",
+      gesamt: "Ca. 104–111 Std. Tür zu Tür: Bahn Brig-Glis–Zürich Flughafen (ca. 2,5 Std.), Flüge mit Wartezeiten, Einreise und Mietwagen zusammen ca. 31 Std., der Inlandflug nach New York mit Transfers ca. 7 Std. und ca. 64–70 Std. im Auto. Uhr −6 bis −9 Std., Jetlag vor allem nach der Rückkehr.",
+      wetter: "Im Südwesten Ende Juni 38–45 °C, ab Juli Monsungewitter; Texas, die Golfküste und Florida heiss und feucht (ca. 32–33 °C) mit Gewittern am Nachmittag, Hurrikansaison mit Höhepunkt erst ab Mitte August; New York heiss und schwül.",
       einreise: "ESTA für alle vier (ca. 40 USD pro Person), Regeln im Wandel. 100 USD Zusatzgebühr pro Person ab 16 Jahren in 11 Nationalparks, auf der Route nur bei den Optionen Zion, Bryce Canyon oder Everglades-Nationalpark (Jahrespass für Nicht-Residenten 250 USD).",
-      hoehepunkte: "Santa Monica und Griffith Observatory in Los Angeles, Las Vegas, rosa Sanddünen bei Kanab, Horseshoe Bend, Monument Valley, Sandia Peak und Meow Wolf, White Sands, UFO-Museum in Roswell, Alamo, New Orleans, weisse Strände bei Destin, Universal und Kennedy Space Center, Everglades, Korallenriff bei Key Largo, Miami Beach, Smithsonian-Museen in Washington, New York.",
-      teens: "Santa Monica Pier und Venice Beach, Sandboarding auf den Dünen bei Kanab und auf White Sands, UFO-Museum, Sumpftour, Raketen im Kennedy Space Center mit Alligatoren, Strand in Destin, Universal, Airboat und Schnorcheln am Riff, Air and Space Museum, New York.",
+      hoehepunkte: "Santa Monica und Griffith Observatory in Los Angeles, Las Vegas, rosa Sanddünen bei Kanab, Horseshoe Bend, Monument Valley, Sandia Peak und Meow Wolf, White Sands, UFO-Museum in Roswell, Alamo, New Orleans, weisse Strände bei Destin, Universal und Kennedy Space Center, Everglades, drei Nächte Key Largo mit Korallenriff, Miami Beach, New York.",
+      teens: "Santa Monica Pier und Venice Beach, Sandboarding auf den Dünen bei Kanab und auf White Sands, UFO-Museum, Sumpftour, Raketen im Kennedy Space Center mit Alligatoren, Strand in Destin, Universal, Airboat und Schnorcheln am Riff, New York.",
       pro: [
         "Monument Valley, Horseshoe Bend, White Sands",
         "Los Angeles, Las Vegas und New York",
         "Universal und Kennedy Space Center",
         "Strand in Santa Monica, Destin und Miami",
-        "Ab Washington ohne Auto"
+        "Drei Nächte Key Largo mit Riff, in New York ohne Auto"
       ],
       contra: [
         "Am teuersten (ca. {plan:usa} CHF)",
@@ -217,7 +217,7 @@ window.START = {
         4,
         "Vier Nächte auf Formentera, dazu Costa Brava, Benidorm, Cabo de Gata, Tarifa, Cádiz, Algarve und San Sebastián; im Juli voll."
       ],
-      usa: [3, "Santa Monica am Pazifik, drei Nächte an den weissen Stränden bei Destin und vier Nächte in Miami mit Miami Beach, Wasser ca. 28–31 °C; dazwischen viele Tage ohne Meer."],
+      usa: [3, "Santa Monica am Pazifik, vier Nächte an den weissen Stränden bei Destin, drei Nächte in Key Largo und drei in Miami mit Miami Beach, Wasser ca. 28–31 °C; dazwischen viele Tage ohne Meer."],
       usaost: [3, "Miami Beach, drei Nächte in Key Largo, Tybee Island, Folly Beach und drei Nächte auf den Outer Banks, Wasser im Süden ca. 28–31 °C; im Norden Badestellen an Seen."],
       usamitte: [1, "Santa Monica am Pazifik, Galveston als Option, Stadtstrände am Michigansee und der Strand am Eriesee bei Cedar Point; kein warmes, klares Meer."],
       asien: [
@@ -231,7 +231,7 @@ window.START = {
         3,
         "Gutes Mittelmeer-Schnorcheln: Meeresschutzgebiet der Medes-Inseln mit grossen Fischen, vier Nächte auf Formentera (Cala Saona, Es Caló, Seegraswiesen mit sehr klarem Wasser) und das Cabo de Gata (Los Escullos, Cala de San Pedro); wenige Korallen, keine Riffe und kühleres Wasser als in den Tropen."
       ],
-      usa: [2, "Ein Tagesausflug von Miami nach Key Largo mit Bootstour zum einzigen Korallenriff an der Festlandküste der USA, dazu die Steinmolen bei Destin; das Riff ist weniger farbig als in Südostasien."],
+      usa: [2, "Drei Nächte in Key Largo mit Bootstour zum einzigen Korallenriff an der Festlandküste der USA, dazu die Steinmolen bei Destin; das Riff ist weniger farbig als in Südostasien."],
       usaost: [2, "Drei Nächte in Key Largo mit Bootstour zum einzigen Korallenriff an der Festlandküste der USA; weniger farbig als in Südostasien."],
       usamitte: [0, "Kein Schnorcheln auf der Route."],
       asien: [
@@ -256,7 +256,7 @@ window.START = {
         5,
         "Barcelona, Valencia, Casablanca, Marrakesch, Fès, Cádiz, Sevilla, Lissabon, Porto, San Sebastián und Carcassonne: europäische und marokkanische Städte im Wechsel."
       ],
-      usa: [5, "Los Angeles, Las Vegas, Albuquerque und Santa Fe, San Antonio, New Orleans, Miami, Washington und New York mit Museen und Aussichtsplattformen."],
+      usa: [5, "Los Angeles, Las Vegas, Albuquerque und Santa Fe, San Antonio, New Orleans, Miami und New York mit Museen und Aussichtsplattformen."],
       usaost: [5, "Miami, Savannah, Charleston, Washington und New York mit Museen und Aussichtsplattformen."],
       usamitte: [5, "Los Angeles, Las Vegas, Albuquerque und Santa Fe, Fort Worth, Houston, New Orleans, Memphis, St. Louis, Chicago und New York."],
       asien: [4, "Singapur, Kuala Lumpur, Penang und Bangkok mit Street-Food und Tempeln."]
@@ -278,7 +278,7 @@ window.START = {
     {
       kriterium: "Budget (mehr Punkte = günstiger)",
       marokko: [4, "ca. {plan:marokko} CHF: kein Flug, Supercharging gratis, Marokko günstig; dafür Fähren und Züge in Marokko sowie Parkplatz in Tarifa."],
-      usa: [1, "ca. {plan:usa} CHF: rund {mehrkosten} CHF mehr, vor allem Einwegmiete, Inlandflug und Unterkünfte in Miami und New York."],
+      usa: [1, "ca. {plan:usa} CHF: rund {mehrkosten} CHF mehr, vor allem Einwegmiete, Inlandflug und Unterkünfte in Destin, Key Largo, Miami und New York."],
       usaost: [1, "ca. {plan:usaost} CHF: vor allem Einwegmiete, Unterkünfte in Miami, Key Largo, Washington und New York und Freizeitparks."],
       usamitte: [1, "ca. {plan:usamitte} CHF: vor allem Einwegmiete, Unterkünfte in Los Angeles, Chicago und New York."],
       asien: [4, "ca. {plan:asien} CHF: Singapur ist teuer, der Rest günstig."]
@@ -289,7 +289,7 @@ window.START = {
         3,
         "Ca. 96–103 Stunden Tür zu Tür, kein Jetlag, in Marokko kein Fahren; aber Wechsel zwischen eigenem Auto, Fähre und Zug, Passkontrollen, ein langer Zugtag Marrakesch–Fès und mehrere Tage mit 7–9 Stunden."
       ],
-      usa: [1, "Ca. 107–114 Stunden Tür zu Tür: zwei Langstreckenflüge mit Einreise und Jetlag, ein Inlandflug, dazu viel Zeit im Auto (ca. 63–69 Stunden an 11 Fahrtagen, ein Tag mit ca. 9,5–10 Stunden und vier mit 5–7 Stunden)."],
+      usa: [1, "Ca. 104–111 Stunden Tür zu Tür: zwei Langstreckenflüge mit Einreise und Jetlag, ein Inlandflug, dazu viel Zeit im Auto (ca. 64–70 Stunden an 12 Fahrtagen, ein Tag mit ca. 9,5–10 Stunden)."],
       usaost: [3, "Ca. 76–82 Stunden Tür zu Tür: zwei Langstreckenflüge mit wenig Zeitverschiebung (−6 Std.); ca. 44–50 Stunden im Auto an 10 Fahrtagen, nur ein Tag mit 7–7,75 Stunden, fast überall drei Nächte."],
       usamitte: [1, "Ca. 108–118 Stunden Tür zu Tür: zwei Langstreckenflüge mit Jetlag (−9 Std.) und die meiste Zeit im Auto (ca. 75–84 Stunden an 15 Fahrtagen, drei Fahrtage hintereinander durch Texas)."],
       asien: [
@@ -303,7 +303,7 @@ window.START = {
         5,
         "Kein Flug: Elektroauto (ca. 1’100 kWh), zwei kurze Fähren, Züge in Marokko (ohne Mietwagen); grob geschätzt ca. 0,1–0,2 t CO₂ pro Person."
       ],
-      usa: [1, "Zwei Langstreckenflüge und ein Inlandflug (zusammen ca. 17’500 km) und ca. 5’350 km Mietwagen, grob geschätzt ca. 3,6 t CO₂ pro Person."],
+      usa: [1, "Zwei Langstreckenflüge und ein Inlandflug (zusammen ca. 17’700 km) und ca. 5’550 km Mietwagen, grob geschätzt ca. 3,7 t CO₂ pro Person."],
       usaost: [1, "Zwei Langstreckenflüge (zusammen ca. 14’400 km) und ca. 3’700 km Mietwagen, grob geschätzt ca. 2,9 t CO₂ pro Person."],
       usamitte: [1, "Zwei Langstreckenflüge (zusammen ca. 15’800 km) und ca. 6’700 km Mietwagen, grob geschätzt ca. 3,6 t CO₂ pro Person."],
       asien: [
