@@ -17,6 +17,28 @@
 .btn { margin-top: auto; align-self: flex-start; background: var(--sea); color: #fff; text-decoration: none; font-weight: 700; padding: 10px 20px; border-radius: 999px; }
 .btn:hover { background: #0B3A41; }
 
+/* Übersicht «Die Reisen»: eine Zeile pro Reise */
+.vlist { display: grid; gap: 10px; }
+.vrow { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 14px 18px; display: grid; gap: 6px 18px; align-items: center;
+  grid-template-columns: minmax(180px, 1.6fr) .7fr .8fr 1.2fr 1.4fr 1.9fr auto; }
+.vname h3 { font-size: 1.1rem; line-height: 1.25; margin: 0; }
+.vname h3 a { color: var(--sea); text-decoration: none; }
+.vname span { display: block; font-size: .8rem; color: var(--muted); margin-top: 2px; }
+.vf { font-size: .88rem; line-height: 1.35; }
+.vf span { display: block; font-size: .7rem; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); }
+.vf b { font-size: 1rem; color: var(--ink); }
+.vrow .btn { margin: 0; align-self: center; padding: 8px 16px; font-size: .9rem; white-space: nowrap; }
+@media (max-width: 1100px) {
+  .vrow { grid-template-columns: 1fr 1fr 1fr; }
+  .vname { grid-column: 1 / -1; }
+  .vf-h { grid-column: span 2; }
+  .vrow .btn { justify-self: start; }
+}
+@media (max-width: 560px) {
+  .vrow { grid-template-columns: 1fr 1fr; padding: 14px; }
+  .vf-a, .vf-u, .vf-h, .vrow .btn { grid-column: 1 / -1; }
+}
+
 .bars { display: grid; gap: 16px; }
 .brow { display: grid; grid-template-columns: 200px 1fr 230px; gap: 14px; align-items: center; background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; }
 .bl b { display: block; }

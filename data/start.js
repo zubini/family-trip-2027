@@ -2,18 +2,19 @@
 // Budgetzahlen kommen automatisch aus den Reisen (data/marokko.js usw.).
 // Platzhalter in Texten: {plan:marokko}, {plan:usa}, {plan:usamitte}, {plan:asien}, {plan:malaysia} = Planwert, {mehrkosten} = USA minus Malaysia / Thailand.
 // Reihenfolge der Reisen hier = Reihenfolge der Spalten; die Navigation folgt der Reihenfolge in index.html.
-// Pro/Contra: je 5 kurze Stichworte. Bewertung: [Punkte 0–5, Text]. Die Punkte und Pro/Contra sind eine Einschätzung und bei Änderungen an den Reisen von Hand anzupassen.
+// steckbrief: kurze Angaben für die Übersicht «Die Reisen». Pro/Contra: je 5 kurze Stichworte. Bewertung: [Punkte 0–5, Text]. Die Punkte und Pro/Contra sind eine Einschätzung und bei Änderungen an den Reisen von Hand anzupassen.
 window.START = {
   titel: "Familienreise 2027",
   zeitraum: "Ab Sa, 19.06.2027, bis spätestens Sa, 24.07.2027, 2 Erwachsene und 2 Kids",
   untertitel: "Verschiedene Reisevarianten als Fahrplan für eine Entscheidung.",
-  reisenIntro: "Alle Reisen beginnen am Sa, 19.06.2027 und sind für die Familie mit Sohn (12) und Tochter (14) geplant. Die Reise mit dem eigenen Auto dauert bis Sa, 24.07.2027 (35 Nächte); die Flugreisen enden schon am Do, 22.07.2027 (32 Nächte; Singapur / Malaysia dauert vier Wochen bis Mo, 19.07.2027), damit zwei Tage gegen den Jetlag bleiben. Ein Klick führt zum vollständigen Fahrplan mit Stationen, Karte und Budget.",
+  reisenIntro: "Alle Reisen beginnen am Sa, 19.06.2027, für die Familie mit Sohn (12) und Tochter (14). Zurück sind die Flugreisen am Do, 22.07.2027 (Singapur / Malaysia schon am Mo, 19.07.), die Autoreise am Sa, 24.07.2027. Ein Klick führt zum vollständigen Plan.",
   bewertungIntro: "Bewertet werden Natur, Dschungelfeeling, Wüstenfeeling, Strand und Baden, Schnorcheln, Abenteuer, Städte, Gesundheit und Sicherheit, Budget, Reisekomfort sowie CO₂ und Umwelt. Fünf Punkte sind die beste Bewertung (beim Budget heisst das: günstig, beim CO₂: wenig Ausstoss). Die Skala ist fest und nicht nur ein Vergleich der Reisen: 5 heisst Weltklasse (z.B. tropische Riffe beim Schnorcheln, kurze Etappen beim Reisekomfort), 0 heisst, dass es das auf der Reise nicht gibt. Die Punkte sind eine Einschätzung auf Basis der Reisepläne, keine Messung.",
   budgetIntro: "Mittelklasse inklusive Flüge bzw. Autokosten, Transport, Unterkunft, Verpflegung und Aktivitäten für 4 Personen. Der dunkle Punkt ist der Planwert, der helle Balken die Spanne.",
   vergleichIntro: "Die wichtigsten Unterschiede nebeneinander.",
   entscheidIntro: "Welche Reise passt, hängt davon ab, ob Strand und Schnorcheln, Städte und Kultur ohne Flug oder Nationalparks und Roadtrip im Vordergrund stehen.",
   reisen: {
     marokko: {
+      steckbrief: {anreise: "Eigenes Auto ab Brig-Glis", unterwegs: "Auto ca. 59 Std., Züge in Marokko ca. 16 Std.", highlights: "Formentera, Marrakesch, Agafay-Wüste, Algarve, Lissabon"},
       name: "Spanien / Portugal / Marokko",
       zusatz: "Roadtrip ab Brig-Glis, Marokko mit Fähre und Zug",
       passt: "ihr ohne Flug reisen, Städte in Spanien und Portugal mit sechs Nächten Marokko (Casablanca, Marrakesch, Agafay-Wüste, Fès) verbinden möchtet und grosse Hitze, viele Reisetage und Wechsel zwischen Auto, Fähre und Zug in Kauf nehmt.",
@@ -46,6 +47,7 @@ window.START = {
       ]
     },
     usa: {
+      steckbrief: {anreise: "Flug nach Los Angeles, ca. 12 Std.", unterwegs: "Mietwagen ca. 64–70 Std., Flug Miami–New York", highlights: "Monument Valley, New Orleans, Kennedy Space Center, Key Largo, New York"},
       name: "USA Süd (Los Angeles – Florida – New York)",
       zusatz: "Roadtrip vom Südwesten über die Golfküste nach Florida, dann Flug nach New York",
       passt: "Nationalparks, ein grosser Roadtrip, Städte des Südens, Strand in Destin, Key Largo und Miami und zum Schluss New York im Vordergrund stehen, ihr viele Fahrtage in Kauf nehmt und das höhere Budget (rund {mehrkosten} CHF mehr) passt.",
@@ -78,6 +80,7 @@ window.START = {
       ]
     },
     usamitte: {
+      steckbrief: {anreise: "Flug nach Los Angeles, ca. 12 Std.", unterwegs: "Mietwagen ca. 75–84 Std.", highlights: "Monument Valley, Space Center Houston, New Orleans, Chicago, Niagara"},
       name: "USA Mitte (Los Angeles – Chicago – New York)",
       zusatz: "Roadtrip ohne Inlandflug: Südwesten, Texas, den Mississippi hinauf, Grosse Seen und New York",
       passt: "ein sehr grosser Roadtrip quer durchs Land im Vordergrund steht, mit Monument Valley, Space Center Houston, New Orleans, Chicago, Niagara und New York, Strand und warmes Meer weniger wichtig sind und ihr die meisten Fahrstunden aller Varianten in Kauf nehmt.",
@@ -110,6 +113,7 @@ window.START = {
       ]
     },
     asien: {
+      steckbrief: {anreise: "Flug nach Singapur, ca. 12–13 Std.", unterwegs: "Bus, Zug und Fähre ca. 65–70 Std.", highlights: "Singapur, Perhentian, Penang, Koh Tao, Bangkok"},
       name: "Malaysia / Thailand",
       zusatz: "von Singapur nach Bangkok",
       passt: "Schnorcheln, tropische Inseln und Strand im Vordergrund stehen und ihr dazu Singapur, Kuala Lumpur, Penang und Bangkok erleben möchtet.",
@@ -142,6 +146,7 @@ window.START = {
       ]
     },
     malaysia: {
+      steckbrief: {anreise: "Flug nach Singapur, ca. 12–13 Std.", unterwegs: "Bus, Transfer und Boot ca. 33–38 Std.", highlights: "Taman Negara, Perhentian, Redang, Tioman, Sentosa"},
       name: "Singapur / Malaysia",
       zusatz: "Vier Wochen ohne Inlandflug: Malakka, Kuala Lumpur, Regenwald und die Inseln der Ostküste",
       passt: "Inseln, Schnorcheln und Dschungel im Vordergrund stehen, die Reise kürzer und ohne Inlandflüge sein soll und ihr Busse, Transfers und Boote in Kauf nehmt.",

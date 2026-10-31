@@ -226,10 +226,15 @@ function einstieg(S, REISEN) {
   };
   var T = keys.map(function (k) { var t = S.reisen[k]; t.k = k; return t; });
 
+  // Übersicht: eine Zeile pro Reise mit kurzen Angaben (steckbrief), untereinander zum Vergleichen
   var karten = liste(T, function (t) {
-    return '<article class="vcard"><div class="vtag">' + t.laender + '</div><h3>' + t.name + '</h3><p class="vsub">' + t.zusatz + '</p><p>' + t.kurz + '</p>' +
-      '<dl><div><dt>Nächte</dt><dd>' + B[t.k].nights + '</dd></div><div><dt>Budget (Plan)</dt><dd>' + chf(B[t.k].plan) + ' CHF</dd></div><div><dt>Hinreise</dt><dd>' + t.hinflug + '</dd></div><div><dt>Rückreise</dt><dd>' + t.rueckflug + '</dd></div></dl>' +
-      '<p class="vhl">' + t.hoehepunkte + '</p><a class="btn" href="#' + t.k + '">Zur Reise</a></article>';
+    var s = t.steckbrief || {}, bis = (B[t.k].zeit.match(/bis \w+, (\d+)\.(\d+)\./) || []);
+    var feld = function (c, l, v) { return '<div class="vf ' + c + '"><span>' + l + '</span>' + v + '</div>'; };
+    return '<article class="vrow"><div class="vname"><h3><a href="#' + t.k + '">' + t.name + '</a></h3><span>' + t.zusatz + '</span></div>' +
+      feld('vf-n', 'Nächte', '<b>' + B[t.k].nights + '</b>' + (bis[1] ? ' bis ' + (+bis[1]) + '.' + (+bis[2]) + '.' : '')) +
+      feld('vf-b', 'Budget', '<b>' + chf(B[t.k].plan) + ' CHF</b>') +
+      feld('vf-a', 'Anreise', s.anreise || t.hinflug) + feld('vf-u', 'Unterwegs', s.unterwegs || t.dazwischen) + feld('vf-h', 'Höhepunkte', s.highlights || t.hoehepunkte) +
+      '<a class="btn" href="#' + t.k + '">Zur Reise</a></article>';
   });
 
   var mx = Math.max.apply(null, keys.map(function (k) { return B[k].hi; }));
@@ -280,7 +285,7 @@ function einstieg(S, REISEN) {
     '</div></header>' +
     '<main>' +
     '<section id="start-reisen"><div class="wrap"><h2>Die Reisen</h2><p class="intro">' + S.reisenIntro + '</p>' +
-    '<div class="vgrid' + (T.length === 3 ? ' n3' : '') + '">' + karten + '</div></div></section>' +
+    '<div class="vlist">' + karten + '</div></div></section>' +
     '<section id="start-bewertung" style="padding-top:0"><div class="wrap"><h2>Bewertung nach euren Wünschen</h2><p class="intro">' + S.bewertungIntro + '</p>' +
     '<div class="cmpwrap">' + bewertung + '</div></div></section>' +
     '<section id="start-budget" style="padding-top:0"><div class="wrap"><h2>Budget im Vergleich</h2><p class="intro">' + S.budgetIntro + '</p>' +
