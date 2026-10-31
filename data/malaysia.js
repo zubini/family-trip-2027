@@ -1,18 +1,18 @@
-// Reise: Singapur, Malaysia (Tioman, Cherating, Taman Negara, Perhentian, Redang, Kuala Lumpur) und Bangkok, vier Wochen
+// Reise: Singapur, Malaysia (Tioman, Cherating, Taman Negara, Perhentian, Redang, Kuala Lumpur) und Bangkok, fünf Wochen
 // Daten in "datum" ohne Wochentag schreiben (z.B. "19.–22. Juni"), die Wochentage rechnet js/app.js aus.
 // Texte dürfen einfaches HTML enthalten (<b>, <strong>, <i>).
 window.REISEN = window.REISEN || {};
 REISEN.malaysia = {
   titel: "Singapur, Malaysia und Bangkok: Dschungel und Inseln an der Ostküste",
   menu: "Singapur / Malaysia / Bangkok",
-  untertitel: "Vier Wochen: Singapur, die Dschungelinsel Tioman, das Surfdorf Cherating, der Regenwald von Taman Negara und die Inseln Perhentian und Redang, dann nach Kuala Lumpur und zum Schluss mit dem Flugzeug nach Bangkok.",
-  zeitraum: "Sa, 19.06.2027 bis So, 18.07.2027, 2 Erwachsene und 2 Kids",
+  untertitel: "Fünf Wochen: Singapur, die Dschungelinsel Tioman, das Surfdorf Cherating, der Regenwald von Taman Negara und die Inseln Perhentian und Redang, dann nach Kuala Lumpur und zum Schluss mit dem Flugzeug nach Bangkok.",
+  zeitraum: "Sa, 19.06.2027 bis Do, 22.07.2027, 2 Erwachsene und 2 Kids",
   titelbild: {
     suche: "Perhentian Islands|Redang Island",
     stichwort: "perhentian|redang",
     alt: "Perhentian-Inseln, Malaysia"
   },
-  planIntro: "Abflug ab Zürich nach Singapur am Sa, 19.06.2027 am Abend, Rückflug ab Bangkok am So, 18.07.2027 um die Mittagszeit (Ankunft am Abend). 28 Nächte im Land, dazu eine Nacht im Flugzeug. Dazwischen Busse, private Transfers, Fähren und Boote, am Schluss ein kurzer Flug nach Bangkok. Ein Klick auf eine Station springt zur Beschreibung.",
+  planIntro: "Abflug ab Zürich nach Singapur am Sa, 19.06.2027 am Abend, Rückflug ab Bangkok am Do, 22.07.2027 um die Mittagszeit (Ankunft am Abend). 32 Nächte im Land, dazu eine Nacht im Flugzeug. Dazwischen Busse, private Transfers, Fähren und Boote, am Schluss ein kurzer Flug nach Bangkok. Ein Klick auf eine Station springt zur Beschreibung.",
   hinflug: {
     datum: "19.–20. Juni",
     name: "Flug Zürich–Singapur",
@@ -26,46 +26,46 @@ REISEN.malaysia = {
       info: "Flug ab Zürich (Sa, ca. 22.40 Uhr), Ankunft am So am späten Nachmittag"
     },
     {
-      datum: "23.–27. Juni",
+      datum: "23.–28. Juni",
       name: "2. Pulau Tioman",
-      naechte: 4,
+      naechte: 5,
       info: "Fernbus (ca. 3,5–4 Std. mit Grenze), Fähre (ca. 1,5–2 Std.)"
     },
-    {datum: "27.–30. Juni", name: "3. Cherating", naechte: 3, info: "Fähre (ca. 1,5–2 Std.), Auto (ca. 3–3,5 Std.)"},
-    {datum: "30. Juni–3. Juli", name: "4. Taman Negara", naechte: 3, info: "Privater Transfer (ca. 3,5–4 Std.)"},
+    {datum: "28. Juni–2. Juli", name: "3. Cherating", naechte: 4, info: "Fähre (ca. 1,5–2 Std.), Auto (ca. 3–3,5 Std.)"},
+    {datum: "2.–5. Juli", name: "4. Taman Negara", naechte: 3, info: "Privater Transfer (ca. 3,5–4 Std.)"},
     {
-      datum: "3.–8. Juli",
+      datum: "5.–10. Juli",
       name: "5. Perhentian Islands",
       naechte: 5,
       info: "Privater Transfer (ca. 5–5,5 Std.), Speedboot (ca. 30–45 Min.)"
     },
-    {datum: "8.–11. Juli", name: "6. Pulau Redang", naechte: 3, info: "Speedboot, Auto und Boot (ca. 2,5–3 Std.)"},
+    {datum: "10.–14. Juli", name: "6. Pulau Redang", naechte: 4, info: "Speedboot, Auto und Boot (ca. 2,5–3 Std.)"},
     {
-      datum: "11.–14. Juli",
+      datum: "14.–17. Juli",
       name: "7. Kuala Lumpur",
       naechte: 3,
       info: "Boot (ca. 45 Min.), privater Transfer (ca. 5–5,5 Std.)"
     },
     {
-      datum: "14.–18. Juli",
+      datum: "17.–22. Juli",
       name: "8. Bangkok",
-      naechte: 4,
-      info: "Flug Kuala Lumpur–Bangkok (ca. 2–2,25 Std.), Uhr −1 Std.; Rückflug 18. Juli"
+      naechte: 5,
+      info: "Flug Kuala Lumpur–Bangkok (ca. 2–2,25 Std.), Uhr −1 Std.; Rückflug 22. Juli"
     }
   ],
   rueckflug: {
-    datum: "18. Juli",
+    datum: "22. Juli",
     name: "Flug Bangkok–Zürich",
-    info: "Direktflug mit SWISS am So, 18.07.2027 um die Mittagszeit, ca. 11,5–12 Std., Ankunft in Zürich am Abend"
+    info: "Direktflug mit SWISS am Do, 22.07.2027 um die Mittagszeit, ca. 11,5–12 Std., Ankunft in Zürich am Abend"
   },
   planHinweise: [
     [
       "Gesamt",
-      "28 Nächte im Land, 8 Stationen. Fernbus Singapur–Mersing (ca. 3,5–4 Std.), private Transfers (Mersing–Cherating ca. 3–3,5 Std., Cherating–Taman Negara ca. 3,5–4 Std., Taman Negara–Kuala Besut ca. 5–5,5 Std., Merang–Kuala Lumpur ca. 5–5,5 Std.), Boote (zusammen ca. 5–6 Std.) und ein kurzer Flug Kuala Lumpur–Bangkok (ca. 2–2,25 Std.). Der längste Reisetag ist Taman Negara–Perhentian mit ca. 6–7 Std. Niemand muss selber fahren."
+      "32 Nächte im Land, 8 Stationen. Fernbus Singapur–Mersing (ca. 3,5–4 Std.), private Transfers (Mersing–Cherating ca. 3–3,5 Std., Cherating–Taman Negara ca. 3,5–4 Std., Taman Negara–Kuala Besut ca. 5–5,5 Std., Merang–Kuala Lumpur ca. 5–5,5 Std.), Boote (zusammen ca. 5–6 Std.) und ein kurzer Flug Kuala Lumpur–Bangkok (ca. 2–2,25 Std.). Der längste Reisetag ist Taman Negara–Perhentian mit ca. 6–7 Std. Niemand muss selber fahren."
     ],
     [
       "Flug ab und nach Zürich",
-      "Hinflug: Zürich–Singapur mit SWISS als Direktflug ca. 12–13 Std. am Sa, 19.06.2027 am späten Abend (Ankunft So am Nachmittag, Zeitverschiebung +6 Std.). Rückflug: Bangkok–Zürich mit SWISS als Direktflug ca. 11,5–12 Std. am So, 18.07.2027 um die Mittagszeit, Ankunft am Abend. Ein Gabelflug (hin nach Singapur, zurück ab Bangkok); Flugpläne 2027 bei der Buchung prüfen."
+      "Hinflug: Zürich–Singapur mit SWISS als Direktflug ca. 12–13 Std. am Sa, 19.06.2027 am späten Abend (Ankunft So am Nachmittag, Zeitverschiebung +6 Std.). Rückflug: Bangkok–Zürich mit SWISS als Direktflug ca. 11,5–12 Std. am Do, 22.07.2027 um die Mittagszeit, Ankunft am Abend. Ein Gabelflug (hin nach Singapur, zurück ab Bangkok); Flugpläne 2027 bei der Buchung prüfen."
     ],
     [
       "Wetter",
@@ -104,7 +104,7 @@ REISEN.malaysia = {
       "Städte und Kultur",
       "Singapur, Kuala Lumpur mit Petronas Towers und Batu Caves, Bangkok mit Grand Palace, Wat Pho und Ayutthaya, Orang-Asli-Dorf, malaiische Dörfer an der Ostküste."
     ],
-    ["Ruhetage", "Überall 3–5 Nächte; die Perhentians haben 5, Tioman und Bangkok je 4 Nächte."]
+    ["Ruhetage", "Überall 3–5 Nächte; Tioman, die Perhentians und Bangkok haben je 5 Nächte."]
   ],
   stationenIntro: "Acht Stationen von Singapur der Ostküste Malaysias entlang nach Norden, dann über Kuala Lumpur nach Bangkok. Über jeder Station steht, wie ihr dorthin kommt.",
   stationen: [
@@ -142,13 +142,13 @@ REISEN.malaysia = {
       name: "Pulau Tioman",
       land: "my",
       region: "Malaysia",
-      datum: "23.–27. Juni",
-      naechte: "4 Nächte",
+      datum: "23.–28. Juni",
+      naechte: "5 Nächte",
       anreise: "Fernbus von Singapur nach Mersing (ca. 3,5–4 Std. mit Grenzkontrolle; je nach Anbieter Halt direkt am Hafen), dann Fähre nach Tioman (ca. 1,5–2 Std.; nur wenige Fähren pro Tag, abhängig von den Gezeiten). Früh am Morgen starten, Bus und Fähre vorab buchen.",
       text: "Grüne Dschungelinsel vor der Ostküste mit Korallenriffen, Wasserfällen und kleinen Dörfern ohne Autoverkehr; ein ruhiger Einstieg nach Singapur.",
       teens: "Schnorcheltour zu den vorgelagerten Inseln (Pulau Tulai, Chebeh, Renggis), Dschungel-Wanderung quer über die Insel (Tekek–Juara, ca. 2–3 Std.), Wasserfälle, Kajak und Strandtage.",
       fakten: [
-        "<strong>Dauer:</strong> 4 Nächte. Basis z.B. an der ruhigen Westseite (Salang, Air Batang) oder in Juara im Osten: eine Schnorcheltour zu den vorgelagerten Inseln, eine Dschungel-Wanderung, Strandtage.",
+        "<strong>Dauer:</strong> 5 Nächte. Basis z.B. an der ruhigen Westseite (Salang, Air Batang) oder in Juara im Osten: eine Schnorcheltour zu den vorgelagerten Inseln, eine Dschungel-Wanderung zum Wasserfall, Kajak und Strandtage.",
         "<strong>Praktisch:</strong> Die Fähre fährt nur wenige Male pro Tag zu festen Zeiten, vorab Ticket buchen und rechtzeitig am Hafen sein (Mersing Jetty oder Tanjung Gemok). Bargeld mitnehmen, Geldautomaten sind selten. Die Insel ist zollfrei.",
         "<strong>Kultur:</strong> Pahang ist überwiegend muslimisch; ausserhalb der Strände Schultern und Knie bedecken."
       ],
@@ -167,13 +167,13 @@ REISEN.malaysia = {
       name: "Cherating",
       land: "my",
       region: "Malaysia",
-      datum: "27.–30. Juni",
-      naechte: "3 Nächte",
+      datum: "28. Juni–2. Juli",
+      naechte: "4 Nächte",
       anreise: "Fähre von Tioman nach Mersing (ca. 1,5–2 Std., am Morgen), mit dem Auto über Rompin, Pekan und Kuantan nach Cherating (ca. 3–3,5 Std.).",
       text: "Entspanntes Strand- und Surfdorf an der Ostküste: lange Strände, Mangrovenfluss mit Glühwürmchen und eine Station für Meeresschildkröten.",
       teens: "Glühwürmchen-Bootsfahrt auf dem Cherating-Fluss am Abend, Surfkurs für Anfänger, Schildkröten-Station in Chendor, Kajak in den Mangroven, Batik-Kurs.",
       fakten: [
-        "<strong>Dauer:</strong> 3 Nächte: ein Surfkurs, eine Glühwürmchen-Tour (ca. 1 Std. ab ca. 19.30 Uhr, ca. 15–25 CHF pro Person), Strand und Pool.",
+        "<strong>Dauer:</strong> 4 Nächte: ein Surfkurs, eine Glühwürmchen-Tour (ca. 1 Std. ab ca. 19.30 Uhr, ca. 15–25 CHF pro Person), ein Abend bei der Schildkröten-Station, Strand und Pool.",
         "<strong>Baden:</strong> Im Juli eher ruhige See; auf Strömungen achten, Surfkurse nur bei passender Welle."
       ],
       ausserdem: "Schildkröten-Station Chendor (am besten am Abend), Kuantan mit Teluk Cempedak, Sungai Lembing (alte Minenstadt, Hängebrücke).",
@@ -191,7 +191,7 @@ REISEN.malaysia = {
       name: "Taman Negara",
       land: "my",
       region: "Malaysia",
-      datum: "30. Juni–3. Juli",
+      datum: "2.–5. Juli",
       naechte: "3 Nächte",
       anreise: "Mit privatem Transfer von Cherating über Kuantan und Jerantut nach Kuala Tahan am Rand des Nationalparks (ca. 3,5–4 Std.).",
       text: "Einer der ältesten Regenwälder der Welt: Dschungelpfade, Hängebrücken in den Baumkronen, Flüsse mit Stromschnellen und ein Dorf der Orang Asli.",
@@ -216,7 +216,7 @@ REISEN.malaysia = {
       name: "Perhentian Islands",
       land: "my",
       region: "Malaysia",
-      datum: "3.–8. Juli",
+      datum: "5.–10. Juli",
       naechte: "5 Nächte",
       anreise: "Mit privatem Transfer von Kuala Tahan über Gua Musang nach Kuala Besut (ca. 5–5,5 Std.; mit dem Minivan oft 6–8 Std.), dann Speedboot zu den Inseln (ca. 30–45 Min., letzte Boote am späten Nachmittag). Früh losfahren.",
       text: "Zwei autofreie Inseln an der Ostküste mit glasklarem Wasser, weissen Stränden und Schildkröten. Juni liegt mitten in der Saison (ca. März bis Oktober); der Monsun an der Ostküste beginnt erst im November.",
@@ -245,13 +245,13 @@ REISEN.malaysia = {
       name: "Pulau Redang",
       land: "my",
       region: "Malaysia",
-      datum: "8.–11. Juli",
-      naechte: "3 Nächte",
+      datum: "10.–14. Juli",
+      naechte: "4 Nächte",
       anreise: "Speedboot nach Kuala Besut (ca. 30–45 Min.), mit dem Auto nach Merang (ca. 1–1,25 Std.), Boot nach Redang (ca. 45 Min.). Viele Resorts bieten Pakete mit Transfer, Essen und Schnorcheln.",
       text: "Die Insel mit dem klarsten Wasser der Ostküste: weisse Strände, Korallengärten direkt vor dem Strand und eine Schildkröten-Station.",
       teens: "Schnorcheln im Marine Park um Pulau Pinang, Schildkröten und Riffhaie, Schildkröten-Station Chagar Hutang (Eiablage nachts, nur mit Führung), Kajak und Stand-up-Paddle.",
       fakten: [
-        "<strong>Dauer:</strong> 3 Nächte: Schnorcheltouren im Marine Park, Strand, am Abend evtl. Führung zu den Schildkröten.",
+        "<strong>Dauer:</strong> 4 Nächte: Schnorcheltouren im Marine Park, Strand und Kajak, am Abend evtl. Führung zu den Schildkröten.",
         "<strong>Gebühren:</strong> Marine-Park-Gebühr für Ausländer 2026 ca. 30 MYR pro Erwachsenem und 15 MYR pro Kind, bar am Steg; Boot ab Merang ca. 55–100 MYR hin und zurück pro Person, oft im Resortpaket.",
         "<strong>Unterkunft:</strong> Meist Resorts mit Vollpension; im Juli früh buchen."
       ],
@@ -270,7 +270,7 @@ REISEN.malaysia = {
       name: "Kuala Lumpur",
       land: "my",
       region: "Malaysia",
-      datum: "11.–14. Juli",
+      datum: "14.–17. Juli",
       naechte: "3 Nächte",
       anreise: "Boot von Redang nach Merang (ca. 45 Min.), dann mit privatem Transfer über den East Coast Expressway nach Kuala Lumpur (ca. 5–5,5 Std., ca. 450 km; mit dem Fernbus ab Kuala Terengganu ca. 6–7 Std.).",
       text: "Malaysias Hauptstadt bietet Wolkenkratzer, Aquarium, Parks und Wasserspass. Gute Infrastruktur und günstige Preise.",
@@ -305,13 +305,13 @@ REISEN.malaysia = {
       name: "Bangkok",
       land: "th",
       region: "Thailand",
-      datum: "14.–18. Juli",
-      naechte: "4 Nächte, Rückflug 18. Juli",
-      anreise: "Flug Kuala Lumpur–Bangkok (ca. 2–2,25 Std., viele Flüge pro Tag; Ankunft in Suvarnabhumi oder Don Mueang), in Thailand springt die Uhr −1 Std. In die Stadt mit Airport Rail Link, Taxi oder Grab (ca. 45–60 Min.). Rückflug Bangkok–Zürich mit SWISS am So, 18.07.2027 um die Mittagszeit (ca. 11,5–12 Std.), Ankunft in Zürich am Abend.",
+      datum: "17.–22. Juli",
+      naechte: "5 Nächte, Rückflug 22. Juli",
+      anreise: "Flug Kuala Lumpur–Bangkok (ca. 2–2,25 Std., viele Flüge pro Tag; Ankunft in Suvarnabhumi oder Don Mueang), in Thailand springt die Uhr −1 Std. In die Stadt mit Airport Rail Link, Taxi oder Grab (ca. 45–60 Min.). Rückflug Bangkok–Zürich mit SWISS am Do, 22.07.2027 um die Mittagszeit (ca. 11,5–12 Std.), Ankunft in Zürich am Abend.",
       text: "Vielfältiges Finale: Tempel, Flussfahrten, Aquarium und Nachtmärkte, bevor es nach Hause geht.",
       teens: "SEA LIFE Bangkok Ocean World (Siam Paragon), Safari World (nur bei genug Zeit), Khlong-Bootsfahrt, Tempelbesichtigung in Ayutthaya.",
       fakten: [
-        "<strong>Dauer:</strong> 4 Nächte: ein Tag Grand Palace, Wat Pho und Wat Arun mit dem Boot auf dem Chao Phraya, ein Tag Ayutthaya (Tempelruinen, ca. 1,5 Std.), ein Tag SEA LIFE oder Safari World, am Abend Märkte. Der Rückflug geht um die Mittagszeit: am Abreisetag früh zum Flughafen.",
+        "<strong>Dauer:</strong> 5 Nächte: ein Tag Grand Palace, Wat Pho und Wat Arun mit dem Boot auf dem Chao Phraya, ein Tag Ayutthaya (Tempelruinen, ca. 1,5 Std.), ein Tag SEA LIFE oder Safari World, ein Morgen schwimmender Markt, am Abend Nachtmärkte. Der Rückflug geht um die Mittagszeit: am Abreisetag früh zum Flughafen.",
         "<strong>Dresscode:</strong> Grand Palace und Wat Pho verlangen bedeckte Schultern und lange Hosen/Röcke, auch für die Teenager.",
         "<strong>Juli:</strong> Regenzeit, nachmittags kurze Schauer. Indoor-Alternativen (Aquarium, Museen, Malls) einplanen.",
         "<strong>Mitmachen:</strong> Muay-Thai-Schnupperkurs, Tuk-Tuk-Food-Tour am Abend, Escape Rooms in den Einkaufszentren."
@@ -339,7 +339,7 @@ REISEN.malaysia = {
       ]
     }
   ],
-  abschluss: "Direktflug ab Bangkok nach Zürich am So, 18.07.2027 um die Mittagszeit (ca. 11,5–12 Std.), Ankunft am Abend, dann mit der Bahn nach Brig-Glis. Bis zum Ferienende bleibt fast eine Woche zum Ankommen.",
+  abschluss: "Direktflug ab Bangkok nach Zürich am Do, 22.07.2027 um die Mittagszeit (ca. 11,5–12 Std.), Ankunft am Abend, dann mit der Bahn nach Brig-Glis. Bis zum Ferienende bleiben zwei Tage gegen den Jetlag.",
   budgetIntro: "Mittelklasse inklusive Flüge, Busse, Transfers, Boote, Unterkunft, Verpflegung und Aktivitäten. Alle Beträge sind Schätzungen in CHF.",
   budget: {
     posten: [
@@ -358,20 +358,20 @@ REISEN.malaysia = {
       ],
       [
         "Unterkunft (Familienzimmer oder 2 Zimmer, 3–4 Sterne)",
-        "3’000–4’600",
-        "3’700",
+        "3’300–5’100",
+        "4’150",
         "ca. 90–150 CHF pro Nacht in Malaysia und Bangkok, in Singapur ca. 250–300; Redang meist als Resortpaket"
       ],
       [
         "Verpflegung (Hawker, Restaurants, Getränke)",
-        "1’900–3’100",
-        "2’400",
+        "2’200–3’500",
+        "2’750",
         "ca. 70–90 CHF pro Tag für 4 Personen in Malaysia, in Singapur mehr"
       ],
       [
         "Aktivitäten und Eintritte",
-        "1’800–2’900",
-        "2’300",
+        "1’900–3’100",
+        "2’400",
         "Gardens by the Bay, Universal Studios Singapore, Schnorcheltouren und Marine-Park-Gebühren, Surfkurs, Glühwürmchen-Tour, Taman Negara mit Führer, Petronas-Skybridge, Sunway Lagoon, Grand Palace, Ayutthaya, SEA LIFE oder Safari World usw."
       ],
       [
@@ -380,27 +380,27 @@ REISEN.malaysia = {
         "800",
         "Reisekranken- und Annullationsschutz, Impfungen (z.B. Hepatitis A), Mückenschutz"
       ],
-      ["Reserve (ca. 5 %)", "650–1’000", "800", "Souvenirs, Wäsche, Unvorhergesehenes"]
+      ["Reserve (ca. 5 %)", "700–1’050", "850", "Souvenirs, Wäsche, Unvorhergesehenes"]
     ],
     stationen: [
       ["1. Singapur (3)", "1’790–2’830"],
-      ["2. Pulau Tioman (4)", "640–1’020"],
-      ["3. Cherating (3)", "560–880"],
+      ["2. Pulau Tioman (5)", "800–1’260"],
+      ["3. Cherating (4)", "710–1’120"],
       ["4. Taman Negara (3)", "610–960"],
       ["5. Perhentian Islands (5)", "980–1’550"],
-      ["6. Pulau Redang (3)", "640–1’020"],
+      ["6. Pulau Redang (4)", "840–1’340"],
       ["7. Kuala Lumpur (3)", "710–1’130"],
-      ["8. Bangkok (4)", "970–1’530"]
+      ["8. Bangkok (5)", "1’210–1’920"]
     ],
     hinweise: [
       "Preise für die Kids: Der Sohn (12) und die Tochter (14) zahlen in Singapur teils noch Kinderpreise (bis 12), in Malaysia und Thailand oft Kinderpreise oder günstige Eintritte.",
       "Sparhebel: Busse statt privater Transfers, Hawker und lokale Restaurants, einfache Chalets auf den Inseln, Resortpakete auf Redang vergleichen.",
       "Alle Beträge sind Richtwerte in CHF (Schätzungen, nicht verbindlich). Flug- und Hotelpreise im Juli schwanken stark; aktuelle Preise vor der Buchung vergleichen."
     ],
-    naechte: 28,
-    total: "16’850",
-    spanne: "13’700–20’900",
-    proTag: "ca. 600 CHF pro Tag, ca. 4’200 pro Person"
+    naechte: 32,
+    total: "17’800",
+    spanne: "14’400–22’000",
+    proTag: "ca. 560 CHF pro Tag, ca. 4’500 pro Person"
   },
   tippsIntro: "Einreise, Gesundheit, Sicherheit und Praktisches für die Reise mit 2 Erwachsenen und 2 Kids.",
   tipps: [

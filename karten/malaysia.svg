@@ -74,19 +74,19 @@
 <polyline points="281.7,1034.4 173.2,59.7" fill="none" stroke="#7A5CC7" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 7"><title>Flug: Kuala Lumpur – Bangkok</title></polyline>
 <g><title>1. Singapur: So, 20.06.2027 – Mi, 23.06.2027, 3 Nächte</title><circle cx="475.9" cy="1198.8" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="475.9" y="1203.0" text-anchor="middle">1</text></g>
 <text class="sl" x="458.9" y="1203.8" text-anchor="end">Singapur</text>
-<g><title>2. Pulau Tioman: Mi, 23.06.2027 – So, 27.06.2027, 4 Nächte</title><circle cx="507.9" cy="1063.8" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="507.9" y="1068.0" text-anchor="middle">2</text></g>
+<g><title>2. Pulau Tioman: Mi, 23.06.2027 – Mo, 28.06.2027, 5 Nächte</title><circle cx="507.9" cy="1063.8" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="507.9" y="1068.0" text-anchor="middle">2</text></g>
 <text class="sl" x="524.9" y="1068.8" text-anchor="start">Pulau Tioman</text>
-<g><title>3. Cherating: So, 27.06.2027 – Mi, 30.06.2027, 3 Nächte</title><circle cx="436.7" cy="943.4" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="436.7" y="947.6" text-anchor="middle">3</text></g>
+<g><title>3. Cherating: Mo, 28.06.2027 – Fr, 02.07.2027, 4 Nächte</title><circle cx="436.7" cy="943.4" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="436.7" y="947.6" text-anchor="middle">3</text></g>
 <text class="sl" x="453.7" y="948.4" text-anchor="start">Cherating</text>
-<g><title>4. Taman Negara: Mi, 30.06.2027 – Sa, 03.07.2027, 3 Nächte</title><circle cx="346.5" cy="920.4" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="346.5" y="924.6" text-anchor="middle">4</text></g>
+<g><title>4. Taman Negara: Fr, 02.07.2027 – Mo, 05.07.2027, 3 Nächte</title><circle cx="346.5" cy="920.4" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="346.5" y="924.6" text-anchor="middle">4</text></g>
 <text class="sl" x="329.5" y="925.4" text-anchor="end">Taman Negara</text>
-<g><title>5. Perhentian Islands: Sa, 03.07.2027 – Do, 08.07.2027, 5 Nächte</title><circle cx="377.5" cy="779.9" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="377.5" y="784.1" text-anchor="middle">5</text></g>
+<g><title>5. Perhentian Islands: Mo, 05.07.2027 – Sa, 10.07.2027, 5 Nächte</title><circle cx="377.5" cy="779.9" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="377.5" y="784.1" text-anchor="middle">5</text></g>
 <text class="sl" x="377.5" y="761.9" text-anchor="middle">Perhentian Islands</text>
-<g><title>6. Pulau Redang: Do, 08.07.2027 – So, 11.07.2027, 3 Nächte</title><circle cx="402.1" cy="791.8" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="402.1" y="796.0" text-anchor="middle">6</text></g>
+<g><title>6. Pulau Redang: Sa, 10.07.2027 – Mi, 14.07.2027, 4 Nächte</title><circle cx="402.1" cy="791.8" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="402.1" y="796.0" text-anchor="middle">6</text></g>
 <text class="sl" x="419.1" y="796.8" text-anchor="start">Pulau Redang</text>
-<g><title>7. Kuala Lumpur: So, 11.07.2027 – Mi, 14.07.2027, 3 Nächte</title><circle cx="281.7" cy="1034.4" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="281.7" y="1038.6" text-anchor="middle">7</text></g>
+<g><title>7. Kuala Lumpur: Mi, 14.07.2027 – Sa, 17.07.2027, 3 Nächte</title><circle cx="281.7" cy="1034.4" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="281.7" y="1038.6" text-anchor="middle">7</text></g>
 <text class="sl" x="264.7" y="1039.4" text-anchor="end">Kuala Lumpur</text>
-<g><title>8. Bangkok: Mi, 14.07.2027 – So, 18.07.2027, 4 Nächte</title><circle cx="173.2" cy="59.7" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="173.2" y="63.9" text-anchor="middle">8</text></g>
+<g><title>8. Bangkok: Sa, 17.07.2027 – Do, 22.07.2027, 5 Nächte</title><circle cx="173.2" cy="59.7" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="173.2" y="63.9" text-anchor="middle">8</text></g>
 <text class="sl" x="190.2" y="64.7" text-anchor="start">Bangkok</text>
 <text class="fl" x="401.2" y="1221.8" text-anchor="end">Ankunft aus Zürich ✈</text>
 <text class="fl" x="191.5" y="23.0" text-anchor="start">Rückflug nach Zürich ✈</text>
