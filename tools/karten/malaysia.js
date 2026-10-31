@@ -5,7 +5,7 @@ const orte = {
 };
 module.exports = {
   reise: 'malaysia', orte,
-  titel: 'Karte der Reiseroute von Singapur der Ostküste Malaysias entlang nach Norden, über Kuala Lumpur nach Bangkok',
+  titel: 'Karte der Reiseroute von Singapur der Ostküste Malaysias entlang nach Norden, nach Kuala Lumpur und mit dem Flugzeug nach Bangkok',
   projektion: 'eq', parallel: 7, laenge: [98.6, 105.4], breitengrad: [0.95, 14.4], breite: 620,
   laender: ['SGP', 'MYS', 'THA'],
   wege: [
@@ -17,7 +17,7 @@ module.exports = {
     ['ferry', 'Kuala Besut – Perhentian', ['KBS', 'PER']],
     ['car', 'Kuala Besut – Merang', ['KBS', [5.65, 102.80], 'MER']],
     ['ferry', 'Merang – Redang', ['MER', 'RED']],
-    ['air', 'Kuala Terengganu – Kuala Lumpur', ['TGG', 'KL']],
+    ['car', 'Merang – Kuala Terengganu – Kuala Lumpur (East Coast Expressway)', ['MER', 'TGG', [4.75, 103.15], [3.95, 102.95], [3.55, 102.20], 'KL']],
     ['air', 'Kuala Lumpur – Bangkok', ['KL', 'BKK']]
   ],
   stationen: [[1, 'SG', 'l'], [2, 'TI', 'r'], [3, 'CHE', 'r'], [4, 'KTH', 'l'], [5, 'PER', 'u'], [6, 'RED', 'r'], [7, 'KL', 'l'], [8, 'BKK', 'r']],

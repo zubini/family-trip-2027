@@ -5,14 +5,14 @@ window.REISEN = window.REISEN || {};
 REISEN.malaysia = {
   titel: "Singapur, Malaysia und Bangkok: Dschungel und Inseln an der Ostküste",
   menu: "Singapur / Malaysia / Bangkok",
-  untertitel: "Vier Wochen: Singapur, die Dschungelinsel Tioman, das Surfdorf Cherating, der Regenwald von Taman Negara und die Inseln Perhentian und Redang, dann mit dem Flugzeug nach Kuala Lumpur und zum Schluss nach Bangkok.",
+  untertitel: "Vier Wochen: Singapur, die Dschungelinsel Tioman, das Surfdorf Cherating, der Regenwald von Taman Negara und die Inseln Perhentian und Redang, dann nach Kuala Lumpur und zum Schluss mit dem Flugzeug nach Bangkok.",
   zeitraum: "Sa, 19.06.2027 bis So, 18.07.2027, 2 Erwachsene und 2 Kids",
   titelbild: {
     suche: "Perhentian Islands|Redang Island",
     stichwort: "perhentian|redang",
     alt: "Perhentian-Inseln, Malaysia"
   },
-  planIntro: "Abflug ab Zürich nach Singapur am Sa, 19.06.2027 am Abend, Rückflug ab Bangkok am So, 18.07.2027 um die Mittagszeit (Ankunft am Abend). 28 Nächte im Land, dazu eine Nacht im Flugzeug. Dazwischen Busse, private Transfers, Fähren und Boote, am Schluss zwei kurze Flüge. Ein Klick auf eine Station springt zur Beschreibung.",
+  planIntro: "Abflug ab Zürich nach Singapur am Sa, 19.06.2027 am Abend, Rückflug ab Bangkok am So, 18.07.2027 um die Mittagszeit (Ankunft am Abend). 28 Nächte im Land, dazu eine Nacht im Flugzeug. Dazwischen Busse, private Transfers, Fähren und Boote, am Schluss ein kurzer Flug nach Bangkok. Ein Klick auf eine Station springt zur Beschreibung.",
   hinflug: {
     datum: "19.–20. Juni",
     name: "Flug Zürich–Singapur",
@@ -44,7 +44,7 @@ REISEN.malaysia = {
       datum: "11.–14. Juli",
       name: "7. Kuala Lumpur",
       naechte: 3,
-      info: "Boot und Auto, Flug Kuala Terengganu–Kuala Lumpur (ca. 1 Std.)"
+      info: "Boot (ca. 45 Min.), privater Transfer (ca. 5–5,5 Std.)"
     },
     {
       datum: "14.–18. Juli",
@@ -61,7 +61,7 @@ REISEN.malaysia = {
   planHinweise: [
     [
       "Gesamt",
-      "28 Nächte im Land, 8 Stationen. Fernbus Singapur–Mersing (ca. 3,5–4 Std.), private Transfers (Mersing–Cherating ca. 3–3,5 Std., Cherating–Taman Negara ca. 3,5–4 Std., Taman Negara–Kuala Besut ca. 5–5,5 Std.), Boote (zusammen ca. 5–6 Std.) und zwei kurze Flüge (Kuala Terengganu–Kuala Lumpur ca. 1 Std., Kuala Lumpur–Bangkok ca. 2–2,25 Std.). Der längste Reisetag ist Taman Negara–Perhentian mit ca. 6–7 Std. Niemand muss selber fahren."
+      "28 Nächte im Land, 8 Stationen. Fernbus Singapur–Mersing (ca. 3,5–4 Std.), private Transfers (Mersing–Cherating ca. 3–3,5 Std., Cherating–Taman Negara ca. 3,5–4 Std., Taman Negara–Kuala Besut ca. 5–5,5 Std., Merang–Kuala Lumpur ca. 5–5,5 Std.), Boote (zusammen ca. 5–6 Std.) und ein kurzer Flug Kuala Lumpur–Bangkok (ca. 2–2,25 Std.). Der längste Reisetag ist Taman Negara–Perhentian mit ca. 6–7 Std. Niemand muss selber fahren."
     ],
     [
       "Flug ab und nach Zürich",
@@ -73,7 +73,7 @@ REISEN.malaysia = {
     ],
     [
       "Vorab buchen",
-      "Flüge Zürich–Singapur und Bangkok–Zürich, Flüge Kuala Terengganu–Kuala Lumpur–Bangkok (Gepäck einrechnen), Bus Singapur–Mersing und Fähre nach Tioman, private Transfers, Unterkunft auf den Perhentians und auf Redang (im Juli früh ausgebucht), Universal Studios Singapore, Petronas-Skybridge."
+      "Flüge Zürich–Singapur und Bangkok–Zürich, Flug Kuala Lumpur–Bangkok (Gepäck einrechnen), Bus Singapur–Mersing und Fähre nach Tioman, private Transfers, Unterkunft auf den Perhentians und auf Redang (im Juli früh ausgebucht), Universal Studios Singapore, Petronas-Skybridge."
     ],
     [
       "Optional",
@@ -81,7 +81,7 @@ REISEN.malaysia = {
     ]
   ],
   karte: {
-    intro: "Ungefährer Verlauf der Wege: mit Bus und Fähre von Singapur nach Tioman, der Ostküste entlang nach Norden mit einem Abstecher in den Regenwald, mit dem Flugzeug nach Kuala Lumpur und weiter nach Bangkok.",
+    intro: "Ungefährer Verlauf der Wege: mit Bus und Fähre von Singapur nach Tioman, der Ostküste entlang nach Norden mit einem Abstecher in den Regenwald, mit dem Transfer nach Kuala Lumpur und mit dem Flugzeug nach Bangkok.",
     breit: true,
     legende: ["bus", "car", "ferry", "air"],
     karten: [{datei: "karten/malaysia.svg"}]
@@ -272,7 +272,7 @@ REISEN.malaysia = {
       region: "Malaysia",
       datum: "11.–14. Juli",
       naechte: "3 Nächte",
-      anreise: "Boot von Redang nach Merang (ca. 45 Min.), Fahrt zum Flughafen Kuala Terengganu (ca. 20–30 Min.), Flug nach Kuala Lumpur (ca. 1 Std., mehrere Flüge pro Tag), vom Flughafen mit dem Zug KLIA Ekspres oder Taxi in die Stadt (ca. 30–60 Min.).",
+      anreise: "Boot von Redang nach Merang (ca. 45 Min.), dann mit privatem Transfer über den East Coast Expressway nach Kuala Lumpur (ca. 5–5,5 Std., ca. 450 km; mit dem Fernbus ab Kuala Terengganu ca. 6–7 Std.).",
       text: "Malaysias Hauptstadt bietet Wolkenkratzer, Aquarium, Parks und Wasserspass. Gute Infrastruktur und günstige Preise.",
       teens: "Petronas-Skybridge (Zeitfenster früh online buchen), Aquaria KLCC (Aquarium im Kuala Lumpur City Centre), Petrosains Science Discovery Centre, Kuala Lumpur Bird Park, Sunway Lagoon (Wasser- und Freizeitpark).",
       fakten: [
@@ -349,12 +349,12 @@ REISEN.malaysia = {
         "5’000",
         "Gabelflug, ca. 1’100–1’400 pro Person (Juli ist Hochsaison; beide Teenager zahlen Vollpreis)"
       ],
-      ["Flüge Kuala Terengganu–Kuala Lumpur–Bangkok", "500–1’000", "700", "ca. 130–250 pro Person inkl. Gepäck"],
+      ["Flug Kuala Lumpur–Bangkok", "300–650", "450", "ca. 80–160 pro Person inkl. Gepäck"],
       [
         "Busse, Transfers, Fähren und Boote",
-        "900–1’600",
-        "1’200",
-        "Bus Singapur–Mersing, Fähren nach Tioman und zurück, private Transfers der Küste entlang, nach Taman Negara und nach Kuala Besut, Speedboote zu den Perhentians und nach Redang, Flughafen-Transfers, Grab, MRT, Boote in Bangkok"
+        "1’100–1’800",
+        "1’400",
+        "Bus Singapur–Mersing, Fähren nach Tioman und zurück, private Transfers der Küste entlang, nach Taman Negara, nach Kuala Besut und von Merang nach Kuala Lumpur, Speedboote zu den Perhentians und nach Redang, Flughafen-Transfers, Grab, MRT, Boote in Bangkok"
       ],
       [
         "Unterkunft (Familienzimmer oder 2 Zimmer, 3–4 Sterne)",
@@ -398,8 +398,8 @@ REISEN.malaysia = {
       "Alle Beträge sind Richtwerte in CHF (Schätzungen, nicht verbindlich). Flug- und Hotelpreise im Juli schwanken stark; aktuelle Preise vor der Buchung vergleichen."
     ],
     naechte: 28,
-    total: "16’900",
-    spanne: "13’700–21’000",
+    total: "16’850",
+    spanne: "13’700–20’900",
     proTag: "ca. 600 CHF pro Tag, ca. 4’200 pro Person"
   },
   tippsIntro: "Einreise, Gesundheit, Sicherheit und Praktisches für die Reise mit 2 Erwachsenen und 2 Kids.",

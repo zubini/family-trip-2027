@@ -146,19 +146,19 @@ window.START = {
       ]
     },
     malaysia: {
-      steckbrief: {anreise: "Flug nach Singapur, ca. 12–13 Std.", unterwegs: "Bus, Transfer und Boot, zwei kurze Flüge", highlights: "Tioman, Taman Negara, Perhentian, Redang, Bangkok"},
+      steckbrief: {anreise: "Flug nach Singapur, ca. 12–13 Std.", unterwegs: "Bus, Transfer und Boot, ein kurzer Flug nach Bangkok", highlights: "Tioman, Taman Negara, Perhentian, Redang, Bangkok"},
       name: "Singapur / Malaysia / Bangkok",
       zusatz: "Vier Wochen: Inseln und Regenwald an der Ostküste Malaysias, zum Schluss Bangkok",
-      passt: "Inseln, Schnorcheln und Dschungel im Vordergrund stehen, die Reise kürzer sein soll und ihr Busse, Transfers, Boote und zwei kurze Flüge in Kauf nehmt.",
+      passt: "Inseln, Schnorcheln und Dschungel im Vordergrund stehen, die Reise kürzer sein soll und ihr Busse, Transfers, Boote und einen kurzen Flug in Kauf nehmt.",
       kurz: "Vier Wochen Singapur, Malaysia und Bangkok: Singapur, Tioman, Cherating, Taman Negara, die Inseln Perhentian und Redang, Kuala Lumpur und zum Schluss Bangkok.",
-      route: "Singapur, (Bus, Fähre) Pulau Tioman, Cherating, (Transfer) Taman Negara, Perhentian Islands, Pulau Redang, (Flug) Kuala Lumpur, (Flug) Bangkok",
+      route: "Singapur, (Bus, Fähre) Pulau Tioman, Cherating, (Transfer) Taman Negara, Perhentian Islands, Pulau Redang, (Transfer) Kuala Lumpur, (Flug) Bangkok",
       stationen: "8 Stationen",
       laender: "Singapur, Malaysia, Thailand",
       hinflug: "Direktflug Zürich–Singapur ca. 12–13 Std. (SWISS) am Sa, 19.06.2027 am Abend, Ankunft So am Nachmittag",
       rueckflug: "Direktflug Bangkok–Zürich ca. 11,5–12 Std. (SWISS) am So, 18.07.2027 um die Mittagszeit, Ankunft am Abend",
-      dazwischen: "Fernbus, private Transfers, Speedboote und Fähren, dann zwei kurze Flüge (Kuala Terengganu–Kuala Lumpur, Kuala Lumpur–Bangkok)",
-      tempo: "Niemand muss selber fahren: Bus und Transfers je ca. 3–5,5 Std., dazu Boote; längster Reisetag Taman Negara–Perhentian ca. 6–7 Std.; zwei kurze Flüge am Schluss; überall 3–5 Nächte.",
-      gesamt: "Ca. 68–75 Std. Tür zu Tür: Bahn Brig-Glis–Zürich Flughafen (ca. 2,5 Std.), Langstreckenflüge mit Wartezeiten, Einreise und Transfers zusammen ca. 32 Std., Bus, Transfers und Boote ca. 24–28 Std., zwei kurze Flüge mit Transfers ca. 10–12 Std. Uhr +6 Std. (Thailand +5 Std.).",
+      dazwischen: "Fernbus, private Transfers, Speedboote und Fähren, dann ein kurzer Flug Kuala Lumpur–Bangkok",
+      tempo: "Niemand muss selber fahren: Bus und Transfers je ca. 3–5,5 Std., dazu Boote; längster Reisetag Taman Negara–Perhentian ca. 6–7 Std., Redang–Kuala Lumpur ca. 6–6,5 Std.; ein kurzer Flug am Schluss; überall 3–5 Nächte.",
+      gesamt: "Ca. 68–75 Std. Tür zu Tür: Bahn Brig-Glis–Zürich Flughafen (ca. 2,5 Std.), Langstreckenflüge mit Wartezeiten, Einreise und Transfers zusammen ca. 32 Std., Bus, Transfers und Boote ca. 30–34 Std., ein kurzer Flug mit Transfers ca. 5–6 Std. Uhr +6 Std. (Thailand +5 Std.).",
       wetter: "Beste Zeit an der Ostküste Malaysias (März bis Oktober): ruhige See, klares Wasser, ca. 30–32 °C; im Landesinneren und in Kuala Lumpur schwül mit Gewittern; in Bangkok Regenzeit mit kurzen, heftigen Schauern; Meer ca. 28–30 °C.",
       einreise: "Singapur, Malaysia und Thailand visumfrei (SG Arrival Card, MDAC, TDAC online vor der Ankunft; Thailand bis 30 Tage, Stand vorab prüfen).",
       hoehepunkte: "Gardens by the Bay und Universal Studios, Dschungelinsel Tioman, Glühwürmchen bei Cherating, Regenwald von Taman Negara mit Hängebrücken, Schildkröten und Riffhaie auf den Perhentians, klares Wasser auf Redang, Petronas Towers und Batu Caves, Grand Palace und Ayutthaya in Bangkok.",
@@ -171,7 +171,7 @@ window.START = {
         "Günstig (ca. {plan:malaysia} CHF)"
       ],
       contra: [
-        "Viele Transfers, zwei kurze Flüge",
+        "Viele Transfers mit Bus, Van und Boot",
         "Lange Anreise, Jetlag (+6 Std.)",
         "Fähren von Gezeiten und Wetter abhängig",
         "Dengue, Blutegel im Dschungel",
@@ -286,7 +286,7 @@ window.START = {
       usa: [1, "ca. {plan:usa} CHF: rund {mehrkosten} CHF mehr, vor allem Einwegmiete, Inlandflug und Unterkünfte in Destin, Key Largo, Miami und New York."],
       usamitte: [1, "ca. {plan:usamitte} CHF: vor allem Einwegmiete, Unterkünfte in Los Angeles, Chicago und New York."],
       asien: [4, "ca. {plan:asien} CHF: Singapur ist teuer, der Rest günstig."],
-      malaysia: [4, "ca. {plan:malaysia} CHF: Langstreckenflug und zwei kurze Flüge, sonst günstig; vier statt fünf Wochen."],
+      malaysia: [4, "ca. {plan:malaysia} CHF: Langstreckenflug und ein kurzer Flug, sonst günstig; vier statt fünf Wochen."],
     },
     {
       kriterium: "Reisekomfort",
@@ -300,7 +300,7 @@ window.START = {
         2,
         "Ca. 101–108 Stunden Tür zu Tür: zwei Direktflüge mit Jetlag, dazu ca. 65–70 Stunden mit Bus, Zug und Fähre und viele Umstiege mit Gepäck; niemand muss selber fahren."
       ],
-      malaysia: [3, "Ca. 68–75 Stunden Tür zu Tür: zwei lange Direktflüge mit Jetlag, Busse, Transfers und Boote mit Gepäck, zum Schluss zwei kurze Flüge; niemand muss selber fahren."],
+      malaysia: [3, "Ca. 68–75 Stunden Tür zu Tür: zwei lange Direktflüge mit Jetlag, Busse, Transfers und Boote mit Gepäck, zum Schluss ein kurzer Flug; niemand muss selber fahren."],
     },
     {
       kriterium: "CO₂ und Umwelt (mehr Punkte = weniger CO₂)",
@@ -314,7 +314,7 @@ window.START = {
         1,
         "Zwei Langstreckenflüge (ca. 19’000 km), unterwegs Bus, Zug und Fähre, grob geschätzt ca. 4 t CO₂ pro Person."
       ],
-      malaysia: [1, "Zwei Langstreckenflüge (ca. 19’500 km) und zwei kurze Flüge (ca. 1’500 km), grob geschätzt ca. 3,9 t CO₂ pro Person."],
+      malaysia: [1, "Zwei Langstreckenflüge (ca. 19’500 km) und ein kurzer Flug (ca. 1’200 km), grob geschätzt ca. 3,9 t CO₂ pro Person."],
     }
   ]
 };
