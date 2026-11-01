@@ -5,7 +5,7 @@ window.REISEN = window.REISEN || {};
 REISEN.asien = {
   titel: "Von Singapur nach Bangkok",
   menu: "Malaysia / Thailand",
-  untertitel: "Fünf Wochen über Land und Wasser: Singapur, die Insel Tioman, Malakka und Kuala Lumpur, der Regenwald von Taman Negara und die Perhentians, dann über die Grenze an den Golf von Thailand und nach Bangkok.",
+  untertitel: "Fünf Wochen über Land und Wasser: Singapur, die Insel Tioman, Kuala Lumpur, der Regenwald von Taman Negara und die Perhentians, dann über die Grenze an den Golf von Thailand und nach Bangkok.",
   zeitraum: "Sa, 19.06.2027 bis Do, 22.07.2027, 2 Erwachsene und 2 Kids",
   titelbild: {
     datei: "Nang Yuan Island, Koh Tao (48109157601).jpg",
@@ -27,27 +27,22 @@ REISEN.asien = {
       info: "Flug ab Zürich (Sa, ca. 22.40 Uhr), Ankunft am späten Nachmittag"
     },
     {
-      datum: "23.–26. Juni",
+      datum: "23.–27. Juni",
       name: "2. Pulau Tioman (Pahang)",
-      naechte: 3,
+      naechte: 4,
       info: "Bus nach Mersing (ca. 3,5–4 Std.), Fähre (ca. 1,5–2 Std.)"
     },
-    {
-      datum: "26.–28. Juni",
-      name: "3. Malakka",
-      naechte: 2,
-      info: "Fähre nach Mersing (ca. 1,5–2 Std.), Transfer (ca. 3–3,5 Std.)"
-    },
-    {datum: "28. Juni–1. Juli", name: "4. Kuala Lumpur", naechte: 3, info: "Bus (ca. 2–2,5 Std.)"},
+    {datum: "27.–28. Juni", name: "Zwischenübernachtung Mersing", naechte: 1, info: "Fähre ab Tioman (ca. 1,5–2 Std.)"},
+    {datum: "28. Juni–1. Juli", name: "3. Kuala Lumpur", naechte: 3, info: "Fernbus ab Mersing (ca. 5–6 Std.)"},
     {
       datum: "1.–4. Juli",
-      name: "5. Taman Negara",
+      name: "4. Taman Negara",
       naechte: 3,
       info: "Transfer (ca. 3,5–4 Std.) oder Bus und Langboot ab Kuala Tembeling (ca. 6–7 Std.)"
     },
     {
       datum: "4.–8. Juli",
-      name: "6. Perhentian Islands",
+      name: "5. Perhentian Islands",
       naechte: 4,
       info: "Transfer über Gua Musang (ca. 5–5,5 Std.), Speedboot (ca. 30–45 Min.)"
     },
@@ -59,19 +54,19 @@ REISEN.asien = {
     },
     {
       datum: "9.–11. Juli",
-      name: "7. Khanom",
+      name: "6. Khanom",
       naechte: 2,
       info: "Minivan mit Umstieg in Nakhon Si Thammarat oder Privattransfer (ca. 5–6 Std.)"
     },
-    {datum: "11.–14. Juli", name: "8. Koh Samui", naechte: 3, info: "Minivan zum Donsak Pier, Autofähre (ca. 2,5 Std.)"},
-    {datum: "14.–17. Juli", name: "9. Koh Tao", naechte: 3, info: "Katamaran ab Samui (ca. 1,5–2 Std.)"},
+    {datum: "11.–14. Juli", name: "7. Koh Samui", naechte: 3, info: "Minivan zum Donsak Pier, Autofähre (ca. 2,5 Std.)"},
+    {datum: "14.–17. Juli", name: "8. Koh Tao", naechte: 3, info: "Katamaran ab Samui (ca. 1,5–2 Std.)"},
     {
       datum: "17.–19. Juli",
-      name: "10. Hua Hin / Khao Sam Roi Yot",
+      name: "9. Hua Hin / Khao Sam Roi Yot",
       naechte: 2,
       info: "Katamaran nach Chumphon, Bus oder Zug nach Hua Hin (ca. 7 Std. insgesamt)"
     },
-    {datum: "19.–22. Juli", name: "11. Bangkok", naechte: 3, info: "Zug oder Minivan (ca. 3–4 Std.); Rückflug 22. Juli"}
+    {datum: "19.–22. Juli", name: "10. Bangkok", naechte: 3, info: "Zug oder Minivan (ca. 3–4 Std.); Rückflug 22. Juli"}
   ],
   rueckflug: {
     datum: "22. Juli",
@@ -81,15 +76,15 @@ REISEN.asien = {
   planHinweise: [
     [
       "Gesamt",
-      "32 Nächte, 11 Stationen und eine Zwischenübernachtung (Hat Yai). Nur Hin- und Rückflug, alle Strecken dazwischen per Bus, Zug, Fähre und privatem Transfer. Der längste Reisetag ist Perhentian–Hat Yai mit ca. 8–9 Std. (Boot, Transfer, Grenze), gleich danach Hat Yai–Khanom mit ca. 5–6 Std. Weitere längere Reisetage: Singapur–Tioman, Tioman–Malakka (je ca. 5–6,5 Std.), Taman Negara–Perhentian (ca. 6–7 Std.) und Koh Tao–Hua Hin (ca. 7 Std.). Zusammen sind es zwischen Singapur und Bangkok ca. 45–54 Stunden reine Reisezeit; mit Wartezeiten auf Fähren und Züge, Grenzübertritt und Transfers zur Unterkunft realistisch ca. 54–64 Stunden."
+      "32 Nächte, 10 Stationen und zwei Zwischenübernachtungen (Mersing, Hat Yai). Nur Hin- und Rückflug, alle Strecken dazwischen per Bus, Zug, Fähre und privatem Transfer. Der längste Reisetag ist Perhentian–Hat Yai mit ca. 8–9 Std. (Boot, Transfer, Grenze), gleich danach Hat Yai–Khanom mit ca. 5–6 Std. Weitere längere Reisetage: Singapur–Tioman, Mersing–Kuala Lumpur (je ca. 5–6,5 Std.), Taman Negara–Perhentian (ca. 6–7 Std.) und Koh Tao–Hua Hin (ca. 7 Std.). Zusammen sind es zwischen Singapur und Bangkok ca. 45–54 Stunden reine Reisezeit; mit Wartezeiten auf Fähren und Züge, Grenzübertritt und Transfers zur Unterkunft realistisch ca. 54–64 Stunden."
     ],
     [
       "Vorab buchen",
-      "Bus nach Mersing und Fähre nach Tioman, Transfers Mersing–Malakka, Kuala Lumpur–Taman Negara und Taman Negara–Kuala Besut, Unterkunft auf Tioman und den Perhentians, Touren in Taman Negara, grenzüberschreitender Transfer Kuala Besut–Hat Yai, Petronas-Skybridge, Katamarane Samui–Tao–Chumphon. Lange Reisetage früh am Morgen starten."
+      "Bus nach Mersing und Fähre nach Tioman, Bus Mersing–Kuala Lumpur, Transfers Kuala Lumpur–Taman Negara und Taman Negara–Kuala Besut, Unterkunft auf Tioman und den Perhentians, Touren in Taman Negara, grenzüberschreitender Transfer Kuala Besut–Hat Yai, Petronas-Skybridge, Katamarane Samui–Tao–Chumphon. Lange Reisetage früh am Morgen starten."
     ],
     [
       "Optional",
-      "Cherating (Surfen, Glühwürmchen; statt einer Nacht Perhentian), Pulau Redang, Belum-Regenwald als Übernachtung auf dem Weg nach Thailand (teilt den langen Tag), Koh Phangan (zwischen Samui und Tao), Kanchanaburi (ab Bangkok)."
+      "Malakka (Altstadt, UNESCO; statt der Nacht in Mersing mit Transfer), Cherating (Surfen, Glühwürmchen; statt einer Nacht Perhentian), Pulau Redang, Belum-Regenwald als Übernachtung auf dem Weg nach Thailand (teilt den langen Tag), Koh Phangan (zwischen Samui und Tao), Kanchanaburi (ab Bangkok)."
     ],
     [
       "Flug ab und nach Zürich",
@@ -110,7 +105,7 @@ REISEN.asien = {
     ],
     [
       "Kultur und Geschichte",
-      "Altstadt von Malakka (UNESCO), Kuala Lumpur (Batu Caves, Merdeka Square), Orang-Asli-Dorf in Taman Negara, Khao Sam Roi Yot (Höhle), Bangkok (Grand Palace, Wat Pho), Ayutthaya (Tempelruinen)."
+      "Kuala Lumpur (Batu Caves, Merdeka Square), Orang-Asli-Dorf in Taman Negara, Khao Sam Roi Yot (Höhle), Bangkok (Grand Palace, Wat Pho), Ayutthaya (Tempelruinen)."
     ],
     [
       "Natur und Tiere",
@@ -118,11 +113,11 @@ REISEN.asien = {
     ],
     [
       "Strand und Erholung",
-      "Tioman, Perhentian Islands (4 Nächte), Khanom, Koh Samui, Koh Tao, Hua Hin. Nach zwei aktiven Tagen jeweils einen ruhigen Tag einplanen."
+      "Tioman (4 Nächte), Perhentian Islands (4 Nächte), Khanom, Koh Samui, Koh Tao, Hua Hin. Nach zwei aktiven Tagen jeweils einen ruhigen Tag einplanen."
     ],
     ["Mitmachen", "Muay-Thai-Schnupperkurs, Kajak/SUP, Street-Food- und Tuk-Tuk-Touren."]
   ],
-  stationenIntro: "Elf Stationen von Singapur bis Bangkok: Tioman, Malakka und Kuala Lumpur, der Nationalpark Taman Negara, die Perhentians und nach einer Nacht in Hat Yai der Golf von Thailand. Über jeder Station steht, wie ihr dorthin kommt.",
+  stationenIntro: "Zehn Stationen von Singapur bis Bangkok: Tioman, nach einer Nacht in Mersing Kuala Lumpur, der Nationalpark Taman Negara, die Perhentians und nach einer Nacht in Hat Yai der Golf von Thailand. Über jeder Station steht, wie ihr dorthin kommt.",
   stationen: [
     {
       nr: 1,
@@ -158,13 +153,13 @@ REISEN.asien = {
       name: "Pulau Tioman (Pahang)",
       land: "my",
       region: "Malaysia",
-      datum: "23.–26. Juni",
-      naechte: "3 Nächte",
+      datum: "23.–27. Juni",
+      naechte: "4 Nächte",
       anreise: "Fernbus von Singapur nach Mersing (ca. 3,5–4 Std., je nach Anbieter Halt direkt am Hafen Mersing Jetty oder am Busbahnhof; Grenzkontrolle einplanen), dann Fähre nach Tioman (ca. 1,5–2 Std.). Früh am Morgen starten, damit ihr eine Nachmittagsfähre erreicht. Bus und Fähre vorab buchen.",
       text: "Grüne Dschungelinsel vor der Ostküste Malaysias mit Korallenriffen, Wasserfällen und kleinen Dörfern ohne Autoverkehr. Die beste Reisezeit ist Mai bis September, also genau euer Zeitraum. Ein ruhiger Einstieg nach Singapur mit viel Natur.",
       teens: "Schnorcheltour zu den vorgelagerten Inseln (Pulau Tulai, Chebeh, Renggis), Dschungel-Wanderung quer über die Insel (Tekek–Juara, ca. 2–3 Std.), Wasserfälle, Kajak und Strandtage.",
       fakten: [
-        "<strong>Dauer:</strong> 3 Nächte. Basis zum Beispiel an der ruhigen Westseite (Salang, Air Batang) oder im östlichen Juara; ein Wechsel der Inselseite kostet Zeit (Boot oder Wanderweg).",
+        "<strong>Dauer:</strong> 4 Nächte: eine Schnorcheltour zu den vorgelagerten Inseln, eine Dschungel-Wanderung zum Wasserfall, Kajak und Strandtage. Basis zum Beispiel an der ruhigen Westseite (Salang, Air Batang) oder im östlichen Juara; ein Wechsel der Inselseite kostet Zeit (Boot oder Wanderweg).",
         "<strong>Praktisch:</strong> Die Fähre fährt nur wenige Male pro Tag zu festen Zeiten, vorab Ticket buchen und rechtzeitig am Hafen sein (Mersing Jetty oder Tanjung Gemok). Bargeld mitnehmen, Geldautomaten sind selten. Die Insel ist zollfrei.",
         "<strong>Kultur:</strong> Pahang ist überwiegend muslimisch; ausserhalb der Strände Schultern und Knie bedecken."
       ],
@@ -180,42 +175,12 @@ REISEN.asien = {
     },
     {
       nr: 3,
-      name: "Malakka",
-      ersatzsuche: "Malacca",
-      land: "my",
-      region: "Malaysia",
-      datum: "26.–28. Juni",
-      naechte: "2 Nächte",
-      anreise: "Fähre von Tioman nach Mersing (ca. 1,5–2 Std., am Morgen), dann mit privatem Transfer nach Malakka (ca. 3–3,5 Std.); direkte Busse Mersing–Malakka gibt es nur wenige, sonst mit Umstieg in Johor Bahru oder Kluang (ca. 4,5–5 Std.).",
-      text: "Alte Hafenstadt an der Westküste mit portugiesischen, holländischen und chinesischen Spuren; die Altstadt ist UNESCO-Welterbe. Klein, gut zu Fuss und ein ruhiger Kontrast zu Singapur und den Inseln.",
-      teens: "Nachtmarkt in der Jonker Street (Fr–So), Bootsfahrt auf dem Malakka-Fluss am Abend, bunt beleuchtete Trishaws, Aussichtsturm Menara Taming Sari, Replik des portugiesischen Segelschiffs Flor de la Mar (Seemuseum).",
-      fakten: [
-        "<strong>Dauer:</strong> 2 Nächte: Ankunft am Nachmittag, ein voller Tag Altstadt mit Christ Church, Stadthuys, St. Paul's Hill und A Famosa, am Abend Flussfahrt und Nachtmarkt.",
-        "<strong>Essen:</strong> Peranakan-Küche (Nyonya), Chicken-Rice-Balls und Cendol (Eisdessert).",
-        "<strong>Wetter:</strong> An der Westküste im Juli kurze Gewitter am Nachmittag; Programm am Morgen und am Abend planen."
-      ],
-      ausserdem: "Baba & Nyonya Heritage Museum, Cheng-Hoon-Teng-Tempel, Kampung Morten (malaiisches Dorf am Fluss), Kirche St. Francis Xavier.",
-      bilder: [
-        {
-          titel: "Christ Church",
-          suche: "Christ Church Malacca|Dutch Square Malacca",
-          stichwort: "christ church|dutch square|melaka|malacca"
-        },
-        {titel: "Malakka-Fluss", suche: "Malacca River|Melaka River cruise", stichwort: "river|melaka|malacca"},
-        {titel: "Jonker Street", suche: "Jonker Street Malacca", stichwort: "jonker"},
-        {titel: "A Famosa", suche: "A Famosa Malacca|Porta de Santiago", stichwort: "famosa|santiago"},
-        {titel: "Cheng Hoon Teng", suche: "Cheng Hoon Teng Temple", stichwort: "cheng hoon"},
-        {titel: "Flor de la Mar", suche: "Maritime Museum Malacca Flor de la Mar", stichwort: "maritime|flor de la mar"}
-      ]
-    },
-    {
-      nr: 4,
       name: "Kuala Lumpur",
       land: "my",
       region: "Malaysia",
       datum: "28. Juni–1. Juli",
       naechte: "3 Nächte",
-      anreise: "Bus von Malakka (Melaka Sentral) zum Busbahnhof Terminal Bersepadu Selatan in Kuala Lumpur (ca. 2–2,5 Std., häufig), dann mit Zug oder Grab zur Unterkunft.",
+      anreise: "Fähre von Tioman nach Mersing (ca. 1,5–2 Std.), Übernachtung in Mersing (kleiner Fischerort mit Hafen, Nachmittag und Abend zum Ausruhen, Seafood am Hafen). Am Morgen Fernbus von Mersing nach Kuala Lumpur, Terminal Bersepadu Selatan (ca. 5–6 Std.; nur einige Busse pro Tag, vorab buchen), dann mit Zug oder Grab zur Unterkunft.",
       text: "Malaysias Hauptstadt bietet Wolkenkratzer, Aquarium, Parks und Wasserspass. Gute Infrastruktur und günstige Preise.",
       teens: "Petronas-Skybridge (Zeitfenster früh online buchen), Aquaria KLCC (Aquarium im Kuala Lumpur City Centre), Petrosains Science Discovery Centre, Kuala Lumpur Bird Park, Sunway Lagoon (Wasser- und Freizeitpark).",
       fakten: [
@@ -240,10 +205,11 @@ REISEN.asien = {
           stichwort: "menara kuala lumpur|kl tower"
         },
         {titel: "Jalan Alor", suche: "Jalan Alor food street|Jalan Alor", stichwort: "jalan alor"}
-      ]
+      ],
+      zwischenstopp: {text: "Zwischenstopp in Mersing", datum: "27.–28. Juni"}
     },
     {
-      nr: 5,
+      nr: 4,
       name: "Taman Negara",
       land: "my",
       region: "Malaysia",
@@ -268,7 +234,7 @@ REISEN.asien = {
       ]
     },
     {
-      nr: 6,
+      nr: 5,
       name: "Perhentian Islands",
       land: "my",
       region: "Malaysia",
@@ -297,7 +263,7 @@ REISEN.asien = {
       ]
     },
     {
-      nr: 7,
+      nr: 6,
       name: "Khanom",
       land: "th",
       region: "Thailand",
@@ -334,7 +300,7 @@ REISEN.asien = {
       ]
     },
     {
-      nr: 8,
+      nr: 7,
       name: "Koh Samui",
       land: "th",
       region: "Thailand",
@@ -359,7 +325,7 @@ REISEN.asien = {
       ]
     },
     {
-      nr: 9,
+      nr: 8,
       name: "Koh Tao",
       land: "th",
       region: "Thailand",
@@ -384,7 +350,7 @@ REISEN.asien = {
       ]
     },
     {
-      nr: 10,
+      nr: 9,
       name: "Hua Hin / Khao Sam Roi Yot",
       land: "th",
       region: "Thailand",
@@ -413,7 +379,7 @@ REISEN.asien = {
       ]
     },
     {
-      nr: 11,
+      nr: 10,
       name: "Bangkok",
       land: "th",
       region: "Thailand",
@@ -455,9 +421,9 @@ REISEN.asien = {
   budgetIntro: "Mittelklasse inklusive Flüge, Transport, Unterkunft, Verpflegung und Aktivitäten. Alle Beträge sind Schätzungen in CHF.",
   budget: {
     naechte: 32,
-    total: "18’100",
-    spanne: "14’700–22’350",
-    proTag: "ca. 570 CHF pro Tag, ca. 4’500 pro Person",
+    total: "18’000",
+    spanne: "14’650–22’250",
+    proTag: "ca. 560 CHF pro Tag, ca. 4’500 pro Person",
     posten: [
       [
         "Flüge Zürich–Singapur und Bangkok–Zürich",
@@ -467,9 +433,9 @@ REISEN.asien = {
       ],
       [
         "Fernverkehr (Bus, Zug, Fähre, Minivan)",
-        "1’000–1’700",
-        "1’300",
-        "Bus Singapur–Mersing, Fähren Mersing–Tioman, Transfer nach Malakka, Bus nach Kuala Lumpur, Transfers nach Taman Negara und Kuala Besut, Boote Perhentian, grenzüberschreitender Transfer nach Hat Yai, Minivans nach Khanom, Fähren Samui–Tao–Chumphon, Zug nach Hua Hin/Bangkok"
+        "950–1’600",
+        "1’200",
+        "Bus Singapur–Mersing, Fähren Mersing–Tioman, Bus Mersing–Kuala Lumpur, Transfers nach Taman Negara und Kuala Besut, Boote Perhentian, grenzüberschreitender Transfer nach Hat Yai, Minivans nach Khanom, Fähren Samui–Tao–Chumphon, Zug nach Hua Hin/Bangkok"
       ],
       ["Lokale Transfers", "400–800", "550", "Grab, MRT/Skytrain, Wassertaxis, Songthaew"],
       [
@@ -488,7 +454,7 @@ REISEN.asien = {
         "Aktivitäten und Eintritte",
         "2’100–3’300",
         "2’600",
-        "Universal und Sentosa, Mandai, Schnorcheltouren, Marine-Park-Gebühren, Flussfahrt in Malakka, Petronas-Skybridge, Sunway Lagoon, Taman Negara mit Führer (Canopy Walk, Nachtwanderung, Bootsfahrt), Ang Thong, Wasserpark Hua Hin, Safari World usw."
+        "Universal und Sentosa, Mandai, Schnorcheltouren, Marine-Park-Gebühren, Petronas-Skybridge, Sunway Lagoon, Taman Negara mit Führer (Canopy Walk, Nachtwanderung, Bootsfahrt), Ang Thong, Wasserpark Hua Hin, Safari World usw."
       ],
       [
         "Versicherung, eSIM, Medikamente, Impfungen",
@@ -499,24 +465,24 @@ REISEN.asien = {
       ["Reserve (ca. 5 %)", "700–1’050", "850", "Souvenirs, Wäsche, Unvorhergesehenes"],
       [
         "<strong>Total</strong>",
-        "<strong>14’700–22’350</strong>",
-        "<strong>ca. 18’100</strong>",
-        "ca. 570 CHF pro Tag, ca. 4’500 pro Person"
+        "<strong>14’650–22’250</strong>",
+        "<strong>ca. 18’000</strong>",
+        "ca. 560 CHF pro Tag, ca. 4’500 pro Person"
       ]
     ],
     stationen: [
       ["1. Singapur (3)", "1’320–1’950"],
-      ["2. Pulau Tioman (3)", "560–950"],
-      ["3. Malakka (2)", "330–560"],
-      ["4. Kuala Lumpur (3)", "550–910"],
-      ["5. Taman Negara (3)", "610–960"],
-      ["6. Perhentian Islands (4)", "880–1’500"],
+      ["2. Pulau Tioman (4)", "750–1’270"],
+      ["Zwischenübernachtung Mersing (1)", "100–180"],
+      ["3. Kuala Lumpur (3)", "550–910"],
+      ["4. Taman Negara (3)", "610–960"],
+      ["5. Perhentian Islands (4)", "880–1’500"],
       ["Zwischenübernachtung Hat Yai (1)", "120–230"],
-      ["7. Khanom (2)", "380–640"],
-      ["8. Koh Samui (3)", "750–1’190"],
-      ["9. Koh Tao (3)", "600–970"],
-      ["10. Hua Hin / Khao Sam Roi Yot (2)", "430–670"],
-      ["11. Bangkok (3)", "730–1’220"]
+      ["6. Khanom (2)", "380–640"],
+      ["7. Koh Samui (3)", "750–1’190"],
+      ["8. Koh Tao (3)", "600–970"],
+      ["9. Hua Hin / Khao Sam Roi Yot (2)", "430–670"],
+      ["10. Bangkok (3)", "730–1’220"]
     ],
     hinweise: [
       "<strong>Preise für die Kids:</strong> Der Sohn (12) zahlt bei Eintritten oft noch den Kinderpreis (teils nur bis 11), die Tochter (14) meist den Vollpreis.",
@@ -580,7 +546,7 @@ REISEN.asien = {
     ],
     [
       "Wetter im Juni/Juli",
-      "Heiss und feucht, Regenschauer. Malakka, Kuala Lumpur, Taman Negara und Bangkok haben im Juli kurze, heftige Gewitter am Nachmittag; die Ostküste Malaysias (Tioman, Perhentian) und der Golf von Thailand (Samui, Tao) sind im Juni und Juli meist ruhiger."
+      "Heiss und feucht, Regenschauer. Kuala Lumpur, Taman Negara und Bangkok haben im Juli kurze, heftige Gewitter am Nachmittag; die Ostküste Malaysias (Tioman, Perhentian) und der Golf von Thailand (Samui, Tao) sind im Juni und Juli meist ruhiger."
     ]
   ]
 };

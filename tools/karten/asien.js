@@ -15,8 +15,7 @@ module.exports = {
   wege: [
     ['bus', 'Singapur – Mersing', ['SG', [1.46, 103.76], [1.73, 103.90], [2.20, 103.88], 'MS']],
     ['ferry', 'Mersing – Pulau Tioman', ['MS', [2.58, 104.02], 'TI']],
-    ['car', 'Mersing – Kluang – Malakka', ['MS', [2.03, 103.32], [2.10, 102.80], 'ML']],
-    ['bus', 'Malakka – Kuala Lumpur', ['ML', [2.55, 102.05], [2.90, 101.80], 'KL']],
+    ['bus', 'Mersing – Kuala Lumpur', ['MS', [2.03, 103.32], [2.51, 102.82], [2.47, 102.23], [2.72, 101.94], 'KL']],
     ['car', 'Kuala Lumpur – Jerantut – Kuala Tahan', ['KL', [3.40, 101.90], [3.62, 102.10], [3.94, 102.36], 'KTH']],
     ['car', 'Kuala Tahan – Gua Musang – Kuala Besut', ['KTH', [4.85, 101.96], [5.40, 102.20], [5.74, 102.49], 'KB']],
     ['ferry', 'Kuala Besut – Perhentian Islands', ['KB', [5.87, 102.65], 'PER']],
@@ -32,11 +31,11 @@ module.exports = {
     ['train', 'Hua Hin – Bangkok', ['HH', [12.80, 99.96], [13.111, 99.944], [13.536, 99.817], [13.8199, 100.062], [13.80, 100.30], 'BK']]
   ],
   stationen: [
-    [1, 'SG', 'r'], [2, 'TI', 'r'], [3, 'ML', 'l'], [4, 'KL', 'l'], [5, 'KTH', 'r'], [6, 'PER', 'r'],
-    [7, 'KH', 'r'], [8, 'SM', 'r'], [9, 'TAO', 'r'], [10, 'HH', 'r'], [11, 'BK', 'r']
+    [1, 'SG', 'r'], [2, 'TI', 'r'], [3, 'KL', 'l'], [4, 'KTH', 'r'], [5, 'PER', 'r'],
+    [6, 'KH', 'r'], [7, 'SM', 'r'], [8, 'TAO', 'r'], [9, 'HH', 'r'], [10, 'BK', 'r']
   ],
-  zwischenstopps: [['Hat Yai', 'HY', 0]],
-  umstiege: [['Mersing', 'MS', 'l'], ['Kuala Besut', 'KB', 'l']],
+  zwischenstopps: [['Mersing', 'MS', 0], ['Hat Yai', 'HY', 0]],
+  umstiege: [['Kuala Besut', 'KB', 'l']],
   beschriftungen: [
     ['Malaysia', 3.55, 103.05, 'cn'], ['Thailand', 13.2, 99.25, 'cn'], ['Indonesien', 1.2, 100.6, 'cn'],
     ['Golf von Thailand', 11.2, 101.6, 'sea'], ['Andamanensee', 7.6, 97.75, 'sea'],
