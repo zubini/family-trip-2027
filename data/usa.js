@@ -72,7 +72,7 @@ REISEN.usa = {
     ],
     [
       "Flug ab und nach Zürich",
-      "Hinflug: Zürich–Los Angeles mit SWISS als Direktflug ca. 12,25 Std. (Sommer 2026: täglich ausser Do, Abflug ca. 13.05 Uhr, Ankunft ca. 16.25 Uhr Ortszeit, Zeitverschiebung −9 Std.). Für Hin- und Rückflug mit SWISS liegt ein Angebot von ca. 4’000 CHF für alle vier vor. Inlandflug Miami–New York am Sa, 17.07.2027 nonstop ca. 3–3,5 Std. (American, Delta und andere, viele Flüge pro Tag nach LaGuardia, JFK oder Newark). Rückflug: New York (JFK)–Zürich mit SWISS als Direktflug täglich, ca. 7,75–8 Std., am Mi, 21.07.2027 (Sommer 2026: Abflug ca. 16.15 Uhr, Ankunft ca. 6.10 Uhr). Flugpläne 2027 bei der Buchung prüfen."
+      "Hinflug: Zürich–Los Angeles mit SWISS als Direktflug ca. 12,25 Std. (Sommer 2026: täglich ausser Do, Abflug ca. 13.05 Uhr, Ankunft ca. 16.25 Uhr Ortszeit, Zeitverschiebung −9 Std.). Geschätzt (nicht offeriert): Gabelflug mit SWISS direkt im Juli ca. 1’100–1’500 CHF pro Person, für alle vier ca. 4’400–6’000 CHF; mit Umsteigen ab ca. 950 CHF pro Person. Preise schwanken stark, früh buchen und vergleichen. Inlandflug Miami–New York am Sa, 17.07.2027 nonstop ca. 3–3,5 Std. (American, Delta und andere, viele Flüge pro Tag nach LaGuardia, JFK oder Newark). Rückflug: New York (JFK)–Zürich mit SWISS als Direktflug täglich, ca. 7,75–8 Std., am Mi, 21.07.2027 (Sommer 2026: Abflug ca. 16.15 Uhr, Ankunft ca. 6.10 Uhr). Flugpläne 2027 bei der Buchung prüfen."
     ],
     [
       "Hitze und Hurrikane",
@@ -488,9 +488,9 @@ REISEN.usa = {
     posten: [
       [
         "Flüge Zürich–Los Angeles und New York–Zürich (SWISS)",
-        "4’000–4’500",
-        "4’000",
-        "Angebot für alle vier ca. 4’000 CHF (ca. 1’000 pro Person); bis zur Buchung nicht fest"
+        "3’800–6’000",
+        "5’000",
+        "eigene Schätzung: SWISS direkt im Juli ca. 1’100–1’500 CHF pro Person (Hochsaison und Schulferien; beide Teenager zahlen den Erwachsenenpreis), mit Umsteigen ab ca. 950"
       ],
       [
         "Inlandflug Miami–New York",
@@ -552,7 +552,7 @@ REISEN.usa = {
         "700",
         "ESTA ca. 40 USD pro Person, eSIM, Reiseversicherung mit hoher Deckung (falls nicht schon über eine Jahresversicherung abgedeckt)"
       ],
-      ["Reserve (ca. 5 %)", "1’350–1’720", "1’360", "Souvenirs, Wäsche, Unvorhergesehenes"]
+      ["Reserve (ca. 5 %)", "1’550–1’720", "1’360", "Souvenirs, Wäsche, Unvorhergesehenes"]
     ],
     stationen: [
       ["1. Los Angeles (2)", "900–1’590"],
@@ -578,9 +578,9 @@ REISEN.usa = {
       "Alle Beträge sind Richtwerte in CHF (Schätzungen, nicht verbindlich). Flug-, Hotel- und Mietwagenpreise im Juli schwanken stark; aktuelle Preise vor der Buchung vergleichen."
     ],
     naechte: 32,
-    total: "32’000",
-    spanne: "27’000–39’500",
-    proTag: "ca. 1’000 CHF pro Tag, ca. 8’000 pro Person"
+    total: "33’000",
+    spanne: "27’000–41’000",
+    proTag: "ca. 1’030 CHF pro Tag, ca. 8’250 pro Person"
   },
   tippsIntro: "Einreise, Gesundheit, Sicherheit und Praktisches für die Reise mit 2 Erwachsenen und 2 Kids.",
   tipps: [

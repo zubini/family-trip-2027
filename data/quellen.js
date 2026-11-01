@@ -91,6 +91,8 @@ window.QUELLEN = {
     {
       titel: "USA Süd (Los Angeles – Florida – New York)",
       links: [
+        ["Monde du Voyage: SWISS Zürich–Los Angeles, Durchschnitt Juli ca. 1’160 USD hin und zurück", "https://www.monde-du-voyage.com/en/united-states/flight-zurich/departure-los-angeles/swiss/"],
+        ["Kayak: Zürich–Los Angeles, Juni und Juli die teuersten Monate", "https://www.kayak.co.uk/flight-routes/Zurich-ZRH/Los-Angeles-LAX"],
         ["Broadway League via BroadwayWorld: Saison 2025/26, Durchschnittspreis ca. 131 USD pro Ticket", "https://www.broadwayworld.com/industry/article/Broadway-Set-Another-Box-Office-Record-in-2025-2026-Crossing-191-Billion-20260528"],
         ["Hellotickets: Sphere «Postcard from Earth», Tickets ca. 129–175 USD", "https://www.hellotickets.com/us/las-vegas/theatre/postcard-from-earth-tickets/2025-07-29,1930/2186541/2"],
         ["Navajo Nation Parks: Gebührenerhöhung ab 01.01.2026, Tour-Anbieter Monument Valley", "https://navajonationparks.org/guided-tour-operators/monument-valley-tour-operators/"],
@@ -144,6 +146,8 @@ window.QUELLEN = {
     {
       titel: "USA Mitte (Los Angeles – Chicago – New York)",
       links: [
+        ["Monde du Voyage: SWISS Zürich–Los Angeles, Durchschnitt Juli ca. 1’160 USD hin und zurück", "https://www.monde-du-voyage.com/en/united-states/flight-zurich/departure-los-angeles/swiss/"],
+        ["Kayak: Zürich–Los Angeles, Juni und Juli die teuersten Monate", "https://www.kayak.co.uk/flight-routes/Zurich-ZRH/Los-Angeles-LAX"],
         ["Broadway League via BroadwayWorld: Saison 2025/26, Durchschnittspreis ca. 131 USD pro Ticket", "https://www.broadwayworld.com/industry/article/Broadway-Set-Another-Box-Office-Record-in-2025-2026-Crossing-191-Billion-20260528"],
         ["Hellotickets: Sphere «Postcard from Earth», Tickets ca. 129–175 USD", "https://www.hellotickets.com/us/las-vegas/theatre/postcard-from-earth-tickets/2025-07-29,1930/2186541/2"],
         ["Navajo Nation Parks: Gebührenerhöhung ab 01.01.2026, Tour-Anbieter Monument Valley", "https://navajonationparks.org/guided-tour-operators/monument-valley-tour-operators/"],

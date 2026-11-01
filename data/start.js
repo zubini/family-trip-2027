@@ -55,7 +55,7 @@ window.START = {
       route: "Los Angeles, Las Vegas, Kanab, Monument Valley, Albuquerque, White Sands, (Roswell) Fort Stockton, Austin, New Orleans, Destin, Orlando, Key Largo, Miami, (Flug) New York",
       stationen: "13 Stationen und 1 Zwischenübernachtung",
       laender: "USA (Kalifornien bis Florida, New York)",
-      hinflug: "Zürich–Los Angeles ca. 12,25 Std. direkt mit SWISS (im Sommer 2026 täglich ausser Do); Hin- und Rückflug für alle vier ca. 4’000 CHF",
+      hinflug: "Zürich–Los Angeles ca. 12,25 Std. direkt mit SWISS (im Sommer 2026 täglich ausser Do); Hin- und Rückflug für alle vier geschätzt ca. 4’400–6’000 CHF",
       rueckflug: "Direktflug New York (JFK)–Zürich ca. 7,75–8 Std. (SWISS, täglich) am Mi, 21.07.2027, Ankunft Do, 22.07.2027 am Morgen; zwei Tage Puffer gegen den Jetlag",
       dazwischen: "Einwegmiete Los Angeles–Miami (ca. 28 Tage), Inlandflug Miami–New York (ca. 3–3,5 Std.)",
       tempo: "Ca. 57–60 Std. reine Fahrzeit (ca. 5’550 km), realistisch mit Pausen und Stau ca. 64–70 Std. im Auto, an 12 Fahrtagen: Austin–New Orleans ca. 8 Std. (realistisch ca. 9,5–10 Std.), 5 Tage mit 4,5–7 Std., die übrigen 1–5 Std.; dazu ein Inlandflug.",
@@ -88,7 +88,7 @@ window.START = {
       route: "Los Angeles, Las Vegas, Kanab, Monument Valley, Albuquerque, Amarillo, Fort Worth, Houston, New Orleans, Memphis, St. Louis, Chicago, Sandusky (Cedar Point), Niagarafälle, Finger Lakes, New York",
       stationen: "16 Stationen",
       laender: "USA (Kalifornien bis New York, Texas, Louisiana)",
-      hinflug: "Zürich–Los Angeles ca. 12,25 Std. direkt mit SWISS (im Sommer 2026 täglich ausser Do); Hin- und Rückflug für alle vier ca. 4’000 CHF",
+      hinflug: "Zürich–Los Angeles ca. 12,25 Std. direkt mit SWISS (im Sommer 2026 täglich ausser Do); Hin- und Rückflug für alle vier geschätzt ca. 4’400–6’000 CHF",
       rueckflug: "Direktflug New York (JFK)–Zürich ca. 7,75–8 Std. (SWISS, täglich) am Mi, 21.07.2027, Ankunft Do, 22.07.2027 am Morgen; zwei Tage Puffer gegen den Jetlag",
       dazwischen: "Einwegmiete Los Angeles–New York (ca. 28 Tage), kein Inlandflug, in New York ohne Auto",
       tempo: "Ca. 65–72 Std. reine Fahrzeit (ca. 6’700 km), realistisch mit Pausen und Stau ca. 75–84 Std. im Auto, an 15 Fahrtagen: 5 Tage mit 5–6,5 Std., die übrigen 3–5 Std.; von Albuquerque bis Houston drei Fahrtage hintereinander.",
@@ -102,7 +102,7 @@ window.START = {
         "Monument Valley, Kanab, Niagara",
         "Space Center Houston, New Orleans, Chicago",
         "Cedar Point, City Museum, Sumpftour",
-        "Flugangebot ca. 4’000 CHF, kein Inlandflug"
+        "Ein Gabelflug, kein Inlandflug"
       ],
       contra: [
         "Teuer (ca. {plan:usamitte} CHF)",
