@@ -422,7 +422,7 @@ REISEN.asien = {
   budget: {
     naechte: 32,
     total: "18’000",
-    spanne: "14’650–22’250",
+    spanne: "14’500–22’500",
     proTag: "ca. 560 CHF pro Tag, ca. 4’500 pro Person",
     posten: [
       [
@@ -462,10 +462,10 @@ REISEN.asien = {
         "900",
         "Reisekranken- und Annullationsschutz, Reiseapotheke"
       ],
-      ["Reserve (ca. 5 %)", "700–1’050", "850", "Souvenirs, Wäsche, Unvorhergesehenes"],
+      ["Reserve (ca. 5 %)", "550–1’300", "850", "Souvenirs, Wäsche, Unvorhergesehenes"],
       [
         "<strong>Total</strong>",
-        "<strong>14’650–22’250</strong>",
+        "<strong>14’500–22’500</strong>",
         "<strong>ca. 18’000</strong>",
         "ca. 560 CHF pro Tag, ca. 4’500 pro Person"
       ]

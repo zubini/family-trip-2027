@@ -628,7 +628,7 @@ REISEN.usamitte = {
         "700",
         "ESTA ca. 40 USD pro Person, eSIM, Reiseversicherung mit hoher Deckung (falls nicht schon über eine Jahresversicherung abgedeckt)"
       ],
-      ["Reserve (ca. 5 %)", "1’250–1’850", "1’450", "Souvenirs, Wäsche, Unvorhergesehenes"]
+      ["Reserve (ca. 5 %)", "1’270–1’870", "1’450", "Souvenirs, Wäsche, Unvorhergesehenes"]
     ],
     stationen: [
       ["1. Los Angeles (2)", "800–1’270"],
@@ -657,8 +657,8 @@ REISEN.usamitte = {
     ],
     naechte: 32,
     total: "30’500",
-    spanne: "25’480–37’980",
-    proTag: "ca. 950 CHF pro Tag, ca. 7’600 pro Person"
+    spanne: "25’500–38’000",
+    proTag: "ca. 950 CHF pro Tag, ca. 7’650 pro Person"
   },
   tippsIntro: "Einreise, Gesundheit, Sicherheit und Praktisches für die Reise mit 2 Erwachsenen und 2 Kids.",
   tipps: [

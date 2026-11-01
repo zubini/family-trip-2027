@@ -552,7 +552,7 @@ REISEN.usa = {
         "700",
         "ESTA ca. 40 USD pro Person, eSIM, Reiseversicherung mit hoher Deckung (falls nicht schon über eine Jahresversicherung abgedeckt)"
       ],
-      ["Reserve (ca. 5 %)", "1’300–1’900", "1’550", "Souvenirs, Wäsche, Unvorhergesehenes"]
+      ["Reserve (ca. 5 %)", "1’350–1’720", "1’360", "Souvenirs, Wäsche, Unvorhergesehenes"]
     ],
     stationen: [
       ["1. Los Angeles (2)", "900–1’590"],
@@ -578,9 +578,9 @@ REISEN.usa = {
       "Alle Beträge sind Richtwerte in CHF (Schätzungen, nicht verbindlich). Flug-, Hotel- und Mietwagenpreise im Juli schwanken stark; aktuelle Preise vor der Buchung vergleichen."
     ],
     naechte: 32,
-    total: "32’200",
-    spanne: "26’950–39’680",
-    proTag: "ca. 1’010 CHF pro Tag, ca. 8’050 pro Person"
+    total: "32’000",
+    spanne: "27’000–39’500",
+    proTag: "ca. 1’000 CHF pro Tag, ca. 8’000 pro Person"
   },
   tippsIntro: "Einreise, Gesundheit, Sicherheit und Praktisches für die Reise mit 2 Erwachsenen und 2 Kids.",
   tipps: [
