@@ -113,22 +113,22 @@ window.START = {
       ]
     },
     asien: {
-      steckbrief: {anreise: "Flug nach Singapur, ca. 12–13 Std.", unterwegs: "Zug, Bus, Transfer und Fähre ca. 56–66 Std.", highlights: "Tioman, Taman Negara, Perhentian, Koh Tao, Bangkok"},
+      steckbrief: {anreise: "Flug nach Singapur, ca. 12–13 Std.", unterwegs: "Zug, Bus, Transfer und Fähre ca. 47–56 Std.", highlights: "Tioman, Taman Negara, Kuala Lumpur, Koh Tao, Bangkok"},
       name: "Malaysia / Thailand",
-      zusatz: "von Singapur über Tioman, Kuala Lumpur, Taman Negara und die Perhentians nach Bangkok",
+      zusatz: "von Singapur über Tioman, Taman Negara und Kuala Lumpur, mit dem Zug nach Thailand und bis Bangkok",
       passt: "Schnorcheln, tropische Inseln und Strand im Vordergrund stehen, ihr dazu Kuala Lumpur, Regenwald, Singapur und Bangkok erleben möchtet.",
-      kurz: "Fünf Wochen über Land und Wasser: Singapur, Tioman, Kuala Lumpur, der Regenwald von Taman Negara, die Perhentians, der Golf von Thailand und Bangkok.",
-      route: "Singapur, Pulau Tioman, (über Mersing) Kuala Lumpur, Taman Negara, Perhentian Islands, (über die Grenze) Songkhla, Khanom, Koh Samui, Koh Tao, Hua Hin, Bangkok",
-      stationen: "11 Stationen und 1 Zwischenübernachtung",
+      kurz: "Fünf Wochen über Land und Wasser: Singapur, Tioman, der Regenwald von Taman Negara, Kuala Lumpur, mit dem Zug nach Thailand, Khanom, Koh Samui, Koh Tao und Bangkok.",
+      route: "Singapur, Pulau Tioman, (über Mersing) Taman Negara, Kuala Lumpur, (Zug über die Grenze) Songkhla, Khanom, Koh Samui, Koh Tao, Hua Hin, Bangkok",
+      stationen: "10 Stationen und 1 Zwischenübernachtung",
       laender: "Singapur, Malaysia, Thailand",
       hinflug: "Direktflug Zürich–Singapur ca. 12–13 Std.",
       rueckflug: "Direktflug Bangkok–Zürich ca. 11,5–12 Std. am Do, 22.07.2027 um die Mittagszeit, Ankunft am Abend; zwei Tage Puffer gegen den Jetlag",
-      dazwischen: "Keine Flüge dazwischen; wo möglich Zug (Kluang–Kuala Lumpur, Hat Yai–Nakhon Si Thammarat, Chumphon–Hua Hin–Bangkok), sonst Bus, privater Transfer und Fähre",
-      tempo: "Ca. 47–56 Std. reine Reisezeit mit Zug, Bus, Transfer und Fähre, realistisch mit Wartezeiten ca. 56–66 Std.; längster Reisetag Perhentian–Songkhla mit ca. 8,5–9,5 Std., danach ein Ruhetag in Songkhla; weitere längere Tage Singapur–Tioman, Mersing–Kuala Lumpur, Songkhla–Khanom, Taman Negara–Perhentian und Koh Tao–Hua Hin (je ca. 5–7 Std.); meist 2–4 Nächte pro Station",
-      gesamt: "Ca. 92–104 Std. Tür zu Tür: Bahn Brig-Glis–Zürich Flughafen (ca. 2,5 Std.), ca. 2 Std. Wartezeit am Flughafen, Flüge und Transfers zusammen ca. 36–38 Std., dazu ca. 56–66 Std. mit Bus, Transfer, Zug und Fähre; niemand muss selber fahren. Uhr +6 Std. (Thailand +5 Std.), Jetlag vor allem nach der Ankunft.",
-      wetter: "Kuala Lumpur, Taman Negara und Bangkok mit kurzen Gewittern am Nachmittag; die Ostküste Malaysias (Tioman, Perhentian) und der Golf von Thailand (Samui, Tao) sind meist ruhiger.",
+      dazwischen: "Keine Flüge dazwischen; wo möglich Zug (Kuala Lumpur–Hat Yai, Hat Yai–Nakhon Si Thammarat, Chumphon–Hua Hin–Bangkok), sonst Bus, privater Transfer und Fähre",
+      tempo: "Ca. 40–47 Std. reine Reisezeit mit Zug, Bus, Transfer und Fähre, realistisch mit Wartezeiten ca. 47–56 Std.; längste Reisetage Kuala Lumpur–Songkhla (ca. 7,5–8,5 Std., fast nur Zug) und Koh Tao–Hua Hin (ca. 7–8 Std.); weitere längere Tage Singapur–Tioman, Mersing–Taman Negara und Songkhla–Khanom (je ca. 5–6,5 Std.); meist 2–5 Nächte pro Station",
+      gesamt: "Ca. 83–94 Std. Tür zu Tür: Bahn Brig-Glis–Zürich Flughafen (ca. 2,5 Std.), ca. 2 Std. Wartezeit am Flughafen, Flüge und Transfers zusammen ca. 36–38 Std., dazu ca. 47–56 Std. mit Bus, Transfer, Zug und Fähre; niemand muss selber fahren. Uhr +6 Std. (Thailand +5 Std.), Jetlag vor allem nach der Ankunft.",
+      wetter: "Kuala Lumpur, Taman Negara und Bangkok mit kurzen Gewittern am Nachmittag; die Ostküste Malaysias (Tioman) und der Golf von Thailand (Samui, Tao) sind meist ruhiger.",
       einreise: "Singapur und Malaysia visafrei. Thailand: seit 15.09.2026 nur noch 30 Tage visafrei und höchstens zwei Landgrenz-Einreisen pro Jahr, Länderliste prüfen. Online-Anmeldungen (SG Arrival Card, MDAC, TDAC).",
-      hoehepunkte: "Schnorcheln auf Tioman, den Perhentians, Samui und Koh Tao, Petronas Towers und Batu Caves in Kuala Lumpur, Hängebrücken und Nachtwanderung in Taman Negara, Delfine bei Khanom, Ang Thong, Grand Palace und Wat Arun in Bangkok.",
+      hoehepunkte: "Schnorcheln auf Tioman, Samui und Koh Tao (Koh Nang Yuan), Petronas Towers und Batu Caves in Kuala Lumpur, Hängebrücken und Nachtwanderung in Taman Negara, Delfine bei Khanom, Ang Thong, Grand Palace und Wat Arun in Bangkok.",
       teens: "Schnorcheln, Inselhopping, Nachtwanderung im Dschungel, Hängebrücken, Wasserparks, Sentosa mit Universal Studios, Kajak.",
       pro: [
         "Die meisten Schnorchel- und Strandtage",
@@ -139,7 +139,7 @@ window.START = {
       ],
       contra: [
         "Viele Umstiege mit Gepäck",
-        "Ein Reisetag mit 8,5–9,5 Std., viele Ortswechsel",
+        "Zwei Reisetage mit 7,5–8,5 Std.",
         "Regenzeit und schwüle Hitze",
         "Dengue-Mücken, kein Leitungswasser",
         "Jetlag (+6 Std.), viel CO₂"
@@ -190,7 +190,7 @@ window.START = {
       usamitte: [1, "Santa Monica am Pazifik, Galveston als Option, Stadtstrände am Michigansee und der Strand am Eriesee bei Cedar Point; kein warmes, klares Meer."],
       asien: [
         5,
-        "Tioman, Perhentian Islands, Khanom, Koh Samui, Koh Tao und Hua Hin: tropische Strände mit ca. 29 °C warmem Wasser an fast jeder zweiten Station."
+        "Tioman, Khanom, Koh Samui, Koh Tao und Hua Hin: tropische Strände mit ca. 29 °C warmem Wasser an fast jeder zweiten Station, zusammen 18 Nächte am Meer."
       ],
     },
     {
@@ -202,8 +202,8 @@ window.START = {
       usa: [2, "Drei Nächte in Key Largo mit Bootstour zum einzigen Korallenriff an der Festlandküste der USA, dazu die Steinmolen bei Destin; das Riff ist weniger farbig als in Südostasien."],
       usamitte: [0, "Kein Schnorcheln auf der Route."],
       asien: [
-        5,
-        "Tioman, Perhentian Islands, Koh Samui und Koh Tao: fast jede Inselstation hat Riffe, Schildkröten und Schnorchelboote."
+        4,
+        "Tioman (4 Nächte) und Koh Tao (5 Nächte) mit Riffen, Schildkröten und Schnorchelbooten, dazu Ang Thong ab Koh Samui; das klarste Wasser Malaysias (Perhentians) ist nicht auf der Route."
       ],
     },
     {
@@ -236,7 +236,7 @@ window.START = {
       usamitte: [4, "Sehr gute Spitäler, aber sehr teuer (Reiseversicherung mit hoher Deckung nötig); Hitze im Südwesten und an der Golfküste, Gewitter."],
       asien: [
         3,
-        "Singapur sehr sicher; in Malaysia und Thailand Dengue-Mückenschutz, kein Leitungswasser, Impfstatus vorab klären; auf den Inseln (Tioman, Perhentian) ist ein Spital weit weg, Bootsfahrten bei Wellengang."
+        "Singapur sehr sicher; in Malaysia und Thailand Dengue-Mückenschutz, kein Leitungswasser, Impfstatus vorab klären; auf Tioman und Koh Tao ist ein grösseres Spital weit weg, Bootsfahrten bei Wellengang."
       ],
     },
     {
@@ -255,8 +255,8 @@ window.START = {
       usa: [1, "Ca. 104–111 Stunden Tür zu Tür: zwei Langstreckenflüge mit Einreise und Jetlag, ein Inlandflug, dazu viel Zeit im Auto (ca. 64–70 Stunden an 12 Fahrtagen, ein Tag mit ca. 9,5–10 Stunden)."],
       usamitte: [1, "Ca. 108–118 Stunden Tür zu Tür: zwei Langstreckenflüge mit Jetlag (−9 Std.) und die meiste Zeit im Auto (ca. 75–84 Stunden an 15 Fahrtagen, drei Fahrtage hintereinander durch Texas)."],
       asien: [
-        2,
-        "Ca. 92–104 Stunden Tür zu Tür: zwei Direktflüge mit Jetlag, dazu ca. 56–66 Stunden mit Bus, Transfer, Zug und Fähre (ein Reisetag mit ca. 8,5–9,5 Stunden) und viele Umstiege mit Gepäck; niemand muss selber fahren."
+        3,
+        "Ca. 83–94 Stunden Tür zu Tür: zwei Direktflüge mit Jetlag, dazu ca. 47–56 Stunden mit Zug, Bus, Transfer und Fähre (zwei Reisetage mit ca. 7,5–8,5 Stunden) und viele Umstiege mit Gepäck; niemand muss selber fahren."
       ],
     },
     {
