@@ -157,9 +157,10 @@ REISEN.usamitte = {
       fakten: [
         "<strong>Dauer:</strong> 2 Nächte: am Ankunftsabend Strip und Bellagio, am zweiten Tag Pool und Hotels am Strip (Venetian, Caesars Palace), am Abend High Roller, Fremont Street oder eine Show.",
         "<strong>Hitze:</strong> Im Juli werden oft 40–45 °C erreicht. Aktivitäten morgens und abends, tagsüber klimatisierte Hotels. Viel Wasser trinken.",
-        "<strong>Hinweis:</strong> Glücksspiel ist erst ab 21 Jahren erlaubt. Viele Hotels verlangen zusätzlich «Resort Fees» pro Nacht (oft über 40 USD)."
+        "<strong>Hinweis:</strong> Glücksspiel ist erst ab 21 Jahren erlaubt. Viele Hotels verlangen zusätzlich «Resort Fees» pro Nacht (oft über 40 USD).",
+        "<strong>Preise:</strong> Sphere («Postcard from Earth») je nach Platz und Zeit ca. 130–175 USD pro Person, für vier also ca. 520–700 USD; eine grosse Show (z.B. Cirque du Soleil) ähnlich. High Roller ca. 25–40 USD pro Person. Meist reicht eines davon."
       ],
-      ausserdem: "Neon Museum (alte Leuchtreklamen), Sphere (nur bei Veranstaltungen), Shark Reef Aquarium im Mandalay Bay, Achterbahn im New York-New York.",
+      ausserdem: "Neon Museum (alte Leuchtreklamen), Sphere mit dem Film «Postcard from Earth» (ca. 50 Min.), Shark Reef Aquarium im Mandalay Bay, Achterbahn im New York-New York.",
       bilder: [
         {titel: "Strip", suche: "Las Vegas Strip night|Las Vegas Boulevard", stichwort: "las vegas"},
         {titel: "Bellagio", suche: "Fountains of Bellagio", stichwort: "bellagio"},
@@ -211,8 +212,9 @@ REISEN.usamitte = {
       teens: "Valley Drive (ca. 27 km Schotterpiste, mit eigenem Fahrzeug oder geführter Jeeptour der Navajo), Fotostopp am Forrest Gump Point auf der Strasse 163, Sonnenaufgang vom Balkon des The View Hotel (früh buchen).",
       fakten: [
         "<strong>Zeit:</strong> Die Navajo Nation führt die Sommerzeit ein, Arizona nicht: Die Uhr springt um eine Stunde. Zeiten für Touren und Abfahrten genau prüfen.",
-        "<strong>Regeln:</strong> Der Park hat eigene Navajo-Regeln (Eintritt pro Person, keine Drohnen, nicht von der Piste abfahren). Der Nationalpark-Jahrespass gilt hier nicht.",
-        "<strong>Hinweis:</strong> Die Piste ist bei Regen oft gesperrt. Unterkünfte sind einfach und knapp, früh buchen."
+        "<strong>Regeln:</strong> Der Park hat eigene Navajo-Regeln (Eintritt pro Person, seit 01.01.2026 erhöht, Betrag vor Ort prüfen; keine Drohnen, nicht von der Piste abfahren). Der Nationalpark-Jahrespass gilt hier nicht.",
+        "<strong>Hinweis:</strong> Die Piste ist bei Regen oft gesperrt. Unterkünfte sind einfach und knapp, früh buchen.",
+        "<strong>Jeeptour:</strong> geführte Touren der Navajo je nach Dauer ca. 65–150 USD pro Person, Parkeintritt meist nicht inbegriffen; für vier also ca. 300–600 USD."
       ],
       ausserdem: "Goosenecks State Park, Valley of the Gods (Schotterstrasse), Mexican Hat (Felsformation), Four Corners Monument (optional, ca. 1,5 Std.).",
       bilder: [
@@ -604,16 +606,21 @@ REISEN.usamitte = {
       ],
       [
         "Unterkunft (Familienzimmer, 3 Sterne)",
-        "6’200–9’000",
-        "6’900",
-        "ca. 110–420 CHF pro Nacht inkl. Steuern (ein Zimmer mit zwei Queen-Betten); Los Angeles, Monument Valley, Chicago und New York am teuersten, in Las Vegas zusätzlich «Resort Fees»"
+        "6’700–9’800",
+        "8’000",
+        "ca. 130–500 CHF pro Nacht inkl. Steuern und «Resort Fees» (ein Zimmer mit zwei Queen-Betten); am teuersten New York (ca. 450–550 USD), Chicago (ca. 330–420 USD), Santa Monica, Monument Valley und Cedar Point (ca. 300–450 USD)"
       ],
-      ["Verpflegung (Restaurants, Imbiss, Getränke)", "4’500–8’000", "6’000", "ca. 140–250 CHF pro Tag für 4 Personen"],
+      [
+        "Verpflegung (Restaurants, Imbiss, Getränke)",
+        "5’000–8’500",
+        "6’600",
+        "ca. 220–300 USD pro Tag für 4 Personen inkl. Steuern und 15–20 % Trinkgeld (Frühstück oft im Motel inbegriffen, sonst ca. 40–60 USD)"
+      ],
       [
         "Aktivitäten und Eintritte",
-        "3’100–4’500",
-        "3’500",
-        "Show in Las Vegas, Sandboards bei Kanab, Monument Valley mit Jeep-Tour, Sandia Peak Tramway, Meow Wolf, Space Center Houston, Sumpftour und Raddampfer, Gateway Arch, City Museum, Skydeck und Bootstour, Cedar Point, Maid of the Mist, Aussichtsplattform und Broadway in New York usw."
+        "3’900–6’300",
+        "4’900",
+        "für 4 Personen grob: Sphere oder Show in Las Vegas ca. 520–700 USD, Jeeptour Monument Valley ca. 300–600 USD, Broadway ca. 520–800 USD, Freiheitsstatue und Aussichtsplattform ca. 300 USD, Cedar Point ca. 370 USD, Chicago (Skydeck, Bootstour, Museum) ca. 500 USD, Sumpftour und Raddampfer ca. 400 USD, Graceland ca. 280 USD, Sandia Peak Tramway und Meow Wolf ca. 340 USD, Gateway Arch und City Museum ca. 200 USD, Niagara ca. 220 USD, Space Center Houston, Rodeo usw.; zusammen ca. 5’500–6’000 USD"
       ],
       [
         "ESTA, Versicherung, eSIM",
@@ -621,36 +628,37 @@ REISEN.usamitte = {
         "700",
         "ESTA ca. 40 USD pro Person, eSIM, Reiseversicherung mit hoher Deckung (falls nicht schon über eine Jahresversicherung abgedeckt)"
       ],
-      ["Reserve (ca. 5 %)", "1’100–1’650", "1’300", "Souvenirs, Wäsche, Unvorhergesehenes"]
+      ["Reserve (ca. 5 %)", "1’250–1’850", "1’450", "Souvenirs, Wäsche, Unvorhergesehenes"]
     ],
     stationen: [
-      ["1. Los Angeles (2)", "700–1’100"],
-      ["2. Las Vegas (2)", "830–1’320"],
-      ["3. Kanab (2)", "620–990"],
-      ["4. Monument Valley (1)", "620–990"],
-      ["5. Albuquerque (2)", "680–1’080"],
-      ["6. Amarillo (1)", "250–390"],
-      ["7. Fort Worth (1)", "260–410"],
-      ["8. Houston (2)", "580–920"],
-      ["9. New Orleans (2)", "810–1’290"],
-      ["10. Memphis (1)", "300–480"],
-      ["11. St. Louis (2)", "610–960"],
-      ["12. Chicago (4)", "1’830–2’890"],
-      ["13. Sandusky (2)", "740–1’180"],
-      ["14. Niagarafälle (1)", "340–530"],
-      ["15. Finger Lakes (3)", "800–1’260"],
-      ["16. New York (4)", "2’570–4’070"]
+      ["1. Los Angeles (2)", "800–1’270"],
+      ["2. Las Vegas (2)", "950–1’520"],
+      ["3. Kanab (2)", "710–1’140"],
+      ["4. Monument Valley (1)", "710–1’140"],
+      ["5. Albuquerque (2)", "780–1’240"],
+      ["6. Amarillo (1)", "290–450"],
+      ["7. Fort Worth (1)", "300–470"],
+      ["8. Houston (2)", "670–1’060"],
+      ["9. New Orleans (2)", "930–1’480"],
+      ["10. Memphis (1)", "350–550"],
+      ["11. St. Louis (2)", "700–1’100"],
+      ["12. Chicago (4)", "2’100–3’320"],
+      ["13. Sandusky (2)", "850–1’360"],
+      ["14. Niagarafälle (1)", "390–610"],
+      ["15. Finger Lakes (3)", "920–1’450"],
+      ["16. New York (4)", "2’960–4’680"]
     ],
     hinweise: [
       "Preise für die Kids: Der Sohn (12) und die Tochter (14) zahlen bei Eintritten teils Kinderpreise (bis 11 bzw. 12 Jahre), oft aber den Vollpreis.",
+      "Grösste Posten neben Flug und Mietwagen: Unterkunft (Juli ist Hochsaison, viele Hotels verlangen zusätzliche Gebühren), Essen mit Steuer und Trinkgeld und die Eintritte, die in den USA für Teenager meist schon den Erwachsenenpreis kosten.",
       "Sparhebel: ein Zimmer mit zwei Queen-Betten, Motels mit Frühstück, Imbiss statt Restaurant, Hotels mit Gratis-Parkplatz ausserhalb der Innenstädte, Gratis-Museen und -Parks nutzen.",
       "Gerechnet mit ca. 0,83 CHF pro USD (Kurs Oktober 2026); Preise in den USA meist ohne Verkaufssteuer angeschrieben, im Restaurant kommen 15–20 % Trinkgeld dazu.",
       "Alle Beträge sind Richtwerte in CHF (Schätzungen, nicht verbindlich). Flug-, Hotel- und Mietwagenpreise im Juli schwanken stark; aktuelle Preise vor der Buchung vergleichen."
     ],
     naechte: 32,
-    total: "27’250",
-    spanne: "23’500–34’700",
-    proTag: "ca. 850 CHF pro Tag, ca. 6’800 pro Person"
+    total: "30’500",
+    spanne: "25’480–37’980",
+    proTag: "ca. 950 CHF pro Tag, ca. 7’600 pro Person"
   },
   tippsIntro: "Einreise, Gesundheit, Sicherheit und Praktisches für die Reise mit 2 Erwachsenen und 2 Kids.",
   tipps: [

@@ -81,6 +81,10 @@ window.QUELLEN = {
     {
       titel: "USA Süd (Los Angeles – Florida – New York)",
       links: [
+        ["Broadway League via BroadwayWorld: Saison 2025/26, Durchschnittspreis ca. 131 USD pro Ticket", "https://www.broadwayworld.com/industry/article/Broadway-Set-Another-Box-Office-Record-in-2025-2026-Crossing-191-Billion-20260528"],
+        ["Hellotickets: Sphere «Postcard from Earth», Tickets ca. 129–175 USD", "https://www.hellotickets.com/us/las-vegas/theatre/postcard-from-earth-tickets/2025-07-29,1930/2186541/2"],
+        ["Navajo Nation Parks: Gebührenerhöhung ab 01.01.2026, Tour-Anbieter Monument Valley", "https://navajonationparks.org/guided-tour-operators/monument-valley-tour-operators/"],
+        ["Expedia: Monument Valley 4x4 Navajo Guided Tour (ca. 85 USD pro Person, ohne Parkeintritt)", "https://www.expedia.com/things-to-do/monument-valley-4x4-navajo-guided-tour.a48197193.activity-details"],
         ["NHC: Hurrikan-Klimatologie (Saison 1. Juni–30. November, Höhepunkt um den 10. September)", "https://www.nhc.noaa.gov/climo/"],
         ["Wikipedia: Klima von Miami (Juli ca. 33 °C, Gewitter am Nachmittag)", "https://en.wikipedia.org/wiki/Climate_of_Miami"],
         ["Seatemperature: Wassertemperatur Florida Keys im Juli (ca. 30 °C)", "https://seatemperature.net/monthly/florida-keys-sea-temperature-in-july-9222"],
@@ -130,6 +134,10 @@ window.QUELLEN = {
     {
       titel: "USA Mitte (Los Angeles – Chicago – New York)",
       links: [
+        ["Broadway League via BroadwayWorld: Saison 2025/26, Durchschnittspreis ca. 131 USD pro Ticket", "https://www.broadwayworld.com/industry/article/Broadway-Set-Another-Box-Office-Record-in-2025-2026-Crossing-191-Billion-20260528"],
+        ["Hellotickets: Sphere «Postcard from Earth», Tickets ca. 129–175 USD", "https://www.hellotickets.com/us/las-vegas/theatre/postcard-from-earth-tickets/2025-07-29,1930/2186541/2"],
+        ["Navajo Nation Parks: Gebührenerhöhung ab 01.01.2026, Tour-Anbieter Monument Valley", "https://navajonationparks.org/guided-tour-operators/monument-valley-tour-operators/"],
+        ["Expedia: Monument Valley 4x4 Navajo Guided Tour (ca. 85 USD pro Person, ohne Parkeintritt)", "https://www.expedia.com/things-to-do/monument-valley-4x4-navajo-guided-tour.a48197193.activity-details"],
         ["The Better Vacation: Skydeck Chicago (Preise)", "https://thebettervacation.com/chicago/skydeck-chicago/"],
         ["Tiqets: Skydeck und Architektur-Bootstour Chicago", "https://www.tiqets.com/en/skydeck-chicago-chicago-architecture-river-cruise-b45068"],
         ["Freizeitpark-Welt: Cedar Point (Preise 2026)", "https://www.freizeitpark-welt.de/freizeitparks/cedarpoint/preise/"],
