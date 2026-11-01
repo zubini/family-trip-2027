@@ -5,7 +5,7 @@ module.exports = {
   projektion: 'eq', laenge: [96.9, 105.8], breitengrad: [0.55, 14.35], breite: 712,
   laender: ['SGP', 'MYS', 'THA'],
   orte: {
-    SG: [1.3521, 103.8198], MS: [2.4330, 103.8400], TI: [2.8200, 104.1700], KL: [3.1390, 101.6869],
+    SG: [1.3521, 103.8198], MS: [2.4330, 103.8400], TI: [2.8200, 104.1700], CHE: [4.1300, 103.3900], KTG: [5.3300, 103.1400],
     KB: [5.8310, 102.5600], PER: [5.9100, 102.7400], GT: [5.4164, 100.3327], BW: [5.3990, 100.3638],
     AR: [6.4330, 100.2770], PB: [6.6620, 100.3170], HY: [7.0035, 100.4750], NST: [8.4300, 99.9600],
     KH: [9.2350, 99.8590], DS: [9.3300, 99.7200], SMP: [9.5320, 99.9330], SM: [9.5120, 100.0136],
@@ -15,8 +15,8 @@ module.exports = {
   wege: [
     ['bus', 'Singapur – Mersing', ['SG', [1.46, 103.76], [1.73, 103.90], [2.20, 103.88], 'MS']],
     ['ferry', 'Mersing – Pulau Tioman', ['MS', [2.58, 104.02], 'TI']],
-    ['bus', 'Mersing – Kuala Lumpur', ['MS', [2.03, 103.32], [2.51, 102.82], [2.47, 102.23], [2.72, 101.94], 'KL']],
-    ['bus', 'Kuala Lumpur – Kuala Besut', ['KL', [3.25, 101.75], [3.52, 101.91], [3.79, 101.86], [4.18, 102.05], [4.88, 101.97], [5.53, 102.20], [5.77, 102.22], [5.74, 102.49], 'KB']],
+    ['bus', 'Mersing – Kuantan – Cherating', ['MS', [3.15, 103.45], [3.81, 103.33], 'CHE']],
+    ['bus', 'Cherating – Kuala Terengganu – Kuala Besut', ['CHE', [4.75, 103.42], 'KTG', [5.65, 102.80], 'KB']],
     ['ferry', 'Kuala Besut – Perhentian Islands', ['KB', [5.87, 102.65], 'PER']],
     ['bus', 'Kuala Besut – Penang (über Jeli und Gerik)', ['KB', [5.74, 102.49], [5.80, 102.15], [5.70, 101.84], [5.43, 101.13], [5.68, 100.92], [5.36, 100.56], [5.35, 100.42], [5.355, 100.33], 'GT']],
     ['ferry', 'George Town – Butterworth', ['GT', 'BW']],
@@ -33,13 +33,13 @@ module.exports = {
     ['train', 'Hua Hin – Bangkok', ['HH', [12.80, 99.96], [13.111, 99.944], [13.536, 99.817], [13.8199, 100.062], [13.80, 100.30], 'BK']]
   ],
   stationen: [
-    [1, 'SG', 'r'], [2, 'TI', 'r'], [3, 'KL', 'l'], [4, 'PER', 'r'], [5, 'GT', 'l'], [6, 'KH', 'r'],
-    [7, 'SM', 'r'], [8, 'TAO', 'r'], [9, 'HH', 'r'], [10, 'BK', 'r']
+    [1, 'SG', 'r'], [2, 'TI', 'r'], [3, 'CHE', 'r'], [4, 'PER', 'r'], [5, 'KH', 'r'],
+    [6, 'SM', 'r'], [7, 'TAO', 'r'], [8, 'HH', 'r'], [9, 'BK', 'r']
   ],
-  zwischenstopps: [['Kuala Besut', 'KB', 14], ['Hat Yai', 'HY', 0]],
-  umstiege: [['Mersing', 'MS', 'l']],
+  zwischenstopps: [['Penang', 'GT', 0], ['Hat Yai', 'HY', 0]],
+  umstiege: [['Mersing', 'MS', 'l'], ['Kuala Besut', 'KB', 'l']],
   beschriftungen: [
-    ['Malaysia', 4.2, 101.35, 'cn'], ['Thailand', 13.2, 99.25, 'cn'], ['Indonesien', 1.2, 100.6, 'cn'],
+    ['Malaysia', 3.6, 102.2, 'cn'], ['Thailand', 13.2, 99.25, 'cn'], ['Indonesien', 1.2, 100.6, 'cn'],
     ['Golf von Thailand', 11.2, 101.6, 'sea'], ['Andamanensee', 7.6, 97.75, 'sea'],
     ['Strasse von Malakka', 4.0, 99.75, 'sea', -55], ['Südchinesisches Meer', 5.2, 104.7, 'sea']
   ],

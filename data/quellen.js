@@ -68,8 +68,8 @@ window.QUELLEN = {
         ["KTM: Fahrplan Padang Besar–Hat Yai 2025 (PDF)", "https://www.ktmb.com.my/assets/pdf/2025/Jadual-Sawasdee-A4.pdf"],
         ["Thai Train Guide: Pendelzug Hat Yai–Padang Besar", "https://www.thaitrainguide.com/international/hat-yai-to-padang-besar/"],
         ["train36.com: ETS Butterworth–Padang Besar", "https://www.train36.com/ets-butterworth-to-padang-besar.html"],
-        ["goasia.cc: Mersing–Kuala Lumpur", "https://goasia.cc/en/malaysia/mersing-to-kuala-lumpur"],
-        ["12go.asia: Kuala Lumpur–Kuala Besut", "https://12go.asia/en/travel/kuala-lumpur/kuala-besut?z=16187692"],
+        ["OSRM: Fahrzeiten Mersing–Cherating (ca. 240 km) und Cherating–Kuala Besut (ca. 270 km) (Routenplaner)", "https://router.project-osrm.org"],
+        ["EDA: Reisehinweise Thailand (Grenzprovinzen im Süden)", "https://www.eda.admin.ch/de/land-thailand"],
         ["travel-penang-malaysia.com: Penang–Perhentian Islands", "https://travel-penang-malaysia.com/penang-to-perhentian-islands.html"],
         ["12go.asia: Hat Yai–Khanom", "https://12go.com/en/travel/hat-yai/khanom?z=7173817"],
         ["12go.asia: Koh Tao–Bangkok und Hua Hin (Lomprayah)", "https://12Go.asia/en/travel/koh-tao/bangkok"]
