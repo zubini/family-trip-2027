@@ -113,33 +113,33 @@ window.START = {
       ]
     },
     asien: {
-      steckbrief: {anreise: "Flug nach Singapur, ca. 12–13 Std.", unterwegs: "Zug, Bus, Transfer und Fähre ca. 47–56 Std.", highlights: "Tioman, Taman Negara, Kuala Lumpur, Koh Tao, Bangkok"},
+      steckbrief: {anreise: "Flug nach Singapur, ca. 12–13 Std.", unterwegs: "Zug, Bus, Transfer und Fähre ca. 47–56 Std.", highlights: "Tioman, Kuala Lumpur, Langkawi, Koh Tao, Bangkok"},
       name: "Malaysia / Thailand",
-      zusatz: "von Singapur über Tioman, Taman Negara und Kuala Lumpur, mit dem Zug nach Thailand und bis Bangkok",
-      passt: "Schnorcheln, tropische Inseln und Strand im Vordergrund stehen, ihr dazu Kuala Lumpur, Regenwald, Singapur und Bangkok erleben möchtet.",
-      kurz: "Fünf Wochen über Land und Wasser: Singapur, Tioman, der Regenwald von Taman Negara, Kuala Lumpur, mit dem Zug nach Thailand, Khanom, Koh Samui, Koh Tao und Bangkok.",
-      route: "Singapur, Pulau Tioman, (über Mersing) Taman Negara, Kuala Lumpur, (Zug über die Grenze) Songkhla, Khanom, Koh Samui, Koh Tao, Hua Hin, Bangkok",
-      stationen: "10 Stationen und 1 Zwischenübernachtung",
+      zusatz: "von Singapur über Tioman, Kuala Lumpur und Langkawi, mit der Fähre nach Thailand und bis Bangkok",
+      passt: "Schnorcheln, tropische Inseln und Strand im Vordergrund stehen, ihr dazu Singapur, Kuala Lumpur, Langkawi und Bangkok erleben möchtet und gern Zug fahrt.",
+      kurz: "Fünf Wochen über Land und Wasser: Singapur, Tioman, Kuala Lumpur, mit Zug und Fähre nach Langkawi, dann nach Thailand mit Khanom, Koh Samui, Koh Tao und Bangkok.",
+      route: "Singapur, Pulau Tioman, (über Mersing) Kuala Lumpur, (Zug, Fähre) Langkawi, (Fähre, über Songkhla) Khanom, Koh Samui, Koh Tao, Hua Hin, Bangkok",
+      stationen: "9 Stationen und 2 Zwischenübernachtungen",
       laender: "Singapur, Malaysia, Thailand",
       hinflug: "Direktflug Zürich–Singapur ca. 12–13 Std.",
       rueckflug: "Direktflug Bangkok–Zürich ca. 11,5–12 Std. am Do, 22.07.2027 um die Mittagszeit, Ankunft am Abend; zwei Tage Puffer gegen den Jetlag",
-      dazwischen: "Keine Flüge dazwischen; wo möglich Zug (Kuala Lumpur–Hat Yai, Hat Yai–Nakhon Si Thammarat, Chumphon–Hua Hin–Bangkok), sonst Bus, privater Transfer und Fähre",
-      tempo: "Ca. 40–47 Std. reine Reisezeit mit Zug, Bus, Transfer und Fähre, realistisch mit Wartezeiten ca. 47–56 Std.; längste Reisetage Kuala Lumpur–Songkhla (ca. 7,5–8,5 Std., fast nur Zug) und Koh Tao–Hua Hin (ca. 7–8 Std.); weitere längere Tage Singapur–Tioman, Mersing–Taman Negara und Songkhla–Khanom (je ca. 5–6,5 Std.); meist 2–5 Nächte pro Station",
+      dazwischen: "Keine Flüge dazwischen; wo möglich Zug (Kluang–Kuala Lumpur–Arau, Hat Yai–Nakhon Si Thammarat, Chumphon–Hua Hin–Bangkok), Fähren nach und ab Langkawi, sonst Bus, privater Transfer und Fähre",
+      tempo: "Ca. 40–47 Std. reine Reisezeit mit Zug, Bus, Transfer und Fähre, realistisch mit Wartezeiten ca. 47–56 Std.; längste Reisetage Kuala Lumpur–Langkawi (ca. 7–8 Std., vor allem Zug) und Koh Tao–Hua Hin (ca. 7–8 Std.); weitere längere Tage Singapur–Tioman, Mersing–Kuala Lumpur, Langkawi–Songkhla und Songkhla–Khanom (je ca. 5–6,5 Std.); meist 3–5 Nächte pro Station",
       gesamt: "Ca. 83–94 Std. Tür zu Tür: Bahn Brig-Glis–Zürich Flughafen (ca. 2,5 Std.), ca. 2 Std. Wartezeit am Flughafen, Flüge und Transfers zusammen ca. 36–38 Std., dazu ca. 47–56 Std. mit Bus, Transfer, Zug und Fähre; niemand muss selber fahren. Uhr +6 Std. (Thailand +5 Std.), Jetlag vor allem nach der Ankunft.",
-      wetter: "Kuala Lumpur, Taman Negara und Bangkok mit kurzen Gewittern am Nachmittag; die Ostküste Malaysias (Tioman) und der Golf von Thailand (Samui, Tao) sind meist ruhiger.",
+      wetter: "Kuala Lumpur und Bangkok mit kurzen Gewittern am Nachmittag, auf Langkawi Südwest-Monsun mit häufigen Schauern; die Ostküste Malaysias (Tioman) und der Golf von Thailand (Samui, Tao) sind meist ruhiger.",
       einreise: "Singapur und Malaysia visafrei. Thailand: seit 15.09.2026 nur noch 30 Tage visafrei und höchstens zwei Landgrenz-Einreisen pro Jahr, Länderliste prüfen. Online-Anmeldungen (SG Arrival Card, MDAC, TDAC).",
-      hoehepunkte: "Schnorcheln auf Tioman, Samui und Koh Tao (Koh Nang Yuan), Petronas Towers und Batu Caves in Kuala Lumpur, Hängebrücken und Nachtwanderung in Taman Negara, Delfine bei Khanom, Ang Thong, Grand Palace und Wat Arun in Bangkok.",
-      teens: "Schnorcheln, Inselhopping, Nachtwanderung im Dschungel, Hängebrücken, Wasserparks, Sentosa mit Universal Studios, Kajak.",
+      hoehepunkte: "Schnorcheln auf Tioman, Samui und Koh Tao (Koh Nang Yuan), Petronas Towers und Batu Caves in Kuala Lumpur, Seilbahn, Sky Bridge und Mangroven auf Langkawi, Delfine bei Khanom, Ang Thong, Grand Palace und Wat Arun in Bangkok.",
+      teens: "Schnorcheln, Inselhopping, Seilbahn und Sky Bridge, Mangroventour, Wasserparks, Sentosa mit Universal Studios, Kajak.",
       pro: [
         "Die meisten Schnorchel- und Strandtage",
         "Warmes Meer (ca. 29 °C) mit Riffen und Schildkröten",
-        "Kuala Lumpur, Taman Negara, Singapur und Bangkok",
+        "Kuala Lumpur, Langkawi, Singapur und Bangkok",
         "Niemand muss selber fahren",
         "Günstig (ca. {plan:asien} CHF)"
       ],
       contra: [
         "Viele Umstiege mit Gepäck",
-        "Zwei Reisetage mit 7,5–8,5 Std.",
+        "Zwei Reisetage mit 7–8 Std., Monsun auf Langkawi",
         "Regenzeit und schwüle Hitze",
         "Dengue-Mücken, kein Leitungswasser",
         "Jetlag (+6 Std.), viel CO₂"
@@ -166,8 +166,8 @@ window.START = {
       usa: [1, "Kein Regenwald; Sümpfe in Louisiana und Mangroven in den Everglades."],
       usamitte: [1, "Kein Regenwald; Sümpfe in Louisiana."],
       asien: [
-        4,
-        "Taman Negara, einer der ältesten Regenwälder der Welt, mit Hängebrücken, Nachtwanderung und Bootsfahrt, dazu der Dschungel auf Tioman."
+        2,
+        "Dschungelwanderung und Wasserfälle auf Tioman, Regenwald, Mangroven und Sky Bridge auf Langkawi; kein grosser Nationalpark mit Regenwald auf der Route."
       ],
     },
     {
@@ -214,7 +214,7 @@ window.START = {
       ],
       usa: [4, "Sandboarding auf den Dünen bei Kanab und auf White Sands, Kletterei durch den Belly of the Dragon, Sumpftour mit Alligatoren, Airboat in den Everglades, Schnorcheln am Riff, ein Roadtrip quer durchs Land."],
       usamitte: [4, "Sandboarding bei Kanab, Jeep-Tour im Monument Valley, Sumpftour mit Alligatoren, Klettern im City Museum, Achterbahnen in Cedar Point, Boot in die Gischt der Niagarafälle, ein Roadtrip quer durchs Land."],
-      asien: [4, "Nachtwanderung im Dschungel, Hängebrücken und Bootsfahrt durch Stromschnellen in Taman Negara, Schnorcheln mit Riffhaien, Kajak, Inselhopping."],
+      asien: [3, "Sky Bridge und Mangroventour auf Langkawi, Dschungelwanderung auf Tioman, Schnorcheln mit Riffhaien auf Koh Tao, Kajak, Inselhopping."],
     },
     {
       kriterium: "Städte",

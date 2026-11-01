@@ -5,7 +5,7 @@ module.exports = {
   projektion: 'eq', laenge: [96.9, 105.8], breitengrad: [0.55, 14.35], breite: 712,
   laender: ['SGP', 'MYS', 'THA'],
   orte: {
-    SG: [1.3521, 103.8198], MS: [2.4330, 103.8400], TI: [2.8200, 104.1700], CHE: [4.1300, 103.3900], KL: [3.1390, 101.6869], ML: [2.1960, 102.2480], KTH: [4.3800, 102.4000], SK: [7.2000, 100.5900], KTG: [5.3300, 103.1400],
+    SG: [1.3521, 103.8198], MS: [2.4330, 103.8400], TI: [2.8200, 104.1700], CHE: [4.1300, 103.3900], KL: [3.1390, 101.6869], ML: [2.1960, 102.2480], KTH: [4.3800, 102.4000], SK: [7.2000, 100.5900], KPL: [6.4000, 100.1300], KUAH: [6.3200, 99.8500], LGK: [6.2900, 99.7300], ST: [6.5300, 100.0700], KTG: [5.3300, 103.1400],
     KB: [5.8310, 102.5600], PER: [5.9100, 102.7400], GT: [5.4164, 100.3327], BW: [5.3990, 100.3638],
     AR: [6.4330, 100.2770], PB: [6.6620, 100.3170], HY: [7.0035, 100.4750], NST: [8.4300, 99.9600],
     KH: [9.2350, 99.8590], DS: [9.3300, 99.7200], SMP: [9.5320, 99.9330], SM: [9.5120, 100.0136],
@@ -15,10 +15,15 @@ module.exports = {
   wege: [
     ['bus', 'Singapur – Mersing', ['SG', [1.46, 103.76], [1.73, 103.90], [2.20, 103.88], 'MS']],
     ['ferry', 'Mersing – Pulau Tioman', ['MS', [2.58, 104.02], 'TI']],
-    ['car', 'Mersing – Kuantan – Jerantut – Kuala Tahan', ['MS', [2.80, 103.50], [3.81, 103.20], [3.85, 102.80], [3.94, 102.36], 'KTH']],
-    ['car', 'Kuala Tahan – Jerantut – Kuala Lumpur', ['KTH', [3.94, 102.36], [3.62, 102.10], [3.40, 101.90], 'KL']],
-    ['train', 'Kuala Lumpur – Ipoh – Padang Besar – Hat Yai', ['KL', [3.60, 101.50], [4.10, 101.25], [4.60, 101.08], [4.85, 100.74], [5.36, 100.46], [5.65, 100.49], [6.121, 100.368], [6.18, 100.37], 'AR', [6.55, 100.30], 'PB', [6.72, 100.42], [6.85, 100.45], 'HY']],
-    ['car', 'Songkhla – Hat Yai', ['SK', 'HY']],
+    ['car', 'Mersing – Kluang', ['MS', [2.20, 103.55], [2.03, 103.32]]],
+    ['train', 'Kluang – Segamat – Gemas – Kuala Lumpur (ETS)', [[2.03, 103.32], [2.50, 102.82], [2.58, 102.61], [2.72, 101.94], 'KL']],
+    ['train', 'Kuala Lumpur – Ipoh – Arau (ETS)', ['KL', [3.60, 101.50], [4.10, 101.25], [4.60, 101.08], [4.85, 100.74], [5.36, 100.46], [5.65, 100.49], [6.121, 100.368], [6.18, 100.37], 'AR']],
+    ['car', 'Arau – Kuala Perlis', ['AR', 'KPL']],
+    ['ferry', 'Kuala Perlis – Kuah (Langkawi)', ['KPL', [6.36, 100.00], 'KUAH']],
+    ['car', 'Kuah – Pantai Cenang', ['KUAH', [6.30, 99.80], 'LGK']],
+    ['ferry', 'Kuah (Langkawi) – Satun (Tammalang)', ['KUAH', [6.42, 99.92], 'ST']],
+    ['car', 'Satun – Hat Yai – Songkhla', ['ST', [6.62, 100.07], [6.80, 100.25], 'HY', 'SK']],
+    ['car', 'Songkhla – Hat Yai (Bahnhof)', ['SK', 'HY']],
     ['train', 'Hat Yai – Phatthalung – Nakhon Si Thammarat', ['HY', [7.30, 100.25], [7.62, 100.07], [7.90, 100.02], [8.16, 99.98], 'NST']],
     ['car', 'Nakhon Si Thammarat – Khanom', ['NST', [8.80, 99.92], [9.05, 99.88], 'KH']],
     ['bus', 'Khanom – Donsak', ['KH', [9.29, 99.80], 'DS']],
@@ -31,13 +36,13 @@ module.exports = {
     ['train', 'Hua Hin – Bangkok', ['HH', [12.80, 99.96], [13.111, 99.944], [13.536, 99.817], [13.8199, 100.062], [13.80, 100.30], 'BK']]
   ],
   stationen: [
-    [1, 'SG', 'r'], [2, 'TI', 'r'], [3, 'KTH', 'r'], [4, 'KL', 'l'], [5, 'SK', 'r'],
-    [6, 'KH', 'r'], [7, 'SM', 'r'], [8, 'TAO', 'r'], [9, 'HH', 'r'], [10, 'BK', 'r']
+    [1, 'SG', 'r'], [2, 'TI', 'r'], [3, 'KL', 'l'], [4, 'LGK', 'l'],
+    [5, 'KH', 'r'], [6, 'SM', 'r'], [7, 'TAO', 'r'], [8, 'HH', 'r'], [9, 'BK', 'r']
   ],
-  zwischenstopps: [['Mersing', 'MS', 0]],
-  umstiege: [['Padang Besar', 'PB', 'l'], ['Hat Yai', 'HY', 'l']],
+  zwischenstopps: [['Mersing', 'MS', 0], ['Songkhla', 'SK', 0]],
+  umstiege: [['Satun', 'ST', 'r'], ['Hat Yai', 'HY', 'l']],
   beschriftungen: [
-    ['Malaysia', 5.0, 102.2, 'cn'], ['Thailand', 13.2, 99.25, 'cn'], ['Indonesien', 1.2, 100.6, 'cn'],
+    ['Malaysia', 4.3, 102.6, 'cn'], ['Thailand', 13.2, 99.25, 'cn'], ['Indonesien', 1.2, 100.6, 'cn'],
     ['Golf von Thailand', 11.2, 101.6, 'sea'], ['Andamanensee', 7.6, 97.75, 'sea'],
     ['Strasse von Malakka', 4.0, 99.75, 'sea', -55], ['Südchinesisches Meer', 5.2, 104.7, 'sea']
   ],
