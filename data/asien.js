@@ -5,7 +5,7 @@ window.REISEN = window.REISEN || {};
 REISEN.asien = {
   titel: "Von Singapur nach Bangkok",
   menu: "Malaysia / Thailand",
-  untertitel: "Fünf Wochen über Land und Wasser: Singapur, die Ostküste Malaysias mit Tioman, Cherating und den Perhentians, Kuala Lumpur, dann mit dem Zug nach Thailand an den Golf und nach Bangkok.",
+  untertitel: "Fünf Wochen über Land und Wasser: Singapur, die Insel Tioman, Malakka und Kuala Lumpur, die Ostküste mit Cherating und den Perhentians, der Belum-Regenwald, dann über die Grenze an den Golf von Thailand und nach Bangkok.",
   zeitraum: "Sa, 19.06.2027 bis Do, 22.07.2027, 2 Erwachsene und 2 Kids",
   titelbild: {
     datei: "Nang Yuan Island, Koh Tao (48109157601).jpg",
@@ -33,44 +33,51 @@ REISEN.asien = {
       info: "Bus nach Mersing (ca. 3,5–4 Std.), Fähre (ca. 1,5–2 Std.)"
     },
     {
-      datum: "26.–29. Juni",
-      name: "3. Cherating",
-      naechte: 3,
-      info: "Fähre nach Mersing (ca. 1,5–2 Std.), Bus über Kuantan (ca. 4–4,5 Std.) oder Transfer (ca. 3–3,5 Std.)"
+      datum: "26.–28. Juni",
+      name: "3. Malakka",
+      naechte: 2,
+      info: "Fähre nach Mersing (ca. 1,5–2 Std.), Transfer (ca. 3–3,5 Std.)"
     },
+    {datum: "28. Juni–1. Juli", name: "4. Kuala Lumpur", naechte: 3, info: "Bus (ca. 2–2,5 Std.)"},
     {
-      datum: "29. Juni–3. Juli",
-      name: "4. Perhentian Islands",
-      naechte: 4,
-      info: "Bus oder Transfer nach Kuala Besut (ca. 3–4 Std.), Speedboot (ca. 30–45 Min.)"
+      datum: "1.–3. Juli",
+      name: "5. Cherating",
+      naechte: 2,
+      info: "Transfer (ca. 3–3,5 Std.) oder Bus und Taxi (ca. 4,5 Std.)"
     },
     {
       datum: "3.–6. Juli",
-      name: "5. Kuala Lumpur",
+      name: "6. Perhentian Islands",
       naechte: 3,
-      info: "Speedboot nach Kuala Besut (ca. 30–45 Min.), Fernbus (ca. 8–9 Std.); insgesamt ca. 9,5–10,5 Std. Bequemer: Flug ab Kota Bharu (ca. 1 Std.)"
+      info: "Bus oder Transfer nach Kuala Besut (ca. 3–4 Std.), Speedboot (ca. 30–45 Min.)"
     },
     {
-      datum: "6.–7. Juli",
+      datum: "6.–8. Juli",
+      name: "7. Belum-Regenwald",
+      naechte: 2,
+      info: "Speedboot (ca. 30–45 Min.), Transfer über Jeli (ca. 2,5–3 Std.)"
+    },
+    {
+      datum: "8.–9. Juli",
       name: "Zwischenübernachtung Hat Yai (Thailand)",
       naechte: 1,
-      info: "ETS-Zug Kuala Lumpur–Padang Besar (ca. 5–5,5 Std.), Grenze, Pendelzug nach Hat Yai (ca. 45 Min., nur wenige Züge pro Tag); insgesamt ca. 7–8 Std."
+      info: "Transfer über die Grenze Bukit Kayu Hitam–Sadao (ca. 4,5–5,5 Std. mit Grenze)"
     },
     {
-      datum: "7.–9. Juli",
-      name: "6. Khanom",
+      datum: "9.–11. Juli",
+      name: "8. Khanom",
       naechte: 2,
       info: "Minivan mit Umstieg in Nakhon Si Thammarat oder Privattransfer (ca. 5–6 Std.)"
     },
-    {datum: "9.–13. Juli", name: "7. Koh Samui", naechte: 4, info: "Minivan zum Donsak Pier, Autofähre (ca. 2,5 Std.)"},
-    {datum: "13.–17. Juli", name: "8. Koh Tao", naechte: 4, info: "Katamaran ab Samui (ca. 1,5–2 Std.)"},
+    {datum: "11.–14. Juli", name: "9. Koh Samui", naechte: 3, info: "Minivan zum Donsak Pier, Autofähre (ca. 2,5 Std.)"},
+    {datum: "14.–17. Juli", name: "10. Koh Tao", naechte: 3, info: "Katamaran ab Samui (ca. 1,5–2 Std.)"},
     {
       datum: "17.–19. Juli",
-      name: "9. Hua Hin / Khao Sam Roi Yot",
+      name: "11. Hua Hin / Khao Sam Roi Yot",
       naechte: 2,
       info: "Katamaran nach Chumphon, Bus oder Zug nach Hua Hin (ca. 7 Std. insgesamt)"
     },
-    {datum: "19.–22. Juli", name: "10. Bangkok", naechte: 3, info: "Zug oder Minivan (ca. 3–4 Std.); Rückflug 22. Juli"}
+    {datum: "19.–22. Juli", name: "12. Bangkok", naechte: 3, info: "Zug oder Minivan (ca. 3–4 Std.); Rückflug 22. Juli"}
   ],
   rueckflug: {
     datum: "22. Juli",
@@ -80,15 +87,15 @@ REISEN.asien = {
   planHinweise: [
     [
       "Gesamt",
-      "32 Nächte, 10 Stationen und eine Zwischenübernachtung (Hat Yai). Nur Hin- und Rückflug, alle Strecken dazwischen per Bus, Zug und Fähre, an der Ostküste Malaysias wahlweise mit privatem Transfer. Die längsten Reisetage (Tioman–Cherating, Perhentian–Kuala Lumpur, Kuala Lumpur–Hat Yai, Hat Yai–Khanom, Koh Tao–Hua Hin) dauern ca. 5–10,5 Stunden; Perhentian–Kuala Lumpur lässt sich mit einem Inlandflug ab Kota Bharu auf ca. 5–6 Stunden verkürzen. Zusammen sind es zwischen Singapur und Bangkok ca. 50–55 Stunden reine Reisezeit; mit Wartezeiten auf Fähren und Züge, Grenzübertritt und Transfers zur Unterkunft realistisch ca. 60–66 Stunden."
+      "32 Nächte, 12 Stationen und eine Zwischenübernachtung (Hat Yai). Nur Hin- und Rückflug, alle Strecken dazwischen per Bus, Zug, Fähre und privatem Transfer. Keine Etappe dauert länger als ca. 7 Stunden; die längeren Reisetage sind Singapur–Tioman, Tioman–Malakka, Belum–Hat Yai, Hat Yai–Khanom (je ca. 5–6,5 Std.) und Koh Tao–Hua Hin (ca. 7 Std.). Zusammen sind es zwischen Singapur und Bangkok ca. 44–53 Stunden reine Reisezeit; mit Wartezeiten auf Fähren und Züge, Grenzübertritt und Transfers zur Unterkunft realistisch ca. 53–62 Stunden."
     ],
     [
       "Vorab buchen",
-      "Bus nach Mersing und Fähre nach Tioman, Transfers nach Cherating und Kuala Besut, Unterkunft auf Tioman und den Perhentians, Bus oder Flug nach Kuala Lumpur, Petronas-Skybridge, ETS-Zug nach Padang Besar und Katamarane Samui–Tao–Chumphon online reservieren und Fahrpläne prüfen. Lange Reisetage früh am Morgen starten."
+      "Bus nach Mersing und Fähre nach Tioman, Transfers Mersing–Malakka, Kuala Lumpur–Cherating, nach Kuala Besut und nach Belum, Unterkunft auf Tioman, den Perhentians und in Belum mit Park-Bewilligung (1–3 Wochen vorab), grenzüberschreitender Transfer nach Hat Yai, Petronas-Skybridge, Katamarane Samui–Tao–Chumphon. Lange Reisetage früh am Morgen starten."
     ],
     [
       "Optional",
-      "Pulau Redang (zwischen Cherating und den Perhentians), Kuala Terengganu mit der Kristallmoschee, Koh Phangan (zwischen Samui und Tao), Kanchanaburi (Brücke am Kwai, Erawan-Wasserfälle, ab Bangkok)."
+      "Pulau Redang (statt einer Nacht Perhentian), Kuala Terengganu mit der Kristallmoschee, Taman Negara (statt Belum, mehr Infrastruktur), Koh Phangan (zwischen Samui und Tao), Kanchanaburi (ab Bangkok)."
     ],
     [
       "Flug ab und nach Zürich",
@@ -98,7 +105,7 @@ REISEN.asien = {
   karte: {
     intro: "Ungefährer Verlauf der Fahrtwege, eingefärbt nach Verkehrsmittel.",
     breit: false,
-    legende: ["bus", "train", "ferry"],
+    legende: ["bus", "car", "train", "ferry"],
     karten: [{datei: "karten/asien.svg"}]
   },
   abwechslungIntro: "Nach zwei aktiven Tagen jeweils einen ruhigen Tag einplanen.",
@@ -109,11 +116,11 @@ REISEN.asien = {
     ],
     [
       "Kultur und Geschichte",
-      "Malaiische Dörfer an der Ostküste, Kuala Lumpur (Batu Caves, Merdeka Square), Khao Sam Roi Yot (Höhle), Bangkok (Grand Palace, Wat Pho), Ayutthaya (Tempelruinen)."
+      "Altstadt von Malakka (UNESCO), Kuala Lumpur (Batu Caves, Merdeka Square), malaiische Dörfer an der Ostküste, Orang-Asli-Dorf in Belum, Khao Sam Roi Yot (Höhle), Bangkok (Grand Palace, Wat Pho), Ayutthaya (Tempelruinen)."
     ],
     [
       "Natur und Tiere",
-      "Mandai Wildlife Reserve, Dschungel und Riffe auf Tioman, Glühwürmchen und Schildkröten-Station bei Cherating, Schildkröten auf den Perhentians, Batu Caves, Delfine in Khanom, Wasserfälle, Schnorcheln auf Samui und Tao, Ang Thong Marine Park."
+      "Mandai Wildlife Reserve, Dschungel und Riffe auf Tioman, Glühwürmchen und Schildkröten-Station bei Cherating, Schildkröten auf den Perhentians, Belum-Regenwald mit Nashornvögeln und Rafflesia, Batu Caves, Delfine in Khanom, Schnorcheln auf Samui und Tao, Ang Thong Marine Park."
     ],
     [
       "Strand und Erholung",
@@ -121,7 +128,7 @@ REISEN.asien = {
     ],
     ["Mitmachen", "Muay-Thai-Schnupperkurs, Kajak/SUP, Street-Food- und Tuk-Tuk-Touren."]
   ],
-  stationenIntro: "Zehn Stationen von Singapur bis Bangkok: in Malaysia die Ostküste und Kuala Lumpur, dann mit dem Zug über die Grenze nach Thailand. Über jeder Station steht, wie ihr dorthin kommt.",
+  stationenIntro: "Zwölf Stationen von Singapur bis Bangkok: Tioman, Malakka und Kuala Lumpur, die Ostküste, der Belum-Regenwald und nach einer Nacht in Hat Yai der Golf von Thailand. Über jeder Station steht, wie ihr dorthin kommt.",
   stationen: [
     {
       nr: 1,
@@ -179,65 +186,42 @@ REISEN.asien = {
     },
     {
       nr: 3,
-      name: "Cherating",
+      name: "Malakka",
+      ersatzsuche: "Malacca",
       land: "my",
       region: "Malaysia",
-      datum: "26.–29. Juni",
-      naechte: "3 Nächte",
-      anreise: "Fähre von Tioman nach Mersing (ca. 1,5–2 Std., am Morgen), dann Bus über Kuantan nach Cherating (ca. 4–4,5 Std. mit Umstieg in Kuantan) oder bequemer mit privatem Transfer (ca. 3–3,5 Std.).",
-      text: "Entspanntes Strand- und Surfdorf an der Ostküste: lange Strände, Mangrovenfluss mit Glühwürmchen und eine Station für Meeresschildkröten.",
-      teens: "Glühwürmchen-Bootsfahrt auf dem Cherating-Fluss am Abend, Surfkurs für Anfänger, Schildkröten-Station in Chendor, Kajak in den Mangroven, Batik-Kurs.",
+      datum: "26.–28. Juni",
+      naechte: "2 Nächte",
+      anreise: "Fähre von Tioman nach Mersing (ca. 1,5–2 Std., am Morgen), dann mit privatem Transfer nach Malakka (ca. 3–3,5 Std.); direkte Busse Mersing–Malakka gibt es nur wenige, sonst mit Umstieg in Johor Bahru oder Kluang (ca. 4,5–5 Std.).",
+      text: "Alte Hafenstadt an der Westküste mit portugiesischen, holländischen und chinesischen Spuren; die Altstadt ist UNESCO-Welterbe. Klein, gut zu Fuss und ein ruhiger Kontrast zu Singapur und den Inseln.",
+      teens: "Nachtmarkt in der Jonker Street (Fr–So), Bootsfahrt auf dem Malakka-Fluss am Abend, bunt beleuchtete Trishaws, Aussichtsturm Menara Taming Sari, Replik des portugiesischen Segelschiffs Flor de la Mar (Seemuseum).",
       fakten: [
-        "<strong>Dauer:</strong> 3 Nächte: ein Surfkurs, eine Glühwürmchen-Tour (ca. 1 Std. ab ca. 19.30 Uhr, ca. 15–25 CHF pro Person), ein Abend bei der Schildkröten-Station, Strand und Pool.",
-        "<strong>Baden:</strong> Im Juli eher ruhige See; auf Strömungen achten, Surfkurse nur bei passender Welle."
+        "<strong>Dauer:</strong> 2 Nächte: Ankunft am Nachmittag, ein voller Tag Altstadt mit Christ Church, Stadthuys, St. Paul's Hill und A Famosa, am Abend Flussfahrt und Nachtmarkt.",
+        "<strong>Essen:</strong> Peranakan-Küche (Nyonya), Chicken-Rice-Balls und Cendol (Eisdessert).",
+        "<strong>Wetter:</strong> An der Westküste im Juli kurze Gewitter am Nachmittag; Programm am Morgen und am Abend planen."
       ],
-      ausserdem: "Schildkröten-Station Chendor (am besten am Abend), Kuantan mit Teluk Cempedak, Sungai Lembing (alte Minenstadt, Hängebrücke).",
+      ausserdem: "Baba & Nyonya Heritage Museum, Cheng-Hoon-Teng-Tempel, Kampung Morten (malaiisches Dorf am Fluss), Kirche St. Francis Xavier.",
       bilder: [
-        {titel: "Cherating", suche: "Cherating beach", stichwort: "cherating"},
-        {titel: "Glühwürmchen", suche: "firefly mangrove Malaysia|Cherating fireflies", stichwort: "firefl"},
-        {titel: "Surfen", suche: "Cherating surf", stichwort: "surf"},
-        {titel: "Schildkröten", suche: "Cherating turtle sanctuary|Chendor turtle", stichwort: "turtle"},
-        {titel: "Mangroven", suche: "Cherating river mangrove", stichwort: "mangrove|cherating"},
-        {titel: "Teluk Cempedak", suche: "Teluk Cempedak Kuantan", stichwort: "cempedak"}
+        {
+          titel: "Christ Church",
+          suche: "Christ Church Malacca|Dutch Square Malacca",
+          stichwort: "christ church|dutch square|melaka|malacca"
+        },
+        {titel: "Malakka-Fluss", suche: "Malacca River|Melaka River cruise", stichwort: "river|melaka|malacca"},
+        {titel: "Jonker Street", suche: "Jonker Street Malacca", stichwort: "jonker"},
+        {titel: "A Famosa", suche: "A Famosa Malacca|Porta de Santiago", stichwort: "famosa|santiago"},
+        {titel: "Cheng Hoon Teng", suche: "Cheng Hoon Teng Temple", stichwort: "cheng hoon"},
+        {titel: "Flor de la Mar", suche: "Maritime Museum Malacca Flor de la Mar", stichwort: "maritime|flor de la mar"}
       ]
     },
     {
       nr: 4,
-      name: "Perhentian Islands",
-      land: "my",
-      region: "Malaysia",
-      datum: "29. Juni–3. Juli",
-      naechte: "4 Nächte",
-      anreise: "Mit Bus über Kuala Terengganu und Jerteh oder bequemer mit privatem Transfer der Küste entlang nach Kuala Besut (Transfer ca. 3–3,5 Std., Bus mit Umstieg ca. 4–5 Std.), dann Speedboot zu den Inseln (ca. 30–45 Min.). Früh starten: die letzten Boote fahren am späteren Nachmittag.",
-      text: "Zwei autofreie Inseln an der Ostküste mit glasklarem Wasser, weissen Stränden und Schildkröten. Juni liegt mitten in der Saison (ca. März bis Oktober); der Monsun an der Ostküste beginnt erst im November.",
-      teens: "Schnorcheltour mit Meeresschildkröten und Schwarzspitzen-Riffhaien (Shark Point, Turtle Point), Kajak, Strandtage, Dschungelpfad zwischen den Buchten.",
-      fakten: [
-        "<strong>Dauer:</strong> 4 Nächte: zwei Schnorcheltouren (Turtle Point, Shark Point), Kajak, Dschungelpfad zwischen den Buchten und Strandtage. Perhentian Besar ist ruhiger und familienfreundlicher, Kecil (Long Beach) lebhafter und einfacher.",
-        "<strong>Praktisch:</strong> Keine Geldautomaten, genug Bargeld mitbringen; Marine-Park-Gebühr bar am Steg. Fortbewegung nur per Wassertaxi. Unterkünfte sind eher einfach, früh buchen.",
-        "<strong>Kultur:</strong> Die Festlandprovinzen Terengganu und Kelantan sind konservativ-muslimisch; ausserhalb der Strände Schultern und Knie bedecken. Alkohol ist nur eingeschränkt erhältlich."
-      ],
-      ausserdem: "Turtle Beach und Shark Point (Schnorcheln), Romantic Beach, Windmill Viewpoint auf Kecil, Teluk Pauh (Hausriff auf Besar), Sonnenuntergang an der Coral Bay.",
-      bilder: [
-        {titel: "Perhentian Kecil", suche: "Perhentian Kecil beach|Pulau Perhentian Kecil", stichwort: "perhentian"},
-        {titel: "Perhentian Besar", suche: "Perhentian Besar beach|Pulau Perhentian Besar", stichwort: "perhentian"},
-        {
-          titel: "Meeresschildkröte",
-          suche: "green sea turtle Malaysia|Chelonia mydas swimming",
-          stichwort: "turtle|chelonia"
-        },
-        {titel: "Long Beach", suche: "Long Beach Perhentian Kecil|Perhentian Long Beach", stichwort: "perhentian"},
-        {titel: "Wassertaxi", suche: "Perhentian islands boat|Perhentian jetty", stichwort: "perhentian"},
-        {titel: "Korallenriff", suche: "Perhentian coral reef|Perhentian snorkeling", stichwort: "perhentian|coral"}
-      ]
-    },
-    {
-      nr: 5,
       name: "Kuala Lumpur",
       land: "my",
       region: "Malaysia",
-      datum: "3.–6. Juli",
+      datum: "28. Juni–1. Juli",
       naechte: "3 Nächte",
-      anreise: "Speedboot von den Perhentians nach Kuala Besut (ca. 30–45 Min.), dann Fernbus nach Kuala Lumpur (ca. 8–9 Std.; Busse fahren am Vormittag und als Nachtbus); insgesamt ca. 9,5–10,5 Std., der längste Reisetag. Bequemer: Taxi von Kuala Besut zum Flughafen Kota Bharu (ca. 1–1,25 Std.) und Inlandflug nach Kuala Lumpur (ca. 1 Std., viele Flüge pro Tag), insgesamt ca. 5–6 Std.",
+      anreise: "Bus von Malakka (Melaka Sentral) zum Busbahnhof Terminal Bersepadu Selatan in Kuala Lumpur (ca. 2–2,5 Std., häufig), dann mit Zug oder Grab zur Unterkunft.",
       text: "Malaysias Hauptstadt bietet Wolkenkratzer, Aquarium, Parks und Wasserspass. Gute Infrastruktur und günstige Preise.",
       teens: "Petronas-Skybridge (Zeitfenster früh online buchen), Aquaria KLCC (Aquarium im Kuala Lumpur City Centre), Petrosains Science Discovery Centre, Kuala Lumpur Bird Park, Sunway Lagoon (Wasser- und Freizeitpark).",
       fakten: [
@@ -265,14 +249,97 @@ REISEN.asien = {
       ]
     },
     {
+      nr: 5,
+      name: "Cherating",
+      land: "my",
+      region: "Malaysia",
+      datum: "1.–3. Juli",
+      naechte: "2 Nächte",
+      anreise: "Mit privatem Transfer von Kuala Lumpur über den East Coast Expressway nach Cherating (ca. 3–3,5 Std.) oder mit dem Bus nach Kuantan (ca. 3,5–4 Std.) und Taxi nach Cherating (ca. 45 Min.).",
+      text: "Entspanntes Strand- und Surfdorf an der Ostküste: lange Strände, Mangrovenfluss mit Glühwürmchen und eine Station für Meeresschildkröten.",
+      teens: "Glühwürmchen-Bootsfahrt auf dem Cherating-Fluss am Abend, Surfkurs für Anfänger, Schildkröten-Station in Chendor, Kajak in den Mangroven, Batik-Kurs.",
+      fakten: [
+        "<strong>Dauer:</strong> 2 Nächte: am Ankunftsabend Glühwürmchen-Tour (ca. 1 Std. ab ca. 19.30 Uhr, ca. 15–25 CHF pro Person), am nächsten Tag Surfkurs und Strand, am Abend Schildkröten-Station.",
+        "<strong>Baden:</strong> Im Juli eher ruhige See; auf Strömungen achten, Surfkurse nur bei passender Welle."
+      ],
+      ausserdem: "Schildkröten-Station Chendor (am besten am Abend), Kuantan mit Teluk Cempedak, Sungai Lembing (alte Minenstadt, Hängebrücke).",
+      bilder: [
+        {titel: "Cherating", suche: "Cherating beach", stichwort: "cherating"},
+        {titel: "Glühwürmchen", suche: "firefly mangrove Malaysia|Cherating fireflies", stichwort: "firefl"},
+        {titel: "Surfen", suche: "Cherating surf", stichwort: "surf"},
+        {titel: "Schildkröten", suche: "Cherating turtle sanctuary|Chendor turtle", stichwort: "turtle"},
+        {titel: "Mangroven", suche: "Cherating river mangrove", stichwort: "mangrove|cherating"},
+        {titel: "Teluk Cempedak", suche: "Teluk Cempedak Kuantan", stichwort: "cempedak"}
+      ]
+    },
+    {
       nr: 6,
+      name: "Perhentian Islands",
+      land: "my",
+      region: "Malaysia",
+      datum: "3.–6. Juli",
+      naechte: "3 Nächte",
+      anreise: "Mit Bus über Kuala Terengganu und Jerteh oder bequemer mit privatem Transfer der Küste entlang nach Kuala Besut (Transfer ca. 3–3,5 Std., Bus mit Umstieg ca. 4–5 Std.), dann Speedboot zu den Inseln (ca. 30–45 Min.). Früh starten: die letzten Boote fahren am späteren Nachmittag.",
+      text: "Zwei autofreie Inseln an der Ostküste mit glasklarem Wasser, weissen Stränden und Schildkröten. Juni liegt mitten in der Saison (ca. März bis Oktober); der Monsun an der Ostküste beginnt erst im November.",
+      teens: "Schnorcheltour mit Meeresschildkröten und Schwarzspitzen-Riffhaien (Shark Point, Turtle Point), Kajak, Strandtage, Dschungelpfad zwischen den Buchten.",
+      fakten: [
+        "<strong>Dauer:</strong> 3 Nächte: zwei Schnorcheltouren (Turtle Point, Shark Point), Kajak, Dschungelpfad zwischen den Buchten und Strandtage. Perhentian Besar ist ruhiger und familienfreundlicher, Kecil (Long Beach) lebhafter und einfacher.",
+        "<strong>Praktisch:</strong> Keine Geldautomaten, genug Bargeld mitbringen; Marine-Park-Gebühr bar am Steg. Fortbewegung nur per Wassertaxi. Unterkünfte sind eher einfach, früh buchen.",
+        "<strong>Kultur:</strong> Die Festlandprovinzen Terengganu und Kelantan sind konservativ-muslimisch; ausserhalb der Strände Schultern und Knie bedecken. Alkohol ist nur eingeschränkt erhältlich."
+      ],
+      ausserdem: "Turtle Beach und Shark Point (Schnorcheln), Romantic Beach, Windmill Viewpoint auf Kecil, Teluk Pauh (Hausriff auf Besar), Sonnenuntergang an der Coral Bay.",
+      bilder: [
+        {titel: "Perhentian Kecil", suche: "Perhentian Kecil beach|Pulau Perhentian Kecil", stichwort: "perhentian"},
+        {titel: "Perhentian Besar", suche: "Perhentian Besar beach|Pulau Perhentian Besar", stichwort: "perhentian"},
+        {
+          titel: "Meeresschildkröte",
+          suche: "green sea turtle Malaysia|Chelonia mydas swimming",
+          stichwort: "turtle|chelonia"
+        },
+        {titel: "Long Beach", suche: "Long Beach Perhentian Kecil|Perhentian Long Beach", stichwort: "perhentian"},
+        {titel: "Wassertaxi", suche: "Perhentian islands boat|Perhentian jetty", stichwort: "perhentian"},
+        {titel: "Korallenriff", suche: "Perhentian coral reef|Perhentian snorkeling", stichwort: "perhentian|coral"}
+      ]
+    },
+    {
+      nr: 7,
+      name: "Belum-Regenwald",
+      ersatzsuche: "Royal Belum",
+      land: "my",
+      region: "Malaysia",
+      datum: "6.–8. Juli",
+      naechte: "2 Nächte",
+      anreise: "Speedboot von den Perhentians nach Kuala Besut (ca. 30–45 Min.), dann privater Transfer über Jeli auf dem East-West-Highway nach Pulau Banding am Temenggor-See (ca. 2,5–3 Std.); insgesamt ca. 3,5–4,5 Std.",
+      text: "Einer der ältesten Regenwälder der Welt um den grossen Temenggor-See, mitten im Norden der Halbinsel. Unterkunft auf der Insel Pulau Banding, die per Brücke an der Strasse liegt; in den Park geht es nur mit Boot und Führer.",
+      teens: "Bootstour in den Royal Belum State Park mit Wanderung zu einem Wasserfall, Suche nach der Riesenblume Rafflesia (Blüte nicht garantiert), Nashornvögel am Abend über dem See, Besuch in einem Dorf der Orang Asli, Kajak auf dem See.",
+      fakten: [
+        "<strong>Dauer:</strong> 2 Nächte: ein voller Tag Bootstour in den Park mit Wasserfall, Rafflesia-Pfad und Orang-Asli-Dorf, am Abend Nashornvögel.",
+        "<strong>Bewilligung:</strong> Für den Royal Belum State Park braucht es eine Bewilligung der Perak State Parks Corporation (für Ausländer ca. 20 MYR); das organisieren Resort oder Führer, je nach Anbieter mit Passkopie 1–3 Wochen vorab. Touren früh buchen.",
+        "<strong>Natur:</strong> Mehr als 10 Nashornvogel-Arten, dazu Elefanten, Tapire und Malaienbären (selten zu sehen). Beste Zeit April bis September; nach Regen sind Pfade rutschig, Blutegel-Socken mitnehmen."
+      ],
+      ausserdem: "Sungai Ruok (Salzlecke der Tiere), Sungai Kooi mit Wasserfall, Fischen mit Führer, Sonnenaufgang über dem Temenggor-See.",
+      bilder: [
+        {titel: "Temenggor-See", suche: "Temenggor Lake|Tasik Temenggor", stichwort: "temenggor|temengor"},
+        {titel: "Royal Belum", suche: "Royal Belum State Park|Belum rainforest", stichwort: "belum"},
+        {titel: "Rafflesia", suche: "Rafflesia flower|Rafflesia cantleyi", stichwort: "rafflesia"},
+        {titel: "Nashornvogel", suche: "Rhinoceros hornbill|Buceros rhinoceros", stichwort: "hornbill|buceros"},
+        {titel: "Pulau Banding", suche: "Pulau Banding|Banding Island Perak", stichwort: "banding"},
+        {
+          titel: "Regenwald",
+          suche: "Malaysia rainforest waterfall|Belum waterfall",
+          stichwort: "rainforest|waterfall|belum"
+        }
+      ]
+    },
+    {
+      nr: 8,
       name: "Khanom",
       land: "th",
       region: "Thailand",
-      datum: "7.–9. Juli",
+      datum: "9.–11. Juli",
       naechte: "2 Nächte",
-      zwischenstopp: {text: "Zwischenstopp in Hat Yai", datum: "6.–7. Juli"},
-      anreise: "Am Vortag ETS-Zug ab KL Sentral nach Padang Besar an der Grenze (ca. 5–5,5 Std., früh reservieren), Ausreise und Einreise im Bahnhof, Pendelzug nach Hat Yai (ca. 45 Min., nur wenige Züge pro Tag; sonst Taxi ca. 1 Std.), Übernachtung in Hat Yai. Minivan von Hat Yai nach Nakhon Si Thammarat (ca. 3 Std.), dort umsteigen nach Khanom (ca. 1,5 Std.); mit Wartezeit ca. 5–6 Std. Ein Privattransfer (ca. 4,5 Std.) ist bequemer. Der Weg mit dem Zug über Padang Besar vermeidet die Grenzprovinzen Narathiwat, Yala und Pattani, von deren Besuch das EDA abrät.",
+      zwischenstopp: {text: "Zwischenstopp in Hat Yai", datum: "8.–9. Juli"},
+      anreise: "Am Vortag privater Transfer von Belum über den Grenzübergang Bukit Kayu Hitam–Sadao nach Hat Yai (ca. 3–3,5 Std. Fahrt, mit Grenze ca. 4,5–5,5 Std.; grenzüberschreitende Transfers vorab buchen), Übernachtung in Hat Yai. Alternative: Transfer zum Bahnhof Alor Setar (ca. 2,5 Std.) und Zug über Padang Besar nach Hat Yai. Minivan von Hat Yai nach Nakhon Si Thammarat (ca. 3 Std.), dort umsteigen nach Khanom (ca. 1,5 Std.); mit Wartezeit ca. 5–6 Std. Ein Privattransfer (ca. 4,5 Std.) ist bequemer. Dieser Weg vermeidet die Grenzprovinzen Narathiwat, Yala und Pattani, von deren Besuch das EDA abrät.",
       text: "Ruhiger Küstenort am Golf von Thailand mit einsamen Stränden, Wasserfällen und rosa Delfinen. Ein entspannter Zwischenhalt nach der langen Reise aus dem Süden.",
       teens: "Delfin-Bootstour ab Pak Nam (Sichtung nicht garantiert), Hin Lat Wasserfälle, Strandtage, Schnorcheln und Kajak.",
       fakten: [
@@ -302,17 +369,17 @@ REISEN.asien = {
       ]
     },
     {
-      nr: 7,
+      nr: 9,
       name: "Koh Samui",
       land: "th",
       region: "Thailand",
-      datum: "9.–13. Juli",
-      naechte: "4 Nächte",
+      datum: "11.–14. Juli",
+      naechte: "3 Nächte",
       anreise: "Minivan von Khanom zum Donsak Pier (ca. 1 Std.), dann Autofähre (Seatran/Raja) direkt nach Samui (ca. 1,5 Std.).",
       text: "Thailands grosse Familieninsel mit guter Infrastruktur, Stränden und Ausflügen. Im Juli sind die Wetterbedingungen im Golf meist stabil.",
       teens: "Tagesausflug in den Ang Thong Marine Park (Kajak, Schnorcheln, Wanderung zum Aussichtspunkt), Strandtage in Lamai/Chaweng, Na Muang Wasserfälle.",
       fakten: [
-        "<strong>Dauer:</strong> 4 Nächte, Unterkunft mit Pool und Familienzimmer. Bophut/Mae Nam sind ruhiger als Chaweng.",
+        "<strong>Dauer:</strong> 3 Nächte, Unterkunft mit Pool und Familienzimmer. Bophut/Mae Nam sind ruhiger als Chaweng.",
         "<strong>Sicherheit:</strong> Rote Flaggen am Strand beachten, Schwimmwesten bei Bootsausflügen, kein Roller mit den Teenagern.",
         "<strong>Mitmachen:</strong> Kajak/SUP, Dschungelpark mit Seilrutschen im Inselinneren."
       ],
@@ -327,17 +394,17 @@ REISEN.asien = {
       ]
     },
     {
-      nr: 8,
+      nr: 10,
       name: "Koh Tao",
       land: "th",
       region: "Thailand",
-      datum: "13.–17. Juli",
-      naechte: "4 Nächte",
+      datum: "14.–17. Juli",
+      naechte: "3 Nächte",
       anreise: "Highspeed-Katamaran der Lomprayah von Koh Samui über Koh Phangan nach Koh Tao (ca. 1,5–2 Std.). Online vorab buchen, Wellengang kann stärker sein.",
       text: "Das Schnorchelparadies im Golf von Thailand mit klarem, ruhigem Wasser und der berühmten Sandbank von Koh Nang Yuan.",
       teens: "Schnorcheln (Shark Bay, Japanese Gardens, Mango Bay), Koh Nang Yuan (Aussichtspunkt, Strand), Bootsausflug rund um die Insel.",
       fakten: [
-        "<strong>Dauer:</strong> 4 Nächte. Schnorchelwesten für alle, Teenager beim Schnorcheln nicht allein lassen.",
+        "<strong>Dauer:</strong> 3 Nächte. Schnorchelwesten für alle, Teenager beim Schnorcheln nicht allein lassen.",
         "<strong>Praktisch:</strong> Eintritt für Nang Yuan, früh anreisen. Seekrankheitstabletten für Bootsfahrten bereithalten.",
         "<strong>Mitmachen:</strong> Kajak/SUP, Sonnenuntergangs-Bootstour, Wanderung zu den Aussichtspunkten."
       ],
@@ -352,7 +419,7 @@ REISEN.asien = {
       ]
     },
     {
-      nr: 9,
+      nr: 11,
       name: "Hua Hin / Khao Sam Roi Yot",
       land: "th",
       region: "Thailand",
@@ -381,7 +448,7 @@ REISEN.asien = {
       ]
     },
     {
-      nr: 10,
+      nr: 12,
       name: "Bangkok",
       land: "th",
       region: "Thailand",
@@ -423,9 +490,9 @@ REISEN.asien = {
   budgetIntro: "Mittelklasse inklusive Flüge, Transport, Unterkunft, Verpflegung und Aktivitäten. Alle Beträge sind Schätzungen in CHF.",
   budget: {
     naechte: 32,
-    total: "17’800",
-    spanne: "14’500–22’000",
-    proTag: "ca. 560 CHF pro Tag, ca. 4’450 pro Person",
+    total: "18’200",
+    spanne: "14’800–22’450",
+    proTag: "ca. 570 CHF pro Tag, ca. 4’550 pro Person",
     posten: [
       [
         "Flüge Zürich–Singapur und Bangkok–Zürich",
@@ -435,16 +502,16 @@ REISEN.asien = {
       ],
       [
         "Fernverkehr (Bus, Zug, Fähre, Minivan)",
-        "900–1’450",
-        "1’100",
-        "Bus Singapur–Mersing, Fähren Mersing–Tioman, Bus oder Transfer nach Cherating und Kuala Besut, Boote Perhentian, Fernbus nach Kuala Lumpur, ETS-Zug nach Padang Besar und Zug nach Hat Yai, Minivans nach Khanom, Fähren Samui–Tao–Chumphon, Zug nach Hua Hin/Bangkok"
+        "1’000–1’700",
+        "1’300",
+        "Bus Singapur–Mersing, Fähren Mersing–Tioman, Transfer nach Malakka, Bus nach Kuala Lumpur, Transfers nach Cherating, Kuala Besut und Belum, Boote Perhentian, grenzüberschreitender Transfer nach Hat Yai, Minivans nach Khanom, Fähren Samui–Tao–Chumphon, Zug nach Hua Hin/Bangkok"
       ],
       ["Lokale Transfers", "400–800", "550", "Grab, MRT/Skytrain, Wassertaxis, Songthaew"],
       [
         "Unterkunft (Familienzimmer oder 2 Zimmer, 3–4 Sterne)",
-        "3’100–4’900",
-        "3’900",
-        "ca. 50–140 CHF pro Nacht, Singapur ca. 250–300; auf den Inseln eher einfach, aber gefragt"
+        "3’200–5’000",
+        "4’000",
+        "ca. 50–140 CHF pro Nacht, Singapur ca. 250–300, Resort in Belum ca. 150–220; auf den Inseln eher einfach, aber gefragt"
       ],
       [
         "Verpflegung (Hawker, Restaurants, Getränke)",
@@ -454,9 +521,9 @@ REISEN.asien = {
       ],
       [
         "Aktivitäten und Eintritte",
-        "2’000–3’200",
-        "2’500",
-        "Universal und Sentosa, Mandai, Schnorcheltouren, Marine-Park-Gebühren, Surfkurs und Glühwürmchen-Tour, Petronas-Skybridge, Sunway Lagoon, Ang Thong, Wasserpark Hua Hin, Safari World usw."
+        "2’100–3’300",
+        "2’600",
+        "Universal und Sentosa, Mandai, Schnorcheltouren, Marine-Park-Gebühren, Flussfahrt in Malakka, Petronas-Skybridge, Sunway Lagoon, Surfkurs und Glühwürmchen-Tour, Bootstouren und Bewilligung in Belum, Ang Thong, Wasserpark Hua Hin, Safari World usw."
       ],
       [
         "Versicherung, eSIM, Medikamente, Impfungen",
@@ -467,23 +534,25 @@ REISEN.asien = {
       ["Reserve (ca. 5 %)", "700–1’050", "850", "Souvenirs, Wäsche, Unvorhergesehenes"],
       [
         "<strong>Total</strong>",
-        "<strong>14’500–22’000</strong>",
-        "<strong>ca. 17’800</strong>",
-        "ca. 560 CHF pro Tag, ca. 4’450 pro Person"
+        "<strong>14’800–22’450</strong>",
+        "<strong>ca. 18’200</strong>",
+        "ca. 570 CHF pro Tag, ca. 4’550 pro Person"
       ]
     ],
     stationen: [
       ["1. Singapur (3)", "1’320–1’950"],
       ["2. Pulau Tioman (3)", "560–950"],
-      ["3. Cherating (3)", "520–830"],
-      ["4. Perhentian Islands (4)", "880–1’500"],
-      ["5. Kuala Lumpur (3)", "550–910"],
+      ["3. Malakka (2)", "330–560"],
+      ["4. Kuala Lumpur (3)", "550–910"],
+      ["5. Cherating (2)", "350–560"],
+      ["6. Perhentian Islands (3)", "660–1’120"],
+      ["7. Belum-Regenwald (2)", "600–950"],
       ["Zwischenübernachtung Hat Yai (1)", "120–230"],
-      ["6. Khanom (2)", "380–640"],
-      ["7. Koh Samui (4)", "1’000–1’590"],
-      ["8. Koh Tao (4)", "800–1’290"],
-      ["9. Hua Hin / Khao Sam Roi Yot (2)", "430–670"],
-      ["10. Bangkok (3)", "730–1’220"]
+      ["8. Khanom (2)", "380–640"],
+      ["9. Koh Samui (3)", "750–1’190"],
+      ["10. Koh Tao (3)", "600–970"],
+      ["11. Hua Hin / Khao Sam Roi Yot (2)", "430–670"],
+      ["12. Bangkok (3)", "730–1’220"]
     ],
     hinweise: [
       "<strong>Preise für die Kids:</strong> Der Sohn (12) zahlt bei Eintritten oft noch den Kinderpreis (teils nur bis 11), die Tochter (14) meist den Vollpreis.",
@@ -495,7 +564,7 @@ REISEN.asien = {
   tipps: [
     [
       "Reisetempo",
-      "Pro Tag maximal ein grösserer Transfer, lange Fahrten morgens, Nachmittage zur Erholung. Pro Station meist 3–6 Nächte, kürzere Aufenthalte nur als Zwischenhalt. Hitze, Jetlag und Regen einplanen. Bei Fähr- oder Zugausfällen Puffer nutzen."
+      "Pro Tag maximal ein grösserer Transfer, lange Fahrten morgens, Nachmittage zur Erholung. Pro Station meist 2–3 Nächte; die Etappen sind dafür kürzer (keine über ca. 7 Std.). Hitze, Jetlag und Regen einplanen. Bei Fähr- oder Zugausfällen Puffer nutzen."
     ],
     [
       "Beteiligung der Teenager",
@@ -531,7 +600,7 @@ REISEN.asien = {
     ],
     [
       "Einreise (Schweizer Pass)",
-      "Singapur und Malaysia sind für Touristen visafrei. Thailand hat seit 15. September 2026 die visafreie Aufenthaltsdauer auf 30 Tage verkürzt (vorher 60) und visafreie Einreisen über Landgrenzen auf zwei pro Kalenderjahr begrenzt. Auf dieser Route seid ihr ca. 16 Tage in Thailand und reist einmal über Land ein; ob die Schweiz auf der Liste der visabefreiten Länder steht, beim Thai-Konsulat oder EDA prüfen. Online-Anmeldungen: SG Arrival Card (Singapur), MDAC (Malaysia), TDAC (Thailand). Reisepass mind. 6 Monate gültig."
+      "Singapur und Malaysia sind für Touristen visafrei. Thailand hat seit 15. September 2026 die visafreie Aufenthaltsdauer auf 30 Tage verkürzt (vorher 60) und visafreie Einreisen über Landgrenzen auf zwei pro Kalenderjahr begrenzt. Auf dieser Route seid ihr ca. 14 Tage in Thailand und reist einmal über Land ein; ob die Schweiz auf der Liste der visabefreiten Länder steht, beim Thai-Konsulat oder EDA prüfen. Online-Anmeldungen: SG Arrival Card (Singapur), MDAC (Malaysia), TDAC (Thailand). Reisepass mind. 6 Monate gültig."
     ],
     [
       "Versicherung",
@@ -547,7 +616,7 @@ REISEN.asien = {
     ],
     [
       "Wetter im Juni/Juli",
-      "Heiss und feucht, Regenschauer. Bangkok hat Regenzeit; die Ostküste Malaysias (Tioman, Cherating, Perhentian) und der Golf von Thailand (Samui, Tao) sind im Juni und Juli meist ruhiger."
+      "Heiss und feucht, Regenschauer. Malakka, Kuala Lumpur, Belum und Bangkok haben im Juli kurze, heftige Gewitter am Nachmittag; die Ostküste Malaysias (Tioman, Cherating, Perhentian) und der Golf von Thailand (Samui, Tao) sind im Juni und Juli meist ruhiger."
     ]
   ]
 };

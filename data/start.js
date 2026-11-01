@@ -113,33 +113,33 @@ window.START = {
       ]
     },
     asien: {
-      steckbrief: {anreise: "Flug nach Singapur, ca. 12–13 Std.", unterwegs: "Bus, Zug und Fähre ca. 60–66 Std.", highlights: "Tioman, Perhentian, Kuala Lumpur, Koh Tao, Bangkok"},
+      steckbrief: {anreise: "Flug nach Singapur, ca. 12–13 Std.", unterwegs: "Bus, Transfer, Zug und Fähre ca. 53–62 Std.", highlights: "Tioman, Malakka, Perhentian, Belum, Koh Tao, Bangkok"},
       name: "Malaysia / Thailand",
-      zusatz: "von Singapur über die Ostküste Malaysias und Kuala Lumpur nach Bangkok",
-      passt: "Schnorcheln, tropische Inseln und Strand im Vordergrund stehen, ihr in Malaysia die Ostküste und Kuala Lumpur, dazu Singapur und Bangkok erleben möchtet.",
-      kurz: "Fünf Wochen über Land und Wasser: Singapur, die Ostküste Malaysias, Kuala Lumpur, der Golf von Thailand und Bangkok.",
-      route: "Singapur, Pulau Tioman, Cherating, Perhentian Islands, Kuala Lumpur, (Zug über Hat Yai) Khanom, Koh Samui, Koh Tao, Hua Hin, Bangkok",
-      stationen: "10 Stationen und 1 Zwischenübernachtung",
+      zusatz: "von Singapur über Malakka, Kuala Lumpur, die Ostküste und den Belum-Regenwald nach Bangkok",
+      passt: "Schnorcheln, tropische Inseln und Strand im Vordergrund stehen, ihr dazu Malakka, Kuala Lumpur, Regenwald, Singapur und Bangkok erleben möchtet.",
+      kurz: "Fünf Wochen über Land und Wasser: Singapur, Tioman, Malakka, Kuala Lumpur, die Ostküste Malaysias, der Belum-Regenwald, der Golf von Thailand und Bangkok.",
+      route: "Singapur, Pulau Tioman, Malakka, Kuala Lumpur, Cherating, Perhentian Islands, Belum-Regenwald, (über Hat Yai) Khanom, Koh Samui, Koh Tao, Hua Hin, Bangkok",
+      stationen: "12 Stationen und 1 Zwischenübernachtung",
       laender: "Singapur, Malaysia, Thailand",
       hinflug: "Direktflug Zürich–Singapur ca. 12–13 Std.",
       rueckflug: "Direktflug Bangkok–Zürich ca. 11,5–12 Std. am Do, 22.07.2027 um die Mittagszeit, Ankunft am Abend; zwei Tage Puffer gegen den Jetlag",
-      dazwischen: "Keine Flüge dazwischen, alles per Bus, Zug und Fähre",
-      tempo: "Ca. 50–55 Std. reine Reisezeit mit Bus, Zug und Fähre, realistisch mit Wartezeiten ca. 60–66 Std.; 5 lange Reisetage mit 5–10,5 Std. (Tioman–Cherating, Perhentian–Kuala Lumpur, Kuala Lumpur–Hat Yai, Hat Yai–Khanom, Koh Tao–Hua Hin); Perhentian–Kuala Lumpur mit Inlandflug ab Kota Bharu kürzer",
-      gesamt: "Ca. 96–104 Std. Tür zu Tür: Bahn Brig-Glis–Zürich Flughafen (ca. 2,5 Std.), ca. 2 Std. Wartezeit am Flughafen, Flüge und Transfers zusammen ca. 36–38 Std., dazu ca. 60–66 Std. mit Bus, Zug und Fähre; niemand muss selber fahren. Uhr +6 Std. (Thailand +5 Std.), Jetlag vor allem nach der Ankunft.",
-      wetter: "Kuala Lumpur und Bangkok haben Regenzeit mit kurzen Gewittern; die Ostküste Malaysias (Tioman, Cherating, Perhentian) und der Golf von Thailand (Samui, Tao) sind meist ruhiger.",
+      dazwischen: "Keine Flüge dazwischen, alles per Bus, privatem Transfer, Zug und Fähre",
+      tempo: "Ca. 44–53 Std. reine Reisezeit mit Bus, Transfer, Zug und Fähre, realistisch mit Wartezeiten ca. 53–62 Std.; keine Etappe über ca. 7 Std., fünf längere Reisetage mit 5–7 Std. (Singapur–Tioman, Tioman–Malakka, Belum–Hat Yai, Hat Yai–Khanom, Koh Tao–Hua Hin); meist 2–3 Nächte pro Station",
+      gesamt: "Ca. 89–100 Std. Tür zu Tür: Bahn Brig-Glis–Zürich Flughafen (ca. 2,5 Std.), ca. 2 Std. Wartezeit am Flughafen, Flüge und Transfers zusammen ca. 36–38 Std., dazu ca. 53–62 Std. mit Bus, Transfer, Zug und Fähre; niemand muss selber fahren. Uhr +6 Std. (Thailand +5 Std.), Jetlag vor allem nach der Ankunft.",
+      wetter: "Malakka, Kuala Lumpur, Belum und Bangkok mit kurzen Gewittern am Nachmittag; die Ostküste Malaysias (Tioman, Cherating, Perhentian) und der Golf von Thailand (Samui, Tao) sind meist ruhiger.",
       einreise: "Singapur und Malaysia visafrei. Thailand: seit 15.09.2026 nur noch 30 Tage visafrei und höchstens zwei Landgrenz-Einreisen pro Jahr, Länderliste prüfen. Online-Anmeldungen (SG Arrival Card, MDAC, TDAC).",
-      hoehepunkte: "Schnorcheln auf Tioman, den Perhentians, Samui und Koh Tao, Glühwürmchen und Surfen in Cherating, Delfine bei Khanom, Ang Thong, Grand Palace und Wat Arun in Bangkok.",
+      hoehepunkte: "Schnorcheln auf Tioman, den Perhentians, Samui und Koh Tao, Altstadt von Malakka, Glühwürmchen und Surfen in Cherating, Nashornvögel und Rafflesia im Belum-Regenwald, Delfine bei Khanom, Ang Thong, Grand Palace und Wat Arun in Bangkok.",
       teens: "Schnorcheln, Inselhopping, Surfkurs, Glühwürmchen-Tour, Wasserparks, Sentosa mit Universal Studios, Kajak.",
       pro: [
         "Die meisten Schnorchel- und Strandtage",
         "Warmes Meer (ca. 29 °C) mit Riffen und Schildkröten",
-        "Ostküste Malaysias, Kuala Lumpur, Singapur und Bangkok",
+        "Malakka, Kuala Lumpur, Belum-Regenwald, Singapur und Bangkok",
         "Niemand muss selber fahren",
         "Günstig (ca. {plan:asien} CHF)"
       ],
       contra: [
         "Viele Umstiege mit Gepäck",
-        "Fünf lange Reisetage mit 5–10,5 Std.",
+        "Viele Ortswechsel, meist 2–3 Nächte",
         "Regenzeit und schwüle Hitze",
         "Dengue-Mücken, kein Leitungswasser",
         "Jetlag (+6 Std.), viel CO₂"
@@ -234,8 +234,8 @@ window.START = {
       usa: [1, "Kein Regenwald; Sümpfe in Louisiana und Mangroven in den Everglades."],
       usamitte: [1, "Kein Regenwald; Sümpfe in Louisiana."],
       asien: [
-        3,
-        "Dschungelwanderung auf Tioman, Mangroven bei Cherating, Wasserfälle und Inselwälder; kein grosser zusammenhängender Regenwald auf der Route."
+        4,
+        "Zwei Tage im Belum-Regenwald (einer der ältesten der Welt) mit Bootstour, Nashornvögeln und Rafflesia, dazu Dschungelwanderung auf Tioman und Mangroven bei Cherating."
       ],
       malaysia: [4, "Taman Negara, einer der ältesten Regenwälder der Welt, mit Hängebrücken und Nachtwanderung, dazu der Dschungel auf Tioman."],
       suedkorea: [1, "Kein Dschungel; dichte Wälder in Seoraksan und der Gotjawal-Wald auf Jeju."],
@@ -302,7 +302,7 @@ window.START = {
       ],
       usa: [5, "Los Angeles, Las Vegas, Albuquerque und Santa Fe, Austin, New Orleans, Miami und New York mit Museen und Aussichtsplattformen."],
       usamitte: [5, "Los Angeles, Las Vegas, Albuquerque und Santa Fe, Fort Worth, Houston, New Orleans, Memphis, St. Louis, Chicago und New York."],
-      asien: [4, "Singapur, Kuala Lumpur und Bangkok mit Street-Food, Tempeln und Aussichtstürmen; an der Ostküste Dörfer und Kleinstädte."],
+      asien: [4, "Singapur, die Altstadt von Malakka (UNESCO), Kuala Lumpur und Bangkok mit Street-Food, Tempeln und Aussichtstürmen; an der Ostküste Dörfer und Kleinstädte."],
       malaysia: [4, "Singapur, Kuala Lumpur und Bangkok mit Street-Food, Tempeln, Märkten und Aussichtstürmen."],
       suedkorea: [5, "Seoul als Weltstadt mit Palästen, Hanok-Vierteln und K-Pop, dazu Busan und die alte Königsstadt Gyeongju (UNESCO)."],
     },
@@ -340,7 +340,7 @@ window.START = {
       usamitte: [1, "Ca. 108–118 Stunden Tür zu Tür: zwei Langstreckenflüge mit Jetlag (−9 Std.) und die meiste Zeit im Auto (ca. 75–84 Stunden an 15 Fahrtagen, drei Fahrtage hintereinander durch Texas)."],
       asien: [
         2,
-        "Ca. 96–104 Stunden Tür zu Tür: zwei Direktflüge mit Jetlag, dazu ca. 60–66 Stunden mit Bus, Zug und Fähre und viele Umstiege mit Gepäck; niemand muss selber fahren."
+        "Ca. 89–100 Stunden Tür zu Tür: zwei Direktflüge mit Jetlag, dazu ca. 53–62 Stunden mit Bus, Transfer, Zug und Fähre (keine Etappe über ca. 7 Stunden) und viele Umstiege mit Gepäck; niemand muss selber fahren."
       ],
       malaysia: [3, "Ca. 68–75 Stunden Tür zu Tür: zwei lange Direktflüge mit Jetlag, Busse, Transfers und Boote mit Gepäck, zum Schluss ein kurzer Flug; niemand muss selber fahren."],
       suedkorea: [4, "Ca. 61–68 Stunden Tür zu Tür: zwei lange Direktflüge mit Jetlag (+7 Std.), sonst kurze Etappen mit pünktlichen Bussen und Zügen, zwei kurze Inlandflüge, selber fahren nur auf Jeju."],

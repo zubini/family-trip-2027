@@ -70,9 +70,11 @@ window.QUELLEN = {
         ["train36.com: ETS Butterworth–Padang Besar", "https://www.train36.com/ets-butterworth-to-padang-besar.html"],
         ["OSRM: Fahrzeiten Mersing–Cherating (ca. 240 km) und Cherating–Kuala Besut (ca. 270 km) (Routenplaner)", "https://router.project-osrm.org"],
         ["EDA: Reisehinweise Thailand (Grenzprovinzen im Süden)", "https://www.eda.admin.ch/de/land-thailand"],
-        ["12go.asia: Kuala Besut–Kuala Lumpur mit dem Bus", "https://12go.asia/en/travel/kuala-lumpur/kuala-besut?z=16187692"],
-        ["Train36: ETS-Fahrplan 2026 (Züge nach Padang Besar ohne Abstecher nach Butterworth)", "https://www.train36.com/ets-timetable.html"],
-        ["Baolau: ETS Kuala Lumpur–Padang Besar (ca. 4 Std. 50 Min. bis 5 Std. 20 Min.)", "https://www.baolau.com/en/s/kuala-lumpur/padang-besar/"],
+        ["OSRM: Fahrzeiten Mersing–Malakka (ca. 230 km), Malakka–Kuala Lumpur (ca. 150 km), Kuala Lumpur–Cherating (ca. 280 km), Kuala Besut–Pulau Banding (ca. 190 km), Pulau Banding–Hat Yai (ca. 280 km) (Routenplaner)", "https://router.project-osrm.org"],
+        ["Malaysia Travel: Royal Belum State Park", "https://malaysia.travel/explore/royal-belum-state-park"],
+        ["goasia.cc: Royal Belum (Bewilligung für Ausländer ca. 20 MYR, Zugang ab Pulau Banding)", "https://goasia.cc/en/article/royal-belum-rainforest"],
+        ["SAYS: Royal Belum, Anreise, Unterkunft und Tiere", "https://says.com/my/lifestyle/travel-lifestyle/royal-belum-forest-a-guide-to-malaysias-ancient-rainforest"],
+        ["The Borneo Post: mehr als 10 Nashornvogel-Arten in Belum", "https://www.theborneopost.com/2022/08/21/a-glimpse-of-a-land-before-time/"],
         ["12go.asia: Hat Yai–Khanom", "https://12go.com/en/travel/hat-yai/khanom?z=7173817"],
         ["12go.asia: Koh Tao–Bangkok und Hua Hin (Lomprayah)", "https://12Go.asia/en/travel/koh-tao/bangkok"]
       ]
