@@ -33,7 +33,12 @@ REISEN.asien = {
       info: "Bus nach Mersing (ca. 3,5–4 Std.), Fähre (ca. 1,5–2 Std.)"
     },
     {datum: "27.–28. Juni", name: "Zwischenübernachtung Mersing", naechte: 1, info: "Fähre ab Tioman (ca. 1,5–2 Std.)"},
-    {datum: "28. Juni–1. Juli", name: "3. Kuala Lumpur", naechte: 3, info: "Fernbus ab Mersing (ca. 5–6 Std.)"},
+    {
+      datum: "28. Juni–1. Juli",
+      name: "3. Kuala Lumpur",
+      naechte: 3,
+      info: "Taxi nach Kluang (ca. 1,5 Std.), ETS-Zug (ca. 3,5 Std.)"
+    },
     {
       datum: "1.–3. Juli",
       name: "4. Taman Negara",
@@ -56,7 +61,7 @@ REISEN.asien = {
       datum: "9.–11. Juli",
       name: "7. Khanom",
       naechte: 2,
-      info: "Transfer (ca. 3,5 Std.) oder Minivan mit Umstieg in Nakhon Si Thammarat (ca. 5–5,5 Std.)"
+      info: "Zug Hat Yai–Nakhon Si Thammarat (ca. 2,75–3 Std.), Taxi (ca. 1,5 Std.); insgesamt ca. 5,5–6,5 Std."
     },
     {datum: "11.–14. Juli", name: "8. Koh Samui", naechte: 3, info: "Minivan zum Donsak Pier, Autofähre (ca. 2,5 Std.)"},
     {datum: "14.–17. Juli", name: "9. Koh Tao", naechte: 3, info: "Katamaran ab Samui (ca. 1,5–2 Std.)"},
@@ -64,9 +69,9 @@ REISEN.asien = {
       datum: "17.–19. Juli",
       name: "10. Hua Hin / Khao Sam Roi Yot",
       naechte: 2,
-      info: "Katamaran nach Chumphon, Bus oder Zug nach Hua Hin (ca. 7 Std. insgesamt)"
+      info: "Katamaran nach Chumphon (ca. 1,5–2 Std.), Zug nach Hua Hin (ca. 3,5–4 Std.); insgesamt ca. 7–8 Std."
     },
-    {datum: "19.–22. Juli", name: "11. Bangkok", naechte: 3, info: "Zug oder Minivan (ca. 3–4 Std.); Rückflug 22. Juli"}
+    {datum: "19.–22. Juli", name: "11. Bangkok", naechte: 3, info: "Zug (ca. 3,5–4 Std.); Rückflug 22. Juli"}
   ],
   rueckflug: {
     datum: "22. Juli",
@@ -76,11 +81,11 @@ REISEN.asien = {
   planHinweise: [
     [
       "Gesamt",
-      "32 Nächte, 11 Stationen und eine Zwischenübernachtung (Mersing). Nur Hin- und Rückflug, alle Strecken dazwischen per Bus, Zug, Fähre und privatem Transfer. Der längste Reisetag ist Perhentian–Songkhla mit ca. 8,5–9,5 Std. (Boot, Transfer, Grenze); danach folgt ein Ruhetag in Songkhla. Weitere längere Reisetage: Singapur–Tioman, Mersing–Kuala Lumpur, Songkhla–Khanom (je ca. 5–6,5 Std.), Taman Negara–Perhentian (ca. 6–7 Std.) und Koh Tao–Hua Hin (ca. 7 Std.). Zusammen sind es zwischen Singapur und Bangkok ca. 45–54 Stunden reine Reisezeit; mit Wartezeiten auf Fähren und Züge, Grenzübertritt und Transfers zur Unterkunft realistisch ca. 54–64 Stunden."
+      "32 Nächte, 11 Stationen und eine Zwischenübernachtung (Mersing). Nur Hin- und Rückflug; wo möglich mit dem Zug (Kluang–Kuala Lumpur, Hat Yai–Nakhon Si Thammarat, Chumphon–Hua Hin–Bangkok), sonst mit Bus, Fähre und privatem Transfer. Der längste Reisetag ist Perhentian–Songkhla mit ca. 8,5–9,5 Std. (Boot, Transfer, Grenze); danach folgt ein Ruhetag in Songkhla. Weitere längere Reisetage: Singapur–Tioman, Mersing–Kuala Lumpur, Songkhla–Khanom (je ca. 5,5–6,5 Std.), Taman Negara–Perhentian (ca. 6–7 Std.) und Koh Tao–Hua Hin (ca. 7–8 Std.). Zusammen sind es zwischen Singapur und Bangkok ca. 47–56 Stunden reine Reisezeit; mit Wartezeiten auf Fähren und Züge, Grenzübertritt und Transfers zur Unterkunft realistisch ca. 56–66 Stunden."
     ],
     [
       "Vorab buchen",
-      "Bus nach Mersing und Fähre nach Tioman, Bus Mersing–Kuala Lumpur, Transfers Kuala Lumpur–Taman Negara und Taman Negara–Kuala Besut, Unterkunft auf Tioman und den Perhentians, Touren in Taman Negara, grenzüberschreitender Transfer Kuala Besut–Songkhla, Transfer Songkhla–Khanom, Petronas-Skybridge, Katamarane Samui–Tao–Chumphon. Lange Reisetage früh am Morgen starten."
+      "Bus nach Mersing und Fähre nach Tioman, ETS-Zug Kluang–Kuala Lumpur (KTMB), Transfers Kuala Lumpur–Taman Negara und Taman Negara–Kuala Besut, Unterkunft auf Tioman und den Perhentians, Touren in Taman Negara, grenzüberschreitender Transfer Kuala Besut–Songkhla, Züge Hat Yai–Nakhon Si Thammarat und Chumphon–Hua Hin–Bangkok (SRT), Petronas-Skybridge, Katamarane Samui–Tao–Chumphon. Lange Reisetage früh am Morgen starten."
     ],
     [
       "Optional",
@@ -180,7 +185,7 @@ REISEN.asien = {
       region: "Malaysia",
       datum: "28. Juni–1. Juli",
       naechte: "3 Nächte",
-      anreise: "Fähre von Tioman nach Mersing (ca. 1,5–2 Std.), Übernachtung in Mersing (kleiner Fischerort mit Hafen, Nachmittag und Abend zum Ausruhen, Seafood am Hafen). Am Morgen Fernbus von Mersing nach Kuala Lumpur, Terminal Bersepadu Selatan (ca. 5–6 Std.; nur einige Busse pro Tag, vorab buchen), dann mit Zug oder Grab zur Unterkunft.",
+      anreise: "Fähre von Tioman nach Mersing (ca. 1,5–2 Std.), Übernachtung in Mersing (kleiner Fischerort mit Hafen, Nachmittag und Abend zum Ausruhen, Seafood am Hafen). Am Morgen Taxi oder Transfer nach Kluang (ca. 1,5 Std.), dann ETS-Zug auf der neuen elektrischen Strecke nach KL Sentral (ca. 3,5 Std.; nur einige Züge pro Tag, früh bei KTMB reservieren); insgesamt ca. 5,5–6 Std. Alternative: Fernbus ab Mersing direkt nach Kuala Lumpur (ca. 5–6 Std.).",
       text: "Malaysias Hauptstadt bietet Wolkenkratzer, Aquarium, Parks und Wasserspass. Gute Infrastruktur und günstige Preise.",
       teens: "Petronas-Skybridge (Zeitfenster früh online buchen), Aquaria KLCC (Aquarium im Kuala Lumpur City Centre), Petrosains Science Discovery Centre, Kuala Lumpur Bird Park, Sunway Lagoon (Wasser- und Freizeitpark).",
       fakten: [
@@ -294,7 +299,7 @@ REISEN.asien = {
       region: "Thailand",
       datum: "9.–11. Juli",
       naechte: "2 Nächte",
-      anreise: "Mit privatem Transfer von Songkhla über Nakhon Si Thammarat nach Khanom (ca. 3,5 Std.) oder mit dem Minivan nach Nakhon Si Thammarat (ca. 3 Std.) und weiter nach Khanom (ca. 1,5 Std.); mit Wartezeit ca. 5–5,5 Std.",
+      anreise: "Taxi oder Grab von Songkhla zum Bahnhof Hat Yai (ca. 45 Min.), Zug nach Nakhon Si Thammarat (ca. 2,75–3 Std.; nur wenige Züge pro Tag, Fahrplan bei der SRT prüfen), dann Taxi oder Minivan nach Khanom (ca. 1,5 Std.); mit Wartezeit insgesamt ca. 5,5–6,5 Std. Schneller ist ein privater Transfer ab Songkhla (ca. 3,5 Std.).",
       text: "Ruhiger Küstenort am Golf von Thailand mit einsamen Stränden, Wasserfällen und rosa Delfinen. Ein entspannter Halt am Meer vor den Inseln.",
       teens: "Delfin-Bootstour ab Pak Nam (Sichtung nicht garantiert), Hin Lat Wasserfälle, Strandtage, Schnorcheln und Kajak.",
       fakten: [
@@ -380,7 +385,7 @@ REISEN.asien = {
       region: "Thailand",
       datum: "17.–19. Juli",
       naechte: "2 Nächte",
-      anreise: "Katamaran Lomprayah von Koh Tao nach Chumphon (ca. 1,5–2 Std.), weiter mit dem Lomprayah-Bus (Kombiticket, Abfahrt Koh Tao 10:15, Ankunft Hua Hin ca. 17 Uhr) oder mit dem Zug nach Hua Hin. Gesamtreise ca. 7 Std.; Verpflegung mitnehmen.",
+      anreise: "Katamaran Lomprayah von Koh Tao nach Chumphon (ca. 1,5–2 Std.), Taxi zum Bahnhof (ca. 15 Min.), dann Zug nach Hua Hin (ca. 3,5–4 Std.; nur einige Züge pro Tag, auf den Katamaran abstimmen und vorab bei der SRT reservieren). Insgesamt ca. 7–8 Std.; Verpflegung mitnehmen. Alternative: Lomprayah-Bus im Kombiticket (Abfahrt Koh Tao 10:15, Ankunft Hua Hin ca. 17 Uhr).",
       text: "Königliche Küstenstadt mit breitem Strand, Wasserpark und Nationalpark. Ein entspannter Zwischenhalt vor der Grossstadt.",
       teens: "Vana Nava Water Jungle (Wasserpark), Strandtage, Reiten am Strand, Santorini Park (Fotospots), Wanderung zur Phraya-Nakhon-Höhle (ca. 30–45 Min. steil).",
       fakten: [
@@ -409,7 +414,7 @@ REISEN.asien = {
       region: "Thailand",
       datum: "19.–22. Juli",
       naechte: "3 Nächte, Rückflug 22. Juli",
-      anreise: "Zug oder Minivan von Hua Hin nach Bangkok (ca. 3–4 Std.), Ankunft je nach Zug am Bahnhof Krung Thep Aphiwat oder Hua Lamphong; weiter mit MRT oder Taxi.",
+      anreise: "Zug von Hua Hin nach Bangkok (ca. 3,5–4 Std.), Ankunft je nach Zug am Bahnhof Krung Thep Aphiwat oder Hua Lamphong; weiter mit MRT oder Taxi. Minivans sind etwas schneller (ca. 3 Std.).",
       text: "Vielfältiges Finale: Tempel, Flussfahrten, Aquarium und Nachtmärkte. Zwei Nächte reichen für die wichtigsten Höhepunkte der Stadt.",
       teens: "SEA LIFE Bangkok Ocean World (Siam Paragon), Safari World (nur bei genug Zeit), Khlong-Bootsfahrt, Tempelbesichtigung in Ayutthaya.",
       fakten: [
@@ -459,7 +464,7 @@ REISEN.asien = {
         "Fernverkehr (Bus, Zug, Fähre, Minivan)",
         "950–1’600",
         "1’200",
-        "Bus Singapur–Mersing, Fähren Mersing–Tioman, Bus Mersing–Kuala Lumpur, Transfers nach Taman Negara und Kuala Besut, Boote Perhentian, grenzüberschreitender Transfer nach Songkhla, Transfer oder Minivans nach Khanom, Fähren Samui–Tao–Chumphon, Zug nach Hua Hin/Bangkok"
+        "Bus Singapur–Mersing, Fähren Mersing–Tioman, Taxi nach Kluang und ETS-Zug nach Kuala Lumpur, Transfers nach Taman Negara und Kuala Besut, Boote Perhentian, grenzüberschreitender Transfer nach Songkhla, Zug Hat Yai–Nakhon Si Thammarat und Taxi nach Khanom, Fähren Samui–Tao–Chumphon, Zug nach Hua Hin und Bangkok"
       ],
       ["Lokale Transfers", "400–800", "550", "Grab, MRT/Skytrain, Wassertaxis, Songthaew"],
       [
@@ -546,7 +551,7 @@ REISEN.asien = {
     ],
     [
       "Transport",
-      "Alle Strecken sind ohne Inlandflug per Bus, Zug und Fähre geplant. Sicherheitsgurte in Taxis und Minivans nutzen. Grab-Fahrten bevorzugen, Roller meiden. Fähren, Katamarane und Züge früh buchen und Seekrankheitsmittel bereithalten."
+      "Alle Strecken sind ohne Inlandflug geplant, wo möglich mit dem Zug (KTMB in Malaysia, SRT in Thailand; Züge früh reservieren, wenige Verbindungen pro Tag), sonst mit Bus, Fähre und privatem Transfer. Sicherheitsgurte in Taxis und Minivans nutzen. Grab-Fahrten bevorzugen, Roller meiden. Fähren und Katamarane früh buchen und Seekrankheitsmittel bereithalten."
     ],
     [
       "Bildschirmzeit &amp; Beschäftigung",
