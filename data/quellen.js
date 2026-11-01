@@ -157,6 +157,25 @@ window.QUELLEN = {
       ]
     },
     {
+      titel: "Südkorea",
+      links: [
+        ["Korean Air: Flüge Zürich–Südkorea", "https://www.koreanair.com/flights/de-ch/flights-from-zurich-to-south-korea"],
+        ["CAPA: Korean Air Zürich–Seoul 2026 dreimal pro Woche (31.03.–24.10.2026)", "https://centreforaviation.com/members/direct-news/korean-air-brings-boeing-787-10-to-zurich-route-for-50th-anniversary-739463"],
+        ["Directflights: Zürich–Seoul-Incheon, KE 918 Di, Do, Sa ab 19.40 Uhr", "https://www.directflights.com/ZRH-ICN"],
+        ["FlightMapper: KE 917 Seoul–Zürich ab 11.05 Uhr", "https://info.flightmapper.net/route/YY_ICN_ZRH"],
+        ["LoyaltyLobby: K-ETA-Befreiung für 22 Länder bis 31.12.2026 verlängert", "https://loyaltylobby.com/2026/01/02/south-korea-extends-k-eta-waiver-through-december-2026-for-select-nationals-of-22-countries/"],
+        ["Rome2rio: Seoul Express Bus Terminal–Sokcho (ca. 2 Std. 20 Min., alle 30 Min.)", "https://www.rome2rio.com/s/Seoul-Express-Bus-Terminal/Sokcho"],
+        ["Rome2rio: Sokcho–Gangneung mit dem Bus (ca. 1 Std. 15 Min.)", "https://www.rome2rio.com/s/Sokcho-Intercity-Bus-Terminal/Gangneung"],
+        ["Stadt Busan: KTX-Eum auf der Donghae-Linie Bujeon–Gangneung (ca. 3 Std. 54 Min., drei Züge pro Richtung)", "https://www.busan.go.kr/eng/bsnews01/1711637"],
+        ["Asia Economy: KTX-Eum auf der Strecke Gangneung–Busan ab 30.12.2025", "https://www.asiae.co.kr/en/article/2025121509471250108"],
+        ["Mileasia: Busan–Tongyeong mit dem Bus (ca. 1,5 Std.)", "https://mileasia.com/korea/busan-to-tongyeong/"],
+        ["Korea JoongAng Daily: Regenzeit (Mittel: Jeju 19. Juni, Süden 23. Juni, Mitte 25. Juni)", "https://www.koreajoongangdaily.com/korea/monsoon-unlikely-to-reach-korea-before-july/12740640"],
+        ["Visit Jeju: Reservation für den Hallasan (Seongpanak, Gwaneumsa)", "https://www.visitjeju.net/u/kU"],
+        ["Mileasia: Hallasan, Wege und Reservation", "https://mileasia.com/korea/hallasan/"],
+        ["10 Magazine: Mietwagen in Korea für Ausländer (internationaler Führerausweis)", "https://10mag.com/how-to-rent-a-car-for-foreigners-in-korea/"]
+      ]
+    },
+    {
       titel: "Bewertung: Reisezeit und CO₂",
       links: [
         ["Trainline: Zürich Flughafen–Brig mit dem Zug (ca. 2,5 Std.)", "https://thetrainline.com/train-times/zurich-to-brig"],

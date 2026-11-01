@@ -2,13 +2,14 @@
 
 **Zur Seite: https://zubini.github.io/family-trip-2027/**
 
-Reiseführer und Variantenvergleich für die Familienreise 2027 (Sa, 19. Juni bis Sa, 24. Juli, 2 Erwachsene und 2 Kids) mit fünf Varianten:
+Reiseführer und Variantenvergleich für die Familienreise 2027 (Sa, 19. Juni bis Sa, 24. Juli, 2 Erwachsene und 2 Kids) mit sechs Varianten:
 
 - **Spanien / Portugal / Marokko**: mit dem eigenen Auto ab Brig-Glis, sechs Nächte Marokko nur mit Fähre und Zug (Casablanca, Marrakesch, Agafay-Wüste, Fès)
 - **USA Süd (Los Angeles – Florida – New York)**: Roadtrip von Los Angeles durch den Südwesten über Texas, New Orleans und Destin nach Florida mit Key Largo, Inlandflug Miami–New York
 - **USA Mitte (Los Angeles – Chicago – New York)**: mit dem Mietwagen von Los Angeles über Las Vegas, Kanab und Monument Valley nach Albuquerque, über Amarillo und Fort Worth nach Houston und New Orleans, über Memphis und St. Louis nach Chicago, über Cedar Point und die Niagarafälle in die Finger Lakes und nach New York (kein Inlandflug)
 - **Malaysia / Thailand**: von Singapur nach Bangkok
 - **Singapur / Malaysia / Bangkok**: Tioman, Cherating, Taman Negara, Perhentian, Redang, Kuala Lumpur und Bangkok
+- **Südkorea**: Seoul, Sokcho mit Seoraksan, Gangneung, Gyeongju, Busan, Tongyeong, Jeju und nochmals Seoul; Bus, Zug, zwei Inlandflüge, Mietwagen auf Jeju
 
 Dazu eine Einstiegsseite mit Vergleich, Bewertung, Budget sowie Pro und Contra und eine Seite mit den Quellen.
 
@@ -25,6 +26,7 @@ data/             die Inhalte, hier wird fast alles geändert
   usamitte.js     USA Mitte (Los Angeles–Chicago–New York, ohne Inlandflug)
   asien.js        Malaysia / Thailand (Singapur–Bangkok)
   malaysia.js     Singapur / Malaysia / Bangkok (Ostküste)
+  suedkorea.js    Südkorea (Seoul, Ostküste, Busan, Jeju)
   quellen.js      Seite «Quellen» (Belege für Fahrzeiten, Einreise, Bilder)
   bilder-unsplash.js  Unsplash-Fotos (erzeugt von tools/bilder-unsplash.js)
 css/              Gestaltung (basis, navigation, reise, karte, start)

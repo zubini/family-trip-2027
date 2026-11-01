@@ -177,6 +177,39 @@ window.START = {
         "Dengue, Blutegel im Dschungel",
         "Teils wie Malaysia / Thailand"
       ]
+    },
+    suedkorea: {
+      steckbrief: {anreise: "Flug nach Seoul, ca. 11,5 Std.", unterwegs: "Expressbus und Zug, zwei kurze Inlandflüge, Mietwagen auf Jeju", highlights: "Seoul, Seoraksan, Gyeongju, Busan, Jeju"},
+      name: "Südkorea",
+      zusatz: "Seoul, Berge und Ostküste, Gyeongju, Busan und die Vulkaninsel Jeju",
+      passt: "Städte, Kultur, Essen und Natur gemischt sein sollen, ihr Sicherheit und kurze Etappen schätzt und mit Regentagen in der Regenzeit leben könnt.",
+      kurz: "Knapp fünf Wochen Südkorea: Seoul, Sokcho mit dem Nationalpark Seoraksan, Gangneung, die Königsstadt Gyeongju, Busan, Tongyeong, neun Nächte auf Jeju und zum Schluss nochmals Seoul.",
+      route: "Seoul, (Bus) Sokcho / Seoraksan, Gangneung, (Zug) Gyeongju, Busan, (Bus) Tongyeong, (Flug) Jeju Westküste, (Mietwagen) Seogwipo, (Flug) Seoul",
+      stationen: "9 Stationen",
+      laender: "Südkorea",
+      hinflug: "Direktflug Zürich–Seoul ca. 11,5 Std. (Korean Air) am Sa, 19.06.2027 am Abend, Ankunft So am Nachmittag",
+      rueckflug: "Direktflug Seoul–Zürich ca. 13,5 Std. (Korean Air) am Do, 22.07.2027 am Vormittag, Ankunft am Abend; zwei Tage Puffer gegen den Jetlag",
+      dazwischen: "Expressbusse und Züge, zwei kurze Inlandflüge (Busan–Jeju, Jeju–Seoul), auf Jeju ein Mietwagen",
+      tempo: "Kurze Etappen: Bus und Zug meist 1–3 Std., längster Reisetag ohne Flug Gangneung–Gyeongju ca. 4–5,5 Std.; zwei Flugtage mit je ca. 5–6 Std. Tür zu Tür; selber fahren nur auf Jeju; meist 3–5 Nächte.",
+      gesamt: "Ca. 61–68 Std. Tür zu Tür: Bahn Brig-Glis–Zürich Flughafen (ca. 2,5 Std.), Langstreckenflüge mit Wartezeiten, Einreise und Transfers zusammen ca. 40 Std., Bus, Zug und Mietwagen ca. 11–16 Std., zwei Inlandflüge mit Transfers zusammen ca. 10–12 Std. Uhr +7 Std.",
+      wetter: "Regenzeit (Jangma) von ca. Ende Juni bis Ende Juli: oft heftiger Regen, dazwischen schwül-heiss mit ca. 28–32 °C; ab Juli Taifune möglich, vor allem auf Jeju und in Busan; Meer ca. 21–25 °C.",
+      einreise: "Visumfrei bis 90 Tage. K-ETA für die Schweiz bis 31.12.2026 ausgesetzt, Stand für 2027 vorab prüfen; e-Arrival Card online.",
+      hoehepunkte: "Paläste und Hanok-Viertel in Seoul, Granitberge von Seoraksan, Königsgräber und Bulguksa in Gyeongju, Strände und Gamcheon in Busan, Seilbahn und Luge in Tongyeong, Vulkankrater, Lavahöhlen und Wasserfälle auf Jeju, die DMZ.",
+      teens: "K-Pop und Street-Food in Seoul, Lotte World, Seilbahnen, Schienenvelo, Velotour in Gyeongju, Skyline Luge, Surfkurs auf Jeju, Hallasan, DMZ-Tour.",
+      pro: [
+        "Sehr sicher, sauber, Leitungswasser trinkbar",
+        "Städte, Kultur und Natur gemischt",
+        "Kurze Etappen mit Bus und Zug",
+        "Neun Nächte auf der Vulkaninsel Jeju",
+        "Keine Dengue, keine Impfungen nötig"
+      ],
+      contra: [
+        "Die ganze Reise in der Regenzeit",
+        "Taifune ab Juli möglich",
+        "Meer kühler, kaum Schnorcheln",
+        "Lange Flüge, Jetlag (+7 Std.)",
+        "Teurer als Asien (ca. {plan:suedkorea} CHF)"
+      ]
     }
   },
   bewertung: [
@@ -193,6 +226,7 @@ window.START = {
         "Inseln, Strände und Riffe von Tioman bis Koh Tao, dazu Delfine bei Khanom und Wasserfälle; eher sanfte als dramatische Landschaften."
       ],
       malaysia: [4, "Regenwald von Taman Negara, Dschungel und Wasserfälle auf Tioman, Inseln und Riffe der Ostküste, Mangroven mit Glühwürmchen; eher sanfte als dramatische Landschaften."],
+      suedkorea: [4, "Granitgipfel und Wasserfälle in Seoraksan, die Inselwelt bei Tongyeong, auf Jeju Vulkankrater, Lavahöhlen, Wasserfälle am Meer und der Hallasan; dazwischen viele Tage in Städten."],
     },
     {
       kriterium: "Dschungelfeeling",
@@ -204,6 +238,7 @@ window.START = {
         "Dschungelwanderung auf Tioman, Wasserfälle und Inselwälder; kein grosser zusammenhängender Regenwald auf der Route."
       ],
       malaysia: [4, "Taman Negara, einer der ältesten Regenwälder der Welt, mit Hängebrücken und Nachtwanderung, dazu der Dschungel auf Tioman."],
+      suedkorea: [1, "Kein Dschungel; dichte Wälder in Seoraksan und der Gotjawal-Wald auf Jeju."],
     },
     {
       kriterium: "Wüstenfeeling",
@@ -215,6 +250,7 @@ window.START = {
       usamitte: [4, "Mojave um Las Vegas, rote Felsen und Dünen bei Kanab, Monument Valley und die Wüste New Mexicos; danach Prärie."],
       asien: [0, "Keine Wüste: tropische Inseln, Regenwald und Städte."],
       malaysia: [0, "Keine Wüste: Regenwald und tropische Inseln."],
+      suedkorea: [0, "Keine Wüste."],
     },
     {
       kriterium: "Strand und Baden",
@@ -229,6 +265,7 @@ window.START = {
         "Tioman, Perhentian Islands, Khanom, Koh Samui, Koh Tao und Hua Hin: tropische Strände mit ca. 29 °C warmem Wasser an fast jeder zweiten Station."
       ],
       malaysia: [5, "Perhentian, Redang, Tioman und Cherating: tropische Strände mit ca. 28–30 °C warmem Wasser an fast der Hälfte der Tage."],
+      suedkorea: [3, "Stadtstrände in Busan, Strände an der Ostküste (Badesaison erst ab Juli) und Hyeopjae und Jungmun auf Jeju; Wasser ca. 21–25 °C, Regentage und Taifune können Strandtage kosten."],
     },
     {
       kriterium: "Schnorcheln",
@@ -243,6 +280,7 @@ window.START = {
         "Tioman, Perhentian Islands, Koh Samui und Koh Tao: fast jede Inselstation hat Riffe, Schildkröten und Schnorchelboote."
       ],
       malaysia: [5, "Schildkröten und Riffhaie auf den Perhentians, klares Wasser und Korallengärten auf Redang, Riffe auf Tioman."],
+      suedkorea: [1, "Wenig: einzelne Buchten auf Jeju und Bootsausflüge bei Seogwipo, kühleres Wasser und kaum Korallen."],
     },
     {
       kriterium: "Abenteuer",
@@ -254,6 +292,7 @@ window.START = {
       usamitte: [4, "Sandboarding bei Kanab, Jeep-Tour im Monument Valley, Sumpftour mit Alligatoren, Klettern im City Museum, Achterbahnen in Cedar Point, Boot in die Gischt der Niagarafälle, ein Roadtrip quer durchs Land."],
       asien: [3, "Kajak, Seilrutschen, Inselhopping und Fähren; eher abenteuerlich beim Reisen als in der Natur."],
       malaysia: [4, "Nachtwanderung im Dschungel, Bootsfahrt durch Stromschnellen, Schnorcheln mit Riffhaien, Surfkurs, Glühwürmchen-Tour."],
+      suedkorea: [3, "Wanderung auf den Hallasan oder in Seoraksan, Lavahöhle, Surfkurs, Skyline Luge, Schienenvelo, DMZ-Tour."],
     },
     {
       kriterium: "Städte",
@@ -265,6 +304,7 @@ window.START = {
       usamitte: [5, "Los Angeles, Las Vegas, Albuquerque und Santa Fe, Fort Worth, Houston, New Orleans, Memphis, St. Louis, Chicago und New York."],
       asien: [4, "Singapur, Kuala Lumpur, Penang und Bangkok mit Street-Food und Tempeln."],
       malaysia: [4, "Singapur, Kuala Lumpur und Bangkok mit Street-Food, Tempeln, Märkten und Aussichtstürmen."],
+      suedkorea: [5, "Seoul als Weltstadt mit Palästen, Hanok-Vierteln und K-Pop, dazu Busan und die alte Königsstadt Gyeongju (UNESCO)."],
     },
     {
       kriterium: "Gesundheit und Sicherheit",
@@ -279,6 +319,7 @@ window.START = {
         "Singapur sehr sicher; in Malaysia und Thailand Dengue-Mückenschutz, kein Leitungswasser, Impfstatus vorab klären; auf den Inseln (Tioman, Perhentian) ist ein Spital weit weg, Bootsfahrten bei Wellengang."
       ],
       malaysia: [4, "Singapur und Malaysia sicher mit guter Versorgung in den Städten; Dengue, Blutegel im Dschungel, auf den Inseln nur einfache Kliniken, kein Leitungswasser in Malaysia."],
+      suedkorea: [5, "Sehr sicher, ausgezeichnete Spitäler, Leitungswasser trinkbar, keine besonderen Impfungen und kaum Dengue; Hitze, Starkregen und Taifune beachten."],
     },
     {
       kriterium: "Budget (mehr Punkte = günstiger)",
@@ -287,6 +328,7 @@ window.START = {
       usamitte: [1, "ca. {plan:usamitte} CHF: vor allem Einwegmiete, Unterkünfte in Los Angeles, Chicago und New York."],
       asien: [4, "ca. {plan:asien} CHF: Singapur ist teuer, der Rest günstig."],
       malaysia: [4, "ca. {plan:malaysia} CHF: Langstreckenflug und ein kurzer Flug, sonst günstig."],
+      suedkorea: [3, "ca. {plan:suedkorea} CHF: Langstreckenflüge in der Hochsaison, Unterkünfte in Seoul, Busan und auf Jeju; Essen und Verkehr günstig."],
     },
     {
       kriterium: "Reisekomfort",
@@ -301,6 +343,7 @@ window.START = {
         "Ca. 101–108 Stunden Tür zu Tür: zwei Direktflüge mit Jetlag, dazu ca. 65–70 Stunden mit Bus, Zug und Fähre und viele Umstiege mit Gepäck; niemand muss selber fahren."
       ],
       malaysia: [3, "Ca. 68–75 Stunden Tür zu Tür: zwei lange Direktflüge mit Jetlag, Busse, Transfers und Boote mit Gepäck, zum Schluss ein kurzer Flug; niemand muss selber fahren."],
+      suedkorea: [4, "Ca. 61–68 Stunden Tür zu Tür: zwei lange Direktflüge mit Jetlag (+7 Std.), sonst kurze Etappen mit pünktlichen Bussen und Zügen, zwei kurze Inlandflüge, selber fahren nur auf Jeju."],
     },
     {
       kriterium: "CO₂ und Umwelt (mehr Punkte = weniger CO₂)",
@@ -315,6 +358,7 @@ window.START = {
         "Zwei Langstreckenflüge (ca. 19’000 km), unterwegs Bus, Zug und Fähre, grob geschätzt ca. 4 t CO₂ pro Person."
       ],
       malaysia: [1, "Zwei Langstreckenflüge (ca. 19’500 km) und ein kurzer Flug (ca. 1’200 km), grob geschätzt ca. 3,9 t CO₂ pro Person."],
+      suedkorea: [1, "Zwei Langstreckenflüge (zusammen ca. 19’000 km, um Russland herum) und zwei Inlandflüge (zusammen ca. 750 km), grob geschätzt ca. 3,8 t CO₂ pro Person."],
     }
   ]
 };
