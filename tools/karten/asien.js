@@ -5,7 +5,7 @@ module.exports = {
   projektion: 'eq', laenge: [96.9, 105.8], breitengrad: [0.55, 14.35], breite: 712,
   laender: ['SGP', 'MYS', 'THA'],
   orte: {
-    SG: [1.3521, 103.8198], MS: [2.4330, 103.8400], TI: [2.8200, 104.1700], CHE: [4.1300, 103.3900], KL: [3.1390, 101.6869], ML: [2.1960, 102.2480], BEL: [5.5500, 101.3300], KTG: [5.3300, 103.1400],
+    SG: [1.3521, 103.8198], MS: [2.4330, 103.8400], TI: [2.8200, 104.1700], CHE: [4.1300, 103.3900], KL: [3.1390, 101.6869], ML: [2.1960, 102.2480], KTH: [4.3800, 102.4000], KTG: [5.3300, 103.1400],
     KB: [5.8310, 102.5600], PER: [5.9100, 102.7400], GT: [5.4164, 100.3327], BW: [5.3990, 100.3638],
     AR: [6.4330, 100.2770], PB: [6.6620, 100.3170], HY: [7.0035, 100.4750], NST: [8.4300, 99.9600],
     KH: [9.2350, 99.8590], DS: [9.3300, 99.7200], SMP: [9.5320, 99.9330], SM: [9.5120, 100.0136],
@@ -17,11 +17,10 @@ module.exports = {
     ['ferry', 'Mersing – Pulau Tioman', ['MS', [2.58, 104.02], 'TI']],
     ['car', 'Mersing – Kluang – Malakka', ['MS', [2.03, 103.32], [2.10, 102.80], 'ML']],
     ['bus', 'Malakka – Kuala Lumpur', ['ML', [2.55, 102.05], [2.90, 101.80], 'KL']],
-    ['car', 'Kuala Lumpur – Kuantan – Cherating (East Coast Expressway)', ['KL', [3.30, 102.10], [3.55, 102.70], [3.81, 103.20], 'CHE']],
-    ['car', 'Cherating – Kuala Terengganu – Kuala Besut', ['CHE', [4.75, 103.42], 'KTG', [5.65, 102.80], 'KB']],
+    ['car', 'Kuala Lumpur – Jerantut – Kuala Tahan', ['KL', [3.40, 101.90], [3.62, 102.10], [3.94, 102.36], 'KTH']],
+    ['car', 'Kuala Tahan – Gua Musang – Kuala Besut', ['KTH', [4.85, 101.96], [5.40, 102.20], [5.74, 102.49], 'KB']],
     ['ferry', 'Kuala Besut – Perhentian Islands', ['KB', [5.87, 102.65], 'PER']],
-    ['car', 'Kuala Besut – Jeli – Pulau Banding (East-West-Highway)', ['KB', [5.74, 102.49], [5.70, 101.84], [5.55, 101.55], 'BEL']],
-    ['car', 'Pulau Banding – Gerik – Bukit Kayu Hitam – Hat Yai', ['BEL', [5.43, 101.13], [5.70, 100.75], [6.12, 100.45], [6.51, 100.42], [6.80, 100.45], 'HY']],
+    ['car', 'Kuala Besut – Jeli – Gerik – Bukit Kayu Hitam – Hat Yai', ['KB', [5.74, 102.49], [5.70, 101.84], [5.55, 101.33], [5.43, 101.13], [5.70, 100.75], [6.12, 100.45], [6.51, 100.42], [6.80, 100.45], 'HY']],
     ['bus', 'Hat Yai – Nakhon Si Thammarat – Khanom', ['HY', [7.20, 100.30], [7.62, 100.07], [7.90, 100.02], [8.16, 99.98], 'NST', [8.80, 99.92], [9.05, 99.88], 'KH']],
     ['bus', 'Khanom – Donsak', ['KH', [9.29, 99.80], 'DS']],
     ['ferry', 'Donsak – Koh Samui', ['DS', [9.40, 99.80], [9.48, 99.88], 'SMP']],
@@ -33,13 +32,13 @@ module.exports = {
     ['train', 'Hua Hin – Bangkok', ['HH', [12.80, 99.96], [13.111, 99.944], [13.536, 99.817], [13.8199, 100.062], [13.80, 100.30], 'BK']]
   ],
   stationen: [
-    [1, 'SG', 'r'], [2, 'TI', 'r'], [3, 'ML', 'l'], [4, 'KL', 'l'], [5, 'CHE', 'r'], [6, 'PER', 'r'], [7, 'BEL', 'l'],
-    [8, 'KH', 'r'], [9, 'SM', 'r'], [10, 'TAO', 'r'], [11, 'HH', 'r'], [12, 'BK', 'r']
+    [1, 'SG', 'r'], [2, 'TI', 'r'], [3, 'ML', 'l'], [4, 'KL', 'l'], [5, 'KTH', 'r'], [6, 'PER', 'r'],
+    [7, 'KH', 'r'], [8, 'SM', 'r'], [9, 'TAO', 'r'], [10, 'HH', 'r'], [11, 'BK', 'r']
   ],
   zwischenstopps: [['Hat Yai', 'HY', 0]],
   umstiege: [['Mersing', 'MS', 'l'], ['Kuala Besut', 'KB', 'l']],
   beschriftungen: [
-    ['Malaysia', 4.3, 102.6, 'cn'], ['Thailand', 13.2, 99.25, 'cn'], ['Indonesien', 1.2, 100.6, 'cn'],
+    ['Malaysia', 3.55, 103.05, 'cn'], ['Thailand', 13.2, 99.25, 'cn'], ['Indonesien', 1.2, 100.6, 'cn'],
     ['Golf von Thailand', 11.2, 101.6, 'sea'], ['Andamanensee', 7.6, 97.75, 'sea'],
     ['Strasse von Malakka', 4.0, 99.75, 'sea', -55], ['Südchinesisches Meer', 5.2, 104.7, 'sea']
   ],
