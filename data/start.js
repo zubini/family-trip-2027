@@ -118,13 +118,13 @@ window.START = {
       zusatz: "von Singapur über Tioman, Kuala Lumpur, Taman Negara und die Perhentians nach Bangkok",
       passt: "Schnorcheln, tropische Inseln und Strand im Vordergrund stehen, ihr dazu Kuala Lumpur, Regenwald, Singapur und Bangkok erleben möchtet.",
       kurz: "Fünf Wochen über Land und Wasser: Singapur, Tioman, Kuala Lumpur, der Regenwald von Taman Negara, die Perhentians, der Golf von Thailand und Bangkok.",
-      route: "Singapur, Pulau Tioman, (über Mersing) Kuala Lumpur, Taman Negara, Perhentian Islands, (über Hat Yai) Khanom, Koh Samui, Koh Tao, Hua Hin, Bangkok",
-      stationen: "10 Stationen und 2 Zwischenübernachtungen",
+      route: "Singapur, Pulau Tioman, (über Mersing) Kuala Lumpur, Taman Negara, Perhentian Islands, (über die Grenze) Songkhla, Khanom, Koh Samui, Koh Tao, Hua Hin, Bangkok",
+      stationen: "11 Stationen und 1 Zwischenübernachtung",
       laender: "Singapur, Malaysia, Thailand",
       hinflug: "Direktflug Zürich–Singapur ca. 12–13 Std.",
       rueckflug: "Direktflug Bangkok–Zürich ca. 11,5–12 Std. am Do, 22.07.2027 um die Mittagszeit, Ankunft am Abend; zwei Tage Puffer gegen den Jetlag",
       dazwischen: "Keine Flüge dazwischen, alles per Bus, privatem Transfer, Zug und Fähre",
-      tempo: "Ca. 45–54 Std. reine Reisezeit mit Bus, Transfer, Zug und Fähre, realistisch mit Wartezeiten ca. 54–64 Std.; längster Reisetag Perhentian–Hat Yai mit ca. 8–9 Std., direkt danach Hat Yai–Khanom (ca. 5–6 Std.); weitere längere Tage Singapur–Tioman, Mersing–Kuala Lumpur, Taman Negara–Perhentian und Koh Tao–Hua Hin (je ca. 5–7 Std.); meist 2–4 Nächte pro Station",
+      tempo: "Ca. 45–54 Std. reine Reisezeit mit Bus, Transfer, Zug und Fähre, realistisch mit Wartezeiten ca. 54–64 Std.; längster Reisetag Perhentian–Songkhla mit ca. 8,5–9,5 Std., danach ein Ruhetag in Songkhla; weitere längere Tage Singapur–Tioman, Mersing–Kuala Lumpur, Songkhla–Khanom, Taman Negara–Perhentian und Koh Tao–Hua Hin (je ca. 5–7 Std.); meist 2–4 Nächte pro Station",
       gesamt: "Ca. 90–102 Std. Tür zu Tür: Bahn Brig-Glis–Zürich Flughafen (ca. 2,5 Std.), ca. 2 Std. Wartezeit am Flughafen, Flüge und Transfers zusammen ca. 36–38 Std., dazu ca. 54–64 Std. mit Bus, Transfer, Zug und Fähre; niemand muss selber fahren. Uhr +6 Std. (Thailand +5 Std.), Jetlag vor allem nach der Ankunft.",
       wetter: "Kuala Lumpur, Taman Negara und Bangkok mit kurzen Gewittern am Nachmittag; die Ostküste Malaysias (Tioman, Perhentian) und der Golf von Thailand (Samui, Tao) sind meist ruhiger.",
       einreise: "Singapur und Malaysia visafrei. Thailand: seit 15.09.2026 nur noch 30 Tage visafrei und höchstens zwei Landgrenz-Einreisen pro Jahr, Länderliste prüfen. Online-Anmeldungen (SG Arrival Card, MDAC, TDAC).",
@@ -139,7 +139,7 @@ window.START = {
       ],
       contra: [
         "Viele Umstiege mit Gepäck",
-        "Ein Reisetag mit 8–9 Std., viele Ortswechsel",
+        "Ein Reisetag mit 8,5–9,5 Std., viele Ortswechsel",
         "Regenzeit und schwüle Hitze",
         "Dengue-Mücken, kein Leitungswasser",
         "Jetlag (+6 Std.), viel CO₂"
@@ -256,7 +256,7 @@ window.START = {
       usamitte: [1, "Ca. 108–118 Stunden Tür zu Tür: zwei Langstreckenflüge mit Jetlag (−9 Std.) und die meiste Zeit im Auto (ca. 75–84 Stunden an 15 Fahrtagen, drei Fahrtage hintereinander durch Texas)."],
       asien: [
         2,
-        "Ca. 90–102 Stunden Tür zu Tür: zwei Direktflüge mit Jetlag, dazu ca. 54–64 Stunden mit Bus, Transfer, Zug und Fähre (ein Reisetag mit ca. 8–9 Stunden) und viele Umstiege mit Gepäck; niemand muss selber fahren."
+        "Ca. 90–102 Stunden Tür zu Tür: zwei Direktflüge mit Jetlag, dazu ca. 54–64 Stunden mit Bus, Transfer, Zug und Fähre (ein Reisetag mit ca. 8,5–9,5 Stunden) und viele Umstiege mit Gepäck; niemand muss selber fahren."
       ],
     },
     {

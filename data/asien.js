@@ -5,7 +5,7 @@ window.REISEN = window.REISEN || {};
 REISEN.asien = {
   titel: "Von Singapur nach Bangkok",
   menu: "Malaysia / Thailand",
-  untertitel: "Fünf Wochen über Land und Wasser: Singapur, die Insel Tioman, Kuala Lumpur, der Regenwald von Taman Negara und die Perhentians, dann über die Grenze an den Golf von Thailand und nach Bangkok.",
+  untertitel: "Fünf Wochen über Land und Wasser: Singapur, die Insel Tioman, Kuala Lumpur, der Regenwald von Taman Negara und die Perhentians, dann über die Grenze nach Songkhla, an den Golf von Thailand und nach Bangkok.",
   zeitraum: "Sa, 19.06.2027 bis Do, 22.07.2027, 2 Erwachsene und 2 Kids",
   titelbild: {
     datei: "Nang Yuan Island, Koh Tao (48109157601).jpg",
@@ -35,38 +35,38 @@ REISEN.asien = {
     {datum: "27.–28. Juni", name: "Zwischenübernachtung Mersing", naechte: 1, info: "Fähre ab Tioman (ca. 1,5–2 Std.)"},
     {datum: "28. Juni–1. Juli", name: "3. Kuala Lumpur", naechte: 3, info: "Fernbus ab Mersing (ca. 5–6 Std.)"},
     {
-      datum: "1.–4. Juli",
+      datum: "1.–3. Juli",
       name: "4. Taman Negara",
-      naechte: 3,
+      naechte: 2,
       info: "Transfer (ca. 3,5–4 Std.) oder Bus und Langboot ab Kuala Tembeling (ca. 6–7 Std.)"
     },
     {
-      datum: "4.–8. Juli",
+      datum: "3.–7. Juli",
       name: "5. Perhentian Islands",
       naechte: 4,
       info: "Transfer über Gua Musang (ca. 5–5,5 Std.), Speedboot (ca. 30–45 Min.)"
     },
     {
-      datum: "8.–9. Juli",
-      name: "Zwischenübernachtung Hat Yai (Thailand)",
-      naechte: 1,
-      info: "Speedboot (ca. 30–45 Min.), Transfer über Jeli, Gerik und die Grenze Bukit Kayu Hitam–Sadao (insgesamt ca. 8–9 Std.)"
+      datum: "7.–9. Juli",
+      name: "6. Songkhla (Thailand)",
+      naechte: 2,
+      info: "Speedboot (ca. 30–45 Min.), Transfer über Jeli, Gerik und die Grenze Bukit Kayu Hitam–Sadao (insgesamt ca. 8,5–9,5 Std.)"
     },
     {
       datum: "9.–11. Juli",
-      name: "6. Khanom",
+      name: "7. Khanom",
       naechte: 2,
-      info: "Minivan mit Umstieg in Nakhon Si Thammarat oder Privattransfer (ca. 5–6 Std.)"
+      info: "Transfer (ca. 3,5 Std.) oder Minivan mit Umstieg in Nakhon Si Thammarat (ca. 5–5,5 Std.)"
     },
-    {datum: "11.–14. Juli", name: "7. Koh Samui", naechte: 3, info: "Minivan zum Donsak Pier, Autofähre (ca. 2,5 Std.)"},
-    {datum: "14.–17. Juli", name: "8. Koh Tao", naechte: 3, info: "Katamaran ab Samui (ca. 1,5–2 Std.)"},
+    {datum: "11.–14. Juli", name: "8. Koh Samui", naechte: 3, info: "Minivan zum Donsak Pier, Autofähre (ca. 2,5 Std.)"},
+    {datum: "14.–17. Juli", name: "9. Koh Tao", naechte: 3, info: "Katamaran ab Samui (ca. 1,5–2 Std.)"},
     {
       datum: "17.–19. Juli",
-      name: "9. Hua Hin / Khao Sam Roi Yot",
+      name: "10. Hua Hin / Khao Sam Roi Yot",
       naechte: 2,
       info: "Katamaran nach Chumphon, Bus oder Zug nach Hua Hin (ca. 7 Std. insgesamt)"
     },
-    {datum: "19.–22. Juli", name: "10. Bangkok", naechte: 3, info: "Zug oder Minivan (ca. 3–4 Std.); Rückflug 22. Juli"}
+    {datum: "19.–22. Juli", name: "11. Bangkok", naechte: 3, info: "Zug oder Minivan (ca. 3–4 Std.); Rückflug 22. Juli"}
   ],
   rueckflug: {
     datum: "22. Juli",
@@ -76,11 +76,11 @@ REISEN.asien = {
   planHinweise: [
     [
       "Gesamt",
-      "32 Nächte, 10 Stationen und zwei Zwischenübernachtungen (Mersing, Hat Yai). Nur Hin- und Rückflug, alle Strecken dazwischen per Bus, Zug, Fähre und privatem Transfer. Der längste Reisetag ist Perhentian–Hat Yai mit ca. 8–9 Std. (Boot, Transfer, Grenze), gleich danach Hat Yai–Khanom mit ca. 5–6 Std. Weitere längere Reisetage: Singapur–Tioman, Mersing–Kuala Lumpur (je ca. 5–6,5 Std.), Taman Negara–Perhentian (ca. 6–7 Std.) und Koh Tao–Hua Hin (ca. 7 Std.). Zusammen sind es zwischen Singapur und Bangkok ca. 45–54 Stunden reine Reisezeit; mit Wartezeiten auf Fähren und Züge, Grenzübertritt und Transfers zur Unterkunft realistisch ca. 54–64 Stunden."
+      "32 Nächte, 11 Stationen und eine Zwischenübernachtung (Mersing). Nur Hin- und Rückflug, alle Strecken dazwischen per Bus, Zug, Fähre und privatem Transfer. Der längste Reisetag ist Perhentian–Songkhla mit ca. 8,5–9,5 Std. (Boot, Transfer, Grenze); danach folgt ein Ruhetag in Songkhla. Weitere längere Reisetage: Singapur–Tioman, Mersing–Kuala Lumpur, Songkhla–Khanom (je ca. 5–6,5 Std.), Taman Negara–Perhentian (ca. 6–7 Std.) und Koh Tao–Hua Hin (ca. 7 Std.). Zusammen sind es zwischen Singapur und Bangkok ca. 45–54 Stunden reine Reisezeit; mit Wartezeiten auf Fähren und Züge, Grenzübertritt und Transfers zur Unterkunft realistisch ca. 54–64 Stunden."
     ],
     [
       "Vorab buchen",
-      "Bus nach Mersing und Fähre nach Tioman, Bus Mersing–Kuala Lumpur, Transfers Kuala Lumpur–Taman Negara und Taman Negara–Kuala Besut, Unterkunft auf Tioman und den Perhentians, Touren in Taman Negara, grenzüberschreitender Transfer Kuala Besut–Hat Yai, Petronas-Skybridge, Katamarane Samui–Tao–Chumphon. Lange Reisetage früh am Morgen starten."
+      "Bus nach Mersing und Fähre nach Tioman, Bus Mersing–Kuala Lumpur, Transfers Kuala Lumpur–Taman Negara und Taman Negara–Kuala Besut, Unterkunft auf Tioman und den Perhentians, Touren in Taman Negara, grenzüberschreitender Transfer Kuala Besut–Songkhla, Transfer Songkhla–Khanom, Petronas-Skybridge, Katamarane Samui–Tao–Chumphon. Lange Reisetage früh am Morgen starten."
     ],
     [
       "Optional",
@@ -105,7 +105,7 @@ REISEN.asien = {
     ],
     [
       "Kultur und Geschichte",
-      "Kuala Lumpur (Batu Caves, Merdeka Square), Orang-Asli-Dorf in Taman Negara, Khao Sam Roi Yot (Höhle), Bangkok (Grand Palace, Wat Pho), Ayutthaya (Tempelruinen)."
+      "Kuala Lumpur (Batu Caves, Merdeka Square), Orang-Asli-Dorf in Taman Negara, Altstadt von Songkhla, Khao Sam Roi Yot (Höhle), Bangkok (Grand Palace, Wat Pho), Ayutthaya (Tempelruinen)."
     ],
     [
       "Natur und Tiere",
@@ -117,7 +117,7 @@ REISEN.asien = {
     ],
     ["Mitmachen", "Muay-Thai-Schnupperkurs, Kajak/SUP, Street-Food- und Tuk-Tuk-Touren."]
   ],
-  stationenIntro: "Zehn Stationen von Singapur bis Bangkok: Tioman, nach einer Nacht in Mersing Kuala Lumpur, der Nationalpark Taman Negara, die Perhentians und nach einer Nacht in Hat Yai der Golf von Thailand. Über jeder Station steht, wie ihr dorthin kommt.",
+  stationenIntro: "Elf Stationen von Singapur bis Bangkok: Tioman, nach einer Nacht in Mersing Kuala Lumpur, der Nationalpark Taman Negara, die Perhentians, über die Grenze nach Songkhla und dem Golf von Thailand entlang nach Bangkok. Über jeder Station steht, wie ihr dorthin kommt.",
   stationen: [
     {
       nr: 1,
@@ -213,13 +213,13 @@ REISEN.asien = {
       name: "Taman Negara",
       land: "my",
       region: "Malaysia",
-      datum: "1.–4. Juli",
-      naechte: "3 Nächte",
+      datum: "1.–3. Juli",
+      naechte: "2 Nächte",
       anreise: "Mit privatem Transfer von Kuala Lumpur über Jerantut nach Kuala Tahan am Rand des Nationalparks (ca. 3,5–4 Std.). Erlebnisreicher, aber länger: Bus bis Kuala Tembeling (ca. 3 Std.) und Langboot auf dem Fluss nach Kuala Tahan (ca. 3 Std.; nur wenige Boote pro Tag, Fahrplan vorab prüfen).",
       text: "Einer der ältesten Regenwälder der Welt: Dschungelpfade, Hängebrücken in den Baumkronen, Flüsse mit Stromschnellen und ein Dorf der Orang Asli.",
       teens: "Nachtwanderung mit Führer (Insekten, Skorpione, mit Glück Tapire), Hängebrücken im Kronendach (Canopy Walkway), Bootsfahrt durch Stromschnellen, Besuch bei den Orang Asli, Baden im Fluss bei Lata Berkoh.",
       fakten: [
-        "<strong>Dauer:</strong> 3 Nächte in Kuala Tahan: ein Tag Canopy Walkway und Dschungelpfad, eine Nachtwanderung, ein Tag Bootsfahrt mit Stromschnellen und Orang-Asli-Dorf.",
+        "<strong>Dauer:</strong> 2 Nächte in Kuala Tahan: am Ankunftstag Nachtwanderung mit Führer, am nächsten Tag Canopy Walkway und Dschungelpfad am Morgen, am Nachmittag Bootsfahrt mit Stromschnellen und Orang-Asli-Dorf.",
         "<strong>Canopy Walkway:</strong> Zeitweise wegen Renovation geschlossen und an einem Wochentag zu; vorab prüfen. Eintritt und Gebühren sind tief.",
         "<strong>Ausrüstung:</strong> Lange Kleidung, gute Schuhe, Mückenschutz und Blutegel-Socken; es ist feucht und heiss. Kein Geldautomat im Park, Bargeld mitnehmen."
       ],
@@ -238,7 +238,7 @@ REISEN.asien = {
       name: "Perhentian Islands",
       land: "my",
       region: "Malaysia",
-      datum: "4.–8. Juli",
+      datum: "3.–7. Juli",
       naechte: "4 Nächte",
       anreise: "Mit privatem Transfer von Kuala Tahan über Gua Musang nach Kuala Besut (ca. 5–5,5 Std.), dann Speedboot zu den Inseln (ca. 30–45 Min.); insgesamt ca. 6–7 Std. Früh starten: die letzten Boote fahren am späteren Nachmittag.",
       text: "Zwei autofreie Inseln an der Ostküste mit glasklarem Wasser, weissen Stränden und Schildkröten. Juni liegt mitten in der Saison (ca. März bis Oktober); der Monsun an der Ostküste beginnt erst im November.",
@@ -264,14 +264,38 @@ REISEN.asien = {
     },
     {
       nr: 6,
+      name: "Songkhla",
+      land: "th",
+      region: "Thailand",
+      datum: "7.–9. Juli",
+      naechte: "2 Nächte",
+      anreise: "Der längste Reisetag: Speedboot von den Perhentians nach Kuala Besut (ca. 30–45 Min.), dann privater Transfer über Jeli und Gerik auf dem East-West-Highway, über den Grenzübergang Bukit Kayu Hitam–Sadao und an Hat Yai vorbei nach Songkhla (ca. 5,5–6 Std. Fahrt, mit Grenze und Pausen insgesamt ca. 8,5–9,5 Std.; grenzüberschreitende Transfers vorab buchen, früh starten). Dieser Weg vermeidet die Grenzprovinzen Narathiwat, Yala und Pattani (östlicher Grenzübergang bei Kota Bharu) und die südlichen Distrikte von Songkhla, von deren Besuch abgeraten wird; Songkhla-Stadt und Hat Yai gehören nicht dazu.",
+      text: "Ruhige Hafenstadt am Golf von Thailand zwischen Meer und Songkhla-See, kaum Touristen aus dem Westen: eine Altstadt mit chinesisch-portugiesischen Häusern und Wandmalereien, der Stadtstrand Samila und die Insel Koh Yo im See. Ein Tag zum Ausruhen nach dem langen Reisetag.",
+      teens: "Wandmalereien und Cafés in der Altstadt (Nakhon Nok und Nang Ngam Road), Strand Samila mit der Meerjungfrau-Statue, Aussicht vom Hügel Khao Tang Kuan (Standseilbahn), Fischerboote und Seafood auf Koh Yo, Abendmarkt.",
+      fakten: [
+        "<strong>Dauer:</strong> 2 Nächte: am Ankunftsabend nur noch an den Strand, am nächsten Tag Altstadt am Morgen, Pause am Nachmittag, am Abend Koh Yo oder Markt.",
+        "<strong>Baden:</strong> Samila ist eher ein Spazier- und Picknickstrand; zum Baden sind Khanom und die Inseln besser. Im Juli warm, ab und zu Schauer.",
+        "<strong>Sicherheit:</strong> Songkhla-Stadt und Hat Yai liegen ausserhalb der Gebiete, von denen das EDA abrät; nicht weiter nach Süden oder Osten (Chana, Thepha, Pattani) fahren. Reisehinweise vor der Abreise prüfen."
+      ],
+      ausserdem: "Wat Matchimawat mit Wandmalereien, Nationalmuseum Songkhla (altes chinesisches Haus), Institut für südthailändische Studien auf Koh Yo, Wasservogelpark Khu Khut (Bootsfahrt, Tagesausflug), Hat Yai mit grossen Märkten.",
+      bilder: [
+        {titel: "Samila", suche: "Samila Beach Songkhla mermaid", stichwort: "samila|mermaid"},
+        {titel: "Altstadt", suche: "Songkhla Old Town street art|Nang Ngam Road", stichwort: "songkhla|nang ngam"},
+        {titel: "Koh Yo", suche: "Ko Yo Songkhla|Koh Yor", stichwort: "ko yo|koh yo|koh yor"},
+        {titel: "Khao Tang Kuan", suche: "Khao Tang Kuan Songkhla", stichwort: "tang kuan"},
+        {titel: "Songkhla-See", suche: "Songkhla Lake|Thale Sap Songkhla", stichwort: "songkhla"},
+        {titel: "Wat Matchimawat", suche: "Wat Matchimawat Songkhla", stichwort: "matchimawat"}
+      ]
+    },
+    {
+      nr: 7,
       name: "Khanom",
       land: "th",
       region: "Thailand",
       datum: "9.–11. Juli",
       naechte: "2 Nächte",
-      zwischenstopp: {text: "Zwischenstopp in Hat Yai", datum: "8.–9. Juli"},
-      anreise: "Am Vortag der längste Reisetag: Speedboot von den Perhentians nach Kuala Besut (ca. 30–45 Min.), dann privater Transfer über Jeli und Gerik auf dem East-West-Highway und über den Grenzübergang Bukit Kayu Hitam–Sadao nach Hat Yai (ca. 5–5,5 Std. Fahrt, mit Grenze und Pausen insgesamt ca. 8–9 Std.; grenzüberschreitende Transfers vorab buchen, früh starten), Übernachtung in Hat Yai. Minivan von Hat Yai nach Nakhon Si Thammarat (ca. 3 Std.), dort umsteigen nach Khanom (ca. 1,5 Std.); mit Wartezeit ca. 5–6 Std. Ein Privattransfer (ca. 4,5 Std.) ist bequemer. Dieser Weg vermeidet die Grenzprovinzen Narathiwat, Yala und Pattani (östlicher Grenzübergang bei Kota Bharu), von deren Besuch das EDA abrät.",
-      text: "Ruhiger Küstenort am Golf von Thailand mit einsamen Stränden, Wasserfällen und rosa Delfinen. Ein entspannter Zwischenhalt nach der langen Reise aus dem Süden.",
+      anreise: "Mit privatem Transfer von Songkhla über Nakhon Si Thammarat nach Khanom (ca. 3,5 Std.) oder mit dem Minivan nach Nakhon Si Thammarat (ca. 3 Std.) und weiter nach Khanom (ca. 1,5 Std.); mit Wartezeit ca. 5–5,5 Std.",
+      text: "Ruhiger Küstenort am Golf von Thailand mit einsamen Stränden, Wasserfällen und rosa Delfinen. Ein entspannter Halt am Meer vor den Inseln.",
       teens: "Delfin-Bootstour ab Pak Nam (Sichtung nicht garantiert), Hin Lat Wasserfälle, Strandtage, Schnorcheln und Kajak.",
       fakten: [
         "<strong>Dauer:</strong> 2 Nächte: Ankunft am Nachmittag, am nächsten Tag Delfin-Tour am Morgen und Wasserfälle. Unterkunft mit Pool vorab buchen, das Angebot ist klein.",
@@ -300,7 +324,7 @@ REISEN.asien = {
       ]
     },
     {
-      nr: 7,
+      nr: 8,
       name: "Koh Samui",
       land: "th",
       region: "Thailand",
@@ -325,7 +349,7 @@ REISEN.asien = {
       ]
     },
     {
-      nr: 8,
+      nr: 9,
       name: "Koh Tao",
       land: "th",
       region: "Thailand",
@@ -350,7 +374,7 @@ REISEN.asien = {
       ]
     },
     {
-      nr: 9,
+      nr: 10,
       name: "Hua Hin / Khao Sam Roi Yot",
       land: "th",
       region: "Thailand",
@@ -379,7 +403,7 @@ REISEN.asien = {
       ]
     },
     {
-      nr: 10,
+      nr: 11,
       name: "Bangkok",
       land: "th",
       region: "Thailand",
@@ -435,7 +459,7 @@ REISEN.asien = {
         "Fernverkehr (Bus, Zug, Fähre, Minivan)",
         "950–1’600",
         "1’200",
-        "Bus Singapur–Mersing, Fähren Mersing–Tioman, Bus Mersing–Kuala Lumpur, Transfers nach Taman Negara und Kuala Besut, Boote Perhentian, grenzüberschreitender Transfer nach Hat Yai, Minivans nach Khanom, Fähren Samui–Tao–Chumphon, Zug nach Hua Hin/Bangkok"
+        "Bus Singapur–Mersing, Fähren Mersing–Tioman, Bus Mersing–Kuala Lumpur, Transfers nach Taman Negara und Kuala Besut, Boote Perhentian, grenzüberschreitender Transfer nach Songkhla, Transfer oder Minivans nach Khanom, Fähren Samui–Tao–Chumphon, Zug nach Hua Hin/Bangkok"
       ],
       ["Lokale Transfers", "400–800", "550", "Grab, MRT/Skytrain, Wassertaxis, Songthaew"],
       [
@@ -475,14 +499,14 @@ REISEN.asien = {
       ["2. Pulau Tioman (4)", "750–1’270"],
       ["Zwischenübernachtung Mersing (1)", "100–180"],
       ["3. Kuala Lumpur (3)", "550–910"],
-      ["4. Taman Negara (3)", "610–960"],
+      ["4. Taman Negara (2)", "420–660"],
       ["5. Perhentian Islands (4)", "880–1’500"],
-      ["Zwischenübernachtung Hat Yai (1)", "120–230"],
-      ["6. Khanom (2)", "380–640"],
-      ["7. Koh Samui (3)", "750–1’190"],
-      ["8. Koh Tao (3)", "600–970"],
-      ["9. Hua Hin / Khao Sam Roi Yot (2)", "430–670"],
-      ["10. Bangkok (3)", "730–1’220"]
+      ["6. Songkhla (2)", "330–560"],
+      ["7. Khanom (2)", "380–640"],
+      ["8. Koh Samui (3)", "750–1’190"],
+      ["9. Koh Tao (3)", "600–970"],
+      ["10. Hua Hin / Khao Sam Roi Yot (2)", "430–670"],
+      ["11. Bangkok (3)", "730–1’220"]
     ],
     hinweise: [
       "<strong>Preise für die Kids:</strong> Der Sohn (12) zahlt bei Eintritten oft noch den Kinderpreis (teils nur bis 11), die Tochter (14) meist den Vollpreis.",
@@ -530,7 +554,7 @@ REISEN.asien = {
     ],
     [
       "Einreise (Schweizer Pass)",
-      "Singapur und Malaysia sind für Touristen visafrei. Thailand hat seit 15. September 2026 die visafreie Aufenthaltsdauer auf 30 Tage verkürzt (vorher 60) und visafreie Einreisen über Landgrenzen auf zwei pro Kalenderjahr begrenzt. Auf dieser Route seid ihr ca. 14 Tage in Thailand und reist einmal über Land ein; ob die Schweiz auf der Liste der visabefreiten Länder steht, beim Thai-Konsulat oder EDA prüfen. Online-Anmeldungen: SG Arrival Card (Singapur), MDAC (Malaysia), TDAC (Thailand). Reisepass mind. 6 Monate gültig."
+      "Singapur und Malaysia sind für Touristen visafrei. Thailand hat seit 15. September 2026 die visafreie Aufenthaltsdauer auf 30 Tage verkürzt (vorher 60) und visafreie Einreisen über Landgrenzen auf zwei pro Kalenderjahr begrenzt. Auf dieser Route seid ihr ca. 15 Tage in Thailand und reist einmal über Land ein; ob die Schweiz auf der Liste der visabefreiten Länder steht, beim Thai-Konsulat oder EDA prüfen. Online-Anmeldungen: SG Arrival Card (Singapur), MDAC (Malaysia), TDAC (Thailand). Reisepass mind. 6 Monate gültig."
     ],
     [
       "Versicherung",
