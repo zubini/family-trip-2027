@@ -70,7 +70,9 @@ window.QUELLEN = {
         ["train36.com: ETS Butterworth–Padang Besar", "https://www.train36.com/ets-butterworth-to-padang-besar.html"],
         ["OSRM: Fahrzeiten Mersing–Cherating (ca. 240 km) und Cherating–Kuala Besut (ca. 270 km) (Routenplaner)", "https://router.project-osrm.org"],
         ["EDA: Reisehinweise Thailand (Grenzprovinzen im Süden)", "https://www.eda.admin.ch/de/land-thailand"],
-        ["travel-penang-malaysia.com: Penang–Perhentian Islands", "https://travel-penang-malaysia.com/penang-to-perhentian-islands.html"],
+        ["12go.asia: Kuala Besut–Kuala Lumpur mit dem Bus", "https://12go.asia/en/travel/kuala-lumpur/kuala-besut?z=16187692"],
+        ["Train36: ETS-Fahrplan 2026 (Züge nach Padang Besar ohne Abstecher nach Butterworth)", "https://www.train36.com/ets-timetable.html"],
+        ["Baolau: ETS Kuala Lumpur–Padang Besar (ca. 4 Std. 50 Min. bis 5 Std. 20 Min.)", "https://www.baolau.com/en/s/kuala-lumpur/padang-besar/"],
         ["12go.asia: Hat Yai–Khanom", "https://12go.com/en/travel/hat-yai/khanom?z=7173817"],
         ["12go.asia: Koh Tao–Bangkok und Hua Hin (Lomprayah)", "https://12Go.asia/en/travel/koh-tao/bangkok"]
       ]

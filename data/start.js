@@ -113,33 +113,33 @@ window.START = {
       ]
     },
     asien: {
-      steckbrief: {anreise: "Flug nach Singapur, ca. 12–13 Std.", unterwegs: "Bus, Zug und Fähre ca. 57–63 Std.", highlights: "Singapur, Tioman, Perhentian, Koh Tao, Bangkok"},
+      steckbrief: {anreise: "Flug nach Singapur, ca. 12–13 Std.", unterwegs: "Bus, Zug und Fähre ca. 60–66 Std.", highlights: "Tioman, Perhentian, Kuala Lumpur, Koh Tao, Bangkok"},
       name: "Malaysia / Thailand",
-      zusatz: "von Singapur über die Ostküste Malaysias nach Bangkok",
-      passt: "Schnorcheln, tropische Inseln und Strand im Vordergrund stehen, ihr in Malaysia nur die Ostküste wollt und dazu Singapur und Bangkok erleben möchtet.",
-      kurz: "Fünf Wochen über Land und Wasser: Singapur, die Ostküste Malaysias, der Golf von Thailand und Bangkok.",
-      route: "Singapur, Pulau Tioman, Cherating, Perhentian Islands, (über Penang und Hat Yai) Khanom, Koh Samui, Koh Tao, Hua Hin, Bangkok",
-      stationen: "9 Stationen und 2 Zwischenübernachtungen",
+      zusatz: "von Singapur über die Ostküste Malaysias und Kuala Lumpur nach Bangkok",
+      passt: "Schnorcheln, tropische Inseln und Strand im Vordergrund stehen, ihr in Malaysia die Ostküste und Kuala Lumpur, dazu Singapur und Bangkok erleben möchtet.",
+      kurz: "Fünf Wochen über Land und Wasser: Singapur, die Ostküste Malaysias, Kuala Lumpur, der Golf von Thailand und Bangkok.",
+      route: "Singapur, Pulau Tioman, Cherating, Perhentian Islands, Kuala Lumpur, (Zug über Hat Yai) Khanom, Koh Samui, Koh Tao, Hua Hin, Bangkok",
+      stationen: "10 Stationen und 1 Zwischenübernachtung",
       laender: "Singapur, Malaysia, Thailand",
       hinflug: "Direktflug Zürich–Singapur ca. 12–13 Std.",
       rueckflug: "Direktflug Bangkok–Zürich ca. 11,5–12 Std. am Do, 22.07.2027 um die Mittagszeit, Ankunft am Abend; zwei Tage Puffer gegen den Jetlag",
       dazwischen: "Keine Flüge dazwischen, alles per Bus, Zug und Fähre",
-      tempo: "Ca. 48–53 Std. reine Reisezeit mit Bus, Zug und Fähre, realistisch mit Wartezeiten ca. 57–63 Std.; 5 lange Reisetage mit 5–8 Std. (Tioman–Cherating, Perhentian–Penang, Penang–Hat Yai, Hat Yai–Khanom, Koh Tao–Hua Hin), drei davon hintereinander",
-      gesamt: "Ca. 93–101 Std. Tür zu Tür: Bahn Brig-Glis–Zürich Flughafen (ca. 2,5 Std.), ca. 2 Std. Wartezeit am Flughafen, Flüge und Transfers zusammen ca. 36–38 Std., dazu ca. 57–63 Std. mit Bus, Zug und Fähre; niemand muss selber fahren. Uhr +6 Std. (Thailand +5 Std.), Jetlag vor allem nach der Ankunft.",
-      wetter: "Bangkok hat Regenzeit; die Ostküste Malaysias (Tioman, Cherating, Perhentian) und der Golf von Thailand (Samui, Tao) sind meist ruhiger.",
+      tempo: "Ca. 50–55 Std. reine Reisezeit mit Bus, Zug und Fähre, realistisch mit Wartezeiten ca. 60–66 Std.; 5 lange Reisetage mit 5–10,5 Std. (Tioman–Cherating, Perhentian–Kuala Lumpur, Kuala Lumpur–Hat Yai, Hat Yai–Khanom, Koh Tao–Hua Hin); Perhentian–Kuala Lumpur mit Inlandflug ab Kota Bharu kürzer",
+      gesamt: "Ca. 96–104 Std. Tür zu Tür: Bahn Brig-Glis–Zürich Flughafen (ca. 2,5 Std.), ca. 2 Std. Wartezeit am Flughafen, Flüge und Transfers zusammen ca. 36–38 Std., dazu ca. 60–66 Std. mit Bus, Zug und Fähre; niemand muss selber fahren. Uhr +6 Std. (Thailand +5 Std.), Jetlag vor allem nach der Ankunft.",
+      wetter: "Kuala Lumpur und Bangkok haben Regenzeit mit kurzen Gewittern; die Ostküste Malaysias (Tioman, Cherating, Perhentian) und der Golf von Thailand (Samui, Tao) sind meist ruhiger.",
       einreise: "Singapur und Malaysia visafrei. Thailand: seit 15.09.2026 nur noch 30 Tage visafrei und höchstens zwei Landgrenz-Einreisen pro Jahr, Länderliste prüfen. Online-Anmeldungen (SG Arrival Card, MDAC, TDAC).",
       hoehepunkte: "Schnorcheln auf Tioman, den Perhentians, Samui und Koh Tao, Glühwürmchen und Surfen in Cherating, Delfine bei Khanom, Ang Thong, Grand Palace und Wat Arun in Bangkok.",
       teens: "Schnorcheln, Inselhopping, Surfkurs, Glühwürmchen-Tour, Wasserparks, Sentosa mit Universal Studios, Kajak.",
       pro: [
         "Die meisten Schnorchel- und Strandtage",
         "Warmes Meer (ca. 29 °C) mit Riffen und Schildkröten",
-        "Malaysia nur an der Ostküste, dazu Singapur und Bangkok",
+        "Ostküste Malaysias, Kuala Lumpur, Singapur und Bangkok",
         "Niemand muss selber fahren",
         "Günstig (ca. {plan:asien} CHF)"
       ],
       contra: [
         "Viele Umstiege mit Gepäck",
-        "Fünf lange Reisetage mit 5–8 Std.",
+        "Fünf lange Reisetage mit 5–10,5 Std.",
         "Regenzeit und schwüle Hitze",
         "Dengue-Mücken, kein Leitungswasser",
         "Jetlag (+6 Std.), viel CO₂"
@@ -302,7 +302,7 @@ window.START = {
       ],
       usa: [5, "Los Angeles, Las Vegas, Albuquerque und Santa Fe, Austin, New Orleans, Miami und New York mit Museen und Aussichtsplattformen."],
       usamitte: [5, "Los Angeles, Las Vegas, Albuquerque und Santa Fe, Fort Worth, Houston, New Orleans, Memphis, St. Louis, Chicago und New York."],
-      asien: [3, "Singapur und Bangkok mit Street-Food und Tempeln, dazu ein Abend in George Town (Penang); in Malaysia sonst Dörfer und Kleinstädte an der Ostküste."],
+      asien: [4, "Singapur, Kuala Lumpur und Bangkok mit Street-Food, Tempeln und Aussichtstürmen; an der Ostküste Dörfer und Kleinstädte."],
       malaysia: [4, "Singapur, Kuala Lumpur und Bangkok mit Street-Food, Tempeln, Märkten und Aussichtstürmen."],
       suedkorea: [5, "Seoul als Weltstadt mit Palästen, Hanok-Vierteln und K-Pop, dazu Busan und die alte Königsstadt Gyeongju (UNESCO)."],
     },
@@ -340,7 +340,7 @@ window.START = {
       usamitte: [1, "Ca. 108–118 Stunden Tür zu Tür: zwei Langstreckenflüge mit Jetlag (−9 Std.) und die meiste Zeit im Auto (ca. 75–84 Stunden an 15 Fahrtagen, drei Fahrtage hintereinander durch Texas)."],
       asien: [
         2,
-        "Ca. 93–101 Stunden Tür zu Tür: zwei Direktflüge mit Jetlag, dazu ca. 57–63 Stunden mit Bus, Zug und Fähre und viele Umstiege mit Gepäck; niemand muss selber fahren."
+        "Ca. 96–104 Stunden Tür zu Tür: zwei Direktflüge mit Jetlag, dazu ca. 60–66 Stunden mit Bus, Zug und Fähre und viele Umstiege mit Gepäck; niemand muss selber fahren."
       ],
       malaysia: [3, "Ca. 68–75 Stunden Tür zu Tür: zwei lange Direktflüge mit Jetlag, Busse, Transfers und Boote mit Gepäck, zum Schluss ein kurzer Flug; niemand muss selber fahren."],
       suedkorea: [4, "Ca. 61–68 Stunden Tür zu Tür: zwei lange Direktflüge mit Jetlag (+7 Std.), sonst kurze Etappen mit pünktlichen Bussen und Zügen, zwei kurze Inlandflüge, selber fahren nur auf Jeju."],

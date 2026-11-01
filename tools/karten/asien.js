@@ -5,7 +5,7 @@ module.exports = {
   projektion: 'eq', laenge: [96.9, 105.8], breitengrad: [0.55, 14.35], breite: 712,
   laender: ['SGP', 'MYS', 'THA'],
   orte: {
-    SG: [1.3521, 103.8198], MS: [2.4330, 103.8400], TI: [2.8200, 104.1700], CHE: [4.1300, 103.3900], KTG: [5.3300, 103.1400],
+    SG: [1.3521, 103.8198], MS: [2.4330, 103.8400], TI: [2.8200, 104.1700], CHE: [4.1300, 103.3900], KL: [3.1390, 101.6869], KTG: [5.3300, 103.1400],
     KB: [5.8310, 102.5600], PER: [5.9100, 102.7400], GT: [5.4164, 100.3327], BW: [5.3990, 100.3638],
     AR: [6.4330, 100.2770], PB: [6.6620, 100.3170], HY: [7.0035, 100.4750], NST: [8.4300, 99.9600],
     KH: [9.2350, 99.8590], DS: [9.3300, 99.7200], SMP: [9.5320, 99.9330], SM: [9.5120, 100.0136],
@@ -18,9 +18,8 @@ module.exports = {
     ['bus', 'Mersing – Kuantan – Cherating', ['MS', [3.15, 103.45], [3.81, 103.33], 'CHE']],
     ['bus', 'Cherating – Kuala Terengganu – Kuala Besut', ['CHE', [4.75, 103.42], 'KTG', [5.65, 102.80], 'KB']],
     ['ferry', 'Kuala Besut – Perhentian Islands', ['KB', [5.87, 102.65], 'PER']],
-    ['bus', 'Kuala Besut – Penang (über Jeli und Gerik)', ['KB', [5.74, 102.49], [5.80, 102.15], [5.70, 101.84], [5.43, 101.13], [5.68, 100.92], [5.36, 100.56], [5.35, 100.42], [5.355, 100.33], 'GT']],
-    ['ferry', 'George Town – Butterworth', ['GT', 'BW']],
-    ['train', 'Butterworth – Padang Besar', ['BW', [5.647, 100.487], [5.816, 100.472], [6.121, 100.368], [6.18, 100.37], 'AR', [6.55, 100.30], 'PB']],
+    ['bus', 'Kuala Besut – Kuala Lumpur', ['KB', [5.74, 102.49], [5.77, 102.22], [5.53, 102.20], [4.88, 101.97], [4.18, 102.05], [3.79, 101.86], [3.52, 101.91], [3.25, 101.75], 'KL']],
+    ['train', 'Kuala Lumpur – Ipoh – Padang Besar (ETS)', ['KL', [3.60, 101.50], [4.10, 101.25], [4.60, 101.08], [4.85, 100.74], [5.36, 100.46], [5.65, 100.49], [6.121, 100.368], [6.18, 100.37], 'AR', [6.55, 100.30], 'PB']],
     ['train', 'Padang Besar – Hat Yai', ['PB', [6.72, 100.42], [6.85, 100.45], 'HY']],
     ['bus', 'Hat Yai – Nakhon Si Thammarat – Khanom', ['HY', [7.20, 100.30], [7.62, 100.07], [7.90, 100.02], [8.16, 99.98], 'NST', [8.80, 99.92], [9.05, 99.88], 'KH']],
     ['bus', 'Khanom – Donsak', ['KH', [9.29, 99.80], 'DS']],
@@ -33,13 +32,13 @@ module.exports = {
     ['train', 'Hua Hin – Bangkok', ['HH', [12.80, 99.96], [13.111, 99.944], [13.536, 99.817], [13.8199, 100.062], [13.80, 100.30], 'BK']]
   ],
   stationen: [
-    [1, 'SG', 'r'], [2, 'TI', 'r'], [3, 'CHE', 'r'], [4, 'PER', 'r'], [5, 'KH', 'r'],
-    [6, 'SM', 'r'], [7, 'TAO', 'r'], [8, 'HH', 'r'], [9, 'BK', 'r']
+    [1, 'SG', 'r'], [2, 'TI', 'r'], [3, 'CHE', 'r'], [4, 'PER', 'r'], [5, 'KL', 'l'], [6, 'KH', 'r'],
+    [7, 'SM', 'r'], [8, 'TAO', 'r'], [9, 'HH', 'r'], [10, 'BK', 'r']
   ],
-  zwischenstopps: [['Penang', 'GT', 0], ['Hat Yai', 'HY', 0]],
+  zwischenstopps: [['Hat Yai', 'HY', 0]],
   umstiege: [['Mersing', 'MS', 'l'], ['Kuala Besut', 'KB', 'l']],
   beschriftungen: [
-    ['Malaysia', 3.6, 102.2, 'cn'], ['Thailand', 13.2, 99.25, 'cn'], ['Indonesien', 1.2, 100.6, 'cn'],
+    ['Malaysia', 4.3, 102.6, 'cn'], ['Thailand', 13.2, 99.25, 'cn'], ['Indonesien', 1.2, 100.6, 'cn'],
     ['Golf von Thailand', 11.2, 101.6, 'sea'], ['Andamanensee', 7.6, 97.75, 'sea'],
     ['Strasse von Malakka', 4.0, 99.75, 'sea', -55], ['Südchinesisches Meer', 5.2, 104.7, 'sea']
   ],
