@@ -146,33 +146,33 @@ window.START = {
       ]
     },
     asien: {
-      steckbrief: {anreise: "Flug nach Singapur, ca. 12–13 Std.", unterwegs: "Zug, Bus, Transfer und Boot ca. 37–45 Std.", highlights: "Pulau Tengah, Kuala Lumpur, Khanom, Koh Tao, Bangkok"},
+      steckbrief: {anreise: "Flug nach Singapur, ca. 12–13 Std.", unterwegs: "Zug, Bus, Transfer und Boot ca. 41–49 Std.", highlights: "Pulau Tengah, Cameron Highlands, Khanom, Koh Tao, Bangkok"},
       name: "Malaysia / Thailand",
-      zusatz: "von Singapur über Pulau Tengah und Kuala Lumpur, mit dem Zug nach Thailand und dem Golf entlang bis Bangkok",
+      zusatz: "von Singapur über Pulau Tengah, Kuala Lumpur und die Cameron Highlands, mit dem Zug nach Thailand und dem Golf entlang bis Bangkok",
       passt: "Schnorcheln, tropische Inseln und Strand im Vordergrund stehen, ihr dazu Singapur, Kuala Lumpur und Bangkok erleben möchtet und gern Zug fahrt.",
-      kurz: "Fünf Wochen über Land und Wasser: Singapur, die Insel Pulau Tengah (Resort Batu Batu), Kuala Lumpur, mit dem Zug nach Songkhla, dann dem Golf von Thailand entlang nach Khanom, Koh Samui, Koh Tao und Bangkok.",
-      route: "Singapur, (Bus, Boot) Pulau Tengah, (Boot, Zug) Kuala Lumpur, (Zug über die Grenze) Songkhla, Khanom, Koh Samui, Koh Tao, Hua Hin, Bangkok",
-      stationen: "9 Stationen",
+      kurz: "Fünf Wochen über Land und Wasser: Singapur, die Insel Pulau Tengah (Resort Batu Batu), Kuala Lumpur, die Cameron Highlands, über Ipoh mit dem Zug nach Songkhla, dann dem Golf von Thailand entlang nach Khanom, Koh Samui, Koh Tao und Bangkok.",
+      route: "Singapur, (Bus, Boot) Pulau Tengah, (Boot, Zug) Kuala Lumpur, (Transfer) Cameron Highlands, (über Ipoh, Zug über die Grenze) Songkhla, Khanom, Koh Samui, Koh Tao, Hua Hin, Bangkok",
+      stationen: "10 Stationen und 1 Zwischenübernachtung",
       laender: "Singapur, Malaysia, Thailand",
       hinflug: "Direktflug Zürich–Singapur ca. 12–13 Std.",
       rueckflug: "Direktflug Bangkok–Zürich ca. 11,5–12 Std. am Do, 22.07.2027 um die Mittagszeit, Ankunft am Abend; zwei Tage Puffer gegen den Jetlag",
-      dazwischen: "Keine Flüge dazwischen; wo möglich Zug (Kluang–Kuala Lumpur–Padang Besar–Hat Yai, Chumphon–Hua Hin–Bangkok), sonst Bus, privater Transfer und Fähre",
-      tempo: "Ca. 31–37 Std. reine Reisezeit mit Zug, Bus, Transfer und Boot, realistisch mit Wartezeiten ca. 37–45 Std.; längste Reisetage Kuala Lumpur–Songkhla (ca. 7,5–8,5 Std., fast nur Zug), Koh Tao–Hua Hin (ca. 7–8 Std.) und Pulau Tengah–Kuala Lumpur (ca. 6–7 Std.); Singapur–Pulau Tengah ca. 4,5–5,5 Std.; meist 3–5 Nächte pro Station",
-      gesamt: "Ca. 73–83 Std. Tür zu Tür: Bahn Brig-Glis–Zürich Flughafen (ca. 2,5 Std.), ca. 2 Std. Wartezeit am Flughafen, Flüge und Transfers zusammen ca. 36–38 Std., dazu ca. 37–45 Std. mit Bus, Transfer, Zug und Fähre; niemand muss selber fahren. Uhr +6 Std. (Thailand +5 Std.), Jetlag vor allem nach der Ankunft.",
-      wetter: "Kuala Lumpur und Bangkok mit kurzen Gewittern am Nachmittag; die Ostküste Malaysias (Pulau Tengah) und der Golf von Thailand (Songkhla, Khanom, Samui, Tao) sind meist ruhiger; die Westküste mit Monsun wird umfahren.",
+      dazwischen: "Keine Flüge dazwischen; wo möglich Zug (Kluang–Kuala Lumpur, Ipoh–Padang Besar–Hat Yai, Chumphon–Hua Hin–Bangkok), sonst Bus, privater Transfer und Fähre",
+      tempo: "Ca. 34–41 Std. reine Reisezeit mit Zug, Bus, Transfer und Boot, realistisch mit Wartezeiten ca. 41–49 Std.; längste Reisetage Koh Tao–Hua Hin (ca. 7–8 Std.), Pulau Tengah–Kuala Lumpur (ca. 6–7 Std.) und Ipoh–Songkhla (ca. 5,5–6,5 Std., fast nur Zug); sonst meist 2–5 Std.; meist 2–5 Nächte pro Station",
+      gesamt: "Ca. 77–87 Std. Tür zu Tür: Bahn Brig-Glis–Zürich Flughafen (ca. 2,5 Std.), ca. 2 Std. Wartezeit am Flughafen, Flüge und Transfers zusammen ca. 36–38 Std., dazu ca. 41–49 Std. mit Bus, Transfer, Zug und Fähre; niemand muss selber fahren. Uhr +6 Std. (Thailand +5 Std.), Jetlag vor allem nach der Ankunft.",
+      wetter: "Kuala Lumpur und Bangkok mit kurzen Gewittern am Nachmittag, die Cameron Highlands angenehm kühl (ca. 18–25 °C); die Ostküste Malaysias (Pulau Tengah) und der Golf von Thailand (Songkhla, Khanom, Samui, Tao) sind meist ruhiger; die Westküste mit Monsun wird umfahren.",
       einreise: "Singapur und Malaysia visafrei. Thailand: seit 15.09.2026 nur noch 30 Tage visafrei und höchstens zwei Landgrenz-Einreisen pro Jahr, Länderliste prüfen. Online-Anmeldungen (SG Arrival Card, MDAC, TDAC).",
-      hoehepunkte: "Hausriff und Schildkröten auf Pulau Tengah, Schnorcheln auf Samui und Koh Tao (Koh Nang Yuan), Petronas Towers und Batu Caves in Kuala Lumpur, Altstadt und Strand von Songkhla, Delfine bei Khanom, Ang Thong, Grand Palace und Wat Arun in Bangkok.",
-      teens: "Schnorcheln, Schildkröten, Kajak, Inselhopping, Delfin-Tour, Wasserparks, Sentosa mit Universal Studios, Kajak.",
+      hoehepunkte: "Hausriff und Schildkröten auf Pulau Tengah, Schnorcheln auf Samui und Koh Tao (Koh Nang Yuan), Petronas Towers und Batu Caves in Kuala Lumpur, Teeplantagen und Nebelwald in den Cameron Highlands, Höhlentempel in Ipoh, Altstadt und Strand von Songkhla, Delfine bei Khanom, Ang Thong, Grand Palace und Wat Arun in Bangkok.",
+      teens: "Schnorcheln, Schildkröten, Kajak, Inselhopping, Delfin-Tour, Teeplantage und Mossy Forest, Erdbeeren pflücken, Wasserparks, Sentosa mit Universal Studios.",
       pro: [
         "Die meisten Schnorchel- und Strandtage",
         "Warmes Meer (ca. 29 °C) mit Riffen und Schildkröten",
-        "Kuala Lumpur, Singapur und Bangkok, viel Zug",
+        "Cameron Highlands, Kuala Lumpur, Singapur, Bangkok",
         "Niemand muss selber fahren",
         "Günstig (ca. {plan:asien} CHF)"
       ],
       contra: [
         "Viele Umstiege mit Gepäck",
-        "Zwei Reisetage mit 7–8,5 Std.",
+        "Viele Ortswechsel, Reisetage bis 7–8 Std.",
         "Regenzeit und schwüle Hitze",
         "Dengue-Mücken, kein Leitungswasser",
         "Jetlag (+6 Std.), viel CO₂"
@@ -191,7 +191,7 @@ window.START = {
       usanordost: [3, "Skyline Drive in Shenandoah, Niagarafälle, Seen und Wälder in Algonquin, Montmorency-Fall und die White Mountains; schön, aber ohne die grossen Felslandschaften des Westens."],
       asien: [
         3,
-        "Inseln, Strände und Riffe von Pulau Tengah bis Koh Tao, dazu Delfine bei Khanom und Wasserfälle; eher sanfte als dramatische Landschaften."
+        "Inseln, Strände und Riffe von Pulau Tengah bis Koh Tao, Teeplantagen und Nebelwald in den Cameron Highlands, Kalkfelsen bei Ipoh, dazu Delfine bei Khanom und Wasserfälle; eher sanfte als dramatische Landschaften."
       ],
     },
     {
@@ -202,7 +202,7 @@ window.START = {
       usanordost: [1, "Kein Regenwald; grosse Laub- und Nadelwälder in Shenandoah, Algonquin und den White Mountains."],
       asien: [
         5,
-        "Im Vergleich klar am meisten Dschungel: tropischer Inselwald auf Pulau Tengah (Villen im Wald, Waldpfade), Wasserfälle bei Khanom und im grünen Inneren von Koh Samui (Na Muang), Dschungelpfade auf Koh Tao; ein grosser Regenwald-Nationalpark ist allerdings nicht auf der Route."
+        "Im Vergleich klar am meisten Dschungel: tropischer Inselwald auf Pulau Tengah (Villen im Wald, Waldpfade), Nebelwald (Mossy Forest) und Regenwald in den Cameron Highlands, Wasserfälle bei Khanom und im grünen Inneren von Koh Samui (Na Muang), Dschungelpfade auf Koh Tao; ein grosser Regenwald-Nationalpark ist allerdings nicht auf der Route."
       ],
     },
     {
@@ -299,7 +299,7 @@ window.START = {
       usanordost: [3, "Ca. 88–96 Stunden Tür zu Tür: kürzere Flüge mit weniger Jetlag (−6 Std.), Zug nach Washington, dann ca. 53–60 Stunden im Auto an 13 Fahrtagen mit zwei Grenzübertritten; in den Städten ohne Auto."],
       asien: [
         5,
-        "Ca. 73–83 Stunden Tür zu Tür: zwei Direktflüge mit Jetlag, dazu ca. 37–45 Stunden mit Zug, Bus, Transfer und Fähre (zwei Reisetage mit ca. 7–8,5 Stunden), Wechsel mit Gepäck; niemand muss selber fahren."
+        "Ca. 77–87 Stunden Tür zu Tür: zwei Direktflüge mit Jetlag, dazu ca. 41–49 Stunden mit Zug, Bus, Transfer und Fähre (längster Reisetag ca. 7–8 Stunden), Wechsel mit Gepäck; niemand muss selber fahren."
       ],
     },
     {

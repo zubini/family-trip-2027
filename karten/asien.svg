@@ -56,7 +56,7 @@
 <path class="lo" fill-rule="evenodd" d="M136,200 L153,201 L143,214 L136,200Z"/>
 <path class="lo" fill-rule="evenodd" d="M132,208 L130,227 L117,206 L132,208Z"/>
 <path class="lo" fill-rule="evenodd" d="M102,347 L112,346 L98,361 L102,347Z"/>
-<text class="cn" x="456.0" y="804.0" text-anchor="middle">Malaysia</text>
+<text class="cn" x="488.0" y="868.0" text-anchor="middle">Malaysia</text>
 <text class="cn" x="188.0" y="92.0" text-anchor="middle">Thailand</text>
 <text class="cn" x="296.0" y="1052.0" text-anchor="middle">Indonesien</text>
 <text class="sea" x="376.0" y="252.0" text-anchor="middle">Golf von Thailand</text>
@@ -71,8 +71,12 @@
 <polyline points="555.2,953.4 532.0,972.0 513.6,985.6" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Bus, Minivan oder Taxi: Mersing – Kluang (Taxi)</title></polyline>
 <polyline points="513.6,985.6 473.6,948.0 456.8,941.6 403.2,930.4 383.0,896.9" fill="none" stroke="#fff" stroke-width="6.6" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
 <polyline points="513.6,985.6 473.6,948.0 456.8,941.6 403.2,930.4 383.0,896.9" fill="none" stroke="#0F4C55" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"><title>Zug: Kluang – Segamat – Gemas – Kuala Lumpur (ETS)</title></polyline>
-<polyline points="383.0,896.9 368.0,860.0 348.0,820.0 334.4,780.0 307.2,760.0 284.8,719.2 287.2,696.0 277.4,658.3 277.6,653.6 270.2,633.4 272.0,624.0 273.4,615.0 281.6,610.4 284.0,600.0 286.0,587.7" fill="none" stroke="#fff" stroke-width="6.6" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
-<polyline points="383.0,896.9 368.0,860.0 348.0,820.0 334.4,780.0 307.2,760.0 284.8,719.2 287.2,696.0 277.4,658.3 277.6,653.6 270.2,633.4 272.0,624.0 273.4,615.0 281.6,610.4 284.0,600.0 286.0,587.7" fill="none" stroke="#0F4C55" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"><title>Zug: Kuala Lumpur – Ipoh – Padang Besar – Hat Yai</title></polyline>
+<polyline points="383.0,896.9 368.0,860.0 348.0,820.0 349.6,812.0 356.0,797.6 358.4,790.4" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="383.0,896.9 368.0,860.0 348.0,820.0 349.6,812.0 356.0,797.6 358.4,790.4" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Bus, Minivan oder Taxi: Kuala Lumpur – Tapah – Cameron Highlands</title></polyline>
+<polyline points="358.4,790.4 348.0,786.4 335.2,780.0" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="358.4,790.4 348.0,786.4 335.2,780.0" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Bus, Minivan oder Taxi: Cameron Highlands – Ipoh</title></polyline>
+<polyline points="335.2,780.0 307.2,760.0 284.8,719.2 287.2,696.0 277.4,658.3 277.6,653.6 270.2,633.4 272.0,624.0 273.4,615.0 281.6,610.4 284.0,600.0 286.0,587.7" fill="none" stroke="#fff" stroke-width="6.6" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="335.2,780.0 307.2,760.0 284.8,719.2 287.2,696.0 277.4,658.3 277.6,653.6 270.2,633.4 272.0,624.0 273.4,615.0 281.6,610.4 284.0,600.0 286.0,587.7" fill="none" stroke="#0F4C55" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"><title>Zug: Ipoh – Padang Besar – Hat Yai (ETS)</title></polyline>
 <polyline points="286.0,587.7 295.2,572.0" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
 <polyline points="286.0,587.7 295.2,572.0" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Bus, Minivan oder Taxi: Hat Yai – Songkhla (Taxi)</title></polyline>
 <polyline points="295.2,572.0 272.0,552.0 253.6,538.4 249.6,516.0 246.4,495.2 244.8,473.6 241.6,444.0 238.4,424.0 236.7,409.2" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
@@ -93,6 +97,8 @@
 <polyline points="182.4,308.2 192.0,290.4 203.2,268.0 208.8,251.2 219.2,228.0 231.8,203.0 236.8,182.4 240.8,157.6 244.6,142.5" fill="none" stroke="#0F4C55" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"><title>Zug: Chumphon – Hua Hin</title></polyline>
 <polyline points="244.6,142.5 244.8,124.0 243.5,99.1 233.4,65.1 253.0,42.4 272.0,44.0 288.1,47.5" fill="none" stroke="#fff" stroke-width="6.6" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
 <polyline points="244.6,142.5 244.8,124.0 243.5,99.1 233.4,65.1 253.0,42.4 272.0,44.0 288.1,47.5" fill="none" stroke="#0F4C55" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"><title>Zug: Hua Hin – Bangkok</title></polyline>
+<g><title>Zwischenübernachtung Ipoh</title><circle cx="335.2" cy="780.0" r="6" fill="#fff" stroke="#718096" stroke-width="2.5"/></g>
+<text class="tl" x="345.2" y="768.0">Ipoh</text>
 <g><title>Umstieg: Mersing</title><circle cx="555.2" cy="953.4" r="4.5" fill="#fff" stroke="#718096" stroke-width="2"/></g>
 <text class="tl" x="546.2" y="957.4" text-anchor="end">Mersing</text>
 <g><title>Umstieg: Padang Besar</title><circle cx="273.4" cy="615.0" r="4.5" fill="#fff" stroke="#718096" stroke-width="2"/></g>
@@ -103,19 +109,21 @@
 <text class="sl" x="570.6" y="1044.8" text-anchor="start">Singapur</text>
 <g><title>2. Pulau Tengah: Mi, 23.06.2027 – Mo, 28.06.2027, 5 Nächte</title><circle cx="575.2" cy="948.4" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="575.2" y="952.6" text-anchor="middle">2</text></g>
 <text class="sl" x="592.2" y="953.4" text-anchor="start">Pulau Tengah</text>
-<g><title>3. Kuala Lumpur: Mo, 28.06.2027 – Do, 01.07.2027, 3 Nächte</title><circle cx="383.0" cy="896.9" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="383.0" y="901.1" text-anchor="middle">3</text></g>
+<g><title>3. Kuala Lumpur: Mo, 28.06.2027 – Mi, 30.06.2027, 2 Nächte</title><circle cx="383.0" cy="896.9" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="383.0" y="901.1" text-anchor="middle">3</text></g>
 <text class="sl" x="366.0" y="901.9" text-anchor="end">Kuala Lumpur</text>
-<g><title>4. Songkhla: Do, 01.07.2027 – So, 04.07.2027, 3 Nächte</title><circle cx="295.2" cy="572.0" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="295.2" y="576.2" text-anchor="middle">4</text></g>
+<g><title>4. Cameron Highlands: Mi, 30.06.2027 – Fr, 02.07.2027, 2 Nächte</title><circle cx="358.4" cy="790.4" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="358.4" y="794.6" text-anchor="middle">4</text></g>
+<text class="sl" x="375.4" y="795.4" text-anchor="start">Cameron Highlands</text>
+<g><title>5. Songkhla: Sa, 03.07.2027 – Mo, 05.07.2027, 2 Nächte</title><circle cx="295.2" cy="572.0" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="295.2" y="576.2" text-anchor="middle">5</text></g>
 <text class="sl" x="312.2" y="577.0" text-anchor="start">Songkhla</text>
-<g><title>5. Khanom: So, 04.07.2027 – Do, 08.07.2027, 4 Nächte</title><circle cx="236.7" cy="409.2" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="236.7" y="413.4" text-anchor="middle">5</text></g>
+<g><title>6. Khanom: Mo, 05.07.2027 – Do, 08.07.2027, 3 Nächte</title><circle cx="236.7" cy="409.2" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="236.7" y="413.4" text-anchor="middle">6</text></g>
 <text class="sl" x="253.7" y="414.2" text-anchor="start">Khanom</text>
-<g><title>6. Koh Samui: Do, 08.07.2027 – Mo, 12.07.2027, 4 Nächte</title><circle cx="249.1" cy="387.0" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="249.1" y="391.2" text-anchor="middle">6</text></g>
+<g><title>7. Koh Samui: Do, 08.07.2027 – So, 11.07.2027, 3 Nächte</title><circle cx="249.1" cy="387.0" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="249.1" y="391.2" text-anchor="middle">7</text></g>
 <text class="sl" x="266.1" y="392.0" text-anchor="start">Koh Samui</text>
-<g><title>7. Koh Tao: Mo, 12.07.2027 – Sa, 17.07.2027, 5 Nächte</title><circle cx="234.2" cy="341.0" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="234.2" y="345.2" text-anchor="middle">7</text></g>
+<g><title>8. Koh Tao: So, 11.07.2027 – Fr, 16.07.2027, 5 Nächte</title><circle cx="234.2" cy="341.0" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="234.2" y="345.2" text-anchor="middle">8</text></g>
 <text class="sl" x="251.2" y="346.0" text-anchor="start">Koh Tao</text>
-<g><title>8. Hua Hin: Sa, 17.07.2027 – Mo, 19.07.2027, 2 Nächte</title><circle cx="244.6" cy="142.5" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="244.6" y="146.7" text-anchor="middle">8</text></g>
+<g><title>9. Hua Hin: Fr, 16.07.2027 – So, 18.07.2027, 2 Nächte</title><circle cx="244.6" cy="142.5" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="244.6" y="146.7" text-anchor="middle">9</text></g>
 <text class="sl" x="261.6" y="147.5" text-anchor="start">Hua Hin</text>
-<g><title>9. Bangkok: Mo, 19.07.2027 – Do, 22.07.2027, 3 Nächte</title><circle cx="288.1" cy="47.5" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="288.1" y="51.7" text-anchor="middle">9</text></g>
+<g><title>10. Bangkok: So, 18.07.2027 – Do, 22.07.2027, 4 Nächte</title><circle cx="288.1" cy="47.5" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="288.1" y="51.7" text-anchor="middle">10</text></g>
 <text class="sl" x="305.1" y="52.5" text-anchor="start">Bangkok</text>
 <text class="fl" x="537.6" y="1063.8" text-anchor="end">Ankunft aus Zürich ✈</text>
 <text class="fl" x="272.1" y="33.5" text-anchor="end">Rückflug nach Zürich ✈</text>
