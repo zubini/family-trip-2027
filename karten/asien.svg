@@ -71,24 +71,12 @@
 <polyline points="555.2,953.4 532.0,972.0 513.6,985.6" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Mersing – Kluang</title></polyline>
 <polyline points="513.6,985.6 473.6,948.0 456.8,941.6 403.2,930.4 383.0,896.9" fill="none" stroke="#fff" stroke-width="6.6" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
 <polyline points="513.6,985.6 473.6,948.0 456.8,941.6 403.2,930.4 383.0,896.9" fill="none" stroke="#0F4C55" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"><title>Zug: Kluang – Segamat – Gemas – Kuala Lumpur (ETS)</title></polyline>
-<polyline points="383.0,896.9 368.0,860.0 348.0,820.0 334.4,780.0 307.2,760.0 284.8,719.2 287.2,696.0 277.4,658.3 277.6,653.6 270.2,633.4" fill="none" stroke="#fff" stroke-width="6.6" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
-<polyline points="383.0,896.9 368.0,860.0 348.0,820.0 334.4,780.0 307.2,760.0 284.8,719.2 287.2,696.0 277.4,658.3 277.6,653.6 270.2,633.4" fill="none" stroke="#0F4C55" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"><title>Zug: Kuala Lumpur – Ipoh – Arau (ETS)</title></polyline>
-<polyline points="270.2,633.4 258.4,636.0" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
-<polyline points="270.2,633.4 258.4,636.0" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Arau – Kuala Perlis</title></polyline>
-<polyline points="258.4,636.0 248.0,639.2 236.0,642.4" fill="none" stroke="#fff" stroke-width="6.0" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
-<polyline points="258.4,636.0 248.0,639.2 236.0,642.4" fill="none" stroke="#E08A12" stroke-width="3.0" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 6"><title>Fähre oder Boot: Kuala Perlis – Kuah (Langkawi)</title></polyline>
-<polyline points="236.0,642.4 232.0,644.0 226.4,644.8" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
-<polyline points="236.0,642.4 232.0,644.0 226.4,644.8" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Kuah – Pantai Cenang</title></polyline>
-<polyline points="236.0,642.4 241.6,634.4 253.6,625.6" fill="none" stroke="#fff" stroke-width="6.0" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
-<polyline points="236.0,642.4 241.6,634.4 253.6,625.6" fill="none" stroke="#E08A12" stroke-width="3.0" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 6"><title>Fähre oder Boot: Kuah (Langkawi) – Satun (Tammalang)</title></polyline>
-<polyline points="253.6,625.6 253.6,618.4 268.0,604.0 286.0,587.7 295.2,572.0" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
-<polyline points="253.6,625.6 253.6,618.4 268.0,604.0 286.0,587.7 295.2,572.0" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Satun – Hat Yai – Songkhla</title></polyline>
-<polyline points="295.2,572.0 286.0,587.7" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
-<polyline points="295.2,572.0 286.0,587.7" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Songkhla – Hat Yai (Bahnhof)</title></polyline>
-<polyline points="286.0,587.7 268.0,564.0 253.6,538.4 249.6,516.0 246.4,495.2 244.8,473.6" fill="none" stroke="#fff" stroke-width="6.6" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
-<polyline points="286.0,587.7 268.0,564.0 253.6,538.4 249.6,516.0 246.4,495.2 244.8,473.6" fill="none" stroke="#0F4C55" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"><title>Zug: Hat Yai – Phatthalung – Nakhon Si Thammarat</title></polyline>
-<polyline points="244.8,473.6 241.6,444.0 238.4,424.0 236.7,409.2" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
-<polyline points="244.8,473.6 241.6,444.0 238.4,424.0 236.7,409.2" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Nakhon Si Thammarat – Khanom</title></polyline>
+<polyline points="383.0,896.9 368.0,860.0 348.0,820.0 334.4,780.0 307.2,760.0 284.8,719.2 287.2,696.0 277.4,658.3 277.6,653.6 270.2,633.4 272.0,624.0 273.4,615.0 281.6,610.4 284.0,600.0 286.0,587.7" fill="none" stroke="#fff" stroke-width="6.6" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="383.0,896.9 368.0,860.0 348.0,820.0 334.4,780.0 307.2,760.0 284.8,719.2 287.2,696.0 277.4,658.3 277.6,653.6 270.2,633.4 272.0,624.0 273.4,615.0 281.6,610.4 284.0,600.0 286.0,587.7" fill="none" stroke="#0F4C55" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"><title>Zug: Kuala Lumpur – Ipoh – Padang Besar – Hat Yai</title></polyline>
+<polyline points="286.0,587.7 295.2,572.0" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="286.0,587.7 295.2,572.0" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Hat Yai – Songkhla</title></polyline>
+<polyline points="295.2,572.0 272.0,552.0 253.6,538.4 249.6,516.0 246.4,495.2 244.8,473.6 241.6,444.0 238.4,424.0 236.7,409.2" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="295.2,572.0 272.0,552.0 253.6,538.4 249.6,516.0 246.4,495.2 244.8,473.6 241.6,444.0 238.4,424.0 236.7,409.2" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Songkhla – Nakhon Si Thammarat – Khanom</title></polyline>
 <polyline points="236.7,409.2 232.0,404.8 225.6,401.6" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
 <polyline points="236.7,409.2 232.0,404.8 225.6,401.6" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Bus, Minivan oder Taxi: Khanom – Donsak</title></polyline>
 <polyline points="225.6,401.6 232.0,396.0 238.4,389.6 242.6,385.4" fill="none" stroke="#fff" stroke-width="6.0" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
@@ -107,10 +95,8 @@
 <polyline points="244.6,142.5 244.8,124.0 243.5,99.1 233.4,65.1 253.0,42.4 272.0,44.0 288.1,47.5" fill="none" stroke="#0F4C55" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"><title>Zug: Hua Hin – Bangkok</title></polyline>
 <g><title>Zwischenübernachtung Mersing</title><circle cx="555.2" cy="953.4" r="6" fill="#fff" stroke="#718096" stroke-width="2.5"/></g>
 <text class="tl" x="565.2" y="957.4">Mersing</text>
-<g><title>Zwischenübernachtung Songkhla</title><circle cx="295.2" cy="572.0" r="6" fill="#fff" stroke="#718096" stroke-width="2.5"/></g>
-<text class="tl" x="305.2" y="576.0">Songkhla</text>
-<g><title>Umstieg: Satun</title><circle cx="253.6" cy="625.6" r="4.5" fill="#fff" stroke="#718096" stroke-width="2"/></g>
-<text class="tl" x="262.6" y="629.6" text-anchor="start">Satun</text>
+<g><title>Umstieg: Padang Besar</title><circle cx="273.4" cy="615.0" r="4.5" fill="#fff" stroke="#718096" stroke-width="2"/></g>
+<text class="tl" x="264.4" y="619.0" text-anchor="end">Padang Besar</text>
 <g><title>Umstieg: Hat Yai</title><circle cx="286.0" cy="587.7" r="4.5" fill="#fff" stroke="#718096" stroke-width="2"/></g>
 <text class="tl" x="277.0" y="591.7" text-anchor="end">Hat Yai</text>
 <g><title>1. Singapur: So, 20.06.2027 – Mi, 23.06.2027, 3 Nächte</title><circle cx="553.6" cy="1039.8" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="553.6" y="1044.0" text-anchor="middle">1</text></g>
@@ -119,9 +105,9 @@
 <text class="sl" x="598.6" y="927.4" text-anchor="start">Pulau Tioman</text>
 <g><title>3. Kuala Lumpur: Mo, 28.06.2027 – Do, 01.07.2027, 3 Nächte</title><circle cx="383.0" cy="896.9" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="383.0" y="901.1" text-anchor="middle">3</text></g>
 <text class="sl" x="366.0" y="901.9" text-anchor="end">Kuala Lumpur</text>
-<g><title>4. Langkawi: Do, 01.07.2027 – So, 04.07.2027, 3 Nächte</title><circle cx="226.4" cy="644.8" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="226.4" y="649.0" text-anchor="middle">4</text></g>
-<text class="sl" x="209.4" y="649.8" text-anchor="end">Langkawi</text>
-<g><title>5. Khanom: Mo, 05.07.2027 – Do, 08.07.2027, 3 Nächte</title><circle cx="236.7" cy="409.2" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="236.7" y="413.4" text-anchor="middle">5</text></g>
+<g><title>4. Songkhla: Do, 01.07.2027 – So, 04.07.2027, 3 Nächte</title><circle cx="295.2" cy="572.0" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="295.2" y="576.2" text-anchor="middle">4</text></g>
+<text class="sl" x="312.2" y="577.0" text-anchor="start">Songkhla</text>
+<g><title>5. Khanom: So, 04.07.2027 – Do, 08.07.2027, 4 Nächte</title><circle cx="236.7" cy="409.2" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="236.7" y="413.4" text-anchor="middle">5</text></g>
 <text class="sl" x="253.7" y="414.2" text-anchor="start">Khanom</text>
 <g><title>6. Koh Samui: Do, 08.07.2027 – Mo, 12.07.2027, 4 Nächte</title><circle cx="249.1" cy="387.0" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="249.1" y="391.2" text-anchor="middle">6</text></g>
 <text class="sl" x="266.1" y="392.0" text-anchor="start">Koh Samui</text>

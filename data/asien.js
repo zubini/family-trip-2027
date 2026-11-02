@@ -5,7 +5,7 @@ window.REISEN = window.REISEN || {};
 REISEN.asien = {
   titel: "Von Singapur nach Bangkok",
   menu: "Malaysia / Thailand",
-  untertitel: "Fünf Wochen über Land und Wasser: Singapur, die Insel Tioman, Kuala Lumpur und Langkawi, dann mit der Fähre nach Thailand, an den Golf mit Khanom, Koh Samui und Koh Tao und nach Bangkok.",
+  untertitel: "Fünf Wochen über Land und Wasser: Singapur, die Insel Tioman und Kuala Lumpur, dann mit dem Zug über die Grenze nach Songkhla, dem Golf von Thailand entlang nach Khanom, Koh Samui und Koh Tao und nach Bangkok.",
   zeitraum: "Sa, 19.06.2027 bis Do, 22.07.2027, 2 Erwachsene und 2 Kids",
   titelbild: {
     datei: "Nang Yuan Island, Koh Tao (48109157601).jpg",
@@ -41,21 +41,15 @@ REISEN.asien = {
     },
     {
       datum: "1.–4. Juli",
-      name: "4. Langkawi",
+      name: "4. Songkhla (Thailand)",
       naechte: 3,
-      info: "ETS-Zug nach Arau (ca. 4,5–5 Std.), Taxi, Fähre ab Kuala Perlis (ca. 1,25 Std.); insgesamt ca. 7–8 Std."
+      info: "ETS-Zug nach Padang Besar (ca. 5–5,5 Std.), Grenze, Zug nach Hat Yai (ca. 45 Min.), Taxi (ca. 45 Min.); insgesamt ca. 7,5–8,5 Std."
     },
     {
-      datum: "4.–5. Juli",
-      name: "Zwischenübernachtung Songkhla (Thailand)",
-      naechte: 1,
-      info: "Fähre nach Satun (ca. 1,25 Std.), Minivan oder Taxi (ca. 2,5–3 Std.); insgesamt ca. 5–6 Std."
-    },
-    {
-      datum: "5.–8. Juli",
+      datum: "4.–8. Juli",
       name: "5. Khanom",
-      naechte: 3,
-      info: "Zug Hat Yai–Nakhon Si Thammarat (ca. 2,75–3 Std.), Taxi (ca. 1,5 Std.); insgesamt ca. 5,5–6,5 Std."
+      naechte: 4,
+      info: "Privater Transfer (ca. 3,5 Std.) oder Zug ab Hat Yai mit Taxi (ca. 5,5–6,5 Std.)"
     },
     {datum: "8.–12. Juli", name: "6. Koh Samui", naechte: 4, info: "Minivan zum Donsak Pier, Autofähre (ca. 2,5 Std.)"},
     {datum: "12.–17. Juli", name: "7. Koh Tao", naechte: 5, info: "Katamaran ab Samui (ca. 1,5–2 Std.)"},
@@ -75,15 +69,15 @@ REISEN.asien = {
   planHinweise: [
     [
       "Gesamt",
-      "32 Nächte, 9 Stationen und zwei Zwischenübernachtungen (Mersing, Songkhla). Nur Hin- und Rückflug; wo möglich mit dem Zug (Kluang–Kuala Lumpur–Arau, Hat Yai–Nakhon Si Thammarat, Chumphon–Hua Hin–Bangkok), sonst mit Bus, Fähre und privatem Transfer. Die längsten Reisetage sind Kuala Lumpur–Langkawi (ca. 7–8 Std., vor allem Zug) und Koh Tao–Hua Hin (ca. 7–8 Std.); weitere längere Tage: Singapur–Tioman, Mersing–Kuala Lumpur, Langkawi–Songkhla und Songkhla–Khanom (je ca. 5–6,5 Std.). Zusammen sind es zwischen Singapur und Bangkok ca. 40–47 Stunden reine Reisezeit; mit Wartezeiten auf Fähren und Züge, Grenzübertritt und Transfers zur Unterkunft realistisch ca. 47–56 Stunden."
+      "32 Nächte, 9 Stationen und eine Zwischenübernachtung (Mersing). Nur Hin- und Rückflug; wo möglich mit dem Zug (Kluang–Kuala Lumpur–Padang Besar–Hat Yai, Chumphon–Hua Hin–Bangkok), sonst mit Bus, Fähre und privatem Transfer. Die längsten Reisetage sind Kuala Lumpur–Songkhla (ca. 7,5–8,5 Std., fast nur Zug, mit Grenze im Bahnhof) und Koh Tao–Hua Hin (ca. 7–8 Std.); weitere längere Tage: Singapur–Tioman und Mersing–Kuala Lumpur (je ca. 5,5–6,5 Std.). Zusammen sind es zwischen Singapur und Bangkok ca. 34–40 Stunden reine Reisezeit; mit Wartezeiten auf Fähren und Züge, Grenzübertritt und Transfers zur Unterkunft realistisch ca. 40–48 Stunden."
     ],
     [
       "Vorab buchen",
-      "Bus nach Mersing und Fähre nach Tioman, ETS-Züge Kluang–Kuala Lumpur und Kuala Lumpur–Arau (KTMB), Fähren Kuala Perlis–Langkawi und Langkawi–Satun, Unterkunft auf Tioman, Langkawi, Koh Samui und Koh Tao, Züge Hat Yai–Nakhon Si Thammarat und Chumphon–Hua Hin–Bangkok (SRT), Petronas-Skybridge, Katamarane Samui–Tao–Chumphon. Lange Reisetage früh am Morgen starten."
+      "Bus nach Mersing und Fähre nach Tioman, ETS-Züge Kluang–Kuala Lumpur und Kuala Lumpur–Padang Besar (KTMB), Transfer Songkhla–Khanom, Unterkunft auf Tioman, in Khanom, auf Koh Samui und Koh Tao, Züge Chumphon–Hua Hin–Bangkok (SRT), Petronas-Skybridge, Katamarane Samui–Tao–Chumphon. Lange Reisetage früh am Morgen starten."
     ],
     [
       "Optional",
-      "Taman Negara (Regenwald mit Hängebrücken und Nachtwanderung; 2 Nächte zwischen Mersing und Kuala Lumpur), Perhentian Islands oder Redang (klarstes Wasser Malaysias, aber mit zwei langen Reisetagen), Malakka (Altstadt, UNESCO; statt der Nacht in Mersing), Koh Phangan (zwischen Samui und Tao), Kanchanaburi (ab Bangkok)."
+      "Langkawi (Seilbahn und Mangroven, im Juli aber Monsun an der Westküste), Taman Negara (Regenwald mit Hängebrücken und Nachtwanderung; 2 Nächte zwischen Mersing und Kuala Lumpur), Redang oder Kapas (Inseln an der Ostküste, aber mit sehr langem Weg nach Thailand), Malakka (statt der Nacht in Mersing), Koh Phangan (zwischen Samui und Tao), Kanchanaburi (ab Bangkok)."
     ],
     [
       "Flug ab und nach Zürich",
@@ -100,23 +94,23 @@ REISEN.asien = {
   abwechslung: [
     [
       "Action und Freizeitparks",
-      "Singapur (Sentosa, Universal, Wasserpark), Kuala Lumpur (Sunway Lagoon, Petronas-Skybridge), Langkawi (Seilbahn und Sky Bridge, Mangroventour), Pulau Tioman (Dschungel, Riffe), Hua Hin (Wasserpark), Bangkok (Safari World, SEA LIFE)."
+      "Singapur (Sentosa, Universal, Wasserpark), Kuala Lumpur (Sunway Lagoon, Petronas-Skybridge), Pulau Tioman (Dschungel, Riffe), Khanom (Delfin-Tour), Hua Hin (Wasserpark), Bangkok (Safari World, SEA LIFE)."
     ],
     [
       "Kultur und Geschichte",
-      "Kuala Lumpur (Batu Caves, Merdeka Square), Altstadt von Songkhla (ein Abend), Khao Sam Roi Yot (Höhle), Bangkok (Grand Palace, Wat Pho), Ayutthaya (Tempelruinen)."
+      "Kuala Lumpur (Batu Caves, Merdeka Square), Altstadt von Songkhla, Wat Phra Mahathat in Nakhon Si Thammarat (auf dem Weg nach Khanom), Khao Sam Roi Yot (Höhle), Bangkok (Grand Palace, Wat Pho), Ayutthaya (Tempelruinen)."
     ],
     [
       "Natur und Tiere",
-      "Mandai Wildlife Reserve, Dschungel und Riffe auf Tioman, Mangroven mit Seeadlern und Regenwald auf Langkawi, Batu Caves, Delfine in Khanom, Ang Thong Marine Park, Schnorcheln auf Samui und vor allem Koh Tao (Koh Nang Yuan, Shark Bay)."
+      "Mandai Wildlife Reserve, Dschungel und Riffe auf Tioman, Batu Caves, Wasservogelpark Khu Khut bei Songkhla, rosa Delfine und Wasserfälle in Khanom, Ang Thong Marine Park, Schnorcheln auf Samui und vor allem Koh Tao (Koh Nang Yuan, Shark Bay)."
     ],
     [
       "Strand und Erholung",
-      "Tioman (4 Nächte), Khanom (3), Koh Samui (4), Koh Tao (5), Hua Hin. Nach zwei aktiven Tagen jeweils einen ruhigen Tag einplanen."
+      "Tioman (4 Nächte), Songkhla (3), Khanom (4), Koh Samui (4), Koh Tao (5), Hua Hin. Nach zwei aktiven Tagen jeweils einen ruhigen Tag einplanen."
     ],
     ["Mitmachen", "Muay-Thai-Schnupperkurs, Kajak/SUP, Street-Food- und Tuk-Tuk-Touren."]
   ],
-  stationenIntro: "Neun Stationen von Singapur bis Bangkok: Tioman, nach einer Nacht in Mersing Kuala Lumpur, mit Zug und Fähre nach Langkawi, mit der Fähre nach Thailand und nach einer Nacht in Songkhla dem Golf von Thailand entlang nach Bangkok. Über jeder Station steht, wie ihr dorthin kommt.",
+  stationenIntro: "Neun Stationen von Singapur bis Bangkok: Tioman, nach einer Nacht in Mersing Kuala Lumpur, mit dem Zug über die Grenze nach Songkhla und dem Golf von Thailand entlang nach Bangkok. Über jeder Station steht, wie ihr dorthin kommt.",
   stationen: [
     {
       nr: 1,
@@ -209,27 +203,27 @@ REISEN.asien = {
     },
     {
       nr: 4,
-      name: "Langkawi",
-      land: "my",
-      region: "Malaysia",
+      name: "Songkhla",
+      land: "th",
+      region: "Thailand",
       datum: "1.–4. Juli",
       naechte: "3 Nächte",
-      anreise: "ETS-Zug ab KL Sentral nach Arau (ca. 4,5–5 Std.; früh bei KTMB reservieren), Taxi zum Fährhafen Kuala Perlis (ca. 20 Min.), Fähre nach Kuah auf Langkawi (ca. 1,25 Std., mehrmals täglich; bei Monsun Fahrplan prüfen); insgesamt ca. 7–8 Std.",
-      text: "Inselgruppe an der Grenze zu Thailand mit regenwaldbedeckten Bergen, Mangroven, Wasserfällen und Stränden; UNESCO-Geopark und zollfrei. Im Juli ist Monsun an der Westküste: eher Seilbahn, Mangroven und Wasserfälle als Badeferien.",
-      teens: "Seilbahn SkyCab auf den Gunung Mat Cincang mit der Hängebrücke Sky Bridge, Bootstour durch die Mangroven im Kilim Geoforest Park (Seeadler, Fledermaushöhle), Wasserfall Seven Wells, Aquarium Underwater World, Sonnenuntergang am Strand Pantai Cenang.",
+      anreise: "Mit dem Zug über die Grenze: ETS-Zug ab KL Sentral nach Padang Besar (ca. 5–5,5 Std., früh reservieren), Aus- und Einreise im Bahnhof, Pendelzug nach Hat Yai (ca. 45 Min., nur wenige Züge pro Tag; sonst Taxi ca. 1 Std.), dann Taxi oder Grab nach Songkhla (ca. 45 Min.); insgesamt ca. 7,5–8,5 Std. Dieser Weg meidet die Grenzprovinzen Narathiwat, Yala und Pattani und die südlichen Distrikte von Songkhla, von deren Besuch abgeraten wird; Songkhla-Stadt und Hat Yai gehören nicht dazu.",
+      text: "Ruhige Hafenstadt am Golf von Thailand zwischen Meer und Songkhla-See, kaum Touristen aus dem Westen: eine Altstadt mit chinesisch-portugiesischen Häusern und Wandmalereien, der Stadtstrand Samila und die Insel Koh Yo im See. Drei Nächte zum Ausruhen nach dem langen Zugtag, am ruhigeren Golf statt im Monsun der Westküste.",
+      teens: "Wandmalereien und Cafés in der Altstadt (Nakhon Nok und Nang Ngam Road), Strand Samila mit der Meerjungfrau-Statue, Aussicht vom Hügel Khao Tang Kuan (Standseilbahn), Fischerboote und Seafood auf Koh Yo, Abendmarkt.",
       fakten: [
-        "<strong>Dauer:</strong> 3 Nächte: ein Tag Seilbahn und Seven Wells, ein Tag Mangroventour, ein Strand- oder Reservetag für Regen (Aquarium, Einkaufen). Programm je nach Wetter tauschen.",
-        "<strong>Wetter:</strong> Im Juli Südwest-Monsun, je nach Quelle ca. 140–250 mm Regen an 13–23 Tagen, meist als Schauer; das Meer ist oft unruhig und trüb, Inselhopping und Bootstouren können ausfallen. Die Seilbahn schliesst bei Gewitter und starkem Wind.",
-        "<strong>Unterwegs:</strong> Grab oder Mietwagen mit Fahrer; Unterkunft am besten bei Pantai Cenang. Die Insel ist zollfrei (Schokolade, Sportartikel günstig)."
+        "<strong>Dauer:</strong> 3 Nächte: am Ankunftsabend nur noch an den Strand, ein Tag Altstadt und Standseilbahn auf den Khao Tang Kuan, ein Tag Koh Yo oder Bootsfahrt im Wasservogelpark Khu Khut, dazwischen Pausen am Pool.",
+        "<strong>Baden:</strong> Samila ist eher ein Spazier- und Picknickstrand; zum Baden sind Khanom und die Inseln besser. Im Juli warm, ab und zu Schauer.",
+        "<strong>Sicherheit:</strong> Songkhla-Stadt und Hat Yai liegen ausserhalb der Gebiete, von denen das EDA abrät; nicht weiter nach Süden oder Osten (Chana, Thepha, Pattani) fahren. Reisehinweise vor der Abreise prüfen."
       ],
-      ausserdem: "Pulau Dayang Bunting mit Süsswassersee (Inselhopping, nur bei ruhiger See), Wasserfall Telaga Tujuh, Durian-Perangin-Wasserfall, Reisfeld-Museum Laman Padi, Nachtmärkte (je nach Wochentag an anderen Orten).",
+      ausserdem: "Wat Matchimawat mit Wandmalereien, Nationalmuseum Songkhla (altes chinesisches Haus), Institut für südthailändische Studien auf Koh Yo, Wasservogelpark Khu Khut (Bootsfahrt, Tagesausflug), Hat Yai mit grossen Märkten.",
       bilder: [
-        {titel: "Sky Bridge", suche: "Langkawi Sky Bridge", stichwort: "sky bridge|skybridge"},
-        {titel: "SkyCab", suche: "Langkawi cable car SkyCab", stichwort: "cable|skycab"},
-        {titel: "Kilim Geoforest Park", suche: "Kilim Geoforest Park mangrove", stichwort: "kilim"},
-        {titel: "Pantai Cenang", suche: "Pantai Cenang Langkawi", stichwort: "cenang"},
-        {titel: "Seven Wells", suche: "Telaga Tujuh Seven Wells waterfall Langkawi", stichwort: "telaga|seven wells"},
-        {titel: "Dayang Bunting", suche: "Pulau Dayang Bunting lake", stichwort: "dayang bunting"}
+        {titel: "Samila", suche: "Samila Beach Songkhla mermaid", stichwort: "samila|mermaid"},
+        {titel: "Altstadt", suche: "Songkhla Old Town street art|Nang Ngam Road", stichwort: "songkhla|nang ngam"},
+        {titel: "Koh Yo", suche: "Ko Yo Songkhla|Koh Yor", stichwort: "ko yo|koh yo|koh yor"},
+        {titel: "Khao Tang Kuan", suche: "Khao Tang Kuan Songkhla", stichwort: "tang kuan"},
+        {titel: "Songkhla-See", suche: "Songkhla Lake|Thale Sap Songkhla", stichwort: "songkhla"},
+        {titel: "Wat Matchimawat", suche: "Wat Matchimawat Songkhla", stichwort: "matchimawat"}
       ]
     },
     {
@@ -237,13 +231,13 @@ REISEN.asien = {
       name: "Khanom",
       land: "th",
       region: "Thailand",
-      datum: "5.–8. Juli",
-      naechte: "3 Nächte",
-      anreise: "Am Vortag Fähre von Kuah (Langkawi) nach Satun (Hafen Tammalang, ca. 1,25 Std.; nur ein- bis zweimal pro Tag, bei Monsun Ausfälle möglich; Uhr −1 Std.), Einreise nach Thailand im Hafen, dann Minivan oder Taxi über Hat Yai nach Songkhla (ca. 2,5–3 Std.); insgesamt ca. 5–6 Std. Übernachtung in Songkhla (Altstadt und Strand Samila am Abend). Satun und Songkhla-Stadt liegen ausserhalb der Gebiete, von denen das EDA abrät (Narathiwat, Yala, Pattani und die südlichen Distrikte von Songkhla). Am Morgen taxi oder Grab von Songkhla zum Bahnhof Hat Yai (ca. 45 Min.), Zug nach Nakhon Si Thammarat (ca. 2,75–3 Std.; nur wenige Züge pro Tag, Fahrplan bei der SRT prüfen), dann Taxi oder Minivan nach Khanom (ca. 1,5 Std.); mit Wartezeit insgesamt ca. 5,5–6,5 Std. Schneller ist ein privater Transfer ab Songkhla (ca. 3,5 Std.).",
+      datum: "4.–8. Juli",
+      naechte: "4 Nächte",
+      anreise: "Mit privatem Transfer von Songkhla über Nakhon Si Thammarat nach Khanom (ca. 3,5 Std.). Alternative mit dem Zug: Taxi zum Bahnhof Hat Yai (ca. 45 Min.), Zug nach Nakhon Si Thammarat (ca. 2,75–3 Std.; nur wenige Züge pro Tag) und Taxi nach Khanom (ca. 1,5 Std.), mit Wartezeit insgesamt ca. 5,5–6,5 Std.",
       text: "Ruhiger Küstenort am Golf von Thailand mit einsamen Stränden, Wasserfällen und rosa Delfinen. Ein entspannter Halt am Meer vor den Inseln.",
       teens: "Delfin-Bootstour ab Pak Nam (Sichtung nicht garantiert), Hin Lat Wasserfälle, Strandtage, Schnorcheln und Kajak.",
       fakten: [
-        "<strong>Dauer:</strong> 3 Nächte: Ankunft am Nachmittag, am nächsten Tag Delfin-Tour am Morgen und Wasserfälle, ein Strand- und Pooltag. Unterkunft mit Pool vorab buchen, das Angebot ist klein.",
+        "<strong>Dauer:</strong> 4 Nächte: am Morgen Delfin-Tour, ein Tag Wasserfälle Hin Lat und Strand, dazu Strand- und Pooltage. Unterkunft mit Pool vorab buchen, das Angebot ist klein.",
         "<strong>Praktisch:</strong> Kaum Touristen; Taxi oder Songthaew für Ausflüge organisieren, keine Roller."
       ],
       ausserdem: "Hat Nai Plao, Hat Na Dan, Kokosnuss-Plantagen, lokale Meeresfrüchte-Lokale; bei genug Zeit Nakhon Si Thammarat mit Wat Phra Mahathat.",
@@ -266,8 +260,7 @@ REISEN.asien = {
           suche: "coconut plantation Nakhon Si Thammarat|coconut palms beach Thailand",
           stichwort: "coconut"
         }
-      ],
-      zwischenstopp: {text: "Zwischenstopp in Songkhla", datum: "4.–5. Juli"}
+      ]
     },
     {
       nr: 6,
@@ -405,7 +398,7 @@ REISEN.asien = {
         "Fernverkehr (Bus, Zug, Fähre, Minivan)",
         "800–1’350",
         "1’000",
-        "Bus Singapur–Mersing, Fähren Mersing–Tioman, Taxi nach Kluang und ETS-Züge nach Kuala Lumpur und Arau, Fähren nach Langkawi und nach Satun, Minivan nach Songkhla, Zug Hat Yai–Nakhon Si Thammarat und Taxi nach Khanom, Fähren Samui–Tao–Chumphon, Zug nach Hua Hin und Bangkok"
+        "Bus Singapur–Mersing, Fähren Mersing–Tioman, Taxi nach Kluang und ETS-Züge nach Kuala Lumpur und Padang Besar, Zug nach Hat Yai, privater Transfer Songkhla–Khanom, Fähren Samui–Tao–Chumphon, Zug nach Hua Hin und Bangkok"
       ],
       ["Lokale Transfers", "400–800", "550", "Grab, MRT/Skytrain, Wassertaxis, Songthaew"],
       [
@@ -424,7 +417,7 @@ REISEN.asien = {
         "Aktivitäten und Eintritte",
         "2’100–3’300",
         "2’600",
-        "Universal und Sentosa, Mandai, Schnorcheltouren, Marine-Park-Gebühren, Petronas-Skybridge, Sunway Lagoon, Seilbahn SkyCab und Mangroventour auf Langkawi, Ang Thong, Wasserpark Hua Hin, Safari World usw."
+        "Universal und Sentosa, Mandai, Schnorcheltouren, Marine-Park-Gebühren, Petronas-Skybridge, Sunway Lagoon, Delfin-Tour in Khanom, Ang Thong, Wasserpark Hua Hin, Safari World usw."
       ],
       [
         "Versicherung, eSIM, Medikamente, Impfungen",
@@ -445,9 +438,8 @@ REISEN.asien = {
       ["2. Pulau Tioman (4)", "750–1’270"],
       ["Zwischenübernachtung Mersing (1)", "100–180"],
       ["3. Kuala Lumpur (3)", "550–910"],
-      ["4. Langkawi (3)", "650–1’050"],
-      ["Zwischenübernachtung Songkhla (1)", "170–280"],
-      ["5. Khanom (3)", "570–960"],
+      ["4. Songkhla (3)", "500–840"],
+      ["5. Khanom (4)", "760–1’280"],
       ["6. Koh Samui (4)", "1’000–1’590"],
       ["7. Koh Tao (5)", "1’000–1’620"],
       ["8. Hua Hin / Khao Sam Roi Yot (2)", "430–670"],
@@ -499,7 +491,7 @@ REISEN.asien = {
     ],
     [
       "Einreise (Schweizer Pass)",
-      "Singapur und Malaysia sind für Touristen visafrei. Thailand hat seit 15. September 2026 die visafreie Aufenthaltsdauer auf 30 Tage verkürzt (vorher 60) und visafreie Einreisen über Landgrenzen auf zwei pro Kalenderjahr begrenzt. Auf dieser Route seid ihr ca. 18 Tage in Thailand und reist einmal über Land bzw. See ein (im Hafen Tammalang in Satun); ob die Schweiz auf der Liste der visabefreiten Länder steht, beim Thai-Konsulat oder EDA prüfen. Online-Anmeldungen: SG Arrival Card (Singapur), MDAC (Malaysia), TDAC (Thailand). Reisepass mind. 6 Monate gültig."
+      "Singapur und Malaysia sind für Touristen visafrei. Thailand hat seit 15. September 2026 die visafreie Aufenthaltsdauer auf 30 Tage verkürzt (vorher 60) und visafreie Einreisen über Landgrenzen auf zwei pro Kalenderjahr begrenzt. Auf dieser Route seid ihr ca. 21 Tage in Thailand und reist einmal über Land ein (im Bahnhof Padang Besar); ob die Schweiz auf der Liste der visabefreiten Länder steht, beim Thai-Konsulat oder EDA prüfen. Online-Anmeldungen: SG Arrival Card (Singapur), MDAC (Malaysia), TDAC (Thailand). Reisepass mind. 6 Monate gültig."
     ],
     [
       "Versicherung",
@@ -515,7 +507,7 @@ REISEN.asien = {
     ],
     [
       "Wetter im Juni/Juli",
-      "Heiss und feucht, Regenschauer. Kuala Lumpur, Langkawi (Südwest-Monsun) und Bangkok haben im Juli häufiger Regen und Gewitter; die Ostküste Malaysias (Tioman) und der Golf von Thailand (Samui, Tao) sind im Juni und Juli meist ruhiger."
+      "Heiss und feucht, Regenschauer. Kuala Lumpur und Bangkok haben im Juli häufiger Regen und Gewitter; die Ostküste Malaysias (Tioman) und der Golf von Thailand (Songkhla, Khanom, Samui, Tao) sind im Juni und Juli meist ruhiger. Die Westküste (Penang, Langkawi) liegt im Juli im Südwest-Monsun."
     ]
   ]
 };

@@ -17,15 +17,9 @@ module.exports = {
     ['ferry', 'Mersing – Pulau Tioman', ['MS', [2.58, 104.02], 'TI']],
     ['car', 'Mersing – Kluang', ['MS', [2.20, 103.55], [2.03, 103.32]]],
     ['train', 'Kluang – Segamat – Gemas – Kuala Lumpur (ETS)', [[2.03, 103.32], [2.50, 102.82], [2.58, 102.61], [2.72, 101.94], 'KL']],
-    ['train', 'Kuala Lumpur – Ipoh – Arau (ETS)', ['KL', [3.60, 101.50], [4.10, 101.25], [4.60, 101.08], [4.85, 100.74], [5.36, 100.46], [5.65, 100.49], [6.121, 100.368], [6.18, 100.37], 'AR']],
-    ['car', 'Arau – Kuala Perlis', ['AR', 'KPL']],
-    ['ferry', 'Kuala Perlis – Kuah (Langkawi)', ['KPL', [6.36, 100.00], 'KUAH']],
-    ['car', 'Kuah – Pantai Cenang', ['KUAH', [6.30, 99.80], 'LGK']],
-    ['ferry', 'Kuah (Langkawi) – Satun (Tammalang)', ['KUAH', [6.42, 99.92], 'ST']],
-    ['car', 'Satun – Hat Yai – Songkhla', ['ST', [6.62, 100.07], [6.80, 100.25], 'HY', 'SK']],
-    ['car', 'Songkhla – Hat Yai (Bahnhof)', ['SK', 'HY']],
-    ['train', 'Hat Yai – Phatthalung – Nakhon Si Thammarat', ['HY', [7.30, 100.25], [7.62, 100.07], [7.90, 100.02], [8.16, 99.98], 'NST']],
-    ['car', 'Nakhon Si Thammarat – Khanom', ['NST', [8.80, 99.92], [9.05, 99.88], 'KH']],
+    ['train', 'Kuala Lumpur – Ipoh – Padang Besar – Hat Yai', ['KL', [3.60, 101.50], [4.10, 101.25], [4.60, 101.08], [4.85, 100.74], [5.36, 100.46], [5.65, 100.49], [6.121, 100.368], [6.18, 100.37], 'AR', [6.55, 100.30], 'PB', [6.72, 100.42], [6.85, 100.45], 'HY']],
+    ['car', 'Hat Yai – Songkhla', ['HY', 'SK']],
+    ['car', 'Songkhla – Nakhon Si Thammarat – Khanom', ['SK', [7.45, 100.30], [7.62, 100.07], [7.90, 100.02], [8.16, 99.98], 'NST', [8.80, 99.92], [9.05, 99.88], 'KH']],
     ['bus', 'Khanom – Donsak', ['KH', [9.29, 99.80], 'DS']],
     ['ferry', 'Donsak – Koh Samui', ['DS', [9.40, 99.80], [9.48, 99.88], 'SMP']],
     ['bus', 'Inselstrasse Koh Samui', ['SMP', [9.51, 99.96], 'SM', [9.55, 100.005], 'MN']],
@@ -36,11 +30,11 @@ module.exports = {
     ['train', 'Hua Hin – Bangkok', ['HH', [12.80, 99.96], [13.111, 99.944], [13.536, 99.817], [13.8199, 100.062], [13.80, 100.30], 'BK']]
   ],
   stationen: [
-    [1, 'SG', 'r'], [2, 'TI', 'r'], [3, 'KL', 'l'], [4, 'LGK', 'l'],
+    [1, 'SG', 'r'], [2, 'TI', 'r'], [3, 'KL', 'l'], [4, 'SK', 'r'],
     [5, 'KH', 'r'], [6, 'SM', 'r'], [7, 'TAO', 'r'], [8, 'HH', 'r'], [9, 'BK', 'r']
   ],
-  zwischenstopps: [['Mersing', 'MS', 0], ['Songkhla', 'SK', 0]],
-  umstiege: [['Satun', 'ST', 'r'], ['Hat Yai', 'HY', 'l']],
+  zwischenstopps: [['Mersing', 'MS', 0]],
+  umstiege: [['Padang Besar', 'PB', 'l'], ['Hat Yai', 'HY', 'l']],
   beschriftungen: [
     ['Malaysia', 4.3, 102.6, 'cn'], ['Thailand', 13.2, 99.25, 'cn'], ['Indonesien', 1.2, 100.6, 'cn'],
     ['Golf von Thailand', 11.2, 101.6, 'sea'], ['Andamanensee', 7.6, 97.75, 'sea'],
