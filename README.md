@@ -2,12 +2,13 @@
 
 **Zur Seite: https://zubini.github.io/family-trip-2027/**
 
-Reiseführer und Variantenvergleich für die Familienreise 2027 (Sa, 19. Juni bis Sa, 24. Juli, 2 Erwachsene und 2 Kids) mit vier Varianten:
+Reiseführer und Variantenvergleich für die Familienreise 2027 (Sa, 19. Juni bis Sa, 24. Juli, 2 Erwachsene und 2 Kids) mit fünf Varianten:
 
 - **Spanien / Portugal / Marokko**: mit dem eigenen Auto ab Brig-Glis, sechs Nächte Marokko nur mit Fähre und Zug (Casablanca, Marrakesch, Agafay-Wüste, Fès)
 - **USA Süd (Los Angeles – Florida – New York)**: Roadtrip von Los Angeles durch den Südwesten über Texas, New Orleans und Destin nach Florida mit Key Largo, Inlandflug Miami–New York
 - **USA Mitte (Los Angeles – Chicago – New York)**: mit dem Mietwagen von Los Angeles über Las Vegas, Kanab und Monument Valley nach Albuquerque, über Amarillo und Fort Worth nach Houston und New Orleans, über Memphis und St. Louis nach Chicago, über Cedar Point und die Niagarafälle in die Finger Lakes und nach New York (kein Inlandflug)
-- **Malaysia / Thailand**: von Singapur über Tioman, Kuala Lumpur, Taman Negara und die Perhentians an den Golf von Thailand und nach Bangkok
+- **USA Nordost / Kanada (New York – Chicago – Montréal – Boston)**: New York, mit dem Zug nach Washington, mit dem Mietwagen über Shenandoah, Cedar Point und Chicago zu den Niagarafällen, nach Toronto, Algonquin, Montréal und Québec und durch die White Mountains nach Boston
+- **Malaysia / Thailand**: von Singapur über Tioman, Kuala Lumpur und Langkawi, mit Zug und Fähre an den Golf von Thailand und nach Bangkok
 
 Dazu eine Einstiegsseite mit Vergleich, Bewertung, Budget sowie Pro und Contra und eine Seite mit den Quellen.
 
@@ -22,6 +23,7 @@ data/             die Inhalte, hier wird fast alles geändert
   marokko.js      Spanien / Portugal / Marokko (eigenes Auto, Marokko mit Fähre und Zug)
   usa.js          USA Süd (Los Angeles–Florida–New York)
   usamitte.js     USA Mitte (Los Angeles–Chicago–New York, ohne Inlandflug)
+  usanordost.js   USA Nordost / Kanada (New York – Boston)
   asien.js        Malaysia / Thailand (Singapur–Bangkok)
   quellen.js      Seite «Quellen» (Belege für Fahrzeiten, Einreise, Bilder)
   bilder-unsplash.js  Unsplash-Fotos (erzeugt von tools/bilder-unsplash.js)

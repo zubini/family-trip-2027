@@ -1,6 +1,6 @@
 // Einstiegsseite: Vergleich der Reisen
 // Budgetzahlen kommen automatisch aus den Reisen (data/marokko.js usw.).
-// Platzhalter in Texten: {plan:marokko}, {plan:usa}, {plan:usamitte}, {plan:asien} = Planwert, {mehrkosten} = USA minus Malaysia / Thailand.
+// Platzhalter in Texten: {plan:marokko}, {plan:usa}, {plan:usamitte}, {plan:usanordost}, {plan:asien} = Planwert, {mehrkosten} = USA minus Malaysia / Thailand.
 // Reihenfolge der Reisen hier = Reihenfolge der Spalten; die Navigation folgt der Reihenfolge in index.html.
 // steckbrief: kurze Angaben für die Übersicht «Die Reisen». Pro/Contra: je 5 kurze Stichworte. Bewertung: [Punkte 0–5, Text]. Die Punkte und Pro/Contra sind eine Einschätzung und bei Änderungen an den Reisen von Hand anzupassen.
 window.START = {
@@ -112,6 +112,39 @@ window.START = {
         "Wüstenhitze, Jetlag (−9 Std.), viel CO₂"
       ]
     },
+    usanordost: {
+      steckbrief: {anreise: "Flug nach New York, ca. 9 Std.", unterwegs: "Zug nach Washington, Mietwagen ca. 53–60 Std.", highlights: "New York, Washington, Chicago, Niagara, Québec, Boston"},
+      name: "USA Nordost / Kanada (New York – Chicago – Montréal – Boston)",
+      zusatz: "Rundreise im Nordosten: Washington, Chicago, Niagara, Toronto, Montréal, Québec und Boston",
+      passt: "Städte, Geschichte und Kultur im Vordergrund stehen, ihr dazu Seen, Wälder, Niagara und Achterbahnen erleben möchtet, Strand und warmes Meer unwichtig sind und kürzere Flüge mit weniger Jetlag zählen.",
+      kurz: "Fünf Wochen Rundreise im Nordosten: New York, mit dem Zug nach Washington, mit dem Mietwagen über Shenandoah und Cedar Point nach Chicago, über die Niagarafälle nach Toronto, Algonquin, Montréal und Québec und durch die White Mountains nach Boston.",
+      route: "New York, (Zug) Washington, (Mietwagen) Shenandoah, Sandusky (Cedar Point), Chicago, Niagara Falls, Toronto, Algonquin, Montréal, Québec, White Mountains, Boston",
+      stationen: "12 Stationen und 3 Zwischenübernachtungen",
+      laender: "USA, Kanada",
+      hinflug: "Zürich–New York (JFK) ca. 9–9,25 Std. direkt mit SWISS am Sa, 19.06.2027; Gabelflug für alle vier geschätzt ca. 4’000–5’800 CHF",
+      rueckflug: "Direktflug Boston–Zürich ca. 7,25 Std. (SWISS) am Mi, 21.07.2027 am Abend, Ankunft Do, 22.07.2027 gegen Mittag; zwei Tage Puffer gegen den Jetlag",
+      dazwischen: "Amtrak-Zug New York–Washington, dann Einwegmiete Washington–Boston (ca. 22 Tage) mit Fahrt durch Kanada; in New York, Washington und Boston ohne Auto",
+      tempo: "Ca. 45–50 Std. reine Fahrzeit (ca. 4’400 km), realistisch mit Pausen, Stau und zwei Grenzübertritten ca. 53–60 Std. im Auto, an 13 Fahrtagen: 4 Tage mit 5–6,5 Std., die übrigen 1,5–5 Std.; dazu ca. 3–3,5 Std. Zug.",
+      gesamt: "Ca. 88–96 Std. Tür zu Tür: Bahn Brig-Glis–Zürich Flughafen (ca. 2,5 Std.), Flüge mit Wartezeiten, Einreise und Transfers zusammen ca. 30–31 Std., Zug New York–Washington mit Transfers ca. 4–4,5 Std. und ca. 53–60 Std. im Auto. Uhr −6 Std., in Chicago −7 Std.",
+      wetter: "New York, Washington und Chicago heiss und schwül (ca. 29–33 °C) mit Gewittern; in Kanada, Algonquin und den White Mountains angenehmer (ca. 24–28 °C, Nächte kühl), Mücken in den Wäldern.",
+      einreise: "ESTA für alle vier (ca. 40 USD pro Person), Regeln im Wandel. Kanada auf dem Landweg nur mit Pass (keine eTA nötig, Stand prüfen); der Mietwagen braucht die Erlaubnis für Kanada.",
+      hoehepunkte: "New York mit Freiheitsstatue und Broadway, Smithsonian-Museen in Washington, Skyline Drive in Shenandoah, Cedar Point, Chicago, Henry Ford Museum, Niagarafälle, CN Tower, Kanu in Algonquin, Montréal und die Altstadt von Québec, Mount Washington, Boston.",
+      teens: "Achterbahnen in Cedar Point, Glasbalkon im Skydeck, Bootsfahrt in die Gischt der Niagarafälle, CN Tower, Kanu und Elche in Algonquin, Zahnradbahn auf den Mount Washington, Walbeobachtung, Broadway.",
+      pro: [
+        "Viele grosse Städte: New York bis Québec",
+        "Niagara, Seen und Wälder Kanadas",
+        "Kürzere Flüge, weniger Jetlag (−6 Std.)",
+        "Zug nach Washington, gratis Museen",
+        "Angenehmer als der heisse Süden"
+      ],
+      contra: [
+        "Teuer (ca. {plan:usanordost} CHF)",
+        "Ca. 53–60 Std. im Auto, 13 Fahrtage",
+        "Kein Strand am Meer, nur Seen",
+        "Viele Städte, wenig Wildnis",
+        "Zwei Grenzübertritte, viel CO₂"
+      ]
+    },
     asien: {
       steckbrief: {anreise: "Flug nach Singapur, ca. 12–13 Std.", unterwegs: "Zug, Bus, Transfer und Fähre ca. 47–56 Std.", highlights: "Tioman, Kuala Lumpur, Langkawi, Koh Tao, Bangkok"},
       name: "Malaysia / Thailand",
@@ -155,6 +188,7 @@ window.START = {
       ],
       usa: [5, "Rote Felsen und rosa Sanddünen bei Kanab, Horseshoe Bend, Monument Valley, Sandia Peak, White Sands, die Everglades und das Korallenriff der Keys: spektakuläre und abwechslungsreiche Landschaften."],
       usamitte: [4, "Rosa Sanddünen bei Kanab, Horseshoe Bend, Monument Valley, Sandia Peak, Sümpfe in Louisiana, Niagarafälle und die Schlucht von Watkins Glen; abwechslungsreich, aber ohne die grossen Nationalparks."],
+      usanordost: [3, "Skyline Drive in Shenandoah, Niagarafälle, Seen und Wälder in Algonquin, Montmorency-Fall und die White Mountains; schön, aber ohne die grossen Felslandschaften des Westens."],
       asien: [
         4,
         "Inseln, Strände und Riffe von Tioman bis Koh Tao, dazu Delfine bei Khanom und Wasserfälle; eher sanfte als dramatische Landschaften."
@@ -165,6 +199,7 @@ window.START = {
       marokko: [0, "Kein Regenwald: Steinwüste, Palmengärten in Marrakesch und grüne Hügel im Baskenland."],
       usa: [1, "Kein Regenwald; Sümpfe in Louisiana und Mangroven in den Everglades."],
       usamitte: [1, "Kein Regenwald; Sümpfe in Louisiana."],
+      usanordost: [1, "Kein Regenwald; grosse Laub- und Nadelwälder in Shenandoah, Algonquin und den White Mountains."],
       asien: [
         2,
         "Dschungelwanderung und Wasserfälle auf Tioman, Regenwald, Mangroven und Sky Bridge auf Langkawi; kein grosser Nationalpark mit Regenwald auf der Route."
@@ -178,6 +213,7 @@ window.START = {
       ],
       usa: [4, "Mojave um Las Vegas, rote Felswüsten in Utah und Arizona, Monument Valley, die weissen Gipsdünen von White Sands und die Chihuahua-Wüste in Westtexas."],
       usamitte: [4, "Mojave um Las Vegas, rote Felsen und Dünen bei Kanab, Monument Valley und die Wüste New Mexicos; danach Prärie."],
+      usanordost: [0, "Keine Wüste."],
       asien: [0, "Keine Wüste: tropische Inseln, Regenwald und Städte."],
     },
     {
@@ -188,6 +224,7 @@ window.START = {
       ],
       usa: [3, "Santa Monica am Pazifik, vier Nächte an den weissen Stränden bei Destin, drei Nächte in Key Largo und drei in Miami mit Miami Beach, Wasser ca. 28–31 °C; dazwischen viele Tage ohne Meer."],
       usamitte: [1, "Santa Monica am Pazifik, Galveston als Option, Stadtstrände am Michigansee und der Strand am Eriesee bei Cedar Point; kein warmes, klares Meer."],
+      usanordost: [1, "Strand am Eriesee bei Cedar Point, Stadtstrände am Michigansee, Baden in Seen und Flüssen in Algonquin und den White Mountains; kein Meer zum Baden."],
       asien: [
         5,
         "Tioman, Khanom, Koh Samui, Koh Tao und Hua Hin: tropische Strände mit ca. 29 °C warmem Wasser an fast jeder zweiten Station, zusammen 18 Nächte am Meer."
@@ -201,6 +238,7 @@ window.START = {
       ],
       usa: [2, "Drei Nächte in Key Largo mit Bootstour zum einzigen Korallenriff an der Festlandküste der USA, dazu die Steinmolen bei Destin; das Riff ist weniger farbig als in Südostasien."],
       usamitte: [0, "Kein Schnorcheln auf der Route."],
+      usanordost: [0, "Kein Schnorcheln auf der Route."],
       asien: [
         4,
         "Tioman (4 Nächte) und Koh Tao (5 Nächte) mit Riffen, Schildkröten und Schnorchelbooten, dazu Ang Thong ab Koh Samui; das klarste Wasser Malaysias (Perhentians) ist nicht auf der Route."
@@ -214,6 +252,7 @@ window.START = {
       ],
       usa: [4, "Sandboarding auf den Dünen bei Kanab und auf White Sands, Kletterei durch den Belly of the Dragon, Sumpftour mit Alligatoren, Airboat in den Everglades, Schnorcheln am Riff, ein Roadtrip quer durchs Land."],
       usamitte: [4, "Sandboarding bei Kanab, Jeep-Tour im Monument Valley, Sumpftour mit Alligatoren, Klettern im City Museum, Achterbahnen in Cedar Point, Boot in die Gischt der Niagarafälle, ein Roadtrip quer durchs Land."],
+      usanordost: [3, "Achterbahnen in Cedar Point, Boot in die Gischt der Niagarafälle, CN Tower, Kanu in Algonquin, Zahnradbahn auf den Mount Washington, Walbeobachtung vor Boston."],
       asien: [3, "Sky Bridge und Mangroventour auf Langkawi, Dschungelwanderung auf Tioman, Schnorcheln mit Riffhaien auf Koh Tao, Kajak, Inselhopping."],
     },
     {
@@ -224,6 +263,7 @@ window.START = {
       ],
       usa: [5, "Los Angeles, Las Vegas, Albuquerque und Santa Fe, Austin, New Orleans, Miami und New York mit Museen und Aussichtsplattformen."],
       usamitte: [5, "Los Angeles, Las Vegas, Albuquerque und Santa Fe, Fort Worth, Houston, New Orleans, Memphis, St. Louis, Chicago und New York."],
+      usanordost: [5, "New York, Washington, Chicago, Toronto, Montréal, die Altstadt von Québec (UNESCO) und Boston: so viele grosse Städte wie auf keiner anderen Reise."],
       asien: [4, "Singapur, Kuala Lumpur und Bangkok mit Street-Food, Tempeln und Aussichtstürmen; an der Ostküste Dörfer und Kleinstädte."],
     },
     {
@@ -234,6 +274,7 @@ window.START = {
       ],
       usa: [4, "Sehr gute Spitäler, aber sehr teuer (Reiseversicherung mit hoher Deckung nötig); Hitze im Südwesten, Hurrikansaison an der Golfküste und in Florida."],
       usamitte: [4, "Sehr gute Spitäler, aber sehr teuer (Reiseversicherung mit hoher Deckung nötig); Hitze im Südwesten und an der Golfküste, Gewitter."],
+      usanordost: [4, "Sehr gute Spitäler, aber sehr teuer (Reiseversicherung mit hoher Deckung nötig); Hitze und Gewitter in den Städten, Mücken in den Wäldern; Kanada sehr sicher."],
       asien: [
         3,
         "Singapur sehr sicher; in Malaysia und Thailand Dengue-Mückenschutz, kein Leitungswasser, Impfstatus vorab klären; auf Tioman und Koh Tao ist ein grösseres Spital weit weg, Bootsfahrten bei Wellengang."
@@ -244,6 +285,7 @@ window.START = {
       marokko: [4, "ca. {plan:marokko} CHF: kein Flug, Supercharging gratis, Marokko günstig; dafür Fähren und Züge in Marokko sowie Parkplatz in Tarifa."],
       usa: [1, "ca. {plan:usa} CHF: rund {mehrkosten} CHF mehr, vor allem Einwegmiete, Inlandflug und Unterkünfte in Destin, Key Largo, Miami und New York."],
       usamitte: [1, "ca. {plan:usamitte} CHF: vor allem Einwegmiete, Unterkünfte in Los Angeles, Chicago und New York."],
+      usanordost: [1, "ca. {plan:usanordost} CHF: vor allem Unterkünfte in New York, Chicago und Boston, Einwegmiete und Essen."],
       asien: [4, "ca. {plan:asien} CHF: Singapur ist teuer, der Rest günstig."],
     },
     {
@@ -254,6 +296,7 @@ window.START = {
       ],
       usa: [1, "Ca. 104–111 Stunden Tür zu Tür: zwei Langstreckenflüge mit Einreise und Jetlag, ein Inlandflug, dazu viel Zeit im Auto (ca. 64–70 Stunden an 12 Fahrtagen, ein Tag mit ca. 9,5–10 Stunden)."],
       usamitte: [1, "Ca. 108–118 Stunden Tür zu Tür: zwei Langstreckenflüge mit Jetlag (−9 Std.) und die meiste Zeit im Auto (ca. 75–84 Stunden an 15 Fahrtagen, drei Fahrtage hintereinander durch Texas)."],
+      usanordost: [2, "Ca. 88–96 Stunden Tür zu Tür: kürzere Flüge mit weniger Jetlag (−6 Std.), Zug nach Washington, dann ca. 53–60 Stunden im Auto an 13 Fahrtagen mit zwei Grenzübertritten; in den Städten ohne Auto."],
       asien: [
         3,
         "Ca. 83–94 Stunden Tür zu Tür: zwei Direktflüge mit Jetlag, dazu ca. 47–56 Stunden mit Zug, Bus, Transfer und Fähre (zwei Reisetage mit ca. 7,5–8,5 Stunden) und viele Umstiege mit Gepäck; niemand muss selber fahren."
@@ -267,6 +310,7 @@ window.START = {
       ],
       usa: [1, "Zwei Langstreckenflüge und ein Inlandflug (zusammen ca. 17’700 km) und ca. 5’550 km Mietwagen, grob geschätzt ca. 3,7 t CO₂ pro Person."],
       usamitte: [1, "Zwei Langstreckenflüge (zusammen ca. 15’800 km) und ca. 6’700 km Mietwagen, grob geschätzt ca. 3,6 t CO₂ pro Person."],
+      usanordost: [2, "Zwei Langstreckenflüge (zusammen ca. 12’300 km) und ca. 4’400 km Mietwagen, grob geschätzt ca. 2,8 t CO₂ pro Person."],
       asien: [
         1,
         "Zwei Langstreckenflüge (ca. 19’000 km), unterwegs Bus, Zug und Fähre, grob geschätzt ca. 4 t CO₂ pro Person."
