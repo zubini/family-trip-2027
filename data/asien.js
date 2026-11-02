@@ -79,7 +79,7 @@ REISEN.asien = {
     ],
     [
       "Vorab buchen",
-      "Batu Batu auf Pulau Tengah (nur 22 Villen; Familienvilla, Essen und Speedboot ab Mersing anfragen), Bus oder Transfer Singapur–Mersing, ETS-Züge Kluang–Kuala Lumpur und Ipoh–Padang Besar (KTMB), Transfers nach und ab den Cameron Highlands, Halbtagestour mit Mossy Forest, Transfer Songkhla–Khanom, Unterkunft in Khanom, auf Koh Samui und Koh Tao, Züge Chumphon–Hua Hin–Bangkok (SRT), Petronas-Skybridge, Katamarane Samui–Tao–Chumphon."
+      "Batu Batu auf Pulau Tengah (nur 22 Villen; Familienvilla, Essen und Speedboot ab Mersing anfragen), Bus oder Transfer Singapur–Mersing, ETS-Züge Kluang–Kuala Lumpur und Ipoh–Padang Besar (KTMB), Transfers nach und ab den Cameron Highlands, Landrover-Tour mit Mossy Forest und Dschungeltour in den Cameron Highlands, Transfer Songkhla–Khanom, Unterkunft in Khanom, auf Koh Samui und Koh Tao, Züge Chumphon–Hua Hin–Bangkok (SRT), Petronas-Skybridge, Katamarane Samui–Tao–Chumphon."
     ],
     [
       "Optional",
@@ -100,7 +100,7 @@ REISEN.asien = {
   abwechslung: [
     [
       "Action und Freizeitparks",
-      "Singapur (Sentosa, Universal, Wasserpark), Kuala Lumpur (Sunway Lagoon, Petronas-Skybridge), Pulau Tengah (Kajak, Schnuppertauchen, Schildkröten), Khanom (Delfin-Tour), Hua Hin (Wasserpark), Bangkok (Safari World, SEA LIFE)."
+      "Singapur (Sentosa, Universal, Wasserpark), Kuala Lumpur (Sunway Lagoon, Petronas-Skybridge), Cameron Highlands (Landrover-Tour, Dschungeltour), Pulau Tengah (Kajak, Schnuppertauchen, Schildkröten), Khanom (Delfin-Tour), Hua Hin (Wasserpark), Bangkok (Safari World, SEA LIFE)."
     ],
     [
       "Kultur und Geschichte",
@@ -224,9 +224,10 @@ REISEN.asien = {
       naechte: "3 Nächte",
       anreise: "Mit privatem Transfer (ca. 3,5 Std.) oder Fernbus ab dem Busbahnhof Terminal Bersepadu Selatan (ca. 4 Std.) von Kuala Lumpur nach Tanah Rata in den Cameron Highlands. Die letzte Stunde führt über eine kurvige Bergstrasse: Mittel gegen Reiseübelkeit mitnehmen.",
       text: "Bergland auf rund 1’500 m mit grünen Teeplantagen, Nebelwald, Erdbeerfarmen und kleinen Orten im Kolonialstil. Mit ca. 18–25 °C am Tag und kühlen Nächten eine angenehme Pause von der Hitze, mitten im Regenwald des Landesinneren.",
-      teens: "Teeplantage BOH Sungei Palas mit Aussicht über die Hänge, Holzstege durch den moosbewachsenen Nebelwald (Mossy Forest) am Gunung Brinchang, geführte Dschungeltour zur Riesenblume Rafflesia mit Besuch in einem Orang-Asli-Dorf (Blasrohr-Vorführung) oder geführte Bergwanderung, Erdbeeren selber pflücken, Schmetterlings- und Insektengarten, Teehaus mit Scones.",
+      teens: "Landrover-Tour: in den alten, offenen Land Rovern der Highlands auf schmalen Strassen durch die Teefelder hinauf zum Gunung Brinchang (2’000 m) und zum moosbewachsenen Nebelwald (Mossy Forest) mit Holzstegen, Halt in der Teeplantage BOH Sungei Palas; dazu geführte Dschungeltour zur Riesenblume Rafflesia mit Besuch in einem Orang-Asli-Dorf (Blasrohr-Vorführung), Erdbeeren selber pflücken, Schmetterlingsgarten.",
       fakten: [
-        "<strong>Dauer:</strong> 3 Nächte: Ankunft am Nachmittag, ein Tag Teeplantage und Mossy Forest (Halbtagestour im Landrover) mit Erdbeerfarm, ein Tag geführte Dschungeltour (Rafflesia und Orang-Asli-Dorf oder Bergwanderung, z.B. Gunung Jasar), am Abend Nachtmarkt in Brinchang (am Wochenende).",
+        "<strong>Dauer:</strong> 3 Nächte: Ankunft am Nachmittag, ein Tag Landrover-Tour (Teeplantage, Gunung Brinchang, Mossy Forest, Erdbeerfarm), ein Tag geführte Dschungeltour (Rafflesia und Orang-Asli-Dorf oder Bergwanderung, z.B. Gunung Jasar), am Abend Nachtmarkt in Brinchang (am Wochenende).",
+        "<strong>Landrover-Tour:</strong> Halb- oder Ganztagestouren buchen Unterkünfte und Anbieter in Tanah Rata, Abholung am Hotel, oft in kleinen Gruppen oder privat für die Familie. Die letzte Strecke zum Mossy Forest ist holprig und eng. Preise je nach Dauer grob ca. 100–200 MYR pro Person (Richtwert), am Vortag reservieren; früh am Morgen ist die Sicht am besten.",
         "<strong>Wetter:</strong> Am Tag ca. 18–25 °C, in der Nacht ca. 14–16 °C: Pullover und Regenjacke mitnehmen; im Juli meist am Nachmittag Schauer, am Morgen oft klar.",
         "<strong>Dschungel:</strong> Geführte Touren buchen Anbieter in Tanah Rata, grob ca. 100–200 MYR pro Person für einen halben Tag (Richtwert, aktuelle Preise vor Ort). Ob eine Rafflesia gerade blüht, ist Glückssache; die Führer wissen es meist einige Tage vorher. Viele der früher nummerierten Wanderwege sind zeitweise geschlossen oder schlecht markiert, es gab Unfälle mit verirrten Wanderern: nur mit Führer gehen. Gute Schuhe, Regenjacke und Blutegel-Socken mitnehmen."
       ],
@@ -458,7 +459,7 @@ REISEN.asien = {
         "Aktivitäten und Eintritte",
         "2’200–3’400",
         "2’700",
-        "Universal und Sentosa, Mandai, Schnorcheltouren, Marine-Park-Gebühren, Petronas-Skybridge, Sunway Lagoon, Touren mit Teeplantage, Mossy Forest und Dschungel (Rafflesia) in den Cameron Highlands, Delfin-Tour in Khanom, Ang Thong, Wasserpark Hua Hin, Safari World usw."
+        "Universal und Sentosa, Mandai, Schnorcheltouren, Marine-Park-Gebühren, Petronas-Skybridge, Sunway Lagoon, Landrover-Tour (Teeplantage, Mossy Forest) und Dschungeltour (Rafflesia) in den Cameron Highlands, Delfin-Tour in Khanom, Ang Thong, Wasserpark Hua Hin, Safari World usw."
       ],
       [
         "Versicherung, eSIM, Medikamente, Impfungen",

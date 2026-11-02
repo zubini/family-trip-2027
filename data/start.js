@@ -162,7 +162,7 @@ window.START = {
       wetter: "Kuala Lumpur und Bangkok mit kurzen Gewittern am Nachmittag, die Cameron Highlands angenehm kühl (ca. 18–25 °C); die Ostküste Malaysias (Pulau Tengah) und der Golf von Thailand (Songkhla, Khanom, Samui, Tao) sind meist ruhiger; die Westküste mit Monsun wird umfahren.",
       einreise: "Singapur und Malaysia visafrei. Thailand: seit 15.09.2026 nur noch 30 Tage visafrei und höchstens zwei Landgrenz-Einreisen pro Jahr, Länderliste prüfen. Online-Anmeldungen (SG Arrival Card, MDAC, TDAC).",
       hoehepunkte: "Hausriff und Schildkröten auf Pulau Tengah, Schnorcheln auf Samui und Koh Tao (Koh Nang Yuan), Petronas Towers und Batu Caves in Kuala Lumpur, Teeplantagen und Nebelwald in den Cameron Highlands, Höhlentempel in Ipoh, Altstadt und Strand von Songkhla, Delfine bei Khanom, Ang Thong, Grand Palace und Wat Arun in Bangkok.",
-      teens: "Schnorcheln, Schildkröten, Kajak, Inselhopping, Delfin-Tour, Teeplantage, Mossy Forest und Dschungeltour, Erdbeeren pflücken, Wasserparks, Sentosa mit Universal Studios.",
+      teens: "Schnorcheln, Schildkröten, Kajak, Inselhopping, Delfin-Tour, Landrover-Tour zum Mossy Forest, Dschungeltour, Erdbeeren pflücken, Wasserparks, Sentosa mit Universal Studios.",
       pro: [
         "Die meisten Schnorchel- und Strandtage",
         "Warmes Meer (ca. 29 °C) mit Riffen und Schildkröten",
@@ -253,7 +253,7 @@ window.START = {
       usa: [5, "Sandboarding auf den Dünen bei Kanab und auf White Sands, Kletterei durch den Belly of the Dragon, Sumpftour mit Alligatoren, Airboat in den Everglades, Schnorcheln am Riff, ein Roadtrip quer durchs Land."],
       usamitte: [5, "Sandboarding bei Kanab, Jeep-Tour im Monument Valley, Sumpftour mit Alligatoren, Klettern im City Museum, Achterbahnen in Cedar Point, Boot in die Gischt der Niagarafälle, ein Roadtrip quer durchs Land."],
       usanordost: [4, "Achterbahnen in Cedar Point, Boot in die Gischt der Niagarafälle, CN Tower, Kanu in Algonquin, Zahnradbahn auf den Mount Washington, Walbeobachtung vor Boston."],
-      asien: [3, "Schnorcheln mit Riffhaien auf Koh Tao, Schnuppertauchen und Schildkröten auf Pulau Tengah, Kajak in Ang Thong, Delfin-Tour, Inselhopping; eher Ferien am Meer als Abenteuer."],
+      asien: [3, "Landrover-Tour und geführte Dschungeltour in den Cameron Highlands, Schnorcheln mit Riffhaien auf Koh Tao, Schnuppertauchen und Schildkröten auf Pulau Tengah, Kajak in Ang Thong, Delfin-Tour, Inselhopping."],
     },
     {
       kriterium: "Städte",
