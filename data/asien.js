@@ -6,14 +6,14 @@ REISEN.asien = {
   titel: "Von Singapur nach Bangkok",
   menu: "Malaysia / Thailand",
   untertitel: "Fünf Wochen über Land und Wasser: Singapur, die kleine Insel Pulau Tengah mit dem Öko-Resort Batu Batu, Kuala Lumpur und die kühlen Cameron Highlands, über Ipoh mit dem Zug nach Songkhla, in den Regenwald von Khao Sok mit einer Nacht auf dem Cheow-Lan-See, dann Koh Samui, Koh Tao und Bangkok.",
-  zeitraum: "Sa, 19.06.2027 bis Do, 22.07.2027, 2 Erwachsene und 2 Kids",
+  zeitraum: "Sa, 19.06.2027 bis Fr, 23.07.2027, 2 Erwachsene und 2 Kids",
   titelbild: {
     datei: "Nang Yuan Island, Koh Tao (48109157601).jpg",
     suche: "Koh Nang Yuan|Nang Yuan Island Koh Tao",
     stichwort: "nang yuan|nangyuan",
     alt: "Koh Nang Yuan bei Koh Tao, Thailand"
   },
-  planIntro: "Abflug ab Zürich am Sa, 19.06.2027 am Abend, Rückflug ab Bangkok am Do, 22.07.2027 um die Mittagszeit. Ein Klick auf eine Station springt zur Beschreibung.",
+  planIntro: "Abflug ab Zürich am Sa, 19.06.2027 am Abend, Rückflug ab Bangkok am Fr, 23.07.2027 um die Mittagszeit (Ankunft in Zürich am Abend). Ein Klick auf eine Station springt zur Beschreibung.",
   hinflug: {
     datum: "19.–20. Juni",
     name: "Flug Zürich–Singapur",
@@ -52,28 +52,28 @@ REISEN.asien = {
       info: "ETS-Zug ab Ipoh nach Padang Besar (ca. 3–3,5 Std.), Grenze, Zug nach Hat Yai (ca. 45 Min.), Taxi (ca. 45 Min.); insgesamt ca. 5,5–6,5 Std."
     },
     {
-      datum: "6.–8. Juli",
+      datum: "6.–9. Juli",
       name: "6. Khao Sok und Cheow-Lan-See",
-      naechte: 2,
-      info: "Privater Transfer (ca. 5–5,5 Std.); eine Nacht im Dorf, eine Nacht im schwimmenden Bungalow auf dem See"
+      naechte: 3,
+      info: "Privater Transfer (ca. 5–5,5 Std.); zwei Nächte im Dorf, eine Nacht im schwimmenden Bungalow auf dem See"
     },
     {
-      datum: "8.–11. Juli",
+      datum: "9.–12. Juli",
       name: "7. Koh Samui",
       naechte: 3,
       info: "Boot zum Pier (ca. 1 Std.), Transfer nach Donsak (ca. 2–2,5 Std.), Autofähre (ca. 1,5 Std.); insgesamt ca. 5,5–6,5 Std."
     },
-    {datum: "11.–16. Juli", name: "8. Koh Tao", naechte: 5, info: "Katamaran ab Samui (ca. 1,5–2 Std.)"},
+    {datum: "12.–17. Juli", name: "8. Koh Tao", naechte: 5, info: "Katamaran ab Samui (ca. 1,5–2 Std.)"},
     {
-      datum: "16.–18. Juli",
+      datum: "17.–19. Juli",
       name: "9. Hua Hin / Khao Sam Roi Yot",
       naechte: 2,
       info: "Katamaran nach Chumphon (ca. 1,5–2 Std.), Zug nach Hua Hin (ca. 3,5–4 Std.); insgesamt ca. 7–8 Std."
     },
-    {datum: "18.–22. Juli", name: "10. Bangkok", naechte: 4, info: "Zug (ca. 3,5–4 Std.); Rückflug 22. Juli"}
+    {datum: "19.–23. Juli", name: "10. Bangkok", naechte: 4, info: "Zug (ca. 3,5–4 Std.); Rückflug 23. Juli"}
   ],
   rueckflug: {
-    datum: "22. Juli",
+    datum: "23. Juli",
     name: "Flug Bangkok–Zürich",
     info: "Rückflug um die Mittagszeit, Direktflug ca. 11,5–12 Std., Ankunft in Zürich am Abend"
   },
@@ -92,7 +92,7 @@ REISEN.asien = {
     ],
     [
       "Flug ab und nach Zürich",
-      "Hinflug: Direktflug Zürich–Singapur ca. 12–13 Std. (Zeitverschiebung +6 Std.). Abflug am Sa, 19.06.2027 um ca. 22.40 Uhr, Ankunft am So, 20.06.2027 am späten Nachmittag. Rückflug: Direktflug Bangkok–Zürich ca. 11,5–12 Std. (Zeitverschiebung −5 Std.) am Do, 22.07.2027 um die Mittagszeit (Ankunft in Zürich am Abend). Mit Umstieg dauert die Reise meist 15–18 Std. Direktflüge und Flugzeiten bei der Buchung prüfen."
+      "Hinflug: Direktflug Zürich–Singapur ca. 12–13 Std. (Zeitverschiebung +6 Std.). Abflug am Sa, 19.06.2027 um ca. 22.40 Uhr, Ankunft am So, 20.06.2027 am späten Nachmittag. Rückflug: Direktflug Bangkok–Zürich ca. 11,5–12 Std. (Zeitverschiebung −5 Std.) am Fr, 23.07.2027 um die Mittagszeit (Ankunft in Zürich am Abend). Mit Umstieg dauert die Reise meist 15–18 Std. Direktflüge und Flugzeiten bei der Buchung prüfen."
     ]
   ],
   karte: {
@@ -279,13 +279,13 @@ REISEN.asien = {
       ersatzsuche: "Khao Sok National Park",
       land: "th",
       region: "Thailand",
-      datum: "6.–8. Juli",
-      naechte: "2 Nächte",
-      anreise: "Mit privatem Transfer von Songkhla über Thung Song und Phanom nach Khao Sok (ca. 4,75 Std. Fahrt, mit Pausen ca. 5–5,5 Std.); Minivans mit Umsteigen in Surat Thani dauern länger. Unterkunft für die erste Nacht im Dorf am Parkeingang.",
+      datum: "6.–9. Juli",
+      naechte: "3 Nächte",
+      anreise: "Mit privatem Transfer von Songkhla über Thung Song und Phanom nach Khao Sok (ca. 4,75 Std. Fahrt, mit Pausen ca. 5–5,5 Std.); Minivans mit Umsteigen in Surat Thani dauern länger. Unterkunft für die ersten zwei Nächte im Dorf am Parkeingang, z.B. in einem Baumhaus- oder Dschungel-Bungalow.",
       text: "Einer der ältesten Regenwälder der Welt im Landesinneren Südthailands, mit steilen Kalkfelsen, Höhlen und Flüssen. Das Besondere: eine Nacht in einem schwimmenden Bungalow auf dem Cheow-Lan-See, umgeben von Dschungel und Felsen, am Morgen oft im Nebel. Die Dschungel-Etappe der Reise.",
       teens: "Übernachtung im schwimmenden Bungalow mit Kajak und Baden direkt vom Steg, Longtail-Boot zwischen den Kalkfelsen, Dschungelwanderung zu einer Höhle (z.B. Coral Cave), Bootsfahrt im Morgennebel mit Gibbons und Nashornvögeln (mit Glück), im Dorf Tubing oder Kanu auf dem Fluss Sok und Nachtwanderung mit Führer.",
       fakten: [
-        "<strong>Dauer:</strong> 2 Nächte: Ankunft am Nachmittag im Dorf, am Abend Nachtwanderung oder Fluss; am nächsten Morgen Transfer zum Pier am Ratchaprapha-Staudamm (ca. 1 Std.) und mit dem Longtail-Boot zu den schwimmenden Bungalows (ca. 1 Std.), Kajak, Höhlenwanderung und Baden; am Abreisetag Bootsfahrt im Morgennebel und zurück zum Pier.",
+        "<strong>Dauer:</strong> 3 Nächte: Ankunft am Nachmittag im Dorf, am Abend Nachtwanderung; ein voller Tag im Nationalpark mit geführter Dschungelwanderung zu Wasserfällen und Tubing oder Kanu auf dem Fluss Sok; am dritten Morgen Transfer zum Pier am Ratchaprapha-Staudamm (ca. 1 Std.) und mit dem Longtail-Boot zu den schwimmenden Bungalows (ca. 1 Std.), Kajak, Höhlenwanderung und Baden, Nacht auf dem See; am Abreisetag Bootsfahrt im Morgennebel und zurück zum Pier.",
         "<strong>Buchen:</strong> Die Nacht auf dem See am einfachsten als 2-Tages-Tour mit Boot, Essen, Führer und Aktivitäten (für Erwachsene je nach Anbieter grob ca. 150–315 USD pro Person, ab Khao Sok günstiger als ab Phuket oder Krabi; Kinderpreise und Familienzimmer anfragen). Die Bungalows auf dem See sind einfach (teils mit Klimaanlage, teils nur Ventilator), früh reservieren. Die Nationalparkgebühr ist oft nicht inbegriffen, Betrag für Ausländer und Kinder vorab prüfen.",
         "<strong>Wetter und Gesundheit:</strong> Im Juli Schauer und Gewitter, der Regenwald ist dann besonders grün; Regenjacke, Blutegel-Socken und Mückenschutz mitnehmen. Schwimmwesten beim Baden im See, die Kids nicht allein schwimmen lassen."
       ],
@@ -308,7 +308,7 @@ REISEN.asien = {
       name: "Koh Samui",
       land: "th",
       region: "Thailand",
-      datum: "8.–11. Juli",
+      datum: "9.–12. Juli",
       naechte: "3 Nächte",
       anreise: "Am Morgen Bootsfahrt vom schwimmenden Bungalow zurück zum Pier am Ratchaprapha-Staudamm (ca. 1 Std.), dann Transfer über Surat Thani zum Hafen Donsak (ca. 2–2,5 Std.) und Autofähre (Seatran/Raja) nach Koh Samui (ca. 1,5 Std.); insgesamt ca. 5,5–6,5 Std. Viele Seetouren bieten den Anschluss zum Hafen direkt an.",
       text: "Thailands grosse Familieninsel mit guter Infrastruktur, Stränden und Ausflügen. Im Juli sind die Wetterbedingungen im Golf meist stabil.",
@@ -333,7 +333,7 @@ REISEN.asien = {
       name: "Koh Tao",
       land: "th",
       region: "Thailand",
-      datum: "11.–16. Juli",
+      datum: "12.–17. Juli",
       naechte: "5 Nächte",
       anreise: "Highspeed-Katamaran der Lomprayah von Koh Samui über Koh Phangan nach Koh Tao (ca. 1,5–2 Std.). Online vorab buchen, Wellengang kann stärker sein.",
       text: "Das Schnorchelparadies im Golf von Thailand mit klarem, ruhigem Wasser und der berühmten Sandbank von Koh Nang Yuan.",
@@ -358,7 +358,7 @@ REISEN.asien = {
       name: "Hua Hin / Khao Sam Roi Yot",
       land: "th",
       region: "Thailand",
-      datum: "16.–18. Juli",
+      datum: "17.–19. Juli",
       naechte: "2 Nächte",
       anreise: "Katamaran Lomprayah von Koh Tao nach Chumphon (ca. 1,5–2 Std.), Taxi zum Bahnhof (ca. 15 Min.), dann Zug nach Hua Hin (ca. 3,5–4 Std.; nur einige Züge pro Tag, auf den Katamaran abstimmen und vorab bei der SRT reservieren). Insgesamt ca. 7–8 Std.; Verpflegung mitnehmen. Alternative: Lomprayah-Bus im Kombiticket (Abfahrt Koh Tao 10:15, Ankunft Hua Hin ca. 17 Uhr).",
       text: "Königliche Küstenstadt mit breitem Strand, Wasserpark und Nationalpark. Ein entspannter Zwischenhalt vor der Grossstadt.",
@@ -387,8 +387,8 @@ REISEN.asien = {
       name: "Bangkok",
       land: "th",
       region: "Thailand",
-      datum: "18.–22. Juli",
-      naechte: "4 Nächte, Rückflug 22. Juli",
+      datum: "19.–23. Juli",
+      naechte: "4 Nächte, Rückflug 23. Juli",
       anreise: "Zug von Hua Hin nach Bangkok (ca. 3,5–4 Std.), Ankunft je nach Zug am Bahnhof Krung Thep Aphiwat oder Hua Lamphong; weiter mit MRT oder Taxi. Minivans sind etwas schneller (ca. 3 Std.).",
       text: "Vielfältiges Finale: Tempel, Flussfahrten, Aquarium und Nachtmärkte. Zwei Nächte reichen für die wichtigsten Höhepunkte der Stadt.",
       teens: "SEA LIFE Bangkok Ocean World (Siam Paragon), Safari World (nur bei genug Zeit), Khlong-Bootsfahrt, Tempelbesichtigung in Ayutthaya.",
@@ -421,13 +421,13 @@ REISEN.asien = {
       ]
     }
   ],
-  abschluss: "Rückflug ab Bangkok nach Zürich am Do, 22.07.2027 um die Mittagszeit (Direktflug ca. 11,5–12 Std.), Ankunft in Zürich am Abend und mit der Bahn nach Brig-Glis. Bis zum Ferienende bleiben zwei Tage gegen den Jetlag.",
+  abschluss: "Rückflug ab Bangkok nach Zürich am Fr, 23.07.2027 um die Mittagszeit (Direktflug ca. 11,5–12 Std.), Ankunft in Zürich am Abend und mit der Bahn nach Brig-Glis. Bis zum Ferienende bleibt ein Tag gegen den Jetlag (Rückflug nach Westen, der Jetlag ist meist milder).",
   budgetIntro: "Mittelklasse inklusive Flüge, Transport, Unterkunft, Verpflegung und Aktivitäten. Alle Beträge sind Schätzungen in CHF.",
   budget: {
-    naechte: 32,
+    naechte: 33,
     total: "19’500",
     spanne: "16’000–24’500",
-    proTag: "ca. 610 CHF pro Tag, ca. 4’900 pro Person",
+    proTag: "ca. 590 CHF pro Tag, ca. 4’900 pro Person",
     posten: [
       [
         "Flüge Zürich–Singapur und Bangkok–Zürich",
@@ -444,14 +444,14 @@ REISEN.asien = {
       ["Lokale Transfers", "400–800", "550", "Grab, MRT/Skytrain, Wassertaxis, Songthaew"],
       [
         "Unterkunft (Familienzimmer oder 2 Zimmer, 3–4 Sterne)",
-        "4’300–6’700",
-        "5’200",
+        "4’350–6’800",
+        "5’300",
         "Pulau Tengah (Batu Batu, mit Essen) grob ca. 450–750 CHF pro Nacht, sonst ca. 50–140 CHF pro Nacht, Singapur ca. 250–300; auf den Inseln im Juli gefragt, früh buchen"
       ],
       [
         "Verpflegung (Hawker, Restaurants, Getränke)",
-        "2’300–3’600",
-        "2’900",
+        "2’350–3’700",
+        "3’000",
         "ca. 75–120 CHF pro Tag für 4 Personen, Singapur am teuersten"
       ],
       [
@@ -466,12 +466,12 @@ REISEN.asien = {
         "900",
         "Reisekranken- und Annullationsschutz, Reiseapotheke"
       ],
-      ["Reserve (ca. 5 %)", "600–1’300", "800", "Souvenirs, Wäsche, Unvorhergesehenes"],
+      ["Reserve (ca. 5 %)", "500–1’100", "600", "Souvenirs, Wäsche, Unvorhergesehenes"],
       [
         "<strong>Total</strong>",
         "<strong>16’000–24’500</strong>",
         "<strong>ca. 19’500</strong>",
-        "ca. 610 CHF pro Tag, ca. 4’900 pro Person"
+        "ca. 590 CHF pro Tag, ca. 4’900 pro Person"
       ]
     ],
     stationen: [
@@ -481,7 +481,7 @@ REISEN.asien = {
       ["4. Cameron Highlands (3)", "600–980"],
       ["Zwischenübernachtung Ipoh (1)", "130–220"],
       ["5. Songkhla (2)", "330–560"],
-      ["6. Khao Sok und Cheow-Lan-See (2)", "800–1’400"],
+      ["6. Khao Sok und Cheow-Lan-See (3)", "950–1’650"],
       ["7. Koh Samui (3)", "750–1’190"],
       ["8. Koh Tao (5)", "1’000–1’620"],
       ["9. Hua Hin / Khao Sam Roi Yot (2)", "430–670"],
@@ -533,7 +533,7 @@ REISEN.asien = {
     ],
     [
       "Einreise (Schweizer Pass)",
-      "Singapur und Malaysia sind für Touristen visafrei. Thailand hat seit 15. September 2026 die visafreie Aufenthaltsdauer auf 30 Tage verkürzt (vorher 60) und visafreie Einreisen über Landgrenzen auf zwei pro Kalenderjahr begrenzt. Auf dieser Route seid ihr ca. 18 Tage in Thailand und reist einmal über Land ein (im Bahnhof Padang Besar); ob die Schweiz auf der Liste der visabefreiten Länder steht, beim Thai-Konsulat oder EDA prüfen. Online-Anmeldungen: SG Arrival Card (Singapur), MDAC (Malaysia), TDAC (Thailand). Reisepass mind. 6 Monate gültig."
+      "Singapur und Malaysia sind für Touristen visafrei. Thailand hat seit 15. September 2026 die visafreie Aufenthaltsdauer auf 30 Tage verkürzt (vorher 60) und visafreie Einreisen über Landgrenzen auf zwei pro Kalenderjahr begrenzt. Auf dieser Route seid ihr ca. 19 Tage in Thailand und reist einmal über Land ein (im Bahnhof Padang Besar); ob die Schweiz auf der Liste der visabefreiten Länder steht, beim Thai-Konsulat oder EDA prüfen. Online-Anmeldungen: SG Arrival Card (Singapur), MDAC (Malaysia), TDAC (Thailand). Reisepass mind. 6 Monate gültig."
     ],
     [
       "Versicherung",
