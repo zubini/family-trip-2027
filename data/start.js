@@ -281,7 +281,7 @@ window.START = {
       ],
     },
     {
-      kriterium: "Budget (mehr Punkte = günstiger)",
+      kriterium: "Budget<small>mehr Punkte = günstiger</small>",
       marokko: [5, "ca. {plan:marokko} CHF: kein Flug, Supercharging gratis, Marokko günstig; dafür Fähren und Züge in Marokko sowie Parkplatz in Tarifa."],
       usa: [1, "ca. {plan:usa} CHF: rund {mehrkosten} CHF mehr, vor allem Einwegmiete, Inlandflug und Unterkünfte in Destin, Key Largo, Miami und New York."],
       usamitte: [1, "ca. {plan:usamitte} CHF: vor allem Einwegmiete, Unterkünfte in Los Angeles, Chicago und New York."],
@@ -303,7 +303,7 @@ window.START = {
       ],
     },
     {
-      kriterium: "CO₂ und Umwelt (mehr Punkte = weniger CO₂)",
+      kriterium: "CO₂ und Umwelt<small>mehr Punkte = weniger CO₂</small>",
       marokko: [
         5,
         "Kein Flug: Elektroauto (ca. 1’100 kWh), zwei kurze Fähren, Züge in Marokko (ohne Mietwagen); grob geschätzt ca. 0,1–0,2 t CO₂ pro Person."
