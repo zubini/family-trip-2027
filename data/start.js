@@ -2,13 +2,13 @@
 // Budgetzahlen kommen automatisch aus den Reisen (data/marokko.js usw.).
 // Platzhalter in Texten: {plan:marokko}, {plan:usa}, {plan:usamitte}, {plan:usanordost}, {plan:asien} = Planwert, {mehrkosten} = USA minus Malaysia / Thailand.
 // Reihenfolge der Reisen hier = Reihenfolge der Spalten; die Navigation folgt der Reihenfolge in index.html.
-// steckbrief: kurze Angaben für die Übersicht «Die Reisen». Pro/Contra: je 5 kurze Stichworte. Bewertung: [Punkte 0–5, Text]. Die Punkte und Pro/Contra sind eine Einschätzung und bei Änderungen an den Reisen von Hand anzupassen.
+// steckbrief: kurze Angaben für die Übersicht «Die Reisen». Pro/Contra: je 5 kurze Stichworte. Bewertung: [Punkte 0–5, Text], relativ zu den anderen Reisen (beste Reise pro Kriterium = 5). Die Punkte und Pro/Contra sind eine Einschätzung und bei Änderungen an den Reisen von Hand anzupassen.
 window.START = {
   titel: "Familienreise 2027",
   zeitraum: "Ab Sa, 19.06.2027, bis spätestens Sa, 24.07.2027, 2 Erwachsene und 2 Kids",
   untertitel: "Verschiedene Reisevarianten als Fahrplan für eine Entscheidung.",
   reisenIntro: "Alle Reisen beginnen am Sa, 19.06.2027, für die Familie mit Sohn (12) und Tochter (14). Zurück sind die Flugreisen am Do, 22.07.2027, die Autoreise am Sa, 24.07.2027. Ein Klick führt zum vollständigen Plan.",
-  bewertungIntro: "Bewertet werden Natur, Dschungelfeeling, Wüstenfeeling, Strand und Baden, Schnorcheln, Abenteuer, Städte, Gesundheit und Sicherheit, Budget, Reisekomfort sowie CO₂ und Umwelt. Fünf Punkte sind die beste Bewertung (beim Budget heisst das: günstig, beim CO₂: wenig Ausstoss). Die Skala ist fest und nicht nur ein Vergleich der Reisen: 5 heisst Weltklasse (z.B. tropische Riffe beim Schnorcheln, kurze Etappen beim Reisekomfort), 0 heisst, dass es das auf der Reise nicht gibt. Die Punkte sind eine Einschätzung auf Basis der Reisepläne, keine Messung.",
+  bewertungIntro: "Bewertet werden Natur, Dschungelfeeling, Wüstenfeeling, Strand und Baden, Schnorcheln, Abenteuer, Städte, Gesundheit und Sicherheit, Budget, Reisekomfort sowie CO₂ und Umwelt. Die Punkte vergleichen die Reisen untereinander: Die beste Reise in einem Kriterium bekommt 5 Punkte, die anderen im Verhältnis dazu weniger (beim Budget heisst 5: am günstigsten, beim CO₂: am wenigsten Ausstoss); 0 heisst, dass es das auf der Reise nicht gibt. Die Punkte sind eine Einschätzung auf Basis der Reisepläne, keine Messung.",
   budgetIntro: "Mittelklasse inklusive Flüge bzw. Autokosten, Transport, Unterkunft, Verpflegung und Aktivitäten für 4 Personen. Der dunkle Punkt ist der Planwert, der helle Balken die Spanne.",
   vergleichIntro: "Die wichtigsten Unterschiede nebeneinander.",
   entscheidIntro: "Welche Reise passt, hängt davon ab, ob Strand und Schnorcheln, Städte und Kultur ohne Flug oder Nationalparks und Roadtrip im Vordergrund stehen.",
@@ -190,19 +190,19 @@ window.START = {
       usamitte: [4, "Rosa Sanddünen bei Kanab, Horseshoe Bend, Monument Valley, Sandia Peak, Sümpfe in Louisiana, Niagarafälle und die Schlucht von Watkins Glen; abwechslungsreich, aber ohne die grossen Nationalparks."],
       usanordost: [3, "Skyline Drive in Shenandoah, Niagarafälle, Seen und Wälder in Algonquin, Montmorency-Fall und die White Mountains; schön, aber ohne die grossen Felslandschaften des Westens."],
       asien: [
-        4,
+        3,
         "Inseln, Strände und Riffe von Pulau Tengah bis Koh Tao, dazu Delfine bei Khanom und Wasserfälle; eher sanfte als dramatische Landschaften."
       ],
     },
     {
       kriterium: "Dschungelfeeling",
       marokko: [0, "Kein Regenwald: Steinwüste, Palmengärten in Marrakesch und grüne Hügel im Baskenland."],
-      usa: [1, "Kein Regenwald; Sümpfe in Louisiana und Mangroven in den Everglades."],
+      usa: [2, "Kein Regenwald; Sümpfe in Louisiana und Mangroven in den Everglades."],
       usamitte: [1, "Kein Regenwald; Sümpfe in Louisiana."],
       usanordost: [1, "Kein Regenwald; grosse Laub- und Nadelwälder in Shenandoah, Algonquin und den White Mountains."],
       asien: [
-        2,
-        "Tropischer Inselwald auf Pulau Tengah (Villen im Wald, Waldpfade), Wasserfälle bei Khanom und im grünen Inneren von Koh Samui (Na Muang), Dschungelpfade auf Koh Tao; kein grosser Regenwald-Nationalpark auf der Route."
+        5,
+        "Im Vergleich klar am meisten Dschungel: tropischer Inselwald auf Pulau Tengah (Villen im Wald, Waldpfade), Wasserfälle bei Khanom und im grünen Inneren von Koh Samui (Na Muang), Dschungelpfade auf Koh Tao; ein grosser Regenwald-Nationalpark ist allerdings nicht auf der Route."
       ],
     },
     {
@@ -211,7 +211,7 @@ window.START = {
         3,
         "Eine Nacht im Zeltcamp in der Agafay-Steinwüste bei Marrakesch mit Kamelritt und Blick auf den Atlas, dazu die Wüste von Tabernas am Cabo de Gata als Abstecher; keine Sanddünen wie in der Sahara und im Juli sehr heiss."
       ],
-      usa: [4, "Mojave um Las Vegas, rote Felswüsten in Utah und Arizona, Monument Valley, die weissen Gipsdünen von White Sands und die Chihuahua-Wüste in Westtexas."],
+      usa: [5, "Mojave um Las Vegas, rote Felswüsten in Utah und Arizona, Monument Valley, die weissen Gipsdünen von White Sands und die Chihuahua-Wüste in Westtexas."],
       usamitte: [4, "Mojave um Las Vegas, rote Felsen und Dünen bei Kanab, Monument Valley und die Wüste New Mexicos; danach Prärie."],
       usanordost: [0, "Keine Wüste."],
       asien: [0, "Keine Wüste: tropische Inseln, Regenwald und Städte."],
@@ -222,7 +222,7 @@ window.START = {
         4,
         "Vier Nächte auf Formentera, dazu Costa Brava, Benidorm, Cabo de Gata, Tarifa, Cádiz, Algarve und San Sebastián; im Juli voll."
       ],
-      usa: [3, "Santa Monica am Pazifik, vier Nächte an den weissen Stränden bei Destin, drei Nächte in Key Largo und drei in Miami mit Miami Beach, Wasser ca. 28–31 °C; dazwischen viele Tage ohne Meer."],
+      usa: [4, "Santa Monica am Pazifik, vier Nächte an den weissen Stränden bei Destin, drei Nächte in Key Largo und drei in Miami mit Miami Beach, Wasser ca. 28–31 °C; dazwischen viele Tage ohne Meer."],
       usamitte: [1, "Santa Monica am Pazifik, Galveston als Option, Stadtstrände am Michigansee und der Strand am Eriesee bei Cedar Point; kein warmes, klares Meer."],
       usanordost: [1, "Strand am Eriesee bei Cedar Point, Stadtstrände am Michigansee, Baden in Seen und Flüssen in Algonquin und den White Mountains; kein Meer zum Baden."],
       asien: [
@@ -240,20 +240,20 @@ window.START = {
       usamitte: [0, "Kein Schnorcheln auf der Route."],
       usanordost: [0, "Kein Schnorcheln auf der Route."],
       asien: [
-        4,
+        5,
         "Koh Tao (5 Nächte) mit klarem Wasser, Riffen und Schildkröten, das Hausriff vor der Villa auf Pulau Tengah (teils ausgebleicht) und Ang Thong ab Koh Samui; das klarste Wasser Malaysias (Perhentians) ist nicht auf der Route."
       ],
     },
     {
       kriterium: "Abenteuer",
       marokko: [
-        3,
+        4,
         "Caminito del Rey, Kamelritt, Quad und Nacht im Zeltcamp in der Agafay-Wüste, Medinas mit Führer, Zugfahrten quer durch Marokko, Kajak durch die Grotten der Algarve, Surfen in San Sebastián."
       ],
-      usa: [4, "Sandboarding auf den Dünen bei Kanab und auf White Sands, Kletterei durch den Belly of the Dragon, Sumpftour mit Alligatoren, Airboat in den Everglades, Schnorcheln am Riff, ein Roadtrip quer durchs Land."],
-      usamitte: [4, "Sandboarding bei Kanab, Jeep-Tour im Monument Valley, Sumpftour mit Alligatoren, Klettern im City Museum, Achterbahnen in Cedar Point, Boot in die Gischt der Niagarafälle, ein Roadtrip quer durchs Land."],
-      usanordost: [3, "Achterbahnen in Cedar Point, Boot in die Gischt der Niagarafälle, CN Tower, Kanu in Algonquin, Zahnradbahn auf den Mount Washington, Walbeobachtung vor Boston."],
-      asien: [2, "Schnorcheln mit Riffhaien auf Koh Tao, Schnuppertauchen und Schildkröten auf Pulau Tengah, Kajak in Ang Thong, Delfin-Tour, Inselhopping; eher Ferien am Meer als Abenteuer."],
+      usa: [5, "Sandboarding auf den Dünen bei Kanab und auf White Sands, Kletterei durch den Belly of the Dragon, Sumpftour mit Alligatoren, Airboat in den Everglades, Schnorcheln am Riff, ein Roadtrip quer durchs Land."],
+      usamitte: [5, "Sandboarding bei Kanab, Jeep-Tour im Monument Valley, Sumpftour mit Alligatoren, Klettern im City Museum, Achterbahnen in Cedar Point, Boot in die Gischt der Niagarafälle, ein Roadtrip quer durchs Land."],
+      usanordost: [4, "Achterbahnen in Cedar Point, Boot in die Gischt der Niagarafälle, CN Tower, Kanu in Algonquin, Zahnradbahn auf den Mount Washington, Walbeobachtung vor Boston."],
+      asien: [3, "Schnorcheln mit Riffhaien auf Koh Tao, Schnuppertauchen und Schildkröten auf Pulau Tengah, Kajak in Ang Thong, Delfin-Tour, Inselhopping; eher Ferien am Meer als Abenteuer."],
     },
     {
       kriterium: "Städte",
@@ -261,7 +261,7 @@ window.START = {
         5,
         "Barcelona, Valencia, Casablanca, Marrakesch, Fès, Cádiz, Sevilla, Lissabon, Porto, San Sebastián und Carcassonne: europäische und marokkanische Städte im Wechsel."
       ],
-      usa: [5, "Los Angeles, Las Vegas, Albuquerque und Santa Fe, Austin, New Orleans, Miami und New York mit Museen und Aussichtsplattformen."],
+      usa: [4, "Los Angeles, Las Vegas, Albuquerque und Santa Fe, Austin, New Orleans, Miami und New York mit Museen und Aussichtsplattformen."],
       usamitte: [5, "Los Angeles, Las Vegas, Albuquerque und Santa Fe, Fort Worth, Houston, New Orleans, Memphis, St. Louis, Chicago und New York."],
       usanordost: [5, "New York, Washington, Chicago, Toronto, Montréal, die Altstadt von Québec (UNESCO) und Boston: so viele grosse Städte wie auf keiner anderen Reise."],
       asien: [4, "Singapur, Kuala Lumpur und Bangkok mit Street-Food, Tempeln und Aussichtstürmen; an der Ostküste Dörfer und Kleinstädte."],
@@ -274,7 +274,7 @@ window.START = {
       ],
       usa: [4, "Sehr gute Spitäler, aber sehr teuer (Reiseversicherung mit hoher Deckung nötig); Hitze im Südwesten, Hurrikansaison an der Golfküste und in Florida."],
       usamitte: [4, "Sehr gute Spitäler, aber sehr teuer (Reiseversicherung mit hoher Deckung nötig); Hitze im Südwesten und an der Golfküste, Gewitter."],
-      usanordost: [4, "Sehr gute Spitäler, aber sehr teuer (Reiseversicherung mit hoher Deckung nötig); Hitze und Gewitter in den Städten, Mücken in den Wäldern; Kanada sehr sicher."],
+      usanordost: [5, "Sehr gute Spitäler, aber sehr teuer (Reiseversicherung mit hoher Deckung nötig); Hitze und Gewitter in den Städten, Mücken in den Wäldern; Kanada sehr sicher."],
       asien: [
         3,
         "Singapur sehr sicher; in Malaysia und Thailand Dengue-Mückenschutz, kein Leitungswasser, Impfstatus vorab klären; auf Pulau Tengah und Koh Tao ist ein grösseres Spital weit weg, Bootsfahrten bei Wellengang."
@@ -282,10 +282,10 @@ window.START = {
     },
     {
       kriterium: "Budget (mehr Punkte = günstiger)",
-      marokko: [4, "ca. {plan:marokko} CHF: kein Flug, Supercharging gratis, Marokko günstig; dafür Fähren und Züge in Marokko sowie Parkplatz in Tarifa."],
+      marokko: [5, "ca. {plan:marokko} CHF: kein Flug, Supercharging gratis, Marokko günstig; dafür Fähren und Züge in Marokko sowie Parkplatz in Tarifa."],
       usa: [1, "ca. {plan:usa} CHF: rund {mehrkosten} CHF mehr, vor allem Einwegmiete, Inlandflug und Unterkünfte in Destin, Key Largo, Miami und New York."],
       usamitte: [1, "ca. {plan:usamitte} CHF: vor allem Einwegmiete, Unterkünfte in Los Angeles, Chicago und New York."],
-      usanordost: [1, "ca. {plan:usanordost} CHF: vor allem Unterkünfte in New York, Chicago und Boston, Einwegmiete und Essen."],
+      usanordost: [2, "ca. {plan:usanordost} CHF: vor allem Unterkünfte in New York, Chicago und Boston, Einwegmiete und Essen."],
       asien: [4, "ca. {plan:asien} CHF: Singapur ist teuer, der Rest günstig."],
     },
     {
@@ -294,11 +294,11 @@ window.START = {
         3,
         "Ca. 96–103 Stunden Tür zu Tür, kein Jetlag, in Marokko kein Fahren; aber Wechsel zwischen eigenem Auto, Fähre und Zug, Passkontrollen, ein langer Zugtag Marrakesch–Fès und mehrere Tage mit 7–9 Stunden."
       ],
-      usa: [1, "Ca. 104–111 Stunden Tür zu Tür: zwei Langstreckenflüge mit Einreise und Jetlag, ein Inlandflug, dazu viel Zeit im Auto (ca. 64–70 Stunden an 12 Fahrtagen, ein Tag mit ca. 9,5–10 Stunden)."],
+      usa: [2, "Ca. 104–111 Stunden Tür zu Tür: zwei Langstreckenflüge mit Einreise und Jetlag, ein Inlandflug, dazu viel Zeit im Auto (ca. 64–70 Stunden an 12 Fahrtagen, ein Tag mit ca. 9,5–10 Stunden)."],
       usamitte: [1, "Ca. 108–118 Stunden Tür zu Tür: zwei Langstreckenflüge mit Jetlag (−9 Std.) und die meiste Zeit im Auto (ca. 75–84 Stunden an 15 Fahrtagen, drei Fahrtage hintereinander durch Texas)."],
-      usanordost: [2, "Ca. 88–96 Stunden Tür zu Tür: kürzere Flüge mit weniger Jetlag (−6 Std.), Zug nach Washington, dann ca. 53–60 Stunden im Auto an 13 Fahrtagen mit zwei Grenzübertritten; in den Städten ohne Auto."],
+      usanordost: [3, "Ca. 88–96 Stunden Tür zu Tür: kürzere Flüge mit weniger Jetlag (−6 Std.), Zug nach Washington, dann ca. 53–60 Stunden im Auto an 13 Fahrtagen mit zwei Grenzübertritten; in den Städten ohne Auto."],
       asien: [
-        3,
+        5,
         "Ca. 73–83 Stunden Tür zu Tür: zwei Direktflüge mit Jetlag, dazu ca. 37–45 Stunden mit Zug, Bus, Transfer und Fähre (zwei Reisetage mit ca. 7–8,5 Stunden), Wechsel mit Gepäck; niemand muss selber fahren."
       ],
     },
