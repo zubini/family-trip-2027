@@ -156,7 +156,7 @@ function budget(b) {
 }
 
 var LEGENDE = {
-  bus: ['lb', 'Bus, Minivan, Taxi'], car: ['lc', 'Mietwagen'], train: ['lt', 'Zug'], ferry: ['lf', 'Fähre, Boot'], air: ['la', 'Flug']
+  bus: ['lb', 'Bus, Minivan, Taxi'], car: ['lc', 'Auto'], train: ['lt', 'Zug'], ferry: ['lf', 'Fähre, Boot'], air: ['la', 'Flug']
 };
 
 // Version für den Browser-Cache, gesetzt von tools/version.js beim Veröffentlichen (<html data-v="…">)

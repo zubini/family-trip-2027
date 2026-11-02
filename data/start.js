@@ -201,8 +201,8 @@ window.START = {
       usamitte: [1, "Kein Regenwald; Sümpfe in Louisiana."],
       usanordost: [1, "Kein Regenwald; grosse Laub- und Nadelwälder in Shenandoah, Algonquin und den White Mountains."],
       asien: [
-        1,
-        "Waldpfade auf Pulau Tengah, Wasserfälle bei Khanom; kein Regenwald-Nationalpark und keine Dschungelinsel auf der Route."
+        2,
+        "Tropischer Inselwald auf Pulau Tengah (Villen im Wald, Waldpfade), Wasserfälle bei Khanom und im grünen Inneren von Koh Samui (Na Muang), Dschungelpfade auf Koh Tao; kein grosser Regenwald-Nationalpark auf der Route."
       ],
     },
     {

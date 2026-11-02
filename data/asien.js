@@ -86,7 +86,7 @@ REISEN.asien = {
   karte: {
     intro: "Ungefährer Verlauf der Fahrtwege, eingefärbt nach Verkehrsmittel.",
     breit: false,
-    legende: ["bus", "car", "train", "ferry"],
+    legende: ["bus", "train", "ferry"],
     karten: [{datei: "karten/asien.svg"}]
   },
   abwechslungIntro: "Nach zwei aktiven Tagen jeweils einen ruhigen Tag einplanen.",

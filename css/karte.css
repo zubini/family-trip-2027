@@ -7,7 +7,7 @@
 .lg { display: flex; flex-wrap: wrap; gap: 6px 22px; font-size: .9rem; color: var(--muted); margin-top: 10px; }
 .lg i { display: inline-block; width: 28px; border-top: 3px solid; vertical-align: middle; margin-right: 6px; }
 .lg i.lb { border-color: #1F9A8F; }  /* Bus, Minivan, Taxi */
-.lg i.lc { border-color: #1F9A8F; }  /* Mietwagen */
+.lg i.lc { border-color: #1F9A8F; }  /* Auto (eigenes Auto oder Mietwagen) */
 .lg i.lt { border-color: #0F4C55; }  /* Zug */
 .lg i.lf { border-top: 3px dashed #E08A12; }  /* Fähre, Boot */
 .lg i.la { border-top: 3px dotted #7A5CC7; }  /* Flug */

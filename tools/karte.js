@@ -16,7 +16,7 @@ const STIL = {
   bus: ['#1F9A8F', 3.2, ''], car: ['#1F9A8F', 3.2, ''], train: ['#0F4C55', 3.6, ''],
   ferry: ['#E08A12', 3, '7 6'], air: ['#7A5CC7', 2.6, '2 7']
 };
-const NAME = { bus: 'Bus, Minivan oder Taxi', car: 'Mietwagen', train: 'Zug', ferry: 'Fähre oder Boot', air: 'Flug' };
+const NAME = { bus: 'Bus, Minivan oder Taxi', car: 'Auto', train: 'Zug', ferry: 'Fähre oder Boot', air: 'Flug' };
 const STYLE = `<style>
 @import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400;0,600;0,700;0,800;1,400&amp;display=swap");
 .lr{fill:#F4F1E4;stroke:#B9B39A;stroke-width:.8}
