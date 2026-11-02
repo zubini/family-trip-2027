@@ -178,18 +178,6 @@ window.QUELLEN = {
       ]
     },
     {
-      titel: "USA Nordost / Kanada (New York – Chicago – Montréal – Boston)",
-      links: [
-        ["OSRM: Fahrzeiten Washington–Luray–Pittsburgh–Sandusky–Chicago–Dearborn–Niagara Falls–Toronto–Algonquin–Montréal–Québec–North Conway–Boston (Routenplaner)", "https://router.project-osrm.org"],
-        ["Skyscanner: SWISS LX 53 Boston–Zürich (2026 ca. 21.40 Uhr, Ankunft ca. 10.55 Uhr)", "https://www.skyscanner.ch/ch/en-gb/chf/flight-tracker/swiss/lx53"],
-        ["FlightStats: SWISS LX 14 Zürich–New York (JFK)", "https://www.flightstats.com/v2/flight-tracker/LX/14"],
-        ["Amtrak Guide: Northeast Regional New York–Washington", "https://amtrakguide.com/routes/northeast-regional/"],
-        ["Omio: Amtrak New York–Washington (ca. 3 Std. 16 Min. bis 3 Std. 37 Min.)", "https://www.omio.co.uk/trains/new-york-city/washington-dc-lkxlt"],
-        ["Monde du Voyage: SWISS Zürich–Nordamerika, Preise im Juli", "https://www.monde-du-voyage.com/en/united-states/flight-zurich/departure-los-angeles/swiss/"],
-        ["Broadway League via BroadwayWorld: Saison 2025/26, Durchschnittspreis ca. 131 USD pro Ticket", "https://www.broadwayworld.com/industry/article/Broadway-Set-Another-Box-Office-Record-in-2025-2026-Crossing-191-Billion-20260528"]
-      ]
-    },
-    {
       titel: "Bewertung: Reisezeit und CO₂",
       links: [
         ["Trainline: Zürich Flughafen–Brig mit dem Zug (ca. 2,5 Std.)", "https://thetrainline.com/train-times/zurich-to-brig"],
