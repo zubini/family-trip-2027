@@ -146,23 +146,23 @@ window.START = {
       ]
     },
     asien: {
-      steckbrief: {anreise: "Flug nach Singapur, ca. 12–13 Std.", unterwegs: "Zug, Bus, Transfer und Fähre ca. 40–48 Std.", highlights: "Tioman, Kuala Lumpur, Songkhla, Koh Tao, Bangkok"},
+      steckbrief: {anreise: "Flug nach Singapur, ca. 12–13 Std.", unterwegs: "Zug, Bus, Transfer und Boot ca. 37–45 Std.", highlights: "Pulau Tengah, Kuala Lumpur, Khanom, Koh Tao, Bangkok"},
       name: "Malaysia / Thailand",
-      zusatz: "von Singapur über Tioman und Kuala Lumpur, mit dem Zug nach Thailand und dem Golf entlang bis Bangkok",
+      zusatz: "von Singapur über Pulau Tengah und Kuala Lumpur, mit dem Zug nach Thailand und dem Golf entlang bis Bangkok",
       passt: "Schnorcheln, tropische Inseln und Strand im Vordergrund stehen, ihr dazu Singapur, Kuala Lumpur und Bangkok erleben möchtet und gern Zug fahrt.",
-      kurz: "Fünf Wochen über Land und Wasser: Singapur, Tioman, Kuala Lumpur, mit dem Zug nach Songkhla, dann dem Golf von Thailand entlang nach Khanom, Koh Samui, Koh Tao und Bangkok.",
-      route: "Singapur, Pulau Tioman, (über Mersing) Kuala Lumpur, (Zug über die Grenze) Songkhla, Khanom, Koh Samui, Koh Tao, Hua Hin, Bangkok",
-      stationen: "9 Stationen und 2 Zwischenübernachtungen",
+      kurz: "Fünf Wochen über Land und Wasser: Singapur, die Insel Pulau Tengah (Resort Batu Batu), Kuala Lumpur, mit dem Zug nach Songkhla, dann dem Golf von Thailand entlang nach Khanom, Koh Samui, Koh Tao und Bangkok.",
+      route: "Singapur, (Bus, Boot) Pulau Tengah, (Boot, Zug) Kuala Lumpur, (Zug über die Grenze) Songkhla, Khanom, Koh Samui, Koh Tao, Hua Hin, Bangkok",
+      stationen: "9 Stationen",
       laender: "Singapur, Malaysia, Thailand",
       hinflug: "Direktflug Zürich–Singapur ca. 12–13 Std.",
       rueckflug: "Direktflug Bangkok–Zürich ca. 11,5–12 Std. am Do, 22.07.2027 um die Mittagszeit, Ankunft am Abend; zwei Tage Puffer gegen den Jetlag",
       dazwischen: "Keine Flüge dazwischen; wo möglich Zug (Kluang–Kuala Lumpur–Padang Besar–Hat Yai, Chumphon–Hua Hin–Bangkok), sonst Bus, privater Transfer und Fähre",
-      tempo: "Ca. 34–40 Std. reine Reisezeit mit Zug, Bus, Transfer und Fähre, realistisch mit Wartezeiten ca. 40–48 Std.; längste Reisetage Kuala Lumpur–Songkhla (ca. 7,5–8,5 Std., fast nur Zug) und Koh Tao–Hua Hin (ca. 7–8 Std.); weitere längere Tage Singapur–Tioman und Mersing–Kuala Lumpur (je ca. 5,5–6,5 Std.); meist 3–5 Nächte pro Station",
-      gesamt: "Ca. 76–86 Std. Tür zu Tür: Bahn Brig-Glis–Zürich Flughafen (ca. 2,5 Std.), ca. 2 Std. Wartezeit am Flughafen, Flüge und Transfers zusammen ca. 36–38 Std., dazu ca. 40–48 Std. mit Bus, Transfer, Zug und Fähre; niemand muss selber fahren. Uhr +6 Std. (Thailand +5 Std.), Jetlag vor allem nach der Ankunft.",
-      wetter: "Kuala Lumpur und Bangkok mit kurzen Gewittern am Nachmittag; die Ostküste Malaysias (Tioman) und der Golf von Thailand (Songkhla, Khanom, Samui, Tao) sind meist ruhiger; die Westküste mit Monsun wird umfahren.",
+      tempo: "Ca. 31–37 Std. reine Reisezeit mit Zug, Bus, Transfer und Boot, realistisch mit Wartezeiten ca. 37–45 Std.; längste Reisetage Kuala Lumpur–Songkhla (ca. 7,5–8,5 Std., fast nur Zug), Koh Tao–Hua Hin (ca. 7–8 Std.) und Pulau Tengah–Kuala Lumpur (ca. 6–7 Std.); Singapur–Pulau Tengah ca. 4,5–5,5 Std.; meist 3–5 Nächte pro Station",
+      gesamt: "Ca. 73–83 Std. Tür zu Tür: Bahn Brig-Glis–Zürich Flughafen (ca. 2,5 Std.), ca. 2 Std. Wartezeit am Flughafen, Flüge und Transfers zusammen ca. 36–38 Std., dazu ca. 37–45 Std. mit Bus, Transfer, Zug und Fähre; niemand muss selber fahren. Uhr +6 Std. (Thailand +5 Std.), Jetlag vor allem nach der Ankunft.",
+      wetter: "Kuala Lumpur und Bangkok mit kurzen Gewittern am Nachmittag; die Ostküste Malaysias (Pulau Tengah) und der Golf von Thailand (Songkhla, Khanom, Samui, Tao) sind meist ruhiger; die Westküste mit Monsun wird umfahren.",
       einreise: "Singapur und Malaysia visafrei. Thailand: seit 15.09.2026 nur noch 30 Tage visafrei und höchstens zwei Landgrenz-Einreisen pro Jahr, Länderliste prüfen. Online-Anmeldungen (SG Arrival Card, MDAC, TDAC).",
-      hoehepunkte: "Schnorcheln auf Tioman, Samui und Koh Tao (Koh Nang Yuan), Petronas Towers und Batu Caves in Kuala Lumpur, Altstadt und Strand von Songkhla, Delfine bei Khanom, Ang Thong, Grand Palace und Wat Arun in Bangkok.",
-      teens: "Schnorcheln, Inselhopping, Dschungelwanderung, Delfin-Tour, Wasserparks, Sentosa mit Universal Studios, Kajak.",
+      hoehepunkte: "Hausriff und Schildkröten auf Pulau Tengah, Schnorcheln auf Samui und Koh Tao (Koh Nang Yuan), Petronas Towers und Batu Caves in Kuala Lumpur, Altstadt und Strand von Songkhla, Delfine bei Khanom, Ang Thong, Grand Palace und Wat Arun in Bangkok.",
+      teens: "Schnorcheln, Schildkröten, Kajak, Inselhopping, Delfin-Tour, Wasserparks, Sentosa mit Universal Studios, Kajak.",
       pro: [
         "Die meisten Schnorchel- und Strandtage",
         "Warmes Meer (ca. 29 °C) mit Riffen und Schildkröten",
@@ -191,7 +191,7 @@ window.START = {
       usanordost: [3, "Skyline Drive in Shenandoah, Niagarafälle, Seen und Wälder in Algonquin, Montmorency-Fall und die White Mountains; schön, aber ohne die grossen Felslandschaften des Westens."],
       asien: [
         4,
-        "Inseln, Strände und Riffe von Tioman bis Koh Tao, dazu Delfine bei Khanom und Wasserfälle; eher sanfte als dramatische Landschaften."
+        "Inseln, Strände und Riffe von Pulau Tengah bis Koh Tao, dazu Delfine bei Khanom und Wasserfälle; eher sanfte als dramatische Landschaften."
       ],
     },
     {
@@ -201,8 +201,8 @@ window.START = {
       usamitte: [1, "Kein Regenwald; Sümpfe in Louisiana."],
       usanordost: [1, "Kein Regenwald; grosse Laub- und Nadelwälder in Shenandoah, Algonquin und den White Mountains."],
       asien: [
-        2,
-        "Dschungelwanderung und Wasserfälle auf Tioman, Wasserfälle bei Khanom; kein grosser Nationalpark mit Regenwald auf der Route."
+        1,
+        "Waldpfade auf Pulau Tengah, Wasserfälle bei Khanom; kein Regenwald-Nationalpark und keine Dschungelinsel auf der Route."
       ],
     },
     {
@@ -227,7 +227,7 @@ window.START = {
       usanordost: [1, "Strand am Eriesee bei Cedar Point, Stadtstrände am Michigansee, Baden in Seen und Flüssen in Algonquin und den White Mountains; kein Meer zum Baden."],
       asien: [
         5,
-        "Tioman, Khanom, Koh Samui, Koh Tao und Hua Hin: tropische Strände mit ca. 29 °C warmem Wasser an fast jeder zweiten Station, zusammen 18 Nächte am Meer."
+        "Pulau Tengah, Songkhla, Khanom, Koh Samui, Koh Tao und Hua Hin: tropische Strände mit ca. 29 °C warmem Wasser, zusammen 23 Nächte am Meer."
       ],
     },
     {
@@ -241,7 +241,7 @@ window.START = {
       usanordost: [0, "Kein Schnorcheln auf der Route."],
       asien: [
         4,
-        "Tioman (4 Nächte) und Koh Tao (5 Nächte) mit Riffen, Schildkröten und Schnorchelbooten, dazu Ang Thong ab Koh Samui; das klarste Wasser Malaysias (Perhentians) ist nicht auf der Route."
+        "Koh Tao (5 Nächte) mit klarem Wasser, Riffen und Schildkröten, das Hausriff vor der Villa auf Pulau Tengah (teils ausgebleicht) und Ang Thong ab Koh Samui; das klarste Wasser Malaysias (Perhentians) ist nicht auf der Route."
       ],
     },
     {
@@ -253,7 +253,7 @@ window.START = {
       usa: [4, "Sandboarding auf den Dünen bei Kanab und auf White Sands, Kletterei durch den Belly of the Dragon, Sumpftour mit Alligatoren, Airboat in den Everglades, Schnorcheln am Riff, ein Roadtrip quer durchs Land."],
       usamitte: [4, "Sandboarding bei Kanab, Jeep-Tour im Monument Valley, Sumpftour mit Alligatoren, Klettern im City Museum, Achterbahnen in Cedar Point, Boot in die Gischt der Niagarafälle, ein Roadtrip quer durchs Land."],
       usanordost: [3, "Achterbahnen in Cedar Point, Boot in die Gischt der Niagarafälle, CN Tower, Kanu in Algonquin, Zahnradbahn auf den Mount Washington, Walbeobachtung vor Boston."],
-      asien: [3, "Dschungelwanderung auf Tioman, Schnorcheln mit Riffhaien auf Koh Tao, Delfin-Tour, Kajak, Inselhopping und Fähren."],
+      asien: [2, "Schnorcheln mit Riffhaien auf Koh Tao, Schnuppertauchen und Schildkröten auf Pulau Tengah, Kajak in Ang Thong, Delfin-Tour, Inselhopping; eher Ferien am Meer als Abenteuer."],
     },
     {
       kriterium: "Städte",
@@ -277,7 +277,7 @@ window.START = {
       usanordost: [4, "Sehr gute Spitäler, aber sehr teuer (Reiseversicherung mit hoher Deckung nötig); Hitze und Gewitter in den Städten, Mücken in den Wäldern; Kanada sehr sicher."],
       asien: [
         3,
-        "Singapur sehr sicher; in Malaysia und Thailand Dengue-Mückenschutz, kein Leitungswasser, Impfstatus vorab klären; auf Tioman und Koh Tao ist ein grösseres Spital weit weg, Bootsfahrten bei Wellengang."
+        "Singapur sehr sicher; in Malaysia und Thailand Dengue-Mückenschutz, kein Leitungswasser, Impfstatus vorab klären; auf Pulau Tengah und Koh Tao ist ein grösseres Spital weit weg, Bootsfahrten bei Wellengang."
       ],
     },
     {
@@ -299,7 +299,7 @@ window.START = {
       usanordost: [2, "Ca. 88–96 Stunden Tür zu Tür: kürzere Flüge mit weniger Jetlag (−6 Std.), Zug nach Washington, dann ca. 53–60 Stunden im Auto an 13 Fahrtagen mit zwei Grenzübertritten; in den Städten ohne Auto."],
       asien: [
         3,
-        "Ca. 76–86 Stunden Tür zu Tür: zwei Direktflüge mit Jetlag, dazu ca. 40–48 Stunden mit Zug, Bus, Transfer und Fähre (zwei Reisetage mit ca. 7–8,5 Stunden), Wechsel mit Gepäck; niemand muss selber fahren."
+        "Ca. 73–83 Stunden Tür zu Tür: zwei Direktflüge mit Jetlag, dazu ca. 37–45 Stunden mit Zug, Bus, Transfer und Fähre (zwei Reisetage mit ca. 7–8,5 Stunden), Wechsel mit Gepäck; niemand muss selber fahren."
       ],
     },
     {

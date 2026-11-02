@@ -65,8 +65,8 @@
 <text class="sea" x="624.0" y="732.0" text-anchor="middle">Südchinesisches Meer</text>
 <polyline points="553.6,1039.8 548.8,1031.2 560.0,1009.6 558.4,972.0 555.2,953.4" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
 <polyline points="553.6,1039.8 548.8,1031.2 560.0,1009.6 558.4,972.0 555.2,953.4" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Bus, Minivan oder Taxi: Singapur – Mersing</title></polyline>
-<polyline points="555.2,953.4 569.6,941.6 581.6,922.4" fill="none" stroke="#fff" stroke-width="6.0" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
-<polyline points="555.2,953.4 569.6,941.6 581.6,922.4" fill="none" stroke="#E08A12" stroke-width="3.0" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 6"><title>Fähre oder Boot: Mersing – Pulau Tioman</title></polyline>
+<polyline points="555.2,953.4 564.8,950.4 575.2,948.4" fill="none" stroke="#fff" stroke-width="6.0" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="555.2,953.4 564.8,950.4 575.2,948.4" fill="none" stroke="#E08A12" stroke-width="3.0" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 6"><title>Fähre oder Boot: Mersing – Pulau Tengah</title></polyline>
 <polyline points="555.2,953.4 532.0,972.0 513.6,985.6" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
 <polyline points="555.2,953.4 532.0,972.0 513.6,985.6" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Mietwagen: Mersing – Kluang</title></polyline>
 <polyline points="513.6,985.6 473.6,948.0 456.8,941.6 403.2,930.4 383.0,896.9" fill="none" stroke="#fff" stroke-width="6.6" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
@@ -93,16 +93,16 @@
 <polyline points="182.4,308.2 192.0,290.4 203.2,268.0 208.8,251.2 219.2,228.0 231.8,203.0 236.8,182.4 240.8,157.6 244.6,142.5" fill="none" stroke="#0F4C55" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"><title>Zug: Chumphon – Hua Hin</title></polyline>
 <polyline points="244.6,142.5 244.8,124.0 243.5,99.1 233.4,65.1 253.0,42.4 272.0,44.0 288.1,47.5" fill="none" stroke="#fff" stroke-width="6.6" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
 <polyline points="244.6,142.5 244.8,124.0 243.5,99.1 233.4,65.1 253.0,42.4 272.0,44.0 288.1,47.5" fill="none" stroke="#0F4C55" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"><title>Zug: Hua Hin – Bangkok</title></polyline>
-<g><title>Zwischenübernachtung Mersing</title><circle cx="555.2" cy="953.4" r="6" fill="#fff" stroke="#718096" stroke-width="2.5"/></g>
-<text class="tl" x="565.2" y="957.4">Mersing</text>
+<g><title>Umstieg: Mersing</title><circle cx="555.2" cy="953.4" r="4.5" fill="#fff" stroke="#718096" stroke-width="2"/></g>
+<text class="tl" x="546.2" y="957.4" text-anchor="end">Mersing</text>
 <g><title>Umstieg: Padang Besar</title><circle cx="273.4" cy="615.0" r="4.5" fill="#fff" stroke="#718096" stroke-width="2"/></g>
 <text class="tl" x="264.4" y="619.0" text-anchor="end">Padang Besar</text>
 <g><title>Umstieg: Hat Yai</title><circle cx="286.0" cy="587.7" r="4.5" fill="#fff" stroke="#718096" stroke-width="2"/></g>
 <text class="tl" x="277.0" y="591.7" text-anchor="end">Hat Yai</text>
 <g><title>1. Singapur: So, 20.06.2027 – Mi, 23.06.2027, 3 Nächte</title><circle cx="553.6" cy="1039.8" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="553.6" y="1044.0" text-anchor="middle">1</text></g>
 <text class="sl" x="570.6" y="1044.8" text-anchor="start">Singapur</text>
-<g><title>2. Pulau Tioman: Mi, 23.06.2027 – So, 27.06.2027, 4 Nächte</title><circle cx="581.6" cy="922.4" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="581.6" y="926.6" text-anchor="middle">2</text></g>
-<text class="sl" x="598.6" y="927.4" text-anchor="start">Pulau Tioman</text>
+<g><title>2. Pulau Tengah: Mi, 23.06.2027 – Mo, 28.06.2027, 5 Nächte</title><circle cx="575.2" cy="948.4" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="575.2" y="952.6" text-anchor="middle">2</text></g>
+<text class="sl" x="592.2" y="953.4" text-anchor="start">Pulau Tengah</text>
 <g><title>3. Kuala Lumpur: Mo, 28.06.2027 – Do, 01.07.2027, 3 Nächte</title><circle cx="383.0" cy="896.9" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="383.0" y="901.1" text-anchor="middle">3</text></g>
 <text class="sl" x="366.0" y="901.9" text-anchor="end">Kuala Lumpur</text>
 <g><title>4. Songkhla: Do, 01.07.2027 – So, 04.07.2027, 3 Nächte</title><circle cx="295.2" cy="572.0" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="295.2" y="576.2" text-anchor="middle">4</text></g>

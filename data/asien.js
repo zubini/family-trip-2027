@@ -5,7 +5,7 @@ window.REISEN = window.REISEN || {};
 REISEN.asien = {
   titel: "Von Singapur nach Bangkok",
   menu: "Malaysia / Thailand",
-  untertitel: "Fünf Wochen über Land und Wasser: Singapur, die Insel Tioman und Kuala Lumpur, dann mit dem Zug über die Grenze nach Songkhla, dem Golf von Thailand entlang nach Khanom, Koh Samui und Koh Tao und nach Bangkok.",
+  untertitel: "Fünf Wochen über Land und Wasser: Singapur, die kleine Insel Pulau Tengah mit dem Öko-Resort Batu Batu und Kuala Lumpur, dann mit dem Zug über die Grenze nach Songkhla, dem Golf von Thailand entlang nach Khanom, Koh Samui und Koh Tao und nach Bangkok.",
   zeitraum: "Sa, 19.06.2027 bis Do, 22.07.2027, 2 Erwachsene und 2 Kids",
   titelbild: {
     datei: "Nang Yuan Island, Koh Tao (48109157601).jpg",
@@ -27,17 +27,16 @@ REISEN.asien = {
       info: "Flug ab Zürich (Sa, ca. 22.40 Uhr), Ankunft am späten Nachmittag"
     },
     {
-      datum: "23.–27. Juni",
-      name: "2. Pulau Tioman (Pahang)",
-      naechte: 4,
-      info: "Bus nach Mersing (ca. 3,5–4 Std.), Fähre (ca. 1,5–2 Std.)"
+      datum: "23.–28. Juni",
+      name: "2. Pulau Tengah (Batu Batu)",
+      naechte: 5,
+      info: "Fernbus oder Transfer nach Mersing (ca. 3–4 Std.), Speedboot des Resorts (ca. 20–30 Min.)"
     },
-    {datum: "27.–28. Juni", name: "Zwischenübernachtung Mersing", naechte: 1, info: "Fähre ab Tioman (ca. 1,5–2 Std.)"},
     {
       datum: "28. Juni–1. Juli",
       name: "3. Kuala Lumpur",
       naechte: 3,
-      info: "Taxi nach Kluang (ca. 1,5 Std.), ETS-Zug (ca. 3,5 Std.)"
+      info: "Speedboot nach Mersing, Taxi nach Kluang (ca. 1,5 Std.), ETS-Zug (ca. 3,5 Std.); insgesamt ca. 6–7 Std."
     },
     {
       datum: "1.–4. Juli",
@@ -69,15 +68,15 @@ REISEN.asien = {
   planHinweise: [
     [
       "Gesamt",
-      "32 Nächte, 9 Stationen und eine Zwischenübernachtung (Mersing). Nur Hin- und Rückflug; wo möglich mit dem Zug (Kluang–Kuala Lumpur–Padang Besar–Hat Yai, Chumphon–Hua Hin–Bangkok), sonst mit Bus, Fähre und privatem Transfer. Die längsten Reisetage sind Kuala Lumpur–Songkhla (ca. 7,5–8,5 Std., fast nur Zug, mit Grenze im Bahnhof) und Koh Tao–Hua Hin (ca. 7–8 Std.); weitere längere Tage: Singapur–Tioman und Mersing–Kuala Lumpur (je ca. 5,5–6,5 Std.). Zusammen sind es zwischen Singapur und Bangkok ca. 34–40 Stunden reine Reisezeit; mit Wartezeiten auf Fähren und Züge, Grenzübertritt und Transfers zur Unterkunft realistisch ca. 40–48 Stunden."
+      "32 Nächte, 9 Stationen. Nur Hin- und Rückflug; wo möglich mit dem Zug (Kluang–Kuala Lumpur–Padang Besar–Hat Yai, Chumphon–Hua Hin–Bangkok), sonst mit Bus, Boot, Fähre und privatem Transfer. Die längsten Reisetage sind Kuala Lumpur–Songkhla (ca. 7,5–8,5 Std., fast nur Zug, mit Grenze im Bahnhof), Koh Tao–Hua Hin (ca. 7–8 Std.) und Pulau Tengah–Kuala Lumpur (ca. 6–7 Std.); Singapur–Pulau Tengah dauert ca. 4,5–5,5 Std. Zusammen sind es zwischen Singapur und Bangkok ca. 31–37 Stunden reine Reisezeit; mit Wartezeiten auf Boote und Züge, Grenzübertritten und Transfers zur Unterkunft realistisch ca. 37–45 Stunden."
     ],
     [
       "Vorab buchen",
-      "Bus nach Mersing und Fähre nach Tioman, ETS-Züge Kluang–Kuala Lumpur und Kuala Lumpur–Padang Besar (KTMB), Transfer Songkhla–Khanom, Unterkunft auf Tioman, in Khanom, auf Koh Samui und Koh Tao, Züge Chumphon–Hua Hin–Bangkok (SRT), Petronas-Skybridge, Katamarane Samui–Tao–Chumphon. Lange Reisetage früh am Morgen starten."
+      "Batu Batu auf Pulau Tengah (nur 22 Villen; Familienvilla, Essen und Speedboot ab Mersing anfragen), Bus oder Transfer Singapur–Mersing, ETS-Züge Kluang–Kuala Lumpur und Kuala Lumpur–Padang Besar (KTMB), Transfer Songkhla–Khanom, Unterkunft in Khanom, auf Koh Samui und Koh Tao, Züge Chumphon–Hua Hin–Bangkok (SRT), Petronas-Skybridge, Katamarane Samui–Tao–Chumphon."
     ],
     [
       "Optional",
-      "Langkawi (Seilbahn und Mangroven, im Juli aber Monsun an der Westküste), Taman Negara (Regenwald mit Hängebrücken und Nachtwanderung; 2 Nächte zwischen Mersing und Kuala Lumpur), Redang oder Kapas (Inseln an der Ostküste, aber mit sehr langem Weg nach Thailand), Malakka (statt der Nacht in Mersing), Koh Phangan (zwischen Samui und Tao), Kanchanaburi (ab Bangkok)."
+      "Tioman (grössere Dschungelinsel, mit öffentlicher Fähre ab Mersing), Pulau Besar (einfachere, günstigere Resorts mit Paket), Langkawi (im Juli Monsun an der Westküste), Taman Negara (Regenwald, 2 Nächte zwischen Mersing und Kuala Lumpur), Malakka, Koh Phangan (zwischen Samui und Tao), Kanchanaburi (ab Bangkok)."
     ],
     [
       "Flug ab und nach Zürich",
@@ -94,7 +93,7 @@ REISEN.asien = {
   abwechslung: [
     [
       "Action und Freizeitparks",
-      "Singapur (Sentosa, Universal, Wasserpark), Kuala Lumpur (Sunway Lagoon, Petronas-Skybridge), Pulau Tioman (Dschungel, Riffe), Khanom (Delfin-Tour), Hua Hin (Wasserpark), Bangkok (Safari World, SEA LIFE)."
+      "Singapur (Sentosa, Universal, Wasserpark), Kuala Lumpur (Sunway Lagoon, Petronas-Skybridge), Pulau Tengah (Kajak, Schnuppertauchen, Schildkröten), Khanom (Delfin-Tour), Hua Hin (Wasserpark), Bangkok (Safari World, SEA LIFE)."
     ],
     [
       "Kultur und Geschichte",
@@ -102,15 +101,15 @@ REISEN.asien = {
     ],
     [
       "Natur und Tiere",
-      "Mandai Wildlife Reserve, Dschungel und Riffe auf Tioman, Batu Caves, Wasservogelpark Khu Khut bei Songkhla, rosa Delfine und Wasserfälle in Khanom, Ang Thong Marine Park, Schnorcheln auf Samui und vor allem Koh Tao (Koh Nang Yuan, Shark Bay)."
+      "Mandai Wildlife Reserve, Hausriff und Schildkröten auf Pulau Tengah, Batu Caves, Wasservogelpark Khu Khut bei Songkhla, rosa Delfine und Wasserfälle in Khanom, Ang Thong Marine Park, Schnorcheln auf Samui und vor allem Koh Tao (Koh Nang Yuan, Shark Bay)."
     ],
     [
       "Strand und Erholung",
-      "Tioman (4 Nächte), Songkhla (3), Khanom (4), Koh Samui (4), Koh Tao (5), Hua Hin. Nach zwei aktiven Tagen jeweils einen ruhigen Tag einplanen."
+      "Pulau Tengah (5 Nächte), Songkhla (3), Khanom (4), Koh Samui (4), Koh Tao (5), Hua Hin. Nach zwei aktiven Tagen jeweils einen ruhigen Tag einplanen."
     ],
     ["Mitmachen", "Muay-Thai-Schnupperkurs, Kajak/SUP, Street-Food- und Tuk-Tuk-Touren."]
   ],
-  stationenIntro: "Neun Stationen von Singapur bis Bangkok: Tioman, nach einer Nacht in Mersing Kuala Lumpur, mit dem Zug über die Grenze nach Songkhla und dem Golf von Thailand entlang nach Bangkok. Über jeder Station steht, wie ihr dorthin kommt.",
+  stationenIntro: "Neun Stationen von Singapur bis Bangkok: Pulau Tengah vor Mersing, Kuala Lumpur, mit dem Zug über die Grenze nach Songkhla und dem Golf von Thailand entlang nach Bangkok. Über jeder Station steht, wie ihr dorthin kommt.",
   stationen: [
     {
       nr: 1,
@@ -143,27 +142,37 @@ REISEN.asien = {
     },
     {
       nr: 2,
-      name: "Pulau Tioman (Pahang)",
+      name: "Pulau Tengah (Batu Batu)",
+      ersatzsuche: "Pulau Tengah Johor",
       land: "my",
       region: "Malaysia",
-      datum: "23.–27. Juni",
-      naechte: "4 Nächte",
-      anreise: "Fernbus von Singapur nach Mersing (ca. 3,5–4 Std., je nach Anbieter Halt direkt am Hafen Mersing Jetty oder am Busbahnhof; Grenzkontrolle einplanen), dann Fähre nach Tioman (ca. 1,5–2 Std.). Früh am Morgen starten, damit ihr eine Nachmittagsfähre erreicht. Bus und Fähre vorab buchen.",
-      text: "Grüne Dschungelinsel vor der Ostküste Malaysias mit Korallenriffen, Wasserfällen und kleinen Dörfern ohne Autoverkehr. Die beste Reisezeit ist Mai bis September, also genau euer Zeitraum. Ein ruhiger Einstieg nach Singapur mit viel Natur.",
-      teens: "Schnorcheltour zu den vorgelagerten Inseln (Pulau Tulai, Chebeh, Renggis), Dschungel-Wanderung quer über die Insel (Tekek–Juara, ca. 2–3 Std.), Wasserfälle, Kajak und Strandtage.",
+      datum: "23.–28. Juni",
+      naechte: "5 Nächte",
+      anreise: "Am Morgen mit dem Fernbus (ca. 3,5–4 Std. mit Grenze) oder bequemer mit privatem Transfer (ca. 3–3,5 Std.) von Singapur nach Mersing, dann mit dem Speedboot des Resorts nach Pulau Tengah (ca. 20–30 Min.; Abfahrtszeit vom Resort, Transfer ab Singapur beim Resort anfragen). Insgesamt ca. 4,5–5,5 Std.",
+      text: "Kleine Privatinsel im Marinepark vor Mersing mit nur einem Resort: Batu Batu, ein Öko-Resort mit 22 Villen am Strand und im Wald. Nach dem Langstreckenflug und Singapur fünf ruhige, bequeme Tage mit Hausriff vor der Villa, Schildkröten und Kajak; Boot, Villa und Essen aus einer Hand.",
+      teens: "Schnorcheln am Hausriff direkt vom Strand (drei Bereiche, für Anfänger geeignet), mit Glück Meeresschildkröten, Schildkröten-Schutzprojekt mit Nestern am Strand (März bis Oktober), Kajak und Stand-up-Paddle, Waldpfade über die Insel, Schnuppertauchen bei Batu Batu Dive, Bootsausflug zu den Nachbarinseln.",
       fakten: [
-        "<strong>Dauer:</strong> 4 Nächte: eine Schnorcheltour zu den vorgelagerten Inseln, eine Dschungel-Wanderung zum Wasserfall, Kajak und Strandtage. Basis zum Beispiel an der ruhigen Westseite (Salang, Air Batang) oder im östlichen Juara; ein Wechsel der Inselseite kostet Zeit (Boot oder Wanderweg).",
-        "<strong>Praktisch:</strong> Die Fähre fährt nur wenige Male pro Tag zu festen Zeiten, vorab Ticket buchen und rechtzeitig am Hafen sein (Mersing Jetty oder Tanjung Gemok). Bargeld mitnehmen, Geldautomaten sind selten. Die Insel ist zollfrei.",
-        "<strong>Kultur:</strong> Pahang ist überwiegend muslimisch; ausserhalb der Strände Schultern und Knie bedecken."
+        "<strong>Dauer:</strong> 5 Nächte zum Ankommen nach Jetlag und Stadt: Strand- und Schnorcheltage am Hausriff, ein Bootsausflug zu den Nachbarinseln, Kajak, am Abend Schildkröten-Programm.",
+        "<strong>Unterkunft:</strong> Batu Batu ist das einzige Resort der Insel (22 Villen, auch mit zwei Schlafzimmern); Familien willkommen. Preise ab ca. 200 GBP pro Villa und Nacht (i-escape, ohne Jahr), mit Familienvilla und Essen grob ca. 450–750 CHF pro Nacht für vier. Direkt beim Resort anfragen und für den Juli früh buchen.",
+        "<strong>Riff und Schildkröten:</strong> Das Hausriff ist im flachen Teil teils ausgebleicht, im Norden mit grossen Korallen (ca. 4 m tief, eher für gute Schwimmer); Sicht je nach Tag mässig. Grüne Meeresschildkröten und Echte Karettschildkröten legen von März bis Oktober ihre Eier am Strand ab.",
+        "<strong>Praktisch:</strong> Keine weiteren Restaurants oder Läden auf der Insel, medizinische Versorgung erst in Mersing. Mückenschutz für den Abend."
       ],
-      ausserdem: "Asah-Wasserfall bei Juara, Marine-Park-Schnorchelplätze, Kajak entlang der Küste, Sonnenuntergang am Strand von Salang, Dschungelpfade mit Warane und Makaken.",
+      ausserdem: "Pulau Besar und Pulau Rawa (Bootsausflug), Tauchgänge im Marinepark, Mersing mit Fischmarkt am Rückreisetag.",
       bilder: [
-        {titel: "Pulau Tioman", suche: "Tioman Island|Pulau Tioman", stichwort: "tioman"},
-        {titel: "Juara Strand", suche: "Juara beach Tioman|Pantai Juara", stichwort: "juara"},
-        {titel: "Salang", suche: "Salang Tioman|Kampung Salang", stichwort: "salang"},
-        {titel: "Tekek", suche: "Tekek Tioman|Kampung Tekek", stichwort: "tekek"},
-        {titel: "Dschungel", suche: "Tioman jungle|Tioman rainforest", stichwort: "tioman"},
-        {titel: "Korallenriff", suche: "Tioman coral reef|Tioman snorkeling", stichwort: "tioman"}
+        {titel: "Batu Batu", suche: "Batu Batu resort Pulau Tengah", stichwort: "batu batu|tengah"},
+        {titel: "Pulau Tengah", suche: "Pulau Tengah Johor", stichwort: "tengah"},
+        {titel: "Strand", suche: "Pulau Tengah beach Mersing", stichwort: "tengah|beach"},
+        {
+          titel: "Meeresschildkröte",
+          suche: "hawksbill turtle swimming|Eretmochelys imbricata",
+          stichwort: "hawksbill|turtle"
+        },
+        {
+          titel: "Korallenriff",
+          suche: "Mersing coral reef snorkeling|Sultan Iskandar Marine Park",
+          stichwort: "coral|reef|mersing"
+        },
+        {titel: "Mersing", suche: "Mersing jetty", stichwort: "mersing"}
       ]
     },
     {
@@ -173,7 +182,7 @@ REISEN.asien = {
       region: "Malaysia",
       datum: "28. Juni–1. Juli",
       naechte: "3 Nächte",
-      anreise: "Fähre von Tioman nach Mersing (ca. 1,5–2 Std.), Übernachtung in Mersing (kleiner Fischerort mit Hafen, Seafood am Abend). Am Morgen Taxi oder Transfer nach Kluang (ca. 1,5 Std.), dann ETS-Zug auf der neuen elektrischen Strecke nach KL Sentral (ca. 3,5 Std.; nur einige Züge pro Tag, früh bei KTMB reservieren); insgesamt ca. 5,5–6 Std. Alternative: Fernbus ab Mersing direkt nach Kuala Lumpur (ca. 5–6 Std.).",
+      anreise: "Am Morgen mit dem Speedboot des Resorts zurück nach Mersing (ca. 20–30 Min.), Taxi oder Transfer nach Kluang (ca. 1,5 Std.), dann ETS-Zug auf der neuen elektrischen Strecke nach KL Sentral (ca. 3,5 Std.; nur einige Züge pro Tag, früh bei KTMB reservieren und auf das Boot abstimmen); insgesamt ca. 6–7 Std. Alternative: Fernbus ab Mersing direkt nach Kuala Lumpur (ca. 5–6 Std.).",
       text: "Malaysias Hauptstadt bietet Wolkenkratzer, Aquarium, Parks und Wasserspass. Gute Infrastruktur und günstige Preise.",
       teens: "Petronas-Skybridge (Zeitfenster früh online buchen), Aquaria KLCC (Aquarium im Kuala Lumpur City Centre), Petrosains Science Discovery Centre, Kuala Lumpur Bird Park, Sunway Lagoon (Wasser- und Freizeitpark).",
       fakten: [
@@ -198,8 +207,7 @@ REISEN.asien = {
           stichwort: "menara kuala lumpur|kl tower"
         },
         {titel: "Jalan Alor", suche: "Jalan Alor food street|Jalan Alor", stichwort: "jalan alor"}
-      ],
-      zwischenstopp: {text: "Zwischenstopp in Mersing", datum: "27.–28. Juni"}
+      ]
     },
     {
       nr: 4,
@@ -384,9 +392,9 @@ REISEN.asien = {
   budgetIntro: "Mittelklasse inklusive Flüge, Transport, Unterkunft, Verpflegung und Aktivitäten. Alle Beträge sind Schätzungen in CHF.",
   budget: {
     naechte: 32,
-    total: "18’000",
-    spanne: "14’500–22’500",
-    proTag: "ca. 560 CHF pro Tag, ca. 4’500 pro Person",
+    total: "19’000",
+    spanne: "15’500–24’000",
+    proTag: "ca. 590 CHF pro Tag, ca. 4’750 pro Person",
     posten: [
       [
         "Flüge Zürich–Singapur und Bangkok–Zürich",
@@ -398,19 +406,19 @@ REISEN.asien = {
         "Fernverkehr (Bus, Zug, Fähre, Minivan)",
         "800–1’350",
         "1’000",
-        "Bus Singapur–Mersing, Fähren Mersing–Tioman, Taxi nach Kluang und ETS-Züge nach Kuala Lumpur und Padang Besar, Zug nach Hat Yai, privater Transfer Songkhla–Khanom, Fähren Samui–Tao–Chumphon, Zug nach Hua Hin und Bangkok"
+        "Bus oder Transfer Singapur–Mersing, Speedboot nach Pulau Tengah, Taxi nach Kluang und ETS-Züge nach Kuala Lumpur und Padang Besar, Zug nach Hat Yai, privater Transfer Songkhla–Khanom, Fähren Samui–Tao–Chumphon, Zug nach Hua Hin und Bangkok"
       ],
       ["Lokale Transfers", "400–800", "550", "Grab, MRT/Skytrain, Wassertaxis, Songthaew"],
       [
         "Unterkunft (Familienzimmer oder 2 Zimmer, 3–4 Sterne)",
-        "3’100–4’900",
-        "3’900",
-        "ca. 50–140 CHF pro Nacht, Singapur ca. 250–300; auf den Inseln im Juli gefragt, früh buchen"
+        "4’300–6’700",
+        "5’200",
+        "Pulau Tengah (Batu Batu, mit Essen) grob ca. 450–750 CHF pro Nacht, sonst ca. 50–140 CHF pro Nacht, Singapur ca. 250–300; auf den Inseln im Juli gefragt, früh buchen"
       ],
       [
         "Verpflegung (Hawker, Restaurants, Getränke)",
-        "2’400–3’800",
-        "3’000",
+        "2’300–3’600",
+        "2’900",
         "ca. 75–120 CHF pro Tag für 4 Personen, Singapur am teuersten"
       ],
       [
@@ -425,18 +433,17 @@ REISEN.asien = {
         "900",
         "Reisekranken- und Annullationsschutz, Reiseapotheke"
       ],
-      ["Reserve (ca. 5 %)", "700–1’550", "1’050", "Souvenirs, Wäsche, Unvorhergesehenes"],
+      ["Reserve (ca. 5 %)", "600–1’450", "850", "Souvenirs, Wäsche, Unvorhergesehenes"],
       [
         "<strong>Total</strong>",
-        "<strong>14’500–22’500</strong>",
-        "<strong>ca. 18’000</strong>",
-        "ca. 560 CHF pro Tag, ca. 4’500 pro Person"
+        "<strong>15’500–24’000</strong>",
+        "<strong>ca. 19’000</strong>",
+        "ca. 590 CHF pro Tag, ca. 4’750 pro Person"
       ]
     ],
     stationen: [
       ["1. Singapur (3)", "1’320–1’950"],
-      ["2. Pulau Tioman (4)", "750–1’270"],
-      ["Zwischenübernachtung Mersing (1)", "100–180"],
+      ["2. Pulau Tengah (5)", "2’300–3’800"],
       ["3. Kuala Lumpur (3)", "550–910"],
       ["4. Songkhla (3)", "500–840"],
       ["5. Khanom (4)", "760–1’280"],
@@ -507,7 +514,7 @@ REISEN.asien = {
     ],
     [
       "Wetter im Juni/Juli",
-      "Heiss und feucht, Regenschauer. Kuala Lumpur und Bangkok haben im Juli häufiger Regen und Gewitter; die Ostküste Malaysias (Tioman) und der Golf von Thailand (Songkhla, Khanom, Samui, Tao) sind im Juni und Juli meist ruhiger. Die Westküste (Penang, Langkawi) liegt im Juli im Südwest-Monsun."
+      "Heiss und feucht, Regenschauer. Kuala Lumpur und Bangkok haben im Juli häufiger Regen und Gewitter; die Ostküste Malaysias (Pulau Tengah) und der Golf von Thailand (Songkhla, Khanom, Samui, Tao) sind im Juni und Juli meist ruhiger. Die Westküste (Penang, Langkawi) liegt im Juli im Südwest-Monsun."
     ]
   ]
 };
