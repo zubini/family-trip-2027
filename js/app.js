@@ -268,7 +268,7 @@ function einstieg(S, REISEN) {
   };
   var bewertung = '<table class="cmp rate">' + kopf + '<tbody>' + liste(S.bewertung, function (z) {
     return '<tr><th scope="row">' + z.kriterium + '</th>' + liste(T, function (t) {
-      return '<td data-label="' + t.name + '">' + punkte(z[t.k][0]) + '<span class="rtxt">' + fuell(z[t.k][1]) + '</span></td>';
+      return '<td data-label="' + t.name + '" title="' + fuell(z[t.k][1]).replace(/<[^>]+>/g, '').replace(/"/g, '&quot;') + '">' + punkte(z[t.k][0]) + '</td>';
     }) + '</tr>';
   }) + '</tbody></table>';
 

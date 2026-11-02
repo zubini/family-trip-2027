@@ -59,7 +59,6 @@ table.cmp thead th:first-child, table.cmp tbody th { width: 130px; }
 table.cmp tbody th { color: var(--muted); font-weight: 700; background: #FBFDFC; }
 .dots { display: block; margin-bottom: 8px; font-size: 1.05rem; letter-spacing: .15em; color: var(--lagoon); }
 .dots .off { color: #CFDDDB; }
-.rtxt { display: block; margin-top: 3px; font-size: .88rem; color: var(--muted); }
 
 .pgrid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 16px; }
 .pcard { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 18px 18px 16px; display: flex; flex-direction: column; }

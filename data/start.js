@@ -148,7 +148,7 @@ window.START = {
     asien: {
       steckbrief: {anreise: "Flug nach Singapur, ca. 12–13 Std.", unterwegs: "Zug, Bus, Transfer und Boot ca. 48–56 Std.", highlights: "Pulau Tengah, Cameron Highlands, Khao Sok, Koh Tao, Bangkok"},
       name: "Malaysia / Thailand",
-      zusatz: "von Singapur über Pulau Tengah, Kuala Lumpur und die Cameron Highlands, mit dem Zug nach Thailand und dem Golf entlang bis Bangkok",
+      zusatz: "von Singapur über Pulau Tengah, Kuala Lumpur, die Cameron Highlands und Khao Sok nach Koh Samui, Koh Tao und Bangkok",
       passt: "Schnorcheln, tropische Inseln und Strand im Vordergrund stehen, ihr dazu Singapur, Kuala Lumpur und Bangkok erleben möchtet und gern Zug fahrt.",
       kurz: "Fünf Wochen über Land und Wasser: Singapur, die Insel Pulau Tengah (Resort Batu Batu), Kuala Lumpur, die Cameron Highlands, über Ipoh mit dem Zug nach Songkhla, in den Regenwald von Khao Sok mit einer Nacht auf dem Cheow-Lan-See, dann Koh Samui, Koh Tao und Bangkok.",
       route: "Singapur, (Bus, Boot) Pulau Tengah, (Boot, Zug) Kuala Lumpur, (Transfer) Cameron Highlands, (über Ipoh, Zug über die Grenze) Songkhla, Khao Sok (Nacht auf dem Cheow-Lan-See), Koh Samui, Koh Tao, Hua Hin, Bangkok",
@@ -195,7 +195,7 @@ window.START = {
       ],
     },
     {
-      kriterium: "Dschungelfeeling",
+      kriterium: "Dschungel&shy;feeling",
       marokko: [0, "Kein Regenwald: Steinwüste, Palmengärten in Marrakesch und grüne Hügel im Baskenland."],
       usa: [2, "Kein Regenwald; Sümpfe in Louisiana und Mangroven in den Everglades."],
       usamitte: [1, "Kein Regenwald; Sümpfe in Louisiana."],
@@ -206,7 +206,7 @@ window.START = {
       ],
     },
     {
-      kriterium: "Wüstenfeeling",
+      kriterium: "Wüsten&shy;feeling",
       marokko: [
         3,
         "Eine Nacht im Zeltcamp in der Agafay-Steinwüste bei Marrakesch mit Kamelritt und Blick auf den Atlas, dazu die Wüste von Tabernas am Cabo de Gata als Abstecher; keine Sanddünen wie in der Sahara und im Juli sehr heiss."
