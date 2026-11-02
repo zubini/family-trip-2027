@@ -8,7 +8,7 @@ Reiseführer und Variantenvergleich für die Familienreise 2027 (Sa, 19. Juni bi
 - **USA Süd (Los Angeles – Florida – New York)**: Roadtrip von Los Angeles durch den Südwesten über Texas, New Orleans und Destin nach Florida mit Key Largo, Inlandflug Miami–New York
 - **USA Mitte (Los Angeles – Chicago – New York)**: mit dem Mietwagen von Los Angeles über Las Vegas, Kanab und Monument Valley nach Albuquerque, über Amarillo und Fort Worth nach Houston und New Orleans, über Memphis und St. Louis nach Chicago, über Cedar Point und die Niagarafälle in die Finger Lakes und nach New York (kein Inlandflug)
 - **USA Nordost / Kanada (New York – Chicago – Montréal – Boston)**: New York, mit dem Zug nach Washington, mit dem Mietwagen über Shenandoah, Cedar Point und Chicago zu den Niagarafällen, nach Toronto, Algonquin, Montréal und Québec und durch die White Mountains nach Boston
-- **Malaysia / Thailand**: von Singapur über die Insel Pulau Tengah (Batu Batu), Kuala Lumpur und die Cameron Highlands, über Ipoh mit dem Zug nach Songkhla und dem Golf von Thailand entlang (Khanom, Koh Samui, Koh Tao) nach Bangkok
+- **Malaysia / Thailand**: von Singapur über die Insel Pulau Tengah (Batu Batu), Kuala Lumpur und die Cameron Highlands, über Ipoh mit dem Zug nach Songkhla, in den Regenwald von Khao Sok (Nacht auf dem Cheow-Lan-See) und über Koh Samui und Koh Tao nach Bangkok
 
 Dazu eine Einstiegsseite mit Vergleich, Bewertung, Budget sowie Pro und Contra und eine Seite mit den Quellen.
 

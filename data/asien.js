@@ -5,7 +5,7 @@ window.REISEN = window.REISEN || {};
 REISEN.asien = {
   titel: "Von Singapur nach Bangkok",
   menu: "Malaysia / Thailand",
-  untertitel: "Fünf Wochen über Land und Wasser: Singapur, die kleine Insel Pulau Tengah mit dem Öko-Resort Batu Batu, Kuala Lumpur und die kühlen Cameron Highlands, dann über Ipoh mit dem Zug nach Songkhla, dem Golf von Thailand entlang nach Khanom, Koh Samui und Koh Tao und nach Bangkok.",
+  untertitel: "Fünf Wochen über Land und Wasser: Singapur, die kleine Insel Pulau Tengah mit dem Öko-Resort Batu Batu, Kuala Lumpur und die kühlen Cameron Highlands, über Ipoh mit dem Zug nach Songkhla, in den Regenwald von Khao Sok mit einer Nacht auf dem Cheow-Lan-See, dann Koh Samui, Koh Tao und Bangkok.",
   zeitraum: "Sa, 19.06.2027 bis Do, 22.07.2027, 2 Erwachsene und 2 Kids",
   titelbild: {
     datei: "Nang Yuan Island, Koh Tao (48109157601).jpg",
@@ -53,11 +53,16 @@ REISEN.asien = {
     },
     {
       datum: "6.–8. Juli",
-      name: "6. Khanom",
+      name: "6. Khao Sok und Cheow-Lan-See",
       naechte: 2,
-      info: "Privater Transfer (ca. 3,5 Std.) oder Zug ab Hat Yai mit Taxi (ca. 5,5–6,5 Std.)"
+      info: "Privater Transfer (ca. 5–5,5 Std.); eine Nacht im Dorf, eine Nacht im schwimmenden Bungalow auf dem See"
     },
-    {datum: "8.–11. Juli", name: "7. Koh Samui", naechte: 3, info: "Minivan zum Donsak Pier, Autofähre (ca. 2,5 Std.)"},
+    {
+      datum: "8.–11. Juli",
+      name: "7. Koh Samui",
+      naechte: 3,
+      info: "Boot zum Pier (ca. 1 Std.), Transfer nach Donsak (ca. 2–2,5 Std.), Autofähre (ca. 1,5 Std.); insgesamt ca. 5,5–6,5 Std."
+    },
     {datum: "11.–16. Juli", name: "8. Koh Tao", naechte: 5, info: "Katamaran ab Samui (ca. 1,5–2 Std.)"},
     {
       datum: "16.–18. Juli",
@@ -75,15 +80,15 @@ REISEN.asien = {
   planHinweise: [
     [
       "Gesamt",
-      "32 Nächte, 10 Stationen und eine Zwischenübernachtung (Ipoh). Nur Hin- und Rückflug; wo möglich mit dem Zug (Kluang–Kuala Lumpur, Ipoh–Padang Besar–Hat Yai, Chumphon–Hua Hin–Bangkok), sonst mit Bus, Boot, Fähre und privatem Transfer. Die längsten Reisetage sind Koh Tao–Hua Hin (ca. 7–8 Std.), Pulau Tengah–Kuala Lumpur (ca. 6–7 Std.) und Ipoh–Songkhla (ca. 5,5–6,5 Std., fast nur Zug, mit Grenze im Bahnhof); dazu Singapur–Pulau Tengah (ca. 4,5–5,5 Std.) und Kuala Lumpur–Cameron Highlands (ca. 3,5–4 Std.). Zusammen sind es zwischen Singapur und Bangkok ca. 34–41 Stunden reine Reisezeit; mit Wartezeiten auf Boote und Züge, Grenzübertritt und Transfers zur Unterkunft realistisch ca. 41–49 Stunden."
+      "32 Nächte, 10 Stationen und eine Zwischenübernachtung (Ipoh). Nur Hin- und Rückflug; wo möglich mit dem Zug (Kluang–Kuala Lumpur, Ipoh–Padang Besar–Hat Yai, Chumphon–Hua Hin–Bangkok), sonst mit Bus, Boot, Fähre und privatem Transfer. Die längsten Reisetage sind Koh Tao–Hua Hin (ca. 7–8 Std.), Pulau Tengah–Kuala Lumpur (ca. 6–7 Std.), Ipoh–Songkhla (ca. 5,5–6,5 Std., fast nur Zug, mit Grenze im Bahnhof), Khao Sok–Koh Samui (ca. 5,5–6,5 Std. mit Boot, Transfer und Fähre) und Songkhla–Khao Sok (ca. 5–5,5 Std.). Zusammen sind es zwischen Singapur und Bangkok ca. 40–47 Stunden reine Reisezeit; mit Wartezeiten auf Boote und Züge, Grenzübertritt und Transfers zur Unterkunft realistisch ca. 48–56 Stunden."
     ],
     [
       "Vorab buchen",
-      "Batu Batu auf Pulau Tengah (nur 22 Villen; Familienvilla, Essen und Speedboot ab Mersing anfragen), Bus oder Transfer Singapur–Mersing, ETS-Züge Kluang–Kuala Lumpur und Ipoh–Padang Besar (KTMB), Transfers nach und ab den Cameron Highlands, Landrover-Tour mit Mossy Forest und Dschungeltour in den Cameron Highlands, Transfer Songkhla–Khanom, Unterkunft in Khanom, auf Koh Samui und Koh Tao, Züge Chumphon–Hua Hin–Bangkok (SRT), Petronas-Skybridge, Katamarane Samui–Tao–Chumphon."
+      "Batu Batu auf Pulau Tengah (nur 22 Villen; Familienvilla, Essen und Speedboot ab Mersing anfragen), Bus oder Transfer Singapur–Mersing, ETS-Züge Kluang–Kuala Lumpur und Ipoh–Padang Besar (KTMB), Transfers nach und ab den Cameron Highlands, Landrover-Tour mit Mossy Forest und Dschungeltour in den Cameron Highlands, Transfer Songkhla–Khao Sok, 2-Tages-Tour mit Nacht im schwimmenden Bungalow auf dem Cheow-Lan-See (mit Anschluss nach Donsak), Unterkunft in Khao Sok, auf Koh Samui und Koh Tao, Züge Chumphon–Hua Hin–Bangkok (SRT), Petronas-Skybridge, Katamarane Samui–Tao–Chumphon."
     ],
     [
       "Optional",
-      "Tioman (grössere Dschungelinsel, mit öffentlicher Fähre ab Mersing), Pulau Besar (einfachere, günstigere Resorts mit Paket), Langkawi (im Juli Monsun an der Westküste), Taman Negara (Regenwald, 2 Nächte zwischen Mersing und Kuala Lumpur), Malakka, Belum-Regenwald (ab Ipoh, ca. 2,5 Std.), Koh Phangan (zwischen Samui und Tao), Kanchanaburi (ab Bangkok)."
+      "Khanom mit Delfinen (statt Khao Sok, kürzere Fahrten), Tioman (grössere Dschungelinsel, mit öffentlicher Fähre ab Mersing), Pulau Besar (einfachere, günstigere Resorts mit Paket), Langkawi (im Juli Monsun an der Westküste), Taman Negara (Regenwald, 2 Nächte zwischen Mersing und Kuala Lumpur), Malakka, Belum-Regenwald (ab Ipoh, ca. 2,5 Std.), Koh Phangan (zwischen Samui und Tao), Kanchanaburi (ab Bangkok)."
     ],
     [
       "Flug ab und nach Zürich",
@@ -100,23 +105,23 @@ REISEN.asien = {
   abwechslung: [
     [
       "Action und Freizeitparks",
-      "Singapur (Sentosa, Universal, Wasserpark), Kuala Lumpur (Sunway Lagoon, Petronas-Skybridge), Cameron Highlands (Landrover-Tour, Dschungeltour), Pulau Tengah (Kajak, Schnuppertauchen, Schildkröten), Khanom (Delfin-Tour), Hua Hin (Wasserpark), Bangkok (Safari World, SEA LIFE)."
+      "Singapur (Sentosa, Universal, Wasserpark), Kuala Lumpur (Sunway Lagoon, Petronas-Skybridge), Cameron Highlands (Landrover-Tour, Dschungeltour), Pulau Tengah (Kajak, Schnuppertauchen, Schildkröten), Khao Sok (Nacht im schwimmenden Bungalow, Kajak, Höhle, Nachtwanderung), Hua Hin (Wasserpark), Bangkok (Safari World, SEA LIFE)."
     ],
     [
       "Kultur und Geschichte",
-      "Kuala Lumpur (Batu Caves, Merdeka Square), Ipoh mit Höhlentempeln und Altstadt, Altstadt von Songkhla, Wat Phra Mahathat in Nakhon Si Thammarat (auf dem Weg nach Khanom), Khao Sam Roi Yot (Höhle), Bangkok (Grand Palace, Wat Pho), Ayutthaya (Tempelruinen)."
+      "Kuala Lumpur (Batu Caves, Merdeka Square), Ipoh mit Höhlentempeln und Altstadt, Altstadt von Songkhla, Khao Sam Roi Yot (Höhle), Bangkok (Grand Palace, Wat Pho), Ayutthaya (Tempelruinen)."
     ],
     [
       "Natur und Tiere",
-      "Mandai Wildlife Reserve, Hausriff und Schildkröten auf Pulau Tengah, Teeplantagen, Nebelwald und geführte Dschungeltour (Rafflesia) in den Cameron Highlands, Batu Caves, Wasservogelpark Khu Khut bei Songkhla, rosa Delfine und Wasserfälle in Khanom, Ang Thong Marine Park, Schnorcheln auf Samui und vor allem Koh Tao (Koh Nang Yuan, Shark Bay)."
+      "Mandai Wildlife Reserve, Hausriff und Schildkröten auf Pulau Tengah, Teeplantagen, Nebelwald und geführte Dschungeltour (Rafflesia) in den Cameron Highlands, Batu Caves, Wasservogelpark Khu Khut bei Songkhla, Regenwald, Kalkfelsen und Cheow-Lan-See in Khao Sok (Gibbons, Nashornvögel), Ang Thong Marine Park, Schnorcheln auf Samui und vor allem Koh Tao (Koh Nang Yuan, Shark Bay)."
     ],
     [
       "Strand und Erholung",
-      "Pulau Tengah (5 Nächte), Songkhla (2), Khanom (2), Koh Samui (3), Koh Tao (5), Hua Hin. Nach zwei aktiven Tagen jeweils einen ruhigen Tag einplanen."
+      "Pulau Tengah (5 Nächte), Songkhla (2), Koh Samui (3), Koh Tao (5), Hua Hin. Nach zwei aktiven Tagen jeweils einen ruhigen Tag einplanen."
     ],
     ["Mitmachen", "Muay-Thai-Schnupperkurs, Kajak/SUP, Street-Food- und Tuk-Tuk-Touren."]
   ],
-  stationenIntro: "Zehn Stationen von Singapur bis Bangkok: Pulau Tengah vor Mersing, Kuala Lumpur, die Cameron Highlands, nach einer Nacht in Ipoh mit dem Zug über die Grenze nach Songkhla und dem Golf von Thailand entlang nach Bangkok. Über jeder Station steht, wie ihr dorthin kommt.",
+  stationenIntro: "Zehn Stationen von Singapur bis Bangkok: Pulau Tengah vor Mersing, Kuala Lumpur, die Cameron Highlands, nach einer Nacht in Ipoh mit dem Zug über die Grenze nach Songkhla, in den Regenwald von Khao Sok und über Koh Samui, Koh Tao und Hua Hin nach Bangkok. Über jeder Station steht, wie ihr dorthin kommt.",
   stationen: [
     {
       nr: 1,
@@ -254,7 +259,7 @@ REISEN.asien = {
       teens: "Wandmalereien und Cafés in der Altstadt (Nakhon Nok und Nang Ngam Road), Strand Samila mit der Meerjungfrau-Statue, Aussicht vom Hügel Khao Tang Kuan (Standseilbahn), Fischerboote und Seafood auf Koh Yo, Abendmarkt.",
       fakten: [
         "<strong>Dauer:</strong> 2 Nächte: am Ankunftsabend an den Strand Samila, am nächsten Tag Altstadt und Standseilbahn auf den Khao Tang Kuan, am Nachmittag Koh Yo oder Pool.",
-        "<strong>Baden:</strong> Samila ist eher ein Spazier- und Picknickstrand; zum Baden sind Khanom und die Inseln besser. Im Juli warm, ab und zu Schauer.",
+        "<strong>Baden:</strong> Samila ist eher ein Spazier- und Picknickstrand; zum Baden sind die Inseln besser (Koh Samui, Koh Tao). Im Juli warm, ab und zu Schauer.",
         "<strong>Sicherheit:</strong> Songkhla-Stadt und Hat Yai liegen ausserhalb der Gebiete, von denen das EDA abrät; nicht weiter nach Süden oder Osten (Chana, Thepha, Pattani) fahren. Reisehinweise vor der Abreise prüfen."
       ],
       ausserdem: "Wat Matchimawat mit Wandmalereien, Nationalmuseum Songkhla (altes chinesisches Haus), Institut für südthailändische Studien auf Koh Yo, Wasservogelpark Khu Khut (Bootsfahrt, Tagesausflug), Hat Yai mit grossen Märkten.",
@@ -270,38 +275,32 @@ REISEN.asien = {
     },
     {
       nr: 6,
-      name: "Khanom",
+      name: "Khao Sok und Cheow-Lan-See",
+      ersatzsuche: "Khao Sok National Park",
       land: "th",
       region: "Thailand",
       datum: "6.–8. Juli",
       naechte: "2 Nächte",
-      anreise: "Mit privatem Transfer von Songkhla über Nakhon Si Thammarat nach Khanom (ca. 3,5 Std.). Alternative mit dem Zug: Taxi zum Bahnhof Hat Yai (ca. 45 Min.), Zug nach Nakhon Si Thammarat (ca. 2,75–3 Std.; nur wenige Züge pro Tag) und Taxi nach Khanom (ca. 1,5 Std.), mit Wartezeit insgesamt ca. 5,5–6,5 Std.",
-      text: "Ruhiger Küstenort am Golf von Thailand mit einsamen Stränden, Wasserfällen und rosa Delfinen. Ein entspannter Halt am Meer vor den Inseln.",
-      teens: "Delfin-Bootstour ab Pak Nam (Sichtung nicht garantiert), Hin Lat Wasserfälle, Strandtage, Schnorcheln und Kajak.",
+      anreise: "Mit privatem Transfer von Songkhla über Thung Song und Phanom nach Khao Sok (ca. 4,75 Std. Fahrt, mit Pausen ca. 5–5,5 Std.); Minivans mit Umsteigen in Surat Thani dauern länger. Unterkunft für die erste Nacht im Dorf am Parkeingang.",
+      text: "Einer der ältesten Regenwälder der Welt im Landesinneren Südthailands, mit steilen Kalkfelsen, Höhlen und Flüssen. Das Besondere: eine Nacht in einem schwimmenden Bungalow auf dem Cheow-Lan-See, umgeben von Dschungel und Felsen, am Morgen oft im Nebel. Die Dschungel-Etappe der Reise.",
+      teens: "Übernachtung im schwimmenden Bungalow mit Kajak und Baden direkt vom Steg, Longtail-Boot zwischen den Kalkfelsen, Dschungelwanderung zu einer Höhle (z.B. Coral Cave), Bootsfahrt im Morgennebel mit Gibbons und Nashornvögeln (mit Glück), im Dorf Tubing oder Kanu auf dem Fluss Sok und Nachtwanderung mit Führer.",
       fakten: [
-        "<strong>Dauer:</strong> 2 Nächte: Ankunft am Nachmittag, am nächsten Morgen Delfin-Tour, danach Wasserfälle Hin Lat oder Strand und Pool. Unterkunft mit Pool vorab buchen, das Angebot ist klein.",
-        "<strong>Praktisch:</strong> Kaum Touristen; Taxi oder Songthaew für Ausflüge organisieren, keine Roller."
+        "<strong>Dauer:</strong> 2 Nächte: Ankunft am Nachmittag im Dorf, am Abend Nachtwanderung oder Fluss; am nächsten Morgen Transfer zum Pier am Ratchaprapha-Staudamm (ca. 1 Std.) und mit dem Longtail-Boot zu den schwimmenden Bungalows (ca. 1 Std.), Kajak, Höhlenwanderung und Baden; am Abreisetag Bootsfahrt im Morgennebel und zurück zum Pier.",
+        "<strong>Buchen:</strong> Die Nacht auf dem See am einfachsten als 2-Tages-Tour mit Boot, Essen, Führer und Aktivitäten (für Erwachsene je nach Anbieter grob ca. 150–315 USD pro Person, ab Khao Sok günstiger als ab Phuket oder Krabi; Kinderpreise und Familienzimmer anfragen). Die Bungalows auf dem See sind einfach (teils mit Klimaanlage, teils nur Ventilator), früh reservieren. Die Nationalparkgebühr ist oft nicht inbegriffen, Betrag für Ausländer und Kinder vorab prüfen.",
+        "<strong>Wetter und Gesundheit:</strong> Im Juli Schauer und Gewitter, der Regenwald ist dann besonders grün; Regenjacke, Blutegel-Socken und Mückenschutz mitnehmen. Schwimmwesten beim Baden im See, die Kids nicht allein schwimmen lassen."
       ],
-      ausserdem: "Hat Nai Plao, Hat Na Dan, Kokosnuss-Plantagen, lokale Meeresfrüchte-Lokale; bei genug Zeit Nakhon Si Thammarat mit Wat Phra Mahathat.",
+      ausserdem: "Wasserfälle im Park (Wing Hin, Bang Hua Rad), Elefanten-Schutzzentren mit Beobachtung ohne Reiten (nur seriöse Anbieter), Rafflesia mit Glück von Dezember bis Februar.",
       bilder: [
-        {titel: "Rosa Delfine", suche: "Indo-Pacific humpback dolphin|Sousa chinensis", stichwort: "humpback|sousa"},
-        {titel: "Khanom", suche: "Khanom beach|Khanom district", stichwort: "khanom"},
-        {titel: "Küste bei Khanom", suche: "Khanom Nakhon Si Thammarat coast|Khanom", stichwort: "khanom"},
+        {titel: "Cheow-Lan-See", suche: "Cheow Lan Lake Khao Sok", stichwort: "cheow lan|khao sok"},
         {
-          titel: "Wat Phra Mahathat",
-          suche: "Wat Phra Mahathat Woramahawihan Nakhon Si Thammarat",
-          stichwort: "mahathat"
+          titel: "Schwimmende Bungalows",
+          suche: "Cheow Lan Lake raft house floating bungalow",
+          stichwort: "raft|floating|bungalow"
         },
-        {
-          titel: "Longtailboot",
-          suche: "long-tail boat Thailand beach|longtail boat Thailand",
-          stichwort: "long-tail|longtail|long tail"
-        },
-        {
-          titel: "Kokospalmen",
-          suche: "coconut plantation Nakhon Si Thammarat|coconut palms beach Thailand",
-          stichwort: "coconut"
-        }
+        {titel: "Kalkfelsen", suche: "Khao Sok limestone karst lake", stichwort: "khao sok|karst|limestone"},
+        {titel: "Regenwald", suche: "Khao Sok National Park rainforest", stichwort: "khao sok|rainforest"},
+        {titel: "Longtail-Boot", suche: "Ratchaprapha Dam longtail boat lake", stichwort: "longtail|ratchaprapha|cheow"},
+        {titel: "Sok-Fluss", suche: "Sok River Khao Sok", stichwort: "sok"}
       ]
     },
     {
@@ -311,7 +310,7 @@ REISEN.asien = {
       region: "Thailand",
       datum: "8.–11. Juli",
       naechte: "3 Nächte",
-      anreise: "Minivan von Khanom zum Donsak Pier (ca. 1 Std.), dann Autofähre (Seatran/Raja) direkt nach Samui (ca. 1,5 Std.).",
+      anreise: "Am Morgen Bootsfahrt vom schwimmenden Bungalow zurück zum Pier am Ratchaprapha-Staudamm (ca. 1 Std.), dann Transfer über Surat Thani zum Hafen Donsak (ca. 2–2,5 Std.) und Autofähre (Seatran/Raja) nach Koh Samui (ca. 1,5 Std.); insgesamt ca. 5,5–6,5 Std. Viele Seetouren bieten den Anschluss zum Hafen direkt an.",
       text: "Thailands grosse Familieninsel mit guter Infrastruktur, Stränden und Ausflügen. Im Juli sind die Wetterbedingungen im Golf meist stabil.",
       teens: "Tagesausflug in den Ang Thong Marine Park (Kajak, Schnorcheln, Wanderung zum Aussichtspunkt), Strandtage in Lamai/Chaweng, Na Muang Wasserfälle.",
       fakten: [
@@ -426,9 +425,9 @@ REISEN.asien = {
   budgetIntro: "Mittelklasse inklusive Flüge, Transport, Unterkunft, Verpflegung und Aktivitäten. Alle Beträge sind Schätzungen in CHF.",
   budget: {
     naechte: 32,
-    total: "19’000",
-    spanne: "15’500–24’000",
-    proTag: "ca. 590 CHF pro Tag, ca. 4’750 pro Person",
+    total: "19’500",
+    spanne: "16’000–24’500",
+    proTag: "ca. 610 CHF pro Tag, ca. 4’900 pro Person",
     posten: [
       [
         "Flüge Zürich–Singapur und Bangkok–Zürich",
@@ -438,9 +437,9 @@ REISEN.asien = {
       ],
       [
         "Fernverkehr (Bus, Zug, Fähre, Minivan)",
-        "900–1’450",
-        "1’100",
-        "Bus oder Transfer Singapur–Mersing, Speedboot nach Pulau Tengah, Taxi nach Kluang und ETS-Zug nach Kuala Lumpur, Transfers in die Cameron Highlands und nach Ipoh, ETS-Zug Ipoh–Padang Besar und Zug nach Hat Yai, privater Transfer Songkhla–Khanom, Fähren Samui–Tao–Chumphon, Zug nach Hua Hin und Bangkok"
+        "1’000–1’600",
+        "1’200",
+        "Bus oder Transfer Singapur–Mersing, Speedboot nach Pulau Tengah, Taxi nach Kluang und ETS-Zug nach Kuala Lumpur, Transfers in die Cameron Highlands und nach Ipoh, ETS-Zug Ipoh–Padang Besar und Zug nach Hat Yai, privater Transfer Songkhla–Khao Sok, Transfer vom See nach Donsak, Autofähre nach Koh Samui, Fähren Samui–Tao–Chumphon, Zug nach Hua Hin und Bangkok"
       ],
       ["Lokale Transfers", "400–800", "550", "Grab, MRT/Skytrain, Wassertaxis, Songthaew"],
       [
@@ -457,9 +456,9 @@ REISEN.asien = {
       ],
       [
         "Aktivitäten und Eintritte",
-        "2’200–3’400",
-        "2’700",
-        "Universal und Sentosa, Mandai, Schnorcheltouren, Marine-Park-Gebühren, Petronas-Skybridge, Sunway Lagoon, Landrover-Tour (Teeplantage, Mossy Forest) und Dschungeltour (Rafflesia) in den Cameron Highlands, Delfin-Tour in Khanom, Ang Thong, Wasserpark Hua Hin, Safari World usw."
+        "2’400–3’700",
+        "2’950",
+        "Universal und Sentosa, Mandai, Schnorcheltouren, Marine-Park-Gebühren, Petronas-Skybridge, Sunway Lagoon, Landrover-Tour (Teeplantage, Mossy Forest) und Dschungeltour (Rafflesia) in den Cameron Highlands, 2-Tages-Tour auf dem Cheow-Lan-See mit Nacht im schwimmenden Bungalow und Nationalparkgebühr, Ang Thong, Wasserpark Hua Hin, Safari World usw."
       ],
       [
         "Versicherung, eSIM, Medikamente, Impfungen",
@@ -467,12 +466,12 @@ REISEN.asien = {
         "900",
         "Reisekranken- und Annullationsschutz, Reiseapotheke"
       ],
-      ["Reserve (ca. 5 %)", "400–1’250", "650", "Souvenirs, Wäsche, Unvorhergesehenes"],
+      ["Reserve (ca. 5 %)", "600–1’300", "800", "Souvenirs, Wäsche, Unvorhergesehenes"],
       [
         "<strong>Total</strong>",
-        "<strong>15’500–24’000</strong>",
-        "<strong>ca. 19’000</strong>",
-        "ca. 590 CHF pro Tag, ca. 4’750 pro Person"
+        "<strong>16’000–24’500</strong>",
+        "<strong>ca. 19’500</strong>",
+        "ca. 610 CHF pro Tag, ca. 4’900 pro Person"
       ]
     ],
     stationen: [
@@ -482,7 +481,7 @@ REISEN.asien = {
       ["4. Cameron Highlands (3)", "600–980"],
       ["Zwischenübernachtung Ipoh (1)", "130–220"],
       ["5. Songkhla (2)", "330–560"],
-      ["6. Khanom (2)", "380–640"],
+      ["6. Khao Sok und Cheow-Lan-See (2)", "800–1’400"],
       ["7. Koh Samui (3)", "750–1’190"],
       ["8. Koh Tao (5)", "1’000–1’620"],
       ["9. Hua Hin / Khao Sam Roi Yot (2)", "430–670"],
@@ -534,7 +533,7 @@ REISEN.asien = {
     ],
     [
       "Einreise (Schweizer Pass)",
-      "Singapur und Malaysia sind für Touristen visafrei. Thailand hat seit 15. September 2026 die visafreie Aufenthaltsdauer auf 30 Tage verkürzt (vorher 60) und visafreie Einreisen über Landgrenzen auf zwei pro Kalenderjahr begrenzt. Auf dieser Route seid ihr ca. 21 Tage in Thailand und reist einmal über Land ein (im Bahnhof Padang Besar); ob die Schweiz auf der Liste der visabefreiten Länder steht, beim Thai-Konsulat oder EDA prüfen. Online-Anmeldungen: SG Arrival Card (Singapur), MDAC (Malaysia), TDAC (Thailand). Reisepass mind. 6 Monate gültig."
+      "Singapur und Malaysia sind für Touristen visafrei. Thailand hat seit 15. September 2026 die visafreie Aufenthaltsdauer auf 30 Tage verkürzt (vorher 60) und visafreie Einreisen über Landgrenzen auf zwei pro Kalenderjahr begrenzt. Auf dieser Route seid ihr ca. 18 Tage in Thailand und reist einmal über Land ein (im Bahnhof Padang Besar); ob die Schweiz auf der Liste der visabefreiten Länder steht, beim Thai-Konsulat oder EDA prüfen. Online-Anmeldungen: SG Arrival Card (Singapur), MDAC (Malaysia), TDAC (Thailand). Reisepass mind. 6 Monate gültig."
     ],
     [
       "Versicherung",
@@ -550,7 +549,7 @@ REISEN.asien = {
     ],
     [
       "Wetter im Juni/Juli",
-      "Heiss und feucht, Regenschauer; in den Cameron Highlands kühl (ca. 18–25 °C, nachts ca. 15 °C). Kuala Lumpur und Bangkok haben im Juli häufiger Regen und Gewitter; die Ostküste Malaysias (Pulau Tengah) und der Golf von Thailand (Songkhla, Khanom, Samui, Tao) sind im Juni und Juli meist ruhiger. Die Westküste (Penang, Langkawi) liegt im Juli im Südwest-Monsun."
+      "Heiss und feucht, Regenschauer; in den Cameron Highlands kühl (ca. 18–25 °C, nachts ca. 15 °C). Kuala Lumpur und Bangkok haben im Juli häufiger Regen und Gewitter; die Ostküste Malaysias (Pulau Tengah) und der Golf von Thailand (Songkhla, Samui, Tao) sind im Juni und Juli meist ruhiger. Die Westküste (Penang, Langkawi) liegt im Juli im Südwest-Monsun."
     ]
   ]
 };

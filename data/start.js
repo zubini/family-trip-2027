@@ -146,23 +146,23 @@ window.START = {
       ]
     },
     asien: {
-      steckbrief: {anreise: "Flug nach Singapur, ca. 12–13 Std.", unterwegs: "Zug, Bus, Transfer und Boot ca. 41–49 Std.", highlights: "Pulau Tengah, Cameron Highlands, Khanom, Koh Tao, Bangkok"},
+      steckbrief: {anreise: "Flug nach Singapur, ca. 12–13 Std.", unterwegs: "Zug, Bus, Transfer und Boot ca. 48–56 Std.", highlights: "Pulau Tengah, Cameron Highlands, Khao Sok, Koh Tao, Bangkok"},
       name: "Malaysia / Thailand",
       zusatz: "von Singapur über Pulau Tengah, Kuala Lumpur und die Cameron Highlands, mit dem Zug nach Thailand und dem Golf entlang bis Bangkok",
       passt: "Schnorcheln, tropische Inseln und Strand im Vordergrund stehen, ihr dazu Singapur, Kuala Lumpur und Bangkok erleben möchtet und gern Zug fahrt.",
-      kurz: "Fünf Wochen über Land und Wasser: Singapur, die Insel Pulau Tengah (Resort Batu Batu), Kuala Lumpur, die Cameron Highlands, über Ipoh mit dem Zug nach Songkhla, dann dem Golf von Thailand entlang nach Khanom, Koh Samui, Koh Tao und Bangkok.",
-      route: "Singapur, (Bus, Boot) Pulau Tengah, (Boot, Zug) Kuala Lumpur, (Transfer) Cameron Highlands, (über Ipoh, Zug über die Grenze) Songkhla, Khanom, Koh Samui, Koh Tao, Hua Hin, Bangkok",
+      kurz: "Fünf Wochen über Land und Wasser: Singapur, die Insel Pulau Tengah (Resort Batu Batu), Kuala Lumpur, die Cameron Highlands, über Ipoh mit dem Zug nach Songkhla, in den Regenwald von Khao Sok mit einer Nacht auf dem Cheow-Lan-See, dann Koh Samui, Koh Tao und Bangkok.",
+      route: "Singapur, (Bus, Boot) Pulau Tengah, (Boot, Zug) Kuala Lumpur, (Transfer) Cameron Highlands, (über Ipoh, Zug über die Grenze) Songkhla, Khao Sok (Nacht auf dem Cheow-Lan-See), Koh Samui, Koh Tao, Hua Hin, Bangkok",
       stationen: "10 Stationen und 1 Zwischenübernachtung",
       laender: "Singapur, Malaysia, Thailand",
       hinflug: "Direktflug Zürich–Singapur ca. 12–13 Std.",
       rueckflug: "Direktflug Bangkok–Zürich ca. 11,5–12 Std. am Do, 22.07.2027 um die Mittagszeit, Ankunft am Abend; zwei Tage Puffer gegen den Jetlag",
       dazwischen: "Keine Flüge dazwischen; wo möglich Zug (Kluang–Kuala Lumpur, Ipoh–Padang Besar–Hat Yai, Chumphon–Hua Hin–Bangkok), sonst Bus, privater Transfer und Fähre",
-      tempo: "Ca. 34–41 Std. reine Reisezeit mit Zug, Bus, Transfer und Boot, realistisch mit Wartezeiten ca. 41–49 Std.; längste Reisetage Koh Tao–Hua Hin (ca. 7–8 Std.), Pulau Tengah–Kuala Lumpur (ca. 6–7 Std.) und Ipoh–Songkhla (ca. 5,5–6,5 Std., fast nur Zug); sonst meist 2–5 Std.; meist 2–5 Nächte pro Station",
-      gesamt: "Ca. 77–87 Std. Tür zu Tür: Bahn Brig-Glis–Zürich Flughafen (ca. 2,5 Std.), ca. 2 Std. Wartezeit am Flughafen, Flüge und Transfers zusammen ca. 36–38 Std., dazu ca. 41–49 Std. mit Bus, Transfer, Zug und Fähre; niemand muss selber fahren. Uhr +6 Std. (Thailand +5 Std.), Jetlag vor allem nach der Ankunft.",
-      wetter: "Kuala Lumpur und Bangkok mit kurzen Gewittern am Nachmittag, die Cameron Highlands angenehm kühl (ca. 18–25 °C); die Ostküste Malaysias (Pulau Tengah) und der Golf von Thailand (Songkhla, Khanom, Samui, Tao) sind meist ruhiger; die Westküste mit Monsun wird umfahren.",
+      tempo: "Ca. 40–47 Std. reine Reisezeit mit Zug, Bus, Transfer und Boot, realistisch mit Wartezeiten ca. 48–56 Std.; längste Reisetage Koh Tao–Hua Hin (ca. 7–8 Std.), Pulau Tengah–Kuala Lumpur, Ipoh–Songkhla und Khao Sok–Koh Samui (je ca. 5,5–7 Std.), Songkhla–Khao Sok (ca. 5–5,5 Std.); meist 2–5 Nächte pro Station",
+      gesamt: "Ca. 84–94 Std. Tür zu Tür: Bahn Brig-Glis–Zürich Flughafen (ca. 2,5 Std.), ca. 2 Std. Wartezeit am Flughafen, Flüge und Transfers zusammen ca. 36–38 Std., dazu ca. 48–56 Std. mit Bus, Transfer, Zug und Fähre; niemand muss selber fahren. Uhr +6 Std. (Thailand +5 Std.), Jetlag vor allem nach der Ankunft.",
+      wetter: "Kuala Lumpur und Bangkok mit kurzen Gewittern am Nachmittag, die Cameron Highlands angenehm kühl (ca. 18–25 °C); die Ostküste Malaysias (Pulau Tengah) und der Golf von Thailand (Songkhla, Samui, Tao) sind meist ruhiger; die Westküste mit Monsun wird umfahren.",
       einreise: "Singapur und Malaysia visafrei. Thailand: seit 15.09.2026 nur noch 30 Tage visafrei und höchstens zwei Landgrenz-Einreisen pro Jahr, Länderliste prüfen. Online-Anmeldungen (SG Arrival Card, MDAC, TDAC).",
-      hoehepunkte: "Hausriff und Schildkröten auf Pulau Tengah, Schnorcheln auf Samui und Koh Tao (Koh Nang Yuan), Petronas Towers und Batu Caves in Kuala Lumpur, Teeplantagen und Nebelwald in den Cameron Highlands, Höhlentempel in Ipoh, Altstadt und Strand von Songkhla, Delfine bei Khanom, Ang Thong, Grand Palace und Wat Arun in Bangkok.",
-      teens: "Schnorcheln, Schildkröten, Kajak, Inselhopping, Delfin-Tour, Landrover-Tour zum Mossy Forest, Dschungeltour, Erdbeeren pflücken, Wasserparks, Sentosa mit Universal Studios.",
+      hoehepunkte: "Hausriff und Schildkröten auf Pulau Tengah, Schnorcheln auf Samui und Koh Tao (Koh Nang Yuan), Petronas Towers und Batu Caves in Kuala Lumpur, Teeplantagen und Nebelwald in den Cameron Highlands, Höhlentempel in Ipoh, Altstadt und Strand von Songkhla, Regenwald und schwimmende Bungalows auf dem Cheow-Lan-See in Khao Sok, Ang Thong, Grand Palace und Wat Arun in Bangkok.",
+      teens: "Schnorcheln, Schildkröten, Kajak, Inselhopping, Nacht im schwimmenden Bungalow, Landrover-Tour zum Mossy Forest, Dschungeltour, Erdbeeren pflücken, Wasserparks, Sentosa mit Universal Studios.",
       pro: [
         "Die meisten Schnorchel- und Strandtage",
         "Warmes Meer (ca. 29 °C) mit Riffen und Schildkröten",
@@ -190,8 +190,8 @@ window.START = {
       usamitte: [4, "Rosa Sanddünen bei Kanab, Horseshoe Bend, Monument Valley, Sandia Peak, Sümpfe in Louisiana, Niagarafälle und die Schlucht von Watkins Glen; abwechslungsreich, aber ohne die grossen Nationalparks."],
       usanordost: [3, "Skyline Drive in Shenandoah, Niagarafälle, Seen und Wälder in Algonquin, Montmorency-Fall und die White Mountains; schön, aber ohne die grossen Felslandschaften des Westens."],
       asien: [
-        3,
-        "Inseln, Strände und Riffe von Pulau Tengah bis Koh Tao, Teeplantagen und Nebelwald in den Cameron Highlands, Kalkfelsen bei Ipoh, dazu Delfine bei Khanom und Wasserfälle; eher sanfte als dramatische Landschaften."
+        4,
+        "Inseln, Strände und Riffe von Pulau Tengah bis Koh Tao, Teeplantagen und Nebelwald in den Cameron Highlands, Kalkfelsen bei Ipoh und der Cheow-Lan-See zwischen den Kalkfelsen von Khao Sok; abwechslungsreich, mit einigen spektakulären Orten."
       ],
     },
     {
@@ -202,7 +202,7 @@ window.START = {
       usanordost: [1, "Kein Regenwald; grosse Laub- und Nadelwälder in Shenandoah, Algonquin und den White Mountains."],
       asien: [
         5,
-        "Im Vergleich klar am meisten Dschungel: tropischer Inselwald auf Pulau Tengah (Villen im Wald, Waldpfade), Nebelwald (Mossy Forest) und Regenwald mit geführter Dschungeltour in den Cameron Highlands, Wasserfälle bei Khanom und im grünen Inneren von Koh Samui (Na Muang), Dschungelpfade auf Koh Tao; ein grosser Regenwald-Nationalpark ist allerdings nicht auf der Route."
+        "Im Vergleich klar am meisten Dschungel: tropischer Inselwald auf Pulau Tengah (Villen im Wald, Waldpfade), Nebelwald (Mossy Forest) und Regenwald mit geführter Dschungeltour in den Cameron Highlands, Regenwald mit Kalkfelsen und Cheow-Lan-See in Khao Sok (Nacht im schwimmenden Bungalow), Wasserfälle im grünen Inneren von Koh Samui (Na Muang), Dschungelpfade auf Koh Tao; ein grosser Regenwald-Nationalpark ist allerdings nicht auf der Route."
       ],
     },
     {
@@ -227,7 +227,7 @@ window.START = {
       usanordost: [1, "Strand am Eriesee bei Cedar Point, Stadtstrände am Michigansee, Baden in Seen und Flüssen in Algonquin und den White Mountains; kein Meer zum Baden."],
       asien: [
         5,
-        "Pulau Tengah, Songkhla, Khanom, Koh Samui, Koh Tao und Hua Hin: tropische Strände mit ca. 29 °C warmem Wasser, zusammen 19 Nächte am Meer."
+        "Pulau Tengah, Songkhla, Koh Samui, Koh Tao und Hua Hin: tropische Strände mit ca. 29 °C warmem Wasser, zusammen 17 Nächte am Meer, dazu Baden im Cheow-Lan-See."
       ],
     },
     {
@@ -253,7 +253,7 @@ window.START = {
       usa: [5, "Sandboarding auf den Dünen bei Kanab und auf White Sands, Kletterei durch den Belly of the Dragon, Sumpftour mit Alligatoren, Airboat in den Everglades, Schnorcheln am Riff, ein Roadtrip quer durchs Land."],
       usamitte: [5, "Sandboarding bei Kanab, Jeep-Tour im Monument Valley, Sumpftour mit Alligatoren, Klettern im City Museum, Achterbahnen in Cedar Point, Boot in die Gischt der Niagarafälle, ein Roadtrip quer durchs Land."],
       usanordost: [4, "Achterbahnen in Cedar Point, Boot in die Gischt der Niagarafälle, CN Tower, Kanu in Algonquin, Zahnradbahn auf den Mount Washington, Walbeobachtung vor Boston."],
-      asien: [3, "Landrover-Tour und geführte Dschungeltour in den Cameron Highlands, Schnorcheln mit Riffhaien auf Koh Tao, Schnuppertauchen und Schildkröten auf Pulau Tengah, Kajak in Ang Thong, Delfin-Tour, Inselhopping."],
+      asien: [4, "Landrover-Tour und geführte Dschungeltour in den Cameron Highlands, Nacht im schwimmenden Bungalow mit Kajak und Höhlenwanderung in Khao Sok, Schnorcheln mit Riffhaien auf Koh Tao, Schnuppertauchen und Schildkröten auf Pulau Tengah, Kajak in Ang Thong, Inselhopping."],
     },
     {
       kriterium: "Städte",
@@ -299,7 +299,7 @@ window.START = {
       usanordost: [3, "Ca. 88–96 Stunden Tür zu Tür: kürzere Flüge mit weniger Jetlag (−6 Std.), Zug nach Washington, dann ca. 53–60 Stunden im Auto an 13 Fahrtagen mit zwei Grenzübertritten; in den Städten ohne Auto."],
       asien: [
         5,
-        "Ca. 77–87 Stunden Tür zu Tür: zwei Direktflüge mit Jetlag, dazu ca. 41–49 Stunden mit Zug, Bus, Transfer und Fähre (längster Reisetag ca. 7–8 Stunden), Wechsel mit Gepäck; niemand muss selber fahren."
+        "Ca. 84–94 Stunden Tür zu Tür: zwei Direktflüge mit Jetlag, dazu ca. 48–56 Stunden mit Zug, Bus, Transfer und Fähre (längster Reisetag ca. 7–8 Stunden), Wechsel mit Gepäck; niemand muss selber fahren."
       ],
     },
     {

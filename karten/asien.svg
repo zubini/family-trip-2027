@@ -79,10 +79,14 @@
 <polyline points="335.2,780.0 307.2,760.0 284.8,719.2 287.2,696.0 277.4,658.3 277.6,653.6 270.2,633.4 272.0,624.0 273.4,615.0 281.6,610.4 284.0,600.0 286.0,587.7" fill="none" stroke="#0F4C55" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"><title>Zug: Ipoh – Padang Besar – Hat Yai (ETS)</title></polyline>
 <polyline points="286.0,587.7 295.2,572.0" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
 <polyline points="286.0,587.7 295.2,572.0" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Bus, Minivan oder Taxi: Hat Yai – Songkhla (Taxi)</title></polyline>
-<polyline points="295.2,572.0 272.0,552.0 253.6,538.4 249.6,516.0 246.4,495.2 244.8,473.6 241.6,444.0 238.4,424.0 236.7,409.2" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
-<polyline points="295.2,572.0 272.0,552.0 253.6,538.4 249.6,516.0 246.4,495.2 244.8,473.6 241.6,444.0 238.4,424.0 236.7,409.2" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Bus, Minivan oder Taxi: Songkhla – Nakhon Si Thammarat – Khanom (privater Transfer)</title></polyline>
-<polyline points="236.7,409.2 232.0,404.8 225.6,401.6" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
-<polyline points="236.7,409.2 232.0,404.8 225.6,401.6" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Bus, Minivan oder Taxi: Khanom – Donsak</title></polyline>
+<polyline points="295.2,572.0 272.0,552.0 253.6,538.4 222.4,495.2 184.0,464.0 153.6,440.0 130.4,434.4" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="295.2,572.0 272.0,552.0 253.6,538.4 222.4,495.2 184.0,464.0 153.6,440.0 130.4,434.4" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Bus, Minivan oder Taxi: Songkhla – Thung Song – Khao Sok (privater Transfer)</title></polyline>
+<polyline points="130.4,434.4 144.0,432.0 152.8,430.4" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="130.4,434.4 144.0,432.0 152.8,430.4" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Bus, Minivan oder Taxi: Khao Sok – Pier Ratchaprapha</title></polyline>
+<polyline points="152.8,430.4 147.2,426.4 140.8,428.0" fill="none" stroke="#fff" stroke-width="6.0" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="152.8,430.4 147.2,426.4 140.8,428.0" fill="none" stroke="#E08A12" stroke-width="3.0" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 6"><title>Fähre oder Boot: Cheow-Lan-See (Longtail-Boot)</title></polyline>
+<polyline points="152.8,430.4 176.0,424.0 194.4,417.6 225.6,401.6" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<polyline points="152.8,430.4 176.0,424.0 194.4,417.6 225.6,401.6" fill="none" stroke="#1F9A8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><title>Bus, Minivan oder Taxi: Pier Ratchaprapha – Surat Thani – Donsak</title></polyline>
 <polyline points="225.6,401.6 232.0,396.0 238.4,389.6 242.6,385.4" fill="none" stroke="#fff" stroke-width="6.0" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
 <polyline points="225.6,401.6 232.0,396.0 238.4,389.6 242.6,385.4" fill="none" stroke="#E08A12" stroke-width="3.0" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 6"><title>Fähre oder Boot: Donsak – Koh Samui</title></polyline>
 <polyline points="242.6,385.4 244.8,387.2 249.1,387.0 248.4,384.0 248.1,382.2" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
@@ -105,6 +109,8 @@
 <text class="tl" x="264.4" y="619.0" text-anchor="end">Padang Besar</text>
 <g><title>Umstieg: Hat Yai</title><circle cx="286.0" cy="587.7" r="4.5" fill="#fff" stroke="#718096" stroke-width="2"/></g>
 <text class="tl" x="277.0" y="591.7" text-anchor="end">Hat Yai</text>
+<g><title>Umstieg: Cheow-Lan-See</title><circle cx="140.8" cy="428.0" r="4.5" fill="#fff" stroke="#718096" stroke-width="2"/></g>
+<text class="tl" x="149.8" y="432.0" text-anchor="start">Cheow-Lan-See</text>
 <g><title>1. Singapur: So, 20.06.2027 – Mi, 23.06.2027, 3 Nächte</title><circle cx="553.6" cy="1039.8" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="553.6" y="1044.0" text-anchor="middle">1</text></g>
 <text class="sl" x="570.6" y="1044.8" text-anchor="start">Singapur</text>
 <g><title>2. Pulau Tengah: Mi, 23.06.2027 – Mo, 28.06.2027, 5 Nächte</title><circle cx="575.2" cy="948.4" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="575.2" y="952.6" text-anchor="middle">2</text></g>
@@ -115,8 +121,8 @@
 <text class="sl" x="375.4" y="795.4" text-anchor="start">Cameron Highlands</text>
 <g><title>5. Songkhla: So, 04.07.2027 – Di, 06.07.2027, 2 Nächte</title><circle cx="295.2" cy="572.0" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="295.2" y="576.2" text-anchor="middle">5</text></g>
 <text class="sl" x="312.2" y="577.0" text-anchor="start">Songkhla</text>
-<g><title>6. Khanom: Di, 06.07.2027 – Do, 08.07.2027, 2 Nächte</title><circle cx="236.7" cy="409.2" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="236.7" y="413.4" text-anchor="middle">6</text></g>
-<text class="sl" x="253.7" y="414.2" text-anchor="start">Khanom</text>
+<g><title>6. Khao Sok: Di, 06.07.2027 – Do, 08.07.2027, 2 Nächte</title><circle cx="130.4" cy="434.4" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="130.4" y="438.6" text-anchor="middle">6</text></g>
+<text class="sl" x="113.4" y="439.4" text-anchor="end">Khao Sok</text>
 <g><title>7. Koh Samui: Do, 08.07.2027 – So, 11.07.2027, 3 Nächte</title><circle cx="249.1" cy="387.0" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="249.1" y="391.2" text-anchor="middle">7</text></g>
 <text class="sl" x="266.1" y="392.0" text-anchor="start">Koh Samui</text>
 <g><title>8. Koh Tao: So, 11.07.2027 – Fr, 16.07.2027, 5 Nächte</title><circle cx="234.2" cy="341.0" r="12" fill="#0F4C55" stroke="#fff" stroke-width="2.5"/><text class="nm" x="234.2" y="345.2" text-anchor="middle">8</text></g>

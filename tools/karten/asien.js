@@ -5,7 +5,7 @@ module.exports = {
   projektion: 'eq', laenge: [96.9, 105.8], breitengrad: [0.55, 14.35], breite: 712,
   laender: ['SGP', 'MYS', 'THA'],
   orte: {
-    SG: [1.3521, 103.8198], MS: [2.4330, 103.8400], TI: [2.8200, 104.1700], PB: [2.4950, 104.0900], CH: [4.4700, 101.3800], IP: [4.6000, 101.0900], CHE: [4.1300, 103.3900], KL: [3.1390, 101.6869], ML: [2.1960, 102.2480], KTH: [4.3800, 102.4000], SK: [7.2000, 100.5900], KPL: [6.4000, 100.1300], KUAH: [6.3200, 99.8500], LGK: [6.2900, 99.7300], ST: [6.5300, 100.0700], KTG: [5.3300, 103.1400],
+    SG: [1.3521, 103.8198], MS: [2.4330, 103.8400], TI: [2.8200, 104.1700], PB: [2.4950, 104.0900], CH: [4.4700, 101.3800], KS: [8.9200, 98.5300], RP: [8.9700, 98.8100], CL: [9.0000, 98.6600], IP: [4.6000, 101.0900], CHE: [4.1300, 103.3900], KL: [3.1390, 101.6869], ML: [2.1960, 102.2480], KTH: [4.3800, 102.4000], SK: [7.2000, 100.5900], KPL: [6.4000, 100.1300], KUAH: [6.3200, 99.8500], LGK: [6.2900, 99.7300], ST: [6.5300, 100.0700], KTG: [5.3300, 103.1400],
     KB: [5.8310, 102.5600], PER: [5.9100, 102.7400], GT: [5.4164, 100.3327], BW: [5.3990, 100.3638],
     AR: [6.4330, 100.2770], PBS: [6.6620, 100.3170], HY: [7.0035, 100.4750], NST: [8.4300, 99.9600],
     KH: [9.2350, 99.8590], DS: [9.3300, 99.7200], SMP: [9.5320, 99.9330], SM: [9.5120, 100.0136],
@@ -21,8 +21,10 @@ module.exports = {
     ['bus', 'Cameron Highlands – Ipoh', ['CH', [4.52, 101.25], 'IP']],
     ['train', 'Ipoh – Padang Besar – Hat Yai (ETS)', ['IP', [4.85, 100.74], [5.36, 100.46], [5.65, 100.49], [6.121, 100.368], [6.18, 100.37], 'AR', [6.55, 100.30], 'PBS', [6.72, 100.42], [6.85, 100.45], 'HY']],
     ['bus', 'Hat Yai – Songkhla (Taxi)', ['HY', 'SK']],
-    ['bus', 'Songkhla – Nakhon Si Thammarat – Khanom (privater Transfer)', ['SK', [7.45, 100.30], [7.62, 100.07], [7.90, 100.02], [8.16, 99.98], 'NST', [8.80, 99.92], [9.05, 99.88], 'KH']],
-    ['bus', 'Khanom – Donsak', ['KH', [9.29, 99.80], 'DS']],
+    ['bus', 'Songkhla – Thung Song – Khao Sok (privater Transfer)', ['SK', [7.45, 100.30], [7.62, 100.07], [8.16, 99.68], [8.55, 99.20], [8.85, 98.82], 'KS']],
+    ['bus', 'Khao Sok – Pier Ratchaprapha', ['KS', [8.95, 98.70], 'RP']],
+    ['ferry', 'Cheow-Lan-See (Longtail-Boot)', ['RP', [9.02, 98.74], 'CL']],
+    ['bus', 'Pier Ratchaprapha – Surat Thani – Donsak', ['RP', [9.05, 99.10], [9.13, 99.33], 'DS']],
     ['ferry', 'Donsak – Koh Samui', ['DS', [9.40, 99.80], [9.48, 99.88], 'SMP']],
     ['bus', 'Inselstrasse Koh Samui', ['SMP', [9.51, 99.96], 'SM', [9.55, 100.005], 'MN']],
     ['ferry', 'Koh Samui – Koh Tao (über Koh Phangan)', ['MN', [9.65, 99.97], 'TS', [9.80, 99.95], [9.95, 99.88], 'TAO']],
@@ -33,10 +35,10 @@ module.exports = {
   ],
   stationen: [
     [1, 'SG', 'r'], [2, 'PB', 'r'], [3, 'KL', 'l'], [4, 'CH', 'r'], [5, 'SK', 'r'],
-    [6, 'KH', 'r'], [7, 'SM', 'r'], [8, 'TAO', 'r'], [9, 'HH', 'r'], [10, 'BK', 'r']
+    [6, 'KS', 'l', 'Khao Sok'], [7, 'SM', 'r'], [8, 'TAO', 'r'], [9, 'HH', 'r'], [10, 'BK', 'r']
   ],
   zwischenstopps: [['Ipoh', 'IP', -16]],
-  umstiege: [['Mersing', 'MS', 'l'], ['Padang Besar', 'PBS', 'l'], ['Hat Yai', 'HY', 'l']],
+  umstiege: [['Mersing', 'MS', 'l'], ['Padang Besar', 'PBS', 'l'], ['Hat Yai', 'HY', 'l'], ['Cheow-Lan-See', 'CL', 'r']],
   beschriftungen: [
     ['Malaysia', 3.5, 103.0, 'cn'], ['Thailand', 13.2, 99.25, 'cn'], ['Indonesien', 1.2, 100.6, 'cn'],
     ['Golf von Thailand', 11.2, 101.6, 'sea'], ['Andamanensee', 7.6, 97.75, 'sea'],
