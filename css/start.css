@@ -56,6 +56,7 @@ table.cmp th, table.cmp td { padding: 12px 14px; border-bottom: 1px solid var(--
 table.cmp thead th { background: #F7FAF9; color: var(--sea); font-size: 1.05rem; }
 table.cmp thead th small, table.cmp tbody th small { display: block; font-weight: 400; color: var(--muted); font-size: .8rem; }
 table.cmp thead th:first-child, table.cmp tbody th { width: 130px; }
+table.cmp.rate thead th:first-child, table.cmp.rate tbody th { width: 240px; }  /* Bewertung: Kriterien möglichst einzeilig */
 table.cmp tbody th { color: var(--muted); font-weight: 700; background: #FBFDFC; }
 .dots { display: block; margin-bottom: 8px; font-size: 1.05rem; letter-spacing: .15em; color: var(--lagoon); }
 .dots .off { color: #CFDDDB; }
@@ -79,6 +80,7 @@ table.cmp tbody th { color: var(--muted); font-weight: 700; background: #FBFDFC;
   table.cmp { font-size: .85rem; }
   table.cmp th, table.cmp td { padding: 10px 9px; }
   table.cmp thead th:first-child, table.cmp tbody th { width: 110px; }
+  table.cmp.rate thead th:first-child, table.cmp.rate tbody th { width: 170px; }
 }
 @media (max-width: 760px) {
   .brow { grid-template-columns: 1fr; }
