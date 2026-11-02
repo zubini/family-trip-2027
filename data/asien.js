@@ -6,14 +6,14 @@ REISEN.asien = {
   titel: "Von Singapur nach Bangkok",
   menu: "Malaysia / Thailand",
   untertitel: "Fünf Wochen über Land und Wasser: Singapur, die kleine Insel Pulau Tengah mit dem Öko-Resort Batu Batu, Kuala Lumpur und die kühlen Cameron Highlands, über Ipoh mit dem Zug nach Songkhla, in den Regenwald von Khao Sok mit einer Nacht auf dem Cheow-Lan-See, dann Koh Samui, Koh Tao und Bangkok.",
-  zeitraum: "Sa, 19.06.2027 bis Fr, 23.07.2027, 2 Erwachsene und 2 Kids",
+  zeitraum: "Sa, 19.06.2027 bis Do, 22.07.2027, 2 Erwachsene und 2 Kids",
   titelbild: {
     datei: "Nang Yuan Island, Koh Tao (48109157601).jpg",
     suche: "Koh Nang Yuan|Nang Yuan Island Koh Tao",
     stichwort: "nang yuan|nangyuan",
     alt: "Koh Nang Yuan bei Koh Tao, Thailand"
   },
-  planIntro: "Abflug ab Zürich am Sa, 19.06.2027 am Abend, Rückflug ab Bangkok am Fr, 23.07.2027 um die Mittagszeit (Ankunft in Zürich am Abend). Ein Klick auf eine Station springt zur Beschreibung.",
+  planIntro: "Abflug ab Zürich am Sa, 19.06.2027 am Abend, Rückflug ab Bangkok am Do, 22.07.2027 um die Mittagszeit (Ankunft in Zürich am Abend). Ein Klick auf eine Station springt zur Beschreibung.",
   hinflug: {
     datum: "19.–20. Juni",
     name: "Flug Zürich–Singapur",
@@ -70,10 +70,10 @@ REISEN.asien = {
       naechte: 2,
       info: "Katamaran nach Chumphon (ca. 1,5–2 Std.), Zug nach Hua Hin (ca. 3,5–4 Std.); insgesamt ca. 7–8 Std."
     },
-    {datum: "19.–23. Juli", name: "10. Bangkok", naechte: 4, info: "Zug (ca. 3,5–4 Std.); Rückflug 23. Juli"}
+    {datum: "19.–22. Juli", name: "10. Bangkok", naechte: 3, info: "Zug (ca. 3,5–4 Std.); Rückflug 22. Juli"}
   ],
   rueckflug: {
-    datum: "23. Juli",
+    datum: "22. Juli",
     name: "Flug Bangkok–Zürich",
     info: "Rückflug um die Mittagszeit, Direktflug ca. 11,5–12 Std., Ankunft in Zürich am Abend"
   },
@@ -92,7 +92,7 @@ REISEN.asien = {
     ],
     [
       "Flug ab und nach Zürich",
-      "Hinflug: Direktflug Zürich–Singapur ca. 12–13 Std. (Zeitverschiebung +6 Std.). Abflug am Sa, 19.06.2027 um ca. 22.40 Uhr, Ankunft am So, 20.06.2027 am späten Nachmittag. Rückflug: Direktflug Bangkok–Zürich ca. 11,5–12 Std. (Zeitverschiebung −5 Std.) am Fr, 23.07.2027 um die Mittagszeit (Ankunft in Zürich am Abend). Mit Umstieg dauert die Reise meist 15–18 Std. Direktflüge und Flugzeiten bei der Buchung prüfen."
+      "Hinflug: Direktflug Zürich–Singapur ca. 12–13 Std. (Zeitverschiebung +6 Std.). Abflug am Sa, 19.06.2027 um ca. 22.40 Uhr, Ankunft am So, 20.06.2027 am späten Nachmittag. Rückflug: Direktflug Bangkok–Zürich ca. 11,5–12 Std. (Zeitverschiebung −5 Std.) am Do, 22.07.2027 um die Mittagszeit (Ankunft in Zürich am Abend). Mit Umstieg dauert die Reise meist 15–18 Std. Direktflüge und Flugzeiten bei der Buchung prüfen."
     ]
   ],
   karte: {
@@ -387,13 +387,13 @@ REISEN.asien = {
       name: "Bangkok",
       land: "th",
       region: "Thailand",
-      datum: "19.–23. Juli",
-      naechte: "4 Nächte, Rückflug 23. Juli",
+      datum: "19.–22. Juli",
+      naechte: "3 Nächte, Rückflug 22. Juli",
       anreise: "Zug von Hua Hin nach Bangkok (ca. 3,5–4 Std.), Ankunft je nach Zug am Bahnhof Krung Thep Aphiwat oder Hua Lamphong; weiter mit MRT oder Taxi. Minivans sind etwas schneller (ca. 3 Std.).",
       text: "Vielfältiges Finale: Tempel, Flussfahrten, Aquarium und Nachtmärkte. Zwei Nächte reichen für die wichtigsten Höhepunkte der Stadt.",
       teens: "SEA LIFE Bangkok Ocean World (Siam Paragon), Safari World (nur bei genug Zeit), Khlong-Bootsfahrt, Tempelbesichtigung in Ayutthaya.",
       fakten: [
-        "<strong>Dauer:</strong> 4 Nächte. Ein voller Tag für Grand Palace, Wat Pho und Wat Arun, ein Tag Ayutthaya (Tempelruinen, ca. 1,5 Std. mit Zug oder Minivan), ein Tag Safari World oder SEA LIFE und Märkte. Der Rückflug geht um die Mittagszeit: am Abreisetag früh zum Flughafen.",
+        "<strong>Dauer:</strong> 3 Nächte. Ein voller Tag für Grand Palace, Wat Pho und Wat Arun, ein Tag Ayutthaya (Tempelruinen, ca. 1,5 Std. mit Zug oder Minivan) oder Safari World. Der Rückflug geht um die Mittagszeit: am Abreisetag früh zum Flughafen.",
         "<strong>Dresscode:</strong> Grand Palace und Wat Pho verlangen bedeckte Schultern und lange Hosen/Röcke, auch für die Teenager.",
         "<strong>Juli:</strong> Regenzeit, nachmittags kurze Schauer. Indoor-Alternativen (Aquarium, Museen, Malls) einplanen.",
         "<strong>Mitmachen:</strong> Muay-Thai-Schnupperkurs, Tuk-Tuk-Food-Tour am Abend, Escape Rooms in den Einkaufszentren."
@@ -421,13 +421,13 @@ REISEN.asien = {
       ]
     }
   ],
-  abschluss: "Rückflug ab Bangkok nach Zürich am Fr, 23.07.2027 um die Mittagszeit (Direktflug ca. 11,5–12 Std.), Ankunft in Zürich am Abend und mit der Bahn nach Brig-Glis. Bis zum Ferienende bleibt ein Tag gegen den Jetlag (Rückflug nach Westen, der Jetlag ist meist milder).",
+  abschluss: "Rückflug ab Bangkok nach Zürich am Do, 22.07.2027 um die Mittagszeit (Direktflug ca. 11,5–12 Std.), Ankunft in Zürich am Abend und mit der Bahn nach Brig-Glis. Bis zum Ferienende bleiben zwei Tage gegen den Jetlag.",
   budgetIntro: "Mittelklasse inklusive Flüge, Transport, Unterkunft, Verpflegung und Aktivitäten. Alle Beträge sind Schätzungen in CHF.",
   budget: {
-    naechte: 33,
-    total: "19’500",
-    spanne: "16’000–24’500",
-    proTag: "ca. 590 CHF pro Tag, ca. 4’900 pro Person",
+    naechte: 32,
+    total: "19’000",
+    spanne: "16’000–24’000",
+    proTag: "ca. 590 CHF pro Tag, ca. 4’750 pro Person",
     posten: [
       [
         "Flüge Zürich–Singapur und Bangkok–Zürich",
@@ -444,14 +444,14 @@ REISEN.asien = {
       ["Lokale Transfers", "400–800", "550", "Grab, MRT/Skytrain, Wassertaxis, Songthaew"],
       [
         "Unterkunft (Familienzimmer oder 2 Zimmer, 3–4 Sterne)",
-        "4’350–6’800",
-        "5’300",
+        "4’450–6’550",
+        "4’900",
         "Pulau Tengah (Batu Batu, mit Essen) grob ca. 450–750 CHF pro Nacht, sonst ca. 50–140 CHF pro Nacht, Singapur ca. 250–300; auf den Inseln im Juli gefragt, früh buchen"
       ],
       [
         "Verpflegung (Hawker, Restaurants, Getränke)",
-        "2’350–3’700",
-        "3’000",
+        "2’250–3’550",
+        "2’900",
         "ca. 75–120 CHF pro Tag für 4 Personen, Singapur am teuersten"
       ],
       [
@@ -466,12 +466,12 @@ REISEN.asien = {
         "900",
         "Reisekranken- und Annullationsschutz, Reiseapotheke"
       ],
-      ["Reserve (ca. 5 %)", "500–1’100", "600", "Souvenirs, Wäsche, Unvorhergesehenes"],
+      ["Reserve (ca. 5 %)", "500–1’000", "600", "Souvenirs, Wäsche, Unvorhergesehenes"],
       [
         "<strong>Total</strong>",
-        "<strong>16’000–24’500</strong>",
-        "<strong>ca. 19’500</strong>",
-        "ca. 590 CHF pro Tag, ca. 4’900 pro Person"
+        "<strong>16’000–24’000</strong>",
+        "<strong>ca. 19’000</strong>",
+        "ca. 590 CHF pro Tag, ca. 4’750 pro Person"
       ]
     ],
     stationen: [
@@ -485,7 +485,7 @@ REISEN.asien = {
       ["7. Koh Samui (3)", "750–1’190"],
       ["8. Koh Tao (5)", "1’000–1’620"],
       ["9. Hua Hin / Khao Sam Roi Yot (2)", "430–670"],
-      ["10. Bangkok (4)", "970–1’630"]
+      ["10. Bangkok (3)", "730–1’220"]
     ],
     hinweise: [
       "<strong>Preise für die Kids:</strong> Der Sohn (12) zahlt bei Eintritten oft noch den Kinderpreis (teils nur bis 11), die Tochter (14) meist den Vollpreis.",
@@ -533,7 +533,7 @@ REISEN.asien = {
     ],
     [
       "Einreise (Schweizer Pass)",
-      "Singapur und Malaysia sind für Touristen visafrei. Thailand hat seit 15. September 2026 die visafreie Aufenthaltsdauer auf 30 Tage verkürzt (vorher 60) und visafreie Einreisen über Landgrenzen auf zwei pro Kalenderjahr begrenzt. Auf dieser Route seid ihr ca. 19 Tage in Thailand und reist einmal über Land ein (im Bahnhof Padang Besar); ob die Schweiz auf der Liste der visabefreiten Länder steht, beim Thai-Konsulat oder EDA prüfen. Online-Anmeldungen: SG Arrival Card (Singapur), MDAC (Malaysia), TDAC (Thailand). Reisepass mind. 6 Monate gültig."
+      "Singapur und Malaysia sind für Touristen visafrei. Thailand hat seit 15. September 2026 die visafreie Aufenthaltsdauer auf 30 Tage verkürzt (vorher 60) und visafreie Einreisen über Landgrenzen auf zwei pro Kalenderjahr begrenzt. Auf dieser Route seid ihr ca. 18 Tage in Thailand und reist einmal über Land ein (im Bahnhof Padang Besar); ob die Schweiz auf der Liste der visabefreiten Länder steht, beim Thai-Konsulat oder EDA prüfen. Online-Anmeldungen: SG Arrival Card (Singapur), MDAC (Malaysia), TDAC (Thailand). Reisepass mind. 6 Monate gültig."
     ],
     [
       "Versicherung",
