@@ -39,22 +39,22 @@ REISEN.asien = {
       info: "Speedboot nach Mersing, Taxi nach Kluang (ca. 1,5 Std.), ETS-Zug (ca. 3,5 Std.); insgesamt ca. 6–7 Std."
     },
     {
-      datum: "30. Juni–2. Juli",
+      datum: "30. Juni–3. Juli",
       name: "4. Cameron Highlands",
-      naechte: 2,
+      naechte: 3,
       info: "Privater Transfer (ca. 3,5 Std.) oder Fernbus (ca. 4 Std.)"
     },
-    {datum: "2.–3. Juli", name: "Zwischenübernachtung Ipoh", naechte: 1, info: "Privater Transfer (ca. 1,5–2 Std.)"},
+    {datum: "3.–4. Juli", name: "Zwischenübernachtung Ipoh", naechte: 1, info: "Privater Transfer (ca. 1,5–2 Std.)"},
     {
-      datum: "3.–5. Juli",
+      datum: "4.–6. Juli",
       name: "5. Songkhla (Thailand)",
       naechte: 2,
       info: "ETS-Zug ab Ipoh nach Padang Besar (ca. 3–3,5 Std.), Grenze, Zug nach Hat Yai (ca. 45 Min.), Taxi (ca. 45 Min.); insgesamt ca. 5,5–6,5 Std."
     },
     {
-      datum: "5.–8. Juli",
+      datum: "6.–8. Juli",
       name: "6. Khanom",
-      naechte: 3,
+      naechte: 2,
       info: "Privater Transfer (ca. 3,5 Std.) oder Zug ab Hat Yai mit Taxi (ca. 5,5–6,5 Std.)"
     },
     {datum: "8.–11. Juli", name: "7. Koh Samui", naechte: 3, info: "Minivan zum Donsak Pier, Autofähre (ca. 2,5 Std.)"},
@@ -108,11 +108,11 @@ REISEN.asien = {
     ],
     [
       "Natur und Tiere",
-      "Mandai Wildlife Reserve, Hausriff und Schildkröten auf Pulau Tengah, Teeplantagen und Nebelwald in den Cameron Highlands, Batu Caves, Wasservogelpark Khu Khut bei Songkhla, rosa Delfine und Wasserfälle in Khanom, Ang Thong Marine Park, Schnorcheln auf Samui und vor allem Koh Tao (Koh Nang Yuan, Shark Bay)."
+      "Mandai Wildlife Reserve, Hausriff und Schildkröten auf Pulau Tengah, Teeplantagen, Nebelwald und geführte Dschungeltour (Rafflesia) in den Cameron Highlands, Batu Caves, Wasservogelpark Khu Khut bei Songkhla, rosa Delfine und Wasserfälle in Khanom, Ang Thong Marine Park, Schnorcheln auf Samui und vor allem Koh Tao (Koh Nang Yuan, Shark Bay)."
     ],
     [
       "Strand und Erholung",
-      "Pulau Tengah (5 Nächte), Songkhla (2), Khanom (3), Koh Samui (3), Koh Tao (5), Hua Hin. Nach zwei aktiven Tagen jeweils einen ruhigen Tag einplanen."
+      "Pulau Tengah (5 Nächte), Songkhla (2), Khanom (2), Koh Samui (3), Koh Tao (5), Hua Hin. Nach zwei aktiven Tagen jeweils einen ruhigen Tag einplanen."
     ],
     ["Mitmachen", "Muay-Thai-Schnupperkurs, Kajak/SUP, Street-Food- und Tuk-Tuk-Touren."]
   ],
@@ -220,15 +220,15 @@ REISEN.asien = {
       name: "Cameron Highlands",
       land: "my",
       region: "Malaysia",
-      datum: "30. Juni–2. Juli",
-      naechte: "2 Nächte",
+      datum: "30. Juni–3. Juli",
+      naechte: "3 Nächte",
       anreise: "Mit privatem Transfer (ca. 3,5 Std.) oder Fernbus ab dem Busbahnhof Terminal Bersepadu Selatan (ca. 4 Std.) von Kuala Lumpur nach Tanah Rata in den Cameron Highlands. Die letzte Stunde führt über eine kurvige Bergstrasse: Mittel gegen Reiseübelkeit mitnehmen.",
       text: "Bergland auf rund 1’500 m mit grünen Teeplantagen, Nebelwald, Erdbeerfarmen und kleinen Orten im Kolonialstil. Mit ca. 18–25 °C am Tag und kühlen Nächten eine angenehme Pause von der Hitze, mitten im Regenwald des Landesinneren.",
-      teens: "Teeplantage BOH Sungei Palas mit Aussicht über die Hänge, Holzstege durch den moosbewachsenen Nebelwald (Mossy Forest) am Gunung Brinchang, Erdbeeren selber pflücken, Schmetterlings- und Insektengarten, geführte Dschungelwanderung, Teehaus mit Scones.",
+      teens: "Teeplantage BOH Sungei Palas mit Aussicht über die Hänge, Holzstege durch den moosbewachsenen Nebelwald (Mossy Forest) am Gunung Brinchang, geführte Dschungeltour zur Riesenblume Rafflesia mit Besuch in einem Orang-Asli-Dorf (Blasrohr-Vorführung) oder geführte Bergwanderung, Erdbeeren selber pflücken, Schmetterlings- und Insektengarten, Teehaus mit Scones.",
       fakten: [
-        "<strong>Dauer:</strong> 2 Nächte: Ankunft am Nachmittag, ein voller Tag mit Teeplantage, Mossy Forest und Erdbeerfarm (am besten mit geführter Halbtagestour im Landrover), am Abend Nachtmarkt in Brinchang (am Wochenende).",
+        "<strong>Dauer:</strong> 3 Nächte: Ankunft am Nachmittag, ein Tag Teeplantage und Mossy Forest (Halbtagestour im Landrover) mit Erdbeerfarm, ein Tag geführte Dschungeltour (Rafflesia und Orang-Asli-Dorf oder Bergwanderung, z.B. Gunung Jasar), am Abend Nachtmarkt in Brinchang (am Wochenende).",
         "<strong>Wetter:</strong> Am Tag ca. 18–25 °C, in der Nacht ca. 14–16 °C: Pullover und Regenjacke mitnehmen; im Juli meist am Nachmittag Schauer, am Morgen oft klar.",
-        "<strong>Wandern:</strong> Einzelne Dschungelpfade sind zeitweise geschlossen oder schlecht markiert; nur mit Führer oder nach Auskunft vor Ort gehen."
+        "<strong>Dschungel:</strong> Geführte Touren buchen Anbieter in Tanah Rata, grob ca. 100–200 MYR pro Person für einen halben Tag (Richtwert, aktuelle Preise vor Ort). Ob eine Rafflesia gerade blüht, ist Glückssache; die Führer wissen es meist einige Tage vorher. Viele der früher nummerierten Wanderwege sind zeitweise geschlossen oder schlecht markiert, es gab Unfälle mit verirrten Wanderern: nur mit Führer gehen. Gute Schuhe, Regenjacke und Blutegel-Socken mitnehmen."
       ],
       ausserdem: "Kellie's Castle (Ruine, auf dem Weg nach Ipoh), Lata-Iskandar-Wasserfall an der Bergstrasse, Kaktus- und Rosengärten, Time Tunnel Museum.",
       bilder: [
@@ -246,7 +246,7 @@ REISEN.asien = {
       name: "Songkhla",
       land: "th",
       region: "Thailand",
-      datum: "3.–5. Juli",
+      datum: "4.–6. Juli",
       naechte: "2 Nächte",
       anreise: "Privater Transfer von den Cameron Highlands hinunter nach Ipoh (ca. 1,5–2 Std.), Übernachtung in Ipoh: Altstadt mit Wandmalereien und Kolonialbauten, buddhistische Höhlentempel in den Kalkfelsen (Kek Lok Tong, Sam Poh Tong) und am Abend das berühmte Essen (Ipoh White Coffee, Hühnchen mit Sojasprossen). Am Morgen ETS-Zug ab Ipoh nach Padang Besar (ca. 3–3,5 Std., früh bei KTMB reservieren), Aus- und Einreise im Bahnhof, Pendelzug nach Hat Yai (ca. 45 Min., nur wenige Züge pro Tag; sonst Taxi ca. 1 Std.), dann Taxi oder Grab nach Songkhla (ca. 45 Min.); insgesamt ca. 5,5–6,5 Std. Dieser Weg meidet die Grenzprovinzen Narathiwat, Yala und Pattani und die südlichen Distrikte von Songkhla, von deren Besuch abgeraten wird; Songkhla-Stadt und Hat Yai gehören nicht dazu.",
       text: "Ruhige Hafenstadt am Golf von Thailand zwischen Meer und Songkhla-See, kaum Touristen aus dem Westen: eine Altstadt mit chinesisch-portugiesischen Häusern und Wandmalereien, der Stadtstrand Samila und die Insel Koh Yo im See. Zwei Nächte zum Ausruhen nach drei Reisetagen, am ruhigeren Golf statt im Monsun der Westküste.",
@@ -265,20 +265,20 @@ REISEN.asien = {
         {titel: "Songkhla-See", suche: "Songkhla Lake|Thale Sap Songkhla", stichwort: "songkhla"},
         {titel: "Wat Matchimawat", suche: "Wat Matchimawat Songkhla", stichwort: "matchimawat"}
       ],
-      zwischenstopp: {text: "Zwischenstopp in Ipoh", datum: "2.–3. Juli"}
+      zwischenstopp: {text: "Zwischenstopp in Ipoh", datum: "3.–4. Juli"}
     },
     {
       nr: 6,
       name: "Khanom",
       land: "th",
       region: "Thailand",
-      datum: "5.–8. Juli",
-      naechte: "3 Nächte",
+      datum: "6.–8. Juli",
+      naechte: "2 Nächte",
       anreise: "Mit privatem Transfer von Songkhla über Nakhon Si Thammarat nach Khanom (ca. 3,5 Std.). Alternative mit dem Zug: Taxi zum Bahnhof Hat Yai (ca. 45 Min.), Zug nach Nakhon Si Thammarat (ca. 2,75–3 Std.; nur wenige Züge pro Tag) und Taxi nach Khanom (ca. 1,5 Std.), mit Wartezeit insgesamt ca. 5,5–6,5 Std.",
       text: "Ruhiger Küstenort am Golf von Thailand mit einsamen Stränden, Wasserfällen und rosa Delfinen. Ein entspannter Halt am Meer vor den Inseln.",
       teens: "Delfin-Bootstour ab Pak Nam (Sichtung nicht garantiert), Hin Lat Wasserfälle, Strandtage, Schnorcheln und Kajak.",
       fakten: [
-        "<strong>Dauer:</strong> 3 Nächte: am Morgen Delfin-Tour, ein Tag Wasserfälle Hin Lat und Strand, dazwischen Pool. Unterkunft mit Pool vorab buchen, das Angebot ist klein.",
+        "<strong>Dauer:</strong> 2 Nächte: Ankunft am Nachmittag, am nächsten Morgen Delfin-Tour, danach Wasserfälle Hin Lat oder Strand und Pool. Unterkunft mit Pool vorab buchen, das Angebot ist klein.",
         "<strong>Praktisch:</strong> Kaum Touristen; Taxi oder Songthaew für Ausflüge organisieren, keine Roller."
       ],
       ausserdem: "Hat Nai Plao, Hat Na Dan, Kokosnuss-Plantagen, lokale Meeresfrüchte-Lokale; bei genug Zeit Nakhon Si Thammarat mit Wat Phra Mahathat.",
@@ -458,7 +458,7 @@ REISEN.asien = {
         "Aktivitäten und Eintritte",
         "2’200–3’400",
         "2’700",
-        "Universal und Sentosa, Mandai, Schnorcheltouren, Marine-Park-Gebühren, Petronas-Skybridge, Sunway Lagoon, Tour mit Teeplantage und Mossy Forest in den Cameron Highlands, Delfin-Tour in Khanom, Ang Thong, Wasserpark Hua Hin, Safari World usw."
+        "Universal und Sentosa, Mandai, Schnorcheltouren, Marine-Park-Gebühren, Petronas-Skybridge, Sunway Lagoon, Touren mit Teeplantage, Mossy Forest und Dschungel (Rafflesia) in den Cameron Highlands, Delfin-Tour in Khanom, Ang Thong, Wasserpark Hua Hin, Safari World usw."
       ],
       [
         "Versicherung, eSIM, Medikamente, Impfungen",
@@ -478,10 +478,10 @@ REISEN.asien = {
       ["1. Singapur (3)", "1’320–1’950"],
       ["2. Pulau Tengah (5)", "2’300–3’800"],
       ["3. Kuala Lumpur (2)", "370–610"],
-      ["4. Cameron Highlands (2)", "400–650"],
+      ["4. Cameron Highlands (3)", "600–980"],
       ["Zwischenübernachtung Ipoh (1)", "130–220"],
       ["5. Songkhla (2)", "330–560"],
-      ["6. Khanom (3)", "570–960"],
+      ["6. Khanom (2)", "380–640"],
       ["7. Koh Samui (3)", "750–1’190"],
       ["8. Koh Tao (5)", "1’000–1’620"],
       ["9. Hua Hin / Khao Sam Roi Yot (2)", "430–670"],

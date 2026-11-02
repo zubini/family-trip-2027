@@ -162,7 +162,7 @@ window.START = {
       wetter: "Kuala Lumpur und Bangkok mit kurzen Gewittern am Nachmittag, die Cameron Highlands angenehm kühl (ca. 18–25 °C); die Ostküste Malaysias (Pulau Tengah) und der Golf von Thailand (Songkhla, Khanom, Samui, Tao) sind meist ruhiger; die Westküste mit Monsun wird umfahren.",
       einreise: "Singapur und Malaysia visafrei. Thailand: seit 15.09.2026 nur noch 30 Tage visafrei und höchstens zwei Landgrenz-Einreisen pro Jahr, Länderliste prüfen. Online-Anmeldungen (SG Arrival Card, MDAC, TDAC).",
       hoehepunkte: "Hausriff und Schildkröten auf Pulau Tengah, Schnorcheln auf Samui und Koh Tao (Koh Nang Yuan), Petronas Towers und Batu Caves in Kuala Lumpur, Teeplantagen und Nebelwald in den Cameron Highlands, Höhlentempel in Ipoh, Altstadt und Strand von Songkhla, Delfine bei Khanom, Ang Thong, Grand Palace und Wat Arun in Bangkok.",
-      teens: "Schnorcheln, Schildkröten, Kajak, Inselhopping, Delfin-Tour, Teeplantage und Mossy Forest, Erdbeeren pflücken, Wasserparks, Sentosa mit Universal Studios.",
+      teens: "Schnorcheln, Schildkröten, Kajak, Inselhopping, Delfin-Tour, Teeplantage, Mossy Forest und Dschungeltour, Erdbeeren pflücken, Wasserparks, Sentosa mit Universal Studios.",
       pro: [
         "Die meisten Schnorchel- und Strandtage",
         "Warmes Meer (ca. 29 °C) mit Riffen und Schildkröten",
@@ -202,7 +202,7 @@ window.START = {
       usanordost: [1, "Kein Regenwald; grosse Laub- und Nadelwälder in Shenandoah, Algonquin und den White Mountains."],
       asien: [
         5,
-        "Im Vergleich klar am meisten Dschungel: tropischer Inselwald auf Pulau Tengah (Villen im Wald, Waldpfade), Nebelwald (Mossy Forest) und Regenwald in den Cameron Highlands, Wasserfälle bei Khanom und im grünen Inneren von Koh Samui (Na Muang), Dschungelpfade auf Koh Tao; ein grosser Regenwald-Nationalpark ist allerdings nicht auf der Route."
+        "Im Vergleich klar am meisten Dschungel: tropischer Inselwald auf Pulau Tengah (Villen im Wald, Waldpfade), Nebelwald (Mossy Forest) und Regenwald mit geführter Dschungeltour in den Cameron Highlands, Wasserfälle bei Khanom und im grünen Inneren von Koh Samui (Na Muang), Dschungelpfade auf Koh Tao; ein grosser Regenwald-Nationalpark ist allerdings nicht auf der Route."
       ],
     },
     {
@@ -227,7 +227,7 @@ window.START = {
       usanordost: [1, "Strand am Eriesee bei Cedar Point, Stadtstrände am Michigansee, Baden in Seen und Flüssen in Algonquin und den White Mountains; kein Meer zum Baden."],
       asien: [
         5,
-        "Pulau Tengah, Songkhla, Khanom, Koh Samui, Koh Tao und Hua Hin: tropische Strände mit ca. 29 °C warmem Wasser, zusammen 23 Nächte am Meer."
+        "Pulau Tengah, Songkhla, Khanom, Koh Samui, Koh Tao und Hua Hin: tropische Strände mit ca. 29 °C warmem Wasser, zusammen 19 Nächte am Meer."
       ],
     },
     {
